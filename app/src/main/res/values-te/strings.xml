@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">సెట్టింగ్‌లు</string>
+    <string name="talkback_required_title">టాక్‌బ్యాక్ అవసరం</string>
+    <string name="talkback_required_message">ఈ యాప్ టాక్‌బ్యాక్‌తో పనిచేయడానికి రూపొందించబడింది, మరియు యాప్ సరిగ్గా పనిచేయడానికి టాక్‌బ్యాక్ ఆన్‌లో ఉండాలి. మీ ప్రాంతం కోసం మ్యాప్‌ను డౌన్‌లోడ్ చేసిన తర్వాత, మీ చుట్టుపక్కల వీధులు మరియు స్థలాలను అన్వేషించడానికి స్క్రీన్‌పై మీ వేలిని తాకి కదిలించండి.</string>
+    <string name="talkback_required_open_settings">యాక్సెసిబిలిటీ సెట్టింగ్‌లను తెరవండి</string>
+
+    <string name="menu_gallery">గ్యాలరీ</string>
+    <string name="title_activity_settings">సెట్టింగ్‌లు</string>
+    <string name="please_click_back_again_to_exit">నిష్క్రమించడానికి దయచేసి మళ్లీ BACK నొక్కండి</string>
+    <string name="language_title">మీకు నచ్చిన భాష</string>
+    <string name="general_header">సాధారణ సెట్టింగ్‌లు</string>
+    <string name="settings_announcement_header">ప్రకటనలు</string>
+    <string name="cancel_aiming">%1$s వైపు గురిపెట్టడం రద్దు చేయండి</string>
+    <string name="aiming_started">%1$s వైపు గురిపెడుతోంది. రద్దు చేయడానికి ఇక్కడ క్లిక్ చేయండి.</string>
+    <string name="cancel_search">%1$s ద్వారా ఫిల్టర్ చేయడం రద్దు చేయండి</string>
+    <string name="search_on_map_started">%1$s కి సరిపోలే పాయింట్లు మాత్రమే చూపబడుతున్నాయి. రద్దు చేయడానికి ఇక్కడ క్లిక్ చేయండి.</string>
+    <string name="search_canceled">కీవర్డ్ ఫిల్టర్ రద్దు చేయబడింది</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">మ్యాప్ మూలకాలను ఫిల్టర్ చేయండి</string>
+    <string name="filter_keyword_label">కీవర్డ్ (అన్నింటి కోసం ఖాళీగా ఉంచండి)</string>
+    <string name="filter_categories_label">వర్గాలు</string>
+    <string name="filter_show_selected">ఎంచుకున్నవి చూపించు</string>
+    <string name="filter_show_favorites">ఇష్టమైనవి చూపించు</string>
+    <string name="filter_show_all">అన్నీ చూపించు</string>
+    <string name="startup_download_prompt_title">ఇక్కడ మ్యాప్ డౌన్‌లోడ్ చేయబడలేదు</string>
+    <string name="startup_download_prompt_message">మీ ప్రస్తుత స్థానం కోసం ఇంకా మ్యాప్ డౌన్‌లోడ్ చేయబడలేదు. మీ పరిసరాలను అన్వేషించడానికి ఇప్పుడే డౌన్‌లోడ్ చేయండి.</string>
+    <string name="startup_download_prompt_download">మ్యాప్ డౌన్‌లోడ్ చేయండి</string>
+    <string name="aiming_canceled">గురిపెట్టడం రద్దు చేయబడింది</string>
+    <string name="settings_sound_header">శబ్దం మరియు వైబ్రేషన్</string>
+    <string name="map_data_header">మ్యాప్ డేటా</string>
+    <string name="delete_all_maps_title">డౌన్‌లోడ్ చేసిన అన్ని మ్యాప్‌లను తొలగించండి</string>
+    <string name="delete_all_maps_summary">ఈ పరికరం నుండి డౌన్‌లోడ్ చేసిన అన్ని మ్యాప్ డేటాను తీసివేస్తుంది. మాన్యువల్‌గా జోడించిన పాయింట్లు ఉంచబడతాయి.</string>
+    <string name="delete_all_maps_confirm_title">డౌన్‌లోడ్ చేసిన అన్ని మ్యాప్‌లను తొలగించాలా?</string>
+    <string name="delete_all_maps_confirm_message">ఇది ఈ పరికరం నుండి డౌన్‌లోడ్ చేసిన ప్రతి మ్యాప్ ప్రాంతాన్ని తీసివేస్తుంది. ఆఫ్‌లైన్‌లో ఉపయోగించడానికి మీరు దాన్ని మళ్లీ డౌన్‌లోడ్ చేయాల్సి ఉంటుంది. మాన్యువల్‌గా జోడించిన పాయింట్లపై ప్రభావం ఉండదు.</string>
+    <string name="delete_all_maps_confirm_yes">తొలగించండి</string>
+    <string name="delete_all_maps_confirm_no">రద్దు చేయండి</string>
+    <string name="delete_all_maps_done">డౌన్‌లోడ్ చేసిన అన్ని మ్యాప్‌లు తొలగించబడ్డాయి.</string>
+    <string name="info_button_text">ఖచ్చితత్వం: %1$d మీ, వేగం: %2$.1f కిమీ/గం</string>
+    <string name="keep_screen_on_title">స్క్రీన్‌ను ఆన్‌లో ఉంచండి</string>
+    <string name="keep_screen_on_summary_on">యాప్ తెరిచి ఉన్నప్పుడు స్క్రీన్ లాక్ కాదు</string>
+    <string name="keep_screen_on_summary_off">సిస్టమ్ సెట్టింగ్‌ల ఆధారంగా స్క్రీన్ లాక్ అవుతుంది</string>
+
+    <string name="content_description_filters">ఫిల్టర్‌లు</string>
+    <string name="content_description_search">వెతకండి</string>
+    <string name="content_description_list_nodes">సమీప పాయింట్ల జాబితా</string>
+    <string name="nearby_nodes_loading_title">సమీప పాయింట్లు లోడ్ అవుతున్నాయి…</string>
+    <string name="list_button_text">జాబితా</string>
+    <string name="content_description_add_point">కొత్త పాయింట్‌ను జోడించండి</string>
+    <string name="content_description_info">సమాచారం</string>
+    <string name="content_description_action">చర్య</string>
+    <string name="content_description_explore_map">అన్వేషించండి</string>
+    <string name="content_description_zoom_in">జూమ్ ఇన్</string>
+    <string name="content_description_zoom_out">జూమ్ అవుట్</string>
+    <string name="content_description_recenter">మీ స్థానానికి తిరిగి కేంద్రీకరించండి</string>
+    <string name="content_description_map_lock">నార్త్ లాక్‌కు మారండి</string>
+    <string name="content_description_more">మరిన్ని</string>
+    <string name="category_button_text">వర్గం</string>
+    <string name="keyword_button_text">కీవర్డ్</string>
+    <string name="refresh_button_text">రిఫ్రెష్ చేయండి</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">వెతకండి</string>
+    <string name="hint_type_or_speak">టైప్ చేయండి లేదా మాట్లాడండి</string>
+    <string name="content_description_mic">మైక్</string>
+
+    <string name="tooltip_node_name">సెంట్రల్ పార్క్</string>
+    <string name="tooltip_node_category">విశ్రాంతి</string>
+    <string name="tooltip_node_distance">150మీ దూరంలో</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f మీటర్ల దూరంలో</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f కిలోమీటర్ల దూరంలో</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d మీటర్లు, %3$d గంట దిశలో</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d మీటర్లు</string>
+    <string name="announce_aiming_distance_and_clock">%1$d మీటర్లు, %2$d గంట దిశలో</string>
+    <string name="announce_aiming_clock_only">%1$d గంట దిశలో</string>
+    <string name="announce_user_location">మీరు</string>
+    <string name="hint_address_input">చిరునామా</string>
+    <string name="content_description_speak_address">మైక్రోఫోన్</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">మ్యాప్ డౌన్‌లోడ్ చేయండి</string>
+    <string name="download_button">మ్యాప్ డౌన్‌లోడ్ చేయండి</string>
+    <string name="download_cancel_button">డౌన్‌లోడ్ రద్దు చేయండి</string>
+    <string name="download_cancel_confirm_title">డౌన్‌లోడ్ రద్దు చేయాలా?</string>
+    <string name="download_cancel_confirm_message">మ్యాప్ దిగుమతి ఇంకా జరుగుతోంది. దీన్ని రద్దు చేయాలనుకుంటున్నారా?</string>
+    <string name="download_cancel_confirm_yes">అవును, రద్దు చేయండి</string>
+    <string name="download_cancel_confirm_no">లేదు, డౌన్‌లోడ్ కొనసాగించండి</string>
+    <string name="download_close_button">మూసివేయండి</string>
+    <string name="download_in_progress_title">ఒక మ్యాప్ దిగుమతి ఇప్పటికే జరుగుతోంది.</string>
+    <string name="download_size_label">డౌన్‌లోడ్ పరిమాణం: %1$s</string>
+    <string name="download_size_label_multi">డౌన్‌లోడ్ పరిమాణం: %1$d ఫైళ్లు, మొత్తం %2$s</string>
+    <string name="download_size_unknown">డౌన్‌లోడ్ పరిమాణం: తెలియదు</string>
+    <string name="download_already_downloaded_prefix">ఇప్పటికే డౌన్‌లోడ్ చేయబడింది.</string>
+    <string name="download_larger_map_checkbox">పెద్ద మ్యాప్</string>
+    <string name="download_larger_map_hint">పక్క ప్రాంతాలను కూడా డౌన్‌లోడ్ చేస్తుంది (మరిన్ని ఫైళ్లు ఉండవచ్చు).</string>
+    <string name="download_looking_up">ఈ ప్రాంతం కోసం మ్యాప్ డేటాను వెతుకుతోంది…</string>
+    <string name="download_no_data_here">ఈ ప్రాంతానికి వివరణాత్మక మ్యాప్ డేటా అందుబాటులో లేదు.</string>
+    <string name="download_area_default_name">ఈ ప్రాంతం</string>
+    <string name="download_complete">దిగుమతి పూర్తయింది: %1$d అంశాలు జోడించబడ్డాయి.</string>
+    <string name="download_failed">దిగుమతి విఫలమైంది: %1$s</string>
+    <string name="menu_download_map">మ్యాప్ డౌన్‌లోడ్ చేయండి</string>
+    <string name="import_notif_title">మ్యాప్‌ను దిగుమతి చేస్తోంది</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">ప్రారంభమవుతోంది</string>
+    <string name="import_cancelled">దిగుమతి రద్దు చేయబడింది.</string>
+    <string name="import_notif_starting">%1$s దిగుమతి ప్రారంభమవుతోంది…</string>
+    <string name="no_map_here_message">ఇక్కడ వివరణాత్మక మ్యాప్ లేదు — డౌన్‌లోడ్ చేయడానికి డబుల్ ట్యాప్ చేయండి.</string>
+    <string name="map_load_failed_message">ఇక్కడ మ్యాప్‌ను లోడ్ చేయలేకపోయాం — జూమ్ అవుట్ చేయండి లేదా దూరంగా వెళ్లి తిరిగి రండి.</string>
+    <string name="download_area_action">ఈ ప్రాంతం కోసం మ్యాప్ డౌన్‌లోడ్ చేయండి</string>
+    <string name="download_radius_location_unknown">స్థానం అందుబాటులో లేదు — మ్యాప్‌ను తరలించండి లేదా స్థాన అనుమతి ఇవ్వండి</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">మ్యాప్‌ను చూపించు (బీటా)</string>
+    <string name="render_map_summary_on">తక్కువ దృష్టి ఉన్న వినియోగదారుల కోసం మ్యాప్ స్క్రీన్‌పై గీయబడుతుంది. ఈ డ్రాయింగ్ ప్రయోగాత్మకమైనది మరియు ఇంకా మెరుగుపడుతోంది.</string>
+    <string name="render_map_summary_off">మ్యాప్ గీయబడదు; స్పర్శ మరియు శబ్దం ద్వారా మాత్రమే అన్వేషించండి.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia నడుస్తోంది</string>
+    <string name="notif_background_text">బ్యాక్‌గ్రౌండ్ సేవ యాక్టివ్‌గా ఉంది</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">వెతకండి</string>
+    <string name="address_search_empty_toast">దయచేసి చిరునామాను నమోదు చేయండి.</string>
+    <string name="address_search_searching">వెతుకుతోంది…</string>
+    <string name="address_search_select_title">చిరునామాను ఎంచుకోండి</string>
+    <string name="address_search_cancelled_toast">శోధన రద్దు చేయబడింది</string>
+    <string name="address_search_error_toast">లోపం: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">పాయింట్ పేరును నమోదు చేయండి</string>
+    <string name="add_point_dialog_title">కొత్త పాయింట్‌ను జోడించండి</string>
+    <string name="action_save_node">పాయింట్‌ను సేవ్ చేయండి</string>
+    <string name="action_reset_location">స్థానాన్ని రీసెట్ చేయండి</string>
+    <string name="toast_enter_name_required">దయచేసి పేరును నమోదు చేయండి.</string>
+    <string name="toast_waiting_for_location">ఇంకా స్థానం కోసం వేచి ఉంది — దయచేసి కొద్దిసేపు తర్వాత మళ్లీ ప్రయత్నించండి.</string>
+    <string name="toast_point_added">పాయింట్ జోడించబడింది.</string>
+    <string name="status_getting_location">స్థానాన్ని పొందుతోంది…</string>
+    <string name="status_getting_location_with_accuracy">స్థానాన్ని పొందుతోంది… ఉత్తమ ఖచ్చితత్వం: %1$dమీ.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">పాయింట్‌ను సవరించండి</string>
+    <string name="action_save">సేవ్ చేయండి</string>
+    <string name="action_delete">తొలగించండి</string>
+    <string name="toast_point_updated">పాయింట్ నవీకరించబడింది.</string>
+    <string name="confirm_removal_title">తొలగింపును నిర్ధారించండి</string>
+    <string name="confirm_removal_message">మీరు ఈ పాయింట్‌ను తొలగించాలనుకుంటున్నారా?\n%1$s</string>
+    <string name="action_remove">తీసివేయండి</string>
+    <string name="toast_point_removed">పాయింట్ తీసివేయబడింది.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">యాప్ సరిగ్గా పనిచేయడానికి ఈ అనుమతులు అవసరం.</string>
+    <string name="action_grant_permissions">అనుమతులు ఇవ్వండి</string>
+    <string name="action_close">మూసివేయండి</string>
+    <string name="content_description_switch_to_compass_lock">కంపాస్ లాక్‌కు మారండి</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">పాయింట్ వైపు గురిపెట్టండి</string>
+    <string name="action_navigate_google_maps">Google Maps‌లో పాయింట్‌కు నావిగేట్ చేయండి</string>
+    <string name="action_zoom_to_point">పాయింట్‌కు జూమ్ చేయండి</string>
+    <string name="action_zoom_to_point_on_map">మ్యాప్‌లో పాయింట్‌కు జూమ్ చేయండి</string>
+    <string name="action_remove_from_favorites">ఇష్టమైనవి నుండి తీసివేయండి</string>
+    <string name="action_add_to_favorites">ఇష్టమైనవికి జోడించండి</string>
+    <string name="action_details">వివరాలు</string>
+    <string name="toast_no_additional_details">అదనపు వివరాలు అందుబాటులో లేవు.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">మ్యాప్ స్థానం అందుబాటులో లేదు.</string>
+    <string name="nearby_nodes_dialog_title">సమీప పాయింట్లను చూపించు</string>
+    <string name="nearby_nodes_dialog_message">మ్యాప్ ప్రస్తుతం మీ స్థానంలో కేంద్రీకృతం కాలేదు, కాబట్టి \"నా చుట్టూ\" మరియు \"మ్యాప్ చుట్టూ\" వేర్వేరు పాయింట్లను చూపిస్తాయి. ఏది ఉపయోగించాలి?</string>
+    <string name="action_around_me">నా చుట్టూ</string>
+    <string name="action_around_map_center">మ్యాప్ కేంద్రం చుట్టూ</string>
+
+</resources>

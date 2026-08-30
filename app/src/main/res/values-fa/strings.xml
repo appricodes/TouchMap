@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="talkback_required_title">TalkBack مورد نیاز است</string>
+    <string name="talkback_required_message">این برنامه برای کار با TalkBack طراحی شده و برای عملکرد صحیح برنامه باید TalkBack روشن باشد. پس از دانلود نقشه منطقه‌تان، انگشت خود را روی صفحه لمس کرده و حرکت دهید تا خیابان‌ها و نقاط اطراف خود را کاوش کنید.</string>
+    <string name="talkback_required_open_settings">باز کردن تنظیمات دسترس‌پذیری</string>
+
+    <string name="menu_gallery">گالری</string>
+    <string name="title_activity_settings">تنظیمات</string>
+    <string name="please_click_back_again_to_exit">لطفاً برای خروج دوباره دکمه بازگشت را بزنید</string>
+    <string name="language_title">زبان مورد نظر شما</string>
+    <string name="general_header">تنظیمات عمومی</string>
+    <string name="settings_announcement_header">اعلان‌های صوتی</string>
+    <string name="cancel_aiming">لغو هدف‌گیری به سمت %1$s</string>
+    <string name="aiming_started">در حال هدف‌گیری به سمت %1$s. برای لغو اینجا را ضربه بزنید.</string>
+    <string name="cancel_search">لغو فیلتر بر اساس %1$s</string>
+    <string name="search_on_map_started">فقط نقاط منطبق با %1$s نمایش داده می‌شود. برای لغو اینجا را ضربه بزنید.</string>
+    <string name="search_canceled">فیلتر کلیدواژه لغو شد</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">فیلتر کردن عناصر نقشه</string>
+    <string name="filter_keyword_label">کلیدواژه (برای نمایش همه خالی بگذارید)</string>
+    <string name="filter_categories_label">دسته‌بندی‌ها</string>
+    <string name="filter_show_selected">نمایش موارد انتخاب‌شده</string>
+    <string name="filter_show_favorites">نمایش موارد مورد علاقه</string>
+    <string name="filter_show_all">نمایش همه</string>
+    <string name="startup_download_prompt_title">نقشه‌ای برای اینجا دانلود نشده است</string>
+    <string name="startup_download_prompt_message">هنوز نقشه‌ای برای موقعیت فعلی شما دانلود نشده است. برای کاوش محیط اطراف خود، اکنون آن را دانلود کنید.</string>
+    <string name="startup_download_prompt_download">دانلود نقشه</string>
+    <string name="aiming_canceled">هدف‌گیری لغو شد</string>
+    <string name="settings_sound_header">صدا و لرزش</string>
+    <string name="map_data_header">داده‌های نقشه</string>
+    <string name="delete_all_maps_title">حذف همه نقشه‌های دانلودشده</string>
+    <string name="delete_all_maps_summary">تمام داده‌های نقشه دانلودشده را از این دستگاه حذف می‌کند. نقاطی که به‌صورت دستی اضافه شده‌اند حفظ می‌شوند.</string>
+    <string name="delete_all_maps_confirm_title">همه نقشه‌های دانلودشده حذف شوند؟</string>
+    <string name="delete_all_maps_confirm_message">این کار هر منطقه نقشه دانلودشده را از این دستگاه حذف می‌کند. برای استفاده آفلاین باید دوباره آن را دانلود کنید. نقاط اضافه‌شده به‌صورت دستی تحت تأثیر قرار نمی‌گیرند.</string>
+    <string name="delete_all_maps_confirm_yes">حذف</string>
+    <string name="delete_all_maps_confirm_no">انصراف</string>
+    <string name="delete_all_maps_done">همه نقشه‌های دانلودشده حذف شدند.</string>
+    <string name="info_button_text">دقت: %1$d متر، سرعت: %2$.1f کیلومتر بر ساعت</string>
+    <string name="keep_screen_on_title">روشن نگه‌داشتن صفحه</string>
+    <string name="keep_screen_on_summary_on">تا زمانی که برنامه باز است، صفحه قفل نمی‌شود</string>
+    <string name="keep_screen_on_summary_off">صفحه بر اساس تنظیمات سیستم قفل می‌شود</string>
+
+    <string name="content_description_filters">فیلترها</string>
+    <string name="content_description_search">جستجو</string>
+    <string name="content_description_list_nodes">فهرست نقاط اطراف</string>
+    <string name="nearby_nodes_loading_title">در حال بارگذاری نقاط اطراف…</string>
+    <string name="list_button_text">فهرست</string>
+    <string name="content_description_add_point">افزودن نقطه جدید</string>
+    <string name="content_description_info">اطلاعات</string>
+    <string name="content_description_action">عملکرد</string>
+    <string name="content_description_explore_map">کاوش</string>
+    <string name="content_description_zoom_in">بزرگ‌نمایی</string>
+    <string name="content_description_zoom_out">کوچک‌نمایی</string>
+    <string name="content_description_recenter">بازگشت به موقعیت شما</string>
+    <string name="content_description_map_lock">تغییر به قفل شمال</string>
+    <string name="content_description_more">بیشتر</string>
+    <string name="category_button_text">دسته‌بندی</string>
+    <string name="keyword_button_text">کلیدواژه</string>
+    <string name="refresh_button_text">بازخوانی</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">جستجو</string>
+    <string name="hint_type_or_speak">تایپ کنید یا صحبت کنید</string>
+    <string name="content_description_mic">میکروفون</string>
+
+    <string name="tooltip_node_name">سنترال پارک</string>
+    <string name="tooltip_node_category">تفریح</string>
+    <string name="tooltip_node_distance">150 متر فاصله دارد</string>
+
+    <string name="announce_location_meters">%1$s، %2$.0f متر فاصله دارد</string>
+    <string name="announce_location_kilometers">%1$s، %2$.1f کیلومتر فاصله دارد</string>
+    <string name="announce_point_with_bearing">%1$s، %2$d متر، ساعت %3$d</string>
+    <string name="announce_point_without_bearing">%1$s، %2$d متر</string>
+    <string name="announce_aiming_distance_and_clock">%1$d متر، ساعت %2$d</string>
+    <string name="announce_aiming_clock_only">ساعت %1$d</string>
+    <string name="announce_user_location">شما</string>
+    <string name="hint_address_input">آدرس</string>
+    <string name="content_description_speak_address">میکروفون</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">دانلود نقشه</string>
+    <string name="download_button">دانلود نقشه</string>
+    <string name="download_cancel_button">لغو دانلود</string>
+    <string name="download_cancel_confirm_title">دانلود لغو شود؟</string>
+    <string name="download_cancel_confirm_message">وارد کردن نقشه هنوز در حال انجام است. مطمئن هستید می‌خواهید آن را لغو کنید؟</string>
+    <string name="download_cancel_confirm_yes">بله، لغو شود</string>
+    <string name="download_cancel_confirm_no">خیر، دانلود ادامه یابد</string>
+    <string name="download_close_button">بستن</string>
+    <string name="download_in_progress_title">یک وارد کردن نقشه از قبل در حال اجراست.</string>
+    <string name="download_size_label">حجم دانلود: %1$s</string>
+    <string name="download_size_label_multi">حجم دانلود: %1$d فایل، مجموعاً %2$s</string>
+    <string name="download_size_unknown">حجم دانلود: نامشخص</string>
+    <string name="download_already_downloaded_prefix">قبلاً دانلود شده است.</string>
+    <string name="download_larger_map_checkbox">نقشه بزرگ‌تر</string>
+    <string name="download_larger_map_hint">مناطق مجاور نیز دانلود می‌شوند (ممکن است چند فایل دیگر باشد).</string>
+    <string name="download_looking_up">در حال جستجوی داده‌های نقشه برای این منطقه…</string>
+    <string name="download_no_data_here">داده نقشه تفصیلی برای این منطقه در دسترس نیست.</string>
+    <string name="download_area_default_name">این منطقه</string>
+    <string name="download_complete">وارد کردن کامل شد: %1$d عنصر اضافه شد.</string>
+    <string name="download_failed">وارد کردن ناموفق بود: %1$s</string>
+    <string name="menu_download_map">دانلود نقشه</string>
+    <string name="import_notif_title">در حال وارد کردن نقشه</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">در حال شروع</string>
+    <string name="import_cancelled">وارد کردن لغو شد.</string>
+    <string name="import_notif_starting">در حال شروع وارد کردن %1$s…</string>
+    <string name="no_map_here_message">نقشه تفصیلی در اینجا وجود ندارد — برای دانلود دوبار ضربه بزنید.</string>
+    <string name="map_load_failed_message">نقشه در اینجا بارگذاری نشد — بزرگ‌نمایی را کم کنید یا دور شده و برگردید.</string>
+    <string name="download_area_action">دانلود نقشه برای این منطقه</string>
+    <string name="download_radius_location_unknown">موقعیت مکانی در دسترس نیست — نقشه را جابه‌جا کنید یا مجوز موقعیت مکانی را بدهید</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">نمایش نقشه (بتا)</string>
+    <string name="render_map_summary_on">نقشه برای کاربران کم‌بینا روی صفحه رسم می‌شود. این ترسیم آزمایشی است و همچنان در حال بهبود است.</string>
+    <string name="render_map_summary_off">نقشه رسم نمی‌شود؛ فقط از طریق لمس و صدا کاوش کنید.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia در حال اجراست</string>
+    <string name="notif_background_text">سرویس پس‌زمینه فعال است</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">جستجو</string>
+    <string name="address_search_empty_toast">لطفاً یک آدرس وارد کنید.</string>
+    <string name="address_search_searching">در حال جستجو…</string>
+    <string name="address_search_select_title">انتخاب یک آدرس</string>
+    <string name="address_search_cancelled_toast">جستجو لغو شد</string>
+    <string name="address_search_error_toast">خطا: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">نام نقطه را وارد کنید</string>
+    <string name="add_point_dialog_title">افزودن نقطه جدید</string>
+    <string name="action_save_node">ذخیره نقطه</string>
+    <string name="action_reset_location">بازنشانی موقعیت</string>
+    <string name="toast_enter_name_required">لطفاً یک نام وارد کنید.</string>
+    <string name="toast_waiting_for_location">هنوز در انتظار دریافت موقعیت مکانی است — لطفاً کمی بعد دوباره امتحان کنید.</string>
+    <string name="toast_point_added">نقطه اضافه شد.</string>
+    <string name="status_getting_location">در حال دریافت موقعیت مکانی…</string>
+    <string name="status_getting_location_with_accuracy">در حال دریافت موقعیت مکانی… بهترین دقت: %1$d متر.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">ویرایش نقطه</string>
+    <string name="action_save">ذخیره</string>
+    <string name="action_delete">حذف</string>
+    <string name="toast_point_updated">نقطه به‌روزرسانی شد.</string>
+    <string name="confirm_removal_title">تأیید حذف</string>
+    <string name="confirm_removal_message">مطمئن هستید می‌خواهید این نقطه را حذف کنید؟\n%1$s</string>
+    <string name="action_remove">حذف</string>
+    <string name="toast_point_removed">نقطه حذف شد.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">این مجوزها برای عملکرد صحیح برنامه ضروری هستند.</string>
+    <string name="action_grant_permissions">اعطای مجوزها</string>
+    <string name="action_close">بستن</string>
+    <string name="content_description_switch_to_compass_lock">تغییر به قفل قطب‌نما</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">هدف‌گیری به سمت نقطه</string>
+    <string name="action_navigate_google_maps">مسیریابی به نقطه در Google Maps</string>
+    <string name="action_zoom_to_point">بزرگ‌نمایی روی نقطه</string>
+    <string name="action_zoom_to_point_on_map">بزرگ‌نمایی روی نقطه در نقشه</string>
+    <string name="action_remove_from_favorites">حذف از موارد مورد علاقه</string>
+    <string name="action_add_to_favorites">افزودن به موارد مورد علاقه</string>
+    <string name="action_details">جزئیات</string>
+    <string name="toast_no_additional_details">جزئیات بیشتری در دسترس نیست.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">موقعیت نقشه در دسترس نیست.</string>
+    <string name="nearby_nodes_dialog_title">نمایش نقاط اطراف</string>
+    <string name="nearby_nodes_dialog_message">نقشه در حال حاضر روی موقعیت شما متمرکز نیست، بنابراین «اطراف من» و «اطراف مرکز نقشه» نقاط متفاوتی نشان می‌دهند. کدام‌یک استفاده شود؟</string>
+    <string name="action_around_me">اطراف من</string>
+    <string name="action_around_map_center">اطراف مرکز نقشه</string>
+
+</resources>

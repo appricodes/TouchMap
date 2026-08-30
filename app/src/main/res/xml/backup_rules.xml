@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Auto-backup rules for Android 11 and below (API < 31). The API 31+ equivalent lives in
+   data_extraction_rules.xml and must be kept in sync with this.
+
+   The app's SQLite db (osm.db) holds downloaded map data and routinely reaches hundreds of MB to
+   several GB — far past Android's ~25MB per-app auto-backup quota. Leaving it eligible doesn't just
+   waste the user's Drive quota: exceeding the limit makes the WHOLE backup fail, so the small,
+   genuinely useful part (settings) would silently never be backed up either. It is also re-downloadable
+   by design (see BoxImporter), so backing it up buys nothing.
+
+   Manually-added points, and any local rename/favorite made on a real downloaded point, are NOT
+   lost by the blanket database exclusion below: every such edit is also mirrored into the tiny
+   separate user_edits.db (see UserEditsBackupHelper), which the <include> line below carves back
+   out of that exclusion specifically. osm.db itself stays excluded as before.
+-->
+<full-backup-content>
+    <include domain="sharedpref" path="." />
+    <exclude domain="database" path="." />
+    <include domain="database" path="user_edits.db" />
+    <exclude domain="file" path="." />
+    <exclude domain="external" path="." />
+</full-backup-content>

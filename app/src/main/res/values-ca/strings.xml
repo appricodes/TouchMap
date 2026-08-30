@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Configuració</string>
+    <string name="talkback_required_title">Cal TalkBack</string>
+    <string name="talkback_required_message">Aquesta aplicació està dissenyada per funcionar amb TalkBack, i cal que TalkBack estigui activat perquè l\'aplicació funcioni correctament. Després de baixar el mapa de la teva zona, toca i mou el dit per la pantalla per explorar els carrers i punts al teu voltant.</string>
+    <string name="talkback_required_open_settings">Obre la configuració d\'accessibilitat</string>
+
+    <string name="menu_gallery">Galeria</string>
+    <string name="title_activity_settings">Configuració</string>
+    <string name="please_click_back_again_to_exit">Torna a prémer ENRERE per sortir</string>
+    <string name="language_title">El teu idioma preferit</string>
+    <string name="general_header">Configuració general</string>
+    <string name="settings_announcement_header">Anuncis</string>
+    <string name="cancel_aiming">Cancel·la l\'apuntament a %1$s</string>
+    <string name="aiming_started">Apuntant a %1$s. Toca aquí per cancel·lar.</string>
+    <string name="cancel_search">Cancel·la el filtratge per %1$s</string>
+    <string name="search_on_map_started">Es mostren només els punts que coincideixen amb %1$s. Toca aquí per cancel·lar.</string>
+    <string name="search_canceled">S\'ha cancel·lat el filtre de paraula clau</string>
+
+    <string name="filter_dialog_title">Filtra els elements del mapa</string>
+    <string name="filter_keyword_label">Paraula clau (deixa-ho buit per a tots)</string>
+    <string name="filter_categories_label">Categories</string>
+    <string name="filter_show_selected">Mostra els seleccionats</string>
+    <string name="filter_show_favorites">Mostra els preferits</string>
+    <string name="filter_show_all">Mostra\'ls tots</string>
+    <string name="startup_download_prompt_title">No hi ha cap mapa baixat aquí</string>
+    <string name="startup_download_prompt_message">Encara no hi ha cap mapa baixat per a la teva ubicació actual. Baixa\'l ara per explorar el teu entorn.</string>
+    <string name="startup_download_prompt_download">Baixa el mapa</string>
+    <string name="aiming_canceled">S\'ha cancel·lat l\'apuntament</string>
+    <string name="settings_sound_header">So i vibració</string>
+    <string name="map_data_header">Dades del mapa</string>
+    <string name="delete_all_maps_title">Suprimeix tots els mapes baixats</string>
+    <string name="delete_all_maps_summary">Elimina totes les dades de mapes baixades d\'aquest dispositiu. Els punts afegits manualment es conserven.</string>
+    <string name="delete_all_maps_confirm_title">Vols suprimir tots els mapes baixats?</string>
+    <string name="delete_all_maps_confirm_message">Això elimina totes les àrees de mapa baixades d\'aquest dispositiu. Hauràs de tornar-lo a baixar per utilitzar-lo sense connexió. Els punts afegits manualment no es veuen afectats.</string>
+    <string name="delete_all_maps_confirm_yes">Suprimeix</string>
+    <string name="delete_all_maps_confirm_no">Cancel·la</string>
+    <string name="delete_all_maps_done">S\'han suprimit tots els mapes baixats.</string>
+    <string name="info_button_text">Precisió: %1$d m, velocitat: %2$.1f km/h</string>
+    <string name="keep_screen_on_title">Mantén la pantalla encesa</string>
+    <string name="keep_screen_on_summary_on">La pantalla no es bloquejarà mentre l\'aplicació estigui oberta</string>
+    <string name="keep_screen_on_summary_off">La pantalla es bloquejarà segons la configuració del sistema</string>
+
+    <string name="content_description_filters">Filtres</string>
+    <string name="content_description_search">Cerca</string>
+    <string name="content_description_list_nodes">Llista de punts propers</string>
+    <string name="nearby_nodes_loading_title">Carregant punts propers…</string>
+    <string name="list_button_text">Llista</string>
+    <string name="content_description_add_point">Afegeix un punt nou</string>
+    <string name="content_description_info">Informació</string>
+    <string name="content_description_action">Acció</string>
+    <string name="content_description_explore_map">Explora</string>
+    <string name="content_description_zoom_in">Apropa</string>
+    <string name="content_description_zoom_out">Allunya</string>
+    <string name="content_description_recenter">Torna a centrar a la teva ubicació</string>
+    <string name="content_description_map_lock">Canvia al bloqueig de nord</string>
+    <string name="content_description_more">Més</string>
+    <string name="category_button_text">Categoria</string>
+    <string name="keyword_button_text">Paraula clau</string>
+    <string name="refresh_button_text">Actualitza</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">Cerca</string>
+    <string name="hint_type_or_speak">Escriu o parla</string>
+    <string name="content_description_mic">Micròfon</string>
+
+    <string name="tooltip_node_name">Central Park</string>
+    <string name="tooltip_node_category">Lleure</string>
+    <string name="tooltip_node_distance">a 150 m</string>
+
+    <string name="announce_location_meters">%1$s, a %2$.0f metres</string>
+    <string name="announce_location_kilometers">%1$s, a %2$.1f quilòmetres</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d metres a les %3$d en punt</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d metres</string>
+    <string name="announce_aiming_distance_and_clock">%1$d metres a les %2$d en punt</string>
+    <string name="announce_aiming_clock_only">a les %1$d en punt</string>
+    <string name="announce_user_location">Tu</string>
+    <string name="hint_address_input">Adreça</string>
+    <string name="content_description_speak_address">Micròfon</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">Baixa el mapa</string>
+    <string name="download_button">Baixa el mapa</string>
+    <string name="download_cancel_button">Cancel·la la baixada</string>
+    <string name="download_cancel_confirm_title">Vols cancel·lar la baixada?</string>
+    <string name="download_cancel_confirm_message">La importació del mapa encara està en curs. Segur que vols cancel·lar-la?</string>
+    <string name="download_cancel_confirm_yes">Sí, cancel·la</string>
+    <string name="download_cancel_confirm_no">No, continua baixant</string>
+    <string name="download_close_button">Tanca</string>
+    <string name="download_in_progress_title">Ja hi ha una importació de mapa en curs.</string>
+    <string name="download_size_label">Mida de la baixada: %1$s</string>
+    <string name="download_size_label_multi">Mida de la baixada: %1$d fitxers, %2$s en total</string>
+    <string name="download_size_unknown">Mida de la baixada: desconeguda</string>
+    <string name="download_already_downloaded_prefix">Ja baixat.</string>
+    <string name="download_larger_map_checkbox">Mapa més gran</string>
+    <string name="download_larger_map_hint">També baixa les àrees veïnes (poden ser diversos fitxers més).</string>
+    <string name="download_looking_up">Cercant dades del mapa per a aquesta àrea…</string>
+    <string name="download_no_data_here">No hi ha dades detallades de mapa disponibles per a aquesta àrea.</string>
+    <string name="download_area_default_name">aquesta àrea</string>
+    <string name="download_complete">Importació completa: s\'han afegit %1$d elements.</string>
+    <string name="download_failed">Ha fallat la importació: %1$s</string>
+    <string name="menu_download_map">Baixa el mapa</string>
+    <string name="import_notif_title">S\'està important el mapa</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Iniciant</string>
+    <string name="import_cancelled">Importació cancel·lada.</string>
+    <string name="import_notif_starting">Iniciant la importació de %1$s…</string>
+    <string name="no_map_here_message">No hi ha cap mapa detallat aquí — toca dues vegades per baixar-lo.</string>
+    <string name="map_load_failed_message">No s\'ha pogut carregar el mapa aquí — prova d\'allunyar el zoom o de moure\'t i tornar.</string>
+    <string name="download_area_action">Baixa el mapa d\'aquesta àrea</string>
+    <string name="download_radius_location_unknown">Ubicació no disponible — mou el mapa o concedeix el permís d\'ubicació</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">Mostra el mapa (Beta)</string>
+    <string name="render_map_summary_on">El mapa es dibuixa a la pantalla per a usuaris amb baixa visió. Aquest dibuix és experimental i encara s\'està millorant.</string>
+    <string name="render_map_summary_off">El mapa no es dibuixa; explora només mitjançant el tacte i el so.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia en execució</string>
+    <string name="notif_background_text">Servei en segon pla actiu</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">Cerca</string>
+    <string name="address_search_empty_toast">Introdueix una adreça, si us plau.</string>
+    <string name="address_search_searching">Cercant…</string>
+    <string name="address_search_select_title">Selecciona una adreça</string>
+    <string name="address_search_cancelled_toast">Cerca cancel·lada</string>
+    <string name="address_search_error_toast">Error: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">Introdueix el nom del punt</string>
+    <string name="add_point_dialog_title">Afegeix un punt nou</string>
+    <string name="action_save_node">Desa el punt</string>
+    <string name="action_reset_location">Restableix la ubicació</string>
+    <string name="toast_enter_name_required">Introdueix un nom, si us plau.</string>
+    <string name="toast_waiting_for_location">Encara s\'està esperant una ubicació — torna-ho a provar d\'aquí un moment.</string>
+    <string name="toast_point_added">S\'ha afegit el punt.</string>
+    <string name="status_getting_location">Obtenint la ubicació…</string>
+    <string name="status_getting_location_with_accuracy">Obtenint la ubicació… millor precisió: %1$dm.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">Edita el punt</string>
+    <string name="action_save">Desa</string>
+    <string name="action_delete">Suprimeix</string>
+    <string name="toast_point_updated">S\'ha actualitzat el punt.</string>
+    <string name="confirm_removal_title">Confirma l\'eliminació</string>
+    <string name="confirm_removal_message">Segur que vols eliminar aquest punt?\n%1$s</string>
+    <string name="action_remove">Elimina</string>
+    <string name="toast_point_removed">S\'ha eliminat el punt.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">Aquests permisos són necessaris perquè l\'aplicació funcioni correctament.</string>
+    <string name="action_grant_permissions">Concedeix els permisos</string>
+    <string name="action_close">Tanca</string>
+    <string name="content_description_switch_to_compass_lock">Canvia al bloqueig de brúixola</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">Apunta al punt</string>
+    <string name="action_navigate_google_maps">Navega fins al punt a Google Maps</string>
+    <string name="action_zoom_to_point">Fes zoom al punt</string>
+    <string name="action_zoom_to_point_on_map">Fes zoom al punt al mapa</string>
+    <string name="action_remove_from_favorites">Elimina dels preferits</string>
+    <string name="action_add_to_favorites">Afegeix als preferits</string>
+    <string name="action_details">Detalls</string>
+    <string name="toast_no_additional_details">No hi ha detalls addicionals disponibles.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">Ubicació del mapa no disponible.</string>
+    <string name="nearby_nodes_dialog_title">Mostra els punts propers</string>
+    <string name="nearby_nodes_dialog_message">El mapa no està centrat actualment a la teva ubicació, així que \"al meu voltant\" i \"al voltant del mapa\" mostrarien punts diferents. Quin s\'ha d\'utilitzar?</string>
+    <string name="action_around_me">Al meu voltant</string>
+    <string name="action_around_map_center">Al voltant del centre del mapa</string>
+
+</resources>

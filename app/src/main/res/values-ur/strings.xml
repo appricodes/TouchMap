@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">ترتیبات</string>
+    <string name="talkback_required_title">TalkBack درکار ہے</string>
+    <string name="talkback_required_message">یہ ایپ TalkBack کے ساتھ کام کرنے کے لیے بنائی گئی ہے، اور ایپ کے صحیح طریقے سے کام کرنے کے لیے TalkBack کا آن ہونا ضروری ہے۔ اپنے علاقے کا نقشہ ڈاؤن لوڈ کرنے کے بعد، اپنے ارد گرد کی سڑکوں اور مقامات کو دریافت کرنے کے لیے اسکرین کو چھوئیں اور اپنی انگلی حرکت دیں۔</string>
+    <string name="talkback_required_open_settings">رسائی کی ترتیبات کھولیں</string>
+
+    <string name="menu_gallery">گیلری</string>
+    <string name="title_activity_settings">ترتیبات</string>
+    <string name="please_click_back_again_to_exit">باہر نکلنے کے لیے دوبارہ \'بیک\' دبائیں</string>
+    <string name="language_title">آپ کی پسندیدہ زبان</string>
+    <string name="general_header">عمومی ترتیبات</string>
+    <string name="settings_announcement_header">اعلانات</string>
+    <string name="cancel_aiming">%1$s کی طرف رخ کرنا منسوخ کریں</string>
+    <string name="aiming_started">%1$s کی طرف رخ کیا جا رہا ہے۔ منسوخ کرنے کے لیے یہاں دبائیں۔</string>
+    <string name="cancel_search">%1$s کے مطابق فلٹر منسوخ کریں</string>
+    <string name="search_on_map_started">صرف %1$s سے مماثل مقامات دکھائے جا رہے ہیں۔ منسوخ کرنے کے لیے یہاں دبائیں۔</string>
+    <string name="search_canceled">کی ورڈ فلٹر منسوخ کر دیا گیا</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">نقشے کے عناصر فلٹر کریں</string>
+    <string name="filter_keyword_label">کی ورڈ (سب دکھانے کے لیے خالی چھوڑیں)</string>
+    <string name="filter_categories_label">زمرہ جات</string>
+    <string name="filter_show_selected">منتخب کردہ دکھائیں</string>
+    <string name="filter_show_favorites">پسندیدہ دکھائیں</string>
+    <string name="filter_show_all">سب دکھائیں</string>
+    <string name="startup_download_prompt_title">یہاں کوئی نقشہ ڈاؤن لوڈ نہیں ہوا</string>
+    <string name="startup_download_prompt_message">آپ کے موجودہ مقام کے لیے ابھی تک کوئی نقشہ ڈاؤن لوڈ نہیں ہوا۔ اپنے اردگرد کا جائزہ لینے کے لیے اسے ابھی ڈاؤن لوڈ کریں۔</string>
+    <string name="startup_download_prompt_download">نقشہ ڈاؤن لوڈ کریں</string>
+    <string name="aiming_canceled">رخ کرنا منسوخ کر دیا گیا</string>
+    <string name="settings_sound_header">آواز اور وائبریشن</string>
+    <string name="map_data_header">نقشے کا ڈیٹا</string>
+    <string name="delete_all_maps_title">تمام ڈاؤن لوڈ شدہ نقشے حذف کریں</string>
+    <string name="delete_all_maps_summary">اس ڈیوائس سے تمام ڈاؤن لوڈ شدہ نقشے کا ڈیٹا ہٹا دیتا ہے۔ دستی طور پر شامل کردہ مقامات محفوظ رہتے ہیں۔</string>
+    <string name="delete_all_maps_confirm_title">تمام ڈاؤن لوڈ شدہ نقشے حذف کریں؟</string>
+    <string name="delete_all_maps_confirm_message">یہ اس ڈیوائس سے ہر ڈاؤن لوڈ شدہ نقشے کا علاقہ ہٹا دے گا۔ آف لائن استعمال کے لیے آپ کو اسے دوبارہ ڈاؤن لوڈ کرنا ہوگا۔ دستی طور پر شامل کردہ مقامات متاثر نہیں ہوں گے۔</string>
+    <string name="delete_all_maps_confirm_yes">حذف کریں</string>
+    <string name="delete_all_maps_confirm_no">منسوخ کریں</string>
+    <string name="delete_all_maps_done">تمام ڈاؤن لوڈ شدہ نقشے حذف کر دیے گئے۔</string>
+    <string name="info_button_text">درستگی: %1$d میٹر، رفتار: %2$.1f کلومیٹر فی گھنٹہ</string>
+    <string name="keep_screen_on_title">اسکرین آن رکھیں</string>
+    <string name="keep_screen_on_summary_on">جب تک ایپ کھلی ہے اسکرین لاک نہیں ہوگی</string>
+    <string name="keep_screen_on_summary_off">اسکرین سسٹم کی ترتیبات کے مطابق لاک ہوگی</string>
+
+    <string name="content_description_filters">فلٹرز</string>
+    <string name="content_description_search">تلاش</string>
+    <string name="content_description_list_nodes">قریبی مقامات کی فہرست</string>
+    <string name="nearby_nodes_loading_title">قریبی مقامات لوڈ ہو رہے ہیں…</string>
+    <string name="list_button_text">فہرست</string>
+    <string name="content_description_add_point">نیا مقام شامل کریں</string>
+    <string name="content_description_info">معلومات</string>
+    <string name="content_description_action">عمل</string>
+    <string name="content_description_explore_map">دریافت کریں</string>
+    <string name="content_description_zoom_in">زوم ان</string>
+    <string name="content_description_zoom_out">زوم آؤٹ</string>
+    <string name="content_description_recenter">اپنے مقام پر واپس مرکوز کریں</string>
+    <string name="content_description_map_lock">شمال لاک پر سوئچ کریں</string>
+    <string name="content_description_more">مزید</string>
+    <string name="category_button_text">زمرہ</string>
+    <string name="keyword_button_text">کی ورڈ</string>
+    <string name="refresh_button_text">ریفریش</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">تلاش</string>
+    <string name="hint_type_or_speak">ٹائپ کریں یا بولیں</string>
+    <string name="content_description_mic">مائیک</string>
+
+    <string name="tooltip_node_name">سینٹرل پارک</string>
+    <string name="tooltip_node_category">تفریح</string>
+    <string name="tooltip_node_distance">150 میٹر دور</string>
+
+    <string name="announce_location_meters">%1$s، %2$.0f میٹر دور</string>
+    <string name="announce_location_kilometers">%1$s، %2$.1f کلومیٹر دور</string>
+    <string name="announce_point_with_bearing">%1$s، %2$d میٹر، %3$d بجے کی سمت</string>
+    <string name="announce_point_without_bearing">%1$s، %2$d میٹر</string>
+    <string name="announce_aiming_distance_and_clock">%1$d میٹر، %2$d بجے کی سمت</string>
+    <string name="announce_aiming_clock_only">%1$d بجے کی سمت</string>
+    <string name="announce_user_location">آپ</string>
+    <string name="hint_address_input">پتہ</string>
+    <string name="content_description_speak_address">مائیک</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">نقشہ ڈاؤن لوڈ کریں</string>
+    <string name="download_button">نقشہ ڈاؤن لوڈ کریں</string>
+    <string name="download_cancel_button">ڈاؤن لوڈ منسوخ کریں</string>
+    <string name="download_cancel_confirm_title">ڈاؤن لوڈ منسوخ کریں؟</string>
+    <string name="download_cancel_confirm_message">نقشے کی درآمد ابھی جاری ہے۔ کیا آپ واقعی اسے منسوخ کرنا چاہتے ہیں؟</string>
+    <string name="download_cancel_confirm_yes">ہاں، منسوخ کریں</string>
+    <string name="download_cancel_confirm_no">نہیں، ڈاؤن لوڈ جاری رکھیں</string>
+    <string name="download_close_button">بند کریں</string>
+    <string name="download_in_progress_title">نقشے کی درآمد پہلے ہی جاری ہے۔</string>
+    <string name="download_size_label">ڈاؤن لوڈ سائز: %1$s</string>
+    <string name="download_size_label_multi">ڈاؤن لوڈ سائز: %1$d فائلیں، کل %2$s</string>
+    <string name="download_size_unknown">ڈاؤن لوڈ سائز: نامعلوم</string>
+    <string name="download_already_downloaded_prefix">پہلے ہی ڈاؤن لوڈ ہو چکا ہے۔</string>
+    <string name="download_larger_map_checkbox">بڑا نقشہ</string>
+    <string name="download_larger_map_hint">ملحقہ علاقے بھی ڈاؤن لوڈ کرتا ہے (کئی مزید فائلیں ہو سکتی ہیں)۔</string>
+    <string name="download_looking_up">اس علاقے کے لیے نقشے کا ڈیٹا تلاش کیا جا رہا ہے…</string>
+    <string name="download_no_data_here">اس علاقے کے لیے تفصیلی نقشے کا ڈیٹا دستیاب نہیں ہے۔</string>
+    <string name="download_area_default_name">یہ علاقہ</string>
+    <string name="download_complete">درآمد مکمل ہوئی: %1$d عناصر شامل کیے گئے۔</string>
+    <string name="download_failed">درآمد ناکام ہوئی: %1$s</string>
+    <string name="menu_download_map">نقشہ ڈاؤن لوڈ کریں</string>
+    <string name="import_notif_title">نقشہ درآمد ہو رہا ہے</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">شروع ہو رہا ہے</string>
+    <string name="import_cancelled">درآمد منسوخ کر دی گئی۔</string>
+    <string name="import_notif_starting">%1$s کی درآمد شروع ہو رہی ہے…</string>
+    <string name="no_map_here_message">یہاں کوئی تفصیلی نقشہ نہیں ہے — ڈاؤن لوڈ کرنے کے لیے دو بار تھپتھپائیں۔</string>
+    <string name="map_load_failed_message">یہاں نقشہ لوڈ نہیں ہو سکا — زوم آؤٹ کریں یا دور جا کر واپس آنے کی کوشش کریں۔</string>
+    <string name="download_area_action">اس علاقے کے لیے نقشہ ڈاؤن لوڈ کریں</string>
+    <string name="download_radius_location_unknown">مقام دستیاب نہیں ہے — نقشہ حرکت دیں یا مقام کی اجازت دیں</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">نقشہ دکھائیں (بیٹا)</string>
+    <string name="render_map_summary_on">کم بینائی والے صارفین کے لیے نقشہ اسکرین پر بنایا جاتا ہے۔ یہ ڈرائنگ تجرباتی ہے اور اب بھی بہتر ہو رہی ہے۔</string>
+    <string name="render_map_summary_off">نقشہ نہیں بنایا جاتا؛ صرف چھونے اور آواز کے ذریعے دریافت کریں۔</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia چل رہی ہے</string>
+    <string name="notif_background_text">پس منظر کی سروس فعال ہے</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">تلاش</string>
+    <string name="address_search_empty_toast">براہ کرم ایک پتہ درج کریں۔</string>
+    <string name="address_search_searching">تلاش ہو رہی ہے…</string>
+    <string name="address_search_select_title">ایک پتہ منتخب کریں</string>
+    <string name="address_search_cancelled_toast">تلاش منسوخ کر دی گئی</string>
+    <string name="address_search_error_toast">خرابی: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">مقام کا نام درج کریں</string>
+    <string name="add_point_dialog_title">نیا مقام شامل کریں</string>
+    <string name="action_save_node">مقام محفوظ کریں</string>
+    <string name="action_reset_location">مقام ری سیٹ کریں</string>
+    <string name="toast_enter_name_required">براہ کرم ایک نام درج کریں۔</string>
+    <string name="toast_waiting_for_location">ابھی بھی مقام کا انتظار ہے — براہ کرم تھوڑی دیر بعد دوبارہ کوشش کریں۔</string>
+    <string name="toast_point_added">مقام شامل کر دیا گیا۔</string>
+    <string name="status_getting_location">مقام حاصل کیا جا رہا ہے…</string>
+    <string name="status_getting_location_with_accuracy">مقام حاصل کیا جا رہا ہے… بہترین درستگی: %1$d میٹر۔</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">مقام میں ترمیم کریں</string>
+    <string name="action_save">محفوظ کریں</string>
+    <string name="action_delete">حذف کریں</string>
+    <string name="toast_point_updated">مقام اپ ڈیٹ کر دیا گیا۔</string>
+    <string name="confirm_removal_title">ہٹانے کی تصدیق کریں</string>
+    <string name="confirm_removal_message">کیا آپ واقعی اس مقام کو ہٹانا چاہتے ہیں؟\n%1$s</string>
+    <string name="action_remove">ہٹائیں</string>
+    <string name="toast_point_removed">مقام ہٹا دیا گیا۔</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">ایپ کے صحیح طریقے سے کام کرنے کے لیے یہ اجازتیں ضروری ہیں۔</string>
+    <string name="action_grant_permissions">اجازتیں دیں</string>
+    <string name="action_close">بند کریں</string>
+    <string name="content_description_switch_to_compass_lock">قطب نما لاک پر سوئچ کریں</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">مقام کی طرف رخ کریں</string>
+    <string name="action_navigate_google_maps">Google Maps میں مقام تک رہنمائی کریں</string>
+    <string name="action_zoom_to_point">مقام پر زوم کریں</string>
+    <string name="action_zoom_to_point_on_map">نقشے پر مقام پر زوم کریں</string>
+    <string name="action_remove_from_favorites">پسندیدہ سے ہٹائیں</string>
+    <string name="action_add_to_favorites">پسندیدہ میں شامل کریں</string>
+    <string name="action_details">تفصیلات</string>
+    <string name="toast_no_additional_details">کوئی اضافی تفصیلات دستیاب نہیں ہیں۔</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">نقشے کا مقام دستیاب نہیں ہے۔</string>
+    <string name="nearby_nodes_dialog_title">قریبی مقامات دکھائیں</string>
+    <string name="nearby_nodes_dialog_message">نقشہ فی الحال آپ کے مقام پر مرکوز نہیں ہے، اس لیے \"میرے ارد گرد\" اور \"نقشے کے مرکز کے ارد گرد\" مختلف مقامات دکھائیں گے۔ کون سا استعمال کیا جائے؟</string>
+    <string name="action_around_me">میرے ارد گرد</string>
+    <string name="action_around_map_center">نقشے کے مرکز کے ارد گرد</string>
+
+</resources>

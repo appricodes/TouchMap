@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Nastavenia</string>
+    <string name="talkback_required_title">Vyžaduje sa TalkBack</string>
+    <string name="talkback_required_message">Táto aplikácia je navrhnutá na použitie so službou TalkBack a TalkBack musí byť zapnutý, aby aplikácia fungovala správne. Po stiahnutí mapy vašej oblasti sa prstom dotknite obrazovky a pohybujte ním, aby ste preskúmali ulice a body okolo vás.</string>
+    <string name="talkback_required_open_settings">Otvoriť nastavenia zjednodušenia ovládania</string>
+
+    <string name="menu_gallery">Galéria</string>
+    <string name="title_activity_settings">Nastavenia</string>
+    <string name="please_click_back_again_to_exit">Pre ukončenie stlačte znova tlačidlo SPÄŤ</string>
+    <string name="language_title">Preferovaný jazyk</string>
+    <string name="general_header">Všeobecné nastavenia</string>
+    <string name="settings_announcement_header">Hlásenia</string>
+    <string name="cancel_aiming">Zrušiť mierenie na %1$s</string>
+    <string name="aiming_started">Mierenie na %1$s. Zrušíte klepnutím sem.</string>
+    <string name="cancel_search">Zrušiť filtrovanie podľa %1$s</string>
+    <string name="search_on_map_started">Zobrazujú sa iba body zodpovedajúce výrazu %1$s. Zrušíte klepnutím sem.</string>
+    <string name="search_canceled">Filter podľa kľúčového slova zrušený</string>
+
+    <string name="filter_dialog_title">Filtrovať prvky mapy</string>
+    <string name="filter_keyword_label">Kľúčové slovo (nechajte prázdne pre všetky)</string>
+    <string name="filter_categories_label">Kategórie</string>
+    <string name="filter_show_selected">Zobraziť vybrané</string>
+    <string name="filter_show_favorites">Zobraziť obľúbené</string>
+    <string name="filter_show_all">Zobraziť všetko</string>
+    <string name="startup_download_prompt_title">Tu nie je stiahnutá žiadna mapa</string>
+    <string name="startup_download_prompt_message">Pre vašu aktuálnu polohu zatiaľ nie je stiahnutá žiadna mapa. Stiahnite si ju teraz a preskúmajte okolie.</string>
+    <string name="startup_download_prompt_download">Stiahnuť mapu</string>
+    <string name="aiming_canceled">Mierenie zrušené</string>
+    <string name="settings_sound_header">Zvuk a vibrácie</string>
+    <string name="map_data_header">Údaje mapy</string>
+    <string name="delete_all_maps_title">Odstrániť všetky stiahnuté mapy</string>
+    <string name="delete_all_maps_summary">Odstráni všetky stiahnuté údaje máp z tohto zariadenia. Ručne pridané body zostanú zachované.</string>
+    <string name="delete_all_maps_confirm_title">Odstrániť všetky stiahnuté mapy?</string>
+    <string name="delete_all_maps_confirm_message">Týmto sa z tohto zariadenia odstránia všetky stiahnuté oblasti máp. Ak ich budete chcieť použiť offline, budete si ich musieť stiahnuť znova. Ručne pridané body nebudú ovplyvnené.</string>
+    <string name="delete_all_maps_confirm_yes">Odstrániť</string>
+    <string name="delete_all_maps_confirm_no">Zrušiť</string>
+    <string name="delete_all_maps_done">Všetky stiahnuté mapy boli odstránené.</string>
+    <string name="info_button_text">Presnosť: %1$d m, rýchlosť: %2$.1f km/h</string>
+    <string name="keep_screen_on_title">Nevypínať obrazovku</string>
+    <string name="keep_screen_on_summary_on">Obrazovka sa nezamkne, kým je aplikácia otvorená</string>
+    <string name="keep_screen_on_summary_off">Obrazovka sa zamkne podľa nastavení systému</string>
+
+    <string name="content_description_filters">Filtre</string>
+    <string name="content_description_search">Hľadať</string>
+    <string name="content_description_list_nodes">Zobraziť zoznam blízkych bodov</string>
+    <string name="nearby_nodes_loading_title">Načítavajú sa blízke body…</string>
+    <string name="list_button_text">Zoznam</string>
+    <string name="content_description_add_point">Pridať nový bod</string>
+    <string name="content_description_info">Informácie</string>
+    <string name="content_description_action">Akcia</string>
+    <string name="content_description_explore_map">Preskúmať</string>
+    <string name="content_description_zoom_in">Priblížiť</string>
+    <string name="content_description_zoom_out">Oddialiť</string>
+    <string name="content_description_recenter">Vycentrovať na vašu polohu</string>
+    <string name="content_description_map_lock">Prepnúť na zámok podľa severu</string>
+    <string name="content_description_more">Viac</string>
+    <string name="category_button_text">Kategória</string>
+    <string name="keyword_button_text">Kľúčové slovo</string>
+    <string name="refresh_button_text">Obnoviť</string>
+    <string name="find_address_title">Hľadať</string>
+    <string name="hint_type_or_speak">Napíšte alebo povedzte</string>
+    <string name="content_description_mic">Mikrofón</string>
+
+    <string name="tooltip_node_name">Central Park</string>
+    <string name="tooltip_node_category">Voľný čas</string>
+    <string name="tooltip_node_distance">150 m odtiaľto</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f m odtiaľto</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f km odtiaľto</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d m, na %3$d. hodine</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d m</string>
+    <string name="announce_aiming_distance_and_clock">%1$d m, na %2$d. hodine</string>
+    <string name="announce_aiming_clock_only">Na %1$d. hodine</string>
+    <string name="announce_user_location">Vy</string>
+    <string name="hint_address_input">Adresa</string>
+    <string name="content_description_speak_address">Mikrofón</string>
+
+    <string name="download_map_title">Stiahnuť mapu</string>
+    <string name="download_button">Stiahnuť mapu</string>
+    <string name="download_cancel_button">Zrušiť sťahovanie</string>
+    <string name="download_cancel_confirm_title">Zrušiť sťahovanie?</string>
+    <string name="download_cancel_confirm_message">Import mapy stále prebieha. Naozaj ho chcete zrušiť?</string>
+    <string name="download_cancel_confirm_yes">Áno, zrušiť</string>
+    <string name="download_cancel_confirm_no">Nie, pokračovať v sťahovaní</string>
+    <string name="download_close_button">Zavrieť</string>
+    <string name="download_in_progress_title">Import mapy už prebieha.</string>
+    <string name="download_size_label">Veľkosť sťahovania: %1$s</string>
+    <string name="download_size_label_multi">Veľkosť sťahovania: %1$d súborov, spolu %2$s</string>
+    <string name="download_size_unknown">Veľkosť sťahovania: neznáma</string>
+    <string name="download_already_downloaded_prefix">Už stiahnuté.</string>
+    <string name="download_larger_map_checkbox">Väčšia mapa</string>
+    <string name="download_larger_map_hint">Stiahne aj susedné oblasti (môže ísť o niekoľko ďalších súborov).</string>
+    <string name="download_looking_up">Vyhľadávajú sa mapové údaje pre túto oblasť…</string>
+    <string name="download_no_data_here">Pre túto oblasť nie sú k dispozícii žiadne podrobné mapové údaje.</string>
+    <string name="download_area_default_name">túto oblasť</string>
+    <string name="download_complete">Import dokončený: pridaných prvkov – %1$d.</string>
+    <string name="download_failed">Import zlyhal: %1$s</string>
+    <string name="menu_download_map">Stiahnuť mapu</string>
+    <string name="import_notif_title">Importuje sa mapa</string>
+    <string name="import_notif_title_phase_percent">%1$s – %2$d %%</string>
+    <string name="import_notif_starting_phase">Spúšťa sa</string>
+    <string name="import_cancelled">Import zrušený.</string>
+    <string name="import_notif_starting">Spúšťa sa import %1$s…</string>
+    <string name="no_map_here_message">Tu nie je žiadna podrobná mapa – stiahnite ju dvojitým klepnutím.</string>
+    <string name="map_load_failed_message">Mapu sa tu nepodarilo načítať – skúste oddialiť zobrazenie alebo sa vzdialiť a vrátiť sa späť.</string>
+    <string name="download_area_action">Stiahnuť mapu pre túto oblasť</string>
+    <string name="download_radius_location_unknown">Poloha nie je k dispozícii – posuňte mapu alebo udeľte povolenie na určenie polohy</string>
+
+    <string name="render_map_title">Zobraziť mapu (Beta)</string>
+    <string name="render_map_summary_on">Mapa sa vykresľuje na obrazovke pre slabozrakých používateľov. Toto vykresľovanie je experimentálne a stále sa vylepšuje.</string>
+    <string name="render_map_summary_off">Mapa sa nevykresľuje; skúmajte iba dotykom a zvukom.</string>
+
+    <string name="notif_background_title">Navia je spustená</string>
+    <string name="notif_background_text">Služba na pozadí je aktívna</string>
+
+    <string name="action_search">Hľadať</string>
+    <string name="address_search_empty_toast">Zadajte adresu.</string>
+    <string name="address_search_searching">Hľadá sa…</string>
+    <string name="address_search_select_title">Vyberte adresu</string>
+    <string name="address_search_cancelled_toast">Hľadanie zrušené</string>
+    <string name="address_search_error_toast">Chyba: %1$s</string>
+
+    <string name="hint_enter_point_name">Zadajte názov bodu</string>
+    <string name="add_point_dialog_title">Pridať nový bod</string>
+    <string name="action_save_node">Uložiť bod</string>
+    <string name="action_reset_location">Obnoviť polohu</string>
+    <string name="toast_enter_name_required">Zadajte názov.</string>
+    <string name="toast_waiting_for_location">Stále čakáme na polohu – skúste to znova o chvíľu.</string>
+    <string name="toast_point_added">Bod pridaný.</string>
+    <string name="status_getting_location">Zisťuje sa poloha…</string>
+    <string name="status_getting_location_with_accuracy">Zisťuje sa poloha… najlepšia presnosť: %1$dm.</string>
+
+    <string name="action_edit_node">Upraviť bod</string>
+    <string name="action_save">Uložiť</string>
+    <string name="action_delete">Odstrániť</string>
+    <string name="toast_point_updated">Bod aktualizovaný.</string>
+    <string name="confirm_removal_title">Potvrdiť odstránenie</string>
+    <string name="confirm_removal_message">Naozaj chcete odstrániť tento bod?\n%1$s</string>
+    <string name="action_remove">Odstrániť</string>
+    <string name="toast_point_removed">Bod odstránený.</string>
+
+    <string name="permissions_required_message">Tieto povolenia sú potrebné na správne fungovanie aplikácie.</string>
+    <string name="action_grant_permissions">Udeliť povolenia</string>
+    <string name="action_close">Zavrieť</string>
+    <string name="content_description_switch_to_compass_lock">Prepnúť na kompasový zámok</string>
+
+    <string name="action_aim_at_point">Mieriť na bod</string>
+    <string name="action_navigate_google_maps">Navigovať k bodu v Google Maps</string>
+    <string name="action_zoom_to_point">Priblížiť na bod</string>
+    <string name="action_zoom_to_point_on_map">Priblížiť na bod na mape</string>
+    <string name="action_remove_from_favorites">Odstrániť z obľúbených</string>
+    <string name="action_add_to_favorites">Pridať medzi obľúbené</string>
+    <string name="action_details">Podrobnosti</string>
+    <string name="toast_no_additional_details">Nie sú k dispozícii žiadne ďalšie podrobnosti.</string>
+
+    <string name="toast_map_location_unavailable">Poloha mapy nie je k dispozícii.</string>
+    <string name="nearby_nodes_dialog_title">Zobraziť blízke body</string>
+    <string name="nearby_nodes_dialog_message">Mapa momentálne nie je vycentrovaná na vašu polohu, takže možnosti „okolo mňa“ a „okolo stredu mapy“ by zobrazili odlišné body. Ktorá sa má použiť?</string>
+    <string name="action_around_me">Okolo mňa</string>
+    <string name="action_around_map_center">Okolo stredu mapy</string>
+
+</resources>

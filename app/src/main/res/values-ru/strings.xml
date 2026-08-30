@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Настройки</string>
+    <string name="talkback_required_title">Требуется TalkBack</string>
+    <string name="talkback_required_message">Это приложение разработано для работы с TalkBack, и TalkBack должен быть включён, чтобы приложение работало корректно. После загрузки карты вашего района коснитесь экрана и двигайте пальцем, чтобы исследовать улицы и точки вокруг вас.</string>
+    <string name="talkback_required_open_settings">Открыть настройки специальных возможностей</string>
+
+    <string name="menu_gallery">Галерея</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="please_click_back_again_to_exit">Нажмите «Назад» ещё раз, чтобы выйти</string>
+    <string name="language_title">Предпочитаемый язык</string>
+    <string name="general_header">Общие настройки</string>
+    <string name="settings_announcement_header">Оповещения</string>
+    <string name="cancel_aiming">Отменить наведение на %1$s</string>
+    <string name="aiming_started">Наведение на %1$s. Нажмите здесь, чтобы отменить.</string>
+    <string name="cancel_search">Отменить фильтрацию по «%1$s»</string>
+    <string name="search_on_map_started">Показаны только точки, соответствующие «%1$s». Нажмите здесь, чтобы отменить.</string>
+    <string name="search_canceled">Фильтр по ключевому слову отменён</string>
+
+    <string name="filter_dialog_title">Фильтр элементов карты</string>
+    <string name="filter_keyword_label">Ключевое слово (оставьте пустым для всех)</string>
+    <string name="filter_categories_label">Категории</string>
+    <string name="filter_show_selected">Показать выбранные</string>
+    <string name="filter_show_favorites">Показать избранное</string>
+    <string name="filter_show_all">Показать все</string>
+    <string name="startup_download_prompt_title">Здесь нет загруженной карты</string>
+    <string name="startup_download_prompt_message">Для вашего текущего местоположения пока нет загруженной карты. Загрузите её сейчас, чтобы исследовать окрестности.</string>
+    <string name="startup_download_prompt_download">Загрузить карту</string>
+    <string name="aiming_canceled">Наведение отменено</string>
+    <string name="settings_sound_header">Звук и вибрация</string>
+    <string name="map_data_header">Данные карты</string>
+    <string name="delete_all_maps_title">Удалить все загруженные карты</string>
+    <string name="delete_all_maps_summary">Удаляет все загруженные данные карт с этого устройства. Точки, добавленные вручную, сохраняются.</string>
+    <string name="delete_all_maps_confirm_title">Удалить все загруженные карты?</string>
+    <string name="delete_all_maps_confirm_message">Это удалит все загруженные области карт с этого устройства. Чтобы использовать их офлайн, потребуется загрузить их заново. Точки, добавленные вручную, не будут затронуты.</string>
+    <string name="delete_all_maps_confirm_yes">Удалить</string>
+    <string name="delete_all_maps_confirm_no">Отмена</string>
+    <string name="delete_all_maps_done">Все загруженные карты удалены.</string>
+    <string name="info_button_text">Точность: %1$d м, скорость: %2$.1f км/ч</string>
+    <string name="keep_screen_on_title">Не выключать экран</string>
+    <string name="keep_screen_on_summary_on">Экран не будет блокироваться, пока приложение открыто</string>
+    <string name="keep_screen_on_summary_off">Экран будет блокироваться в соответствии с системными настройками</string>
+
+    <string name="content_description_filters">Фильтры</string>
+    <string name="content_description_search">Поиск</string>
+    <string name="content_description_list_nodes">Список ближайших точек</string>
+    <string name="nearby_nodes_loading_title">Загрузка ближайших точек…</string>
+    <string name="list_button_text">Список</string>
+    <string name="content_description_add_point">Добавить новую точку</string>
+    <string name="content_description_info">Информация</string>
+    <string name="content_description_action">Действие</string>
+    <string name="content_description_explore_map">Исследовать</string>
+    <string name="content_description_zoom_in">Увеличить</string>
+    <string name="content_description_zoom_out">Уменьшить</string>
+    <string name="content_description_recenter">Центрировать на вашем местоположении</string>
+    <string name="content_description_map_lock">Переключить на блокировку по северу</string>
+    <string name="content_description_more">Ещё</string>
+    <string name="category_button_text">Категория</string>
+    <string name="keyword_button_text">Ключевое слово</string>
+    <string name="refresh_button_text">Обновить</string>
+    <string name="find_address_title">Поиск</string>
+    <string name="hint_type_or_speak">Введите текст или скажите</string>
+    <string name="content_description_mic">Микрофон</string>
+
+    <string name="tooltip_node_name">Центральный парк</string>
+    <string name="tooltip_node_category">Досуг</string>
+    <string name="tooltip_node_distance">в 150 м</string>
+
+    <string name="announce_location_meters">%1$s, в %2$.0f метрах</string>
+    <string name="announce_location_kilometers">%1$s, в %2$.1f километрах</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d м, %3$d часов</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d м</string>
+    <string name="announce_aiming_distance_and_clock">%1$d м, %2$d часов</string>
+    <string name="announce_aiming_clock_only">%1$d часов</string>
+    <string name="announce_user_location">Вы</string>
+    <string name="hint_address_input">Адрес</string>
+    <string name="content_description_speak_address">Микрофон</string>
+
+    <string name="download_map_title">Загрузить карту</string>
+    <string name="download_button">Загрузить карту</string>
+    <string name="download_cancel_button">Отменить загрузку</string>
+    <string name="download_cancel_confirm_title">Отменить загрузку?</string>
+    <string name="download_cancel_confirm_message">Импорт карты ещё выполняется. Вы уверены, что хотите отменить его?</string>
+    <string name="download_cancel_confirm_yes">Да, отменить</string>
+    <string name="download_cancel_confirm_no">Нет, продолжить загрузку</string>
+    <string name="download_close_button">Закрыть</string>
+    <string name="download_in_progress_title">Импорт карты уже выполняется.</string>
+    <string name="download_size_label">Размер загрузки: %1$s</string>
+    <string name="download_size_label_multi">Размер загрузки: %1$d файлов, всего %2$s</string>
+    <string name="download_size_unknown">Размер загрузки: неизвестен</string>
+    <string name="download_already_downloaded_prefix">Уже загружено.</string>
+    <string name="download_larger_map_checkbox">Карта большего размера</string>
+    <string name="download_larger_map_hint">Также загружает соседние области (может быть несколько дополнительных файлов).</string>
+    <string name="download_looking_up">Поиск данных карты для этой области…</string>
+    <string name="download_no_data_here">Подробные данные карты для этой области недоступны.</string>
+    <string name="download_area_default_name">этой области</string>
+    <string name="download_complete">Импорт завершён: добавлено объектов — %1$d.</string>
+    <string name="download_failed">Ошибка импорта: %1$s</string>
+    <string name="menu_download_map">Загрузить карту</string>
+    <string name="import_notif_title">Импорт карты</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Запуск</string>
+    <string name="import_cancelled">Импорт отменён.</string>
+    <string name="import_notif_starting">Запуск импорта %1$s…</string>
+    <string name="no_map_here_message">Здесь нет подробной карты — дважды коснитесь, чтобы загрузить.</string>
+    <string name="map_load_failed_message">Не удалось загрузить карту здесь — попробуйте уменьшить масштаб или отойти и вернуться.</string>
+    <string name="download_area_action">Загрузить карту для этой области</string>
+    <string name="download_radius_location_unknown">Местоположение недоступно — переместите карту или предоставьте разрешение на геолокацию</string>
+
+    <string name="render_map_title">Показывать карту (Бета)</string>
+    <string name="render_map_summary_on">Карта отображается на экране для слабовидящих пользователей. Эта функция экспериментальная и продолжает дорабатываться.</string>
+    <string name="render_map_summary_off">Карта не отображается; исследуйте только с помощью касаний и звука.</string>
+
+    <string name="notif_background_title">Navia работает</string>
+    <string name="notif_background_text">Фоновая служба активна</string>
+
+    <string name="action_search">Поиск</string>
+    <string name="address_search_empty_toast">Пожалуйста, введите адрес.</string>
+    <string name="address_search_searching">Поиск…</string>
+    <string name="address_search_select_title">Выберите адрес</string>
+    <string name="address_search_cancelled_toast">Поиск отменён</string>
+    <string name="address_search_error_toast">Ошибка: %1$s</string>
+
+    <string name="hint_enter_point_name">Введите название точки</string>
+    <string name="add_point_dialog_title">Добавить новую точку</string>
+    <string name="action_save_node">Сохранить точку</string>
+    <string name="action_reset_location">Сбросить местоположение</string>
+    <string name="toast_enter_name_required">Пожалуйста, введите название.</string>
+    <string name="toast_waiting_for_location">Всё ещё ожидание местоположения — попробуйте снова через момент.</string>
+    <string name="toast_point_added">Точка добавлена.</string>
+    <string name="status_getting_location">Определение местоположения…</string>
+    <string name="status_getting_location_with_accuracy">Определение местоположения… лучшая точность: %1$dm.</string>
+
+    <string name="action_edit_node">Изменить точку</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="toast_point_updated">Точка обновлена.</string>
+    <string name="confirm_removal_title">Подтвердите удаление</string>
+    <string name="confirm_removal_message">Вы уверены, что хотите удалить эту точку?\n%1$s</string>
+    <string name="action_remove">Удалить</string>
+    <string name="toast_point_removed">Точка удалена.</string>
+
+    <string name="permissions_required_message">Эти разрешения необходимы для корректной работы приложения.</string>
+    <string name="action_grant_permissions">Предоставить разрешения</string>
+    <string name="action_close">Закрыть</string>
+    <string name="content_description_switch_to_compass_lock">Переключить на блокировку по компасу</string>
+
+    <string name="action_aim_at_point">Навести на точку</string>
+    <string name="action_navigate_google_maps">Проложить маршрут к точке в Google Maps</string>
+    <string name="action_zoom_to_point">Приблизить к точке</string>
+    <string name="action_zoom_to_point_on_map">Приблизить к точке на карте</string>
+    <string name="action_remove_from_favorites">Удалить из избранного</string>
+    <string name="action_add_to_favorites">Добавить в избранное</string>
+    <string name="action_details">Подробности</string>
+    <string name="toast_no_additional_details">Дополнительные сведения недоступны.</string>
+
+    <string name="toast_map_location_unavailable">Местоположение карты недоступно.</string>
+    <string name="nearby_nodes_dialog_title">Показать ближайшие точки</string>
+    <string name="nearby_nodes_dialog_message">Карта сейчас не центрирована на вашем местоположении, поэтому «вокруг меня» и «вокруг центра карты» покажут разные точки. Что использовать?</string>
+    <string name="action_around_me">Вокруг меня</string>
+    <string name="action_around_map_center">Вокруг центра карты</string>
+
+</resources>

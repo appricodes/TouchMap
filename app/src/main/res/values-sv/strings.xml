@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="talkback_required_title">TalkBack krävs</string>
+    <string name="talkback_required_message">Den här appen är utformad för att fungera med TalkBack, och TalkBack måste vara aktiverat för att appen ska fungera korrekt. Efter att du har laddat ner kartan för ditt område, rör vid och för fingret över skärmen för att utforska gatorna och punkterna runt dig.</string>
+    <string name="talkback_required_open_settings">Öppna tillgänglighetsinställningar</string>
+
+    <string name="menu_gallery">Galleri</string>
+    <string name="title_activity_settings">Inställningar</string>
+    <string name="please_click_back_again_to_exit">Tryck på TILLBAKA en gång till för att avsluta</string>
+    <string name="language_title">Ditt föredragna språk</string>
+    <string name="general_header">Allmänna inställningar</string>
+    <string name="settings_announcement_header">Meddelanden</string>
+    <string name="cancel_aiming">Avbryt riktning mot %1$s</string>
+    <string name="aiming_started">Riktar mot %1$s. Tryck här för att avbryta.</string>
+    <string name="cancel_search">Avbryt filtrering på %1$s</string>
+    <string name="search_on_map_started">Visar bara punkter som matchar %1$s. Tryck här för att avbryta.</string>
+    <string name="search_canceled">Nyckelordsfilter avbrutet</string>
+
+    <string name="filter_dialog_title">Filtrera kartelement</string>
+    <string name="filter_keyword_label">Nyckelord (lämna tomt för alla)</string>
+    <string name="filter_categories_label">Kategorier</string>
+    <string name="filter_show_selected">Visa valda</string>
+    <string name="filter_show_favorites">Visa favoriter</string>
+    <string name="filter_show_all">Visa alla</string>
+    <string name="startup_download_prompt_title">Ingen karta nedladdad här</string>
+    <string name="startup_download_prompt_message">Det finns ännu ingen nedladdad karta för din nuvarande plats. Ladda ner den nu för att utforska omgivningen.</string>
+    <string name="startup_download_prompt_download">Ladda ner karta</string>
+    <string name="aiming_canceled">Riktning avbruten</string>
+    <string name="settings_sound_header">Ljud och vibration</string>
+    <string name="map_data_header">Kartdata</string>
+    <string name="delete_all_maps_title">Ta bort alla nedladdade kartor</string>
+    <string name="delete_all_maps_summary">Tar bort all nedladdad kartdata från den här enheten. Manuellt tillagda punkter behålls.</string>
+    <string name="delete_all_maps_confirm_title">Ta bort alla nedladdade kartor?</string>
+    <string name="delete_all_maps_confirm_message">Detta tar bort alla nedladdade kartområden från den här enheten. Du måste ladda ner dem igen för att använda dem offline. Manuellt tillagda punkter påverkas inte.</string>
+    <string name="delete_all_maps_confirm_yes">Ta bort</string>
+    <string name="delete_all_maps_confirm_no">Avbryt</string>
+    <string name="delete_all_maps_done">Alla nedladdade kartor har tagits bort.</string>
+    <string name="info_button_text">Noggrannhet: %1$d m, hastighet: %2$.1f km/h</string>
+    <string name="keep_screen_on_title">Håll skärmen på</string>
+    <string name="keep_screen_on_summary_on">Skärmen låses inte medan appen är öppen</string>
+    <string name="keep_screen_on_summary_off">Skärmen låses enligt systeminställningarna</string>
+
+    <string name="content_description_filters">Filter</string>
+    <string name="content_description_search">Sök</string>
+    <string name="content_description_list_nodes">Lista punkter i närheten</string>
+    <string name="nearby_nodes_loading_title">Läser in punkter i närheten…</string>
+    <string name="list_button_text">Lista</string>
+    <string name="content_description_add_point">Lägg till ny punkt</string>
+    <string name="content_description_info">Info</string>
+    <string name="content_description_action">Åtgärd</string>
+    <string name="content_description_explore_map">Utforska</string>
+    <string name="content_description_zoom_in">Zooma in</string>
+    <string name="content_description_zoom_out">Zooma ut</string>
+    <string name="content_description_recenter">Centrera om till din plats</string>
+    <string name="content_description_map_lock">Växla till nordlås</string>
+    <string name="content_description_more">Mer</string>
+    <string name="category_button_text">Kategori</string>
+    <string name="keyword_button_text">Nyckelord</string>
+    <string name="refresh_button_text">Uppdatera</string>
+    <string name="find_address_title">Sök</string>
+    <string name="hint_type_or_speak">Skriv eller tala</string>
+    <string name="content_description_mic">Mikrofon</string>
+
+    <string name="tooltip_node_name">Central Park</string>
+    <string name="tooltip_node_category">Fritid</string>
+    <string name="tooltip_node_distance">150 m bort</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f meter bort</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f kilometer bort</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d meter i klockan %3$d</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d meter</string>
+    <string name="announce_aiming_distance_and_clock">%1$d meter i klockan %2$d</string>
+    <string name="announce_aiming_clock_only">Klockan %1$d</string>
+    <string name="announce_user_location">Du</string>
+    <string name="hint_address_input">Adress</string>
+    <string name="content_description_speak_address">Mikrofon</string>
+
+    <string name="download_map_title">Ladda ner karta</string>
+    <string name="download_button">Ladda ner karta</string>
+    <string name="download_cancel_button">Avbryt nedladdning</string>
+    <string name="download_cancel_confirm_title">Avbryta nedladdningen?</string>
+    <string name="download_cancel_confirm_message">Kartimporten pågår fortfarande. Är du säker på att du vill avbryta den?</string>
+    <string name="download_cancel_confirm_yes">Ja, avbryt</string>
+    <string name="download_cancel_confirm_no">Nej, fortsätt ladda ner</string>
+    <string name="download_close_button">Stäng</string>
+    <string name="download_in_progress_title">En kartimport pågår redan.</string>
+    <string name="download_size_label">Nedladdningsstorlek: %1$s</string>
+    <string name="download_size_label_multi">Nedladdningsstorlek: %1$d filer, %2$s totalt</string>
+    <string name="download_size_unknown">Nedladdningsstorlek: okänd</string>
+    <string name="download_already_downloaded_prefix">Redan nedladdad.</string>
+    <string name="download_larger_map_checkbox">Större karta</string>
+    <string name="download_larger_map_hint">Laddar även ner angränsande områden (kan bli flera filer till).</string>
+    <string name="download_looking_up">Söker efter kartdata för det här området…</string>
+    <string name="download_no_data_here">Det finns ingen detaljerad kartdata tillgänglig för det här området.</string>
+    <string name="download_area_default_name">det här området</string>
+    <string name="download_complete">Import klar: %1$d element tillagda.</string>
+    <string name="download_failed">Import misslyckades: %1$s</string>
+    <string name="menu_download_map">Ladda ner karta</string>
+    <string name="import_notif_title">Importerar karta</string>
+    <string name="import_notif_title_phase_percent">%1$s – %2$d %%</string>
+    <string name="import_notif_starting_phase">Startar</string>
+    <string name="import_cancelled">Import avbruten.</string>
+    <string name="import_notif_starting">Startar import av %1$s…</string>
+    <string name="no_map_here_message">Ingen detaljerad karta här – dubbeltryck för att ladda ner.</string>
+    <string name="map_load_failed_message">Kunde inte läsa in kartan här – prova att zooma ut eller flytta bort och tillbaka.</string>
+    <string name="download_area_action">Ladda ner karta för det här området</string>
+    <string name="download_radius_location_unknown">Plats otillgänglig – flytta kartan eller ge platsbehörighet</string>
+
+    <string name="render_map_title">Visa kartan (Beta)</string>
+    <string name="render_map_summary_on">Kartan ritas upp på skärmen för synsvaga användare. Den här ritningen är experimentell och förbättras fortfarande.</string>
+    <string name="render_map_summary_off">Kartan ritas inte upp; utforska endast med beröring och ljud.</string>
+
+    <string name="notif_background_title">Navia körs</string>
+    <string name="notif_background_text">Bakgrundstjänst aktiv</string>
+
+    <string name="action_search">Sök</string>
+    <string name="address_search_empty_toast">Ange en adress.</string>
+    <string name="address_search_searching">Söker…</string>
+    <string name="address_search_select_title">Välj en adress</string>
+    <string name="address_search_cancelled_toast">Sökning avbruten</string>
+    <string name="address_search_error_toast">Fel: %1$s</string>
+
+    <string name="hint_enter_point_name">Ange punktnamn</string>
+    <string name="add_point_dialog_title">Lägg till ny punkt</string>
+    <string name="action_save_node">Spara punkt</string>
+    <string name="action_reset_location">Återställ plats</string>
+    <string name="toast_enter_name_required">Ange ett namn.</string>
+    <string name="toast_waiting_for_location">Väntar fortfarande på en plats – försök igen om en liten stund.</string>
+    <string name="toast_point_added">Punkt tillagd.</string>
+    <string name="status_getting_location">Hämtar plats…</string>
+    <string name="status_getting_location_with_accuracy">Hämtar plats… bästa noggrannhet: %1$dm.</string>
+
+    <string name="action_edit_node">Redigera punkt</string>
+    <string name="action_save">Spara</string>
+    <string name="action_delete">Ta bort</string>
+    <string name="toast_point_updated">Punkt uppdaterad.</string>
+    <string name="confirm_removal_title">Bekräfta borttagning</string>
+    <string name="confirm_removal_message">Är du säker på att du vill ta bort den här punkten?\n%1$s</string>
+    <string name="action_remove">Ta bort</string>
+    <string name="toast_point_removed">Punkt borttagen.</string>
+
+    <string name="permissions_required_message">Dessa behörigheter krävs för att appen ska fungera korrekt.</string>
+    <string name="action_grant_permissions">Ge behörigheter</string>
+    <string name="action_close">Stäng</string>
+    <string name="content_description_switch_to_compass_lock">Växla till kompasslås</string>
+
+    <string name="action_aim_at_point">Rikta mot punkt</string>
+    <string name="action_navigate_google_maps">Navigera till punkten i Google Maps</string>
+    <string name="action_zoom_to_point">Zooma till punkt</string>
+    <string name="action_zoom_to_point_on_map">Zooma till punkt på kartan</string>
+    <string name="action_remove_from_favorites">Ta bort från favoriter</string>
+    <string name="action_add_to_favorites">Lägg till i favoriter</string>
+    <string name="action_details">Detaljer</string>
+    <string name="toast_no_additional_details">Inga fler detaljer tillgängliga.</string>
+
+    <string name="toast_map_location_unavailable">Kartplats otillgänglig.</string>
+    <string name="nearby_nodes_dialog_title">Visa punkter i närheten</string>
+    <string name="nearby_nodes_dialog_message">Kartan är inte centrerad på din plats just nu, så \"runt mig\" och \"runt kartans mitt\" skulle visa olika punkter. Vilken ska användas?</string>
+    <string name="action_around_me">Runt mig</string>
+    <string name="action_around_map_center">Runt kartans mitt</string>
+
+</resources>

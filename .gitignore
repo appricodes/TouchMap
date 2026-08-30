@@ -1,0 +1,34 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Build artifacts for the world-places database (large; regenerate with tools/build_world_places.py)
+tools/out/
+tools/geonames_cache/
+tools/geofabrik_cache/
+__pycache__/
+
+# Release-signing secrets — never commit. See keystore.properties.example.
+keystore.properties
+*.jks
+*.keystore
+
+# Play Store submission package — contains real contact info, device screenshots, and other details
+# not meant for the public repo.
+/play-store-listing/
+
+# Claude Code local/runtime state — personal permissions and worktree checkouts, not shared config.
+/.claude/settings.local.json
+/.claude/worktrees/

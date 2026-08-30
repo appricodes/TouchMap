@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">設定</string>
+    <string name="talkback_required_title">需要 TalkBack</string>
+    <string name="talkback_required_message">此應用程式的設計需要與 TalkBack 配合使用，必須開啟 TalkBack 應用程式才能正常運作。下載您所在地區的地圖後，用手指觸碰並在螢幕上移動，即可探索附近的街道及地點。</string>
+    <string name="talkback_required_open_settings">開啟協助工具設定</string>
+
+    <string name="menu_gallery">圖庫</string>
+    <string name="title_activity_settings">設定</string>
+    <string name="please_click_back_again_to_exit">請再次按「返回」以退出</string>
+    <string name="language_title">您慣用的語言</string>
+    <string name="general_header">一般設定</string>
+    <string name="settings_announcement_header">語音提示</string>
+    <string name="cancel_aiming">取消指向%1$s</string>
+    <string name="aiming_started">正在指向%1$s。輕觸此處可取消。</string>
+    <string name="cancel_search">取消按%1$s篩選</string>
+    <string name="search_on_map_started">只顯示與%1$s相符的地點。輕觸此處可取消。</string>
+    <string name="search_canceled">已取消關鍵字篩選</string>
+
+    <string name="filter_dialog_title">篩選地圖元素</string>
+    <string name="filter_keyword_label">關鍵字（留空即顯示全部）</string>
+    <string name="filter_categories_label">分類</string>
+    <string name="filter_show_selected">顯示已選項目</string>
+    <string name="filter_show_favorites">顯示收藏</string>
+    <string name="filter_show_all">顯示全部</string>
+    <string name="startup_download_prompt_title">此處尚未下載地圖</string>
+    <string name="startup_download_prompt_message">您目前的位置尚未下載地圖。立即下載以探索周圍環境。</string>
+    <string name="startup_download_prompt_download">下載地圖</string>
+    <string name="aiming_canceled">已取消指向</string>
+    <string name="settings_sound_header">音效與震動</string>
+    <string name="map_data_header">地圖資料</string>
+    <string name="delete_all_maps_title">刪除所有已下載的地圖</string>
+    <string name="delete_all_maps_summary">刪除此裝置上所有已下載的地圖資料。手動新增的地點會保留。</string>
+    <string name="delete_all_maps_confirm_title">要刪除所有已下載的地圖嗎？</string>
+    <string name="delete_all_maps_confirm_message">這會刪除此裝置上所有已下載的地圖區域。若要離線使用，需要重新下載。手動新增的地點不受影響。</string>
+    <string name="delete_all_maps_confirm_yes">刪除</string>
+    <string name="delete_all_maps_confirm_no">取消</string>
+    <string name="delete_all_maps_done">已刪除所有已下載的地圖。</string>
+    <string name="info_button_text">準確度：%1$d 米，速度：%2$.1f 公里/小時</string>
+    <string name="keep_screen_on_title">保持螢幕開啟</string>
+    <string name="keep_screen_on_summary_on">應用程式開啟期間螢幕不會鎖定</string>
+    <string name="keep_screen_on_summary_off">螢幕會根據系統設定鎖定</string>
+
+    <string name="content_description_filters">篩選</string>
+    <string name="content_description_search">搜尋</string>
+    <string name="content_description_list_nodes">列出附近地點</string>
+    <string name="nearby_nodes_loading_title">正在載入附近地點…</string>
+    <string name="list_button_text">清單</string>
+    <string name="content_description_add_point">新增地點</string>
+    <string name="content_description_info">資訊</string>
+    <string name="content_description_action">動作</string>
+    <string name="content_description_explore_map">探索</string>
+    <string name="content_description_zoom_in">放大</string>
+    <string name="content_description_zoom_out">縮小</string>
+    <string name="content_description_recenter">返回您的位置</string>
+    <string name="content_description_map_lock">切換為朝北鎖定</string>
+    <string name="content_description_more">更多</string>
+    <string name="category_button_text">分類</string>
+    <string name="keyword_button_text">關鍵字</string>
+    <string name="refresh_button_text">重新整理</string>
+    <string name="find_address_title">搜尋</string>
+    <string name="hint_type_or_speak">輸入或語音輸入</string>
+    <string name="content_description_mic">麥克風</string>
+
+    <string name="tooltip_node_name">中央公園</string>
+    <string name="tooltip_node_category">消閒</string>
+    <string name="tooltip_node_distance">150米外</string>
+
+    <string name="announce_location_meters">%1$s，%2$.0f米外</string>
+    <string name="announce_location_kilometers">%1$s，%2$.1f公里外</string>
+    <string name="announce_point_with_bearing">%1$s，%2$d米，%3$d點鐘方向</string>
+    <string name="announce_point_without_bearing">%1$s，%2$d米</string>
+    <string name="announce_aiming_distance_and_clock">%1$d米，%2$d點鐘方向</string>
+    <string name="announce_aiming_clock_only">%1$d點鐘方向</string>
+    <string name="announce_user_location">您</string>
+    <string name="hint_address_input">地址</string>
+    <string name="content_description_speak_address">麥克風</string>
+
+    <string name="download_map_title">下載地圖</string>
+    <string name="download_button">下載地圖</string>
+    <string name="download_cancel_button">取消下載</string>
+    <string name="download_cancel_confirm_title">要取消下載嗎？</string>
+    <string name="download_cancel_confirm_message">地圖匯入仍在進行中。確定要取消嗎？</string>
+    <string name="download_cancel_confirm_yes">是，取消</string>
+    <string name="download_cancel_confirm_no">否，繼續下載</string>
+    <string name="download_close_button">關閉</string>
+    <string name="download_in_progress_title">已有一個地圖匯入正在進行。</string>
+    <string name="download_size_label">下載大小：%1$s</string>
+    <string name="download_size_label_multi">下載大小：%1$d 個檔案，共 %2$s</string>
+    <string name="download_size_unknown">下載大小：未知</string>
+    <string name="download_already_downloaded_prefix">已下載。</string>
+    <string name="download_larger_map_checkbox">更大範圍的地圖</string>
+    <string name="download_larger_map_hint">同時下載鄰近區域（可能會增加多個檔案）。</string>
+    <string name="download_looking_up">正在查詢此區域的地圖資料…</string>
+    <string name="download_no_data_here">此區域沒有詳細的地圖資料。</string>
+    <string name="download_area_default_name">此區域</string>
+    <string name="download_complete">匯入完成：已新增 %1$d 個項目。</string>
+    <string name="download_failed">匯入失敗：%1$s</string>
+    <string name="menu_download_map">下載地圖</string>
+    <string name="import_notif_title">正在匯入地圖</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">正在開始</string>
+    <string name="import_cancelled">匯入已取消。</string>
+    <string name="import_notif_starting">正在開始匯入%1$s…</string>
+    <string name="no_map_here_message">此處沒有詳細地圖 — 連按兩下即可下載。</string>
+    <string name="map_load_failed_message">無法載入此處的地圖 — 請嘗試縮小，或移離後再返回。</string>
+    <string name="download_area_action">下載此區域的地圖</string>
+    <string name="download_radius_location_unknown">位置無法使用 — 請移動地圖或授予位置權限</string>
+
+    <string name="render_map_title">顯示地圖（測試版）</string>
+    <string name="render_map_summary_on">為視力欠佳的使用者在螢幕上繪製地圖。此繪圖功能仍屬實驗性質，並持續改進中。</string>
+    <string name="render_map_summary_off">不會繪製地圖；只能透過觸控及聲音探索。</string>
+
+    <string name="notif_background_title">Navia 執行中</string>
+    <string name="notif_background_text">背景服務運作中</string>
+
+    <string name="action_search">搜尋</string>
+    <string name="address_search_empty_toast">請輸入地址。</string>
+    <string name="address_search_searching">正在搜尋…</string>
+    <string name="address_search_select_title">選擇地址</string>
+    <string name="address_search_cancelled_toast">已取消搜尋</string>
+    <string name="address_search_error_toast">錯誤：%1$s</string>
+
+    <string name="hint_enter_point_name">輸入地點名稱</string>
+    <string name="add_point_dialog_title">新增地點</string>
+    <string name="action_save_node">儲存地點</string>
+    <string name="action_reset_location">重設位置</string>
+    <string name="toast_enter_name_required">請輸入名稱。</string>
+    <string name="toast_waiting_for_location">仍在取得位置 — 請稍後再試。</string>
+    <string name="toast_point_added">已新增地點。</string>
+    <string name="status_getting_location">正在取得位置…</string>
+    <string name="status_getting_location_with_accuracy">正在取得位置…最佳準確度：%1$d米。</string>
+
+    <string name="action_edit_node">編輯地點</string>
+    <string name="action_save">儲存</string>
+    <string name="action_delete">刪除</string>
+    <string name="toast_point_updated">地點已更新。</string>
+    <string name="confirm_removal_title">確認移除</string>
+    <string name="confirm_removal_message">確定要移除此地點嗎？\n%1$s</string>
+    <string name="action_remove">移除</string>
+    <string name="toast_point_removed">地點已移除。</string>
+
+    <string name="permissions_required_message">應用程式需要這些權限才能正常運作。</string>
+    <string name="action_grant_permissions">授予權限</string>
+    <string name="action_close">關閉</string>
+    <string name="content_description_switch_to_compass_lock">切換為指南針鎖定</string>
+
+    <string name="action_aim_at_point">指向地點</string>
+    <string name="action_navigate_google_maps">在Google地圖中導航至該地點</string>
+    <string name="action_zoom_to_point">縮放至地點</string>
+    <string name="action_zoom_to_point_on_map">在地圖上縮放至地點</string>
+    <string name="action_remove_from_favorites">從收藏移除</string>
+    <string name="action_add_to_favorites">加入收藏</string>
+    <string name="action_details">詳情</string>
+    <string name="toast_no_additional_details">沒有更多詳細資料。</string>
+
+    <string name="toast_map_location_unavailable">地圖位置無法使用。</string>
+    <string name="nearby_nodes_dialog_title">顯示附近地點</string>
+    <string name="nearby_nodes_dialog_message">地圖目前並非以您的位置為中心，因此「我的周邊」和「地圖中心周邊」會顯示不同的地點。應使用哪一個？</string>
+    <string name="action_around_me">我的周邊</string>
+    <string name="action_around_map_center">地圖中心周邊</string>
+
+</resources>

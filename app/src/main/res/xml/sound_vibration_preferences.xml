@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Sound effects volume -->
+    <ListPreference
+        android:key="pref_sound_effects_volume"
+        android:title="Sound Effects Volume"
+        app:useSimpleSummaryProvider="true"
+        android:entries="@array/pref_sound_volume_entries"
+        android:entryValues="@array/pref_sound_volume_values"
+        android:defaultValue="0.5"/>
+
+    <!-- Vibration intensity -->
+    <ListPreference
+        android:key="pref_vibration_intensity"
+        android:title="Vibration Intensity"
+        app:useSimpleSummaryProvider="true"
+        android:entries="@array/pref_vibration_entries"
+        android:entryValues="@array/pref_vibration_values"
+        android:defaultValue="0.3" />
+</PreferenceScreen>

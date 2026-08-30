@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="talkback_required_title">ಟಾಕ್‌ಬ್ಯಾಕ್ ಅಗತ್ಯವಿದೆ</string>
+    <string name="talkback_required_message">ಈ ಆ್ಯಪ್ ಟಾಕ್‌ಬ್ಯಾಕ್‌ನೊಂದಿಗೆ ಕೆಲಸ ಮಾಡುವಂತೆ ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ, ಮತ್ತು ಆ್ಯಪ್ ಸರಿಯಾಗಿ ಕೆಲಸ ಮಾಡಲು ಟಾಕ್‌ಬ್ಯಾಕ್ ಆನ್ ಆಗಿರಬೇಕು. ನಿಮ್ಮ ಪ್ರದೇಶದ ನಕ್ಷೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ನಂತರ, ನಿಮ್ಮ ಸುತ್ತಮುತ್ತಲಿನ ರಸ್ತೆಗಳು ಮತ್ತು ಸ್ಥಳಗಳನ್ನು ಅನ್ವೇಷಿಸಲು ಪರದೆಯ ಮೇಲೆ ನಿಮ್ಮ ಬೆರಳನ್ನು ಸ್ಪರ್ಶಿಸಿ ಚಲಿಸಿ.</string>
+    <string name="talkback_required_open_settings">ಪ್ರವೇಶಿಸುವಿಕೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ</string>
+
+    <string name="menu_gallery">ಗ್ಯಾಲರಿ</string>
+    <string name="title_activity_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="please_click_back_again_to_exit">ನಿರ್ಗಮಿಸಲು ದಯವಿಟ್ಟು BACK ಅನ್ನು ಮತ್ತೆ ಕ್ಲಿಕ್ ಮಾಡಿ</string>
+    <string name="language_title">ನಿಮ್ಮ ಆದ್ಯತೆಯ ಭಾಷೆ</string>
+    <string name="general_header">ಸಾಮಾನ್ಯ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="settings_announcement_header">ಪ್ರಕಟಣೆಗಳು</string>
+    <string name="cancel_aiming">%1$s ಗುರಿಯಿಡುವಿಕೆಯನ್ನು ರದ್ದುಗೊಳಿಸಿ</string>
+    <string name="aiming_started">%1$s ಕಡೆಗೆ ಗುರಿಯಿಡುತ್ತಿದೆ. ರದ್ದುಗೊಳಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ.</string>
+    <string name="cancel_search">%1$s ಮೂಲಕ ಫಿಲ್ಟರ್ ಮಾಡುವುದನ್ನು ರದ್ದುಗೊಳಿಸಿ</string>
+    <string name="search_on_map_started">%1$s ಗೆ ಹೊಂದಿಕೆಯಾಗುವ ಬಿಂದುಗಳನ್ನು ಮಾತ್ರ ತೋರಿಸಲಾಗುತ್ತಿದೆ. ರದ್ದುಗೊಳಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ.</string>
+    <string name="search_canceled">ಕೀವರ್ಡ್ ಫಿಲ್ಟರ್ ರದ್ದುಗೊಂಡಿದೆ</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">ನಕ್ಷೆ ಅಂಶಗಳನ್ನು ಫಿಲ್ಟರ್ ಮಾಡಿ</string>
+    <string name="filter_keyword_label">ಕೀವರ್ಡ್ (ಎಲ್ಲದಕ್ಕೂ ಖಾಲಿ ಬಿಡಿ)</string>
+    <string name="filter_categories_label">ವರ್ಗಗಳು</string>
+    <string name="filter_show_selected">ಆಯ್ಕೆಮಾಡಿದವುಗಳನ್ನು ತೋರಿಸಿ</string>
+    <string name="filter_show_favorites">ಮೆಚ್ಚಿನವುಗಳನ್ನು ತೋರಿಸಿ</string>
+    <string name="filter_show_all">ಎಲ್ಲವನ್ನೂ ತೋರಿಸಿ</string>
+    <string name="startup_download_prompt_title">ಇಲ್ಲಿ ಯಾವುದೇ ನಕ್ಷೆ ಡೌನ್‌ಲೋಡ್ ಆಗಿಲ್ಲ</string>
+    <string name="startup_download_prompt_message">ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಸ್ಥಳಕ್ಕೆ ಇನ್ನೂ ಯಾವುದೇ ನಕ್ಷೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿಲ್ಲ. ನಿಮ್ಮ ಸುತ್ತಮುತ್ತಲನ್ನು ಅನ್ವೇಷಿಸಲು ಈಗಲೇ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ.</string>
+    <string name="startup_download_prompt_download">ನಕ್ಷೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ</string>
+    <string name="aiming_canceled">ಗುರಿಯಿಡುವಿಕೆ ರದ್ದುಗೊಂಡಿದೆ</string>
+    <string name="settings_sound_header">ಧ್ವನಿ ಮತ್ತು ಕಂಪನ</string>
+    <string name="map_data_header">ನಕ್ಷೆ ಡೇಟಾ</string>
+    <string name="delete_all_maps_title">ಎಲ್ಲಾ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ನಕ್ಷೆಗಳನ್ನು ಅಳಿಸಿ</string>
+    <string name="delete_all_maps_summary">ಈ ಸಾಧನದಿಂದ ಎಲ್ಲಾ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ನಕ್ಷೆ ಡೇಟಾವನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ. ಕೈಯಾರೆ ಸೇರಿಸಿದ ಬಿಂದುಗಳನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲಾಗುತ್ತದೆ.</string>
+    <string name="delete_all_maps_confirm_title">ಎಲ್ಲಾ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ನಕ್ಷೆಗಳನ್ನು ಅಳಿಸುವುದೇ?</string>
+    <string name="delete_all_maps_confirm_message">ಇದು ಈ ಸಾಧನದಿಂದ ಪ್ರತಿಯೊಂದು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ನಕ್ಷೆ ಪ್ರದೇಶವನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ. ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಬಳಸಲು ನೀವು ಅದನ್ನು ಮತ್ತೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಬೇಕಾಗುತ್ತದೆ. ಕೈಯಾರೆ ಸೇರಿಸಿದ ಬಿಂದುಗಳ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುವುದಿಲ್ಲ.</string>
+    <string name="delete_all_maps_confirm_yes">ಅಳಿಸಿ</string>
+    <string name="delete_all_maps_confirm_no">ರದ್ದುಮಾಡಿ</string>
+    <string name="delete_all_maps_done">ಎಲ್ಲಾ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ನಕ್ಷೆಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ.</string>
+    <string name="info_button_text">ನಿಖರತೆ: %1$d ಮೀ, ವೇಗ: %2$.1f ಕಿಮೀ/ಗಂ</string>
+    <string name="keep_screen_on_title">ಪರದೆಯನ್ನು ಆನ್ ಆಗಿರಿಸಿ</string>
+    <string name="keep_screen_on_summary_on">ಆ್ಯಪ್ ತೆರೆದಿರುವಾಗ ಪರದೆ ಲಾಕ್ ಆಗುವುದಿಲ್ಲ</string>
+    <string name="keep_screen_on_summary_off">ಸಿಸ್ಟಂ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಆಧಾರದ ಮೇಲೆ ಪರದೆ ಲಾಕ್ ಆಗುತ್ತದೆ</string>
+
+    <string name="content_description_filters">ಫಿಲ್ಟರ್‌ಗಳು</string>
+    <string name="content_description_search">ಹುಡುಕಿ</string>
+    <string name="content_description_list_nodes">ಹತ್ತಿರದ ಬಿಂದುಗಳ ಪಟ್ಟಿ</string>
+    <string name="nearby_nodes_loading_title">ಹತ್ತಿರದ ಬಿಂದುಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+    <string name="list_button_text">ಪಟ್ಟಿ</string>
+    <string name="content_description_add_point">ಹೊಸ ಬಿಂದುವನ್ನು ಸೇರಿಸಿ</string>
+    <string name="content_description_info">ಮಾಹಿತಿ</string>
+    <string name="content_description_action">ಕ್ರಿಯೆ</string>
+    <string name="content_description_explore_map">ಅನ್ವೇಷಿಸಿ</string>
+    <string name="content_description_zoom_in">ಝೂಮ್ ಇನ್</string>
+    <string name="content_description_zoom_out">ಝೂಮ್ ಔಟ್</string>
+    <string name="content_description_recenter">ನಿಮ್ಮ ಸ್ಥಳಕ್ಕೆ ಮರುಕೇಂದ್ರೀಕರಿಸಿ</string>
+    <string name="content_description_map_lock">ನಾರ್ತ್ ಲಾಕ್‌ಗೆ ಬದಲಿಸಿ</string>
+    <string name="content_description_more">ಇನ್ನಷ್ಟು</string>
+    <string name="category_button_text">ವರ್ಗ</string>
+    <string name="keyword_button_text">ಕೀವರ್ಡ್</string>
+    <string name="refresh_button_text">ರಿಫ್ರೆಶ್</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">ಹುಡುಕಿ</string>
+    <string name="hint_type_or_speak">ಟೈಪ್ ಮಾಡಿ ಅಥವಾ ಮಾತನಾಡಿ</string>
+    <string name="content_description_mic">ಮೈಕ್</string>
+
+    <string name="tooltip_node_name">ಸೆಂಟ್ರಲ್ ಪಾರ್ಕ್</string>
+    <string name="tooltip_node_category">ವಿರಾಮ</string>
+    <string name="tooltip_node_distance">150 ಮೀ ದೂರದಲ್ಲಿದೆ</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f ಮೀಟರ್ ದೂರದಲ್ಲಿದೆ</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f ಕಿಲೋಮೀಟರ್ ದೂರದಲ್ಲಿದೆ</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d ಮೀಟರ್, %3$d ಗಂಟೆಯ ದಿಕ್ಕಿನಲ್ಲಿ</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d ಮೀಟರ್</string>
+    <string name="announce_aiming_distance_and_clock">%1$d ಮೀಟರ್, %2$d ಗಂಟೆಯ ದಿಕ್ಕಿನಲ್ಲಿ</string>
+    <string name="announce_aiming_clock_only">%1$d ಗಂಟೆಯ ದಿಕ್ಕಿನಲ್ಲಿ</string>
+    <string name="announce_user_location">ನೀವು</string>
+    <string name="hint_address_input">ವಿಳಾಸ</string>
+    <string name="content_description_speak_address">ಮೈಕ್ರೊಫೋನ್</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">ನಕ್ಷೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ</string>
+    <string name="download_button">ನಕ್ಷೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ</string>
+    <string name="download_cancel_button">ಡೌನ್‌ಲೋಡ್ ರದ್ದುಮಾಡಿ</string>
+    <string name="download_cancel_confirm_title">ಡೌನ್‌ಲೋಡ್ ರದ್ದುಮಾಡುವುದೇ?</string>
+    <string name="download_cancel_confirm_message">ನಕ್ಷೆ ಆಮದು ಇನ್ನೂ ಪ್ರಗತಿಯಲ್ಲಿದೆ. ಇದನ್ನು ರದ್ದುಗೊಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿದ್ದೀರಾ?</string>
+    <string name="download_cancel_confirm_yes">ಹೌದು, ರದ್ದುಮಾಡಿ</string>
+    <string name="download_cancel_confirm_no">ಇಲ್ಲ, ಡೌನ್‌ಲೋಡ್ ಮುಂದುವರಿಸಿ</string>
+    <string name="download_close_button">ಮುಚ್ಚಿ</string>
+    <string name="download_in_progress_title">ನಕ್ಷೆ ಆಮದು ಈಗಾಗಲೇ ಚಾಲನೆಯಲ್ಲಿದೆ.</string>
+    <string name="download_size_label">ಡೌನ್‌ಲೋಡ್ ಗಾತ್ರ: %1$s</string>
+    <string name="download_size_label_multi">ಡೌನ್‌ಲೋಡ್ ಗಾತ್ರ: %1$d ಫೈಲ್‌ಗಳು, ಒಟ್ಟು %2$s</string>
+    <string name="download_size_unknown">ಡೌನ್‌ಲೋಡ್ ಗಾತ್ರ: ಅಜ್ಞಾತ</string>
+    <string name="download_already_downloaded_prefix">ಈಗಾಗಲೇ ಡೌನ್‌ಲೋಡ್ ಆಗಿದೆ.</string>
+    <string name="download_larger_map_checkbox">ದೊಡ್ಡ ನಕ್ಷೆ</string>
+    <string name="download_larger_map_hint">ಪಕ್ಕದ ಪ್ರದೇಶಗಳನ್ನೂ ಡೌನ್‌ಲೋಡ್ ಮಾಡುತ್ತದೆ (ಹಲವಾರು ಹೆಚ್ಚುವರಿ ಫೈಲ್‌ಗಳಿರಬಹುದು).</string>
+    <string name="download_looking_up">ಈ ಪ್ರದೇಶದ ನಕ್ಷೆ ಡೇಟಾವನ್ನು ಹುಡುಕಲಾಗುತ್ತಿದೆ…</string>
+    <string name="download_no_data_here">ಈ ಪ್ರದೇಶಕ್ಕೆ ವಿವರವಾದ ನಕ್ಷೆ ಡೇಟಾ ಲಭ್ಯವಿಲ್ಲ.</string>
+    <string name="download_area_default_name">ಈ ಪ್ರದೇಶ</string>
+    <string name="download_complete">ಆಮದು ಪೂರ್ಣಗೊಂಡಿದೆ: %1$d ಅಂಶಗಳನ್ನು ಸೇರಿಸಲಾಗಿದೆ.</string>
+    <string name="download_failed">ಆಮದು ವಿಫಲವಾಗಿದೆ: %1$s</string>
+    <string name="menu_download_map">ನಕ್ಷೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ</string>
+    <string name="import_notif_title">ನಕ್ಷೆ ಆಮದು ಮಾಡಲಾಗುತ್ತಿದೆ</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">ಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ</string>
+    <string name="import_cancelled">ಆಮದು ರದ್ದುಗೊಂಡಿದೆ.</string>
+    <string name="import_notif_starting">%1$s ನ ಆಮದನ್ನು ಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ…</string>
+    <string name="no_map_here_message">ಇಲ್ಲಿ ವಿವರವಾದ ನಕ್ಷೆ ಇಲ್ಲ — ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಡಬಲ್ ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
+    <string name="map_load_failed_message">ಇಲ್ಲಿ ನಕ್ಷೆಯನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ — ಝೂಮ್ ಔಟ್ ಮಾಡಿ ಅಥವಾ ದೂರ ಹೋಗಿ ಹಿಂತಿರುಗಿ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="download_area_action">ಈ ಪ್ರದೇಶಕ್ಕೆ ನಕ್ಷೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ</string>
+    <string name="download_radius_location_unknown">ಸ್ಥಳ ಲಭ್ಯವಿಲ್ಲ — ನಕ್ಷೆಯನ್ನು ಸರಿಸಿ ಅಥವಾ ಸ್ಥಳ ಅನುಮತಿ ನೀಡಿ</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">ನಕ್ಷೆಯನ್ನು ತೋರಿಸಿ (ಬೀಟಾ)</string>
+    <string name="render_map_summary_on">ಕಡಿಮೆ ದೃಷ್ಟಿ ಇರುವ ಬಳಕೆದಾರರಿಗಾಗಿ ನಕ್ಷೆಯನ್ನು ಪರದೆಯ ಮೇಲೆ ಬಿಡಿಸಲಾಗುತ್ತದೆ. ಈ ಡ್ರಾಯಿಂಗ್ ಪ್ರಾಯೋಗಿಕವಾಗಿದೆ ಮತ್ತು ಇನ್ನೂ ಸುಧಾರಿಸುತ್ತಿದೆ.</string>
+    <string name="render_map_summary_off">ನಕ್ಷೆಯನ್ನು ಬಿಡಿಸಲಾಗುವುದಿಲ್ಲ; ಸ್ಪರ್ಶ ಮತ್ತು ಧ್ವನಿಯ ಮೂಲಕ ಮಾತ್ರ ಅನ್ವೇಷಿಸಿ.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia ಚಾಲನೆಯಲ್ಲಿದೆ</string>
+    <string name="notif_background_text">ಹಿನ್ನೆಲೆ ಸೇವೆ ಸಕ್ರಿಯವಾಗಿದೆ</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">ಹುಡುಕಿ</string>
+    <string name="address_search_empty_toast">ದಯವಿಟ್ಟು ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ.</string>
+    <string name="address_search_searching">ಹುಡುಕಲಾಗುತ್ತಿದೆ…</string>
+    <string name="address_search_select_title">ವಿಳಾಸವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="address_search_cancelled_toast">ಹುಡುಕಾಟ ರದ್ದಾಗಿದೆ</string>
+    <string name="address_search_error_toast">ದೋಷ: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">ಬಿಂದುವಿನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="add_point_dialog_title">ಹೊಸ ಬಿಂದುವನ್ನು ಸೇರಿಸಿ</string>
+    <string name="action_save_node">ಬಿಂದುವನ್ನು ಉಳಿಸಿ</string>
+    <string name="action_reset_location">ಸ್ಥಳವನ್ನು ಮರುಹೊಂದಿಸಿ</string>
+    <string name="toast_enter_name_required">ದಯವಿಟ್ಟು ಹೆಸರನ್ನು ನಮೂದಿಸಿ.</string>
+    <string name="toast_waiting_for_location">ಇನ್ನೂ ಸ್ಥಳಕ್ಕಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ — ದಯವಿಟ್ಟು ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="toast_point_added">ಬಿಂದು ಸೇರಿಸಲಾಗಿದೆ.</string>
+    <string name="status_getting_location">ಸ್ಥಳ ಪಡೆಯಲಾಗುತ್ತಿದೆ…</string>
+    <string name="status_getting_location_with_accuracy">ಸ್ಥಳ ಪಡೆಯಲಾಗುತ್ತಿದೆ… ಅತ್ಯುತ್ತಮ ನಿಖರತೆ: %1$dಮೀ.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">ಬಿಂದುವನ್ನು ಸಂಪಾದಿಸಿ</string>
+    <string name="action_save">ಉಳಿಸಿ</string>
+    <string name="action_delete">ಅಳಿಸಿ</string>
+    <string name="toast_point_updated">ಬಿಂದು ನವೀಕರಿಸಲಾಗಿದೆ.</string>
+    <string name="confirm_removal_title">ತೆಗೆದುಹಾಕುವಿಕೆಯನ್ನು ದೃಢೀಕರಿಸಿ</string>
+    <string name="confirm_removal_message">ಈ ಬಿಂದುವನ್ನು ತೆಗೆದುಹಾಕಲು ನೀವು ಖಚಿತವಾಗಿದ್ದೀರಾ?\n%1$s</string>
+    <string name="action_remove">ತೆಗೆದುಹಾಕಿ</string>
+    <string name="toast_point_removed">ಬಿಂದು ತೆಗೆದುಹಾಕಲಾಗಿದೆ.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">ಆ್ಯಪ್ ಸರಿಯಾಗಿ ಕೆಲಸ ಮಾಡಲು ಈ ಅನುಮತಿಗಳು ಅಗತ್ಯ.</string>
+    <string name="action_grant_permissions">ಅನುಮತಿಗಳನ್ನು ನೀಡಿ</string>
+    <string name="action_close">ಮುಚ್ಚಿ</string>
+    <string name="content_description_switch_to_compass_lock">ಕಂಪಾಸ್ ಲಾಕ್‌ಗೆ ಬದಲಿಸಿ</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">ಬಿಂದುವಿನತ್ತ ಗುರಿಯಿಡಿ</string>
+    <string name="action_navigate_google_maps">Google Maps ನಲ್ಲಿ ಬಿಂದುವಿಗೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ</string>
+    <string name="action_zoom_to_point">ಬಿಂದುವಿಗೆ ಝೂಮ್ ಮಾಡಿ</string>
+    <string name="action_zoom_to_point_on_map">ನಕ್ಷೆಯಲ್ಲಿ ಬಿಂದುವಿಗೆ ಝೂಮ್ ಮಾಡಿ</string>
+    <string name="action_remove_from_favorites">ಮೆಚ್ಚಿನವುಗಳಿಂದ ತೆಗೆದುಹಾಕಿ</string>
+    <string name="action_add_to_favorites">ಮೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸಿ</string>
+    <string name="action_details">ವಿವರಗಳು</string>
+    <string name="toast_no_additional_details">ಹೆಚ್ಚಿನ ವಿವರಗಳು ಲಭ್ಯವಿಲ್ಲ.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">ನಕ್ಷೆ ಸ್ಥಳ ಲಭ್ಯವಿಲ್ಲ.</string>
+    <string name="nearby_nodes_dialog_title">ಹತ್ತಿರದ ಬಿಂದುಗಳನ್ನು ತೋರಿಸಿ</string>
+    <string name="nearby_nodes_dialog_message">ನಕ್ಷೆ ಪ್ರಸ್ತುತ ನಿಮ್ಮ ಸ್ಥಳದಲ್ಲಿ ಕೇಂದ್ರೀಕೃತವಾಗಿಲ್ಲ, ಆದ್ದರಿಂದ \"ನನ್ನ ಸುತ್ತಲೂ\" ಮತ್ತು \"ನಕ್ಷೆಯ ಸುತ್ತಲೂ\" ವಿಭಿನ್ನ ಬಿಂದುಗಳನ್ನು ತೋರಿಸುತ್ತವೆ. ಯಾವುದನ್ನು ಬಳಸಬೇಕು?</string>
+    <string name="action_around_me">ನನ್ನ ಸುತ್ತಲೂ</string>
+    <string name="action_around_map_center">ನಕ್ಷೆಯ ಕೇಂದ್ರದ ಸುತ್ತಲೂ</string>
+
+</resources>

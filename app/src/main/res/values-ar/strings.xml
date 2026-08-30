@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="talkback_required_title">تفعيل TalkBack مطلوب</string>
+    <string name="talkback_required_message">تم تصميم هذا التطبيق للعمل مع TalkBack، ويجب تفعيل TalkBack ليعمل التطبيق بشكل صحيح. بعد تنزيل الخريطة لمنطقتك، المس الشاشة وحرّك إصبعك عليها لاستكشاف الشوارع والنقاط من حولك.</string>
+    <string name="talkback_required_open_settings">فتح إعدادات إمكانية الوصول</string>
+
+    <string name="menu_gallery">المعرض</string>
+    <string name="title_activity_settings">الإعدادات</string>
+    <string name="please_click_back_again_to_exit">يرجى الضغط على زر الرجوع مرة أخرى للخروج</string>
+    <string name="language_title">لغتك المفضلة</string>
+    <string name="general_header">الإعدادات العامة</string>
+    <string name="settings_announcement_header">الإعلانات الصوتية</string>
+    <string name="cancel_aiming">إلغاء التوجّه نحو %1$s</string>
+    <string name="aiming_started">جارٍ التوجّه نحو %1$s. اضغط هنا للإلغاء.</string>
+    <string name="cancel_search">إلغاء التصفية حسب %1$s</string>
+    <string name="search_on_map_started">يتم عرض النقاط المطابقة لـ %1$s فقط. اضغط هنا للإلغاء.</string>
+    <string name="search_canceled">تم إلغاء تصفية الكلمات المفتاحية</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">تصفية عناصر الخريطة</string>
+    <string name="filter_keyword_label">كلمة مفتاحية (اتركها فارغة لعرض الكل)</string>
+    <string name="filter_categories_label">الفئات</string>
+    <string name="filter_show_selected">عرض المحدد</string>
+    <string name="filter_show_favorites">عرض المفضلة</string>
+    <string name="filter_show_all">عرض الكل</string>
+    <string name="startup_download_prompt_title">لا توجد خريطة منزّلة هنا</string>
+    <string name="startup_download_prompt_message">لا توجد خريطة منزّلة لموقعك الحالي بعد. نزّلها الآن لاستكشاف محيطك.</string>
+    <string name="startup_download_prompt_download">تنزيل الخريطة</string>
+    <string name="aiming_canceled">تم إلغاء التوجّه</string>
+    <string name="settings_sound_header">الصوت والاهتزاز</string>
+    <string name="map_data_header">بيانات الخريطة</string>
+    <string name="delete_all_maps_title">حذف جميع الخرائط المنزّلة</string>
+    <string name="delete_all_maps_summary">يزيل جميع بيانات الخرائط المنزّلة من هذا الجهاز. تبقى النقاط المضافة يدويًا دون تغيير.</string>
+    <string name="delete_all_maps_confirm_title">هل تريد حذف جميع الخرائط المنزّلة؟</string>
+    <string name="delete_all_maps_confirm_message">سيؤدي هذا إلى إزالة كل منطقة خريطة منزّلة من هذا الجهاز. ستحتاج إلى تنزيلها مرة أخرى لاستخدامها دون اتصال. لن تتأثر النقاط المضافة يدويًا.</string>
+    <string name="delete_all_maps_confirm_yes">حذف</string>
+    <string name="delete_all_maps_confirm_no">إلغاء</string>
+    <string name="delete_all_maps_done">تم حذف جميع الخرائط المنزّلة.</string>
+    <string name="info_button_text">الدقة: %1$d م، السرعة: %2$.1f كم/س</string>
+    <string name="keep_screen_on_title">إبقاء الشاشة مضاءة</string>
+    <string name="keep_screen_on_summary_on">لن تُقفل الشاشة أثناء فتح التطبيق</string>
+    <string name="keep_screen_on_summary_off">ستُقفل الشاشة وفقًا لإعدادات النظام</string>
+
+    <string name="content_description_filters">عوامل التصفية</string>
+    <string name="content_description_search">بحث</string>
+    <string name="content_description_list_nodes">عرض النقاط القريبة</string>
+    <string name="nearby_nodes_loading_title">جارٍ تحميل النقاط القريبة…</string>
+    <string name="list_button_text">قائمة</string>
+    <string name="content_description_add_point">إضافة نقطة جديدة</string>
+    <string name="content_description_info">معلومات</string>
+    <string name="content_description_action">إجراء</string>
+    <string name="content_description_explore_map">استكشاف</string>
+    <string name="content_description_zoom_in">تكبير</string>
+    <string name="content_description_zoom_out">تصغير</string>
+    <string name="content_description_recenter">إعادة التمركز إلى موقعك</string>
+    <string name="content_description_map_lock">التبديل إلى قفل الشمال</string>
+    <string name="content_description_more">المزيد</string>
+    <string name="category_button_text">الفئة</string>
+    <string name="keyword_button_text">كلمة مفتاحية</string>
+    <string name="refresh_button_text">تحديث</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">بحث</string>
+    <string name="hint_type_or_speak">اكتب أو تحدث</string>
+    <string name="content_description_mic">الميكروفون</string>
+
+    <string name="tooltip_node_name">سنترال بارك</string>
+    <string name="tooltip_node_category">ترفيه</string>
+    <string name="tooltip_node_distance">على بعد 150 مترًا</string>
+
+    <string name="announce_location_meters">%1$s، على بعد %2$.0f مترًا</string>
+    <string name="announce_location_kilometers">%1$s، على بعد %2$.1f كيلومترًا</string>
+    <string name="announce_point_with_bearing">%1$s، %2$d مترًا عند الساعة %3$d</string>
+    <string name="announce_point_without_bearing">%1$s، %2$d مترًا</string>
+    <string name="announce_aiming_distance_and_clock">%1$d مترًا عند الساعة %2$d</string>
+    <string name="announce_aiming_clock_only">عند الساعة %1$d</string>
+    <string name="announce_user_location">أنت</string>
+    <string name="hint_address_input">العنوان</string>
+    <string name="content_description_speak_address">الميكروفون</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">تنزيل الخريطة</string>
+    <string name="download_button">تنزيل الخريطة</string>
+    <string name="download_cancel_button">إلغاء التنزيل</string>
+    <string name="download_cancel_confirm_title">هل تريد إلغاء التنزيل؟</string>
+    <string name="download_cancel_confirm_message">عملية استيراد الخريطة لا تزال جارية. هل أنت متأكد أنك تريد إلغاءها؟</string>
+    <string name="download_cancel_confirm_yes">نعم، إلغاء</string>
+    <string name="download_cancel_confirm_no">لا، متابعة التنزيل</string>
+    <string name="download_close_button">إغلاق</string>
+    <string name="download_in_progress_title">هناك عملية استيراد خريطة قيد التشغيل بالفعل.</string>
+    <string name="download_size_label">حجم التنزيل: %1$s</string>
+    <string name="download_size_label_multi">حجم التنزيل: %1$d ملفات، الإجمالي %2$s</string>
+    <string name="download_size_unknown">حجم التنزيل: غير معروف</string>
+    <string name="download_already_downloaded_prefix">تم تنزيلها بالفعل.</string>
+    <string name="download_larger_map_checkbox">خريطة أكبر</string>
+    <string name="download_larger_map_hint">يُنزّل أيضًا المناطق المجاورة (قد يضيف عدة ملفات).</string>
+    <string name="download_looking_up">جارٍ البحث عن بيانات الخريطة لهذه المنطقة…</string>
+    <string name="download_no_data_here">لا تتوفر بيانات خريطة تفصيلية لهذه المنطقة.</string>
+    <string name="download_area_default_name">هذه المنطقة</string>
+    <string name="download_complete">اكتمل الاستيراد: تمت إضافة %1$d عنصرًا.</string>
+    <string name="download_failed">فشل الاستيراد: %1$s</string>
+    <string name="menu_download_map">تنزيل الخريطة</string>
+    <string name="import_notif_title">جارٍ استيراد الخريطة</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">جارٍ البدء</string>
+    <string name="import_cancelled">تم إلغاء الاستيراد.</string>
+    <string name="import_notif_starting">جارٍ بدء استيراد %1$s…</string>
+    <string name="no_map_here_message">لا توجد خريطة تفصيلية هنا — انقر مرتين للتنزيل.</string>
+    <string name="map_load_failed_message">تعذّر تحميل الخريطة هنا — جرّب التصغير أو الابتعاد ثم العودة.</string>
+    <string name="download_area_action">تنزيل خريطة لهذه المنطقة</string>
+    <string name="download_radius_location_unknown">الموقع غير متاح — حرّك الخريطة أو امنح إذن الموقع</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">عرض الخريطة (تجريبي)</string>
+    <string name="render_map_summary_on">تُرسم الخريطة على الشاشة لضعاف البصر. هذا الرسم تجريبي وما زال قيد التحسين.</string>
+    <string name="render_map_summary_off">لا تُرسم الخريطة؛ استكشف باللمس والصوت فقط.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia قيد التشغيل</string>
+    <string name="notif_background_text">خدمة الخلفية نشطة</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">بحث</string>
+    <string name="address_search_empty_toast">يرجى إدخال عنوان.</string>
+    <string name="address_search_searching">جارٍ البحث…</string>
+    <string name="address_search_select_title">اختر عنوانًا</string>
+    <string name="address_search_cancelled_toast">تم إلغاء البحث</string>
+    <string name="address_search_error_toast">خطأ: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">أدخل اسم النقطة</string>
+    <string name="add_point_dialog_title">إضافة نقطة جديدة</string>
+    <string name="action_save_node">حفظ النقطة</string>
+    <string name="action_reset_location">إعادة تعيين الموقع</string>
+    <string name="toast_enter_name_required">يرجى إدخال اسم.</string>
+    <string name="toast_waiting_for_location">لا يزال في انتظار تحديد الموقع — يرجى المحاولة مرة أخرى بعد قليل.</string>
+    <string name="toast_point_added">تمت إضافة النقطة.</string>
+    <string name="status_getting_location">جارٍ تحديد الموقع…</string>
+    <string name="status_getting_location_with_accuracy">جارٍ تحديد الموقع… أفضل دقة: %1$dم.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">تعديل النقطة</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_delete">حذف</string>
+    <string name="toast_point_updated">تم تحديث النقطة.</string>
+    <string name="confirm_removal_title">تأكيد الإزالة</string>
+    <string name="confirm_removal_message">هل أنت متأكد أنك تريد إزالة هذه النقطة؟\n%1$s</string>
+    <string name="action_remove">إزالة</string>
+    <string name="toast_point_removed">تمت إزالة النقطة.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">هذه الأذونات ضرورية لعمل التطبيق بشكل صحيح.</string>
+    <string name="action_grant_permissions">منح الأذونات</string>
+    <string name="action_close">إغلاق</string>
+    <string name="content_description_switch_to_compass_lock">التبديل إلى قفل البوصلة</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">التوجّه نحو نقطة</string>
+    <string name="action_navigate_google_maps">التوجه إلى النقطة عبر خرائط Google</string>
+    <string name="action_zoom_to_point">التكبير إلى النقطة</string>
+    <string name="action_zoom_to_point_on_map">التكبير إلى النقطة على الخريطة</string>
+    <string name="action_remove_from_favorites">إزالة من المفضلة</string>
+    <string name="action_add_to_favorites">إضافة إلى المفضلة</string>
+    <string name="action_details">التفاصيل</string>
+    <string name="toast_no_additional_details">لا تتوفر تفاصيل إضافية.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">موقع الخريطة غير متاح.</string>
+    <string name="nearby_nodes_dialog_title">عرض النقاط القريبة</string>
+    <string name="nearby_nodes_dialog_message">الخريطة ليست متمركزة حاليًا على موقعك، لذا سيعرض \"حولي\" و\"حول مركز الخريطة\" نقاطًا مختلفة. أيهما تريد استخدامه؟</string>
+    <string name="action_around_me">حولي</string>
+    <string name="action_around_map_center">حول مركز الخريطة</string>
+
+</resources>

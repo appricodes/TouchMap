@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="talkback_required_title">TalkBack आवश्यक है</string>
+    <string name="talkback_required_message">यह ऐप TalkBack के साथ काम करने के लिए डिज़ाइन किया गया है, और ऐप के सही ढंग से काम करने के लिए TalkBack चालू होना ज़रूरी है। अपने क्षेत्र का मैप डाउनलोड करने के बाद, अपने आस-पास की सड़कों और स्थानों का पता लगाने के लिए स्क्रीन को छुएं और अपनी उंगली घुमाएं।</string>
+    <string name="talkback_required_open_settings">एक्सेसिबिलिटी सेटिंग्स खोलें</string>
+
+    <string name="menu_gallery">गैलरी</string>
+    <string name="title_activity_settings">सेटिंग्स</string>
+    <string name="please_click_back_again_to_exit">बाहर निकलने के लिए कृपया दोबारा BACK दबाएं</string>
+    <string name="language_title">आपकी पसंदीदा भाषा</string>
+    <string name="general_header">सामान्य सेटिंग्स</string>
+    <string name="settings_announcement_header">घोषणाएं</string>
+    <string name="cancel_aiming">%1$s की ओर संकेत रद्द करें</string>
+    <string name="aiming_started">%1$s की ओर संकेत किया जा रहा है। रद्द करने के लिए यहां टैप करें।</string>
+    <string name="cancel_search">%1$s के अनुसार फ़िल्टर रद्द करें</string>
+    <string name="search_on_map_started">केवल %1$s से मेल खाने वाले स्थान दिखाए जा रहे हैं। रद्द करने के लिए यहां टैप करें।</string>
+    <string name="search_canceled">कीवर्ड फ़िल्टर रद्द किया गया</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">मैप एलिमेंट फ़िल्टर करें</string>
+    <string name="filter_keyword_label">कीवर्ड (सभी दिखाने के लिए खाली छोड़ें)</string>
+    <string name="filter_categories_label">श्रेणियां</string>
+    <string name="filter_show_selected">चयनित दिखाएं</string>
+    <string name="filter_show_favorites">पसंदीदा दिखाएं</string>
+    <string name="filter_show_all">सभी दिखाएं</string>
+    <string name="startup_download_prompt_title">यहां कोई मैप डाउनलोड नहीं है</string>
+    <string name="startup_download_prompt_message">आपके वर्तमान स्थान के लिए अभी तक कोई मैप डाउनलोड नहीं हुआ है। अपने आस-पास का पता लगाने के लिए इसे अभी डाउनलोड करें।</string>
+    <string name="startup_download_prompt_download">मैप डाउनलोड करें</string>
+    <string name="aiming_canceled">संकेत रद्द किया गया</string>
+    <string name="settings_sound_header">ध्वनि और वाइब्रेशन</string>
+    <string name="map_data_header">मैप डेटा</string>
+    <string name="delete_all_maps_title">सभी डाउनलोड किए गए मैप हटाएं</string>
+    <string name="delete_all_maps_summary">इस डिवाइस से सभी डाउनलोड किए गए मैप डेटा को हटा देता है। मैन्युअल रूप से जोड़े गए स्थान सुरक्षित रहते हैं।</string>
+    <string name="delete_all_maps_confirm_title">सभी डाउनलोड किए गए मैप हटाएं?</string>
+    <string name="delete_all_maps_confirm_message">इससे इस डिवाइस से हर डाउनलोड किया गया मैप क्षेत्र हट जाएगा। ऑफ़लाइन इस्तेमाल के लिए आपको इसे दोबारा डाउनलोड करना होगा। मैन्युअल रूप से जोड़े गए स्थानों पर कोई असर नहीं पड़ेगा।</string>
+    <string name="delete_all_maps_confirm_yes">हटाएं</string>
+    <string name="delete_all_maps_confirm_no">रद्द करें</string>
+    <string name="delete_all_maps_done">सभी डाउनलोड किए गए मैप हटा दिए गए हैं।</string>
+    <string name="info_button_text">सटीकता: %1$d मी, गति: %2$.1f किमी/घं</string>
+    <string name="keep_screen_on_title">स्क्रीन चालू रखें</string>
+    <string name="keep_screen_on_summary_on">जब तक ऐप खुला है, स्क्रीन लॉक नहीं होगी</string>
+    <string name="keep_screen_on_summary_off">स्क्रीन सिस्टम की सेटिंग्स के अनुसार लॉक होगी</string>
+
+    <string name="content_description_filters">फ़िल्टर</string>
+    <string name="content_description_search">खोजें</string>
+    <string name="content_description_list_nodes">आस-पास के स्थानों की सूची</string>
+    <string name="nearby_nodes_loading_title">आस-पास के स्थान लोड हो रहे हैं…</string>
+    <string name="list_button_text">सूची</string>
+    <string name="content_description_add_point">नया स्थान जोड़ें</string>
+    <string name="content_description_info">जानकारी</string>
+    <string name="content_description_action">कार्रवाई</string>
+    <string name="content_description_explore_map">एक्सप्लोर करें</string>
+    <string name="content_description_zoom_in">ज़ूम इन</string>
+    <string name="content_description_zoom_out">ज़ूम आउट</string>
+    <string name="content_description_recenter">अपने स्थान पर फिर से केंद्रित करें</string>
+    <string name="content_description_map_lock">नॉर्थ लॉक पर स्विच करें</string>
+    <string name="content_description_more">अधिक</string>
+    <string name="category_button_text">श्रेणी</string>
+    <string name="keyword_button_text">कीवर्ड</string>
+    <string name="refresh_button_text">रीफ़्रेश करें</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">खोजें</string>
+    <string name="hint_type_or_speak">टाइप करें या बोलें</string>
+    <string name="content_description_mic">माइक</string>
+
+    <string name="tooltip_node_name">सेंट्रल पार्क</string>
+    <string name="tooltip_node_category">मनोरंजन</string>
+    <string name="tooltip_node_distance">150 मीटर दूर</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f मीटर दूर</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f किलोमीटर दूर</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d मीटर, %3$d बजे की दिशा में</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d मीटर</string>
+    <string name="announce_aiming_distance_and_clock">%1$d मीटर, %2$d बजे की दिशा में</string>
+    <string name="announce_aiming_clock_only">%1$d बजे की दिशा में</string>
+    <string name="announce_user_location">आप</string>
+    <string name="hint_address_input">पता</string>
+    <string name="content_description_speak_address">माइक्रोफ़ोन</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">मैप डाउनलोड करें</string>
+    <string name="download_button">मैप डाउनलोड करें</string>
+    <string name="download_cancel_button">डाउनलोड रद्द करें</string>
+    <string name="download_cancel_confirm_title">डाउनलोड रद्द करें?</string>
+    <string name="download_cancel_confirm_message">मैप इम्पोर्ट अभी भी जारी है। क्या आप वाकई इसे रद्द करना चाहते हैं?</string>
+    <string name="download_cancel_confirm_yes">हां, रद्द करें</string>
+    <string name="download_cancel_confirm_no">नहीं, डाउनलोड जारी रखें</string>
+    <string name="download_close_button">बंद करें</string>
+    <string name="download_in_progress_title">एक मैप इम्पोर्ट पहले से ही चल रहा है।</string>
+    <string name="download_size_label">डाउनलोड आकार: %1$s</string>
+    <string name="download_size_label_multi">डाउनलोड आकार: %1$d फ़ाइलें, कुल %2$s</string>
+    <string name="download_size_unknown">डाउनलोड आकार: अज्ञात</string>
+    <string name="download_already_downloaded_prefix">पहले से ही डाउनलोड किया जा चुका है।</string>
+    <string name="download_larger_map_checkbox">बड़ा मैप</string>
+    <string name="download_larger_map_hint">आस-पास के क्षेत्र भी डाउनलोड होते हैं (कई और फ़ाइलें हो सकती हैं)।</string>
+    <string name="download_looking_up">इस क्षेत्र के लिए मैप डेटा खोजा जा रहा है…</string>
+    <string name="download_no_data_here">इस क्षेत्र के लिए विस्तृत मैप डेटा उपलब्ध नहीं है।</string>
+    <string name="download_area_default_name">यह क्षेत्र</string>
+    <string name="download_complete">इम्पोर्ट पूरा हुआ: %1$d फ़ीचर जोड़े गए।</string>
+    <string name="download_failed">इम्पोर्ट विफल हुआ: %1$s</string>
+    <string name="menu_download_map">मैप डाउनलोड करें</string>
+    <string name="import_notif_title">मैप इम्पोर्ट हो रहा है</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">शुरू हो रहा है</string>
+    <string name="import_cancelled">इम्पोर्ट रद्द किया गया।</string>
+    <string name="import_notif_starting">%1$s का इम्पोर्ट शुरू हो रहा है…</string>
+    <string name="no_map_here_message">यहां कोई विस्तृत मैप नहीं है — डाउनलोड करने के लिए डबल टैप करें।</string>
+    <string name="map_load_failed_message">यहां मैप लोड नहीं हो सका — ज़ूम आउट करें या दूर जाकर वापस आने की कोशिश करें।</string>
+    <string name="download_area_action">इस क्षेत्र के लिए मैप डाउनलोड करें</string>
+    <string name="download_radius_location_unknown">स्थान उपलब्ध नहीं है — मैप को हिलाएं या स्थान की अनुमति दें</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">मैप दिखाएं (बीटा)</string>
+    <string name="render_map_summary_on">कम दृष्टि वाले उपयोगकर्ताओं के लिए मैप स्क्रीन पर बनाया जाता है। यह ड्रॉइंग प्रायोगिक है और अभी भी बेहतर हो रही है।</string>
+    <string name="render_map_summary_off">मैप नहीं बनाया जाता; केवल स्पर्श और ध्वनि के ज़रिए एक्सप्लोर करें।</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia चल रहा है</string>
+    <string name="notif_background_text">बैकग्राउंड सेवा सक्रिय है</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">खोजें</string>
+    <string name="address_search_empty_toast">कृपया एक पता दर्ज करें।</string>
+    <string name="address_search_searching">खोजा जा रहा है…</string>
+    <string name="address_search_select_title">एक पता चुनें</string>
+    <string name="address_search_cancelled_toast">खोज रद्द की गई</string>
+    <string name="address_search_error_toast">त्रुटि: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">स्थान का नाम दर्ज करें</string>
+    <string name="add_point_dialog_title">नया स्थान जोड़ें</string>
+    <string name="action_save_node">स्थान सहेजें</string>
+    <string name="action_reset_location">स्थान रीसेट करें</string>
+    <string name="toast_enter_name_required">कृपया एक नाम दर्ज करें।</string>
+    <string name="toast_waiting_for_location">अभी भी स्थान की प्रतीक्षा कर रहे हैं — कृपया कुछ देर बाद फिर से कोशिश करें।</string>
+    <string name="toast_point_added">स्थान जोड़ा गया।</string>
+    <string name="status_getting_location">स्थान प्राप्त किया जा रहा है…</string>
+    <string name="status_getting_location_with_accuracy">स्थान प्राप्त किया जा रहा है… सर्वश्रेष्ठ सटीकता: %1$dमी।</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">स्थान संपादित करें</string>
+    <string name="action_save">सहेजें</string>
+    <string name="action_delete">हटाएं</string>
+    <string name="toast_point_updated">स्थान अपडेट किया गया।</string>
+    <string name="confirm_removal_title">हटाने की पुष्टि करें</string>
+    <string name="confirm_removal_message">क्या आप वाकई इस स्थान को हटाना चाहते हैं?\n%1$s</string>
+    <string name="action_remove">हटाएं</string>
+    <string name="toast_point_removed">स्थान हटाया गया।</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">ऐप के सही ढंग से काम करने के लिए ये अनुमतियां ज़रूरी हैं।</string>
+    <string name="action_grant_permissions">अनुमतियां दें</string>
+    <string name="action_close">बंद करें</string>
+    <string name="content_description_switch_to_compass_lock">कंपास लॉक पर स्विच करें</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">स्थान की ओर संकेत करें</string>
+    <string name="action_navigate_google_maps">Google Maps में स्थान तक नेविगेट करें</string>
+    <string name="action_zoom_to_point">स्थान पर ज़ूम करें</string>
+    <string name="action_zoom_to_point_on_map">मैप पर स्थान पर ज़ूम करें</string>
+    <string name="action_remove_from_favorites">पसंदीदा से हटाएं</string>
+    <string name="action_add_to_favorites">पसंदीदा में जोड़ें</string>
+    <string name="action_details">विवरण</string>
+    <string name="toast_no_additional_details">कोई अतिरिक्त विवरण उपलब्ध नहीं है।</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">मैप स्थान उपलब्ध नहीं है।</string>
+    <string name="nearby_nodes_dialog_title">आस-पास के स्थान दिखाएं</string>
+    <string name="nearby_nodes_dialog_message">मैप फ़िलहाल आपके स्थान पर केंद्रित नहीं है, इसलिए \"मेरे आस-पास\" और \"मैप के केंद्र के आस-पास\" अलग-अलग स्थान दिखाएंगे। किसका इस्तेमाल किया जाए?</string>
+    <string name="action_around_me">मेरे आस-पास</string>
+    <string name="action_around_map_center">मैप के केंद्र के आस-पास</string>
+
+</resources>

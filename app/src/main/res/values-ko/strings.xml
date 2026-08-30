@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">설정</string>
+    <string name="talkback_required_title">TalkBack 필요</string>
+    <string name="talkback_required_message">이 앱은 TalkBack과 함께 작동하도록 설계되었으며, 앱이 올바르게 작동하려면 TalkBack이 켜져 있어야 합니다. 지역 지도를 다운로드한 후 화면에 손가락을 대고 움직여 주변 도로와 지점을 탐색하세요.</string>
+    <string name="talkback_required_open_settings">접근성 설정 열기</string>
+
+    <string name="menu_gallery">갤러리</string>
+    <string name="title_activity_settings">설정</string>
+    <string name="please_click_back_again_to_exit">종료하려면 뒤로 버튼을 한 번 더 누르세요</string>
+    <string name="language_title">선호하는 언어</string>
+    <string name="general_header">일반 설정</string>
+    <string name="settings_announcement_header">안내 음성</string>
+    <string name="cancel_aiming">%1$s 방향 안내 취소</string>
+    <string name="aiming_started">%1$s 방향을 안내하고 있습니다. 취소하려면 여기를 탭하세요.</string>
+    <string name="cancel_search">%1$s(으)로 필터링 취소</string>
+    <string name="search_on_map_started">%1$s와(과) 일치하는 지점만 표시하고 있습니다. 취소하려면 여기를 탭하세요.</string>
+    <string name="search_canceled">키워드 필터가 취소되었습니다</string>
+
+    <string name="filter_dialog_title">지도 요소 필터</string>
+    <string name="filter_keyword_label">키워드 (전체를 보려면 비워두세요)</string>
+    <string name="filter_categories_label">카테고리</string>
+    <string name="filter_show_selected">선택 항목 표시</string>
+    <string name="filter_show_favorites">즐겨찾기 표시</string>
+    <string name="filter_show_all">전체 표시</string>
+    <string name="startup_download_prompt_title">여기에 다운로드된 지도가 없습니다</string>
+    <string name="startup_download_prompt_message">현재 위치의 다운로드된 지도가 아직 없습니다. 지금 다운로드하여 주변을 탐색해 보세요.</string>
+    <string name="startup_download_prompt_download">지도 다운로드</string>
+    <string name="aiming_canceled">방향 안내가 취소되었습니다</string>
+    <string name="settings_sound_header">소리 및 진동</string>
+    <string name="map_data_header">지도 데이터</string>
+    <string name="delete_all_maps_title">다운로드한 모든 지도 삭제</string>
+    <string name="delete_all_maps_summary">이 기기에 다운로드된 모든 지도 데이터를 삭제합니다. 수동으로 추가한 지점은 유지됩니다.</string>
+    <string name="delete_all_maps_confirm_title">다운로드한 모든 지도를 삭제하시겠습니까?</string>
+    <string name="delete_all_maps_confirm_message">이 기기에 다운로드된 모든 지도 영역이 삭제됩니다. 오프라인에서 사용하려면 다시 다운로드해야 합니다. 수동으로 추가한 지점은 영향을 받지 않습니다.</string>
+    <string name="delete_all_maps_confirm_yes">삭제</string>
+    <string name="delete_all_maps_confirm_no">취소</string>
+    <string name="delete_all_maps_done">다운로드한 모든 지도가 삭제되었습니다.</string>
+    <string name="info_button_text">정확도: %1$d m, 속도: %2$.1f km/h</string>
+    <string name="keep_screen_on_title">화면 켜짐 유지</string>
+    <string name="keep_screen_on_summary_on">앱이 열려 있는 동안 화면이 잠기지 않습니다</string>
+    <string name="keep_screen_on_summary_off">시스템 설정에 따라 화면이 잠깁니다</string>
+
+    <string name="content_description_filters">필터</string>
+    <string name="content_description_search">검색</string>
+    <string name="content_description_list_nodes">주변 지점 목록</string>
+    <string name="nearby_nodes_loading_title">주변 지점을 불러오는 중…</string>
+    <string name="list_button_text">목록</string>
+    <string name="content_description_add_point">새 지점 추가</string>
+    <string name="content_description_info">정보</string>
+    <string name="content_description_action">작업</string>
+    <string name="content_description_explore_map">탐색</string>
+    <string name="content_description_zoom_in">확대</string>
+    <string name="content_description_zoom_out">축소</string>
+    <string name="content_description_recenter">현재 위치로 이동</string>
+    <string name="content_description_map_lock">북쪽 고정으로 전환</string>
+    <string name="content_description_more">더보기</string>
+    <string name="category_button_text">카테고리</string>
+    <string name="keyword_button_text">키워드</string>
+    <string name="refresh_button_text">새로고침</string>
+    <string name="find_address_title">검색</string>
+    <string name="hint_type_or_speak">입력 또는 음성 입력</string>
+    <string name="content_description_mic">마이크</string>
+
+    <string name="tooltip_node_name">센트럴 파크</string>
+    <string name="tooltip_node_category">레저</string>
+    <string name="tooltip_node_distance">150m 거리</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f미터 거리</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f킬로미터 거리</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d미터, %3$d시 방향</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d미터</string>
+    <string name="announce_aiming_distance_and_clock">%1$d미터, %2$d시 방향</string>
+    <string name="announce_aiming_clock_only">%1$d시 방향</string>
+    <string name="announce_user_location">나</string>
+    <string name="hint_address_input">주소</string>
+    <string name="content_description_speak_address">마이크</string>
+
+    <string name="download_map_title">지도 다운로드</string>
+    <string name="download_button">지도 다운로드</string>
+    <string name="download_cancel_button">다운로드 취소</string>
+    <string name="download_cancel_confirm_title">다운로드를 취소하시겠습니까?</string>
+    <string name="download_cancel_confirm_message">지도 가져오기가 아직 진행 중입니다. 취소하시겠습니까?</string>
+    <string name="download_cancel_confirm_yes">예, 취소합니다</string>
+    <string name="download_cancel_confirm_no">아니요, 계속 다운로드합니다</string>
+    <string name="download_close_button">닫기</string>
+    <string name="download_in_progress_title">지도 가져오기가 이미 실행 중입니다.</string>
+    <string name="download_size_label">다운로드 크기: %1$s</string>
+    <string name="download_size_label_multi">다운로드 크기: 파일 %1$d개, 총 %2$s</string>
+    <string name="download_size_unknown">다운로드 크기: 알 수 없음</string>
+    <string name="download_already_downloaded_prefix">이미 다운로드되었습니다.</string>
+    <string name="download_larger_map_checkbox">더 넓은 지도</string>
+    <string name="download_larger_map_hint">인접 지역도 함께 다운로드합니다(파일 수가 늘어날 수 있음).</string>
+    <string name="download_looking_up">이 지역의 지도 데이터를 조회하는 중…</string>
+    <string name="download_no_data_here">이 지역에는 상세 지도 데이터가 없습니다.</string>
+    <string name="download_area_default_name">이 지역</string>
+    <string name="download_complete">가져오기 완료: 요소 %1$d개가 추가되었습니다.</string>
+    <string name="download_failed">가져오기 실패: %1$s</string>
+    <string name="menu_download_map">지도 다운로드</string>
+    <string name="import_notif_title">지도 가져오는 중</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">시작 중</string>
+    <string name="import_cancelled">가져오기가 취소되었습니다.</string>
+    <string name="import_notif_starting">%1$s 가져오기를 시작하는 중…</string>
+    <string name="no_map_here_message">여기에는 상세 지도가 없습니다 — 두 번 탭하여 다운로드하세요.</string>
+    <string name="map_load_failed_message">여기서는 지도를 불러올 수 없습니다 — 축소하거나 멀어졌다가 다시 돌아와 보세요.</string>
+    <string name="download_area_action">이 지역의 지도 다운로드</string>
+    <string name="download_radius_location_unknown">위치를 사용할 수 없습니다 — 지도를 이동하거나 위치 권한을 허용하세요</string>
+
+    <string name="render_map_title">지도 표시(베타)</string>
+    <string name="render_map_summary_on">저시력 사용자를 위해 지도를 화면에 그립니다. 이 기능은 실험적이며 계속 개선 중입니다.</string>
+    <string name="render_map_summary_off">지도가 그려지지 않으며, 터치와 소리만으로 탐색합니다.</string>
+
+    <string name="notif_background_title">Navia 실행 중</string>
+    <string name="notif_background_text">백그라운드 서비스가 활성화되어 있습니다</string>
+
+    <string name="action_search">검색</string>
+    <string name="address_search_empty_toast">주소를 입력하세요.</string>
+    <string name="address_search_searching">검색 중…</string>
+    <string name="address_search_select_title">주소 선택</string>
+    <string name="address_search_cancelled_toast">검색이 취소되었습니다</string>
+    <string name="address_search_error_toast">오류: %1$s</string>
+
+    <string name="hint_enter_point_name">지점 이름 입력</string>
+    <string name="add_point_dialog_title">새 지점 추가</string>
+    <string name="action_save_node">지점 저장</string>
+    <string name="action_reset_location">위치 재설정</string>
+    <string name="toast_enter_name_required">이름을 입력하세요.</string>
+    <string name="toast_waiting_for_location">아직 위치를 확인하는 중입니다 — 잠시 후 다시 시도해 주세요.</string>
+    <string name="toast_point_added">지점이 추가되었습니다.</string>
+    <string name="status_getting_location">위치 확인 중…</string>
+    <string name="status_getting_location_with_accuracy">위치 확인 중… 최고 정확도: %1$dm.</string>
+
+    <string name="action_edit_node">지점 편집</string>
+    <string name="action_save">저장</string>
+    <string name="action_delete">삭제</string>
+    <string name="toast_point_updated">지점이 업데이트되었습니다.</string>
+    <string name="confirm_removal_title">삭제 확인</string>
+    <string name="confirm_removal_message">이 지점을 삭제하시겠습니까?\n%1$s</string>
+    <string name="action_remove">삭제</string>
+    <string name="toast_point_removed">지점이 삭제되었습니다.</string>
+
+    <string name="permissions_required_message">앱이 올바르게 작동하려면 이 권한이 필요합니다.</string>
+    <string name="action_grant_permissions">권한 허용</string>
+    <string name="action_close">닫기</string>
+    <string name="content_description_switch_to_compass_lock">나침반 고정으로 전환</string>
+
+    <string name="action_aim_at_point">지점 방향 안내</string>
+    <string name="action_navigate_google_maps">Google 지도에서 이 지점으로 길찾기</string>
+    <string name="action_zoom_to_point">지점으로 확대</string>
+    <string name="action_zoom_to_point_on_map">지도에서 지점으로 확대</string>
+    <string name="action_remove_from_favorites">즐겨찾기에서 제거</string>
+    <string name="action_add_to_favorites">즐겨찾기에 추가</string>
+    <string name="action_details">세부정보</string>
+    <string name="toast_no_additional_details">추가 세부정보가 없습니다.</string>
+
+    <string name="toast_map_location_unavailable">지도 위치를 사용할 수 없습니다.</string>
+    <string name="nearby_nodes_dialog_title">주변 지점 표시</string>
+    <string name="nearby_nodes_dialog_message">지도가 현재 위치를 중심으로 표시되고 있지 않아 \"내 주변\"과 \"지도 중심 주변\"이 서로 다른 지점을 보여줍니다. 어느 쪽을 사용하시겠습니까?</string>
+    <string name="action_around_me">내 주변</string>
+    <string name="action_around_map_center">지도 중심 주변</string>
+
+</resources>

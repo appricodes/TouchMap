@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Stillingar</string>
+    <string name="talkback_required_title">TalkBack er nauðsynlegt</string>
+    <string name="talkback_required_message">Þetta forrit er hannað til að vinna með TalkBack og TalkBack verður að vera virkjað svo forritið virki rétt. Eftir að þú hefur sótt kortið fyrir svæðið þitt skaltu snerta skjáinn og hreyfa fingurinn til að kanna götur og staði í kringum þig.</string>
+    <string name="talkback_required_open_settings">Opna aðgengisstillingar</string>
+
+    <string name="menu_gallery">Myndasafn</string>
+    <string name="title_activity_settings">Stillingar</string>
+    <string name="please_click_back_again_to_exit">Ýttu aftur á TIL BAKA til að hætta</string>
+    <string name="language_title">Tungumálið sem þú vilt nota</string>
+    <string name="general_header">Almennar stillingar</string>
+    <string name="settings_announcement_header">Tilkynningar</string>
+    <string name="cancel_aiming">Hætta að miða á %1$s</string>
+    <string name="aiming_started">Miðar á %1$s. Ýttu hér til að hætta við.</string>
+    <string name="cancel_search">Hætta að sía eftir %1$s</string>
+    <string name="search_on_map_started">Aðeins staðir sem passa við %1$s eru sýndir. Ýttu hér til að hætta við.</string>
+    <string name="search_canceled">Hætt við leitarorðasíu</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">Sía kortaeiningar</string>
+    <string name="filter_keyword_label">Leitarorð (skildu eftir autt fyrir allt)</string>
+    <string name="filter_categories_label">Flokkar</string>
+    <string name="filter_show_selected">Sýna valið</string>
+    <string name="filter_show_favorites">Sýna eftirlæti</string>
+    <string name="filter_show_all">Sýna allt</string>
+    <string name="startup_download_prompt_title">Ekkert kort sótt hér</string>
+    <string name="startup_download_prompt_message">Ekkert kort hefur enn verið sótt fyrir núverandi staðsetningu þína. Sæktu það núna til að kanna umhverfi þitt.</string>
+    <string name="startup_download_prompt_download">Sækja kort</string>
+    <string name="aiming_canceled">Hætt við að miða</string>
+    <string name="settings_sound_header">Hljóð og titringur</string>
+    <string name="map_data_header">Kortagögn</string>
+    <string name="delete_all_maps_title">Eyða öllum sóttum kortum</string>
+    <string name="delete_all_maps_summary">Fjarlægir öll sótt kortagögn af þessu tæki. Staðir sem hefur verið bætt við handvirkt haldast óbreyttir.</string>
+    <string name="delete_all_maps_confirm_title">Eyða öllum sóttum kortum?</string>
+    <string name="delete_all_maps_confirm_message">Þetta fjarlægir öll sótt kortasvæði af þessu tæki. Þú þarft að sækja þau aftur til að nota þau ótengd/án nettengingar. Staðir sem hefur verið bætt við handvirkt verða ekki fyrir áhrifum.</string>
+    <string name="delete_all_maps_confirm_yes">Eyða</string>
+    <string name="delete_all_maps_confirm_no">Hætta við</string>
+    <string name="delete_all_maps_done">Öllum sóttum kortum hefur verið eytt.</string>
+    <string name="info_button_text">Nákvæmni: %1$d m, hraði: %2$.1f km/klst</string>
+    <string name="keep_screen_on_title">Halda skjá kveiktum</string>
+    <string name="keep_screen_on_summary_on">Skjárinn læsist ekki á meðan forritið er opið</string>
+    <string name="keep_screen_on_summary_off">Skjárinn læsist samkvæmt kerfisstillingum</string>
+
+    <string name="content_description_filters">Síur</string>
+    <string name="content_description_search">Leita</string>
+    <string name="content_description_list_nodes">Sýna lista yfir nálæga staði</string>
+    <string name="nearby_nodes_loading_title">Sæki nálæga staði…</string>
+    <string name="list_button_text">Listi</string>
+    <string name="content_description_add_point">Bæta við nýjum stað</string>
+    <string name="content_description_info">Upplýsingar</string>
+    <string name="content_description_action">Aðgerð</string>
+    <string name="content_description_explore_map">Kanna</string>
+    <string name="content_description_zoom_in">Þysja að</string>
+    <string name="content_description_zoom_out">Þysja frá</string>
+    <string name="content_description_recenter">Miðja aftur á staðsetningu þína</string>
+    <string name="content_description_map_lock">Skipta yfir í norðurlæsingu</string>
+    <string name="content_description_more">Meira</string>
+    <string name="category_button_text">Flokkur</string>
+    <string name="keyword_button_text">Leitarorð</string>
+    <string name="refresh_button_text">Endurnýja</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">Leita</string>
+    <string name="hint_type_or_speak">Skrifaðu eða talaðu</string>
+    <string name="content_description_mic">Hljóðnemi</string>
+
+    <string name="tooltip_node_name">Central Park</string>
+    <string name="tooltip_node_category">Afþreying</string>
+    <string name="tooltip_node_distance">150m í burtu</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f metrar í burtu</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f kílómetrar í burtu</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d metrar, klukkan %3$d</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d metrar</string>
+    <string name="announce_aiming_distance_and_clock">%1$d metrar, klukkan %2$d</string>
+    <string name="announce_aiming_clock_only">klukkan %1$d</string>
+    <string name="announce_user_location">Þú</string>
+    <string name="hint_address_input">Heimilisfang</string>
+    <string name="content_description_speak_address">Hljóðnemi</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">Sækja kort</string>
+    <string name="download_button">Sækja kort</string>
+    <string name="download_cancel_button">Hætta við niðurhal</string>
+    <string name="download_cancel_confirm_title">Hætta við niðurhal?</string>
+    <string name="download_cancel_confirm_message">Innflutningur kortsins er enn í gangi. Ertu viss um að þú viljir hætta við?</string>
+    <string name="download_cancel_confirm_yes">Já, hætta við</string>
+    <string name="download_cancel_confirm_no">Nei, halda áfram að sækja</string>
+    <string name="download_close_button">Loka</string>
+    <string name="download_in_progress_title">Innflutningur korts er þegar í gangi.</string>
+    <string name="download_size_label">Stærð niðurhals: %1$s</string>
+    <string name="download_size_label_multi">Stærð niðurhals: %1$d skrár, %2$s samtals</string>
+    <string name="download_size_unknown">Stærð niðurhals: óþekkt</string>
+    <string name="download_already_downloaded_prefix">Þegar sótt.</string>
+    <string name="download_larger_map_checkbox">Stærra kort</string>
+    <string name="download_larger_map_hint">Sækir einnig nágrannasvæðin (getur verið nokkrar skrár í viðbót).</string>
+    <string name="download_looking_up">Leita að kortagögnum fyrir þetta svæði…</string>
+    <string name="download_no_data_here">Engin ítarleg kortagögn eru tiltæk fyrir þetta svæði.</string>
+    <string name="download_area_default_name">þetta svæði</string>
+    <string name="download_complete">Innflutningi lokið: %1$d einingum bætt við.</string>
+    <string name="download_failed">Innflutningur mistókst: %1$s</string>
+    <string name="menu_download_map">Sækja kort</string>
+    <string name="import_notif_title">Flyt inn kort</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Að hefjast</string>
+    <string name="import_cancelled">Hætt við innflutning.</string>
+    <string name="import_notif_starting">Innflutningur á %1$s að hefjast…</string>
+    <string name="no_map_here_message">Ekkert ítarlegt kort hér — tvísmelltu til að sækja.</string>
+    <string name="map_load_failed_message">Ekki tókst að hlaða kortinu hér — reyndu að þysja frá eða fara í burtu og til baka.</string>
+    <string name="download_area_action">Sækja kort fyrir þetta svæði</string>
+    <string name="download_radius_location_unknown">Staðsetning ekki tiltæk — færðu kortið eða veittu heimild fyrir staðsetningu</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">Sýna kortið (Beta)</string>
+    <string name="render_map_summary_on">Kortið er teiknað á skjáinn fyrir sjónskerta notendur. Þessi teikning er á tilraunastigi og er enn í þróun.</string>
+    <string name="render_map_summary_off">Kortið er ekki teiknað; kannaðu eingöngu með snertingu og hljóði.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia í gangi</string>
+    <string name="notif_background_text">Bakgrunnsþjónusta virk</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">Leita</string>
+    <string name="address_search_empty_toast">Sláðu inn heimilisfang.</string>
+    <string name="address_search_searching">Leita…</string>
+    <string name="address_search_select_title">Veldu heimilisfang</string>
+    <string name="address_search_cancelled_toast">Hætt við leit</string>
+    <string name="address_search_error_toast">Villa: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">Sláðu inn nafn staðar</string>
+    <string name="add_point_dialog_title">Bæta við nýjum stað</string>
+    <string name="action_save_node">Vista stað</string>
+    <string name="action_reset_location">Endurstilla staðsetningu</string>
+    <string name="toast_enter_name_required">Sláðu inn nafn.</string>
+    <string name="toast_waiting_for_location">Enn beðið eftir staðsetningu — reyndu aftur eftir smástund.</string>
+    <string name="toast_point_added">Stað bætt við.</string>
+    <string name="status_getting_location">Sæki staðsetningu…</string>
+    <string name="status_getting_location_with_accuracy">Sæki staðsetningu… besta nákvæmni: %1$d m.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">Breyta stað</string>
+    <string name="action_save">Vista</string>
+    <string name="action_delete">Eyða</string>
+    <string name="toast_point_updated">Staður uppfærður.</string>
+    <string name="confirm_removal_title">Staðfesta fjarlægingu</string>
+    <string name="confirm_removal_message">Ertu viss um að þú viljir fjarlægja þennan stað?\n%1$s</string>
+    <string name="action_remove">Fjarlægja</string>
+    <string name="toast_point_removed">Staður fjarlægður.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">Þessar heimildir eru nauðsynlegar svo forritið virki rétt.</string>
+    <string name="action_grant_permissions">Veita heimildir</string>
+    <string name="action_close">Loka</string>
+    <string name="content_description_switch_to_compass_lock">Skipta yfir í áttavitalæsingu</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">Miða á stað</string>
+    <string name="action_navigate_google_maps">Leiðsegja að stað í Google Maps</string>
+    <string name="action_zoom_to_point">Þysja að stað</string>
+    <string name="action_zoom_to_point_on_map">Þysja að stað á korti</string>
+    <string name="action_remove_from_favorites">Fjarlægja úr eftirlætum</string>
+    <string name="action_add_to_favorites">Bæta við í eftirlæti</string>
+    <string name="action_details">Nánar</string>
+    <string name="toast_no_additional_details">Engar frekari upplýsingar tiltækar.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">Staðsetning korts ekki tiltæk.</string>
+    <string name="nearby_nodes_dialog_title">Sýna nálæga staði</string>
+    <string name="nearby_nodes_dialog_message">Kortið er ekki núna miðjað á staðsetningu þína, svo \"í kringum mig\" og \"í kringum miðju kortsins\" myndu sýna mismunandi staði. Hvort á að nota?</string>
+    <string name="action_around_me">Í kringum mig</string>
+    <string name="action_around_map_center">Í kringum miðju kortsins</string>
+
+</resources>

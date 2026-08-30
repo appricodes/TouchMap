@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Mga Setting</string>
+    <string name="talkback_required_title">Kailangan ang TalkBack</string>
+    <string name="talkback_required_message">Ang app na ito ay ginawa para gumana kasama ang TalkBack, at dapat naka-on ang TalkBack para gumana nang tama ang app. Pagkatapos i-download ang mapa ng lugar mo, hipuin at igalaw ang daliri mo sa screen para tuklasin ang mga kalye at punto sa paligid mo.</string>
+    <string name="talkback_required_open_settings">Buksan ang Mga Setting ng Accessibility</string>
+
+    <string name="menu_gallery">Gallery</string>
+    <string name="title_activity_settings">Mga Setting</string>
+    <string name="please_click_back_again_to_exit">Pindutin ulit ang BACK para lumabas</string>
+    <string name="language_title">Ang gusto mong wika</string>
+    <string name="general_header">Pangkalahatang Setting</string>
+    <string name="settings_announcement_header">Mga Anunsyo</string>
+    <string name="cancel_aiming">Kanselahin ang pagtukoy sa %1$s</string>
+    <string name="aiming_started">Itinuturo ang %1$s. Pindutin dito para kanselahin.</string>
+    <string name="cancel_search">Kanselahin ang paghahalughog ayon sa %1$s</string>
+    <string name="search_on_map_started">Ipinapakita lang ang mga puntong tumutugma sa %1$s. Pindutin dito para kanselahin.</string>
+    <string name="search_canceled">Nakansela ang keyword filter</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">I-filter ang Mga Elemento ng Mapa</string>
+    <string name="filter_keyword_label">Keyword (iwanang blangko para sa lahat)</string>
+    <string name="filter_categories_label">Mga Kategorya</string>
+    <string name="filter_show_selected">Ipakita ang mga Napili</string>
+    <string name="filter_show_favorites">Ipakita ang mga Paborito</string>
+    <string name="filter_show_all">Ipakita Lahat</string>
+    <string name="startup_download_prompt_title">Walang na-download na mapa dito</string>
+    <string name="startup_download_prompt_message">Wala pang na-download na mapa para sa kasalukuyan mong lokasyon. I-download na ito ngayon para tuklasin ang paligid mo.</string>
+    <string name="startup_download_prompt_download">I-download ang mapa</string>
+    <string name="aiming_canceled">Nakansela ang pagtukoy</string>
+    <string name="settings_sound_header">Tunog at pag-vibrate</string>
+    <string name="map_data_header">Data ng mapa</string>
+    <string name="delete_all_maps_title">Burahin ang lahat ng na-download na mapa</string>
+    <string name="delete_all_maps_summary">Inaalis ang lahat ng na-download na data ng mapa sa device na ito. Nananatili ang mga puntong idinagdag nang manwal.</string>
+    <string name="delete_all_maps_confirm_title">Burahin ang lahat ng na-download na mapa?</string>
+    <string name="delete_all_maps_confirm_message">Aalisin nito ang bawat na-download na lugar ng mapa sa device na ito. Kailangan mo itong i-download ulit para magamit offline. Hindi maaapektuhan ang mga puntong idinagdag nang manwal.</string>
+    <string name="delete_all_maps_confirm_yes">Burahin</string>
+    <string name="delete_all_maps_confirm_no">Kanselahin</string>
+    <string name="delete_all_maps_done">Nabura na ang lahat ng na-download na mapa.</string>
+    <string name="info_button_text">Katumpakan: %1$d m, bilis: %2$.1f km/h</string>
+    <string name="keep_screen_on_title">Panatilihing bukas ang screen</string>
+    <string name="keep_screen_on_summary_on">Hindi mag-lo-lock ang screen habang bukas ang app</string>
+    <string name="keep_screen_on_summary_off">Mag-lo-lock ang screen base sa mga setting ng system</string>
+
+    <string name="content_description_filters">Mga Filter</string>
+    <string name="content_description_search">Maghanap</string>
+    <string name="content_description_list_nodes">Ilista ang mga malapit na node</string>
+    <string name="nearby_nodes_loading_title">Nilo-load ang mga malapit na node…</string>
+    <string name="list_button_text">Listahan</string>
+    <string name="content_description_add_point">Magdagdag ng bagong punto</string>
+    <string name="content_description_info">Impormasyon</string>
+    <string name="content_description_action">Aksyon</string>
+    <string name="content_description_explore_map">Tuklasin</string>
+    <string name="content_description_zoom_in">I-zoom in</string>
+    <string name="content_description_zoom_out">I-zoom out</string>
+    <string name="content_description_recenter">Ibalik sa gitna ang lokasyon mo</string>
+    <string name="content_description_map_lock">Lumipat sa North Lock</string>
+    <string name="content_description_more">Higit pa</string>
+    <string name="category_button_text">Kategorya</string>
+    <string name="keyword_button_text">Keyword</string>
+    <string name="refresh_button_text">I-refresh</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">Maghanap</string>
+    <string name="hint_type_or_speak">Mag-type o magsalita</string>
+    <string name="content_description_mic">Mikropono</string>
+
+    <string name="tooltip_node_name">Central Park</string>
+    <string name="tooltip_node_category">Libangan</string>
+    <string name="tooltip_node_distance">150m ang layo</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f metro ang layo</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f kilometro ang layo</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d metro, nasa ika-%3$d na oras</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d metro</string>
+    <string name="announce_aiming_distance_and_clock">%1$d metro, nasa ika-%2$d na oras</string>
+    <string name="announce_aiming_clock_only">Nasa ika-%1$d na oras</string>
+    <string name="announce_user_location">Ikaw</string>
+    <string name="hint_address_input">Address</string>
+    <string name="content_description_speak_address">Mikropono</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">I-download ang mapa</string>
+    <string name="download_button">I-download ang mapa</string>
+    <string name="download_cancel_button">Kanselahin ang pag-download</string>
+    <string name="download_cancel_confirm_title">Kanselahin ang pag-download?</string>
+    <string name="download_cancel_confirm_message">Kasalukuyan pang isinasagawa ang pag-import ng mapa. Sigurado ka bang gusto mo itong kanselahin?</string>
+    <string name="download_cancel_confirm_yes">Oo, kanselahin</string>
+    <string name="download_cancel_confirm_no">Hindi, ituloy ang pag-download</string>
+    <string name="download_close_button">Isara</string>
+    <string name="download_in_progress_title">May kasalukuyan nang isinasagawang pag-import ng mapa.</string>
+    <string name="download_size_label">Laki ng download: %1$s</string>
+    <string name="download_size_label_multi">Laki ng download: %1$d file, %2$s ang kabuuan</string>
+    <string name="download_size_unknown">Laki ng download: hindi alam</string>
+    <string name="download_already_downloaded_prefix">Na-download na.</string>
+    <string name="download_larger_map_checkbox">Mas malaking mapa</string>
+    <string name="download_larger_map_hint">Dina-download din ang mga karatig na lugar (posibleng ilang file pa).</string>
+    <string name="download_looking_up">Hinahanap ang data ng mapa para sa lugar na ito…</string>
+    <string name="download_no_data_here">Walang detalyadong data ng mapa na available para sa lugar na ito.</string>
+    <string name="download_area_default_name">lugar na ito</string>
+    <string name="download_complete">Kumpleto ang pag-import: %1$d feature ang idinagdag.</string>
+    <string name="download_failed">Nabigo ang pag-import: %1$s</string>
+    <string name="menu_download_map">I-download ang mapa</string>
+    <string name="import_notif_title">Ini-import ang mapa</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Nagsisimula</string>
+    <string name="import_cancelled">Nakansela ang pag-import.</string>
+    <string name="import_notif_starting">Sinisimulan ang pag-import ng %1$s…</string>
+    <string name="no_map_here_message">Walang detalyadong mapa dito — i-double tap para i-download.</string>
+    <string name="map_load_failed_message">Hindi ma-load ang mapa dito — subukang mag-zoom out o lumayo at bumalik.</string>
+    <string name="download_area_action">I-download ang mapa para sa lugar na ito</string>
+    <string name="download_radius_location_unknown">Hindi available ang lokasyon — igalaw ang mapa o bigyan ng pahintulot sa lokasyon</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">Ipakita ang mapa (Beta)</string>
+    <string name="render_map_summary_on">Iginuguhit ang mapa sa screen para sa mga user na may mahinang paningin. Eksperimental pa ito at patuloy na pinapaganda.</string>
+    <string name="render_map_summary_off">Hindi iginuguhit ang mapa; tuklasin sa pamamagitan lang ng paghipo at tunog.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Tumatakbo ang Navia</string>
+    <string name="notif_background_text">Aktibo ang background service</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">Maghanap</string>
+    <string name="address_search_empty_toast">Maglagay ng address.</string>
+    <string name="address_search_searching">Naghahanap…</string>
+    <string name="address_search_select_title">Pumili ng Address</string>
+    <string name="address_search_cancelled_toast">Nakansela ang paghahanap</string>
+    <string name="address_search_error_toast">Error: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">Ilagay ang pangalan ng punto</string>
+    <string name="add_point_dialog_title">Magdagdag ng bagong punto</string>
+    <string name="action_save_node">I-save ang node</string>
+    <string name="action_reset_location">I-reset ang lokasyon</string>
+    <string name="toast_enter_name_required">Maglagay ng pangalan.</string>
+    <string name="toast_waiting_for_location">Naghihintay pa ng lokasyon — subukan ulit sandali.</string>
+    <string name="toast_point_added">Naidagdag ang punto.</string>
+    <string name="status_getting_location">Kinukuha ang lokasyon…</string>
+    <string name="status_getting_location_with_accuracy">Kinukuha ang lokasyon… pinakamahusay na katumpakan: %1$dm.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">I-edit ang Node</string>
+    <string name="action_save">I-save</string>
+    <string name="action_delete">Burahin</string>
+    <string name="toast_point_updated">Na-update ang punto.</string>
+    <string name="confirm_removal_title">Kumpirmahin ang Pag-alis</string>
+    <string name="confirm_removal_message">Sigurado ka bang gusto mong alisin ang puntong ito?\n%1$s</string>
+    <string name="action_remove">Alisin</string>
+    <string name="toast_point_removed">Naalis ang punto.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">Kailangan ang mga pahintulot na ito para gumana nang maayos ang app.</string>
+    <string name="action_grant_permissions">Bigyan ng pahintulot</string>
+    <string name="action_close">Isara</string>
+    <string name="content_description_switch_to_compass_lock">Lumipat sa Compass Lock</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">Itutok sa Punto</string>
+    <string name="action_navigate_google_maps">Mag-navigate papunta sa punto sa Google Maps</string>
+    <string name="action_zoom_to_point">I-zoom papunta sa Punto</string>
+    <string name="action_zoom_to_point_on_map">I-zoom papunta sa Punto sa Mapa</string>
+    <string name="action_remove_from_favorites">Alisin sa Mga Paborito</string>
+    <string name="action_add_to_favorites">Idagdag sa Mga Paborito</string>
+    <string name="action_details">Mga Detalye</string>
+    <string name="toast_no_additional_details">Walang karagdagang detalyeng available.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">Hindi available ang lokasyon ng mapa.</string>
+    <string name="nearby_nodes_dialog_title">Ipakita ang mga malapit na node</string>
+    <string name="nearby_nodes_dialog_message">Hindi kasalukuyang nakasentro ang mapa sa lokasyon mo, kaya magpapakita ng magkaibang mga punto ang \"sa paligid ko\" at \"sa paligid ng gitna ng mapa\". Alin ang gusto mong gamitin?</string>
+    <string name="action_around_me">Sa paligid ko</string>
+    <string name="action_around_map_center">Sa paligid ng gitna ng mapa</string>
+
+</resources>

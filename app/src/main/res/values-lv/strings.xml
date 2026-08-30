@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Iestatījumi</string>
+    <string name="talkback_required_title">Nepieciešams TalkBack</string>
+    <string name="talkback_required_message">Šī lietotne ir paredzēta darbam kopā ar TalkBack, un, lai lietotne darbotos pareizi, TalkBack ir jābūt ieslēgtam. Pēc jūsu apkārtnes kartes lejupielādes pieskarieties ekrānam un virziet pirkstu pa to, lai izpētītu apkārtējās ielas un punktus.</string>
+    <string name="talkback_required_open_settings">Atvērt pieejamības iestatījumus</string>
+
+    <string name="menu_gallery">Galerija</string>
+    <string name="title_activity_settings">Iestatījumi</string>
+    <string name="please_click_back_again_to_exit">Lai izietu, vēlreiz nospiediet pogu ATPAKAĻ</string>
+    <string name="language_title">Jūsu vēlamā valoda</string>
+    <string name="general_header">Vispārīgie iestatījumi</string>
+    <string name="settings_announcement_header">Paziņojumi</string>
+    <string name="cancel_aiming">Atcelt virziena norādīšanu uz %1$s</string>
+    <string name="aiming_started">Tiek norādīts virziens uz %1$s. Pieskarieties šeit, lai atceltu.</string>
+    <string name="cancel_search">Atcelt filtrēšanu pēc %1$s</string>
+    <string name="search_on_map_started">Tiek rādīti tikai punkti, kas atbilst %1$s. Pieskarieties šeit, lai atceltu.</string>
+    <string name="search_canceled">Atslēgvārdu filtrs atcelts</string>
+
+    <string name="filter_dialog_title">Filtrēt kartes elementus</string>
+    <string name="filter_keyword_label">Atslēgvārds (atstājiet tukšu, lai rādītu visu)</string>
+    <string name="filter_categories_label">Kategorijas</string>
+    <string name="filter_show_selected">Rādīt atlasītos</string>
+    <string name="filter_show_favorites">Rādīt izlasi</string>
+    <string name="filter_show_all">Rādīt visu</string>
+    <string name="startup_download_prompt_title">Šeit nav lejupielādētas kartes</string>
+    <string name="startup_download_prompt_message">Jūsu pašreizējai atrašanās vietai vēl nav lejupielādētas kartes. Lejupielādējiet to tagad, lai izpētītu savu apkārtni.</string>
+    <string name="startup_download_prompt_download">Lejupielādēt karti</string>
+    <string name="aiming_canceled">Virziena norādīšana atcelta</string>
+    <string name="settings_sound_header">Skaņa un vibrācija</string>
+    <string name="map_data_header">Kartes dati</string>
+    <string name="delete_all_maps_title">Dzēst visas lejupielādētās kartes</string>
+    <string name="delete_all_maps_summary">Izdzēš visus šajā ierīcē lejupielādētos kartes datus. Manuāli pievienotie punkti tiek saglabāti.</string>
+    <string name="delete_all_maps_confirm_title">Dzēst visas lejupielādētās kartes?</string>
+    <string name="delete_all_maps_confirm_message">Tiks izdzēsts katrs šajā ierīcē lejupielādētais kartes apgabals. Lai lietotu bezsaistē, tas būs jālejupielādē vēlreiz. Manuāli pievienotie punkti netiek ietekmēti.</string>
+    <string name="delete_all_maps_confirm_yes">Dzēst</string>
+    <string name="delete_all_maps_confirm_no">Atcelt</string>
+    <string name="delete_all_maps_done">Visas lejupielādētās kartes ir izdzēstas.</string>
+    <string name="info_button_text">Precizitāte: %1$d m, ātrums: %2$.1f km/h</string>
+    <string name="keep_screen_on_title">Neizslēgt ekrānu</string>
+    <string name="keep_screen_on_summary_on">Kamēr lietotne ir atvērta, ekrāns netiks bloķēts</string>
+    <string name="keep_screen_on_summary_off">Ekrāns tiks bloķēts atbilstoši sistēmas iestatījumiem</string>
+
+    <string name="content_description_filters">Filtri</string>
+    <string name="content_description_search">Meklēt</string>
+    <string name="content_description_list_nodes">Uzskaitīt tuvumā esošos punktus</string>
+    <string name="nearby_nodes_loading_title">Ielādē tuvumā esošos punktus…</string>
+    <string name="list_button_text">Saraksts</string>
+    <string name="content_description_add_point">Pievienot jaunu punktu</string>
+    <string name="content_description_info">Informācija</string>
+    <string name="content_description_action">Darbība</string>
+    <string name="content_description_explore_map">Izpētīt</string>
+    <string name="content_description_zoom_in">Tuvināt</string>
+    <string name="content_description_zoom_out">Tālināt</string>
+    <string name="content_description_recenter">Atgriezties pie manas atrašanās vietas</string>
+    <string name="content_description_map_lock">Pārslēgt uz virziena bloķēšanu uz ziemeļiem</string>
+    <string name="content_description_more">Vairāk</string>
+    <string name="category_button_text">Kategorija</string>
+    <string name="keyword_button_text">Atslēgvārds</string>
+    <string name="refresh_button_text">Atsvaidzināt</string>
+    <string name="find_address_title">Meklēt</string>
+    <string name="hint_type_or_speak">Rakstiet vai runājiet</string>
+    <string name="content_description_mic">Mikrofons</string>
+
+    <string name="tooltip_node_name">Centrālais parks</string>
+    <string name="tooltip_node_category">Atpūta</string>
+    <string name="tooltip_node_distance">150 m attālumā</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f metru attālumā</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f kilometru attālumā</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d metri, pulksten %3$d virzienā</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d metri</string>
+    <string name="announce_aiming_distance_and_clock">%1$d metri, pulksten %2$d virzienā</string>
+    <string name="announce_aiming_clock_only">Pulksten %1$d virzienā</string>
+    <string name="announce_user_location">Jūs</string>
+    <string name="hint_address_input">Adrese</string>
+    <string name="content_description_speak_address">Mikrofons</string>
+
+    <string name="download_map_title">Lejupielādēt karti</string>
+    <string name="download_button">Lejupielādēt karti</string>
+    <string name="download_cancel_button">Atcelt lejupielādi</string>
+    <string name="download_cancel_confirm_title">Atcelt lejupielādi?</string>
+    <string name="download_cancel_confirm_message">Kartes importēšana joprojām turpinās. Vai tiešām vēlaties to atcelt?</string>
+    <string name="download_cancel_confirm_yes">Jā, atcelt</string>
+    <string name="download_cancel_confirm_no">Nē, turpināt lejupielādi</string>
+    <string name="download_close_button">Aizvērt</string>
+    <string name="download_in_progress_title">Kartes importēšana jau notiek.</string>
+    <string name="download_size_label">Lejupielādes apjoms: %1$s</string>
+    <string name="download_size_label_multi">Lejupielādes apjoms: %1$d faili, kopā %2$s</string>
+    <string name="download_size_unknown">Lejupielādes apjoms: nezināms</string>
+    <string name="download_already_downloaded_prefix">Jau lejupielādēts.</string>
+    <string name="download_larger_map_checkbox">Lielāka karte</string>
+    <string name="download_larger_map_hint">Lejupielādē arī blakus esošos apgabalus (var pievienot vairākus failus).</string>
+    <string name="download_looking_up">Notiek šī apgabala kartes datu meklēšana…</string>
+    <string name="download_no_data_here">Šim apgabalam nav pieejami detalizēti kartes dati.</string>
+    <string name="download_area_default_name">šo apgabalu</string>
+    <string name="download_complete">Importēšana pabeigta: pievienoti %1$d objekti.</string>
+    <string name="download_failed">Importēšana neizdevās: %1$s</string>
+    <string name="menu_download_map">Lejupielādēt karti</string>
+    <string name="import_notif_title">Notiek kartes importēšana</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Sākas</string>
+    <string name="import_cancelled">Importēšana atcelta.</string>
+    <string name="import_notif_starting">Sākas importēšana: %1$s…</string>
+    <string name="no_map_here_message">Šeit nav detalizētas kartes — pieskarieties divreiz, lai lejupielādētu.</string>
+    <string name="map_load_failed_message">Neizdevās ielādēt karti šeit — mēģiniet tālināt vai attālināties un atgriezties.</string>
+    <string name="download_area_action">Lejupielādēt karti šim apgabalam</string>
+    <string name="download_radius_location_unknown">Atrašanās vieta nav pieejama — pārvietojiet karti vai piešķiriet atrašanās vietas atļauju</string>
+
+    <string name="render_map_title">Rādīt karti (beta versija)</string>
+    <string name="render_map_summary_on">Karte tiek attēlota ekrānā vājredzīgiem lietotājiem. Šī attēlošanas funkcija ir eksperimentāla un tiek pastāvīgi uzlabota.</string>
+    <string name="render_map_summary_off">Karte netiek attēlota; izpētiet, izmantojot tikai pieskārienus un skaņu.</string>
+
+    <string name="notif_background_title">Navia darbojas</string>
+    <string name="notif_background_text">Fona pakalpojums ir aktīvs</string>
+
+    <string name="action_search">Meklēt</string>
+    <string name="address_search_empty_toast">Lūdzu, ievadiet adresi.</string>
+    <string name="address_search_searching">Notiek meklēšana…</string>
+    <string name="address_search_select_title">Izvēlieties adresi</string>
+    <string name="address_search_cancelled_toast">Meklēšana atcelta</string>
+    <string name="address_search_error_toast">Kļūda: %1$s</string>
+
+    <string name="hint_enter_point_name">Ievadiet punkta nosaukumu</string>
+    <string name="add_point_dialog_title">Pievienot jaunu punktu</string>
+    <string name="action_save_node">Saglabāt punktu</string>
+    <string name="action_reset_location">Atiestatīt atrašanās vietu</string>
+    <string name="toast_enter_name_required">Lūdzu, ievadiet nosaukumu.</string>
+    <string name="toast_waiting_for_location">Vēl joprojām tiek noteikta atrašanās vieta — lūdzu, mēģiniet vēlreiz pēc brīža.</string>
+    <string name="toast_point_added">Punkts pievienots.</string>
+    <string name="status_getting_location">Notiek atrašanās vietas noteikšana…</string>
+    <string name="status_getting_location_with_accuracy">Notiek atrašanās vietas noteikšana… labākā precizitāte: %1$dm.</string>
+
+    <string name="action_edit_node">Rediģēt punktu</string>
+    <string name="action_save">Saglabāt</string>
+    <string name="action_delete">Dzēst</string>
+    <string name="toast_point_updated">Punkts atjaunināts.</string>
+    <string name="confirm_removal_title">Apstipriniet noņemšanu</string>
+    <string name="confirm_removal_message">Vai tiešām vēlaties noņemt šo punktu?\n%1$s</string>
+    <string name="action_remove">Noņemt</string>
+    <string name="toast_point_removed">Punkts noņemts.</string>
+
+    <string name="permissions_required_message">Šīs atļaujas ir nepieciešamas, lai lietotne darbotos pareizi.</string>
+    <string name="action_grant_permissions">Piešķirt atļaujas</string>
+    <string name="action_close">Aizvērt</string>
+    <string name="content_description_switch_to_compass_lock">Pārslēgt uz kompasa bloķēšanu</string>
+
+    <string name="action_aim_at_point">Norādīt virzienu uz punktu</string>
+    <string name="action_navigate_google_maps">Navigēt uz punktu Google kartēs</string>
+    <string name="action_zoom_to_point">Tuvināt uz punktu</string>
+    <string name="action_zoom_to_point_on_map">Tuvināt uz punktu kartē</string>
+    <string name="action_remove_from_favorites">Noņemt no izlases</string>
+    <string name="action_add_to_favorites">Pievienot izlasei</string>
+    <string name="action_details">Informācija</string>
+    <string name="toast_no_additional_details">Nav pieejama papildu informācija.</string>
+
+    <string name="toast_map_location_unavailable">Kartes atrašanās vieta nav pieejama.</string>
+    <string name="nearby_nodes_dialog_title">Rādīt tuvumā esošos punktus</string>
+    <string name="nearby_nodes_dialog_message">Karte pašlaik nav centrēta uz jūsu atrašanās vietu, tāpēc „ap mani" un „ap kartes centru" rādītu atšķirīgus punktus. Kuru variantu izmantot?</string>
+    <string name="action_around_me">Ap mani</string>
+    <string name="action_around_map_center">Ap kartes centru</string>
+
+</resources>

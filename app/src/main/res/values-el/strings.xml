@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Ρυθμίσεις</string>
+    <string name="talkback_required_title">Απαιτείται το TalkBack</string>
+    <string name="talkback_required_message">Αυτή η εφαρμογή έχει σχεδιαστεί για να λειτουργεί με το TalkBack, το οποίο πρέπει να είναι ενεργοποιημένο για να λειτουργεί σωστά η εφαρμογή. Αφού κατεβάσετε τον χάρτη για την περιοχή σας, αγγίξτε και μετακινήστε το δάχτυλό σας στην οθόνη για να εξερευνήσετε τους δρόμους και τα σημεία γύρω σας.</string>
+    <string name="talkback_required_open_settings">Άνοιγμα ρυθμίσεων προσβασιμότητας</string>
+
+    <string name="menu_gallery">Συλλογή</string>
+    <string name="title_activity_settings">Ρυθμίσεις</string>
+    <string name="please_click_back_again_to_exit">Πατήστε ξανά ΠΙΣΩ για έξοδο</string>
+    <string name="language_title">Η προτιμώμενη γλώσσα σας</string>
+    <string name="general_header">Γενικές ρυθμίσεις</string>
+    <string name="settings_announcement_header">Ανακοινώσεις</string>
+    <string name="cancel_aiming">Ακύρωση στόχευσης %1$s</string>
+    <string name="aiming_started">Στόχευση %1$s. Πατήστε εδώ για ακύρωση.</string>
+    <string name="cancel_search">Ακύρωση φιλτραρίσματος κατά %1$s</string>
+    <string name="search_on_map_started">Εμφανίζονται μόνο σημεία που ταιριάζουν με %1$s. Πατήστε εδώ για ακύρωση.</string>
+    <string name="search_canceled">Το φίλτρο λέξης-κλειδί ακυρώθηκε</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">Φιλτράρισμα στοιχείων χάρτη</string>
+    <string name="filter_keyword_label">Λέξη-κλειδί (αφήστε κενό για όλα)</string>
+    <string name="filter_categories_label">Κατηγορίες</string>
+    <string name="filter_show_selected">Εμφάνιση επιλεγμένων</string>
+    <string name="filter_show_favorites">Εμφάνιση αγαπημένων</string>
+    <string name="filter_show_all">Εμφάνιση όλων</string>
+    <string name="startup_download_prompt_title">Δεν υπάρχει κατεβασμένος χάρτης εδώ</string>
+    <string name="startup_download_prompt_message">Δεν υπάρχει ακόμη κατεβασμένος χάρτης για την τρέχουσα τοποθεσία σας. Κατεβάστε τον τώρα για να εξερευνήσετε τον χώρο γύρω σας.</string>
+    <string name="startup_download_prompt_download">Λήψη χάρτη</string>
+    <string name="aiming_canceled">Η στόχευση ακυρώθηκε</string>
+    <string name="settings_sound_header">Ήχος και δόνηση</string>
+    <string name="map_data_header">Δεδομένα χάρτη</string>
+    <string name="delete_all_maps_title">Διαγραφή όλων των κατεβασμένων χαρτών</string>
+    <string name="delete_all_maps_summary">Καταργεί όλα τα κατεβασμένα δεδομένα χάρτη από αυτή τη συσκευή. Τα σημεία που προστέθηκαν χειροκίνητα διατηρούνται.</string>
+    <string name="delete_all_maps_confirm_title">Διαγραφή όλων των κατεβασμένων χαρτών;</string>
+    <string name="delete_all_maps_confirm_message">Αυτό καταργεί κάθε κατεβασμένη περιοχή χάρτη από αυτή τη συσκευή. Θα χρειαστεί να την κατεβάσετε ξανά για να τη χρησιμοποιήσετε εκτός σύνδεσης. Τα σημεία που προστέθηκαν χειροκίνητα δεν επηρεάζονται.</string>
+    <string name="delete_all_maps_confirm_yes">Διαγραφή</string>
+    <string name="delete_all_maps_confirm_no">Ακύρωση</string>
+    <string name="delete_all_maps_done">Όλοι οι κατεβασμένοι χάρτες διαγράφηκαν.</string>
+    <string name="info_button_text">Ακρίβεια: %1$d μ, ταχύτητα: %2$.1f χλμ/ώ</string>
+    <string name="keep_screen_on_title">Διατήρηση οθόνης ενεργής</string>
+    <string name="keep_screen_on_summary_on">Η οθόνη δεν θα κλειδώνει όσο η εφαρμογή είναι ανοιχτή</string>
+    <string name="keep_screen_on_summary_off">Η οθόνη θα κλειδώνει σύμφωνα με τις ρυθμίσεις συστήματος</string>
+
+    <string name="content_description_filters">Φίλτρα</string>
+    <string name="content_description_search">Αναζήτηση</string>
+    <string name="content_description_list_nodes">Λίστα κοντινών σημείων</string>
+    <string name="nearby_nodes_loading_title">Φόρτωση κοντινών σημείων…</string>
+    <string name="list_button_text">Λίστα</string>
+    <string name="content_description_add_point">Προσθήκη νέου σημείου</string>
+    <string name="content_description_info">Πληροφορίες</string>
+    <string name="content_description_action">Ενέργεια</string>
+    <string name="content_description_explore_map">Εξερεύνηση</string>
+    <string name="content_description_zoom_in">Μεγέθυνση</string>
+    <string name="content_description_zoom_out">Σμίκρυνση</string>
+    <string name="content_description_recenter">Επαναφορά στην τοποθεσία σας</string>
+    <string name="content_description_map_lock">Εναλλαγή σε κλείδωμα Βορρά</string>
+    <string name="content_description_more">Περισσότερα</string>
+    <string name="category_button_text">Κατηγορία</string>
+    <string name="keyword_button_text">Λέξη-κλειδί</string>
+    <string name="refresh_button_text">Ανανέωση</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">Αναζήτηση</string>
+    <string name="hint_type_or_speak">Πληκτρολογήστε ή μιλήστε</string>
+    <string name="content_description_mic">Μικρόφωνο</string>
+
+    <string name="tooltip_node_name">Central Park</string>
+    <string name="tooltip_node_category">Αναψυχή</string>
+    <string name="tooltip_node_distance">150μ μακριά</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f μέτρα μακριά</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f χιλιόμετρα μακριά</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d μέτρα, ώρα %3$d</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d μέτρα</string>
+    <string name="announce_aiming_distance_and_clock">%1$d μέτρα, ώρα %2$d</string>
+    <string name="announce_aiming_clock_only">ώρα %1$d</string>
+    <string name="announce_user_location">Εσείς</string>
+    <string name="hint_address_input">Διεύθυνση</string>
+    <string name="content_description_speak_address">Μικρόφωνο</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">Λήψη χάρτη</string>
+    <string name="download_button">Λήψη χάρτη</string>
+    <string name="download_cancel_button">Ακύρωση λήψης</string>
+    <string name="download_cancel_confirm_title">Ακύρωση λήψης;</string>
+    <string name="download_cancel_confirm_message">Η εισαγωγή του χάρτη βρίσκεται ακόμα σε εξέλιξη. Είστε σίγουροι ότι θέλετε να την ακυρώσετε;</string>
+    <string name="download_cancel_confirm_yes">Ναι, ακύρωση</string>
+    <string name="download_cancel_confirm_no">Όχι, συνέχιση λήψης</string>
+    <string name="download_close_button">Κλείσιμο</string>
+    <string name="download_in_progress_title">Μια εισαγωγή χάρτη εκτελείται ήδη.</string>
+    <string name="download_size_label">Μέγεθος λήψης: %1$s</string>
+    <string name="download_size_label_multi">Μέγεθος λήψης: %1$d αρχεία, %2$s συνολικά</string>
+    <string name="download_size_unknown">Μέγεθος λήψης: άγνωστο</string>
+    <string name="download_already_downloaded_prefix">Έχει ήδη κατέβει.</string>
+    <string name="download_larger_map_checkbox">Μεγαλύτερος χάρτης</string>
+    <string name="download_larger_map_hint">Κατεβάζει επίσης τις γειτονικές περιοχές (ενδέχεται να είναι αρκετά επιπλέον αρχεία).</string>
+    <string name="download_looking_up">Αναζήτηση δεδομένων χάρτη για αυτή την περιοχή…</string>
+    <string name="download_no_data_here">Δεν υπάρχουν διαθέσιμα λεπτομερή δεδομένα χάρτη για αυτή την περιοχή.</string>
+    <string name="download_area_default_name">αυτή την περιοχή</string>
+    <string name="download_complete">Η εισαγωγή ολοκληρώθηκε: προστέθηκαν %1$d στοιχεία.</string>
+    <string name="download_failed">Η εισαγωγή απέτυχε: %1$s</string>
+    <string name="menu_download_map">Λήψη χάρτη</string>
+    <string name="import_notif_title">Εισαγωγή χάρτη</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Έναρξη</string>
+    <string name="import_cancelled">Η εισαγωγή ακυρώθηκε.</string>
+    <string name="import_notif_starting">Έναρξη εισαγωγής του %1$s…</string>
+    <string name="no_map_here_message">Δεν υπάρχει λεπτομερής χάρτης εδώ — πατήστε δύο φορές για λήψη.</string>
+    <string name="map_load_failed_message">Δεν ήταν δυνατή η φόρτωση του χάρτη εδώ — δοκιμάστε να σμικρύνετε ή να απομακρυνθείτε και να επιστρέψετε.</string>
+    <string name="download_area_action">Λήψη χάρτη για αυτή την περιοχή</string>
+    <string name="download_radius_location_unknown">Η τοποθεσία δεν είναι διαθέσιμη — μετακινήστε τον χάρτη ή παραχωρήστε άδεια τοποθεσίας</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">Εμφάνιση χάρτη (Beta)</string>
+    <string name="render_map_summary_on">Ο χάρτης σχεδιάζεται στην οθόνη για χρήστες με μειωμένη όραση. Αυτή η σχεδίαση είναι πειραματική και βελτιώνεται ακόμη.</string>
+    <string name="render_map_summary_off">Ο χάρτης δεν σχεδιάζεται· εξερευνήστε μόνο με αφή και ήχο.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Το Navia εκτελείται</string>
+    <string name="notif_background_text">Η υπηρεσία παρασκηνίου είναι ενεργή</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">Αναζήτηση</string>
+    <string name="address_search_empty_toast">Παρακαλώ εισαγάγετε μια διεύθυνση.</string>
+    <string name="address_search_searching">Αναζήτηση…</string>
+    <string name="address_search_select_title">Επιλογή διεύθυνσης</string>
+    <string name="address_search_cancelled_toast">Η αναζήτηση ακυρώθηκε</string>
+    <string name="address_search_error_toast">Σφάλμα: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">Εισαγάγετε όνομα σημείου</string>
+    <string name="add_point_dialog_title">Προσθήκη νέου σημείου</string>
+    <string name="action_save_node">Αποθήκευση σημείου</string>
+    <string name="action_reset_location">Επαναφορά τοποθεσίας</string>
+    <string name="toast_enter_name_required">Παρακαλώ εισαγάγετε ένα όνομα.</string>
+    <string name="toast_waiting_for_location">Ακόμα αναμονή για τοποθεσία — δοκιμάστε ξανά σε λίγο.</string>
+    <string name="toast_point_added">Το σημείο προστέθηκε.</string>
+    <string name="status_getting_location">Λήψη τοποθεσίας…</string>
+    <string name="status_getting_location_with_accuracy">Λήψη τοποθεσίας… καλύτερη ακρίβεια: %1$d μ.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">Επεξεργασία σημείου</string>
+    <string name="action_save">Αποθήκευση</string>
+    <string name="action_delete">Διαγραφή</string>
+    <string name="toast_point_updated">Το σημείο ενημερώθηκε.</string>
+    <string name="confirm_removal_title">Επιβεβαίωση κατάργησης</string>
+    <string name="confirm_removal_message">Είστε σίγουροι ότι θέλετε να καταργήσετε αυτό το σημείο;\n%1$s</string>
+    <string name="action_remove">Κατάργηση</string>
+    <string name="toast_point_removed">Το σημείο καταργήθηκε.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">Αυτές οι άδειες είναι απαραίτητες για τη σωστή λειτουργία της εφαρμογής.</string>
+    <string name="action_grant_permissions">Παραχώρηση αδειών</string>
+    <string name="action_close">Κλείσιμο</string>
+    <string name="content_description_switch_to_compass_lock">Εναλλαγή σε κλείδωμα πυξίδας</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">Στόχευση σημείου</string>
+    <string name="action_navigate_google_maps">Πλοήγηση στο σημείο μέσω Google Maps</string>
+    <string name="action_zoom_to_point">Μεγέθυνση στο σημείο</string>
+    <string name="action_zoom_to_point_on_map">Μεγέθυνση στο σημείο στον χάρτη</string>
+    <string name="action_remove_from_favorites">Κατάργηση από τα αγαπημένα</string>
+    <string name="action_add_to_favorites">Προσθήκη στα αγαπημένα</string>
+    <string name="action_details">Λεπτομέρειες</string>
+    <string name="toast_no_additional_details">Δεν υπάρχουν επιπλέον διαθέσιμες λεπτομέρειες.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">Η τοποθεσία του χάρτη δεν είναι διαθέσιμη.</string>
+    <string name="nearby_nodes_dialog_title">Εμφάνιση κοντινών σημείων</string>
+    <string name="nearby_nodes_dialog_message">Ο χάρτης δεν είναι επί του παρόντος κεντραρισμένος στην τοποθεσία σας, οπότε οι επιλογές \"γύρω μου\" και \"γύρω από το κέντρο του χάρτη\" θα εμφάνιζαν διαφορετικά σημεία. Ποια να χρησιμοποιηθεί;</string>
+    <string name="action_around_me">Γύρω μου</string>
+    <string name="action_around_map_center">Γύρω από το κέντρο του χάρτη</string>
+
+</resources>

@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Setări</string>
+    <string name="talkback_required_title">TalkBack este necesar</string>
+    <string name="talkback_required_message">Această aplicație este concepută să funcționeze cu TalkBack, iar TalkBack trebuie să fie activat pentru ca aplicația să funcționeze corect. După ce descărcați harta pentru zona dvs., atingeți și mișcați degetul pe ecran pentru a explora străzile și punctele din jurul dvs.</string>
+    <string name="talkback_required_open_settings">Deschide setările de accesibilitate</string>
+
+    <string name="menu_gallery">Galerie</string>
+    <string name="title_activity_settings">Setări</string>
+    <string name="please_click_back_again_to_exit">Apăsați ÎNAPOI încă o dată pentru a ieși</string>
+    <string name="language_title">Limba preferată</string>
+    <string name="general_header">Setări generale</string>
+    <string name="settings_announcement_header">Anunțuri</string>
+    <string name="cancel_aiming">Anulează direcționarea către %1$s</string>
+    <string name="aiming_started">Se direcționează către %1$s. Atingeți aici pentru a anula.</string>
+    <string name="cancel_search">Anulează filtrarea după %1$s</string>
+    <string name="search_on_map_started">Se afișează doar punctele care corespund cu %1$s. Atingeți aici pentru a anula.</string>
+    <string name="search_canceled">Filtrul după cuvânt cheie a fost anulat</string>
+
+    <string name="filter_dialog_title">Filtrează elementele hărții</string>
+    <string name="filter_keyword_label">Cuvânt cheie (lăsați gol pentru toate)</string>
+    <string name="filter_categories_label">Categorii</string>
+    <string name="filter_show_selected">Afișează selectate</string>
+    <string name="filter_show_favorites">Afișează favoritele</string>
+    <string name="filter_show_all">Afișează toate</string>
+    <string name="startup_download_prompt_title">Nicio hartă descărcată aici</string>
+    <string name="startup_download_prompt_message">Încă nu există o hartă descărcată pentru locația dvs. curentă. Descărcați-o acum pentru a explora împrejurimile.</string>
+    <string name="startup_download_prompt_download">Descarcă harta</string>
+    <string name="aiming_canceled">Direcționare anulată</string>
+    <string name="settings_sound_header">Sunet și vibrații</string>
+    <string name="map_data_header">Date hartă</string>
+    <string name="delete_all_maps_title">Șterge toate hărțile descărcate</string>
+    <string name="delete_all_maps_summary">Elimină toate datele de hartă descărcate de pe acest dispozitiv. Punctele adăugate manual sunt păstrate.</string>
+    <string name="delete_all_maps_confirm_title">Ștergeți toate hărțile descărcate?</string>
+    <string name="delete_all_maps_confirm_message">Această acțiune elimină toate zonele de hartă descărcate de pe acest dispozitiv. Va trebui să le descărcați din nou pentru a le folosi offline. Punctele adăugate manual nu sunt afectate.</string>
+    <string name="delete_all_maps_confirm_yes">Șterge</string>
+    <string name="delete_all_maps_confirm_no">Anulează</string>
+    <string name="delete_all_maps_done">Toate hărțile descărcate au fost șterse.</string>
+    <string name="info_button_text">Precizie: %1$d m, viteză: %2$.1f km/h</string>
+    <string name="keep_screen_on_title">Păstrează ecranul pornit</string>
+    <string name="keep_screen_on_summary_on">Ecranul nu se va bloca cât timp aplicația este deschisă</string>
+    <string name="keep_screen_on_summary_off">Ecranul se va bloca în funcție de setările sistemului</string>
+
+    <string name="content_description_filters">Filtre</string>
+    <string name="content_description_search">Căutare</string>
+    <string name="content_description_list_nodes">Listează punctele din apropiere</string>
+    <string name="nearby_nodes_loading_title">Se încarcă punctele din apropiere…</string>
+    <string name="list_button_text">Listă</string>
+    <string name="content_description_add_point">Adaugă punct nou</string>
+    <string name="content_description_info">Informații</string>
+    <string name="content_description_action">Acțiune</string>
+    <string name="content_description_explore_map">Explorează</string>
+    <string name="content_description_zoom_in">Mărește</string>
+    <string name="content_description_zoom_out">Micșorează</string>
+    <string name="content_description_recenter">Recentrează pe locația dvs.</string>
+    <string name="content_description_map_lock">Comută la blocare pe nord</string>
+    <string name="content_description_more">Mai multe</string>
+    <string name="category_button_text">Categorie</string>
+    <string name="keyword_button_text">Cuvânt cheie</string>
+    <string name="refresh_button_text">Reîmprospătează</string>
+    <string name="find_address_title">Căutare</string>
+    <string name="hint_type_or_speak">Scrieți sau vorbiți</string>
+    <string name="content_description_mic">Microfon</string>
+
+    <string name="tooltip_node_name">Central Park</string>
+    <string name="tooltip_node_category">Recreere</string>
+    <string name="tooltip_node_distance">la 150 m</string>
+
+    <string name="announce_location_meters">%1$s, la %2$.0f metri</string>
+    <string name="announce_location_kilometers">%1$s, la %2$.1f kilometri</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d metri, la ora %3$d</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d metri</string>
+    <string name="announce_aiming_distance_and_clock">%1$d metri, la ora %2$d</string>
+    <string name="announce_aiming_clock_only">Ora %1$d</string>
+    <string name="announce_user_location">Dvs.</string>
+    <string name="hint_address_input">Adresă</string>
+    <string name="content_description_speak_address">Microfon</string>
+
+    <string name="download_map_title">Descarcă harta</string>
+    <string name="download_button">Descarcă harta</string>
+    <string name="download_cancel_button">Anulează descărcarea</string>
+    <string name="download_cancel_confirm_title">Anulați descărcarea?</string>
+    <string name="download_cancel_confirm_message">Importul hărții este încă în desfășurare. Sigur doriți să îl anulați?</string>
+    <string name="download_cancel_confirm_yes">Da, anulează</string>
+    <string name="download_cancel_confirm_no">Nu, continuă descărcarea</string>
+    <string name="download_close_button">Închide</string>
+    <string name="download_in_progress_title">Un import de hartă rulează deja.</string>
+    <string name="download_size_label">Dimensiune descărcare: %1$s</string>
+    <string name="download_size_label_multi">Dimensiune descărcare: %1$d fișiere, %2$s în total</string>
+    <string name="download_size_unknown">Dimensiune descărcare: necunoscută</string>
+    <string name="download_already_downloaded_prefix">Deja descărcat.</string>
+    <string name="download_larger_map_checkbox">Hartă mai mare</string>
+    <string name="download_larger_map_hint">Descarcă și zonele învecinate (pot fi mai multe fișiere).</string>
+    <string name="download_looking_up">Se caută date de hartă pentru această zonă…</string>
+    <string name="download_no_data_here">Nu există date de hartă detaliate disponibile pentru această zonă.</string>
+    <string name="download_area_default_name">această zonă</string>
+    <string name="download_complete">Import finalizat: %1$d elemente adăugate.</string>
+    <string name="download_failed">Import eșuat: %1$s</string>
+    <string name="menu_download_map">Descarcă harta</string>
+    <string name="import_notif_title">Se importă harta</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Se pornește</string>
+    <string name="import_cancelled">Import anulat.</string>
+    <string name="import_notif_starting">Se pornește importul pentru %1$s…</string>
+    <string name="no_map_here_message">Nicio hartă detaliată aici — atingeți de două ori pentru a descărca.</string>
+    <string name="map_load_failed_message">Harta nu a putut fi încărcată aici — încercați să micșorați zoomul sau să vă îndepărtați și să reveniți.</string>
+    <string name="download_area_action">Descarcă harta pentru această zonă</string>
+    <string name="download_radius_location_unknown">Locație indisponibilă — mutați harta sau acordați permisiunea de localizare</string>
+
+    <string name="render_map_title">Afișează harta (Beta)</string>
+    <string name="render_map_summary_on">Harta este desenată pe ecran pentru utilizatorii cu deficiențe de vedere. Această desenare este experimentală și încă în curs de îmbunătățire.</string>
+    <string name="render_map_summary_off">Harta nu este desenată; explorați doar prin atingere și sunet.</string>
+
+    <string name="notif_background_title">Navia rulează</string>
+    <string name="notif_background_text">Serviciul de fundal este activ</string>
+
+    <string name="action_search">Căutare</string>
+    <string name="address_search_empty_toast">Introduceți o adresă.</string>
+    <string name="address_search_searching">Se caută…</string>
+    <string name="address_search_select_title">Selectați o adresă</string>
+    <string name="address_search_cancelled_toast">Căutare anulată</string>
+    <string name="address_search_error_toast">Eroare: %1$s</string>
+
+    <string name="hint_enter_point_name">Introduceți numele punctului</string>
+    <string name="add_point_dialog_title">Adaugă punct nou</string>
+    <string name="action_save_node">Salvează punctul</string>
+    <string name="action_reset_location">Resetează locația</string>
+    <string name="toast_enter_name_required">Introduceți un nume.</string>
+    <string name="toast_waiting_for_location">Se așteaptă în continuare locația — încercați din nou peste puțin timp.</string>
+    <string name="toast_point_added">Punct adăugat.</string>
+    <string name="status_getting_location">Se obține locația…</string>
+    <string name="status_getting_location_with_accuracy">Se obține locația… cea mai bună precizie: %1$dm.</string>
+
+    <string name="action_edit_node">Editează punctul</string>
+    <string name="action_save">Salvează</string>
+    <string name="action_delete">Șterge</string>
+    <string name="toast_point_updated">Punct actualizat.</string>
+    <string name="confirm_removal_title">Confirmă eliminarea</string>
+    <string name="confirm_removal_message">Sigur doriți să eliminați acest punct?\n%1$s</string>
+    <string name="action_remove">Elimină</string>
+    <string name="toast_point_removed">Punct eliminat.</string>
+
+    <string name="permissions_required_message">Aceste permisiuni sunt necesare pentru ca aplicația să funcționeze corect.</string>
+    <string name="action_grant_permissions">Acordă permisiuni</string>
+    <string name="action_close">Închide</string>
+    <string name="content_description_switch_to_compass_lock">Comută la blocare busolă</string>
+
+    <string name="action_aim_at_point">Direcționează spre punct</string>
+    <string name="action_navigate_google_maps">Navighează către punct în Google Maps</string>
+    <string name="action_zoom_to_point">Mărește la punct</string>
+    <string name="action_zoom_to_point_on_map">Mărește la punct pe hartă</string>
+    <string name="action_remove_from_favorites">Elimină din favorite</string>
+    <string name="action_add_to_favorites">Adaugă la favorite</string>
+    <string name="action_details">Detalii</string>
+    <string name="toast_no_additional_details">Nu sunt disponibile detalii suplimentare.</string>
+
+    <string name="toast_map_location_unavailable">Locația hărții este indisponibilă.</string>
+    <string name="nearby_nodes_dialog_title">Afișează punctele din apropiere</string>
+    <string name="nearby_nodes_dialog_message">Harta nu este centrată în prezent pe locația dvs., așa că \"în jurul meu\" și \"în jurul centrului hărții\" ar afișa puncte diferite. Care ar trebui folosită?</string>
+    <string name="action_around_me">În jurul meu</string>
+    <string name="action_around_map_center">În jurul centrului hărții</string>
+
+</resources>

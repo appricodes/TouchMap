@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">ക്രമീകരണങ്ങൾ</string>
+    <string name="talkback_required_title">ടോക്ക്ബാക്ക് ആവശ്യമാണ്</string>
+    <string name="talkback_required_message">ഈ ആപ്പ് ടോക്ക്ബാക്കിനൊപ്പം പ്രവർത്തിക്കാൻ രൂപകൽപ്പന ചെയ്തതാണ്, ആപ്പ് ശരിയായി പ്രവർത്തിക്കാൻ ടോക്ക്ബാക്ക് ഓണായിരിക്കണം. നിങ്ങളുടെ പ്രദേശത്തിന്റെ മാപ്പ് ഡൗൺലോഡ് ചെയ്ത ശേഷം, ചുറ്റുമുള്ള തെരുവുകളും സ്ഥലങ്ങളും പര്യവേക്ഷണം ചെയ്യാൻ സ്ക്രീനിൽ വിരൽ സ്പർശിച്ച് ചലിപ്പിക്കുക.</string>
+    <string name="talkback_required_open_settings">ആക്സസിബിലിറ്റി ക്രമീകരണങ്ങൾ തുറക്കുക</string>
+
+    <string name="menu_gallery">ഗാലറി</string>
+    <string name="title_activity_settings">ക്രമീകരണങ്ങൾ</string>
+    <string name="please_click_back_again_to_exit">പുറത്തുകടക്കാൻ ദയവായി വീണ്ടും BACK അമർത്തുക</string>
+    <string name="language_title">നിങ്ങളുടെ ഇഷ്ട ഭാഷ</string>
+    <string name="general_header">പൊതു ക്രമീകരണങ്ങൾ</string>
+    <string name="settings_announcement_header">അറിയിപ്പുകൾ</string>
+    <string name="cancel_aiming">%1$s ലക്ഷ്യമിടൽ റദ്ദാക്കുക</string>
+    <string name="aiming_started">%1$s ലക്ഷ്യമിടുന്നു. റദ്ദാക്കാൻ ഇവിടെ ക്ലിക്ക് ചെയ്യുക.</string>
+    <string name="cancel_search">%1$s പ്രകാരം ഫിൽട്ടർ ചെയ്യുന്നത് റദ്ദാക്കുക</string>
+    <string name="search_on_map_started">%1$s എന്നതുമായി പൊരുത്തപ്പെടുന്ന പോയിന്റുകൾ മാത്രം കാണിക്കുന്നു. റദ്ദാക്കാൻ ഇവിടെ ക്ലിക്ക് ചെയ്യുക.</string>
+    <string name="search_canceled">കീവേഡ് ഫിൽട്ടർ റദ്ദാക്കി</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">മാപ്പ് ഘടകങ്ങൾ ഫിൽട്ടർ ചെയ്യുക</string>
+    <string name="filter_keyword_label">കീവേഡ് (എല്ലാം കാണിക്കാൻ ശൂന്യമായി വിടുക)</string>
+    <string name="filter_categories_label">വിഭാഗങ്ങൾ</string>
+    <string name="filter_show_selected">തിരഞ്ഞെടുത്തവ കാണിക്കുക</string>
+    <string name="filter_show_favorites">പ്രിയപ്പെട്ടവ കാണിക്കുക</string>
+    <string name="filter_show_all">എല്ലാം കാണിക്കുക</string>
+    <string name="startup_download_prompt_title">ഇവിടെ മാപ്പ് ഡൗൺലോഡ് ചെയ്തിട്ടില്ല</string>
+    <string name="startup_download_prompt_message">നിങ്ങളുടെ നിലവിലെ സ്ഥലത്തിന് ഇതുവരെ മാപ്പ് ഡൗൺലോഡ് ചെയ്തിട്ടില്ല. ചുറ്റുപാടുകൾ പര്യവേക്ഷണം ചെയ്യാൻ ഇപ്പോൾ ഡൗൺലോഡ് ചെയ്യുക.</string>
+    <string name="startup_download_prompt_download">മാപ്പ് ഡൗൺലോഡ് ചെയ്യുക</string>
+    <string name="aiming_canceled">ലക്ഷ്യമിടൽ റദ്ദാക്കി</string>
+    <string name="settings_sound_header">ശബ്ദവും വൈബ്രേഷനും</string>
+    <string name="map_data_header">മാപ്പ് ഡാറ്റ</string>
+    <string name="delete_all_maps_title">ഡൗൺലോഡ് ചെയ്ത എല്ലാ മാപ്പുകളും ഇല്ലാതാക്കുക</string>
+    <string name="delete_all_maps_summary">ഈ ഉപകരണത്തിൽ നിന്ന് ഡൗൺലോഡ് ചെയ്ത എല്ലാ മാപ്പ് ഡാറ്റയും നീക്കം ചെയ്യുന്നു. നേരിട്ട് ചേർത്ത പോയിന്റുകൾ നിലനിർത്തും.</string>
+    <string name="delete_all_maps_confirm_title">ഡൗൺലോഡ് ചെയ്ത എല്ലാ മാപ്പുകളും ഇല്ലാതാക്കണോ?</string>
+    <string name="delete_all_maps_confirm_message">ഇത് ഈ ഉപകരണത്തിൽ നിന്ന് ഡൗൺലോഡ് ചെയ്ത എല്ലാ മാപ്പ് പ്രദേശങ്ങളും നീക്കം ചെയ്യും. ഓഫ്‌ലൈനിൽ ഉപയോഗിക്കാൻ നിങ്ങൾ അത് വീണ്ടും ഡൗൺലോഡ് ചെയ്യേണ്ടിവരും. നേരിട്ട് ചേർത്ത പോയിന്റുകളെ ഇത് ബാധിക്കില്ല.</string>
+    <string name="delete_all_maps_confirm_yes">ഇല്ലാതാക്കുക</string>
+    <string name="delete_all_maps_confirm_no">റദ്ദാക്കുക</string>
+    <string name="delete_all_maps_done">ഡൗൺലോഡ് ചെയ്ത എല്ലാ മാപ്പുകളും ഇല്ലാതാക്കി.</string>
+    <string name="info_button_text">കൃത്യത: %1$d മീ, വേഗത: %2$.1f കി.മീ/മ</string>
+    <string name="keep_screen_on_title">സ്ക്രീൻ ഓണായി നിലനിർത്തുക</string>
+    <string name="keep_screen_on_summary_on">ആപ്പ് തുറന്നിരിക്കുമ്പോൾ സ്ക്രീൻ ലോക്ക് ആകില്ല</string>
+    <string name="keep_screen_on_summary_off">സിസ്റ്റം ക്രമീകരണം അനുസരിച്ച് സ്ക്രീൻ ലോക്ക് ആകും</string>
+
+    <string name="content_description_filters">ഫിൽട്ടറുകൾ</string>
+    <string name="content_description_search">തിരയുക</string>
+    <string name="content_description_list_nodes">സമീപത്തെ പോയിന്റുകളുടെ ലിസ്റ്റ്</string>
+    <string name="nearby_nodes_loading_title">സമീപത്തെ പോയിന്റുകൾ ലോഡ് ചെയ്യുന്നു…</string>
+    <string name="list_button_text">ലിസ്റ്റ്</string>
+    <string name="content_description_add_point">പുതിയ പോയിന്റ് ചേർക്കുക</string>
+    <string name="content_description_info">വിവരം</string>
+    <string name="content_description_action">പ്രവർത്തനം</string>
+    <string name="content_description_explore_map">പര്യവേക്ഷണം ചെയ്യുക</string>
+    <string name="content_description_zoom_in">സൂം ഇൻ</string>
+    <string name="content_description_zoom_out">സൂം ഔട്ട്</string>
+    <string name="content_description_recenter">നിങ്ങളുടെ സ്ഥാനത്തേക്ക് വീണ്ടും കേന്ദ്രീകരിക്കുക</string>
+    <string name="content_description_map_lock">നോർത്ത് ലോക്കിലേക്ക് മാറുക</string>
+    <string name="content_description_more">കൂടുതൽ</string>
+    <string name="category_button_text">വിഭാഗം</string>
+    <string name="keyword_button_text">കീവേഡ്</string>
+    <string name="refresh_button_text">പുതുക്കുക</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">തിരയുക</string>
+    <string name="hint_type_or_speak">ടൈപ്പ് ചെയ്യുക അല്ലെങ്കിൽ സംസാരിക്കുക</string>
+    <string name="content_description_mic">മൈക്ക്</string>
+
+    <string name="tooltip_node_name">സെൻട്രൽ പാർക്ക്</string>
+    <string name="tooltip_node_category">വിശ്രമം</string>
+    <string name="tooltip_node_distance">150 മീറ്റർ അകലെ</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f മീറ്റർ അകലെ</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f കിലോമീറ്റർ അകലെ</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d മീറ്റർ, %3$d മണിയുടെ ദിശയിൽ</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d മീറ്റർ</string>
+    <string name="announce_aiming_distance_and_clock">%1$d മീറ്റർ, %2$d മണിയുടെ ദിശയിൽ</string>
+    <string name="announce_aiming_clock_only">%1$d മണിയുടെ ദിശയിൽ</string>
+    <string name="announce_user_location">നിങ്ങൾ</string>
+    <string name="hint_address_input">വിലാസം</string>
+    <string name="content_description_speak_address">മൈക്രോഫോൺ</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">മാപ്പ് ഡൗൺലോഡ് ചെയ്യുക</string>
+    <string name="download_button">മാപ്പ് ഡൗൺലോഡ് ചെയ്യുക</string>
+    <string name="download_cancel_button">ഡൗൺലോഡ് റദ്ദാക്കുക</string>
+    <string name="download_cancel_confirm_title">ഡൗൺലോഡ് റദ്ദാക്കണോ?</string>
+    <string name="download_cancel_confirm_message">മാപ്പ് ഇംപോർട്ട് ഇപ്പോഴും നടക്കുന്നു. ഇത് റദ്ദാക്കണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ?</string>
+    <string name="download_cancel_confirm_yes">അതെ, റദ്ദാക്കുക</string>
+    <string name="download_cancel_confirm_no">ഇല്ല, ഡൗൺലോഡ് തുടരുക</string>
+    <string name="download_close_button">അടയ്ക്കുക</string>
+    <string name="download_in_progress_title">ഒരു മാപ്പ് ഇംപോർട്ട് ഇതിനകം നടക്കുന്നു.</string>
+    <string name="download_size_label">ഡൗൺലോഡ് വലുപ്പം: %1$s</string>
+    <string name="download_size_label_multi">ഡൗൺലോഡ് വലുപ്പം: %1$d ഫയലുകൾ, ആകെ %2$s</string>
+    <string name="download_size_unknown">ഡൗൺലോഡ് വലുപ്പം: അജ്ഞാതം</string>
+    <string name="download_already_downloaded_prefix">ഇതിനകം ഡൗൺലോഡ് ചെയ്തു.</string>
+    <string name="download_larger_map_checkbox">വലിയ മാപ്പ്</string>
+    <string name="download_larger_map_hint">സമീപ പ്രദേശങ്ങളും ഡൗൺലോഡ് ചെയ്യുന്നു (കൂടുതൽ ഫയലുകൾ ഉണ്ടാകാം).</string>
+    <string name="download_looking_up">ഈ പ്രദേശത്തിന്റെ മാപ്പ് ഡാറ്റ തിരയുന്നു…</string>
+    <string name="download_no_data_here">ഈ പ്രദേശത്തിന് വിശദമായ മാപ്പ് ഡാറ്റ ലഭ്യമല്ല.</string>
+    <string name="download_area_default_name">ഈ പ്രദേശം</string>
+    <string name="download_complete">ഇംപോർട്ട് പൂർത്തിയായി: %1$d ഘടകങ്ങൾ ചേർത്തു.</string>
+    <string name="download_failed">ഇംപോർട്ട് പരാജയപ്പെട്ടു: %1$s</string>
+    <string name="menu_download_map">മാപ്പ് ഡൗൺലോഡ് ചെയ്യുക</string>
+    <string name="import_notif_title">മാപ്പ് ഇംപോർട്ട് ചെയ്യുന്നു</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">ആരംഭിക്കുന്നു</string>
+    <string name="import_cancelled">ഇംപോർട്ട് റദ്ദാക്കി.</string>
+    <string name="import_notif_starting">%1$s ഇംപോർട്ട് ചെയ്യാൻ ആരംഭിക്കുന്നു…</string>
+    <string name="no_map_here_message">ഇവിടെ വിശദമായ മാപ്പ് ഇല്ല — ഡൗൺലോഡ് ചെയ്യാൻ ഡബിൾ ടാപ്പ് ചെയ്യുക.</string>
+    <string name="map_load_failed_message">ഇവിടെ മാപ്പ് ലോഡ് ചെയ്യാനായില്ല — സൂം ഔട്ട് ചെയ്യുകയോ അകന്നുപോയി തിരികെ വരികയോ ചെയ്യുക.</string>
+    <string name="download_area_action">ഈ പ്രദേശത്തിന് മാപ്പ് ഡൗൺലോഡ് ചെയ്യുക</string>
+    <string name="download_radius_location_unknown">സ്ഥാനം ലഭ്യമല്ല — മാപ്പ് നീക്കുക അല്ലെങ്കിൽ ലൊക്കേഷൻ അനുമതി നൽകുക</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">മാപ്പ് കാണിക്കുക (ബീറ്റ)</string>
+    <string name="render_map_summary_on">കാഴ്ച കുറവുള്ള ഉപയോക്താക്കൾക്കായി മാപ്പ് സ്ക്രീനിൽ വരയ്ക്കുന്നു. ഈ ഡ്രോയിംഗ് പരീക്ഷണാത്മകമാണ്, ഇനിയും മെച്ചപ്പെടുന്നു.</string>
+    <string name="render_map_summary_off">മാപ്പ് വരയ്ക്കുന്നില്ല; സ്പർശനത്തിലൂടെയും ശബ്ദത്തിലൂടെയും മാത്രം പര്യവേക്ഷണം ചെയ്യുക.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia പ്രവർത്തിക്കുന്നു</string>
+    <string name="notif_background_text">പശ്ചാത്തല സേവനം സജീവമാണ്</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">തിരയുക</string>
+    <string name="address_search_empty_toast">ദയവായി ഒരു വിലാസം നൽകുക.</string>
+    <string name="address_search_searching">തിരയുന്നു…</string>
+    <string name="address_search_select_title">ഒരു വിലാസം തിരഞ്ഞെടുക്കുക</string>
+    <string name="address_search_cancelled_toast">തിരയൽ റദ്ദാക്കി</string>
+    <string name="address_search_error_toast">പിശക്: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">പോയിന്റിന്റെ പേര് നൽകുക</string>
+    <string name="add_point_dialog_title">പുതിയ പോയിന്റ് ചേർക്കുക</string>
+    <string name="action_save_node">പോയിന്റ് സേവ് ചെയ്യുക</string>
+    <string name="action_reset_location">സ്ഥാനം പുനഃസജ്ജമാക്കുക</string>
+    <string name="toast_enter_name_required">ദയവായി ഒരു പേര് നൽകുക.</string>
+    <string name="toast_waiting_for_location">ഇപ്പോഴും സ്ഥാനത്തിനായി കാത്തിരിക്കുന്നു — ദയവായി കുറച്ച് കഴിഞ്ഞ് വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="toast_point_added">പോയിന്റ് ചേർത്തു.</string>
+    <string name="status_getting_location">സ്ഥാനം ലഭ്യമാക്കുന്നു…</string>
+    <string name="status_getting_location_with_accuracy">സ്ഥാനം ലഭ്യമാക്കുന്നു… മികച്ച കൃത്യത: %1$dമീ.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">പോയിന്റ് എഡിറ്റ് ചെയ്യുക</string>
+    <string name="action_save">സേവ് ചെയ്യുക</string>
+    <string name="action_delete">ഇല്ലാതാക്കുക</string>
+    <string name="toast_point_updated">പോയിന്റ് അപ്ഡേറ്റ് ചെയ്തു.</string>
+    <string name="confirm_removal_title">നീക്കം ചെയ്യൽ സ്ഥിരീകരിക്കുക</string>
+    <string name="confirm_removal_message">ഈ പോയിന്റ് നീക്കം ചെയ്യണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ?\n%1$s</string>
+    <string name="action_remove">നീക്കം ചെയ്യുക</string>
+    <string name="toast_point_removed">പോയിന്റ് നീക്കം ചെയ്തു.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">ആപ്പ് ശരിയായി പ്രവർത്തിക്കാൻ ഈ അനുമതികൾ ആവശ്യമാണ്.</string>
+    <string name="action_grant_permissions">അനുമതികൾ നൽകുക</string>
+    <string name="action_close">അടയ്ക്കുക</string>
+    <string name="content_description_switch_to_compass_lock">കോമ്പസ് ലോക്കിലേക്ക് മാറുക</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">പോയിന്റിലേക്ക് ലക്ഷ്യമിടുക</string>
+    <string name="action_navigate_google_maps">Google Maps-ൽ പോയിന്റിലേക്ക് നാവിഗേറ്റ് ചെയ്യുക</string>
+    <string name="action_zoom_to_point">പോയിന്റിലേക്ക് സൂം ചെയ്യുക</string>
+    <string name="action_zoom_to_point_on_map">മാപ്പിൽ പോയിന്റിലേക്ക് സൂം ചെയ്യുക</string>
+    <string name="action_remove_from_favorites">പ്രിയപ്പെട്ടവയിൽ നിന്ന് നീക്കം ചെയ്യുക</string>
+    <string name="action_add_to_favorites">പ്രിയപ്പെട്ടവയിലേക്ക് ചേർക്കുക</string>
+    <string name="action_details">വിശദാംശങ്ങൾ</string>
+    <string name="toast_no_additional_details">കൂടുതൽ വിശദാംശങ്ങൾ ലഭ്യമല്ല.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">മാപ്പ് സ്ഥാനം ലഭ്യമല്ല.</string>
+    <string name="nearby_nodes_dialog_title">സമീപത്തെ പോയിന്റുകൾ കാണിക്കുക</string>
+    <string name="nearby_nodes_dialog_message">മാപ്പ് നിലവിൽ നിങ്ങളുടെ സ്ഥാനത്ത് കേന്ദ്രീകരിച്ചിട്ടില്ല, അതിനാൽ \"എന്റെ ചുറ്റും\" എന്നും \"മാപ്പിന്റെ ചുറ്റും\" എന്നും വ്യത്യസ്ത പോയിന്റുകൾ കാണിക്കും. ഏതാണ് ഉപയോഗിക്കേണ്ടത്?</string>
+    <string name="action_around_me">എന്റെ ചുറ്റും</string>
+    <string name="action_around_map_center">മാപ്പ് കേന്ദ്രത്തിന് ചുറ്റും</string>
+
+</resources>

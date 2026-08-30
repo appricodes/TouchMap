@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">การตั้งค่า</string>
+    <string name="talkback_required_title">ต้องเปิดใช้ TalkBack</string>
+    <string name="talkback_required_message">แอปนี้ออกแบบมาให้ทำงานร่วมกับ TalkBack และต้องเปิด TalkBack ไว้เพื่อให้แอปทำงานได้อย่างถูกต้อง หลังจากดาวน์โหลดแผนที่สำหรับพื้นที่ของคุณแล้ว ให้แตะและเลื่อนนิ้วบนหน้าจอเพื่อสำรวจถนนและจุดต่างๆ รอบตัวคุณ</string>
+    <string name="talkback_required_open_settings">เปิดการตั้งค่าการช่วยเหลือพิเศษ</string>
+
+    <string name="menu_gallery">แกลเลอรี</string>
+    <string name="title_activity_settings">การตั้งค่า</string>
+    <string name="please_click_back_again_to_exit">กรุณากด BACK อีกครั้งเพื่อออก</string>
+    <string name="language_title">ภาษาที่คุณต้องการ</string>
+    <string name="general_header">การตั้งค่าทั่วไป</string>
+    <string name="settings_announcement_header">การประกาศ</string>
+    <string name="cancel_aiming">ยกเลิกการชี้เป้าไปยัง %1$s</string>
+    <string name="aiming_started">กำลังชี้เป้าไปยัง %1$s แตะที่นี่เพื่อยกเลิก</string>
+    <string name="cancel_search">ยกเลิกการกรองด้วย %1$s</string>
+    <string name="search_on_map_started">กำลังแสดงเฉพาะจุดที่ตรงกับ %1$s แตะที่นี่เพื่อยกเลิก</string>
+    <string name="search_canceled">ยกเลิกตัวกรองคำค้นแล้ว</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">กรององค์ประกอบแผนที่</string>
+    <string name="filter_keyword_label">คำค้น (เว้นว่างไว้เพื่อแสดงทั้งหมด)</string>
+    <string name="filter_categories_label">หมวดหมู่</string>
+    <string name="filter_show_selected">แสดงรายการที่เลือก</string>
+    <string name="filter_show_favorites">แสดงรายการโปรด</string>
+    <string name="filter_show_all">แสดงทั้งหมด</string>
+    <string name="startup_download_prompt_title">ยังไม่มีแผนที่ที่ดาวน์โหลดไว้ที่นี่</string>
+    <string name="startup_download_prompt_message">ยังไม่มีการดาวน์โหลดแผนที่สำหรับตำแหน่งปัจจุบันของคุณ ดาวน์โหลดตอนนี้เพื่อสำรวจพื้นที่รอบตัวคุณ</string>
+    <string name="startup_download_prompt_download">ดาวน์โหลดแผนที่</string>
+    <string name="aiming_canceled">ยกเลิกการชี้เป้าแล้ว</string>
+    <string name="settings_sound_header">เสียงและการสั่น</string>
+    <string name="map_data_header">ข้อมูลแผนที่</string>
+    <string name="delete_all_maps_title">ลบแผนที่ที่ดาวน์โหลดทั้งหมด</string>
+    <string name="delete_all_maps_summary">ลบข้อมูลแผนที่ที่ดาวน์โหลดทั้งหมดออกจากอุปกรณ์นี้ จุดที่เพิ่มด้วยตนเองจะยังคงอยู่</string>
+    <string name="delete_all_maps_confirm_title">ลบแผนที่ที่ดาวน์โหลดทั้งหมดหรือไม่?</string>
+    <string name="delete_all_maps_confirm_message">การดำเนินการนี้จะลบพื้นที่แผนที่ที่ดาวน์โหลดทั้งหมดออกจากอุปกรณ์นี้ คุณจะต้องดาวน์โหลดใหม่อีกครั้งเพื่อใช้งานแบบออฟไลน์ จุดที่เพิ่มด้วยตนเองจะไม่ได้รับผลกระทบ</string>
+    <string name="delete_all_maps_confirm_yes">ลบ</string>
+    <string name="delete_all_maps_confirm_no">ยกเลิก</string>
+    <string name="delete_all_maps_done">ลบแผนที่ที่ดาวน์โหลดทั้งหมดแล้ว</string>
+    <string name="info_button_text">ความแม่นยำ: %1$d ม. ความเร็ว: %2$.1f กม./ชม.</string>
+    <string name="keep_screen_on_title">เปิดหน้าจอค้างไว้</string>
+    <string name="keep_screen_on_summary_on">หน้าจอจะไม่ล็อกขณะเปิดแอปอยู่</string>
+    <string name="keep_screen_on_summary_off">หน้าจอจะล็อกตามการตั้งค่าระบบ</string>
+
+    <string name="content_description_filters">ตัวกรอง</string>
+    <string name="content_description_search">ค้นหา</string>
+    <string name="content_description_list_nodes">แสดงรายการจุดใกล้เคียง</string>
+    <string name="nearby_nodes_loading_title">กำลังโหลดจุดใกล้เคียง…</string>
+    <string name="list_button_text">รายการ</string>
+    <string name="content_description_add_point">เพิ่มจุดใหม่</string>
+    <string name="content_description_info">ข้อมูล</string>
+    <string name="content_description_action">การดำเนินการ</string>
+    <string name="content_description_explore_map">สำรวจ</string>
+    <string name="content_description_zoom_in">ซูมเข้า</string>
+    <string name="content_description_zoom_out">ซูมออก</string>
+    <string name="content_description_recenter">จัดกึ่งกลางที่ตำแหน่งของคุณอีกครั้ง</string>
+    <string name="content_description_map_lock">สลับไปที่ล็อกทิศเหนือ</string>
+    <string name="content_description_more">เพิ่มเติม</string>
+    <string name="category_button_text">หมวดหมู่</string>
+    <string name="keyword_button_text">คำค้น</string>
+    <string name="refresh_button_text">รีเฟรช</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">ค้นหา</string>
+    <string name="hint_type_or_speak">พิมพ์หรือพูด</string>
+    <string name="content_description_mic">ไมโครโฟน</string>
+
+    <string name="tooltip_node_name">เซ็นทรัลปาร์ก</string>
+    <string name="tooltip_node_category">สันทนาการ</string>
+    <string name="tooltip_node_distance">ห่างออกไป 150 เมตร</string>
+
+    <string name="announce_location_meters">%1$s ห่างออกไป %2$.0f เมตร</string>
+    <string name="announce_location_kilometers">%1$s ห่างออกไป %2$.1f กิโลเมตร</string>
+    <string name="announce_point_with_bearing">%1$s %2$d เมตร ที่ทิศนาฬิกา %3$d นาฬิกา</string>
+    <string name="announce_point_without_bearing">%1$s %2$d เมตร</string>
+    <string name="announce_aiming_distance_and_clock">%1$d เมตร ที่ทิศนาฬิกา %2$d นาฬิกา</string>
+    <string name="announce_aiming_clock_only">ทิศนาฬิกา %1$d นาฬิกา</string>
+    <string name="announce_user_location">คุณ</string>
+    <string name="hint_address_input">ที่อยู่</string>
+    <string name="content_description_speak_address">ไมโครโฟน</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">ดาวน์โหลดแผนที่</string>
+    <string name="download_button">ดาวน์โหลดแผนที่</string>
+    <string name="download_cancel_button">ยกเลิกการดาวน์โหลด</string>
+    <string name="download_cancel_confirm_title">ยกเลิกการดาวน์โหลดหรือไม่?</string>
+    <string name="download_cancel_confirm_message">การนำเข้าแผนที่ยังดำเนินอยู่ คุณแน่ใจหรือไม่ว่าต้องการยกเลิก?</string>
+    <string name="download_cancel_confirm_yes">ใช่ ยกเลิก</string>
+    <string name="download_cancel_confirm_no">ไม่ ดาวน์โหลดต่อไป</string>
+    <string name="download_close_button">ปิด</string>
+    <string name="download_in_progress_title">มีการนำเข้าแผนที่กำลังทำงานอยู่แล้ว</string>
+    <string name="download_size_label">ขนาดดาวน์โหลด: %1$s</string>
+    <string name="download_size_label_multi">ขนาดดาวน์โหลด: %1$d ไฟล์ รวม %2$s</string>
+    <string name="download_size_unknown">ขนาดดาวน์โหลด: ไม่ทราบ</string>
+    <string name="download_already_downloaded_prefix">ดาวน์โหลดแล้ว</string>
+    <string name="download_larger_map_checkbox">แผนที่ขนาดใหญ่ขึ้น</string>
+    <string name="download_larger_map_hint">ดาวน์โหลดพื้นที่ใกล้เคียงด้วย (อาจมีไฟล์เพิ่มเติมอีกหลายไฟล์)</string>
+    <string name="download_looking_up">กำลังค้นหาข้อมูลแผนที่สำหรับพื้นที่นี้…</string>
+    <string name="download_no_data_here">ไม่มีข้อมูลแผนที่โดยละเอียดสำหรับพื้นที่นี้</string>
+    <string name="download_area_default_name">พื้นที่นี้</string>
+    <string name="download_complete">นำเข้าเสร็จสมบูรณ์: เพิ่ม %1$d รายการ</string>
+    <string name="download_failed">การนำเข้าล้มเหลว: %1$s</string>
+    <string name="menu_download_map">ดาวน์โหลดแผนที่</string>
+    <string name="import_notif_title">กำลังนำเข้าแผนที่</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">กำลังเริ่มต้น</string>
+    <string name="import_cancelled">ยกเลิกการนำเข้าแล้ว</string>
+    <string name="import_notif_starting">กำลังเริ่มนำเข้า %1$s…</string>
+    <string name="no_map_here_message">ไม่มีแผนที่โดยละเอียดที่นี่ — แตะสองครั้งเพื่อดาวน์โหลด</string>
+    <string name="map_load_failed_message">ไม่สามารถโหลดแผนที่ที่นี่ได้ — ลองซูมออกหรือย้ายออกแล้วกลับมาใหม่</string>
+    <string name="download_area_action">ดาวน์โหลดแผนที่สำหรับพื้นที่นี้</string>
+    <string name="download_radius_location_unknown">ไม่พบตำแหน่ง — เลื่อนแผนที่หรืออนุญาตการเข้าถึงตำแหน่ง</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">แสดงแผนที่ (เบต้า)</string>
+    <string name="render_map_summary_on">แผนที่จะถูกวาดบนหน้าจอสำหรับผู้ที่มีสายตาเลือนราง การวาดนี้ยังอยู่ในขั้นทดลองและกำลังปรับปรุงต่อไป</string>
+    <string name="render_map_summary_off">ไม่มีการวาดแผนที่ ให้สำรวจด้วยการสัมผัสและเสียงเท่านั้น</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia กำลังทำงาน</string>
+    <string name="notif_background_text">บริการพื้นหลังกำลังทำงานอยู่</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">ค้นหา</string>
+    <string name="address_search_empty_toast">กรุณาป้อนที่อยู่</string>
+    <string name="address_search_searching">กำลังค้นหา…</string>
+    <string name="address_search_select_title">เลือกที่อยู่</string>
+    <string name="address_search_cancelled_toast">ยกเลิกการค้นหาแล้ว</string>
+    <string name="address_search_error_toast">ข้อผิดพลาด: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">ป้อนชื่อจุด</string>
+    <string name="add_point_dialog_title">เพิ่มจุดใหม่</string>
+    <string name="action_save_node">บันทึกจุด</string>
+    <string name="action_reset_location">รีเซ็ตตำแหน่ง</string>
+    <string name="toast_enter_name_required">กรุณาป้อนชื่อ</string>
+    <string name="toast_waiting_for_location">ยังคงรอตำแหน่งอยู่ — กรุณาลองอีกครั้งในอีกสักครู่</string>
+    <string name="toast_point_added">เพิ่มจุดแล้ว</string>
+    <string name="status_getting_location">กำลังรับตำแหน่ง…</string>
+    <string name="status_getting_location_with_accuracy">กำลังรับตำแหน่ง… ความแม่นยำที่ดีที่สุด: %1$dม.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">แก้ไขจุด</string>
+    <string name="action_save">บันทึก</string>
+    <string name="action_delete">ลบ</string>
+    <string name="toast_point_updated">อัปเดตจุดแล้ว</string>
+    <string name="confirm_removal_title">ยืนยันการลบ</string>
+    <string name="confirm_removal_message">คุณแน่ใจหรือไม่ว่าต้องการลบจุดนี้?\n%1$s</string>
+    <string name="action_remove">ลบออก</string>
+    <string name="toast_point_removed">ลบจุดออกแล้ว</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">จำเป็นต้องได้รับสิทธิ์เหล่านี้เพื่อให้แอปทำงานได้อย่างถูกต้อง</string>
+    <string name="action_grant_permissions">ให้สิทธิ์</string>
+    <string name="action_close">ปิด</string>
+    <string name="content_description_switch_to_compass_lock">สลับไปที่ล็อกเข็มทิศ</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">ชี้เป้าไปยังจุด</string>
+    <string name="action_navigate_google_maps">นำทางไปยังจุดใน Google Maps</string>
+    <string name="action_zoom_to_point">ซูมไปยังจุด</string>
+    <string name="action_zoom_to_point_on_map">ซูมไปยังจุดบนแผนที่</string>
+    <string name="action_remove_from_favorites">ลบออกจากรายการโปรด</string>
+    <string name="action_add_to_favorites">เพิ่มลงในรายการโปรด</string>
+    <string name="action_details">รายละเอียด</string>
+    <string name="toast_no_additional_details">ไม่มีรายละเอียดเพิ่มเติม</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">ไม่พบตำแหน่งบนแผนที่</string>
+    <string name="nearby_nodes_dialog_title">แสดงจุดใกล้เคียง</string>
+    <string name="nearby_nodes_dialog_message">ขณะนี้แผนที่ไม่ได้จัดกึ่งกลางที่ตำแหน่งของคุณ ดังนั้น \"รอบตัวฉัน\" และ \"รอบจุดกึ่งกลางแผนที่\" จะแสดงจุดที่ต่างกัน ต้องการใช้แบบใด?</string>
+    <string name="action_around_me">รอบตัวฉัน</string>
+    <string name="action_around_map_center">รอบจุดกึ่งกลางแผนที่</string>
+
+</resources>

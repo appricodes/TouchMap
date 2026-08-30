@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Asetukset</string>
+    <string name="talkback_required_title">TalkBack vaaditaan</string>
+    <string name="talkback_required_message">Tämä sovellus on suunniteltu toimimaan TalkBackin kanssa, ja TalkBackin täytyy olla käytössä, jotta sovellus toimii oikein. Kun olet ladannut kartan alueellesi, kosketa näyttöä ja liikuta sormeasi tutkiaksesi ympärilläsi olevia katuja ja kohteita.</string>
+    <string name="talkback_required_open_settings">Avaa esteettömyysasetukset</string>
+
+    <string name="menu_gallery">Galleria</string>
+    <string name="title_activity_settings">Asetukset</string>
+    <string name="please_click_back_again_to_exit">Napauta TAKAISIN uudelleen poistuaksesi</string>
+    <string name="language_title">Haluamasi kieli</string>
+    <string name="general_header">Yleiset asetukset</string>
+    <string name="settings_announcement_header">Ilmoitukset</string>
+    <string name="cancel_aiming">Peruuta kohteeseen %1$s tähtääminen</string>
+    <string name="aiming_started">Tähdätään kohteeseen %1$s. Napauta tästä peruuttaaksesi.</string>
+    <string name="cancel_search">Peruuta suodatus sanalla %1$s</string>
+    <string name="search_on_map_started">Näytetään vain kohteet, jotka vastaavat hakua %1$s. Napauta tästä peruuttaaksesi.</string>
+    <string name="search_canceled">Avainsanasuodatus peruutettu</string>
+
+    <string name="filter_dialog_title">Suodata kartan kohteita</string>
+    <string name="filter_keyword_label">Avainsana (jätä tyhjäksi näyttääksesi kaikki)</string>
+    <string name="filter_categories_label">Luokat</string>
+    <string name="filter_show_selected">Näytä valitut</string>
+    <string name="filter_show_favorites">Näytä suosikit</string>
+    <string name="filter_show_all">Näytä kaikki</string>
+    <string name="startup_download_prompt_title">Karttaa ei ole ladattu täältä</string>
+    <string name="startup_download_prompt_message">Nykyiselle sijainnillesi ei ole vielä ladattu karttaa. Lataa se nyt tutkiaksesi ympäristöäsi.</string>
+    <string name="startup_download_prompt_download">Lataa kartta</string>
+    <string name="aiming_canceled">Tähtäys peruutettu</string>
+    <string name="settings_sound_header">Ääni ja tärinä</string>
+    <string name="map_data_header">Karttatiedot</string>
+    <string name="delete_all_maps_title">Poista kaikki ladatut kartat</string>
+    <string name="delete_all_maps_summary">Poistaa kaikki ladatut karttatiedot tästä laitteesta. Manuaalisesti lisätyt kohteet säilyvät.</string>
+    <string name="delete_all_maps_confirm_title">Poistetaanko kaikki ladatut kartat?</string>
+    <string name="delete_all_maps_confirm_message">Tämä poistaa jokaisen ladatun karttaosion tästä laitteesta. Sinun täytyy ladata se uudelleen käyttääksesi sitä offline-tilassa. Manuaalisesti lisätyt kohteet eivät vaikutu.</string>
+    <string name="delete_all_maps_confirm_yes">Poista</string>
+    <string name="delete_all_maps_confirm_no">Peruuta</string>
+    <string name="delete_all_maps_done">Kaikki ladatut kartat on poistettu.</string>
+    <string name="info_button_text">Tarkkuus: %1$d m, nopeus: %2$.1f km/h</string>
+    <string name="keep_screen_on_title">Pidä näyttö päällä</string>
+    <string name="keep_screen_on_summary_on">Näyttö ei lukitu, kun sovellus on auki</string>
+    <string name="keep_screen_on_summary_off">Näyttö lukittuu järjestelmän asetusten mukaan</string>
+
+    <string name="content_description_filters">Suodattimet</string>
+    <string name="content_description_search">Haku</string>
+    <string name="content_description_list_nodes">Näytä lähellä olevat kohteet</string>
+    <string name="nearby_nodes_loading_title">Ladataan lähellä olevia kohteita…</string>
+    <string name="list_button_text">Luettelo</string>
+    <string name="content_description_add_point">Lisää uusi kohde</string>
+    <string name="content_description_info">Tiedot</string>
+    <string name="content_description_action">Toiminto</string>
+    <string name="content_description_explore_map">Tutki</string>
+    <string name="content_description_zoom_in">Lähennä</string>
+    <string name="content_description_zoom_out">Loitonna</string>
+    <string name="content_description_recenter">Keskitä uudelleen sijaintiisi</string>
+    <string name="content_description_map_lock">Vaihda pohjoislukkoon</string>
+    <string name="content_description_more">Lisää</string>
+    <string name="category_button_text">Luokka</string>
+    <string name="keyword_button_text">Avainsana</string>
+    <string name="refresh_button_text">Päivitä</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">Haku</string>
+    <string name="hint_type_or_speak">Kirjoita tai puhu</string>
+    <string name="content_description_mic">Mikrofoni</string>
+
+    <string name="tooltip_node_name">Central Park</string>
+    <string name="tooltip_node_category">Vapaa-aika</string>
+    <string name="tooltip_node_distance">150 m päässä</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f metrin päässä</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f kilometrin päässä</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d metriä, kello %3$d suunnassa</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d metriä</string>
+    <string name="announce_aiming_distance_and_clock">%1$d metriä, kello %2$d suunnassa</string>
+    <string name="announce_aiming_clock_only">Kello %1$d suunnassa</string>
+    <string name="announce_user_location">Sinä</string>
+    <string name="hint_address_input">Osoite</string>
+    <string name="content_description_speak_address">Mikrofoni</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">Lataa kartta</string>
+    <string name="download_button">Lataa kartta</string>
+    <string name="download_cancel_button">Peruuta lataus</string>
+    <string name="download_cancel_confirm_title">Peruutetaanko lataus?</string>
+    <string name="download_cancel_confirm_message">Kartan tuonti on vielä kesken. Haluatko varmasti peruuttaa sen?</string>
+    <string name="download_cancel_confirm_yes">Kyllä, peruuta</string>
+    <string name="download_cancel_confirm_no">Ei, jatka lataamista</string>
+    <string name="download_close_button">Sulje</string>
+    <string name="download_in_progress_title">Kartan tuonti on jo käynnissä.</string>
+    <string name="download_size_label">Latauksen koko: %1$s</string>
+    <string name="download_size_label_multi">Latauksen koko: %1$d tiedostoa, yhteensä %2$s</string>
+    <string name="download_size_unknown">Latauksen koko: tuntematon</string>
+    <string name="download_already_downloaded_prefix">Jo ladattu.</string>
+    <string name="download_larger_map_checkbox">Suurempi kartta</string>
+    <string name="download_larger_map_hint">Lataa myös naapurialueet (voi olla useampia lisätiedostoja).</string>
+    <string name="download_looking_up">Haetaan karttatietoja tälle alueelle…</string>
+    <string name="download_no_data_here">Tälle alueelle ei ole saatavilla yksityiskohtaisia karttatietoja.</string>
+    <string name="download_area_default_name">tämä alue</string>
+    <string name="download_complete">Tuonti valmis: %1$d kohdetta lisätty.</string>
+    <string name="download_failed">Tuonti epäonnistui: %1$s</string>
+    <string name="menu_download_map">Lataa kartta</string>
+    <string name="import_notif_title">Tuodaan karttaa</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Käynnistetään</string>
+    <string name="import_cancelled">Tuonti peruutettu.</string>
+    <string name="import_notif_starting">Käynnistetään kohteen %1$s tuontia…</string>
+    <string name="no_map_here_message">Täällä ei ole yksityiskohtaista karttaa — lataa kaksoisnapauttamalla.</string>
+    <string name="map_load_failed_message">Karttaa ei voitu ladata täällä — kokeile loitontaa tai siirtyä pois ja takaisin.</string>
+    <string name="download_area_action">Lataa kartta tälle alueelle</string>
+    <string name="download_radius_location_unknown">Sijainti ei ole saatavilla — siirrä karttaa tai myönnä sijaintilupa</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">Näytä kartta (beta)</string>
+    <string name="render_map_summary_on">Kartta piirretään näytölle heikkonäköisiä käyttäjiä varten. Tämä piirtäminen on kokeellinen ja sitä parannetaan yhä.</string>
+    <string name="render_map_summary_off">Karttaa ei piirretä; tutki vain kosketuksen ja äänen avulla.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia käynnissä</string>
+    <string name="notif_background_text">Taustapalvelu aktiivinen</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">Haku</string>
+    <string name="address_search_empty_toast">Anna osoite.</string>
+    <string name="address_search_searching">Haetaan…</string>
+    <string name="address_search_select_title">Valitse osoite</string>
+    <string name="address_search_cancelled_toast">Haku peruutettu</string>
+    <string name="address_search_error_toast">Virhe: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">Anna kohteen nimi</string>
+    <string name="add_point_dialog_title">Lisää uusi kohde</string>
+    <string name="action_save_node">Tallenna kohde</string>
+    <string name="action_reset_location">Nollaa sijainti</string>
+    <string name="toast_enter_name_required">Anna nimi.</string>
+    <string name="toast_waiting_for_location">Odotetaan yhä sijaintia — yritä hetken kuluttua uudelleen.</string>
+    <string name="toast_point_added">Kohde lisätty.</string>
+    <string name="status_getting_location">Haetaan sijaintia…</string>
+    <string name="status_getting_location_with_accuracy">Haetaan sijaintia… paras tarkkuus: %1$dm.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">Muokkaa kohdetta</string>
+    <string name="action_save">Tallenna</string>
+    <string name="action_delete">Poista</string>
+    <string name="toast_point_updated">Kohde päivitetty.</string>
+    <string name="confirm_removal_title">Vahvista poisto</string>
+    <string name="confirm_removal_message">Haluatko varmasti poistaa tämän kohteen?\n%1$s</string>
+    <string name="action_remove">Poista</string>
+    <string name="toast_point_removed">Kohde poistettu.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">Nämä käyttöoikeudet tarvitaan, jotta sovellus toimii oikein.</string>
+    <string name="action_grant_permissions">Myönnä käyttöoikeudet</string>
+    <string name="action_close">Sulje</string>
+    <string name="content_description_switch_to_compass_lock">Vaihda kompassilukkoon</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">Tähtää kohteeseen</string>
+    <string name="action_navigate_google_maps">Navigoi kohteeseen Google Mapsissa</string>
+    <string name="action_zoom_to_point">Lähennä kohteeseen</string>
+    <string name="action_zoom_to_point_on_map">Lähennä kohteeseen kartalla</string>
+    <string name="action_remove_from_favorites">Poista suosikeista</string>
+    <string name="action_add_to_favorites">Lisää suosikkeihin</string>
+    <string name="action_details">Tiedot</string>
+    <string name="toast_no_additional_details">Ei lisätietoja saatavilla.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">Kartan sijainti ei ole saatavilla.</string>
+    <string name="nearby_nodes_dialog_title">Näytä lähellä olevat kohteet</string>
+    <string name="nearby_nodes_dialog_message">Karttaa ei ole tällä hetkellä keskitetty sijaintiisi, joten \"ympärilläni\" ja \"kartan keskustan ympärillä\" näyttäisivät eri kohteita. Kumpaa käytetään?</string>
+    <string name="action_around_me">Ympärilläni</string>
+    <string name="action_around_map_center">Kartan keskustan ympärillä</string>
+
+</resources>

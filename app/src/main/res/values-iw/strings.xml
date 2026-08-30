@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="talkback_required_title">נדרש TalkBack</string>
+    <string name="talkback_required_message">אפליקציה זו מיועדת לעבוד עם TalkBack, ויש להפעיל את TalkBack כדי שהאפליקציה תפעל כראוי. לאחר הורדת המפה לאזור שלך, גע והזז את האצבע על המסך כדי לחקור את הרחובות והנקודות סביבך.</string>
+    <string name="talkback_required_open_settings">פתיחת הגדרות נגישות</string>
+
+    <string name="menu_gallery">גלריה</string>
+    <string name="title_activity_settings">הגדרות</string>
+    <string name="please_click_back_again_to_exit">יש ללחוץ שוב על הכפתור \'חזרה\' כדי לצאת</string>
+    <string name="language_title">השפה המועדפת עליך</string>
+    <string name="general_header">הגדרות כלליות</string>
+    <string name="settings_announcement_header">הכרזות קוליות</string>
+    <string name="cancel_aiming">ביטול כיוון אל %1$s</string>
+    <string name="aiming_started">מכוון אל %1$s. הקש כאן לביטול.</string>
+    <string name="cancel_search">ביטול הסינון לפי %1$s</string>
+    <string name="search_on_map_started">מוצגות רק נקודות התואמות ל-%1$s. הקש כאן לביטול.</string>
+    <string name="search_canceled">סינון לפי מילת מפתח בוטל</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">סינון רכיבי מפה</string>
+    <string name="filter_keyword_label">מילת מפתח (השאר ריק להצגת הכול)</string>
+    <string name="filter_categories_label">קטגוריות</string>
+    <string name="filter_show_selected">הצג נבחרים</string>
+    <string name="filter_show_favorites">הצג מועדפים</string>
+    <string name="filter_show_all">הצג הכול</string>
+    <string name="startup_download_prompt_title">לא הורדה מפה כאן</string>
+    <string name="startup_download_prompt_message">עדיין לא הורדה מפה למיקומך הנוכחי. הורד אותה עכשיו כדי לחקור את הסביבה שלך.</string>
+    <string name="startup_download_prompt_download">הורדת מפה</string>
+    <string name="aiming_canceled">הכיוון בוטל</string>
+    <string name="settings_sound_header">קול ורטט</string>
+    <string name="map_data_header">נתוני מפה</string>
+    <string name="delete_all_maps_title">מחיקת כל המפות שהורדו</string>
+    <string name="delete_all_maps_summary">מסיר את כל נתוני המפה שהורדו מהמכשיר. נקודות שנוספו ידנית יישמרו.</string>
+    <string name="delete_all_maps_confirm_title">למחוק את כל המפות שהורדו?</string>
+    <string name="delete_all_maps_confirm_message">פעולה זו תסיר כל אזור מפה שהורד מהמכשיר. תצטרך להוריד אותו שוב כדי להשתמש בו במצב לא מקוון. נקודות שנוספו ידנית לא יושפעו.</string>
+    <string name="delete_all_maps_confirm_yes">מחק</string>
+    <string name="delete_all_maps_confirm_no">ביטול</string>
+    <string name="delete_all_maps_done">כל המפות שהורדו נמחקו.</string>
+    <string name="info_button_text">דיוק: %1$d מ׳, מהירות: %2$.1f קמ״ש</string>
+    <string name="keep_screen_on_title">השאר את המסך דלוק</string>
+    <string name="keep_screen_on_summary_on">המסך לא ייכבה כל עוד האפליקציה פתוחה</string>
+    <string name="keep_screen_on_summary_off">המסך יינעל בהתאם להגדרות המערכת</string>
+
+    <string name="content_description_filters">מסננים</string>
+    <string name="content_description_search">חיפוש</string>
+    <string name="content_description_list_nodes">הצגת נקודות קרובות</string>
+    <string name="nearby_nodes_loading_title">טוען נקודות קרובות…</string>
+    <string name="list_button_text">רשימה</string>
+    <string name="content_description_add_point">הוספת נקודה חדשה</string>
+    <string name="content_description_info">מידע</string>
+    <string name="content_description_action">פעולה</string>
+    <string name="content_description_explore_map">חקירה</string>
+    <string name="content_description_zoom_in">התקרבות</string>
+    <string name="content_description_zoom_out">התרחקות</string>
+    <string name="content_description_recenter">מרכוז מחדש למיקומך</string>
+    <string name="content_description_map_lock">מעבר לנעילת צפון</string>
+    <string name="content_description_more">עוד</string>
+    <string name="category_button_text">קטגוריה</string>
+    <string name="keyword_button_text">מילת מפתח</string>
+    <string name="refresh_button_text">רענון</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">חיפוש</string>
+    <string name="hint_type_or_speak">הקלד או דבר</string>
+    <string name="content_description_mic">מיקרופון</string>
+
+    <string name="tooltip_node_name">סנטרל פארק</string>
+    <string name="tooltip_node_category">פנאי</string>
+    <string name="tooltip_node_distance">במרחק 150 מ׳</string>
+
+    <string name="announce_location_meters">%1$s, במרחק %2$.0f מטרים</string>
+    <string name="announce_location_kilometers">%1$s, במרחק %2$.1f קילומטרים</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d מטרים בשעה %3$d</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d מטרים</string>
+    <string name="announce_aiming_distance_and_clock">%1$d מטרים בשעה %2$d</string>
+    <string name="announce_aiming_clock_only">בשעה %1$d</string>
+    <string name="announce_user_location">אתה</string>
+    <string name="hint_address_input">כתובת</string>
+    <string name="content_description_speak_address">מיקרופון</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">הורדת מפה</string>
+    <string name="download_button">הורדת מפה</string>
+    <string name="download_cancel_button">ביטול הורדה</string>
+    <string name="download_cancel_confirm_title">לבטל את ההורדה?</string>
+    <string name="download_cancel_confirm_message">ייבוא המפה עדיין בתהליך. האם אתה בטוח שברצונך לבטל אותו?</string>
+    <string name="download_cancel_confirm_yes">כן, בטל</string>
+    <string name="download_cancel_confirm_no">לא, המשך הורדה</string>
+    <string name="download_close_button">סגירה</string>
+    <string name="download_in_progress_title">ייבוא מפה כבר פועל.</string>
+    <string name="download_size_label">גודל ההורדה: %1$s</string>
+    <string name="download_size_label_multi">גודל ההורדה: %1$d קבצים, סה״כ %2$s</string>
+    <string name="download_size_unknown">גודל הורדה: לא ידוע</string>
+    <string name="download_already_downloaded_prefix">כבר הורד.</string>
+    <string name="download_larger_map_checkbox">מפה גדולה יותר</string>
+    <string name="download_larger_map_hint">מוריד גם את האזורים הסמוכים (עשוי להוסיף כמה קבצים נוספים).</string>
+    <string name="download_looking_up">מחפש נתוני מפה עבור אזור זה…</string>
+    <string name="download_no_data_here">אין נתוני מפה מפורטים זמינים עבור אזור זה.</string>
+    <string name="download_area_default_name">אזור זה</string>
+    <string name="download_complete">הייבוא הושלם: נוספו %1$d רכיבים.</string>
+    <string name="download_failed">הייבוא נכשל: %1$s</string>
+    <string name="menu_download_map">הורדת מפה</string>
+    <string name="import_notif_title">מייבא מפה</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">מתחיל</string>
+    <string name="import_cancelled">הייבוא בוטל.</string>
+    <string name="import_notif_starting">מתחיל ייבוא של %1$s…</string>
+    <string name="no_map_here_message">אין מפה מפורטת כאן — הקש פעמיים כדי להוריד.</string>
+    <string name="map_load_failed_message">לא ניתן היה לטעון את המפה כאן — נסה להתרחק בתצוגה או להתרחק ולחזור.</string>
+    <string name="download_area_action">הורדת מפה עבור אזור זה</string>
+    <string name="download_radius_location_unknown">המיקום אינו זמין — הזז את המפה או אשר הרשאת מיקום</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">הצגת המפה (בטא)</string>
+    <string name="render_map_summary_on">המפה מוצגת על המסך עבור משתמשים עם ראייה חלשה. הצגה זו ניסיונית ועדיין משתפרת.</string>
+    <string name="render_map_summary_off">המפה אינה מוצגת; חקור באמצעות מגע וקול בלבד.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia פועלת</string>
+    <string name="notif_background_text">שירות הרקע פעיל</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">חיפוש</string>
+    <string name="address_search_empty_toast">נא להזין כתובת.</string>
+    <string name="address_search_searching">מחפש…</string>
+    <string name="address_search_select_title">בחירת כתובת</string>
+    <string name="address_search_cancelled_toast">החיפוש בוטל</string>
+    <string name="address_search_error_toast">שגיאה: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">הזן שם לנקודה</string>
+    <string name="add_point_dialog_title">הוספת נקודה חדשה</string>
+    <string name="action_save_node">שמירת נקודה</string>
+    <string name="action_reset_location">איפוס מיקום</string>
+    <string name="toast_enter_name_required">נא להזין שם.</string>
+    <string name="toast_waiting_for_location">עדיין ממתין למיקום — נסה שוב בעוד רגע.</string>
+    <string name="toast_point_added">הנקודה נוספה.</string>
+    <string name="status_getting_location">מאתר מיקום…</string>
+    <string name="status_getting_location_with_accuracy">מאתר מיקום… דיוק מיטבי: %1$d מ׳.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">עריכת נקודה</string>
+    <string name="action_save">שמירה</string>
+    <string name="action_delete">מחיקה</string>
+    <string name="toast_point_updated">הנקודה עודכנה.</string>
+    <string name="confirm_removal_title">אישור הסרה</string>
+    <string name="confirm_removal_message">האם אתה בטוח שברצונך להסיר נקודה זו?\n%1$s</string>
+    <string name="action_remove">הסרה</string>
+    <string name="toast_point_removed">הנקודה הוסרה.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">הרשאות אלו נחוצות כדי שהאפליקציה תפעל כראוי.</string>
+    <string name="action_grant_permissions">הענקת הרשאות</string>
+    <string name="action_close">סגירה</string>
+    <string name="content_description_switch_to_compass_lock">מעבר לנעילת מצפן</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">כיוון אל נקודה</string>
+    <string name="action_navigate_google_maps">ניווט אל הנקודה ב-Google Maps</string>
+    <string name="action_zoom_to_point">התקרבות אל הנקודה</string>
+    <string name="action_zoom_to_point_on_map">התקרבות אל הנקודה על המפה</string>
+    <string name="action_remove_from_favorites">הסרה מהמועדפים</string>
+    <string name="action_add_to_favorites">הוספה למועדפים</string>
+    <string name="action_details">פרטים</string>
+    <string name="toast_no_additional_details">אין פרטים נוספים זמינים.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">מיקום המפה אינו זמין.</string>
+    <string name="nearby_nodes_dialog_title">הצגת נקודות קרובות</string>
+    <string name="nearby_nodes_dialog_message">המפה אינה ממורכזת כרגע במיקומך, כך שהאפשרויות \"סביבי\" ו-\"סביב מרכז המפה\" יציגו נקודות שונות. איזו מהן להשתמש?</string>
+    <string name="action_around_me">סביבי</string>
+    <string name="action_around_map_center">סביב מרכז המפה</string>
+
+</resources>

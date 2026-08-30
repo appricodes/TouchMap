@@ -1,0 +1,60 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        app:title="@string/general_header"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            app:defaultValue="en-US"
+            app:entries="@array/language_names"
+            app:entryValues="@array/language_codes"
+            app:key="language_preference"
+            app:title="@string/language_title"
+            app:summary="%s"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
+        <SwitchPreferenceCompat
+            app:key="keep_screen_on"
+            app:title="@string/keep_screen_on_title"
+            app:summaryOn="@string/keep_screen_on_summary_on"
+            app:summaryOff="@string/keep_screen_on_summary_off"
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"/>
+
+        <SwitchPreferenceCompat
+            app:key="render_map"
+            app:title="@string/render_map_title"
+            app:summaryOn="@string/render_map_summary_on"
+            app:summaryOff="@string/render_map_summary_off"
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"/>
+
+        <Preference
+            app:fragment="com.wikiponder.touchmap.SettingsActivity$AnnouncementFragment"
+            app:key="announcement_settings_header"
+            app:title="@string/settings_announcement_header"
+            app:iconSpaceReserved="false"/>
+
+        <Preference
+            app:fragment="com.wikiponder.touchmap.SettingsActivity$SoundFragment"
+            app:key="sound_settings_header"
+            app:title="@string/settings_sound_header"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/map_data_header"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            app:key="delete_all_maps"
+            app:title="@string/delete_all_maps_title"
+            app:summary="@string/delete_all_maps_summary"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

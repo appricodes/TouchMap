@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="talkback_required_title">Yêu cầu TalkBack</string>
+    <string name="talkback_required_message">Ứng dụng này được thiết kế để hoạt động cùng TalkBack, và TalkBack phải được bật thì ứng dụng mới hoạt động đúng. Sau khi tải bản đồ khu vực của bạn, hãy chạm và di chuyển ngón tay trên màn hình để khám phá các con đường và địa điểm xung quanh bạn.</string>
+    <string name="talkback_required_open_settings">Mở Cài đặt trợ năng</string>
+
+    <string name="menu_gallery">Thư viện</string>
+    <string name="title_activity_settings">Cài đặt</string>
+    <string name="please_click_back_again_to_exit">Vui lòng nhấn QUAY LẠI một lần nữa để thoát</string>
+    <string name="language_title">Ngôn ngữ ưa thích của bạn</string>
+    <string name="general_header">Cài đặt chung</string>
+    <string name="settings_announcement_header">Thông báo bằng giọng nói</string>
+    <string name="cancel_aiming">Hủy chỉ hướng đến %1$s</string>
+    <string name="aiming_started">Đang chỉ hướng đến %1$s. Chạm vào đây để hủy.</string>
+    <string name="cancel_search">Hủy lọc theo %1$s</string>
+    <string name="search_on_map_started">Chỉ hiển thị các điểm khớp với %1$s. Chạm vào đây để hủy.</string>
+    <string name="search_canceled">Đã hủy bộ lọc từ khóa</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">Lọc các phần tử bản đồ</string>
+    <string name="filter_keyword_label">Từ khóa (để trống để hiển thị tất cả)</string>
+    <string name="filter_categories_label">Danh mục</string>
+    <string name="filter_show_selected">Hiển thị mục đã chọn</string>
+    <string name="filter_show_favorites">Hiển thị mục yêu thích</string>
+    <string name="filter_show_all">Hiển thị tất cả</string>
+    <string name="startup_download_prompt_title">Chưa có bản đồ nào được tải xuống ở đây</string>
+    <string name="startup_download_prompt_message">Hiện chưa có bản đồ nào được tải xuống cho vị trí hiện tại của bạn. Hãy tải xuống ngay để khám phá xung quanh bạn.</string>
+    <string name="startup_download_prompt_download">Tải bản đồ</string>
+    <string name="aiming_canceled">Đã hủy chỉ hướng</string>
+    <string name="settings_sound_header">Âm thanh và rung</string>
+    <string name="map_data_header">Dữ liệu bản đồ</string>
+    <string name="delete_all_maps_title">Xóa tất cả bản đồ đã tải xuống</string>
+    <string name="delete_all_maps_summary">Xóa toàn bộ dữ liệu bản đồ đã tải xuống trên thiết bị này. Các điểm được thêm thủ công vẫn được giữ lại.</string>
+    <string name="delete_all_maps_confirm_title">Xóa tất cả bản đồ đã tải xuống?</string>
+    <string name="delete_all_maps_confirm_message">Thao tác này sẽ xóa mọi khu vực bản đồ đã tải xuống khỏi thiết bị này. Bạn sẽ cần tải lại để dùng ngoại tuyến. Các điểm được thêm thủ công không bị ảnh hưởng.</string>
+    <string name="delete_all_maps_confirm_yes">Xóa</string>
+    <string name="delete_all_maps_confirm_no">Hủy</string>
+    <string name="delete_all_maps_done">Đã xóa tất cả bản đồ đã tải xuống.</string>
+    <string name="info_button_text">Độ chính xác: %1$d m, tốc độ: %2$.1f km/giờ</string>
+    <string name="keep_screen_on_title">Luôn bật màn hình</string>
+    <string name="keep_screen_on_summary_on">Màn hình sẽ không khóa khi ứng dụng đang mở</string>
+    <string name="keep_screen_on_summary_off">Màn hình sẽ khóa theo cài đặt hệ thống</string>
+
+    <string name="content_description_filters">Bộ lọc</string>
+    <string name="content_description_search">Tìm kiếm</string>
+    <string name="content_description_list_nodes">Liệt kê các điểm gần đây</string>
+    <string name="nearby_nodes_loading_title">Đang tải các điểm gần đây…</string>
+    <string name="list_button_text">Danh sách</string>
+    <string name="content_description_add_point">Thêm điểm mới</string>
+    <string name="content_description_info">Thông tin</string>
+    <string name="content_description_action">Hành động</string>
+    <string name="content_description_explore_map">Khám phá</string>
+    <string name="content_description_zoom_in">Phóng to</string>
+    <string name="content_description_zoom_out">Thu nhỏ</string>
+    <string name="content_description_recenter">Căn giữa lại theo vị trí của bạn</string>
+    <string name="content_description_map_lock">Chuyển sang khóa hướng Bắc</string>
+    <string name="content_description_more">Thêm</string>
+    <string name="category_button_text">Danh mục</string>
+    <string name="keyword_button_text">Từ khóa</string>
+    <string name="refresh_button_text">Làm mới</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">Tìm kiếm</string>
+    <string name="hint_type_or_speak">Nhập hoặc nói</string>
+    <string name="content_description_mic">Micrô</string>
+
+    <string name="tooltip_node_name">Central Park</string>
+    <string name="tooltip_node_category">Giải trí</string>
+    <string name="tooltip_node_distance">Cách 150m</string>
+
+    <string name="announce_location_meters">%1$s, cách %2$.0f mét</string>
+    <string name="announce_location_kilometers">%1$s, cách %2$.1f ki-lô-mét</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d mét, ở hướng %3$d giờ</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d mét</string>
+    <string name="announce_aiming_distance_and_clock">%1$d mét, ở hướng %2$d giờ</string>
+    <string name="announce_aiming_clock_only">Ở hướng %1$d giờ</string>
+    <string name="announce_user_location">Bạn</string>
+    <string name="hint_address_input">Địa chỉ</string>
+    <string name="content_description_speak_address">Micrô</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">Tải bản đồ</string>
+    <string name="download_button">Tải bản đồ</string>
+    <string name="download_cancel_button">Hủy tải xuống</string>
+    <string name="download_cancel_confirm_title">Hủy tải xuống?</string>
+    <string name="download_cancel_confirm_message">Quá trình nhập bản đồ vẫn đang diễn ra. Bạn có chắc chắn muốn hủy không?</string>
+    <string name="download_cancel_confirm_yes">Có, hủy</string>
+    <string name="download_cancel_confirm_no">Không, tiếp tục tải</string>
+    <string name="download_close_button">Đóng</string>
+    <string name="download_in_progress_title">Đã có một lượt nhập bản đồ đang chạy.</string>
+    <string name="download_size_label">Dung lượng tải xuống: %1$s</string>
+    <string name="download_size_label_multi">Dung lượng tải xuống: %1$d tệp, tổng %2$s</string>
+    <string name="download_size_unknown">Dung lượng tải xuống: không xác định</string>
+    <string name="download_already_downloaded_prefix">Đã tải xuống.</string>
+    <string name="download_larger_map_checkbox">Bản đồ lớn hơn</string>
+    <string name="download_larger_map_hint">Cũng tải các khu vực lân cận (có thể có thêm vài tệp).</string>
+    <string name="download_looking_up">Đang tìm dữ liệu bản đồ cho khu vực này…</string>
+    <string name="download_no_data_here">Không có dữ liệu bản đồ chi tiết cho khu vực này.</string>
+    <string name="download_area_default_name">khu vực này</string>
+    <string name="download_complete">Nhập hoàn tất: đã thêm %1$d đối tượng.</string>
+    <string name="download_failed">Nhập thất bại: %1$s</string>
+    <string name="menu_download_map">Tải bản đồ</string>
+    <string name="import_notif_title">Đang nhập bản đồ</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Đang bắt đầu</string>
+    <string name="import_cancelled">Đã hủy nhập.</string>
+    <string name="import_notif_starting">Đang bắt đầu nhập %1$s…</string>
+    <string name="no_map_here_message">Không có bản đồ chi tiết ở đây — nhấn đúp để tải xuống.</string>
+    <string name="map_load_failed_message">Không thể tải bản đồ ở đây — hãy thử thu nhỏ hoặc di chuyển ra xa rồi quay lại.</string>
+    <string name="download_area_action">Tải bản đồ cho khu vực này</string>
+    <string name="download_radius_location_unknown">Không có vị trí — hãy di chuyển bản đồ hoặc cấp quyền vị trí</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">Hiển thị bản đồ (Beta)</string>
+    <string name="render_map_summary_on">Bản đồ được vẽ trên màn hình dành cho người khiếm thị một phần. Tính năng vẽ này đang thử nghiệm và tiếp tục được cải thiện.</string>
+    <string name="render_map_summary_off">Bản đồ không được vẽ; chỉ khám phá bằng cách chạm và âm thanh.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia đang chạy</string>
+    <string name="notif_background_text">Dịch vụ nền đang hoạt động</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">Tìm kiếm</string>
+    <string name="address_search_empty_toast">Vui lòng nhập một địa chỉ.</string>
+    <string name="address_search_searching">Đang tìm kiếm…</string>
+    <string name="address_search_select_title">Chọn một địa chỉ</string>
+    <string name="address_search_cancelled_toast">Đã hủy tìm kiếm</string>
+    <string name="address_search_error_toast">Lỗi: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">Nhập tên điểm</string>
+    <string name="add_point_dialog_title">Thêm điểm mới</string>
+    <string name="action_save_node">Lưu điểm</string>
+    <string name="action_reset_location">Đặt lại vị trí</string>
+    <string name="toast_enter_name_required">Vui lòng nhập một tên.</string>
+    <string name="toast_waiting_for_location">Vẫn đang chờ vị trí — vui lòng thử lại sau một chút.</string>
+    <string name="toast_point_added">Đã thêm điểm.</string>
+    <string name="status_getting_location">Đang lấy vị trí…</string>
+    <string name="status_getting_location_with_accuracy">Đang lấy vị trí… độ chính xác tốt nhất: %1$d m.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">Chỉnh sửa điểm</string>
+    <string name="action_save">Lưu</string>
+    <string name="action_delete">Xóa</string>
+    <string name="toast_point_updated">Đã cập nhật điểm.</string>
+    <string name="confirm_removal_title">Xác nhận xóa</string>
+    <string name="confirm_removal_message">Bạn có chắc chắn muốn xóa điểm này không?\n%1$s</string>
+    <string name="action_remove">Xóa</string>
+    <string name="toast_point_removed">Đã xóa điểm.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">Cần có các quyền này để ứng dụng hoạt động đúng.</string>
+    <string name="action_grant_permissions">Cấp quyền</string>
+    <string name="action_close">Đóng</string>
+    <string name="content_description_switch_to_compass_lock">Chuyển sang khóa la bàn</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">Chỉ hướng đến điểm</string>
+    <string name="action_navigate_google_maps">Chỉ đường đến điểm trong Google Maps</string>
+    <string name="action_zoom_to_point">Phóng to đến điểm</string>
+    <string name="action_zoom_to_point_on_map">Phóng to đến điểm trên bản đồ</string>
+    <string name="action_remove_from_favorites">Xóa khỏi mục yêu thích</string>
+    <string name="action_add_to_favorites">Thêm vào mục yêu thích</string>
+    <string name="action_details">Chi tiết</string>
+    <string name="toast_no_additional_details">Không có thêm thông tin chi tiết.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">Không có vị trí bản đồ.</string>
+    <string name="nearby_nodes_dialog_title">Hiển thị các điểm gần đây</string>
+    <string name="nearby_nodes_dialog_message">Bản đồ hiện không căn giữa theo vị trí của bạn, nên \"quanh tôi\" và \"quanh tâm bản đồ\" sẽ hiển thị các điểm khác nhau. Bạn muốn dùng chế độ nào?</string>
+    <string name="action_around_me">Quanh tôi</string>
+    <string name="action_around_map_center">Quanh tâm bản đồ</string>
+
+</resources>

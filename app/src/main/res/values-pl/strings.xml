@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="talkback_required_title">Wymagany TalkBack</string>
+    <string name="talkback_required_message">Ta aplikacja została zaprojektowana do współpracy z TalkBackiem, który musi być włączony, aby aplikacja działała poprawnie. Po pobraniu mapy dla swojej okolicy dotknij ekranu i przesuwaj po nim palcem, aby poznać ulice i punkty wokół siebie.</string>
+    <string name="talkback_required_open_settings">Otwórz ustawienia ułatwień dostępu</string>
+
+    <string name="menu_gallery">Galeria</string>
+    <string name="title_activity_settings">Ustawienia</string>
+    <string name="please_click_back_again_to_exit">Naciśnij WSTECZ ponownie, aby wyjść</string>
+    <string name="language_title">Twój preferowany język</string>
+    <string name="general_header">Ustawienia ogólne</string>
+    <string name="settings_announcement_header">Zapowiedzi</string>
+    <string name="cancel_aiming">Anuluj namierzanie %1$s</string>
+    <string name="aiming_started">Namierzanie %1$s. Dotknij tutaj, aby anulować.</string>
+    <string name="cancel_search">Anuluj filtrowanie według %1$s</string>
+    <string name="search_on_map_started">Wyświetlane są tylko punkty pasujące do %1$s. Dotknij tutaj, aby anulować.</string>
+    <string name="search_canceled">Anulowano filtr słów kluczowych</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">Filtruj elementy mapy</string>
+    <string name="filter_keyword_label">Słowo kluczowe (zostaw puste, aby pokazać wszystko)</string>
+    <string name="filter_categories_label">Kategorie</string>
+    <string name="filter_show_selected">Pokaż wybrane</string>
+    <string name="filter_show_favorites">Pokaż ulubione</string>
+    <string name="filter_show_all">Pokaż wszystkie</string>
+    <string name="startup_download_prompt_title">Brak pobranej mapy dla tego miejsca</string>
+    <string name="startup_download_prompt_message">Dla Twojej bieżącej lokalizacji nie pobrano jeszcze mapy. Pobierz ją teraz, aby poznać swoją okolicę.</string>
+    <string name="startup_download_prompt_download">Pobierz mapę</string>
+    <string name="aiming_canceled">Anulowano namierzanie</string>
+    <string name="settings_sound_header">Dźwięk i wibracje</string>
+    <string name="map_data_header">Dane mapy</string>
+    <string name="delete_all_maps_title">Usuń wszystkie pobrane mapy</string>
+    <string name="delete_all_maps_summary">Usuwa z tego urządzenia wszystkie pobrane dane map. Ręcznie dodane punkty pozostają zachowane.</string>
+    <string name="delete_all_maps_confirm_title">Usunąć wszystkie pobrane mapy?</string>
+    <string name="delete_all_maps_confirm_message">Spowoduje to usunięcie z tego urządzenia każdego pobranego obszaru mapy. Aby korzystać z niego offline, trzeba będzie pobrać go ponownie. Ręcznie dodane punkty nie zostaną naruszone.</string>
+    <string name="delete_all_maps_confirm_yes">Usuń</string>
+    <string name="delete_all_maps_confirm_no">Anuluj</string>
+    <string name="delete_all_maps_done">Wszystkie pobrane mapy zostały usunięte.</string>
+    <string name="info_button_text">Dokładność: %1$d m, prędkość: %2$.1f km/h</string>
+    <string name="keep_screen_on_title">Nie wygaszaj ekranu</string>
+    <string name="keep_screen_on_summary_on">Ekran nie zablokuje się, dopóki aplikacja jest otwarta</string>
+    <string name="keep_screen_on_summary_off">Ekran będzie się blokował zgodnie z ustawieniami systemowymi</string>
+
+    <string name="content_description_filters">Filtry</string>
+    <string name="content_description_search">Szukaj</string>
+    <string name="content_description_list_nodes">Wyświetl listę pobliskich punktów</string>
+    <string name="nearby_nodes_loading_title">Wczytywanie pobliskich punktów…</string>
+    <string name="list_button_text">Lista</string>
+    <string name="content_description_add_point">Dodaj nowy punkt</string>
+    <string name="content_description_info">Informacje</string>
+    <string name="content_description_action">Akcja</string>
+    <string name="content_description_explore_map">Eksploruj</string>
+    <string name="content_description_zoom_in">Powiększ</string>
+    <string name="content_description_zoom_out">Pomniejsz</string>
+    <string name="content_description_recenter">Wyśrodkuj na Twojej lokalizacji</string>
+    <string name="content_description_map_lock">Przełącz na blokadę północy</string>
+    <string name="content_description_more">Więcej</string>
+    <string name="category_button_text">Kategoria</string>
+    <string name="keyword_button_text">Słowo kluczowe</string>
+    <string name="refresh_button_text">Odśwież</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">Szukaj</string>
+    <string name="hint_type_or_speak">Wpisz lub podyktuj</string>
+    <string name="content_description_mic">Mikrofon</string>
+
+    <string name="tooltip_node_name">Central Park</string>
+    <string name="tooltip_node_category">Rekreacja</string>
+    <string name="tooltip_node_distance">150 m stąd</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f metrów stąd</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f kilometra stąd</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d metrów, godzina %3$d</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d metrów</string>
+    <string name="announce_aiming_distance_and_clock">%1$d metrów, godzina %2$d</string>
+    <string name="announce_aiming_clock_only">godzina %1$d</string>
+    <string name="announce_user_location">Ty</string>
+    <string name="hint_address_input">Adres</string>
+    <string name="content_description_speak_address">Mikrofon</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">Pobierz mapę</string>
+    <string name="download_button">Pobierz mapę</string>
+    <string name="download_cancel_button">Anuluj pobieranie</string>
+    <string name="download_cancel_confirm_title">Anulować pobieranie?</string>
+    <string name="download_cancel_confirm_message">Import mapy jest wciąż w toku. Czy na pewno chcesz go anulować?</string>
+    <string name="download_cancel_confirm_yes">Tak, anuluj</string>
+    <string name="download_cancel_confirm_no">Nie, kontynuuj pobieranie</string>
+    <string name="download_close_button">Zamknij</string>
+    <string name="download_in_progress_title">Import mapy już trwa.</string>
+    <string name="download_size_label">Rozmiar pobierania: %1$s</string>
+    <string name="download_size_label_multi">Rozmiar pobierania: %1$d plików, łącznie %2$s</string>
+    <string name="download_size_unknown">Rozmiar pobierania: nieznany</string>
+    <string name="download_already_downloaded_prefix">Już pobrano.</string>
+    <string name="download_larger_map_checkbox">Większa mapa</string>
+    <string name="download_larger_map_hint">Pobiera również sąsiednie obszary (może to być kilka dodatkowych plików).</string>
+    <string name="download_looking_up">Wyszukiwanie danych mapy dla tego obszaru…</string>
+    <string name="download_no_data_here">Brak szczegółowych danych mapy dla tego obszaru.</string>
+    <string name="download_area_default_name">ten obszar</string>
+    <string name="download_complete">Import zakończony: dodano %1$d elementów.</string>
+    <string name="download_failed">Import nie powiódł się: %1$s</string>
+    <string name="menu_download_map">Pobierz mapę</string>
+    <string name="import_notif_title">Importowanie mapy</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Rozpoczynanie</string>
+    <string name="import_cancelled">Import anulowany.</string>
+    <string name="import_notif_starting">Rozpoczynanie importu %1$s…</string>
+    <string name="no_map_here_message">Brak szczegółowej mapy tutaj — dotknij dwukrotnie, aby pobrać.</string>
+    <string name="map_load_failed_message">Nie udało się wczytać mapy w tym miejscu — spróbuj oddalić widok lub odejść i wrócić.</string>
+    <string name="download_area_action">Pobierz mapę dla tego obszaru</string>
+    <string name="download_radius_location_unknown">Lokalizacja niedostępna — przesuń mapę lub udziel uprawnienia do lokalizacji</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">Pokaż mapę (Beta)</string>
+    <string name="render_map_summary_on">Mapa jest rysowana na ekranie dla osób słabowidzących. Ta funkcja jest eksperymentalna i wciąż udoskonalana.</string>
+    <string name="render_map_summary_off">Mapa nie jest rysowana; eksploruj wyłącznie dotykiem i dźwiękiem.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia działa</string>
+    <string name="notif_background_text">Usługa działająca w tle jest aktywna</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">Szukaj</string>
+    <string name="address_search_empty_toast">Wpisz adres.</string>
+    <string name="address_search_searching">Wyszukiwanie…</string>
+    <string name="address_search_select_title">Wybierz adres</string>
+    <string name="address_search_cancelled_toast">Wyszukiwanie anulowane</string>
+    <string name="address_search_error_toast">Błąd: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">Wpisz nazwę punktu</string>
+    <string name="add_point_dialog_title">Dodaj nowy punkt</string>
+    <string name="action_save_node">Zapisz punkt</string>
+    <string name="action_reset_location">Zresetuj lokalizację</string>
+    <string name="toast_enter_name_required">Wpisz nazwę.</string>
+    <string name="toast_waiting_for_location">Wciąż oczekiwanie na lokalizację — spróbuj ponownie za chwilę.</string>
+    <string name="toast_point_added">Dodano punkt.</string>
+    <string name="status_getting_location">Ustalanie lokalizacji…</string>
+    <string name="status_getting_location_with_accuracy">Ustalanie lokalizacji… najlepsza dokładność: %1$d m.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">Edytuj punkt</string>
+    <string name="action_save">Zapisz</string>
+    <string name="action_delete">Usuń</string>
+    <string name="toast_point_updated">Punkt zaktualizowany.</string>
+    <string name="confirm_removal_title">Potwierdź usunięcie</string>
+    <string name="confirm_removal_message">Czy na pewno chcesz usunąć ten punkt?\n%1$s</string>
+    <string name="action_remove">Usuń</string>
+    <string name="toast_point_removed">Punkt usunięty.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">Te uprawnienia są niezbędne do prawidłowego działania aplikacji.</string>
+    <string name="action_grant_permissions">Przyznaj uprawnienia</string>
+    <string name="action_close">Zamknij</string>
+    <string name="content_description_switch_to_compass_lock">Przełącz na blokadę kompasu</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">Namierz punkt</string>
+    <string name="action_navigate_google_maps">Nawiguj do punktu w Google Maps</string>
+    <string name="action_zoom_to_point">Przybliż do punktu</string>
+    <string name="action_zoom_to_point_on_map">Przybliż do punktu na mapie</string>
+    <string name="action_remove_from_favorites">Usuń z ulubionych</string>
+    <string name="action_add_to_favorites">Dodaj do ulubionych</string>
+    <string name="action_details">Szczegóły</string>
+    <string name="toast_no_additional_details">Brak dodatkowych szczegółów.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">Lokalizacja mapy niedostępna.</string>
+    <string name="nearby_nodes_dialog_title">Pokaż pobliskie punkty</string>
+    <string name="nearby_nodes_dialog_message">Mapa nie jest obecnie wyśrodkowana na Twojej lokalizacji, więc opcje \"wokół mnie\" i \"wokół środka mapy\" pokazałyby różne punkty. Której użyć?</string>
+    <string name="action_around_me">Wokół mnie</string>
+    <string name="action_around_map_center">Wokół środka mapy</string>
+
+</resources>

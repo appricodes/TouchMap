@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Подешавања</string>
+    <string name="talkback_required_title">Потребан је TalkBack</string>
+    <string name="talkback_required_message">Ова апликација је направљена за рад са TalkBack-ом, и TalkBack мора бити укључен да би апликација исправно радила. Након преузимања мапе за вашу област, додирните екран и померајте прст да бисте истражили улице и тачке око себе.</string>
+    <string name="talkback_required_open_settings">Отвори подешавања приступачности</string>
+
+    <string name="menu_gallery">Галерија</string>
+    <string name="title_activity_settings">Подешавања</string>
+    <string name="please_click_back_again_to_exit">Притисните НАЗАД поново да бисте изашли</string>
+    <string name="language_title">Жељени језик</string>
+    <string name="general_header">Општа подешавања</string>
+    <string name="settings_announcement_header">Најаве</string>
+    <string name="cancel_aiming">Откажи усмеравање на %1$s</string>
+    <string name="aiming_started">Усмеравање на %1$s. Додирните овде да откажете.</string>
+    <string name="cancel_search">Откажи филтрирање по %1$s</string>
+    <string name="search_on_map_started">Приказане су само тачке које одговарају %1$s. Додирните овде да откажете.</string>
+    <string name="search_canceled">Филтер по кључној речи је отказан</string>
+
+    <string name="filter_dialog_title">Филтрирај елементе мапе</string>
+    <string name="filter_keyword_label">Кључна реч (оставите празно за све)</string>
+    <string name="filter_categories_label">Категорије</string>
+    <string name="filter_show_selected">Прикажи изабрано</string>
+    <string name="filter_show_favorites">Прикажи омиљено</string>
+    <string name="filter_show_all">Прикажи све</string>
+    <string name="startup_download_prompt_title">Овде нема преузете мапе</string>
+    <string name="startup_download_prompt_message">За вашу тренутну локацију још увек нема преузете мапе. Преузмите је сада да бисте истражили околину.</string>
+    <string name="startup_download_prompt_download">Преузми мапу</string>
+    <string name="aiming_canceled">Усмеравање отказано</string>
+    <string name="settings_sound_header">Звук и вибрација</string>
+    <string name="map_data_header">Подаци мапе</string>
+    <string name="delete_all_maps_title">Обриши све преузете мапе</string>
+    <string name="delete_all_maps_summary">Уклања све преузете податке мапа са овог уређаја. Ручно додате тачке се задржавају.</string>
+    <string name="delete_all_maps_confirm_title">Обрисати све преузете мапе?</string>
+    <string name="delete_all_maps_confirm_message">Ово уклања сваку преузету област мапе са овог уређаја. Мораћете поново да је преузмете да бисте је користили офлајн. Ручно додате тачке нису погођене.</string>
+    <string name="delete_all_maps_confirm_yes">Обриши</string>
+    <string name="delete_all_maps_confirm_no">Откажи</string>
+    <string name="delete_all_maps_done">Све преузете мапе су обрисане.</string>
+    <string name="info_button_text">Тачност: %1$d m, брзина: %2$.1f km/h</string>
+    <string name="keep_screen_on_title">Држи екран укљученим</string>
+    <string name="keep_screen_on_summary_on">Екран се неће закључати док је апликација отворена</string>
+    <string name="keep_screen_on_summary_off">Екран ће се закључавати у складу са системским подешавањима</string>
+
+    <string name="content_description_filters">Филтери</string>
+    <string name="content_description_search">Претрага</string>
+    <string name="content_description_list_nodes">Прикажи листу оближњих тачака</string>
+    <string name="nearby_nodes_loading_title">Учитавање оближњих тачака…</string>
+    <string name="list_button_text">Листа</string>
+    <string name="content_description_add_point">Додај нову тачку</string>
+    <string name="content_description_info">Информације</string>
+    <string name="content_description_action">Радња</string>
+    <string name="content_description_explore_map">Истражи</string>
+    <string name="content_description_zoom_in">Увећај</string>
+    <string name="content_description_zoom_out">Умањи</string>
+    <string name="content_description_recenter">Центрирај на вашу локацију</string>
+    <string name="content_description_map_lock">Пребаци на закључавање према северу</string>
+    <string name="content_description_more">Више</string>
+    <string name="category_button_text">Категорија</string>
+    <string name="keyword_button_text">Кључна реч</string>
+    <string name="refresh_button_text">Освежи</string>
+    <string name="find_address_title">Претрага</string>
+    <string name="hint_type_or_speak">Откуцајте или изговорите</string>
+    <string name="content_description_mic">Микрофон</string>
+
+    <string name="tooltip_node_name">Central Park</string>
+    <string name="tooltip_node_category">Рекреација</string>
+    <string name="tooltip_node_distance">150 m удаљено</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f метара удаљено</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f километара удаљено</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d метара, на %3$d сати</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d метара</string>
+    <string name="announce_aiming_distance_and_clock">%1$d метара, на %2$d сати</string>
+    <string name="announce_aiming_clock_only">На %1$d сати</string>
+    <string name="announce_user_location">Ви</string>
+    <string name="hint_address_input">Адреса</string>
+    <string name="content_description_speak_address">Микрофон</string>
+
+    <string name="download_map_title">Преузми мапу</string>
+    <string name="download_button">Преузми мапу</string>
+    <string name="download_cancel_button">Откажи преузимање</string>
+    <string name="download_cancel_confirm_title">Отказати преузимање?</string>
+    <string name="download_cancel_confirm_message">Увоз мапе је још увек у току. Да ли сигурно желите да га откажете?</string>
+    <string name="download_cancel_confirm_yes">Да, откажи</string>
+    <string name="download_cancel_confirm_no">Не, настави преузимање</string>
+    <string name="download_close_button">Затвори</string>
+    <string name="download_in_progress_title">Увоз мапе је већ у току.</string>
+    <string name="download_size_label">Величина преузимања: %1$s</string>
+    <string name="download_size_label_multi">Величина преузимања: %1$d фајлова, укупно %2$s</string>
+    <string name="download_size_unknown">Величина преузимања: непозната</string>
+    <string name="download_already_downloaded_prefix">Већ преузето.</string>
+    <string name="download_larger_map_checkbox">Већа мапа</string>
+    <string name="download_larger_map_hint">Такође преузима суседне области (може бити неколико додатних фајлова).</string>
+    <string name="download_looking_up">Тражење података мапе за ову област…</string>
+    <string name="download_no_data_here">Нема доступних детаљних података мапе за ову област.</string>
+    <string name="download_area_default_name">ову област</string>
+    <string name="download_complete">Увоз завршен: додато елемената – %1$d.</string>
+    <string name="download_failed">Увоз није успео: %1$s</string>
+    <string name="menu_download_map">Преузми мапу</string>
+    <string name="import_notif_title">Увоз мапе</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Покретање</string>
+    <string name="import_cancelled">Увоз отказан.</string>
+    <string name="import_notif_starting">Покретање увоза %1$s…</string>
+    <string name="no_map_here_message">Овде нема детаљне мапе — двапут додирните да преузмете.</string>
+    <string name="map_load_failed_message">Мапа овде није могла да се учита — покушајте да умањите приказ или се удаљите па вратите.</string>
+    <string name="download_area_action">Преузми мапу за ову област</string>
+    <string name="download_radius_location_unknown">Локација није доступна — померите мапу или дозволите приступ локацији</string>
+
+    <string name="render_map_title">Прикажи мапу (Бета)</string>
+    <string name="render_map_summary_on">Мапа се исцртава на екрану за слабовиде кориснике. Ово исцртавање је експериментално и још увек се побољшава.</string>
+    <string name="render_map_summary_off">Мапа се не исцртава; истражујте само додиром и звуком.</string>
+
+    <string name="notif_background_title">Navia је покренута</string>
+    <string name="notif_background_text">Позадинска услуга је активна</string>
+
+    <string name="action_search">Претрага</string>
+    <string name="address_search_empty_toast">Унесите адресу.</string>
+    <string name="address_search_searching">Претрага…</string>
+    <string name="address_search_select_title">Изаберите адресу</string>
+    <string name="address_search_cancelled_toast">Претрага отказана</string>
+    <string name="address_search_error_toast">Грешка: %1$s</string>
+
+    <string name="hint_enter_point_name">Унесите назив тачке</string>
+    <string name="add_point_dialog_title">Додај нову тачку</string>
+    <string name="action_save_node">Сачувај тачку</string>
+    <string name="action_reset_location">Ресетуј локацију</string>
+    <string name="toast_enter_name_required">Унесите назив.</string>
+    <string name="toast_waiting_for_location">Још увек се чека локација — покушајте поново за тренутак.</string>
+    <string name="toast_point_added">Тачка додата.</string>
+    <string name="status_getting_location">Утврђивање локације…</string>
+    <string name="status_getting_location_with_accuracy">Утврђивање локације… најбоља тачност: %1$dm.</string>
+
+    <string name="action_edit_node">Измени тачку</string>
+    <string name="action_save">Сачувај</string>
+    <string name="action_delete">Обриши</string>
+    <string name="toast_point_updated">Тачка ажурирана.</string>
+    <string name="confirm_removal_title">Потврди уклањање</string>
+    <string name="confirm_removal_message">Да ли сигурно желите да уклоните ову тачку?\n%1$s</string>
+    <string name="action_remove">Уклони</string>
+    <string name="toast_point_removed">Тачка уклоњена.</string>
+
+    <string name="permissions_required_message">Ове дозволе су неопходне да би апликација исправно радила.</string>
+    <string name="action_grant_permissions">Дозволи приступ</string>
+    <string name="action_close">Затвори</string>
+    <string name="content_description_switch_to_compass_lock">Пребаци на закључавање према компасу</string>
+
+    <string name="action_aim_at_point">Усмери на тачку</string>
+    <string name="action_navigate_google_maps">Крени ка тачки у Google Maps-у</string>
+    <string name="action_zoom_to_point">Увећај на тачку</string>
+    <string name="action_zoom_to_point_on_map">Увећај на тачку на мапи</string>
+    <string name="action_remove_from_favorites">Уклони из омиљених</string>
+    <string name="action_add_to_favorites">Додај у омиљене</string>
+    <string name="action_details">Детаљи</string>
+    <string name="toast_no_additional_details">Нема додатних детаља.</string>
+
+    <string name="toast_map_location_unavailable">Локација мапе није доступна.</string>
+    <string name="nearby_nodes_dialog_title">Прикажи оближње тачке</string>
+    <string name="nearby_nodes_dialog_message">Мапа тренутно није центрирана на вашу локацију, тако да „око мене” и „око центра мапе” приказују различите тачке. Коју треба користити?</string>
+    <string name="action_around_me">Око мене</string>
+    <string name="action_around_map_center">Око центра мапе</string>
+
+</resources>

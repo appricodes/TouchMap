@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Navia brand background: solid app purple (#6200EE, the same color the toolbar already uses via
+     the default Material theme). Kept as a flat fill rather than a gradient — gradients read as
+     muddy noise at the smallest launcher-icon sizes (as low as 48x48px on mdpi), and this app's
+     primary audience (low-vision users) benefits from a crisp, high-contrast icon shape more than
+     most. See ic_launcher_foreground.xml for the pin+sound-wave mark itself. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#6200EE"
+        android:pathData="M0,0h108v108h-108z" />
+</vector>

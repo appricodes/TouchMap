@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Nustatymai</string>
+    <string name="talkback_required_title">Reikalinga TalkBack</string>
+    <string name="talkback_required_message">Ši programa sukurta veikti kartu su TalkBack, todėl, kad programa veiktų tinkamai, TalkBack turi būti įjungta. Atsisiuntę savo vietovės žemėlapį, palieskite ekraną ir vedžiokite pirštą, kad tyrinėtumėte aplinkines gatves ir taškus.</string>
+    <string name="talkback_required_open_settings">Atidaryti pritaikymo neįgaliesiems nustatymus</string>
+
+    <string name="menu_gallery">Galerija</string>
+    <string name="title_activity_settings">Nustatymai</string>
+    <string name="please_click_back_again_to_exit">Norėdami išeiti, dar kartą paspauskite ATGAL</string>
+    <string name="language_title">Jūsų pageidaujama kalba</string>
+    <string name="general_header">Bendrieji nustatymai</string>
+    <string name="settings_announcement_header">Pranešimai</string>
+    <string name="cancel_aiming">Atšaukti krypties į %1$s rodymą</string>
+    <string name="aiming_started">Rodoma kryptis į %1$s. Palieskite čia, kad atšauktumėte.</string>
+    <string name="cancel_search">Atšaukti filtravimą pagal %1$s</string>
+    <string name="search_on_map_started">Rodomi tik taškai, atitinkantys %1$s. Palieskite čia, kad atšauktumėte.</string>
+    <string name="search_canceled">Raktažodžio filtras atšauktas</string>
+
+    <string name="filter_dialog_title">Filtruoti žemėlapio elementus</string>
+    <string name="filter_keyword_label">Raktažodis (palikite tuščią, kad būtų rodoma viskas)</string>
+    <string name="filter_categories_label">Kategorijos</string>
+    <string name="filter_show_selected">Rodyti pasirinktus</string>
+    <string name="filter_show_favorites">Rodyti mėgstamus</string>
+    <string name="filter_show_all">Rodyti visus</string>
+    <string name="startup_download_prompt_title">Čia žemėlapis dar neatsisiųstas</string>
+    <string name="startup_download_prompt_message">Jūsų dabartinei vietai žemėlapis dar neatsisiųstas. Atsisiųskite jį dabar, kad galėtumėte tyrinėti aplinką.</string>
+    <string name="startup_download_prompt_download">Atsisiųsti žemėlapį</string>
+    <string name="aiming_canceled">Krypties rodymas atšauktas</string>
+    <string name="settings_sound_header">Garsas ir vibracija</string>
+    <string name="map_data_header">Žemėlapio duomenys</string>
+    <string name="delete_all_maps_title">Ištrinti visus atsisiųstus žemėlapius</string>
+    <string name="delete_all_maps_summary">Iš šio įrenginio ištrinami visi atsisiųsti žemėlapio duomenys. Rankiniu būdu pridėti taškai išsaugomi.</string>
+    <string name="delete_all_maps_confirm_title">Ištrinti visus atsisiųstus žemėlapius?</string>
+    <string name="delete_all_maps_confirm_message">Bus ištrinta kiekviena šiame įrenginyje atsisiųsta žemėlapio sritis. Norėdami naudoti neprisijungus, turėsite ją atsisiųsti iš naujo. Rankiniu būdu pridėti taškai nebus paveikti.</string>
+    <string name="delete_all_maps_confirm_yes">Ištrinti</string>
+    <string name="delete_all_maps_confirm_no">Atšaukti</string>
+    <string name="delete_all_maps_done">Visi atsisiųsti žemėlapiai ištrinti.</string>
+    <string name="info_button_text">Tikslumas: %1$d m, greitis: %2$.1f km/h</string>
+    <string name="keep_screen_on_title">Nerodyti ekrano užrakto</string>
+    <string name="keep_screen_on_summary_on">Kol programa atidaryta, ekranas nebus užrakintas</string>
+    <string name="keep_screen_on_summary_off">Ekranas bus užrakinamas pagal sistemos nustatymus</string>
+
+    <string name="content_description_filters">Filtrai</string>
+    <string name="content_description_search">Ieškoti</string>
+    <string name="content_description_list_nodes">Rodyti netoliese esančių taškų sąrašą</string>
+    <string name="nearby_nodes_loading_title">Įkeliami netoliese esantys taškai…</string>
+    <string name="list_button_text">Sąrašas</string>
+    <string name="content_description_add_point">Pridėti naują tašką</string>
+    <string name="content_description_info">Informacija</string>
+    <string name="content_description_action">Veiksmas</string>
+    <string name="content_description_explore_map">Tyrinėti</string>
+    <string name="content_description_zoom_in">Priartinti</string>
+    <string name="content_description_zoom_out">Atitolinti</string>
+    <string name="content_description_recenter">Grįžti į mano vietą</string>
+    <string name="content_description_map_lock">Perjungti į krypties į šiaurę fiksavimą</string>
+    <string name="content_description_more">Daugiau</string>
+    <string name="category_button_text">Kategorija</string>
+    <string name="keyword_button_text">Raktažodis</string>
+    <string name="refresh_button_text">Atnaujinti</string>
+    <string name="find_address_title">Ieškoti</string>
+    <string name="hint_type_or_speak">Rašykite arba kalbėkite</string>
+    <string name="content_description_mic">Mikrofonas</string>
+
+    <string name="tooltip_node_name">Centrinis parkas</string>
+    <string name="tooltip_node_category">Poilsis</string>
+    <string name="tooltip_node_distance">už 150 m</string>
+
+    <string name="announce_location_meters">%1$s, už %2$.0f m</string>
+    <string name="announce_location_kilometers">%1$s, už %2$.1f km</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d m, %3$d valandos kryptimi</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d m</string>
+    <string name="announce_aiming_distance_and_clock">%1$d m, %2$d valandos kryptimi</string>
+    <string name="announce_aiming_clock_only">%1$d valandos kryptimi</string>
+    <string name="announce_user_location">Jūs</string>
+    <string name="hint_address_input">Adresas</string>
+    <string name="content_description_speak_address">Mikrofonas</string>
+
+    <string name="download_map_title">Atsisiųsti žemėlapį</string>
+    <string name="download_button">Atsisiųsti žemėlapį</string>
+    <string name="download_cancel_button">Atšaukti atsisiuntimą</string>
+    <string name="download_cancel_confirm_title">Atšaukti atsisiuntimą?</string>
+    <string name="download_cancel_confirm_message">Žemėlapio importavimas dar vyksta. Ar tikrai norite jį atšaukti?</string>
+    <string name="download_cancel_confirm_yes">Taip, atšaukti</string>
+    <string name="download_cancel_confirm_no">Ne, tęsti atsisiuntimą</string>
+    <string name="download_close_button">Uždaryti</string>
+    <string name="download_in_progress_title">Žemėlapio importavimas jau vyksta.</string>
+    <string name="download_size_label">Atsisiuntimo dydis: %1$s</string>
+    <string name="download_size_label_multi">Atsisiuntimo dydis: %1$d failai, iš viso %2$s</string>
+    <string name="download_size_unknown">Atsisiuntimo dydis: nežinomas</string>
+    <string name="download_already_downloaded_prefix">Jau atsisiųsta.</string>
+    <string name="download_larger_map_checkbox">Didesnis žemėlapis</string>
+    <string name="download_larger_map_hint">Taip pat atsisiunčiamos gretimos sritys (gali padaugėti failų).</string>
+    <string name="download_looking_up">Ieškoma šios srities žemėlapio duomenų…</string>
+    <string name="download_no_data_here">Šiai sričiai nėra išsamių žemėlapio duomenų.</string>
+    <string name="download_area_default_name">šią sritį</string>
+    <string name="download_complete">Importavimas baigtas: pridėta %1$d objektų.</string>
+    <string name="download_failed">Importavimas nepavyko: %1$s</string>
+    <string name="menu_download_map">Atsisiųsti žemėlapį</string>
+    <string name="import_notif_title">Importuojamas žemėlapis</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Pradedama</string>
+    <string name="import_cancelled">Importavimas atšauktas.</string>
+    <string name="import_notif_starting">Pradedamas importas: %1$s…</string>
+    <string name="no_map_here_message">Čia nėra išsamaus žemėlapio — bakstelėkite du kartus, kad atsisiųstumėte.</string>
+    <string name="map_load_failed_message">Nepavyko įkelti žemėlapio čia — pabandykite atitolinti arba pasitraukti ir sugrįžti.</string>
+    <string name="download_area_action">Atsisiųsti šios srities žemėlapį</string>
+    <string name="download_radius_location_unknown">Vieta nepasiekiama — perkelkite žemėlapį arba suteikite vietos nustatymo leidimą</string>
+
+    <string name="render_map_title">Rodyti žemėlapį (beta versija)</string>
+    <string name="render_map_summary_on">Žemėlapis piešiamas ekrane silpnaregiams naudotojams. Ši piešimo funkcija yra eksperimentinė ir vis dar tobulinama.</string>
+    <string name="render_map_summary_off">Žemėlapis nepiešiamas; tyrinėkite tik lietimu ir garsu.</string>
+
+    <string name="notif_background_title">Navia veikia</string>
+    <string name="notif_background_text">Fono paslauga aktyvi</string>
+
+    <string name="action_search">Ieškoti</string>
+    <string name="address_search_empty_toast">Įveskite adresą.</string>
+    <string name="address_search_searching">Ieškoma…</string>
+    <string name="address_search_select_title">Pasirinkite adresą</string>
+    <string name="address_search_cancelled_toast">Paieška atšaukta</string>
+    <string name="address_search_error_toast">Klaida: %1$s</string>
+
+    <string name="hint_enter_point_name">Įveskite taško pavadinimą</string>
+    <string name="add_point_dialog_title">Pridėti naują tašką</string>
+    <string name="action_save_node">Išsaugoti tašką</string>
+    <string name="action_reset_location">Atstatyti vietą</string>
+    <string name="toast_enter_name_required">Įveskite pavadinimą.</string>
+    <string name="toast_waiting_for_location">Vis dar nustatoma vieta — bandykite dar kartą po akimirkos.</string>
+    <string name="toast_point_added">Taškas pridėtas.</string>
+    <string name="status_getting_location">Nustatoma vieta…</string>
+    <string name="status_getting_location_with_accuracy">Nustatoma vieta… geriausias tikslumas: %1$dm.</string>
+
+    <string name="action_edit_node">Redaguoti tašką</string>
+    <string name="action_save">Išsaugoti</string>
+    <string name="action_delete">Ištrinti</string>
+    <string name="toast_point_updated">Taškas atnaujintas.</string>
+    <string name="confirm_removal_title">Patvirtinkite pašalinimą</string>
+    <string name="confirm_removal_message">Ar tikrai norite pašalinti šį tašką?\n%1$s</string>
+    <string name="action_remove">Pašalinti</string>
+    <string name="toast_point_removed">Taškas pašalintas.</string>
+
+    <string name="permissions_required_message">Šie leidimai būtini, kad programa veiktų tinkamai.</string>
+    <string name="action_grant_permissions">Suteikti leidimus</string>
+    <string name="action_close">Uždaryti</string>
+    <string name="content_description_switch_to_compass_lock">Perjungti į kompaso fiksavimą</string>
+
+    <string name="action_aim_at_point">Rodyti kryptį į tašką</string>
+    <string name="action_navigate_google_maps">Nurodyti kelią iki taško Google žemėlapiuose</string>
+    <string name="action_zoom_to_point">Priartinti prie taško</string>
+    <string name="action_zoom_to_point_on_map">Priartinti prie taško žemėlapyje</string>
+    <string name="action_remove_from_favorites">Šalinti iš mėgstamų</string>
+    <string name="action_add_to_favorites">Pridėti prie mėgstamų</string>
+    <string name="action_details">Informacija</string>
+    <string name="toast_no_additional_details">Papildomos informacijos nėra.</string>
+
+    <string name="toast_map_location_unavailable">Žemėlapio vieta nepasiekiama.</string>
+    <string name="nearby_nodes_dialog_title">Rodyti netoliese esančius taškus</string>
+    <string name="nearby_nodes_dialog_message">Žemėlapis šiuo metu nėra centruotas ties jūsų vieta, todėl „aplink mane" ir „aplink žemėlapio centrą" rodytų skirtingus taškus. Kurį naudoti?</string>
+    <string name="action_around_me">Aplink mane</string>
+    <string name="action_around_map_center">Aplink žemėlapio centrą</string>
+
+</resources>

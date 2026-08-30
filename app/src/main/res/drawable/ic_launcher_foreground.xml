@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Navia mark: a map pin with two sound-wave arcs, representing spoken/audio-guided navigation —
+     the app's core differentiator. Coordinates are the same design as
+     play-store-listing/graphics/icon-suggested.svg, scaled from that file's 512x512 canvas onto this
+     108x108 adaptive-icon viewport (factor 108/512), which is why every number here looks slightly
+     odd rather than round — keep the two files in sync if the mark ever changes.
+     Sits inside the adaptive-icon safe zone (the inner ~66x66 centered in this 108x108 canvas) so
+     it isn't clipped by circular/squircle/rounded-square launcher masks. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M47.69,20.25c-11.81,0 -21.30,9.49 -21.30,21.30c0,16.03 21.30,46.20 21.30,46.20s21.30,-30.16 21.30,-46.20c0,-11.81 -9.49,-21.30 -21.30,-21.30z" />
+    <path
+        android:fillColor="#6200EE"
+        android:pathData="M47.69,41.55m-8.86,0a8.86,8.86 0,1 1,17.72 0a8.86,8.86 0,1 1,-17.72 0" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.95"
+        android:strokeLineCap="round"
+        android:pathData="M69.61,29.40A17,17 0,0 1,69.61 63.40" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.95"
+        android:strokeLineCap="round"
+        android:pathData="M63.28,35.90A10.5,10.5 0,0 1,63.28 56.90" />
+</vector>

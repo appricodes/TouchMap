@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MapActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:background="#102A43"
+        android:elevation="4dp">
+
+        <ImageButton
+            android:id="@+id/filters_button"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:src="@drawable/ic_map_filter"
+            android:tint="#FFFFFF"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_margin="2dp"
+            android:contentDescription="@string/content_description_filters"/>
+
+        <ImageButton
+            android:id="@+id/search_button"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:src="@drawable/ic_map_search"
+            android:tint="#FFFFFF"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_margin="2dp"
+            android:contentDescription="@string/content_description_search"/>
+
+        <ImageButton
+            android:id="@+id/list_nodes_button"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:src="@drawable/ic_map_list"
+            android:tint="#FFFFFF"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_margin="2dp"
+            android:contentDescription="@string/content_description_list_nodes"/>
+
+        <ImageButton
+            android:id="@+id/add_button"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:src="@drawable/ic_map_add"
+            android:tint="#FFFFFF"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_margin="2dp"
+            android:contentDescription="@string/content_description_add_point"/>
+
+        <ImageButton
+            android:id="@+id/info_button"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:src="@drawable/ic_map_info"
+            android:tint="#FFFFFF"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_margin="2dp"
+            android:contentDescription="@string/content_description_info"/>
+
+        <ImageButton
+            android:id="@+id/action_button"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:src="@drawable/ic_map_aim"
+            android:tint="#FFFFFF"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_margin="2dp"
+            android:contentDescription="@string/content_description_action"/>
+
+    </LinearLayout>
+
+    <com.wikiponder.touchmap.classes.ui.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:focusable="true"
+        android:contentDescription="@string/content_description_explore_map"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="4dp"
+        android:paddingBottom="8dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:background="#102A43"
+        android:elevation="4dp">
+
+        <ImageButton
+            android:id="@+id/zoom_in_button"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:src="@drawable/ic_map_zoom_in"
+            android:tint="#FFFFFF"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_margin="2dp"
+            android:contentDescription="@string/content_description_zoom_in"/>
+
+        <ImageButton
+            android:id="@+id/zoom_out_button"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:src="@drawable/ic_map_zoom_out"
+            android:tint="#FFFFFF"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_margin="2dp"
+            android:contentDescription="@string/content_description_zoom_out"/>
+
+        <ImageButton
+            android:id="@+id/recenter_button"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:src="@drawable/ic_map_locate"
+            android:tint="#FFFFFF"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_margin="2dp"
+            android:contentDescription="@string/content_description_recenter"/>
+
+        <ImageButton
+            android:id="@+id/map_lock_button"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:src="@drawable/ic_map_compass"
+            android:tint="#FFFFFF"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_margin="2dp"
+            android:contentDescription="@string/content_description_map_lock"/>
+
+        <ImageButton
+            android:id="@+id/buttonMore"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:src="@drawable/ic_map_more"
+            android:tint="#FFFFFF"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_margin="2dp"
+            android:contentDescription="@string/content_description_more"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">सेटिंग्ज</string>
+    <string name="talkback_required_title">टॉकबॅक आवश्यक आहे</string>
+    <string name="talkback_required_message">हे अ‍ॅप टॉकबॅकसोबत काम करण्यासाठी डिझाइन केलेले आहे आणि अ‍ॅप योग्यरित्या कार्य करण्यासाठी टॉकबॅक चालू असणे आवश्यक आहे. तुमच्या परिसराचा नकाशा डाउनलोड केल्यानंतर, आजूबाजूचे रस्ते आणि ठिकाणे शोधण्यासाठी स्क्रीनवर बोट स्पर्श करून हलवा.</string>
+    <string name="talkback_required_open_settings">अ‍ॅक्सेसिबिलिटी सेटिंग्ज उघडा</string>
+
+    <string name="menu_gallery">गॅलरी</string>
+    <string name="title_activity_settings">सेटिंग्ज</string>
+    <string name="please_click_back_again_to_exit">बाहेर पडण्यासाठी कृपया पुन्हा BACK दाबा</string>
+    <string name="language_title">तुमची पसंतीची भाषा</string>
+    <string name="general_header">सामान्य सेटिंग्ज</string>
+    <string name="settings_announcement_header">घोषणा</string>
+    <string name="cancel_aiming">%1$s कडे दिशादर्शन रद्द करा</string>
+    <string name="aiming_started">%1$s कडे दिशादर्शन सुरू आहे. रद्द करण्यासाठी येथे क्लिक करा.</string>
+    <string name="cancel_search">%1$s नुसार फिल्टर करणे रद्द करा</string>
+    <string name="search_on_map_started">%1$s शी जुळणारे बिंदू फक्त दाखवले जात आहेत. रद्द करण्यासाठी येथे क्लिक करा.</string>
+    <string name="search_canceled">कीवर्ड फिल्टर रद्द केले</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">नकाशा घटक फिल्टर करा</string>
+    <string name="filter_keyword_label">कीवर्ड (सर्वांसाठी रिकामे ठेवा)</string>
+    <string name="filter_categories_label">श्रेणी</string>
+    <string name="filter_show_selected">निवडलेले दाखवा</string>
+    <string name="filter_show_favorites">आवडते दाखवा</string>
+    <string name="filter_show_all">सर्व दाखवा</string>
+    <string name="startup_download_prompt_title">येथे नकाशा डाउनलोड केलेला नाही</string>
+    <string name="startup_download_prompt_message">तुमच्या सध्याच्या स्थानासाठी अद्याप कोणताही नकाशा डाउनलोड केलेला नाही. तुमचा परिसर शोधण्यासाठी आता डाउनलोड करा.</string>
+    <string name="startup_download_prompt_download">नकाशा डाउनलोड करा</string>
+    <string name="aiming_canceled">दिशादर्शन रद्द केले</string>
+    <string name="settings_sound_header">आवाज आणि कंपन</string>
+    <string name="map_data_header">नकाशा डेटा</string>
+    <string name="delete_all_maps_title">सर्व डाउनलोड केलेले नकाशे हटवा</string>
+    <string name="delete_all_maps_summary">या डिव्हाइसवरील सर्व डाउनलोड केलेला नकाशा डेटा काढून टाकतो. स्वहस्ते जोडलेले बिंदू ठेवले जातात.</string>
+    <string name="delete_all_maps_confirm_title">सर्व डाउनलोड केलेले नकाशे हटवायचे?</string>
+    <string name="delete_all_maps_confirm_message">हे या डिव्हाइसवरील प्रत्येक डाउनलोड केलेले नकाशा क्षेत्र काढून टाकेल. ऑफलाइन वापरण्यासाठी तुम्हाला ते पुन्हा डाउनलोड करावे लागेल. स्वहस्ते जोडलेल्या बिंदूंवर याचा परिणाम होणार नाही.</string>
+    <string name="delete_all_maps_confirm_yes">हटवा</string>
+    <string name="delete_all_maps_confirm_no">रद्द करा</string>
+    <string name="delete_all_maps_done">सर्व डाउनलोड केलेले नकाशे हटवले.</string>
+    <string name="info_button_text">अचूकता: %1$d मी, वेग: %2$.1f किमी/ता</string>
+    <string name="keep_screen_on_title">स्क्रीन चालू ठेवा</string>
+    <string name="keep_screen_on_summary_on">अ‍ॅप उघडे असताना स्क्रीन लॉक होणार नाही</string>
+    <string name="keep_screen_on_summary_off">सिस्टम सेटिंग्जनुसार स्क्रीन लॉक होईल</string>
+
+    <string name="content_description_filters">फिल्टर</string>
+    <string name="content_description_search">शोधा</string>
+    <string name="content_description_list_nodes">जवळपासच्या बिंदूंची यादी</string>
+    <string name="nearby_nodes_loading_title">जवळपासचे बिंदू लोड होत आहेत…</string>
+    <string name="list_button_text">यादी</string>
+    <string name="content_description_add_point">नवीन बिंदू जोडा</string>
+    <string name="content_description_info">माहिती</string>
+    <string name="content_description_action">क्रिया</string>
+    <string name="content_description_explore_map">एक्सप्लोर करा</string>
+    <string name="content_description_zoom_in">झूम इन</string>
+    <string name="content_description_zoom_out">झूम आउट</string>
+    <string name="content_description_recenter">तुमच्या स्थानावर पुन्हा केंद्रित करा</string>
+    <string name="content_description_map_lock">नॉर्थ लॉककडे स्विच करा</string>
+    <string name="content_description_more">अधिक</string>
+    <string name="category_button_text">श्रेणी</string>
+    <string name="keyword_button_text">कीवर्ड</string>
+    <string name="refresh_button_text">रिफ्रेश करा</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">शोधा</string>
+    <string name="hint_type_or_speak">टाइप करा किंवा बोला</string>
+    <string name="content_description_mic">मायक्रोफोन</string>
+
+    <string name="tooltip_node_name">सेंट्रल पार्क</string>
+    <string name="tooltip_node_category">विरंगुळा</string>
+    <string name="tooltip_node_distance">150मी अंतरावर</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f मीटर अंतरावर</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f किलोमीटर अंतरावर</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d मीटर, %3$d च्या ठोक्याच्या दिशेने</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d मीटर</string>
+    <string name="announce_aiming_distance_and_clock">%1$d मीटर, %2$d च्या ठोक्याच्या दिशेने</string>
+    <string name="announce_aiming_clock_only">%1$d च्या ठोक्याच्या दिशेने</string>
+    <string name="announce_user_location">तुम्ही</string>
+    <string name="hint_address_input">पत्ता</string>
+    <string name="content_description_speak_address">मायक्रोफोन</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">नकाशा डाउनलोड करा</string>
+    <string name="download_button">नकाशा डाउनलोड करा</string>
+    <string name="download_cancel_button">डाउनलोड रद्द करा</string>
+    <string name="download_cancel_confirm_title">डाउनलोड रद्द करायचे?</string>
+    <string name="download_cancel_confirm_message">नकाशा आयात अजूनही सुरू आहे. तुम्हाला ते रद्द करायचे आहे याची खात्री आहे का?</string>
+    <string name="download_cancel_confirm_yes">होय, रद्द करा</string>
+    <string name="download_cancel_confirm_no">नाही, डाउनलोड सुरू ठेवा</string>
+    <string name="download_close_button">बंद करा</string>
+    <string name="download_in_progress_title">नकाशा आयात आधीच सुरू आहे.</string>
+    <string name="download_size_label">डाउनलोड आकार: %1$s</string>
+    <string name="download_size_label_multi">डाउनलोड आकार: %1$d फाइल्स, एकूण %2$s</string>
+    <string name="download_size_unknown">डाउनलोड आकार: अज्ञात</string>
+    <string name="download_already_downloaded_prefix">आधीच डाउनलोड केले आहे.</string>
+    <string name="download_larger_map_checkbox">मोठा नकाशा</string>
+    <string name="download_larger_map_hint">शेजारील भाग देखील डाउनलोड करते (आणखी काही फाइल्स असू शकतात).</string>
+    <string name="download_looking_up">या भागासाठी नकाशा डेटा शोधत आहे…</string>
+    <string name="download_no_data_here">या भागासाठी तपशीलवार नकाशा डेटा उपलब्ध नाही.</string>
+    <string name="download_area_default_name">हा भाग</string>
+    <string name="download_complete">आयात पूर्ण: %1$d घटक जोडले.</string>
+    <string name="download_failed">आयात अयशस्वी: %1$s</string>
+    <string name="menu_download_map">नकाशा डाउनलोड करा</string>
+    <string name="import_notif_title">नकाशा आयात करत आहे</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">सुरू होत आहे</string>
+    <string name="import_cancelled">आयात रद्द केले.</string>
+    <string name="import_notif_starting">%1$s ची आयात सुरू होत आहे…</string>
+    <string name="no_map_here_message">येथे तपशीलवार नकाशा नाही — डाउनलोड करण्यासाठी डबल टॅप करा.</string>
+    <string name="map_load_failed_message">येथे नकाशा लोड करता आला नाही — झूम आउट करा किंवा दूर जाऊन परत या.</string>
+    <string name="download_area_action">या भागासाठी नकाशा डाउनलोड करा</string>
+    <string name="download_radius_location_unknown">स्थान उपलब्ध नाही — नकाशा हलवा किंवा स्थान परवानगी द्या</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">नकाशा दाखवा (बीटा)</string>
+    <string name="render_map_summary_on">कमी दृष्टी असलेल्या वापरकर्त्यांसाठी नकाशा स्क्रीनवर काढला जातो. हे रेखांकन प्रायोगिक आहे आणि अजूनही सुधारत आहे.</string>
+    <string name="render_map_summary_off">नकाशा काढला जात नाही; फक्त स्पर्श आणि आवाजाद्वारे एक्सप्लोर करा.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia चालू आहे</string>
+    <string name="notif_background_text">पार्श्वभूमी सेवा सक्रिय आहे</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">शोधा</string>
+    <string name="address_search_empty_toast">कृपया पत्ता प्रविष्ट करा.</string>
+    <string name="address_search_searching">शोधत आहे…</string>
+    <string name="address_search_select_title">पत्ता निवडा</string>
+    <string name="address_search_cancelled_toast">शोध रद्द केला</string>
+    <string name="address_search_error_toast">त्रुटी: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">बिंदूचे नाव प्रविष्ट करा</string>
+    <string name="add_point_dialog_title">नवीन बिंदू जोडा</string>
+    <string name="action_save_node">बिंदू जतन करा</string>
+    <string name="action_reset_location">स्थान रीसेट करा</string>
+    <string name="toast_enter_name_required">कृपया नाव प्रविष्ट करा.</string>
+    <string name="toast_waiting_for_location">अजूनही स्थानाची वाट पाहत आहे — कृपया थोड्या वेळाने पुन्हा प्रयत्न करा.</string>
+    <string name="toast_point_added">बिंदू जोडला.</string>
+    <string name="status_getting_location">स्थान मिळवत आहे…</string>
+    <string name="status_getting_location_with_accuracy">स्थान मिळवत आहे… सर्वोत्तम अचूकता: %1$dमी.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">बिंदू संपादित करा</string>
+    <string name="action_save">जतन करा</string>
+    <string name="action_delete">हटवा</string>
+    <string name="toast_point_updated">बिंदू अद्ययावत केला.</string>
+    <string name="confirm_removal_title">काढण्याची पुष्टी करा</string>
+    <string name="confirm_removal_message">तुम्हाला हा बिंदू काढायचा आहे याची खात्री आहे का?\n%1$s</string>
+    <string name="action_remove">काढा</string>
+    <string name="toast_point_removed">बिंदू काढला.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">अ‍ॅप योग्यरित्या कार्य करण्यासाठी या परवानग्या आवश्यक आहेत.</string>
+    <string name="action_grant_permissions">परवानग्या द्या</string>
+    <string name="action_close">बंद करा</string>
+    <string name="content_description_switch_to_compass_lock">कंपास लॉककडे स्विच करा</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">बिंदूकडे दिशादर्शन करा</string>
+    <string name="action_navigate_google_maps">Google Maps मध्ये बिंदूकडे नेव्हिगेट करा</string>
+    <string name="action_zoom_to_point">बिंदूकडे झूम करा</string>
+    <string name="action_zoom_to_point_on_map">नकाशावर बिंदूकडे झूम करा</string>
+    <string name="action_remove_from_favorites">आवडींमधून काढा</string>
+    <string name="action_add_to_favorites">आवडींमध्ये जोडा</string>
+    <string name="action_details">तपशील</string>
+    <string name="toast_no_additional_details">अतिरिक्त तपशील उपलब्ध नाहीत.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">नकाशा स्थान उपलब्ध नाही.</string>
+    <string name="nearby_nodes_dialog_title">जवळपासचे बिंदू दाखवा</string>
+    <string name="nearby_nodes_dialog_message">नकाशा सध्या तुमच्या स्थानावर केंद्रित नाही, त्यामुळे \"माझ्याभोवती\" आणि \"नकाशाभोवती\" वेगवेगळे बिंदू दाखवतील. कोणते वापरायचे?</string>
+    <string name="action_around_me">माझ्याभोवती</string>
+    <string name="action_around_map_center">नकाशाच्या केंद्राभोवती</string>
+
+</resources>

@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Indstillinger</string>
+    <string name="talkback_required_title">TalkBack kræves</string>
+    <string name="talkback_required_message">Denne app er designet til at fungere med TalkBack, og TalkBack skal være slået til, for at appen fungerer korrekt. Når du har hentet kortet for dit område, skal du røre og bevæge fingeren på skærmen for at udforske gaderne og punkterne omkring dig.</string>
+    <string name="talkback_required_open_settings">Åbn tilgængelighedsindstillinger</string>
+
+    <string name="menu_gallery">Galleri</string>
+    <string name="title_activity_settings">Indstillinger</string>
+    <string name="please_click_back_again_to_exit">Klik på TILBAGE igen for at afslutte</string>
+    <string name="language_title">Dit foretrukne sprog</string>
+    <string name="general_header">Generelle indstillinger</string>
+    <string name="settings_announcement_header">Meddelelser</string>
+    <string name="cancel_aiming">Annullér sigte på %1$s</string>
+    <string name="aiming_started">Sigter på %1$s. Klik her for at annullere.</string>
+    <string name="cancel_search">Annullér filtrering efter %1$s</string>
+    <string name="search_on_map_started">Viser kun punkter, der matcher %1$s. Klik her for at annullere.</string>
+    <string name="search_canceled">Nøgleordsfilter annulleret</string>
+
+    <string name="filter_dialog_title">Filtrér kortelementer</string>
+    <string name="filter_keyword_label">Nøgleord (lad stå tomt for alle)</string>
+    <string name="filter_categories_label">Kategorier</string>
+    <string name="filter_show_selected">Vis valgte</string>
+    <string name="filter_show_favorites">Vis favoritter</string>
+    <string name="filter_show_all">Vis alle</string>
+    <string name="startup_download_prompt_title">Intet kort hentet her</string>
+    <string name="startup_download_prompt_message">Der er endnu ikke hentet noget kort til din aktuelle placering. Hent det nu for at udforske dine omgivelser.</string>
+    <string name="startup_download_prompt_download">Hent kort</string>
+    <string name="aiming_canceled">Sigtning annulleret</string>
+    <string name="settings_sound_header">Lyd og vibration</string>
+    <string name="map_data_header">Kortdata</string>
+    <string name="delete_all_maps_title">Slet alle hentede kort</string>
+    <string name="delete_all_maps_summary">Fjerner alle hentede kortdata fra denne enhed. Manuelt tilføjede punkter bevares.</string>
+    <string name="delete_all_maps_confirm_title">Slet alle hentede kort?</string>
+    <string name="delete_all_maps_confirm_message">Dette fjerner hvert hentede kortområde fra denne enhed. Du skal hente det igen for at bruge det offline. Manuelt tilføjede punkter påvirkes ikke.</string>
+    <string name="delete_all_maps_confirm_yes">Slet</string>
+    <string name="delete_all_maps_confirm_no">Annullér</string>
+    <string name="delete_all_maps_done">Alle hentede kort er slettet.</string>
+    <string name="info_button_text">Nøjagtighed: %1$d m, hastighed: %2$.1f km/t</string>
+    <string name="keep_screen_on_title">Hold skærmen tændt</string>
+    <string name="keep_screen_on_summary_on">Skærmen låser ikke, mens appen er åben</string>
+    <string name="keep_screen_on_summary_off">Skærmen låser i henhold til systemindstillingerne</string>
+
+    <string name="content_description_filters">Filtre</string>
+    <string name="content_description_search">Søg</string>
+    <string name="content_description_list_nodes">Vis liste over nærliggende punkter</string>
+    <string name="nearby_nodes_loading_title">Indlæser nærliggende punkter…</string>
+    <string name="list_button_text">Liste</string>
+    <string name="content_description_add_point">Tilføj nyt punkt</string>
+    <string name="content_description_info">Info</string>
+    <string name="content_description_action">Handling</string>
+    <string name="content_description_explore_map">Udforsk</string>
+    <string name="content_description_zoom_in">Zoom ind</string>
+    <string name="content_description_zoom_out">Zoom ud</string>
+    <string name="content_description_recenter">Centrér på din placering igen</string>
+    <string name="content_description_map_lock">Skift til nordlås</string>
+    <string name="content_description_more">Mere</string>
+    <string name="category_button_text">Kategori</string>
+    <string name="keyword_button_text">Nøgleord</string>
+    <string name="refresh_button_text">Opdatér</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">Søg</string>
+    <string name="hint_type_or_speak">Skriv eller tal</string>
+    <string name="content_description_mic">Mikrofon</string>
+
+    <string name="tooltip_node_name">Central Park</string>
+    <string name="tooltip_node_category">Fritid</string>
+    <string name="tooltip_node_distance">150 m væk</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f meter væk</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f kilometer væk</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d meter ved klokken %3$d</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d meter</string>
+    <string name="announce_aiming_distance_and_clock">%1$d meter ved klokken %2$d</string>
+    <string name="announce_aiming_clock_only">Klokken %1$d</string>
+    <string name="announce_user_location">Dig</string>
+    <string name="hint_address_input">Adresse</string>
+    <string name="content_description_speak_address">Mikrofon</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">Hent kort</string>
+    <string name="download_button">Hent kort</string>
+    <string name="download_cancel_button">Annullér download</string>
+    <string name="download_cancel_confirm_title">Annullér download?</string>
+    <string name="download_cancel_confirm_message">Kortimporten er stadig i gang. Er du sikker på, at du vil annullere den?</string>
+    <string name="download_cancel_confirm_yes">Ja, annullér</string>
+    <string name="download_cancel_confirm_no">Nej, fortsæt download</string>
+    <string name="download_close_button">Luk</string>
+    <string name="download_in_progress_title">En kortimport kører allerede.</string>
+    <string name="download_size_label">Downloadstørrelse: %1$s</string>
+    <string name="download_size_label_multi">Downloadstørrelse: %1$d filer, %2$s i alt</string>
+    <string name="download_size_unknown">Downloadstørrelse: ukendt</string>
+    <string name="download_already_downloaded_prefix">Allerede hentet.</string>
+    <string name="download_larger_map_checkbox">Større kort</string>
+    <string name="download_larger_map_hint">Henter også de omkringliggende områder (kan være flere ekstra filer).</string>
+    <string name="download_looking_up">Slår kortdata op for dette område…</string>
+    <string name="download_no_data_here">Der er ingen detaljerede kortdata tilgængelige for dette område.</string>
+    <string name="download_area_default_name">dette område</string>
+    <string name="download_complete">Import fuldført: %1$d elementer tilføjet.</string>
+    <string name="download_failed">Import mislykkedes: %1$s</string>
+    <string name="menu_download_map">Hent kort</string>
+    <string name="import_notif_title">Importerer kort</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Starter</string>
+    <string name="import_cancelled">Import annulleret.</string>
+    <string name="import_notif_starting">Starter import af %1$s…</string>
+    <string name="no_map_here_message">Intet detaljeret kort her — dobbelttryk for at hente.</string>
+    <string name="map_load_failed_message">Kunne ikke indlæse kortet her — prøv at zoome ud eller flytte væk og tilbage.</string>
+    <string name="download_area_action">Hent kort for dette område</string>
+    <string name="download_radius_location_unknown">Placering ikke tilgængelig — flyt kortet eller giv placeringstilladelse</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">Vis kortet (Beta)</string>
+    <string name="render_map_summary_on">Kortet tegnes på skærmen for svagtseende brugere. Denne tegning er eksperimentel og bliver stadig forbedret.</string>
+    <string name="render_map_summary_off">Kortet tegnes ikke; udforsk kun ved berøring og lyd.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia kører</string>
+    <string name="notif_background_text">Baggrundstjeneste aktiv</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">Søg</string>
+    <string name="address_search_empty_toast">Indtast venligst en adresse.</string>
+    <string name="address_search_searching">Søger…</string>
+    <string name="address_search_select_title">Vælg en adresse</string>
+    <string name="address_search_cancelled_toast">Søgning annulleret</string>
+    <string name="address_search_error_toast">Fejl: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">Indtast punktnavn</string>
+    <string name="add_point_dialog_title">Tilføj nyt punkt</string>
+    <string name="action_save_node">Gem punkt</string>
+    <string name="action_reset_location">Nulstil placering</string>
+    <string name="toast_enter_name_required">Indtast venligst et navn.</string>
+    <string name="toast_waiting_for_location">Venter stadig på en placering — prøv igen om et øjeblik.</string>
+    <string name="toast_point_added">Punkt tilføjet.</string>
+    <string name="status_getting_location">Henter placering…</string>
+    <string name="status_getting_location_with_accuracy">Henter placering… bedste nøjagtighed: %1$dm.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">Redigér punkt</string>
+    <string name="action_save">Gem</string>
+    <string name="action_delete">Slet</string>
+    <string name="toast_point_updated">Punkt opdateret.</string>
+    <string name="confirm_removal_title">Bekræft fjernelse</string>
+    <string name="confirm_removal_message">Er du sikker på, at du vil fjerne dette punkt?\n%1$s</string>
+    <string name="action_remove">Fjern</string>
+    <string name="toast_point_removed">Punkt fjernet.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">Disse tilladelser er nødvendige, for at appen kan fungere korrekt.</string>
+    <string name="action_grant_permissions">Giv tilladelser</string>
+    <string name="action_close">Luk</string>
+    <string name="content_description_switch_to_compass_lock">Skift til kompaslås</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">Sigt på punkt</string>
+    <string name="action_navigate_google_maps">Naviger til punkt i Google Maps</string>
+    <string name="action_zoom_to_point">Zoom til punkt</string>
+    <string name="action_zoom_to_point_on_map">Zoom til punkt på kortet</string>
+    <string name="action_remove_from_favorites">Fjern fra favoritter</string>
+    <string name="action_add_to_favorites">Føj til favoritter</string>
+    <string name="action_details">Detaljer</string>
+    <string name="toast_no_additional_details">Ingen yderligere oplysninger tilgængelige.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">Kortplacering ikke tilgængelig.</string>
+    <string name="nearby_nodes_dialog_title">Vis nærliggende punkter</string>
+    <string name="nearby_nodes_dialog_message">Kortet er ikke centreret på din placering lige nu, så \"omkring mig\" og \"omkring kortets centrum\" vil vise forskellige punkter. Hvilken skal bruges?</string>
+    <string name="action_around_me">Omkring mig</string>
+    <string name="action_around_map_center">Omkring kortets centrum</string>
+
+</resources>

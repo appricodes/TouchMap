@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">設定</string>
+    <string name="talkback_required_title">TalkBackが必要です</string>
+    <string name="talkback_required_message">このアプリはTalkBackと連携して動作するように設計されています。正しく動作させるにはTalkBackをオンにする必要があります。お住まいの地域の地図をダウンロードしたら、画面に指を触れて動かし、周囲の道路や地点を探索してください。</string>
+    <string name="talkback_required_open_settings">ユーザー補助設定を開く</string>
+
+    <string name="menu_gallery">ギャラリー</string>
+    <string name="title_activity_settings">設定</string>
+    <string name="please_click_back_again_to_exit">終了するにはもう一度「戻る」を押してください</string>
+    <string name="language_title">使用する言語</string>
+    <string name="general_header">一般設定</string>
+    <string name="settings_announcement_header">読み上げ</string>
+    <string name="cancel_aiming">%1$sへの方向指示を中止</string>
+    <string name="aiming_started">%1$sの方向を指示中です。ここをタップすると中止します。</string>
+    <string name="cancel_search">%1$sによる絞り込みを解除</string>
+    <string name="search_on_map_started">%1$sに一致する地点のみを表示しています。ここをタップすると解除します。</string>
+    <string name="search_canceled">キーワード絞り込みを解除しました</string>
+
+    <string name="filter_dialog_title">地図要素のフィルター</string>
+    <string name="filter_keyword_label">キーワード（空欄で全件）</string>
+    <string name="filter_categories_label">カテゴリー</string>
+    <string name="filter_show_selected">選択項目を表示</string>
+    <string name="filter_show_favorites">お気に入りを表示</string>
+    <string name="filter_show_all">すべて表示</string>
+    <string name="startup_download_prompt_title">この場所の地図はまだありません</string>
+    <string name="startup_download_prompt_message">現在地の地図がまだダウンロードされていません。今すぐダウンロードして周囲を探索しましょう。</string>
+    <string name="startup_download_prompt_download">地図をダウンロード</string>
+    <string name="aiming_canceled">方向指示を中止しました</string>
+    <string name="settings_sound_header">サウンドとバイブレーション</string>
+    <string name="map_data_header">地図データ</string>
+    <string name="delete_all_maps_title">ダウンロード済みの地図をすべて削除</string>
+    <string name="delete_all_maps_summary">この端末にダウンロードした地図データをすべて削除します。手動で追加した地点は保持されます。</string>
+    <string name="delete_all_maps_confirm_title">ダウンロード済みの地図をすべて削除しますか？</string>
+    <string name="delete_all_maps_confirm_message">この端末上のダウンロード済み地図エリアがすべて削除されます。オフラインで使用するには再度ダウンロードが必要です。手動で追加した地点には影響しません。</string>
+    <string name="delete_all_maps_confirm_yes">削除</string>
+    <string name="delete_all_maps_confirm_no">キャンセル</string>
+    <string name="delete_all_maps_done">ダウンロード済みの地図をすべて削除しました。</string>
+    <string name="info_button_text">精度: %1$d m、速度: %2$.1f km/h</string>
+    <string name="keep_screen_on_title">画面を常にオンにする</string>
+    <string name="keep_screen_on_summary_on">アプリを開いている間は画面がロックされません</string>
+    <string name="keep_screen_on_summary_off">システム設定に従って画面がロックされます</string>
+
+    <string name="content_description_filters">フィルター</string>
+    <string name="content_description_search">検索</string>
+    <string name="content_description_list_nodes">近くの地点を一覧表示</string>
+    <string name="nearby_nodes_loading_title">近くの地点を読み込み中…</string>
+    <string name="list_button_text">リスト</string>
+    <string name="content_description_add_point">新しい地点を追加</string>
+    <string name="content_description_info">情報</string>
+    <string name="content_description_action">アクション</string>
+    <string name="content_description_explore_map">探索</string>
+    <string name="content_description_zoom_in">ズームイン</string>
+    <string name="content_description_zoom_out">ズームアウト</string>
+    <string name="content_description_recenter">現在地に戻す</string>
+    <string name="content_description_map_lock">北固定に切り替え</string>
+    <string name="content_description_more">その他</string>
+    <string name="category_button_text">カテゴリー</string>
+    <string name="keyword_button_text">キーワード</string>
+    <string name="refresh_button_text">更新</string>
+    <string name="find_address_title">検索</string>
+    <string name="hint_type_or_speak">入力または音声入力</string>
+    <string name="content_description_mic">マイク</string>
+
+    <string name="tooltip_node_name">セントラルパーク</string>
+    <string name="tooltip_node_category">レジャー</string>
+    <string name="tooltip_node_distance">150m先</string>
+
+    <string name="announce_location_meters">%1$s、%2$.0fメートル先</string>
+    <string name="announce_location_kilometers">%1$s、%2$.1fキロメートル先</string>
+    <string name="announce_point_with_bearing">%1$s、%2$dメートル先、%3$d時の方向</string>
+    <string name="announce_point_without_bearing">%1$s、%2$dメートル先</string>
+    <string name="announce_aiming_distance_and_clock">%1$dメートル先、%2$d時の方向</string>
+    <string name="announce_aiming_clock_only">%1$d時の方向</string>
+    <string name="announce_user_location">あなた</string>
+    <string name="hint_address_input">住所</string>
+    <string name="content_description_speak_address">マイク</string>
+
+    <string name="download_map_title">地図をダウンロード</string>
+    <string name="download_button">地図をダウンロード</string>
+    <string name="download_cancel_button">ダウンロードを中止</string>
+    <string name="download_cancel_confirm_title">ダウンロードを中止しますか？</string>
+    <string name="download_cancel_confirm_message">地図のインポートはまだ進行中です。中止してもよろしいですか？</string>
+    <string name="download_cancel_confirm_yes">はい、中止する</string>
+    <string name="download_cancel_confirm_no">いいえ、続行する</string>
+    <string name="download_close_button">閉じる</string>
+    <string name="download_in_progress_title">地図のインポートが既に実行中です。</string>
+    <string name="download_size_label">ダウンロードサイズ: %1$s</string>
+    <string name="download_size_label_multi">ダウンロードサイズ: %1$dファイル、合計%2$s</string>
+    <string name="download_size_unknown">ダウンロードサイズ: 不明</string>
+    <string name="download_already_downloaded_prefix">ダウンロード済みです。</string>
+    <string name="download_larger_map_checkbox">広い範囲の地図</string>
+    <string name="download_larger_map_hint">隣接するエリアも合わせてダウンロードします（ファイル数が増える場合があります）。</string>
+    <string name="download_looking_up">このエリアの地図データを検索中…</string>
+    <string name="download_no_data_here">このエリアには詳細な地図データがありません。</string>
+    <string name="download_area_default_name">このエリア</string>
+    <string name="download_complete">インポート完了: %1$d件の要素を追加しました。</string>
+    <string name="download_failed">インポートに失敗しました: %1$s</string>
+    <string name="menu_download_map">地図をダウンロード</string>
+    <string name="import_notif_title">地図をインポート中</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">開始中</string>
+    <string name="import_cancelled">インポートを中止しました。</string>
+    <string name="import_notif_starting">%1$sのインポートを開始しています…</string>
+    <string name="no_map_here_message">ここには詳細な地図がありません — ダブルタップでダウンロードします。</string>
+    <string name="map_load_failed_message">ここでは地図を読み込めませんでした — ズームアウトするか、離れてから戻ってみてください。</string>
+    <string name="download_area_action">このエリアの地図をダウンロード</string>
+    <string name="download_radius_location_unknown">位置情報が利用できません — 地図を動かすか、位置情報の権限を許可してください</string>
+
+    <string name="render_map_title">地図を表示する（ベータ版）</string>
+    <string name="render_map_summary_on">ロービジョンの方向けに地図を画面に描画します。この描画機能は実験段階で、現在も改善中です。</string>
+    <string name="render_map_summary_off">地図は描画されません。タッチとサウンドのみで探索します。</string>
+
+    <string name="notif_background_title">Naviaが実行中です</string>
+    <string name="notif_background_text">バックグラウンドサービスが有効です</string>
+
+    <string name="action_search">検索</string>
+    <string name="address_search_empty_toast">住所を入力してください。</string>
+    <string name="address_search_searching">検索中…</string>
+    <string name="address_search_select_title">住所を選択</string>
+    <string name="address_search_cancelled_toast">検索を中止しました</string>
+    <string name="address_search_error_toast">エラー: %1$s</string>
+
+    <string name="hint_enter_point_name">地点名を入力</string>
+    <string name="add_point_dialog_title">新しい地点を追加</string>
+    <string name="action_save_node">地点を保存</string>
+    <string name="action_reset_location">位置をリセット</string>
+    <string name="toast_enter_name_required">名前を入力してください。</string>
+    <string name="toast_waiting_for_location">まだ位置情報を取得中です — しばらくしてからもう一度お試しください。</string>
+    <string name="toast_point_added">地点を追加しました。</string>
+    <string name="status_getting_location">位置情報を取得中…</string>
+    <string name="status_getting_location_with_accuracy">位置情報を取得中… 最高精度: %1$dm。</string>
+
+    <string name="action_edit_node">地点を編集</string>
+    <string name="action_save">保存</string>
+    <string name="action_delete">削除</string>
+    <string name="toast_point_updated">地点を更新しました。</string>
+    <string name="confirm_removal_title">削除の確認</string>
+    <string name="confirm_removal_message">この地点を削除してもよろしいですか？\n%1$s</string>
+    <string name="action_remove">削除</string>
+    <string name="toast_point_removed">地点を削除しました。</string>
+
+    <string name="permissions_required_message">アプリを正しく動作させるには、これらの権限が必要です。</string>
+    <string name="action_grant_permissions">権限を許可</string>
+    <string name="action_close">閉じる</string>
+    <string name="content_description_switch_to_compass_lock">コンパス固定に切り替え</string>
+
+    <string name="action_aim_at_point">地点の方向を指示</string>
+    <string name="action_navigate_google_maps">Googleマップでこの地点まで案内</string>
+    <string name="action_zoom_to_point">地点にズーム</string>
+    <string name="action_zoom_to_point_on_map">地図上で地点にズーム</string>
+    <string name="action_remove_from_favorites">お気に入りから削除</string>
+    <string name="action_add_to_favorites">お気に入りに追加</string>
+    <string name="action_details">詳細</string>
+    <string name="toast_no_additional_details">追加の詳細情報はありません。</string>
+
+    <string name="toast_map_location_unavailable">地図上の位置が利用できません。</string>
+    <string name="nearby_nodes_dialog_title">近くの地点を表示</string>
+    <string name="nearby_nodes_dialog_message">地図が現在地を中心にしていないため、「自分の周り」と「地図の中心の周り」では表示される地点が異なります。どちらを使用しますか？</string>
+    <string name="action_around_me">自分の周り</string>
+    <string name="action_around_map_center">地図の中心の周り</string>
+
+</resources>

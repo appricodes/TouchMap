@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Налаштування</string>
+    <string name="talkback_required_title">Потрібен TalkBack</string>
+    <string name="talkback_required_message">Цей додаток розроблено для роботи з TalkBack, і TalkBack має бути увімкнено, щоб додаток працював належним чином. Після завантаження карти для вашої місцевості торкніться екрана та проведіть пальцем, щоб дослідити вулиці та точки навколо вас.</string>
+    <string name="talkback_required_open_settings">Відкрити налаштування спеціальних можливостей</string>
+
+    <string name="menu_gallery">Галерея</string>
+    <string name="title_activity_settings">Налаштування</string>
+    <string name="please_click_back_again_to_exit">Натисніть НАЗАД ще раз, щоб вийти</string>
+    <string name="language_title">Ваша бажана мова</string>
+    <string name="general_header">Загальні налаштування</string>
+    <string name="settings_announcement_header">Оголошення</string>
+    <string name="cancel_aiming">Скасувати наведення на %1$s</string>
+    <string name="aiming_started">Наведення на %1$s. Торкніться тут, щоб скасувати.</string>
+    <string name="cancel_search">Скасувати фільтр за %1$s</string>
+    <string name="search_on_map_started">Показано лише точки, що відповідають %1$s. Торкніться тут, щоб скасувати.</string>
+    <string name="search_canceled">Фільтр за ключовим словом скасовано</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">Фільтрувати елементи карти</string>
+    <string name="filter_keyword_label">Ключове слово (залиште порожнім, щоб показати всі)</string>
+    <string name="filter_categories_label">Категорії</string>
+    <string name="filter_show_selected">Показати вибрані</string>
+    <string name="filter_show_favorites">Показати обрані</string>
+    <string name="filter_show_all">Показати всі</string>
+    <string name="startup_download_prompt_title">Тут немає завантаженої карти</string>
+    <string name="startup_download_prompt_message">Для вашого поточного місцезнаходження ще немає завантаженої карти. Завантажте її зараз, щоб дослідити свою місцевість.</string>
+    <string name="startup_download_prompt_download">Завантажити карту</string>
+    <string name="aiming_canceled">Наведення скасовано</string>
+    <string name="settings_sound_header">Звук і вібрація</string>
+    <string name="map_data_header">Дані карти</string>
+    <string name="delete_all_maps_title">Видалити всі завантажені карти</string>
+    <string name="delete_all_maps_summary">Видаляє всі завантажені дані карт із цього пристрою. Точки, додані вручну, зберігаються.</string>
+    <string name="delete_all_maps_confirm_title">Видалити всі завантажені карти?</string>
+    <string name="delete_all_maps_confirm_message">Це видалить усі завантажені області карти з цього пристрою. Вам потрібно буде завантажити її знову, щоб використовувати офлайн. Це не вплине на точки, додані вручну.</string>
+    <string name="delete_all_maps_confirm_yes">Видалити</string>
+    <string name="delete_all_maps_confirm_no">Скасувати</string>
+    <string name="delete_all_maps_done">Усі завантажені карти видалено.</string>
+    <string name="info_button_text">Точність: %1$d м, швидкість: %2$.1f км/год</string>
+    <string name="keep_screen_on_title">Не вимикати екран</string>
+    <string name="keep_screen_on_summary_on">Екран не блокуватиметься, поки додаток відкрито</string>
+    <string name="keep_screen_on_summary_off">Екран блокуватиметься відповідно до налаштувань системи</string>
+
+    <string name="content_description_filters">Фільтри</string>
+    <string name="content_description_search">Пошук</string>
+    <string name="content_description_list_nodes">Список точок поблизу</string>
+    <string name="nearby_nodes_loading_title">Завантаження точок поблизу…</string>
+    <string name="list_button_text">Список</string>
+    <string name="content_description_add_point">Додати нову точку</string>
+    <string name="content_description_info">Інформація</string>
+    <string name="content_description_action">Дія</string>
+    <string name="content_description_explore_map">Дослідити</string>
+    <string name="content_description_zoom_in">Збільшити</string>
+    <string name="content_description_zoom_out">Зменшити</string>
+    <string name="content_description_recenter">Повернутися до вашого місцезнаходження</string>
+    <string name="content_description_map_lock">Перейти в режим фіксації на північ</string>
+    <string name="content_description_more">Більше</string>
+    <string name="category_button_text">Категорія</string>
+    <string name="keyword_button_text">Ключове слово</string>
+    <string name="refresh_button_text">Оновити</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">Пошук</string>
+    <string name="hint_type_or_speak">Введіть текст або скажіть</string>
+    <string name="content_description_mic">Мікрофон</string>
+
+    <string name="tooltip_node_name">Центральний парк</string>
+    <string name="tooltip_node_category">Дозвілля</string>
+    <string name="tooltip_node_distance">За 150 м</string>
+
+    <string name="announce_location_meters">%1$s, за %2$.0f метрів</string>
+    <string name="announce_location_kilometers">%1$s, за %2$.1f кілометра</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d метрів, на %3$d годині</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d метрів</string>
+    <string name="announce_aiming_distance_and_clock">%1$d метрів, на %2$d годині</string>
+    <string name="announce_aiming_clock_only">На %1$d годині</string>
+    <string name="announce_user_location">Ви</string>
+    <string name="hint_address_input">Адреса</string>
+    <string name="content_description_speak_address">Мікрофон</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">Завантажити карту</string>
+    <string name="download_button">Завантажити карту</string>
+    <string name="download_cancel_button">Скасувати завантаження</string>
+    <string name="download_cancel_confirm_title">Скасувати завантаження?</string>
+    <string name="download_cancel_confirm_message">Імпорт карти ще триває. Ви справді хочете його скасувати?</string>
+    <string name="download_cancel_confirm_yes">Так, скасувати</string>
+    <string name="download_cancel_confirm_no">Ні, продовжити завантаження</string>
+    <string name="download_close_button">Закрити</string>
+    <string name="download_in_progress_title">Імпорт карти вже виконується.</string>
+    <string name="download_size_label">Розмір завантаження: %1$s</string>
+    <string name="download_size_label_multi">Розмір завантаження: %1$d файлів, разом %2$s</string>
+    <string name="download_size_unknown">Розмір завантаження: невідомо</string>
+    <string name="download_already_downloaded_prefix">Уже завантажено.</string>
+    <string name="download_larger_map_checkbox">Більша карта</string>
+    <string name="download_larger_map_hint">Також завантажує сусідні області (може бути ще кілька файлів).</string>
+    <string name="download_looking_up">Пошук даних карти для цієї області…</string>
+    <string name="download_no_data_here">Для цієї області немає докладних даних карти.</string>
+    <string name="download_area_default_name">цієї області</string>
+    <string name="download_complete">Імпорт завершено: додано %1$d елементів.</string>
+    <string name="download_failed">Помилка імпорту: %1$s</string>
+    <string name="menu_download_map">Завантажити карту</string>
+    <string name="import_notif_title">Імпорт карти</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Запуск</string>
+    <string name="import_cancelled">Імпорт скасовано.</string>
+    <string name="import_notif_starting">Починається імпорт %1$s…</string>
+    <string name="no_map_here_message">Тут немає докладної карти — двічі торкніться, щоб завантажити.</string>
+    <string name="map_load_failed_message">Не вдалося завантажити карту тут — спробуйте зменшити масштаб або відійти й повернутися.</string>
+    <string name="download_area_action">Завантажити карту для цієї області</string>
+    <string name="download_radius_location_unknown">Місцезнаходження недоступне — перемістіть карту або надайте дозвіл на визначення місцезнаходження</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">Показувати карту (бета)</string>
+    <string name="render_map_summary_on">Карта відображається на екрані для людей зі слабким зором. Це відображення експериментальне і поки вдосконалюється.</string>
+    <string name="render_map_summary_off">Карта не відображається; досліджуйте лише за допомогою дотику та звуку.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia працює</string>
+    <string name="notif_background_text">Фонова служба активна</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">Пошук</string>
+    <string name="address_search_empty_toast">Будь ласка, введіть адресу.</string>
+    <string name="address_search_searching">Пошук…</string>
+    <string name="address_search_select_title">Виберіть адресу</string>
+    <string name="address_search_cancelled_toast">Пошук скасовано</string>
+    <string name="address_search_error_toast">Помилка: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">Введіть назву точки</string>
+    <string name="add_point_dialog_title">Додати нову точку</string>
+    <string name="action_save_node">Зберегти точку</string>
+    <string name="action_reset_location">Скинути місцезнаходження</string>
+    <string name="toast_enter_name_required">Будь ласка, введіть назву.</string>
+    <string name="toast_waiting_for_location">Досі очікуємо на місцезнаходження — спробуйте ще раз за мить.</string>
+    <string name="toast_point_added">Точку додано.</string>
+    <string name="status_getting_location">Визначення місцезнаходження…</string>
+    <string name="status_getting_location_with_accuracy">Визначення місцезнаходження… найкраща точність: %1$d м.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">Редагувати точку</string>
+    <string name="action_save">Зберегти</string>
+    <string name="action_delete">Видалити</string>
+    <string name="toast_point_updated">Точку оновлено.</string>
+    <string name="confirm_removal_title">Підтвердьте видалення</string>
+    <string name="confirm_removal_message">Ви справді хочете видалити цю точку?\n%1$s</string>
+    <string name="action_remove">Видалити</string>
+    <string name="toast_point_removed">Точку видалено.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">Ці дозволи необхідні для належної роботи додатка.</string>
+    <string name="action_grant_permissions">Надати дозволи</string>
+    <string name="action_close">Закрити</string>
+    <string name="content_description_switch_to_compass_lock">Перейти в режим фіксації на компас</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">Навести на точку</string>
+    <string name="action_navigate_google_maps">Прокласти маршрут до точки в Google Maps</string>
+    <string name="action_zoom_to_point">Наблизити до точки</string>
+    <string name="action_zoom_to_point_on_map">Наблизити до точки на карті</string>
+    <string name="action_remove_from_favorites">Прибрати з обраного</string>
+    <string name="action_add_to_favorites">Додати до обраного</string>
+    <string name="action_details">Подробиці</string>
+    <string name="toast_no_additional_details">Немає додаткових відомостей.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">Місцезнаходження карти недоступне.</string>
+    <string name="nearby_nodes_dialog_title">Показати точки поблизу</string>
+    <string name="nearby_nodes_dialog_message">Карта наразі не центрована на вашому місцезнаходженні, тож \"навколо мене\" та \"навколо центру карти\" покажуть різні точки. Що використати?</string>
+    <string name="action_around_me">Навколо мене</string>
+    <string name="action_around_map_center">Навколо центру карти</string>
+
+</resources>

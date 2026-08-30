@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="talkback_required_title">TalkBack gerekli</string>
+    <string name="talkback_required_message">Bu uygulama TalkBack ile çalışacak şekilde tasarlanmıştır ve uygulamanın doğru çalışması için TalkBack\'in açık olması gerekir. Bölgenizin haritasını indirdikten sonra çevrenizdeki sokakları ve noktaları keşfetmek için ekrana dokunup parmağınızı gezdirin.</string>
+    <string name="talkback_required_open_settings">Erişilebilirlik Ayarlarını Aç</string>
+
+    <string name="menu_gallery">Galeri</string>
+    <string name="title_activity_settings">Ayarlar</string>
+    <string name="please_click_back_again_to_exit">Çıkmak için lütfen GERİ\'ye tekrar dokunun</string>
+    <string name="language_title">Tercih ettiğiniz dil</string>
+    <string name="general_header">Genel Ayarlar</string>
+    <string name="settings_announcement_header">Anonslar</string>
+    <string name="cancel_aiming">%1$s yönelmesini iptal et</string>
+    <string name="aiming_started">%1$s yönüne yöneliliyor. İptal etmek için buraya dokunun.</string>
+    <string name="cancel_search">%1$s filtresini iptal et</string>
+    <string name="search_on_map_started">Yalnızca %1$s ile eşleşen noktalar gösteriliyor. İptal etmek için buraya dokunun.</string>
+    <string name="search_canceled">Anahtar kelime filtresi iptal edildi</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">Harita Ögelerini Filtrele</string>
+    <string name="filter_keyword_label">Anahtar kelime (tümü için boş bırakın)</string>
+    <string name="filter_categories_label">Kategoriler</string>
+    <string name="filter_show_selected">Seçilenleri Göster</string>
+    <string name="filter_show_favorites">Favorileri Göster</string>
+    <string name="filter_show_all">Tümünü Göster</string>
+    <string name="startup_download_prompt_title">Burada indirilmiş harita yok</string>
+    <string name="startup_download_prompt_message">Şu anki konumunuz için henüz indirilmiş bir harita yok. Çevrenizi keşfetmek için şimdi indirin.</string>
+    <string name="startup_download_prompt_download">Haritayı indir</string>
+    <string name="aiming_canceled">Yönelme iptal edildi</string>
+    <string name="settings_sound_header">Ses ve titreşim</string>
+    <string name="map_data_header">Harita verileri</string>
+    <string name="delete_all_maps_title">İndirilen tüm haritaları sil</string>
+    <string name="delete_all_maps_summary">Bu cihazdaki tüm indirilmiş harita verilerini kaldırır. Manuel eklenen noktalar korunur.</string>
+    <string name="delete_all_maps_confirm_title">İndirilen tüm haritalar silinsin mi?</string>
+    <string name="delete_all_maps_confirm_message">Bu işlem, bu cihazdaki indirilmiş tüm harita alanlarını kaldırır. Çevrimdışı kullanmak için tekrar indirmeniz gerekir. Manuel eklenen noktalar bundan etkilenmez.</string>
+    <string name="delete_all_maps_confirm_yes">Sil</string>
+    <string name="delete_all_maps_confirm_no">İptal</string>
+    <string name="delete_all_maps_done">İndirilen tüm haritalar silindi.</string>
+    <string name="info_button_text">Doğruluk: %1$d m, hız: %2$.1f km/sa</string>
+    <string name="keep_screen_on_title">Ekranı açık tut</string>
+    <string name="keep_screen_on_summary_on">Uygulama açıkken ekran kilitlenmeyecek</string>
+    <string name="keep_screen_on_summary_off">Ekran, sistem ayarlarına göre kilitlenecek</string>
+
+    <string name="content_description_filters">Filtreler</string>
+    <string name="content_description_search">Ara</string>
+    <string name="content_description_list_nodes">Yakındaki noktaları listele</string>
+    <string name="nearby_nodes_loading_title">Yakındaki noktalar yükleniyor…</string>
+    <string name="list_button_text">Liste</string>
+    <string name="content_description_add_point">Yeni nokta ekle</string>
+    <string name="content_description_info">Bilgi</string>
+    <string name="content_description_action">Eylem</string>
+    <string name="content_description_explore_map">Keşfet</string>
+    <string name="content_description_zoom_in">Yakınlaştır</string>
+    <string name="content_description_zoom_out">Uzaklaştır</string>
+    <string name="content_description_recenter">Konumunuza yeniden ortala</string>
+    <string name="content_description_map_lock">Kuzey Kilidine geç</string>
+    <string name="content_description_more">Diğer</string>
+    <string name="category_button_text">Kategori</string>
+    <string name="keyword_button_text">Anahtar kelime</string>
+    <string name="refresh_button_text">Yenile</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">Ara</string>
+    <string name="hint_type_or_speak">Yazın veya konuşun</string>
+    <string name="content_description_mic">Mikrofon</string>
+
+    <string name="tooltip_node_name">Central Park</string>
+    <string name="tooltip_node_category">Eğlence</string>
+    <string name="tooltip_node_distance">150 m uzaklıkta</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f metre uzaklıkta</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f kilometre uzaklıkta</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d metre, saat %3$d yönünde</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d metre</string>
+    <string name="announce_aiming_distance_and_clock">%1$d metre, saat %2$d yönünde</string>
+    <string name="announce_aiming_clock_only">Saat %1$d yönünde</string>
+    <string name="announce_user_location">Siz</string>
+    <string name="hint_address_input">Adres</string>
+    <string name="content_description_speak_address">Mikrofon</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">Haritayı indir</string>
+    <string name="download_button">Haritayı indir</string>
+    <string name="download_cancel_button">İndirmeyi iptal et</string>
+    <string name="download_cancel_confirm_title">İndirme iptal edilsin mi?</string>
+    <string name="download_cancel_confirm_message">Harita içe aktarma işlemi hâlâ sürüyor. İptal etmek istediğinizden emin misiniz?</string>
+    <string name="download_cancel_confirm_yes">Evet, iptal et</string>
+    <string name="download_cancel_confirm_no">Hayır, indirmeye devam et</string>
+    <string name="download_close_button">Kapat</string>
+    <string name="download_in_progress_title">Zaten bir harita içe aktarma işlemi çalışıyor.</string>
+    <string name="download_size_label">İndirme boyutu: %1$s</string>
+    <string name="download_size_label_multi">İndirme boyutu: %1$d dosya, toplam %2$s</string>
+    <string name="download_size_unknown">İndirme boyutu: bilinmiyor</string>
+    <string name="download_already_downloaded_prefix">Zaten indirildi.</string>
+    <string name="download_larger_map_checkbox">Daha büyük harita</string>
+    <string name="download_larger_map_hint">Komşu alanları da indirir (birkaç dosya daha olabilir).</string>
+    <string name="download_looking_up">Bu alan için harita verileri aranıyor…</string>
+    <string name="download_no_data_here">Bu alan için ayrıntılı harita verisi mevcut değil.</string>
+    <string name="download_area_default_name">bu alan</string>
+    <string name="download_complete">İçe aktarma tamamlandı: %1$d öğe eklendi.</string>
+    <string name="download_failed">İçe aktarma başarısız oldu: %1$s</string>
+    <string name="menu_download_map">Haritayı indir</string>
+    <string name="import_notif_title">Harita içe aktarılıyor</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Başlatılıyor</string>
+    <string name="import_cancelled">İçe aktarma iptal edildi.</string>
+    <string name="import_notif_starting">%1$s içe aktarılıyor…</string>
+    <string name="no_map_here_message">Burada ayrıntılı harita yok — indirmek için iki kez dokunun.</string>
+    <string name="map_load_failed_message">Harita burada yüklenemedi — uzaklaştırmayı veya uzaklaşıp geri gelmeyi deneyin.</string>
+    <string name="download_area_action">Bu alanın haritasını indir</string>
+    <string name="download_radius_location_unknown">Konum kullanılamıyor — haritayı hareket ettirin veya konum izni verin</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">Haritayı göster (Beta)</string>
+    <string name="render_map_summary_on">Az gören kullanıcılar için harita ekranda çizilir. Bu çizim deneyseldir ve geliştirilmeye devam ediyor.</string>
+    <string name="render_map_summary_off">Harita çizilmez; yalnızca dokunma ve ses ile keşfedin.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia Çalışıyor</string>
+    <string name="notif_background_text">Arka plan hizmeti etkin</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">Ara</string>
+    <string name="address_search_empty_toast">Lütfen bir adres girin.</string>
+    <string name="address_search_searching">Aranıyor…</string>
+    <string name="address_search_select_title">Bir Adres Seçin</string>
+    <string name="address_search_cancelled_toast">Arama iptal edildi</string>
+    <string name="address_search_error_toast">Hata: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">Nokta adını girin</string>
+    <string name="add_point_dialog_title">Yeni nokta ekle</string>
+    <string name="action_save_node">Noktayı kaydet</string>
+    <string name="action_reset_location">Konumu sıfırla</string>
+    <string name="toast_enter_name_required">Lütfen bir ad girin.</string>
+    <string name="toast_waiting_for_location">Hâlâ konum bekleniyor — lütfen biraz sonra tekrar deneyin.</string>
+    <string name="toast_point_added">Nokta eklendi.</string>
+    <string name="status_getting_location">Konum alınıyor…</string>
+    <string name="status_getting_location_with_accuracy">Konum alınıyor… en iyi doğruluk: %1$d m.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">Noktayı Düzenle</string>
+    <string name="action_save">Kaydet</string>
+    <string name="action_delete">Sil</string>
+    <string name="toast_point_updated">Nokta güncellendi.</string>
+    <string name="confirm_removal_title">Kaldırmayı Onayla</string>
+    <string name="confirm_removal_message">Bu noktayı kaldırmak istediğinizden emin misiniz?\n%1$s</string>
+    <string name="action_remove">Kaldır</string>
+    <string name="toast_point_removed">Nokta kaldırıldı.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">Uygulamanın düzgün çalışması için bu izinler gereklidir.</string>
+    <string name="action_grant_permissions">İzin ver</string>
+    <string name="action_close">Kapat</string>
+    <string name="content_description_switch_to_compass_lock">Pusula Kilidine geç</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">Noktaya Yönel</string>
+    <string name="action_navigate_google_maps">Google Haritalar\'da noktaya git</string>
+    <string name="action_zoom_to_point">Noktaya Yakınlaştır</string>
+    <string name="action_zoom_to_point_on_map">Haritada Noktaya Yakınlaştır</string>
+    <string name="action_remove_from_favorites">Favorilerden Kaldır</string>
+    <string name="action_add_to_favorites">Favorilere Ekle</string>
+    <string name="action_details">Ayrıntılar</string>
+    <string name="toast_no_additional_details">Ek ayrıntı yok.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">Harita konumu kullanılamıyor.</string>
+    <string name="nearby_nodes_dialog_title">Yakındaki noktaları göster</string>
+    <string name="nearby_nodes_dialog_message">Harita şu anda konumunuza ortalanmış değil, bu yüzden \"çevremdekiler\" ve \"harita çevresindekiler\" farklı noktalar gösterir. Hangisi kullanılsın?</string>
+    <string name="action_around_me">Çevremdekiler</string>
+    <string name="action_around_map_center">Harita merkezi çevresindekiler</string>
+
+</resources>

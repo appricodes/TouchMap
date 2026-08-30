@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Data transfer rules for Android 12+ (API 31+). The pre-31 equivalent lives in backup_rules.xml —
+   keep the two in sync; see that file for the full reasoning behind excluding the database.
+
+   Short version: osm.db is downloaded map data that routinely runs to hundreds of MB or more. It
+   blows past the auto-backup quota (which fails the entire backup, settings included) and is
+   re-downloadable by design, so only SharedPreferences (plus the one small exception below) are
+   worth carrying across devices.
+
+   user_edits.db (see UserEditsBackupHelper) is a separate, tiny database that mirrors every node
+   the user personally created or changed — manually-added points, renames, favorites — so it is
+   carved back out of the blanket database exclusion below and backed up on its own.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="sharedpref" path="." />
+        <exclude domain="database" path="." />
+        <include domain="database" path="user_edits.db" />
+        <exclude domain="file" path="." />
+        <exclude domain="external" path="." />
+    </cloud-backup>
+    <device-transfer>
+        <!-- Direct device-to-device transfer has no 25MB cap, but moving a multi-GB map db over a
+             phone-to-phone link is far slower than simply re-downloading the one box the user
+             actually needs, so the same exclusions apply. -->
+        <include domain="sharedpref" path="." />
+        <exclude domain="database" path="." />
+        <include domain="database" path="user_edits.db" />
+        <exclude domain="file" path="." />
+        <exclude domain="external" path="." />
+    </device-transfer>
+</data-extraction-rules>

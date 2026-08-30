@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Instellings</string>
+    <string name="talkback_required_title">TalkBack vereis</string>
+    <string name="talkback_required_message">Hierdie toepassing is ontwerp om saam met TalkBack te werk, en TalkBack moet aangeskakel wees sodat die toepassing korrek werk. Nadat jy die kaart vir jou area afgelaai het, raak en beweeg jou vinger oor die skerm om die strate en punte om jou te verken.</string>
+    <string name="talkback_required_open_settings">Maak Toeganklikheidsinstellings oop</string>
+
+    <string name="menu_gallery">Galery</string>
+    <string name="title_activity_settings">Instellings</string>
+    <string name="please_click_back_again_to_exit">Klik asseblief weer TERUG om af te sluit</string>
+    <string name="language_title">Jou voorkeurtaal</string>
+    <string name="general_header">Algemene instellings</string>
+    <string name="settings_announcement_header">Aankondigings</string>
+    <string name="cancel_aiming">Kanselleer mik na %1$s</string>
+    <string name="aiming_started">Mik na %1$s. Klik hier om te kanselleer.</string>
+    <string name="cancel_search">Kanselleer filtrering volgens %1$s</string>
+    <string name="search_on_map_started">Wys slegs punte wat by %1$s pas. Klik hier om te kanselleer.</string>
+    <string name="search_canceled">Sleutelwoordfilter gekanselleer</string>
+
+    <string name="filter_dialog_title">Filtreer kaartelemente</string>
+    <string name="filter_keyword_label">Sleutelwoord (los leeg vir almal)</string>
+    <string name="filter_categories_label">Kategorieë</string>
+    <string name="filter_show_selected">Wys gekiesde</string>
+    <string name="filter_show_favorites">Wys gunstelinge</string>
+    <string name="filter_show_all">Wys almal</string>
+    <string name="startup_download_prompt_title">Geen kaart hier afgelaai nie</string>
+    <string name="startup_download_prompt_message">Daar is nog geen afgelaaide kaart vir jou huidige ligging nie. Laai dit nou af om jou omgewing te verken.</string>
+    <string name="startup_download_prompt_download">Laai kaart af</string>
+    <string name="aiming_canceled">Mik gekanselleer</string>
+    <string name="settings_sound_header">Klank en vibrasie</string>
+    <string name="map_data_header">Kaartdata</string>
+    <string name="delete_all_maps_title">Verwyder alle afgelaaide kaarte</string>
+    <string name="delete_all_maps_summary">Verwyder alle afgelaaide kaartdata van hierdie toestel. Handmatig bygevoegde punte word behou.</string>
+    <string name="delete_all_maps_confirm_title">Verwyder alle afgelaaide kaarte?</string>
+    <string name="delete_all_maps_confirm_message">Dit verwyder elke afgelaaide kaartarea van hierdie toestel. Jy sal dit weer moet aflaai om dit vanlyn te gebruik. Handmatig bygevoegde punte word nie geraak nie.</string>
+    <string name="delete_all_maps_confirm_yes">Verwyder</string>
+    <string name="delete_all_maps_confirm_no">Kanselleer</string>
+    <string name="delete_all_maps_done">Alle afgelaaide kaarte is verwyder.</string>
+    <string name="info_button_text">Akkuraatheid: %1$d m, spoed: %2$.1f km/h</string>
+    <string name="keep_screen_on_title">Hou skerm aan</string>
+    <string name="keep_screen_on_summary_on">Die skerm sal nie sluit terwyl die toepassing oop is nie</string>
+    <string name="keep_screen_on_summary_off">Die skerm sal sluit volgens stelselinstellings</string>
+
+    <string name="content_description_filters">Filters</string>
+    <string name="content_description_search">Soek</string>
+    <string name="content_description_list_nodes">Lys nabygeleë punte</string>
+    <string name="nearby_nodes_loading_title">Laai nabygeleë punte…</string>
+    <string name="list_button_text">Lys</string>
+    <string name="content_description_add_point">Voeg nuwe punt by</string>
+    <string name="content_description_info">Inligting</string>
+    <string name="content_description_action">Aksie</string>
+    <string name="content_description_explore_map">Verken</string>
+    <string name="content_description_zoom_in">Zoem in</string>
+    <string name="content_description_zoom_out">Zoem uit</string>
+    <string name="content_description_recenter">Sentreer weer na jou ligging</string>
+    <string name="content_description_map_lock">Wissel na Noordslot</string>
+    <string name="content_description_more">Meer</string>
+    <string name="category_button_text">Kategorie</string>
+    <string name="keyword_button_text">Sleutelwoord</string>
+    <string name="refresh_button_text">Verfris</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">Soek</string>
+    <string name="hint_type_or_speak">Tik of praat</string>
+    <string name="content_description_mic">Mikrofoon</string>
+
+    <string name="tooltip_node_name">Central Park</string>
+    <string name="tooltip_node_category">Ontspanning</string>
+    <string name="tooltip_node_distance">150m weg</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f meter weg</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f kilometer weg</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d meter op %3$d-uur</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d meter</string>
+    <string name="announce_aiming_distance_and_clock">%1$d meter op %2$d-uur</string>
+    <string name="announce_aiming_clock_only">%1$d-uur</string>
+    <string name="announce_user_location">Jy</string>
+    <string name="hint_address_input">Adres</string>
+    <string name="content_description_speak_address">Mikrofoon</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">Laai kaart af</string>
+    <string name="download_button">Laai kaart af</string>
+    <string name="download_cancel_button">Kanselleer aflaai</string>
+    <string name="download_cancel_confirm_title">Kanselleer aflaai?</string>
+    <string name="download_cancel_confirm_message">Die kaartinvoer is nog steeds besig. Is jy seker jy wil dit kanselleer?</string>
+    <string name="download_cancel_confirm_yes">Ja, kanselleer</string>
+    <string name="download_cancel_confirm_no">Nee, hou aan met aflaai</string>
+    <string name="download_close_button">Maak toe</string>
+    <string name="download_in_progress_title">\'n Kaartinvoer loop reeds.</string>
+    <string name="download_size_label">Aflaaigrootte: %1$s</string>
+    <string name="download_size_label_multi">Aflaaigrootte: %1$d lêers, %2$s in totaal</string>
+    <string name="download_size_unknown">Aflaaigrootte: onbekend</string>
+    <string name="download_already_downloaded_prefix">Reeds afgelaai.</string>
+    <string name="download_larger_map_checkbox">Groter kaart</string>
+    <string name="download_larger_map_hint">Laai ook die aangrensende areas af (kan verskeie ekstra lêers wees).</string>
+    <string name="download_looking_up">Soek kaartdata vir hierdie area op…</string>
+    <string name="download_no_data_here">Daar is geen gedetailleerde kaartdata vir hierdie area beskikbaar nie.</string>
+    <string name="download_area_default_name">hierdie area</string>
+    <string name="download_complete">Invoer voltooi: %1$d kenmerke bygevoeg.</string>
+    <string name="download_failed">Invoer het misluk: %1$s</string>
+    <string name="menu_download_map">Laai kaart af</string>
+    <string name="import_notif_title">Kaart word ingevoer</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Begin</string>
+    <string name="import_cancelled">Invoer gekanselleer.</string>
+    <string name="import_notif_starting">Begin invoer van %1$s…</string>
+    <string name="no_map_here_message">Geen gedetailleerde kaart hier nie — dubbeltik om af te laai.</string>
+    <string name="map_load_failed_message">Kon nie die kaart hier laai nie — probeer uitzoem of beweeg weg en terug.</string>
+    <string name="download_area_action">Laai kaart vir hierdie area af</string>
+    <string name="download_radius_location_unknown">Ligging nie beskikbaar nie — beweeg die kaart of gee liggingtoestemming</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">Wys die kaart (Beta)</string>
+    <string name="render_map_summary_on">Die kaart word op die skerm geteken vir gebruikers met lae visie. Hierdie tekening is eksperimenteel en word steeds verbeter.</string>
+    <string name="render_map_summary_off">Die kaart word nie geteken nie; verken slegs deur aanraking en klank.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia loop</string>
+    <string name="notif_background_text">Agtergronddiens aktief</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">Soek</string>
+    <string name="address_search_empty_toast">Voer asseblief \'n adres in.</string>
+    <string name="address_search_searching">Soek tans…</string>
+    <string name="address_search_select_title">Kies \'n adres</string>
+    <string name="address_search_cancelled_toast">Soektog gekanselleer</string>
+    <string name="address_search_error_toast">Fout: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">Voer punt se naam in</string>
+    <string name="add_point_dialog_title">Voeg nuwe punt by</string>
+    <string name="action_save_node">Stoor punt</string>
+    <string name="action_reset_location">Stel ligging terug</string>
+    <string name="toast_enter_name_required">Voer asseblief \'n naam in.</string>
+    <string name="toast_waiting_for_location">Wag steeds vir \'n ligging — probeer asseblief oor \'n oomblik weer.</string>
+    <string name="toast_point_added">Punt bygevoeg.</string>
+    <string name="status_getting_location">Kry tans ligging…</string>
+    <string name="status_getting_location_with_accuracy">Kry tans ligging… beste akkuraatheid: %1$dm.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">Wysig punt</string>
+    <string name="action_save">Stoor</string>
+    <string name="action_delete">Verwyder</string>
+    <string name="toast_point_updated">Punt opgedateer.</string>
+    <string name="confirm_removal_title">Bevestig verwydering</string>
+    <string name="confirm_removal_message">Is jy seker jy wil hierdie punt verwyder?\n%1$s</string>
+    <string name="action_remove">Verwyder</string>
+    <string name="toast_point_removed">Punt verwyder.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">Hierdie toestemmings is nodig sodat die toepassing behoorlik kan werk.</string>
+    <string name="action_grant_permissions">Verleen toestemmings</string>
+    <string name="action_close">Maak toe</string>
+    <string name="content_description_switch_to_compass_lock">Wissel na Kompasslot</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">Mik na punt</string>
+    <string name="action_navigate_google_maps">Navigeer na punt in Google Maps</string>
+    <string name="action_zoom_to_point">Zoem na punt</string>
+    <string name="action_zoom_to_point_on_map">Zoem na punt op kaart</string>
+    <string name="action_remove_from_favorites">Verwyder van gunstelinge</string>
+    <string name="action_add_to_favorites">Voeg by gunstelinge</string>
+    <string name="action_details">Besonderhede</string>
+    <string name="toast_no_additional_details">Geen bykomende besonderhede beskikbaar nie.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">Kaartligging nie beskikbaar nie.</string>
+    <string name="nearby_nodes_dialog_title">Wys nabygeleë punte</string>
+    <string name="nearby_nodes_dialog_message">Die kaart is nie tans op jou ligging gesentreer nie, so \"om my\" en \"om die kaart\" sal verskillende punte wys. Watter een moet gebruik word?</string>
+    <string name="action_around_me">Om my</string>
+    <string name="action_around_map_center">Om kaartmiddelpunt</string>
+
+</resources>

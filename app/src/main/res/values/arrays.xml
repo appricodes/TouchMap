@@ -1,0 +1,64 @@
+<resources>
+    <string-array name="address_format_entries">
+        <item>Automatic (based on region)</item>
+        <item>House number, Street name (e.g., 123 Main St)</item>
+        <item>Street name, House number (e.g., Main St 123)</item>
+    </string-array>
+
+    <string-array name="address_format_values">
+        <item>auto</item>
+        <item>number_first</item>
+        <item>street_first</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Slower</item>
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>Faster</item>
+    </string-array>
+
+    <string-array name="tts_rate_values">
+        <item>0.75</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+        <item>2.8</item>
+    </string-array>
+
+    <!-- Sound effects volume options -->
+    <string-array name="pref_sound_volume_entries">
+        <item>Off</item>
+        <item>25% of speech volume</item>
+        <item>50% of speech volume</item>
+        <item>75% of speech volume</item>
+        <item>100% of speech volume</item>
+    </string-array>
+
+    <string-array name="pref_sound_volume_values">
+        <item>0</item>
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>0.75</item>
+        <item>1</item>
+    </string-array>
+
+    <!-- Vibration intensity options -->
+    <string-array name="pref_vibration_entries">
+        <item>Off</item>
+        <item>Very light</item>
+        <item>Light</item>
+        <item>Medium</item>
+        <item>Strong</item>
+        <item>Very strong</item>
+    </string-array>
+
+    <string-array name="pref_vibration_values">
+        <item>0</item>
+        <item>0.15</item>
+        <item>0.3</item>
+        <item>0.5</item>
+        <item>0.75</item>
+        <item>1</item>
+    </string-array>
+</resources>

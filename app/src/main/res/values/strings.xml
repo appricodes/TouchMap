@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Settings</string>
+    <string name="talkback_required_title">TalkBack required</string>
+    <string name="talkback_required_message">This app is designed to work with TalkBack, and TalkBack must be turned on for the app to work correctly. After downloading the map for your area, touch and move your finger on the screen to explore the streets and points around you.</string>
+    <string name="talkback_required_open_settings">Open Accessibility Settings</string>
+
+    <string name="menu_gallery">Gallery</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="please_click_back_again_to_exit">Please click BACK again to exit</string>
+    <string name="language_title">Your preferred language</string>
+    <string name="general_header">General Settings</string>
+    <string name="settings_announcement_header">Announcements</string>
+    <string name="cancel_aiming">Cancel aiming %1$s</string>
+    <string name="aiming_started">Aiming %1$s. Click here to cancel.</string>
+    <string name="cancel_search">Cancel filtering by %1$s</string>
+    <string name="search_on_map_started">Showing only points matching %1$s. Click here to cancel.</string>
+    <string name="search_canceled">Keyword filter canceled</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">Filter Map Elements</string>
+    <string name="filter_keyword_label">Keyword (leave empty for all)</string>
+    <string name="filter_categories_label">Categories</string>
+    <string name="filter_show_selected">Show Selected</string>
+    <string name="filter_show_favorites">Show Favorites</string>
+    <string name="filter_show_all">Show All</string>
+    <string name="startup_download_prompt_title">No map downloaded here</string>
+    <string name="startup_download_prompt_message">There is no downloaded map for your current location yet. Download it now to explore your surroundings.</string>
+    <string name="startup_download_prompt_download">Download map</string>
+    <string name="aiming_canceled">Aiming canceled</string>
+    <string name="settings_sound_header">Sound and vibration</string>
+    <string name="map_data_header">Map data</string>
+    <string name="delete_all_maps_title">Delete all downloaded maps</string>
+    <string name="delete_all_maps_summary">Removes all downloaded map data from this device. Manually-added points are kept.</string>
+    <string name="delete_all_maps_confirm_title">Delete all downloaded maps?</string>
+    <string name="delete_all_maps_confirm_message">This removes every downloaded map area from this device. You will need to download it again to use it offline. Manually-added points are not affected.</string>
+    <string name="delete_all_maps_confirm_yes">Delete</string>
+    <string name="delete_all_maps_confirm_no">Cancel</string>
+    <string name="delete_all_maps_done">All downloaded maps deleted.</string>
+    <string name="info_button_text">Accuracy: %1$d m, speed: %2$.1f km/h</string>
+    <string name="keep_screen_on_title">Keep screen on</string>
+    <string name="keep_screen_on_summary_on">The screen will not lock while the app is open</string>
+    <string name="keep_screen_on_summary_off">The screen will lock based on system settings</string>
+
+    <string name="content_description_filters">Filters</string>
+    <string name="content_description_search">Search</string>
+    <string name="content_description_list_nodes">List nearby nodes</string>
+    <string name="nearby_nodes_loading_title">Loading nearby nodes…</string>
+    <string name="list_button_text">List</string>
+    <string name="content_description_add_point">Add new point</string>
+    <string name="content_description_info">Info</string>
+    <string name="content_description_action">Action</string>
+    <string name="content_description_explore_map">Explore</string>
+    <string name="content_description_zoom_in">Zoom in</string>
+    <string name="content_description_zoom_out">Zoom out</string>
+    <string name="content_description_recenter">Recenter to your location</string>
+    <string name="content_description_map_lock">Switch to North Lock</string>
+    <string name="content_description_more">More</string>
+    <string name="category_button_text">Category</string>
+    <string name="keyword_button_text">Keyword</string>
+    <string name="refresh_button_text">Refresh</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">Search</string>
+    <string name="hint_type_or_speak">Type or speak</string>
+    <string name="content_description_mic">Mic</string>
+
+    <string name="tooltip_node_name">Central Park</string>
+    <string name="tooltip_node_category">Leisure</string>
+    <string name="tooltip_node_distance">150m away</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f meters away</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f kilometers away</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d meters at %3$d o\'clock</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d meters</string>
+    <string name="announce_aiming_distance_and_clock">%1$d meters at %2$d o\'clock</string>
+    <string name="announce_aiming_clock_only">%1$d o\'clock</string>
+    <string name="announce_user_location">You</string>
+    <string name="hint_address_input">Address</string>
+    <string name="content_description_speak_address">Microphone</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">Download map</string>
+    <string name="download_button">Download map</string>
+    <string name="download_cancel_button">Cancel download</string>
+    <string name="download_cancel_confirm_title">Cancel download?</string>
+    <string name="download_cancel_confirm_message">The map import is still in progress. Are you sure you want to cancel it?</string>
+    <string name="download_cancel_confirm_yes">Yes, cancel</string>
+    <string name="download_cancel_confirm_no">No, keep downloading</string>
+    <string name="download_close_button">Close</string>
+    <string name="download_in_progress_title">A map import is already running.</string>
+    <string name="download_size_label">Download size: %1$s</string>
+    <string name="download_size_label_multi">Download size: %1$d files, %2$s total</string>
+    <string name="download_size_unknown">Download size: unknown</string>
+    <string name="download_already_downloaded_prefix">Already downloaded.</string>
+    <string name="download_larger_map_checkbox">Larger map</string>
+    <string name="download_larger_map_hint">Also downloads the neighboring areas (may be several more files).</string>
+    <string name="download_looking_up">Looking up map data for this area…</string>
+    <string name="download_no_data_here">There is no detailed map data available for this area.</string>
+    <string name="download_area_default_name">this area</string>
+    <string name="download_complete">Import complete: %1$d features added.</string>
+    <string name="download_failed">Import failed: %1$s</string>
+    <string name="menu_download_map">Download map</string>
+    <!-- Download progress dialog (MapActivity's ImportProgressDialog) — text for BoxImporter's
+         per-phase updates. Always named "area X of Y", even when downloading just one area
+         (X=Y=1), so the wording never needs to switch between a single-area and multi-area form. -->
+    <string name="download_progress_connecting">Connecting… (area %1$d of %2$d)</string>
+    <string name="download_progress_downloading">Downloading area %1$d of %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Extracting area %1$d of %2$d…</string>
+    <string name="download_progress_saving">Saving area %1$d of %2$d — %3$s…</string>
+    <string name="import_notif_title">Importing map</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Starting</string>
+    <string name="import_cancelled">Import cancelled.</string>
+    <string name="import_notif_starting">Starting import of %1$s…</string>
+    <string name="no_map_here_message">No detailed map here — double tap to download.</string>
+    <string name="map_load_failed_message">Could not load the map here — try zooming out or moving away and back.</string>
+    <string name="download_area_action">Download map for this area</string>
+    <string name="download_radius_location_unknown">Location unavailable — move the map or grant location permission</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">Show the map (Beta)</string>
+    <string name="render_map_summary_on">The map is drawn on screen for low-vision users. This drawing is experimental and still improving.</string>
+    <string name="render_map_summary_off">The map is not drawn; explore by touch and sound only.</string>
+
+    <!-- Credits screen (CreditsActivity), reachable from the More menu -->
+    <string name="menu_credits">Credits</string>
+    <string name="credits_title">Credits</string>
+    <string name="credits_intro">Navia is built on the following open data and open-source projects.</string>
+    <string name="credits_osm_heading">OpenStreetMap</string>
+    <string name="credits_osm_body">Map data © OpenStreetMap contributors, available under the Open Database License (ODbL). See openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_heading">GeoNames</string>
+    <string name="credits_geonames_body">Place names shown before a detailed map has been downloaded come from the GeoNames geographical database, licensed under Creative Commons Attribution 4.0. See geonames.org.</string>
+    <string name="credits_geofabrik_heading">Geofabrik</string>
+    <string name="credits_geofabrik_body">Regional OpenStreetMap extracts used to build this app\'s downloadable map data. See geofabrik.de.</string>
+    <string name="credits_msgpack_heading">MessagePack for Java</string>
+    <string name="credits_msgpack_body">Binary data serialization, licensed under the Apache License 2.0. See msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX &amp; Material Components</string>
+    <string name="credits_androidx_body">Core Android app framework and UI components from Google, licensed under the Apache License 2.0.</string>
+    <string name="credits_play_services_heading">Google Play services — Location</string>
+    <string name="credits_play_services_body">Device location services, from Google.</string>
+    <string name="credits_firebase_heading">Firebase Crashlytics</string>
+    <string name="credits_firebase_body">Crash reporting, from Google, so problems can be found and fixed.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia Running</string>
+    <!-- Currently unused (the content-text line is commented out in BackgroundService), kept as a
+         resource anyway so it is ready and translated if that line is ever re-enabled. -->
+    <string name="notif_background_text">Background service active</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">Search</string>
+    <string name="address_search_empty_toast">Please enter an address.</string>
+    <string name="address_search_searching">Searching…</string>
+    <string name="address_search_select_title">Select an Address</string>
+    <string name="address_search_cancelled_toast">Search cancelled</string>
+    <string name="address_search_error_toast">Error: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">Enter point name</string>
+    <string name="add_point_dialog_title">Add new point</string>
+    <string name="action_save_node">Save node</string>
+    <string name="action_reset_location">Reset location</string>
+    <string name="toast_enter_name_required">Please enter a name.</string>
+    <string name="toast_waiting_for_location">Still waiting for a location — please try again in a moment.</string>
+    <string name="toast_point_added">Point added.</string>
+    <string name="status_getting_location">Getting location…</string>
+    <string name="status_getting_location_with_accuracy">Getting location… best accuracy: %1$dm.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">Edit Node</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="toast_point_updated">Point updated.</string>
+    <string name="confirm_removal_title">Confirm Removal</string>
+    <string name="confirm_removal_message">Are you sure you want to remove this point?\n%1$s</string>
+    <string name="action_remove">Remove</string>
+    <string name="toast_point_removed">Point removed.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">These permissions are necessary for the app to work properly.</string>
+    <string name="action_grant_permissions">Grant permissions</string>
+    <string name="action_close">Close</string>
+    <!-- The map-lock button's content description toggles between this and content_description_map_lock
+         (already "Switch to North Lock") depending on lock state. -->
+    <string name="content_description_switch_to_compass_lock">Switch to Compass Lock</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">Aim at Point</string>
+    <string name="action_navigate_google_maps">Navigate to point in Google Maps</string>
+    <string name="action_zoom_to_point">Zoom to Point</string>
+    <string name="action_zoom_to_point_on_map">Zoom to Point on Map</string>
+    <string name="action_remove_from_favorites">Remove from Favorites</string>
+    <string name="action_add_to_favorites">Add to Favorites</string>
+    <string name="action_details">Details</string>
+    <string name="toast_no_additional_details">No additional details available.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">Map location unavailable.</string>
+    <string name="nearby_nodes_dialog_title">Show nearby nodes</string>
+    <string name="nearby_nodes_dialog_message">The map isn\'t currently centered on your location, so \"around me\" and \"around the map\" would show different points. Which should be used?</string>
+    <string name="action_around_me">Around me</string>
+    <string name="action_around_map_center">Around map center</string>
+
+</resources>

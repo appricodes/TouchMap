@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.wikiponder.touchmap">
+
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- ACCESS_BACKGROUND_LOCATION is deliberately NOT declared. Nothing in the app ever requests it
+         at runtime (it was declared but unused), while declaring it triggers Google Play's background-
+         location review — a separate approval process requiring a demo video and written justification.
+         Location while the app is not in the foreground is served by BackgroundService, a
+         foregroundServiceType="location" service, which only needs ACCESS_FINE_LOCATION. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+    </queries>
+
+    <application
+        android:name="com.wikiponder.touchmap.MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AICam"
+        tools:targetApi="31">
+        <activity
+            android:name="com.wikiponder.touchmap.MapActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AICam.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="com.wikiponder.touchmap.NodeListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.wikiponder.touchmap.SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name="com.wikiponder.touchmap.CreditsActivity"
+            android:exported="false"
+            android:label="@string/credits_title" />
+        <activity
+            android:name="com.wikiponder.touchmap.DownloadMapActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:label="@string/download_map_title" />
+        <service
+            android:name=".BackgroundService"
+            android:enabled="true"
+            android:foregroundServiceType="location"
+            android:exported="false" />
+        <service
+            android:name=".classes.importer.ImportService"
+            android:enabled="true"
+            android:foregroundServiceType="dataSync"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

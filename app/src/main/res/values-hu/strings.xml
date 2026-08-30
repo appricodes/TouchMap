@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Beállítások</string>
+    <string name="talkback_required_title">TalkBack szükséges</string>
+    <string name="talkback_required_message">Ez az alkalmazás a TalkBackkel való használatra készült, és a megfelelő működéshez be kell kapcsolni a TalkBacket. Miután letöltötted a térképet a saját területedre, érintsd meg és mozgasd az ujjadat a képernyőn, hogy felfedezd a környéken lévő utcákat és pontokat.</string>
+    <string name="talkback_required_open_settings">Kisegítő lehetőségek megnyitása</string>
+
+    <string name="menu_gallery">Galéria</string>
+    <string name="title_activity_settings">Beállítások</string>
+    <string name="please_click_back_again_to_exit">A kilépéshez nyomd meg újra a VISSZA gombot</string>
+    <string name="language_title">Az általad preferált nyelv</string>
+    <string name="general_header">Általános beállítások</string>
+    <string name="settings_announcement_header">Bejelentések</string>
+    <string name="cancel_aiming">%1$s felé irányzás megszakítása</string>
+    <string name="aiming_started">Irányzás: %1$s. Koppints ide a megszakításhoz.</string>
+    <string name="cancel_search">Szűrés megszakítása erre: %1$s</string>
+    <string name="search_on_map_started">Csak a(z) %1$s kifejezésnek megfelelő pontok jelennek meg. Koppints ide a megszakításhoz.</string>
+    <string name="search_canceled">Kulcsszavas szűrés megszakítva</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">Térképelemek szűrése</string>
+    <string name="filter_keyword_label">Kulcsszó (hagyd üresen az összeshez)</string>
+    <string name="filter_categories_label">Kategóriák</string>
+    <string name="filter_show_selected">Kiválasztottak megjelenítése</string>
+    <string name="filter_show_favorites">Kedvencek megjelenítése</string>
+    <string name="filter_show_all">Összes megjelenítése</string>
+    <string name="startup_download_prompt_title">Itt nincs letöltött térkép</string>
+    <string name="startup_download_prompt_message">A jelenlegi helyszínedhez még nincs letöltött térkép. Töltsd le most, hogy felfedezhesd a környezetedet.</string>
+    <string name="startup_download_prompt_download">Térkép letöltése</string>
+    <string name="aiming_canceled">Irányzás megszakítva</string>
+    <string name="settings_sound_header">Hang és rezgés</string>
+    <string name="map_data_header">Térképadatok</string>
+    <string name="delete_all_maps_title">Az összes letöltött térkép törlése</string>
+    <string name="delete_all_maps_summary">Eltávolítja az összes letöltött térképadatot erről az eszközről. A manuálisan hozzáadott pontok megmaradnak.</string>
+    <string name="delete_all_maps_confirm_title">Törlöd az összes letöltött térképet?</string>
+    <string name="delete_all_maps_confirm_message">Ez eltávolít minden letöltött térképterületet erről az eszközről. Az offline használathoz újra le kell majd töltened. A manuálisan hozzáadott pontokat ez nem érinti.</string>
+    <string name="delete_all_maps_confirm_yes">Törlés</string>
+    <string name="delete_all_maps_confirm_no">Mégse</string>
+    <string name="delete_all_maps_done">Az összes letöltött térkép törölve.</string>
+    <string name="info_button_text">Pontosság: %1$d m, sebesség: %2$.1f km/h</string>
+    <string name="keep_screen_on_title">Képernyő ébren tartása</string>
+    <string name="keep_screen_on_summary_on">A képernyő nem zárolódik, amíg az alkalmazás nyitva van</string>
+    <string name="keep_screen_on_summary_off">A képernyő a rendszerbeállítások szerint zárolódik</string>
+
+    <string name="content_description_filters">Szűrők</string>
+    <string name="content_description_search">Keresés</string>
+    <string name="content_description_list_nodes">Közeli pontok listázása</string>
+    <string name="nearby_nodes_loading_title">Közeli pontok betöltése…</string>
+    <string name="list_button_text">Lista</string>
+    <string name="content_description_add_point">Új pont hozzáadása</string>
+    <string name="content_description_info">Információ</string>
+    <string name="content_description_action">Művelet</string>
+    <string name="content_description_explore_map">Felfedezés</string>
+    <string name="content_description_zoom_in">Nagyítás</string>
+    <string name="content_description_zoom_out">Kicsinyítés</string>
+    <string name="content_description_recenter">Visszaközpontozás a helyszínedre</string>
+    <string name="content_description_map_lock">Váltás északi zárolásra</string>
+    <string name="content_description_more">Több</string>
+    <string name="category_button_text">Kategória</string>
+    <string name="keyword_button_text">Kulcsszó</string>
+    <string name="refresh_button_text">Frissítés</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">Keresés</string>
+    <string name="hint_type_or_speak">Gépelj vagy beszélj</string>
+    <string name="content_description_mic">Mikrofon</string>
+
+    <string name="tooltip_node_name">Central Park</string>
+    <string name="tooltip_node_category">Szabadidő</string>
+    <string name="tooltip_node_distance">150 m távolságra</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f méterre</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f kilométerre</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d méter, %3$d óra irányban</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d méter</string>
+    <string name="announce_aiming_distance_and_clock">%1$d méter, %2$d óra irányban</string>
+    <string name="announce_aiming_clock_only">%1$d óra irányban</string>
+    <string name="announce_user_location">Te</string>
+    <string name="hint_address_input">Cím</string>
+    <string name="content_description_speak_address">Mikrofon</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">Térkép letöltése</string>
+    <string name="download_button">Térkép letöltése</string>
+    <string name="download_cancel_button">Letöltés megszakítása</string>
+    <string name="download_cancel_confirm_title">Megszakítod a letöltést?</string>
+    <string name="download_cancel_confirm_message">A térkép importálása még folyamatban van. Biztosan meg szeretnéd szakítani?</string>
+    <string name="download_cancel_confirm_yes">Igen, megszakítás</string>
+    <string name="download_cancel_confirm_no">Nem, folytatás</string>
+    <string name="download_close_button">Bezárás</string>
+    <string name="download_in_progress_title">Már fut egy térképimportálás.</string>
+    <string name="download_size_label">Letöltés mérete: %1$s</string>
+    <string name="download_size_label_multi">Letöltés mérete: %1$d fájl, összesen %2$s</string>
+    <string name="download_size_unknown">Letöltés mérete: ismeretlen</string>
+    <string name="download_already_downloaded_prefix">Már letöltve.</string>
+    <string name="download_larger_map_checkbox">Nagyobb térkép</string>
+    <string name="download_larger_map_hint">A szomszédos területeket is letölti (ez több további fájlt jelenthet).</string>
+    <string name="download_looking_up">Térképadatok keresése ehhez a területhez…</string>
+    <string name="download_no_data_here">Ehhez a területhez nem érhető el részletes térképadat.</string>
+    <string name="download_area_default_name">ez a terület</string>
+    <string name="download_complete">Importálás kész: %1$d elem hozzáadva.</string>
+    <string name="download_failed">Importálás sikertelen: %1$s</string>
+    <string name="menu_download_map">Térkép letöltése</string>
+    <string name="import_notif_title">Térkép importálása</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Indítás</string>
+    <string name="import_cancelled">Importálás megszakítva.</string>
+    <string name="import_notif_starting">%1$s importálásának indítása…</string>
+    <string name="no_map_here_message">Itt nincs részletes térkép — koppints duplán a letöltéshez.</string>
+    <string name="map_load_failed_message">Nem sikerült betölteni itt a térképet — próbálj kicsinyíteni, vagy távolodj el és térj vissza.</string>
+    <string name="download_area_action">Térkép letöltése ehhez a területhez</string>
+    <string name="download_radius_location_unknown">A helyszín nem érhető el — mozgasd a térképet, vagy adj helymeghatározási engedélyt</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">Térkép megjelenítése (Béta)</string>
+    <string name="render_map_summary_on">A térkép a képernyőn jelenik meg gyengénlátó felhasználók számára. Ez a megjelenítés kísérleti és folyamatosan fejlesztjük.</string>
+    <string name="render_map_summary_off">A térkép nem jelenik meg; kizárólag érintéssel és hanggal fedezheted fel.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">A Navia fut</string>
+    <string name="notif_background_text">Háttérszolgáltatás aktív</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">Keresés</string>
+    <string name="address_search_empty_toast">Adj meg egy címet.</string>
+    <string name="address_search_searching">Keresés…</string>
+    <string name="address_search_select_title">Cím kiválasztása</string>
+    <string name="address_search_cancelled_toast">Keresés megszakítva</string>
+    <string name="address_search_error_toast">Hiba: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">Add meg a pont nevét</string>
+    <string name="add_point_dialog_title">Új pont hozzáadása</string>
+    <string name="action_save_node">Pont mentése</string>
+    <string name="action_reset_location">Helyszín visszaállítása</string>
+    <string name="toast_enter_name_required">Adj meg egy nevet.</string>
+    <string name="toast_waiting_for_location">Még várunk a helyszínre — próbáld meg pár pillanat múlva újra.</string>
+    <string name="toast_point_added">Pont hozzáadva.</string>
+    <string name="status_getting_location">Helyszín meghatározása…</string>
+    <string name="status_getting_location_with_accuracy">Helyszín meghatározása… legjobb pontosság: %1$d m.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">Pont szerkesztése</string>
+    <string name="action_save">Mentés</string>
+    <string name="action_delete">Törlés</string>
+    <string name="toast_point_updated">Pont frissítve.</string>
+    <string name="confirm_removal_title">Eltávolítás megerősítése</string>
+    <string name="confirm_removal_message">Biztosan eltávolítod ezt a pontot?\n%1$s</string>
+    <string name="action_remove">Eltávolítás</string>
+    <string name="toast_point_removed">Pont eltávolítva.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">Ezek az engedélyek szükségesek ahhoz, hogy az alkalmazás megfelelően működjön.</string>
+    <string name="action_grant_permissions">Engedélyek megadása</string>
+    <string name="action_close">Bezárás</string>
+    <string name="content_description_switch_to_compass_lock">Váltás iránytű-zárolásra</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">Pont irányzása</string>
+    <string name="action_navigate_google_maps">Navigálás a ponthoz a Google Térképen</string>
+    <string name="action_zoom_to_point">Nagyítás a pontra</string>
+    <string name="action_zoom_to_point_on_map">Nagyítás a pontra a térképen</string>
+    <string name="action_remove_from_favorites">Eltávolítás a kedvencekből</string>
+    <string name="action_add_to_favorites">Hozzáadás a kedvencekhez</string>
+    <string name="action_details">Részletek</string>
+    <string name="toast_no_additional_details">Nincs több elérhető részlet.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">A térkép helyszíne nem érhető el.</string>
+    <string name="nearby_nodes_dialog_title">Közeli pontok megjelenítése</string>
+    <string name="nearby_nodes_dialog_message">A térkép jelenleg nincs a helyszíned köré központosítva, ezért a \"körülöttem\" és a \"a térkép középpontja körül\" különböző pontokat mutatna. Melyiket használjuk?</string>
+    <string name="action_around_me">Körülöttem</string>
+    <string name="action_around_map_center">A térkép középpontja körül</string>
+
+</resources>

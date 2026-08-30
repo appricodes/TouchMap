@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Navia</string>
+    <string name="action_settings">Tetapan</string>
+    <string name="talkback_required_title">TalkBack diperlukan</string>
+    <string name="talkback_required_message">Aplikasi ini direka untuk berfungsi dengan TalkBack, dan TalkBack mesti dihidupkan supaya aplikasi berfungsi dengan betul. Selepas memuat turun peta untuk kawasan anda, sentuh dan gerakkan jari anda pada skrin untuk meneroka jalan dan titik di sekeliling anda.</string>
+    <string name="talkback_required_open_settings">Buka Tetapan Kebolehcapaian</string>
+
+    <string name="menu_gallery">Galeri</string>
+    <string name="title_activity_settings">Tetapan</string>
+    <string name="please_click_back_again_to_exit">Sila tekan KEMBALI sekali lagi untuk keluar</string>
+    <string name="language_title">Bahasa pilihan anda</string>
+    <string name="general_header">Tetapan Am</string>
+    <string name="settings_announcement_header">Pengumuman</string>
+    <string name="cancel_aiming">Batalkan pengacuan ke arah %1$s</string>
+    <string name="aiming_started">Mengacu ke arah %1$s. Sentuh di sini untuk membatalkan.</string>
+    <string name="cancel_search">Batalkan penapisan mengikut %1$s</string>
+    <string name="search_on_map_started">Hanya menunjukkan titik yang sepadan dengan %1$s. Sentuh di sini untuk membatalkan.</string>
+    <string name="search_canceled">Penapis kata kunci dibatalkan</string>
+
+    <!-- Filter dialog -->
+    <string name="filter_dialog_title">Tapis Elemen Peta</string>
+    <string name="filter_keyword_label">Kata kunci (biarkan kosong untuk semua)</string>
+    <string name="filter_categories_label">Kategori</string>
+    <string name="filter_show_selected">Tunjukkan Yang Dipilih</string>
+    <string name="filter_show_favorites">Tunjukkan Kegemaran</string>
+    <string name="filter_show_all">Tunjukkan Semua</string>
+    <string name="startup_download_prompt_title">Tiada peta dimuat turun di sini</string>
+    <string name="startup_download_prompt_message">Belum ada peta yang dimuat turun untuk lokasi semasa anda. Muat turun sekarang untuk meneroka kawasan sekeliling anda.</string>
+    <string name="startup_download_prompt_download">Muat turun peta</string>
+    <string name="aiming_canceled">Pengacuan dibatalkan</string>
+    <string name="settings_sound_header">Bunyi dan getaran</string>
+    <string name="map_data_header">Data peta</string>
+    <string name="delete_all_maps_title">Padam semua peta yang dimuat turun</string>
+    <string name="delete_all_maps_summary">Mengalih keluar semua data peta yang dimuat turun daripada peranti ini. Titik yang ditambah secara manual dikekalkan.</string>
+    <string name="delete_all_maps_confirm_title">Padam semua peta yang dimuat turun?</string>
+    <string name="delete_all_maps_confirm_message">Ini akan mengalih keluar setiap kawasan peta yang dimuat turun daripada peranti ini. Anda perlu memuat turunnya semula untuk menggunakannya secara luar talian. Titik yang ditambah secara manual tidak terjejas.</string>
+    <string name="delete_all_maps_confirm_yes">Padam</string>
+    <string name="delete_all_maps_confirm_no">Batal</string>
+    <string name="delete_all_maps_done">Semua peta yang dimuat turun telah dipadam.</string>
+    <string name="info_button_text">Ketepatan: %1$d m, kelajuan: %2$.1f km/j</string>
+    <string name="keep_screen_on_title">Pastikan skrin hidup</string>
+    <string name="keep_screen_on_summary_on">Skrin tidak akan berkunci semasa aplikasi dibuka</string>
+    <string name="keep_screen_on_summary_off">Skrin akan berkunci mengikut tetapan sistem</string>
+
+    <string name="content_description_filters">Penapis</string>
+    <string name="content_description_search">Cari</string>
+    <string name="content_description_list_nodes">Senaraikan titik berdekatan</string>
+    <string name="nearby_nodes_loading_title">Memuatkan titik berdekatan…</string>
+    <string name="list_button_text">Senarai</string>
+    <string name="content_description_add_point">Tambah titik baharu</string>
+    <string name="content_description_info">Maklumat</string>
+    <string name="content_description_action">Tindakan</string>
+    <string name="content_description_explore_map">Terokai</string>
+    <string name="content_description_zoom_in">Zum masuk</string>
+    <string name="content_description_zoom_out">Zum keluar</string>
+    <string name="content_description_recenter">Tengahkan semula ke lokasi anda</string>
+    <string name="content_description_map_lock">Tukar kepada Kunci Utara</string>
+    <string name="content_description_more">Lagi</string>
+    <string name="category_button_text">Kategori</string>
+    <string name="keyword_button_text">Kata kunci</string>
+    <string name="refresh_button_text">Segar semula</string>
+    <!-- Title of the address-search dialog, opened by the toolbar's search button. -->
+    <string name="find_address_title">Cari</string>
+    <string name="hint_type_or_speak">Taip atau tutur</string>
+    <string name="content_description_mic">Mikrofon</string>
+
+    <string name="tooltip_node_name">Central Park</string>
+    <string name="tooltip_node_category">Riadah</string>
+    <string name="tooltip_node_distance">150m jauhnya</string>
+
+    <string name="announce_location_meters">%1$s, %2$.0f meter jauhnya</string>
+    <string name="announce_location_kilometers">%1$s, %2$.1f kilometer jauhnya</string>
+    <string name="announce_point_with_bearing">%1$s, %2$d meter pada jam %3$d</string>
+    <string name="announce_point_without_bearing">%1$s, %2$d meter</string>
+    <string name="announce_aiming_distance_and_clock">%1$d meter pada jam %2$d</string>
+    <string name="announce_aiming_clock_only">Pada jam %1$d</string>
+    <string name="announce_user_location">Anda</string>
+    <string name="hint_address_input">Alamat</string>
+    <string name="content_description_speak_address">Mikrofon</string>
+
+    <!-- Map download screen (downloads the server "box" covering one location — see BoxManifest) -->
+    <string name="download_map_title">Muat turun peta</string>
+    <string name="download_button">Muat turun peta</string>
+    <string name="download_cancel_button">Batalkan muat turun</string>
+    <string name="download_cancel_confirm_title">Batalkan muat turun?</string>
+    <string name="download_cancel_confirm_message">Import peta masih dijalankan. Adakah anda pasti mahu membatalkannya?</string>
+    <string name="download_cancel_confirm_yes">Ya, batalkan</string>
+    <string name="download_cancel_confirm_no">Tidak, teruskan memuat turun</string>
+    <string name="download_close_button">Tutup</string>
+    <string name="download_in_progress_title">Import peta sudah sedang berjalan.</string>
+    <string name="download_size_label">Saiz muat turun: %1$s</string>
+    <string name="download_size_label_multi">Saiz muat turun: %1$d fail, jumlah %2$s</string>
+    <string name="download_size_unknown">Saiz muat turun: tidak diketahui</string>
+    <string name="download_already_downloaded_prefix">Sudah dimuat turun.</string>
+    <string name="download_larger_map_checkbox">Peta lebih besar</string>
+    <string name="download_larger_map_hint">Turut memuat turun kawasan bersebelahan (mungkin beberapa fail lagi).</string>
+    <string name="download_looking_up">Mencari data peta untuk kawasan ini…</string>
+    <string name="download_no_data_here">Tiada data peta terperinci tersedia untuk kawasan ini.</string>
+    <string name="download_area_default_name">kawasan ini</string>
+    <string name="download_complete">Import selesai: %1$d elemen ditambah.</string>
+    <string name="download_failed">Import gagal: %1$s</string>
+    <string name="menu_download_map">Muat turun peta</string>
+    <string name="import_notif_title">Mengimport peta</string>
+    <string name="import_notif_title_phase_percent">%1$s — %2$d%%</string>
+    <string name="import_notif_starting_phase">Memulakan</string>
+    <string name="import_cancelled">Import dibatalkan.</string>
+    <string name="import_notif_starting">Memulakan import %1$s…</string>
+    <string name="no_map_here_message">Tiada peta terperinci di sini — ketik dua kali untuk memuat turun.</string>
+    <string name="map_load_failed_message">Tidak dapat memuatkan peta di sini — cuba zum keluar atau berpindah lalu kembali.</string>
+    <string name="download_area_action">Muat turun peta untuk kawasan ini</string>
+    <string name="download_radius_location_unknown">Lokasi tidak tersedia — gerakkan peta atau berikan kebenaran lokasi</string>
+
+    <!-- Map rendering -->
+    <string name="render_map_title">Tunjukkan peta (Beta)</string>
+    <string name="render_map_summary_on">Peta dilukis pada skrin untuk pengguna penglihatan terhad. Lukisan ini masih uji kaji dan terus dipertingkatkan.</string>
+    <string name="render_map_summary_off">Peta tidak dilukis; terokai hanya menggunakan sentuhan dan bunyi.</string>
+
+    <!-- Background service notification (BackgroundService) -->
+    <string name="notif_background_title">Navia Sedang Berjalan</string>
+    <string name="notif_background_text">Perkhidmatan latar belakang aktif</string>
+
+    <!-- Address search dialog (AddressSearch) -->
+    <string name="action_search">Cari</string>
+    <string name="address_search_empty_toast">Sila masukkan alamat.</string>
+    <string name="address_search_searching">Mencari…</string>
+    <string name="address_search_select_title">Pilih Alamat</string>
+    <string name="address_search_cancelled_toast">Carian dibatalkan</string>
+    <string name="address_search_error_toast">Ralat: %1$s</string>
+
+    <!-- Add-point dialog (NodeAddingDialogBox) -->
+    <string name="hint_enter_point_name">Masukkan nama titik</string>
+    <string name="add_point_dialog_title">Tambah titik baharu</string>
+    <string name="action_save_node">Simpan titik</string>
+    <string name="action_reset_location">Tetapkan semula lokasi</string>
+    <string name="toast_enter_name_required">Sila masukkan nama.</string>
+    <string name="toast_waiting_for_location">Masih menunggu lokasi — sila cuba lagi sebentar.</string>
+    <string name="toast_point_added">Titik ditambah.</string>
+    <string name="status_getting_location">Mendapatkan lokasi…</string>
+    <string name="status_getting_location_with_accuracy">Mendapatkan lokasi… ketepatan terbaik: %1$dm.</string>
+
+    <!-- Edit-point dialog (NodeEditDialogBox); action_edit_node is also the "Edit Node" action-menu
+         entry in MapActivity/NodeListActivity's node-actions dialog. -->
+    <string name="action_edit_node">Edit Titik</string>
+    <string name="action_save">Simpan</string>
+    <string name="action_delete">Padam</string>
+    <string name="toast_point_updated">Titik dikemas kini.</string>
+    <string name="confirm_removal_title">Sahkan Pembuangan</string>
+    <string name="confirm_removal_message">Adakah anda pasti mahu membuang titik ini?\n%1$s</string>
+    <string name="action_remove">Buang</string>
+    <string name="toast_point_removed">Titik dibuang.</string>
+
+    <!-- MapActivity -->
+    <string name="permissions_required_message">Kebenaran ini diperlukan supaya aplikasi berfungsi dengan baik.</string>
+    <string name="action_grant_permissions">Berikan kebenaran</string>
+    <string name="action_close">Tutup</string>
+    <string name="content_description_switch_to_compass_lock">Tukar kepada Kunci Kompas</string>
+
+    <!-- Node actions dialog (shared by MapActivity and NodeListActivity's showNodeActionsDialog) -->
+    <string name="action_aim_at_point">Acu ke Titik</string>
+    <string name="action_navigate_google_maps">Navigasi ke titik dalam Google Maps</string>
+    <string name="action_zoom_to_point">Zum ke Titik</string>
+    <string name="action_zoom_to_point_on_map">Zum ke Titik pada Peta</string>
+    <string name="action_remove_from_favorites">Buang daripada Kegemaran</string>
+    <string name="action_add_to_favorites">Tambah ke Kegemaran</string>
+    <string name="action_details">Butiran</string>
+    <string name="toast_no_additional_details">Tiada butiran tambahan tersedia.</string>
+
+    <!-- NodeListActivity -->
+    <string name="toast_map_location_unavailable">Lokasi peta tidak tersedia.</string>
+    <string name="nearby_nodes_dialog_title">Tunjukkan titik berdekatan</string>
+    <string name="nearby_nodes_dialog_message">Peta ini tidak ditengahkan pada lokasi anda pada masa ini, jadi \"sekeliling saya\" dan \"sekeliling tengah peta\" akan menunjukkan titik yang berbeza. Yang mana satu patut digunakan?</string>
+    <string name="action_around_me">Sekeliling saya</string>
+    <string name="action_around_map_center">Sekeliling tengah peta</string>
+
+</resources>
