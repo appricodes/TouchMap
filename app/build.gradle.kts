@@ -48,8 +48,12 @@ android {
         // the current tree has zero .so files in it, so the 64-bit requirement is moot either way.
         // Bumped past 2 (which would also have been valid) only because that value was reachable
         // by a separate, already-pushed change before this history was known.
-        versionCode = 3
-        versionName = "1.0"
+        // Bumped from 3/"1.0" past a versionCode 4/"1.1" build that was installed on a test S21 but
+        // never tracked in this checkout's history — it's what was on-device when the stuck-at-98%/
+        // cancel-doesn't-dismiss box-download bug (see BoxImporter/ImportService/MapActivity's
+        // cancelled-flag and ImportState.finish() handling) was diagnosed and fixed.
+        versionCode = 6
+        versionName = "1.1.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

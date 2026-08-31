@@ -63,7 +63,17 @@ public class ImportService extends Service {
 	@Override
 	public int onStartCommand(Intent intent, int flags, int startId) {
 		if (intent != null && ACTION_CANCEL.equals(intent.getAction())) {
-			if (activeImporter != null) activeImporter.cancel();
+			if (activeImporter != null) {
+				activeImporter.cancel();
+			} else if (ImportState.get().isRunning()) {
+				// No import actually running in THIS service instance — most likely the previous
+				// instance was torn down (killed, or its own onDestroy already ran) without its worker
+				// ever reaching finish(), leaving ImportState stuck reporting an import in progress
+				// forever with nothing left to cancel. There's nothing to actually stop here, but the
+				// UI (which only dismisses ImportProgressDialog on finish()) needs to be told the run
+				// is over rather than wait on a service that no longer exists.
+				ImportState.get().finish(false, getString(R.string.import_cancelled));
+			}
 			return START_NOT_STICKY;
 		}
 		if (active) {
@@ -222,7 +232,17 @@ public class ImportService extends Service {
 	public void onDestroy() {
 		super.onDestroy();
 		if (activeImporter != null) activeImporter.cancel();
-		active = false;
+		// If this instance's own finish() already ran (the normal success/failure/cancel path),
+		// `active` is already false and ImportState.finish() has already fired. But the system can
+		// tear this service down (process death, an OEM's aggressive background-app freezing, etc.)
+		// while the "box-import" worker thread is still stuck deep in a non-interruptible step (see
+		// BoxImporter's cancelled checks) and never gets to call finish() itself — leaving ImportState
+		// permanently stuck reporting an import in progress, with a dialog nothing would ever dismiss.
+		// Settle it here too so the UI isn't left waiting on a service that no longer exists.
+		if (active) {
+			active = false;
+			ImportState.get().finish(false, getString(R.string.import_cancelled));
+		}
 		releaseWakeLock();
 	}
 

@@ -198,11 +198,15 @@ public class BoxImporter implements Cancellable {
 		if (cancelled) return;
 
 		mergeIntoAppDb(dbFile, index, total, completedWeight, boxWeight);
-		// Mark imported unconditionally once mergeIntoAppDb returns — its transaction has already
-		// committed by then (SQLite transactions aren't interruptible mid-flight by this class'
-		// cancelled flag), so a cancel landing right here would otherwise leave real, already-merged
-		// data silently unmarked, meaning MapTileManager wouldn't recognize the area as downloaded
-		// even though it genuinely is.
+		// mergeIntoAppDb can now return early (transaction rolled back, nothing merged) if cancel()
+		// landed between two of its table copies — see the cancelled checks in there. In that case
+		// there is genuinely nothing to mark imported, unlike the comment below's normal case.
+		if (cancelled) return;
+		// Mark imported unconditionally once mergeIntoAppDb returns having actually committed — its
+		// transaction has already committed by then (a single execSQL call itself still isn't
+		// interruptible mid-statement by this class' cancelled flag, only between them), so a cancel
+		// landing right here would otherwise leave real, already-merged data silently unmarked,
+		// meaning MapTileManager wouldn't recognize the area as downloaded even though it genuinely is.
 		OSMDatabaseHelper.markBoxImported(context, box.index, box.minLat, box.maxLat, box.minLon, box.maxLon);
 	}
 
@@ -324,15 +328,27 @@ public class BoxImporter implements Cancellable {
 				// skip it rather than let a table with nothing worth copying anyway hard-fail the import.
 				appDb.execSQL("INSERT OR IGNORE INTO main.nodes SELECT * FROM " + ALIAS + ".nodes");
 				reportSaveProgress(0.45, "nodes");
+				// Checked between statements, not within one: a single execSQL call is a single
+				// blocking native call and can't be interrupted mid-statement by this flag — see
+				// downloadAndMergeOneBox's comment on markBoxImported. This only shortens how long a
+				// cancel has to wait when it lands in the gap between two (usually fast) table copies;
+				// it is not a guarantee cancel() takes effect quickly if one particular statement itself
+				// is what's blocked (e.g. on a write-lock held by another connection) — see
+				// ImportProgressDialog/MapActivity's own timeout for what actually unblocks the user in
+				// that case.
+				if (cancelled) return;
 
 				appDb.execSQL("INSERT OR IGNORE INTO main.ways SELECT * FROM " + ALIAS + ".ways");
 				reportSaveProgress(0.70, "ways");
+				if (cancelled) return;
 
 				appDb.execSQL("INSERT OR IGNORE INTO main.way_cells SELECT * FROM " + ALIAS + ".way_cells");
 				reportSaveProgress(0.90, "map index");
+				if (cancelled) return;
 
 				appDb.execSQL("INSERT OR IGNORE INTO main.way_regions SELECT * FROM " + ALIAS + ".way_regions");
 				reportSaveProgress(1.0, "map index");
+				if (cancelled) return;
 
 				appDb.setTransactionSuccessful();
 			} finally {
