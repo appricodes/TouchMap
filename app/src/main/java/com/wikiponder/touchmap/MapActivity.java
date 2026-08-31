@@ -8,6 +8,8 @@ import android.location.Location;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
@@ -70,6 +72,18 @@ public class MapActivity extends BaseActivity
 	// DownloadMapActivity — that screen now finishes as soon as it starts the import. Null
 	// whenever no import is running/being shown.
 	private ImportProgressDialog importProgressDialog;
+	// How long to wait, after the user confirms Cancel, for the service to actually report back
+	// (onImportFinished) before giving up on waiting and closing the dialog locally anyway — see
+	// onImportCancelConfirmed. The worker thread can be stuck in a step that isn't truly
+	// interruptible (a single blocking SQL statement — see BoxImporter's cancelled checks), so a
+	// confirmed cancel isn't always followed by a prompt finish(); the user shouldn't be stuck
+	// staring at a non-dismissible dialog because of that.
+	private static final long CANCEL_FORCE_CLOSE_DELAY_MS = 8000;
+	private final Handler cancelTimeoutHandler = new Handler(Looper.getMainLooper());
+	// Non-null only while waiting out CANCEL_FORCE_CLOSE_DELAY_MS after a confirmed cancel; cleared
+	// the moment onImportFinished actually arrives (see there) so a later, genuine finish() doesn't
+	// also fire the force-close toast on top of its own normal one.
+	private Runnable cancelTimeoutRunnable;
 	// True strictly while the first-run TalkBack notice is on screen — see
 	// showTalkBackRequiredNoticeIfFirstRun's dismiss listener for why the download-prompt check is
 	// deferred while this is true (avoids stacking two AlertDialogs, one hidden behind the other).
@@ -244,6 +258,13 @@ public class MapActivity extends BaseActivity
 	@Override
 	protected void onDestroy() {
 		super.onDestroy();
+		// The pending force-close Runnable (see onImportCancelConfirmed) captures this Activity —
+		// drop it so a cancel confirmed just before leaving this screen can't fire its callback
+		// (dialog dismiss + Toast) against an already-destroyed Activity later.
+		if (cancelTimeoutRunnable != null) {
+			cancelTimeoutHandler.removeCallbacks(cancelTimeoutRunnable);
+			cancelTimeoutRunnable = null;
+		}
 		// Whenever this screen is actually torn down — explicit exit, or the system reclaiming
 		// it — stop announcements/vibration immediately. BackgroundService.onTaskRemoved() covers
 		// the app being swiped away from Recents; this covers every other teardown path. The
@@ -701,7 +722,23 @@ public class MapActivity extends BaseActivity
 		startService(intent);
 		// Not dismissed here — onImportFinished (triggered by the service's own cancellation path,
 		// via ImportState.finish()) is what actually closes the dialog, once the run has genuinely
-		// stopped rather than the instant the user confirmed.
+		// stopped rather than the instant the user confirmed. But that can take an unbounded amount
+		// of time (see BoxImporter's cancelled checks — a single SQL statement mid-merge can't
+		// actually be interrupted, only skipped once it returns), so give it a bounded grace period:
+		// if onImportFinished still hasn't arrived by then, stop waiting on the user's behalf and
+		// close the dialog anyway. The service keeps running/cleaning up in the background regardless
+		// (whatever it eventually does still lands via onImportFinished's version bump / reloadCurrentArea
+		// next time this activity is started, same as any other background completion).
+		if (cancelTimeoutRunnable != null) cancelTimeoutHandler.removeCallbacks(cancelTimeoutRunnable);
+		cancelTimeoutRunnable = () -> {
+			cancelTimeoutRunnable = null;
+			if (importProgressDialog != null) {
+				importProgressDialog.dismiss();
+				importProgressDialog = null;
+			}
+			Toast.makeText(this, R.string.import_cancel_still_running, Toast.LENGTH_LONG).show();
+		};
+		cancelTimeoutHandler.postDelayed(cancelTimeoutRunnable, CANCEL_FORCE_CLOSE_DELAY_MS);
 	}
 
 	@Override
@@ -716,6 +753,12 @@ public class MapActivity extends BaseActivity
 	public void onImportFinished(boolean success, String message) {
 		lastSeenImportVersion = ImportState.get().getCompletedImportVersion();
 		runOnUiThread(() -> {
+			// The run genuinely finished on its own — the force-close timeout from
+			// onImportCancelConfirmed (if one was pending) no longer needs to fire.
+			if (cancelTimeoutRunnable != null) {
+				cancelTimeoutHandler.removeCallbacks(cancelTimeoutRunnable);
+				cancelTimeoutRunnable = null;
+			}
 			if (importProgressDialog != null) {
 				importProgressDialog.dismiss();
 				importProgressDialog = null;

@@ -86,6 +86,7 @@
     <string name="download_cancel_confirm_message">The map import is still in progress. Are you sure you want to cancel it?</string>
     <string name="download_cancel_confirm_yes">Yes, cancel</string>
     <string name="download_cancel_confirm_no">No, keep downloading</string>
+    <string name="import_cancel_still_running">Still finishing up in the background — you can keep using the app.</string>
     <string name="download_close_button">Close</string>
     <string name="download_in_progress_title">A map import is already running.</string>
     <string name="download_size_label">Download size: %1$s</string>
