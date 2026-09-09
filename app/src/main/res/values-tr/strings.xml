@@ -172,4 +172,32 @@
     <string name="action_around_me">Çevremdekiler</string>
     <string name="action_around_map_center">Harita merkezi çevresindekiler</string>
 
+    <string name="menu_credits">Katkılar</string>
+    <string name="credits_title">Katkılar</string>
+    <string name="credits_intro">Navia, aşağıdaki açık veri ve açık kaynak projeleri üzerine kurulmuştur.</string>
+    <string name="credits_osm_body">Harita verileri © OpenStreetMap katkıda bulunanları, Open Database License (ODbL) altında kullanılabilir. Bkz. openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Ayrıntılı bir harita indirilmeden önce gösterilen yer adları, Creative Commons Attribution 4.0 ile lisanslanan GeoNames coğrafi veritabanından gelir. Bkz. geonames.org.</string>
+    <string name="credits_geofabrik_body">Bu uygulamanın indirilebilir harita verilerini oluşturmak için kullanılan bölgesel OpenStreetMap alıntıları. Bkz. geofabrik.de.</string>
+    <string name="credits_msgpack_body">İkili veri serileştirme, Apache Lisansı 2.0 ile lisanslanmıştır. Bkz. msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX ve Material Components</string>
+    <string name="credits_androidx_body">Google\'dan temel Android uygulama çatısı ve arayüz bileşenleri, Apache Lisansı 2.0 ile lisanslanmıştır.</string>
+    <string name="credits_play_services_heading">Google Play Hizmetleri — Konum</string>
+    <string name="credits_play_services_body">Cihaz konum hizmetleri, Google tarafından.</string>
+    <string name="credits_firebase_body">Kilitlenme raporlama, Google tarafından, sorunların bulunup düzeltilebilmesi için.</string>
+    <string name="download_progress_connecting">Bağlanılıyor… (alan %1$d / %2$d)</string>
+    <string name="download_progress_downloading">Alan %1$d / %2$d indiriliyor (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Alan %1$d / %2$d çıkarılıyor…</string>
+    <string name="download_progress_saving">Alan %1$d / %2$d kaydediliyor — %3$s…</string>
+    <string name="import_cancel_still_running">Arka planda hâlâ tamamlanıyor — uygulamayı kullanmaya devam edebilirsiniz.</string>
+    <string name="menu_about">Hakkında</string>
+    <string name="about_title">Hakkında</string>
+    <string name="about_version">Sürüm %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Yayıncı</string>
+    <string name="about_contact_heading">İletişim</string>
+    <string name="about_email_action">E-posta gönder</string>
+    <string name="about_website_action">Web sitesini aç</string>
+    <string name="about_privacy_heading">Gizlilik</string>
+    <string name="about_privacy_body">Navia, sorunların bulunup düzeltilebilmesi için kilitlenme raporlarını bir Google hizmeti olan Firebase Crashlytics\'e gönderir. Çevrenizde ne olduğunu size söylemek için cihazınızın konumunu kullanır; konumunuz cihazda kullanılır ve uygulamanın geliştiricisine gönderilmez. Bir adres aradığınızda, bu arama metni aranmak üzere cihazınızın coğrafi kodlama hizmetine gönderilir.</string>
+    <string name="about_privacy_link">Gizlilik politikasını oku</string>
+    <string name="about_no_app_for_link">Bu cihazdaki hiçbir uygulama bunu açamıyor.</string>
 </resources>

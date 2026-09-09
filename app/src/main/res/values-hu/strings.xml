@@ -172,4 +172,32 @@
     <string name="action_around_me">Körülöttem</string>
     <string name="action_around_map_center">A térkép középpontja körül</string>
 
+    <string name="menu_credits">Köszönetnyilvánítás</string>
+    <string name="credits_title">Köszönetnyilvánítás</string>
+    <string name="credits_intro">A Navia a következő nyílt adatokra és nyílt forráskódú projektekre épül.</string>
+    <string name="credits_osm_body">Térképadatok © OpenStreetMap-közreműködők, az Open Database License (ODbL) alatt érhetők el. Lásd: openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">A részletes térkép letöltése előtt megjelenő helynevek a GeoNames földrajzi adatbázisból származnak, amely a Creative Commons Attribution 4.0 licenc alatt áll. Lásd: geonames.org.</string>
+    <string name="credits_geofabrik_body">Regionális OpenStreetMap-kivonatok, amelyekből az alkalmazás letölthető térképadatai készülnek. Lásd: geofabrik.de.</string>
+    <string name="credits_msgpack_body">Bináris adatszerializálás, az Apache 2.0 licenc alatt. Lásd: msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX és Material Components</string>
+    <string name="credits_androidx_body">Alapvető Android-alkalmazáskeretrendszer és felületi elemek a Google-tól, az Apache 2.0 licenc alatt.</string>
+    <string name="credits_play_services_heading">Google Play-szolgáltatások — Helyadatok</string>
+    <string name="credits_play_services_body">Az eszköz helymeghatározó szolgáltatásai, a Google-tól.</string>
+    <string name="credits_firebase_body">Összeomlás-jelentés, a Google-tól, hogy a hibák megtalálhatók és javíthatók legyenek.</string>
+    <string name="download_progress_connecting">Kapcsolódás… (%1$d. terület a(z) %2$d közül)</string>
+    <string name="download_progress_downloading">%1$d. terület letöltése a(z) %2$d közül (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">%1$d. terület kibontása a(z) %2$d közül…</string>
+    <string name="download_progress_saving">%1$d. terület mentése a(z) %2$d közül — %3$s…</string>
+    <string name="import_cancel_still_running">Még befejeződik a háttérben — folytathatod az alkalmazás használatát.</string>
+    <string name="menu_about">Névjegy</string>
+    <string name="about_title">Névjegy</string>
+    <string name="about_version">Verzió: %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Kiadó</string>
+    <string name="about_contact_heading">Kapcsolat</string>
+    <string name="about_email_action">E-mail küldése</string>
+    <string name="about_website_action">Weboldal megnyitása</string>
+    <string name="about_privacy_heading">Adatvédelem</string>
+    <string name="about_privacy_body">A Navia összeomlási jelentéseket küld a Firebase Crashlyticsnek, a Google szolgáltatásának, hogy a hibák megtalálhatók és javíthatók legyenek. Az eszközöd helyadatait használja, hogy megmondja, mi van körülötted; a helyadataid az eszközön kerülnek felhasználásra, és nem jutnak el az alkalmazás fejlesztőjéhez. Amikor címre keresel, a keresési szöveg az eszközöd geokódolási szolgáltatásához kerül elküldésre a kikereséshez.</string>
+    <string name="about_privacy_link">Adatvédelmi irányelvek elolvasása</string>
+    <string name="about_no_app_for_link">Ezen az eszközön nincs olyan alkalmazás, amely meg tudná nyitni.</string>
 </resources>

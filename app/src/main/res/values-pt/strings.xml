@@ -160,4 +160,32 @@
     <string name="action_around_me">Ao meu redor</string>
     <string name="action_around_map_center">Ao redor do centro do mapa</string>
 
+    <string name="menu_credits">Créditos</string>
+    <string name="credits_title">Créditos</string>
+    <string name="credits_intro">O Navia é construído com base nos seguintes dados abertos e projetos de código aberto.</string>
+    <string name="credits_osm_body">Dados de mapa © colaboradores do OpenStreetMap, disponíveis sob a Open Database License (ODbL). Consulte openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Os nomes de lugares exibidos antes de um mapa detalhado ser baixado vêm do banco de dados geográfico GeoNames, licenciado sob a Creative Commons Attribution 4.0. Consulte geonames.org.</string>
+    <string name="credits_geofabrik_body">Extratos regionais do OpenStreetMap usados para criar os dados de mapa baixáveis deste aplicativo. Consulte geofabrik.de.</string>
+    <string name="credits_msgpack_body">Serialização binária de dados, licenciada sob a Licença Apache 2.0. Consulte msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX e Material Components</string>
+    <string name="credits_androidx_body">Framework básico de aplicativos Android e componentes de interface do Google, licenciados sob a Licença Apache 2.0.</string>
+    <string name="credits_play_services_heading">Google Play Services — Localização</string>
+    <string name="credits_play_services_body">Serviços de localização do dispositivo, do Google.</string>
+    <string name="credits_firebase_body">Relatórios de falhas, do Google, para que os problemas possam ser encontrados e corrigidos.</string>
+    <string name="download_progress_connecting">Conectando… (área %1$d de %2$d)</string>
+    <string name="download_progress_downloading">Baixando a área %1$d de %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Extraindo a área %1$d de %2$d…</string>
+    <string name="download_progress_saving">Salvando a área %1$d de %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Ainda finalizando em segundo plano — você pode continuar usando o aplicativo.</string>
+    <string name="menu_about">Sobre</string>
+    <string name="about_title">Sobre</string>
+    <string name="about_version">Versão %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Editor</string>
+    <string name="about_contact_heading">Contato</string>
+    <string name="about_email_action">Enviar um e-mail</string>
+    <string name="about_website_action">Abrir o site</string>
+    <string name="about_privacy_heading">Privacidade</string>
+    <string name="about_privacy_body">O Navia envia relatórios de falhas ao Firebase Crashlytics, um serviço do Google, para que os problemas possam ser encontrados e corrigidos. Ele usa a localização do seu dispositivo para dizer o que está ao seu redor; sua localização é usada no dispositivo e não é enviada ao desenvolvedor do aplicativo. Quando você busca um endereço, esse texto de busca é enviado ao serviço de geocodificação do seu dispositivo para ser resolvido.</string>
+    <string name="about_privacy_link">Ler a política de privacidade</string>
+    <string name="about_no_app_for_link">Nenhum aplicativo neste dispositivo consegue abrir isso.</string>
 </resources>

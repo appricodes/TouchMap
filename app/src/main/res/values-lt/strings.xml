@@ -160,4 +160,32 @@
     <string name="action_around_me">Aplink mane</string>
     <string name="action_around_map_center">Aplink žemėlapio centrą</string>
 
+    <string name="menu_credits">Padėkos</string>
+    <string name="credits_title">Padėkos</string>
+    <string name="credits_intro">„Navia“ sukurta naudojant šiuos atviruosius duomenis ir atvirojo kodo projektus.</string>
+    <string name="credits_osm_body">Žemėlapio duomenys © OpenStreetMap bendraautoriai, pasiekiami pagal Open Database License (ODbL). Žr. openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Vietovardžiai, rodomi prieš atsisiunčiant išsamų žemėlapį, gauti iš geografinės duomenų bazės GeoNames, licencijuotos pagal Creative Commons Attribution 4.0. Žr. geonames.org.</string>
+    <string name="credits_geofabrik_body">Regioninės OpenStreetMap ištraukos, iš kurių kuriami atsisiunčiami šios programėlės žemėlapio duomenys. Žr. geofabrik.de.</string>
+    <string name="credits_msgpack_body">Dvejetainis duomenų serializavimas, licencijuota pagal Apache 2.0 licenciją. Žr. msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX ir Material Components</string>
+    <string name="credits_androidx_body">Pagrindinė Android programėlių sistema ir sąsajos komponentai iš Google, licencijuoti pagal Apache 2.0 licenciją.</string>
+    <string name="credits_play_services_heading">Google Play paslaugos — Vietovė</string>
+    <string name="credits_play_services_body">Įrenginio vietovės paslaugos, iš Google.</string>
+    <string name="credits_firebase_body">Strigčių ataskaitos, iš Google, kad problemas būtų galima rasti ir ištaisyti.</string>
+    <string name="download_progress_connecting">Jungiamasi… (%1$d sritis iš %2$d)</string>
+    <string name="download_progress_downloading">Atsisiunčiama %1$d sritis iš %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Išskleidžiama %1$d sritis iš %2$d…</string>
+    <string name="download_progress_saving">Įrašoma %1$d sritis iš %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Vis dar baigiama fone — galite toliau naudotis programėle.</string>
+    <string name="menu_about">Apie</string>
+    <string name="about_title">Apie</string>
+    <string name="about_version">Versija %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Leidėjas</string>
+    <string name="about_contact_heading">Kontaktai</string>
+    <string name="about_email_action">Siųsti el. laišką</string>
+    <string name="about_website_action">Atidaryti svetainę</string>
+    <string name="about_privacy_heading">Privatumas</string>
+    <string name="about_privacy_body">„Navia“ siunčia strigčių ataskaitas į Firebase Crashlytics, Google paslaugą, kad problemas būtų galima rasti ir ištaisyti. Programėlė naudoja jūsų įrenginio vietovę, kad pasakytų, kas yra aplink jus; jūsų vietovė naudojama įrenginyje ir nesiunčiama programėlės kūrėjui. Kai ieškote adreso, tas paieškos tekstas siunčiamas į jūsų įrenginio geokodavimo paslaugą, kad būtų surastas.</string>
+    <string name="about_privacy_link">Skaityti privatumo politiką</string>
+    <string name="about_no_app_for_link">Šiame įrenginyje nėra programėlės, kuri galėtų tai atidaryti.</string>
 </resources>

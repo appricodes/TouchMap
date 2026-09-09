@@ -172,4 +172,32 @@
     <string name="action_around_me">סביבי</string>
     <string name="action_around_map_center">סביב מרכז המפה</string>
 
+    <string name="menu_credits">תודות</string>
+    <string name="credits_title">תודות</string>
+    <string name="credits_intro">Navia מבוסס על מאגרי הנתונים הפתוחים ופרויקטי הקוד הפתוח הבאים.</string>
+    <string name="credits_osm_body">נתוני מפה © תורמי OpenStreetMap, זמינים תחת רישיון Open Database License (ODbL). ראו openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">שמות מקומות המוצגים לפני הורדת מפה מפורטת מגיעים ממסד הנתונים הגאוגרפי GeoNames, המורשה תחת Creative Commons Attribution 4.0. ראו geonames.org.</string>
+    <string name="credits_geofabrik_body">מקטעים אזוריים של OpenStreetMap המשמשים לבניית נתוני המפה הניתנים להורדה באפליקציה זו. ראו geofabrik.de.</string>
+    <string name="credits_msgpack_body">סריאליזציה בינארית של נתונים, מורשה תחת רישיון Apache 2.0. ראו msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX ו-Material Components</string>
+    <string name="credits_androidx_body">תשתית בסיסית לאפליקציות Android ורכיבי ממשק מבית Google, מורשים תחת רישיון Apache 2.0.</string>
+    <string name="credits_play_services_heading">שירותי Google Play — מיקום</string>
+    <string name="credits_play_services_body">שירותי מיקום של המכשיר, מבית Google.</string>
+    <string name="credits_firebase_body">דיווח על קריסות, מבית Google, כדי שניתן יהיה לאתר ולתקן בעיות.</string>
+    <string name="download_progress_connecting">מתחבר… (אזור %1$d מתוך %2$d)</string>
+    <string name="download_progress_downloading">מוריד את אזור %1$d מתוך %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">מחלץ את אזור %1$d מתוך %2$d…</string>
+    <string name="download_progress_saving">שומר את אזור %1$d מתוך %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">עדיין מסתיים ברקע — אפשר להמשיך להשתמש באפליקציה.</string>
+    <string name="menu_about">אודות</string>
+    <string name="about_title">אודות</string>
+    <string name="about_version">גרסה %1$s (%2$d)</string>
+    <string name="about_publisher_heading">מפרסם</string>
+    <string name="about_contact_heading">יצירת קשר</string>
+    <string name="about_email_action">שליחת אימייל</string>
+    <string name="about_website_action">פתיחת האתר</string>
+    <string name="about_privacy_heading">פרטיות</string>
+    <string name="about_privacy_body">Navia שולח דוחות קריסה אל Firebase Crashlytics, שירות של Google, כדי שניתן יהיה לאתר ולתקן בעיות. האפליקציה משתמשת במיקום המכשיר שלך כדי לומר לך מה נמצא סביבך; המיקום שלך משמש במכשיר ואינו נשלח למפתח האפליקציה. כשמחפשים כתובת, טקסט החיפוש נשלח לשירות הגאוקודינג של המכשיר שלך לצורך איתור.</string>
+    <string name="about_privacy_link">קריאת מדיניות הפרטיות</string>
+    <string name="about_no_app_for_link">אין במכשיר הזה אפליקציה שיכולה לפתוח את זה.</string>
 </resources>

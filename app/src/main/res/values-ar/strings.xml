@@ -172,4 +172,32 @@
     <string name="action_around_me">حولي</string>
     <string name="action_around_map_center">حول مركز الخريطة</string>
 
+    <string name="menu_credits">شكر وتقدير</string>
+    <string name="credits_title">شكر وتقدير</string>
+    <string name="credits_intro">بُني تطبيق Navia على البيانات المفتوحة ومشاريع المصدر المفتوح التالية.</string>
+    <string name="credits_osm_body">بيانات الخريطة © مساهمو OpenStreetMap، متاحة بموجب رخصة Open Database License (ODbL). راجع openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">أسماء الأماكن التي تظهر قبل تنزيل خريطة مفصلة تأتي من قاعدة البيانات الجغرافية GeoNames، المرخصة بموجب Creative Commons Attribution 4.0. راجع geonames.org.</string>
+    <string name="credits_geofabrik_body">مقتطفات إقليمية من OpenStreetMap تُستخدم لبناء بيانات الخرائط القابلة للتنزيل في هذا التطبيق. راجع geofabrik.de.</string>
+    <string name="credits_msgpack_body">تسلسل البيانات الثنائية، مرخص بموجب رخصة Apache 2.0. راجع msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX وMaterial Components</string>
+    <string name="credits_androidx_body">إطار عمل تطبيقات Android الأساسي ومكوّنات الواجهة من Google، مرخصة بموجب رخصة Apache 2.0.</string>
+    <string name="credits_play_services_heading">خدمات Google Play — الموقع</string>
+    <string name="credits_play_services_body">خدمات تحديد موقع الجهاز، من Google.</string>
+    <string name="credits_firebase_body">الإبلاغ عن الأعطال، من Google، حتى يمكن العثور على المشكلات وإصلاحها.</string>
+    <string name="download_progress_connecting">جارٍ الاتصال… (المنطقة %1$d من %2$d)</string>
+    <string name="download_progress_downloading">جارٍ تنزيل المنطقة %1$d من %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">جارٍ استخراج المنطقة %1$d من %2$d…</string>
+    <string name="download_progress_saving">جارٍ حفظ المنطقة %1$d من %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">لا يزال يُستكمل في الخلفية — يمكنك متابعة استخدام التطبيق.</string>
+    <string name="menu_about">حول التطبيق</string>
+    <string name="about_title">حول التطبيق</string>
+    <string name="about_version">الإصدار %1$s (%2$d)</string>
+    <string name="about_publisher_heading">الناشر</string>
+    <string name="about_contact_heading">التواصل</string>
+    <string name="about_email_action">إرسال بريد إلكتروني</string>
+    <string name="about_website_action">فتح الموقع الإلكتروني</string>
+    <string name="about_privacy_heading">الخصوصية</string>
+    <string name="about_privacy_body">يرسل Navia تقارير الأعطال إلى Firebase Crashlytics، وهي خدمة من Google، حتى يمكن العثور على المشكلات وإصلاحها. ويستخدم موقع جهازك ليخبرك بما حولك؛ ويُستخدم موقعك على الجهاز ولا يُرسل إلى مطوّر التطبيق. وعند البحث عن عنوان، يُرسل نص البحث إلى خدمة الترميز الجغرافي في جهازك للبحث عنه.</string>
+    <string name="about_privacy_link">قراءة سياسة الخصوصية</string>
+    <string name="about_no_app_for_link">لا يوجد تطبيق على هذا الجهاز يمكنه فتح ذلك.</string>
 </resources>

@@ -171,4 +171,32 @@
     <string name="action_around_me">Al meu voltant</string>
     <string name="action_around_map_center">Al voltant del centre del mapa</string>
 
+    <string name="menu_credits">Crèdits</string>
+    <string name="credits_title">Crèdits</string>
+    <string name="credits_intro">Navia es basa en les dades obertes i els projectes de codi obert següents.</string>
+    <string name="credits_osm_body">Dades cartogràfiques © col·laboradors d\'OpenStreetMap, disponibles sota la Open Database License (ODbL). Consulta openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Els noms de lloc que es mostren abans de baixar un mapa detallat provenen de la base de dades geogràfica GeoNames, amb llicència Creative Commons Attribution 4.0. Consulta geonames.org.</string>
+    <string name="credits_geofabrik_body">Extractes regionals d\'OpenStreetMap emprats per crear les dades de mapa baixables d\'aquesta aplicació. Consulta geofabrik.de.</string>
+    <string name="credits_msgpack_body">Serialització binària de dades, amb llicència Apache 2.0. Consulta msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX i Material Components</string>
+    <string name="credits_androidx_body">Marc bàsic d\'aplicacions Android i components d\'interfície de Google, amb llicència Apache 2.0.</string>
+    <string name="credits_play_services_heading">Serveis de Google Play — Ubicació</string>
+    <string name="credits_play_services_body">Serveis d\'ubicació del dispositiu, de Google.</string>
+    <string name="credits_firebase_body">Informes de fallada, de Google, perquè els problemes es puguin trobar i corregir.</string>
+    <string name="download_progress_connecting">S\'està connectant… (àrea %1$d de %2$d)</string>
+    <string name="download_progress_downloading">S\'està baixant l\'àrea %1$d de %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">S\'està extraient l\'àrea %1$d de %2$d…</string>
+    <string name="download_progress_saving">S\'està desant l\'àrea %1$d de %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Encara s\'està acabant en segon pla: pots continuar utilitzant l\'aplicació.</string>
+    <string name="menu_about">Quant a</string>
+    <string name="about_title">Quant a</string>
+    <string name="about_version">Versió %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Editor</string>
+    <string name="about_contact_heading">Contacte</string>
+    <string name="about_email_action">Envia un correu electrònic</string>
+    <string name="about_website_action">Obre el lloc web</string>
+    <string name="about_privacy_heading">Privadesa</string>
+    <string name="about_privacy_body">Navia envia informes de fallada a Firebase Crashlytics, un servei de Google, perquè els problemes es puguin trobar i corregir. Utilitza la ubicació del teu dispositiu per dir-te què tens al voltant; la teva ubicació s\'utilitza al dispositiu i no s\'envia al desenvolupador de l\'aplicació. Quan cerques una adreça, aquest text de cerca s\'envia al servei de geocodificació del teu dispositiu perquè el localitzi.</string>
+    <string name="about_privacy_link">Llegeix la política de privadesa</string>
+    <string name="about_no_app_for_link">Cap aplicació d\'aquest dispositiu no pot obrir-ho.</string>
 </resources>

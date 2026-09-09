@@ -160,4 +160,32 @@
     <string name="action_around_me">我的周边</string>
     <string name="action_around_map_center">地图中心周边</string>
 
+    <string name="menu_credits">鸣谢</string>
+    <string name="credits_title">鸣谢</string>
+    <string name="credits_intro">Navia 基于以下开放数据和开源项目构建。</string>
+    <string name="credits_osm_body">地图数据 © OpenStreetMap 贡献者，依据 Open Database License (ODbL) 提供。请访问 openstreetmap.org/copyright。</string>
+    <string name="credits_geonames_body">在下载详细地图之前显示的地名来自地理数据库 GeoNames，依据 Creative Commons Attribution 4.0 授权。请访问 geonames.org。</string>
+    <string name="credits_geofabrik_body">用于构建本应用可下载地图数据的 OpenStreetMap 区域摘录。请访问 geofabrik.de。</string>
+    <string name="credits_msgpack_body">二进制数据序列化，依据 Apache License 2.0 授权。请访问 msgpack.org。</string>
+    <string name="credits_androidx_heading">AndroidX 与 Material Components</string>
+    <string name="credits_androidx_body">来自 Google 的 Android 应用核心框架和界面组件，依据 Apache License 2.0 授权。</string>
+    <string name="credits_play_services_heading">Google Play 服务 — 位置</string>
+    <string name="credits_play_services_body">设备位置服务，由 Google 提供。</string>
+    <string name="credits_firebase_body">崩溃报告，由 Google 提供，以便发现并修复问题。</string>
+    <string name="download_progress_connecting">正在连接…（区域 %1$d / %2$d）</string>
+    <string name="download_progress_downloading">正在下载区域 %1$d / %2$d（%3$s / %4$s）</string>
+    <string name="download_progress_extracting">正在解压区域 %1$d / %2$d…</string>
+    <string name="download_progress_saving">正在保存区域 %1$d / %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">仍在后台完成 — 你可以继续使用本应用。</string>
+    <string name="menu_about">关于</string>
+    <string name="about_title">关于</string>
+    <string name="about_version">版本 %1$s (%2$d)</string>
+    <string name="about_publisher_heading">发布者</string>
+    <string name="about_contact_heading">联系方式</string>
+    <string name="about_email_action">发送电子邮件</string>
+    <string name="about_website_action">打开网站</string>
+    <string name="about_privacy_heading">隐私</string>
+    <string name="about_privacy_body">Navia 会将崩溃报告发送到 Google 的服务 Firebase Crashlytics，以便发现并修复问题。它使用你设备的位置来告诉你周围有什么；你的位置在设备上使用，不会发送给应用开发者。当你搜索地址时，该搜索文本会发送到你设备的地理编码服务进行查询。</string>
+    <string name="about_privacy_link">阅读隐私政策</string>
+    <string name="about_no_app_for_link">此设备上没有应用可以打开该内容。</string>
 </resources>

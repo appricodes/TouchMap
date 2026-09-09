@@ -160,4 +160,32 @@
     <string name="action_around_me">Ap mani</string>
     <string name="action_around_map_center">Ap kartes centru</string>
 
+    <string name="menu_credits">Pateicības</string>
+    <string name="credits_title">Pateicības</string>
+    <string name="credits_intro">Navia ir veidota, izmantojot šādus atvērtos datus un atvērtā pirmkoda projektus.</string>
+    <string name="credits_osm_body">Kartes dati © OpenStreetMap līdzautori, pieejami saskaņā ar Open Database License (ODbL). Skatiet openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Vietvārdi, kas tiek rādīti pirms detalizētas kartes lejupielādes, nāk no ģeogrāfiskās datubāzes GeoNames, kas licencēta saskaņā ar Creative Commons Attribution 4.0. Skatiet geonames.org.</string>
+    <string name="credits_geofabrik_body">Reģionālie OpenStreetMap izraksti, no kuriem tiek veidoti šīs lietotnes lejupielādējamie kartes dati. Skatiet geofabrik.de.</string>
+    <string name="credits_msgpack_body">Binārā datu serializācija, licencēta saskaņā ar Apache 2.0 licenci. Skatiet msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX un Material Components</string>
+    <string name="credits_androidx_body">Android lietotņu pamata ietvars un saskarnes komponenti no Google, licencēti saskaņā ar Apache 2.0 licenci.</string>
+    <string name="credits_play_services_heading">Google Play pakalpojumi — Atrašanās vieta</string>
+    <string name="credits_play_services_body">Ierīces atrašanās vietas pakalpojumi, no Google.</string>
+    <string name="credits_firebase_body">Avāriju ziņojumi, no Google, lai problēmas varētu atrast un novērst.</string>
+    <string name="download_progress_connecting">Notiek savienošana… (%1$d. apgabals no %2$d)</string>
+    <string name="download_progress_downloading">Tiek lejupielādēts %1$d. apgabals no %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Tiek izgūts %1$d. apgabals no %2$d…</string>
+    <string name="download_progress_saving">Tiek saglabāts %1$d. apgabals no %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Vēl tiek pabeigts fonā — jūs varat turpināt lietot lietotni.</string>
+    <string name="menu_about">Par lietotni</string>
+    <string name="about_title">Par lietotni</string>
+    <string name="about_version">Versija %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Izdevējs</string>
+    <string name="about_contact_heading">Kontakti</string>
+    <string name="about_email_action">Sūtīt e-pastu</string>
+    <string name="about_website_action">Atvērt vietni</string>
+    <string name="about_privacy_heading">Privātums</string>
+    <string name="about_privacy_body">Navia sūta avāriju ziņojumus uz Firebase Crashlytics, Google pakalpojumu, lai problēmas varētu atrast un novērst. Lietotne izmanto jūsu ierīces atrašanās vietu, lai pastāstītu, kas ir jums apkārt; jūsu atrašanās vieta tiek izmantota ierīcē un netiek sūtīta lietotnes izstrādātājam. Kad meklējat adresi, šis meklēšanas teksts tiek sūtīts uz jūsu ierīces ģeokodēšanas pakalpojumu, lai to atrastu.</string>
+    <string name="about_privacy_link">Lasīt konfidencialitātes politiku</string>
+    <string name="about_no_app_for_link">Nevienai lietotnei šajā ierīcē nav iespējams to atvērt.</string>
 </resources>

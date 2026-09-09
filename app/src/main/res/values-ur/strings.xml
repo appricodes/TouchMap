@@ -172,4 +172,32 @@
     <string name="action_around_me">میرے ارد گرد</string>
     <string name="action_around_map_center">نقشے کے مرکز کے ارد گرد</string>
 
+    <string name="menu_credits">کریڈٹس</string>
+    <string name="credits_title">کریڈٹس</string>
+    <string name="credits_intro">Navia درج ذیل کھلے ڈیٹا اور اوپن سورس منصوبوں پر بنایا گیا ہے۔</string>
+    <string name="credits_osm_body">نقشے کا ڈیٹا © OpenStreetMap کے معاونین، Open Database License (ODbL) کے تحت دستیاب ہے۔ openstreetmap.org/copyright ملاحظہ کریں۔</string>
+    <string name="credits_geonames_body">تفصیلی نقشہ ڈاؤن لوڈ ہونے سے پہلے دکھائے جانے والے مقامات کے نام GeoNames جغرافیائی ڈیٹابیس سے آتے ہیں، جو Creative Commons Attribution 4.0 کے تحت لائسنس یافتہ ہے۔ geonames.org ملاحظہ کریں۔</string>
+    <string name="credits_geofabrik_body">علاقائی OpenStreetMap اقتباسات جو اس ایپ کے ڈاؤن لوڈ کے قابل نقشہ ڈیٹا کی تعمیر کے لیے استعمال ہوتے ہیں۔ geofabrik.de ملاحظہ کریں۔</string>
+    <string name="credits_msgpack_body">بائنری ڈیٹا سیریلائزیشن، Apache License 2.0 کے تحت لائسنس یافتہ۔ msgpack.org ملاحظہ کریں۔</string>
+    <string name="credits_androidx_heading">AndroidX اور Material Components</string>
+    <string name="credits_androidx_body">Google کی جانب سے بنیادی Android ایپ فریم ورک اور UI اجزاء، Apache License 2.0 کے تحت لائسنس یافتہ۔</string>
+    <string name="credits_play_services_heading">Google Play سروسز — مقام</string>
+    <string name="credits_play_services_body">آلے کی مقام سروسز، Google کی جانب سے۔</string>
+    <string name="credits_firebase_body">کریش رپورٹنگ، Google کی جانب سے، تاکہ مسائل تلاش کیے اور ٹھیک کیے جا سکیں۔</string>
+    <string name="download_progress_connecting">جوڑا جا رہا ہے… (علاقہ %1$d از %2$d)</string>
+    <string name="download_progress_downloading">علاقہ %1$d از %2$d ڈاؤن لوڈ ہو رہا ہے (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">علاقہ %1$d از %2$d نکالا جا رہا ہے…</string>
+    <string name="download_progress_saving">علاقہ %1$d از %2$d محفوظ ہو رہا ہے — %3$s…</string>
+    <string name="import_cancel_still_running">پس منظر میں ابھی مکمل ہو رہا ہے — آپ ایپ استعمال کرتے رہ سکتے ہیں۔</string>
+    <string name="menu_about">متعلق</string>
+    <string name="about_title">متعلق</string>
+    <string name="about_version">ورژن %1$s (%2$d)</string>
+    <string name="about_publisher_heading">ناشر</string>
+    <string name="about_contact_heading">رابطہ</string>
+    <string name="about_email_action">ای میل بھیجیں</string>
+    <string name="about_website_action">ویب سائٹ کھولیں</string>
+    <string name="about_privacy_heading">رازداری</string>
+    <string name="about_privacy_body">Navia کریش رپورٹس Firebase Crashlytics کو بھیجتا ہے، جو Google کی ایک سروس ہے، تاکہ مسائل تلاش کیے اور ٹھیک کیے جا سکیں۔ یہ آپ کے آلے کے مقام کا استعمال کرتا ہے تاکہ آپ کو بتائے کہ آپ کے اردگرد کیا ہے؛ آپ کا مقام آلے پر استعمال ہوتا ہے اور ایپ کے ڈویلپر کو نہیں بھیجا جاتا۔ جب آپ کوئی پتہ تلاش کرتے ہیں تو وہ تلاش کا متن تلاش کے لیے آپ کے آلے کی جیو کوڈنگ سروس کو بھیجا جاتا ہے۔</string>
+    <string name="about_privacy_link">رازداری کی پالیسی پڑھیں</string>
+    <string name="about_no_app_for_link">اس آلے پر کوئی ایپ اسے نہیں کھول سکتی۔</string>
 </resources>

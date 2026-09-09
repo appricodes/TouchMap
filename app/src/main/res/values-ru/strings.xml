@@ -160,4 +160,32 @@
     <string name="action_around_me">Вокруг меня</string>
     <string name="action_around_map_center">Вокруг центра карты</string>
 
+    <string name="menu_credits">Благодарности</string>
+    <string name="credits_title">Благодарности</string>
+    <string name="credits_intro">Navia построено на следующих открытых данных и проектах с открытым исходным кодом.</string>
+    <string name="credits_osm_body">Картографические данные © участники OpenStreetMap, доступны по лицензии Open Database License (ODbL). См. openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Названия мест, которые показываются до загрузки подробной карты, взяты из географической базы данных GeoNames, лицензированной по Creative Commons Attribution 4.0. См. geonames.org.</string>
+    <string name="credits_geofabrik_body">Региональные выгрузки OpenStreetMap, из которых собираются загружаемые картографические данные этого приложения. См. geofabrik.de.</string>
+    <string name="credits_msgpack_body">Двоичная сериализация данных, лицензия Apache 2.0. См. msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX и Material Components</string>
+    <string name="credits_androidx_body">Основной каркас приложений Android и компоненты интерфейса от Google, лицензия Apache 2.0.</string>
+    <string name="credits_play_services_heading">Сервисы Google Play — Местоположение</string>
+    <string name="credits_play_services_body">Службы определения местоположения устройства, от Google.</string>
+    <string name="credits_firebase_body">Отчёты о сбоях, от Google, чтобы можно было находить и устранять проблемы.</string>
+    <string name="download_progress_connecting">Подключение… (область %1$d из %2$d)</string>
+    <string name="download_progress_downloading">Загрузка области %1$d из %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Извлечение области %1$d из %2$d…</string>
+    <string name="download_progress_saving">Сохранение области %1$d из %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Завершается в фоновом режиме — вы можете продолжать пользоваться приложением.</string>
+    <string name="menu_about">О приложении</string>
+    <string name="about_title">О приложении</string>
+    <string name="about_version">Версия %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Издатель</string>
+    <string name="about_contact_heading">Контакты</string>
+    <string name="about_email_action">Отправить письмо</string>
+    <string name="about_website_action">Открыть сайт</string>
+    <string name="about_privacy_heading">Конфиденциальность</string>
+    <string name="about_privacy_body">Navia отправляет отчёты о сбоях в Firebase Crashlytics, сервис Google, чтобы можно было находить и устранять проблемы. Приложение использует местоположение вашего устройства, чтобы сообщать, что находится вокруг вас; ваше местоположение используется на устройстве и не отправляется разработчику приложения. Когда вы ищете адрес, текст поиска отправляется в службу геокодирования вашего устройства для поиска.</string>
+    <string name="about_privacy_link">Прочитать политику конфиденциальности</string>
+    <string name="about_no_app_for_link">На этом устройстве нет приложения, которое может это открыть.</string>
 </resources>

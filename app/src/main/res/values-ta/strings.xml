@@ -172,4 +172,32 @@
     <string name="action_around_me">என்னைச் சுற்றி</string>
     <string name="action_around_map_center">வரைபட மையத்தைச் சுற்றி</string>
 
+    <string name="menu_credits">நன்றிகள்</string>
+    <string name="credits_title">நன்றிகள்</string>
+    <string name="credits_intro">Navia பின்வரும் திறந்த தரவு மற்றும் திறந்த மூல திட்டங்களின் அடிப்படையில் உருவாக்கப்பட்டுள்ளது.</string>
+    <string name="credits_osm_body">வரைபடத் தரவு © OpenStreetMap பங்களிப்பாளர்கள், Open Database License (ODbL) இன் கீழ் கிடைக்கிறது. openstreetmap.org/copyright ஐப் பார்க்கவும்.</string>
+    <string name="credits_geonames_body">விரிவான வரைபடம் பதிவிறக்கப்படுவதற்கு முன் காட்டப்படும் இடப்பெயர்கள் GeoNames புவியியல் தரவுத்தளத்திலிருந்து வருகின்றன, இது Creative Commons Attribution 4.0 இன் கீழ் உரிமம் பெற்றது. geonames.org ஐப் பார்க்கவும்.</string>
+    <string name="credits_geofabrik_body">இந்த ஆப்ஸின் பதிவிறக்கக்கூடிய வரைபடத் தரவை உருவாக்கப் பயன்படும் பிராந்திய OpenStreetMap பிரித்தெடுப்புகள். geofabrik.de ஐப் பார்க்கவும்.</string>
+    <string name="credits_msgpack_body">பைனரி தரவு வரிசைப்படுத்தல், Apache License 2.0 இன் கீழ் உரிமம் பெற்றது. msgpack.org ஐப் பார்க்கவும்.</string>
+    <string name="credits_androidx_heading">AndroidX மற்றும் Material Components</string>
+    <string name="credits_androidx_body">Google இன் Android ஆப்ஸ் அடிப்படை கட்டமைப்பு மற்றும் UI கூறுகள், Apache License 2.0 இன் கீழ் உரிமம் பெற்றவை.</string>
+    <string name="credits_play_services_heading">Google Play சேவைகள் — இருப்பிடம்</string>
+    <string name="credits_play_services_body">சாதன இருப்பிடச் சேவைகள், Google இடமிருந்து.</string>
+    <string name="credits_firebase_body">செயலிழப்பு அறிக்கை, Google இடமிருந்து, சிக்கல்களைக் கண்டறிந்து சரிசெய்ய.</string>
+    <string name="download_progress_connecting">இணைக்கிறது… (%2$d இல் %1$d பகுதி)</string>
+    <string name="download_progress_downloading">%2$d இல் %1$d பகுதியைப் பதிவிறக்குகிறது (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">%2$d இல் %1$d பகுதியைப் பிரித்தெடுக்கிறது…</string>
+    <string name="download_progress_saving">%2$d இல் %1$d பகுதியைச் சேமிக்கிறது — %3$s…</string>
+    <string name="import_cancel_still_running">பின்னணியில் இன்னும் நிறைவடைகிறது — நீங்கள் ஆப்ஸைத் தொடர்ந்து பயன்படுத்தலாம்.</string>
+    <string name="menu_about">ஆப்ஸ் பற்றி</string>
+    <string name="about_title">ஆப்ஸ் பற்றி</string>
+    <string name="about_version">பதிப்பு %1$s (%2$d)</string>
+    <string name="about_publisher_heading">வெளியீட்டாளர்</string>
+    <string name="about_contact_heading">தொடர்பு</string>
+    <string name="about_email_action">மின்னஞ்சல் அனுப்பு</string>
+    <string name="about_website_action">இணையதளத்தைத் திற</string>
+    <string name="about_privacy_heading">தனியுரிமை</string>
+    <string name="about_privacy_body">சிக்கல்களைக் கண்டறிந்து சரிசெய்ய, Navia செயலிழப்பு அறிக்கைகளை Google இன் சேவையான Firebase Crashlytics க்கு அனுப்புகிறது. உங்களைச் சுற்றி என்ன இருக்கிறது என்பதைச் சொல்ல உங்கள் சாதனத்தின் இருப்பிடத்தைப் பயன்படுத்துகிறது; உங்கள் இருப்பிடம் சாதனத்தில் பயன்படுத்தப்படுகிறது, ஆப்ஸ் உருவாக்குநருக்கு அனுப்பப்படுவதில்லை. நீங்கள் ஒரு முகவரியைத் தேடும்போது, அந்தத் தேடல் உரை தேடுவதற்காக உங்கள் சாதனத்தின் புவிக்குறியீட்டு சேவைக்கு அனுப்பப்படுகிறது.</string>
+    <string name="about_privacy_link">தனியுரிமைக் கொள்கையைப் படிக்கவும்</string>
+    <string name="about_no_app_for_link">இந்தச் சாதனத்தில் அதைத் திறக்கக்கூடிய ஆப்ஸ் எதுவும் இல்லை.</string>
 </resources>

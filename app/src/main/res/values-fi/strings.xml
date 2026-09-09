@@ -171,4 +171,32 @@
     <string name="action_around_me">Ympärilläni</string>
     <string name="action_around_map_center">Kartan keskustan ympärillä</string>
 
+    <string name="menu_credits">Kiitokset</string>
+    <string name="credits_title">Kiitokset</string>
+    <string name="credits_intro">Navia perustuu seuraaviin avoimiin tietoaineistoihin ja avoimen lähdekoodin projekteihin.</string>
+    <string name="credits_osm_body">Karttatiedot © OpenStreetMapin osallistujat, saatavilla Open Database License (ODbL) -lisenssillä. Katso openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Paikannimet, jotka näytetään ennen yksityiskohtaisen kartan lataamista, ovat peräisin GeoNames-paikkatietokannasta, joka on lisensoitu Creative Commons Attribution 4.0 -lisenssillä. Katso geonames.org.</string>
+    <string name="credits_geofabrik_body">Alueelliset OpenStreetMap-otteet, joista tämän sovelluksen ladattavat karttatiedot rakennetaan. Katso geofabrik.de.</string>
+    <string name="credits_msgpack_body">Binäärimuotoinen tietojen sarjallistaminen, lisensoitu Apache 2.0 -lisenssillä. Katso msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX ja Material Components</string>
+    <string name="credits_androidx_body">Androidin sovellusten peruskehys ja käyttöliittymäkomponentit Googlelta, lisensoitu Apache 2.0 -lisenssillä.</string>
+    <string name="credits_play_services_heading">Google Play -palvelut — Sijainti</string>
+    <string name="credits_play_services_body">Laitteen sijaintipalvelut, Googlelta.</string>
+    <string name="credits_firebase_body">Kaatumisraportointi, Googlelta, jotta ongelmat voidaan löytää ja korjata.</string>
+    <string name="download_progress_connecting">Yhdistetään… (alue %1$d / %2$d)</string>
+    <string name="download_progress_downloading">Ladataan aluetta %1$d / %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Puretaan aluetta %1$d / %2$d…</string>
+    <string name="download_progress_saving">Tallennetaan aluetta %1$d / %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Viimeistellään yhä taustalla — voit jatkaa sovelluksen käyttöä.</string>
+    <string name="menu_about">Tietoja</string>
+    <string name="about_title">Tietoja</string>
+    <string name="about_version">Versio %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Julkaisija</string>
+    <string name="about_contact_heading">Yhteystiedot</string>
+    <string name="about_email_action">Lähetä sähköposti</string>
+    <string name="about_website_action">Avaa verkkosivusto</string>
+    <string name="about_privacy_heading">Tietosuoja</string>
+    <string name="about_privacy_body">Navia lähettää kaatumisraportteja Firebase Crashlyticsiin, joka on Googlen palvelu, jotta ongelmat voidaan löytää ja korjata. Sovellus käyttää laitteesi sijaintia kertoakseen, mitä ympärilläsi on; sijaintiasi käytetään laitteessa eikä sitä lähetetä sovelluksen kehittäjälle. Kun haet osoitetta, hakuteksti lähetetään laitteesi geokoodauspalveluun haettavaksi.</string>
+    <string name="about_privacy_link">Lue tietosuojakäytäntö</string>
+    <string name="about_no_app_for_link">Tässä laitteessa ei ole sovellusta, joka voisi avata sen.</string>
 </resources>

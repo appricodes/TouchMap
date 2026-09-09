@@ -172,4 +172,32 @@
     <string name="action_around_me">Di sekitar saya</string>
     <string name="action_around_map_center">Di sekitar pusat peta</string>
 
+    <string name="menu_credits">Kredit</string>
+    <string name="credits_title">Kredit</string>
+    <string name="credits_intro">Navia dibangun di atas data terbuka dan proyek sumber terbuka berikut.</string>
+    <string name="credits_osm_body">Data peta © kontributor OpenStreetMap, tersedia di bawah Open Database License (ODbL). Lihat openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Nama tempat yang ditampilkan sebelum peta terperinci diunduh berasal dari basis data geografis GeoNames, dilisensikan di bawah Creative Commons Attribution 4.0. Lihat geonames.org.</string>
+    <string name="credits_geofabrik_body">Ekstrak OpenStreetMap regional yang digunakan untuk membangun data peta aplikasi ini yang dapat diunduh. Lihat geofabrik.de.</string>
+    <string name="credits_msgpack_body">Serialisasi data biner, dilisensikan di bawah Lisensi Apache 2.0. Lihat msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX dan Material Components</string>
+    <string name="credits_androidx_body">Kerangka kerja inti aplikasi Android dan komponen antarmuka dari Google, dilisensikan di bawah Lisensi Apache 2.0.</string>
+    <string name="credits_play_services_heading">Layanan Google Play — Lokasi</string>
+    <string name="credits_play_services_body">Layanan lokasi perangkat, dari Google.</string>
+    <string name="credits_firebase_body">Pelaporan kerusakan, dari Google, agar masalah dapat ditemukan dan diperbaiki.</string>
+    <string name="download_progress_connecting">Menghubungkan… (area %1$d dari %2$d)</string>
+    <string name="download_progress_downloading">Mengunduh area %1$d dari %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Mengekstrak area %1$d dari %2$d…</string>
+    <string name="download_progress_saving">Menyimpan area %1$d dari %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Masih diselesaikan di latar belakang — kamu bisa terus menggunakan aplikasi.</string>
+    <string name="menu_about">Tentang</string>
+    <string name="about_title">Tentang</string>
+    <string name="about_version">Versi %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Penerbit</string>
+    <string name="about_contact_heading">Kontak</string>
+    <string name="about_email_action">Kirim e-mail</string>
+    <string name="about_website_action">Buka situs web</string>
+    <string name="about_privacy_heading">Privasi</string>
+    <string name="about_privacy_body">Navia mengirimkan laporan kerusakan ke Firebase Crashlytics, layanan Google, agar masalah dapat ditemukan dan diperbaiki. Aplikasi ini menggunakan lokasi perangkatmu untuk memberi tahu apa yang ada di sekitarmu; lokasimu digunakan di perangkat dan tidak dikirim ke pengembang aplikasi. Saat kamu mencari alamat, teks pencarian itu dikirim ke layanan geocoding perangkatmu untuk dicari.</string>
+    <string name="about_privacy_link">Baca kebijakan privasi</string>
+    <string name="about_no_app_for_link">Tidak ada aplikasi di perangkat ini yang dapat membukanya.</string>
 </resources>

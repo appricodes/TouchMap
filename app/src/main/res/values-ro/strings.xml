@@ -160,4 +160,32 @@
     <string name="action_around_me">În jurul meu</string>
     <string name="action_around_map_center">În jurul centrului hărții</string>
 
+    <string name="menu_credits">Mulțumiri</string>
+    <string name="credits_title">Mulțumiri</string>
+    <string name="credits_intro">Navia este construită pe următoarele date deschise și proiecte open-source.</string>
+    <string name="credits_osm_body">Date cartografice © contribuitorii OpenStreetMap, disponibile sub licența Open Database License (ODbL). Vedeți openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Numele locurilor afișate înainte de descărcarea unei hărți detaliate provin din baza de date geografică GeoNames, licențiată sub Creative Commons Attribution 4.0. Vedeți geonames.org.</string>
+    <string name="credits_geofabrik_body">Extrase regionale OpenStreetMap folosite pentru a construi datele cartografice descărcabile ale acestei aplicații. Vedeți geofabrik.de.</string>
+    <string name="credits_msgpack_body">Serializare binară a datelor, licențiată sub Licența Apache 2.0. Vedeți msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX și Material Components</string>
+    <string name="credits_androidx_body">Cadrul de bază al aplicațiilor Android și componentele de interfață de la Google, licențiate sub Licența Apache 2.0.</string>
+    <string name="credits_play_services_heading">Servicii Google Play — Locație</string>
+    <string name="credits_play_services_body">Serviciile de locație ale dispozitivului, de la Google.</string>
+    <string name="credits_firebase_body">Raportarea blocărilor, de la Google, pentru ca problemele să poată fi găsite și remediate.</string>
+    <string name="download_progress_connecting">Se conectează… (zona %1$d din %2$d)</string>
+    <string name="download_progress_downloading">Se descarcă zona %1$d din %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Se extrage zona %1$d din %2$d…</string>
+    <string name="download_progress_saving">Se salvează zona %1$d din %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Se finalizează încă în fundal — puteți continua să folosiți aplicația.</string>
+    <string name="menu_about">Despre</string>
+    <string name="about_title">Despre</string>
+    <string name="about_version">Versiunea %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Editor</string>
+    <string name="about_contact_heading">Contact</string>
+    <string name="about_email_action">Trimiteți un e-mail</string>
+    <string name="about_website_action">Deschideți site-ul web</string>
+    <string name="about_privacy_heading">Confidențialitate</string>
+    <string name="about_privacy_body">Navia trimite rapoarte de blocare către Firebase Crashlytics, un serviciu Google, pentru ca problemele să poată fi găsite și remediate. Aplicația folosește locația dispozitivului dvs. pentru a vă spune ce se află în jurul dvs.; locația dvs. este folosită pe dispozitiv și nu este trimisă dezvoltatorului aplicației. Când căutați o adresă, textul căutării este trimis către serviciul de geocodare al dispozitivului dvs. pentru a fi găsit.</string>
+    <string name="about_privacy_link">Citiți politica de confidențialitate</string>
+    <string name="about_no_app_for_link">Nicio aplicație de pe acest dispozitiv nu poate deschide acest lucru.</string>
 </resources>

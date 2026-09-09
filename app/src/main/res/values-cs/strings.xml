@@ -171,4 +171,32 @@
     <string name="action_around_me">Kolem mě</string>
     <string name="action_around_map_center">Kolem středu mapy</string>
 
+    <string name="menu_credits">Poděkování</string>
+    <string name="credits_title">Poděkování</string>
+    <string name="credits_intro">Navia je postavena na následujících otevřených datech a open-source projektech.</string>
+    <string name="credits_osm_body">Mapová data © přispěvatelé OpenStreetMap, dostupná pod licencí Open Database License (ODbL). Viz openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Názvy míst zobrazené předtím, než je stažena podrobná mapa, pocházejí z geografické databáze GeoNames, licencované pod Creative Commons Attribution 4.0. Viz geonames.org.</string>
+    <string name="credits_geofabrik_body">Regionální výřezy OpenStreetMap, ze kterých se sestavují stahovatelná mapová data této aplikace. Viz geofabrik.de.</string>
+    <string name="credits_msgpack_body">Binární serializace dat, licencováno pod licencí Apache 2.0. Viz msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX a Material Components</string>
+    <string name="credits_androidx_body">Základní framework aplikací pro Android a komponenty rozhraní od Googlu, licencováno pod licencí Apache 2.0.</string>
+    <string name="credits_play_services_heading">Služby Google Play — Poloha</string>
+    <string name="credits_play_services_body">Služby určování polohy zařízení, od Googlu.</string>
+    <string name="credits_firebase_body">Hlášení pádů, od Googlu, aby bylo možné najít a opravit problémy.</string>
+    <string name="download_progress_connecting">Připojování… (oblast %1$d z %2$d)</string>
+    <string name="download_progress_downloading">Stahování oblasti %1$d z %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Rozbalování oblasti %1$d z %2$d…</string>
+    <string name="download_progress_saving">Ukládání oblasti %1$d z %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Dokončuje se na pozadí — aplikaci můžete dál používat.</string>
+    <string name="menu_about">O aplikaci</string>
+    <string name="about_title">O aplikaci</string>
+    <string name="about_version">Verze %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Provozovatel</string>
+    <string name="about_contact_heading">Kontakt</string>
+    <string name="about_email_action">Poslat e-mail</string>
+    <string name="about_website_action">Otevřít web</string>
+    <string name="about_privacy_heading">Soukromí</string>
+    <string name="about_privacy_body">Navia posílá hlášení pádů do Firebase Crashlytics, služby Googlu, aby bylo možné najít a opravit problémy. Používá polohu vašeho zařízení, aby vám řekla, co je kolem vás; vaše poloha se používá v zařízení a neodesílá se vývojáři aplikace. Když hledáte adresu, text hledání se odešle do služby geokódování vašeho zařízení, aby ji vyhledala.</string>
+    <string name="about_privacy_link">Přečíst zásady ochrany soukromí</string>
+    <string name="about_no_app_for_link">Žádná aplikace v tomto zařízení to nedokáže otevřít.</string>
 </resources>

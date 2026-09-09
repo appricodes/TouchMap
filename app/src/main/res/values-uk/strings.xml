@@ -172,4 +172,32 @@
     <string name="action_around_me">Навколо мене</string>
     <string name="action_around_map_center">Навколо центру карти</string>
 
+    <string name="menu_credits">Подяки</string>
+    <string name="credits_title">Подяки</string>
+    <string name="credits_intro">Navia побудовано на таких відкритих даних і проєктах з відкритим кодом.</string>
+    <string name="credits_osm_body">Картографічні дані © учасники OpenStreetMap, доступні за ліцензією Open Database License (ODbL). Див. openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Назви місць, що показуються до завантаження докладної карти, взято з географічної бази даних GeoNames, ліцензованої за Creative Commons Attribution 4.0. Див. geonames.org.</string>
+    <string name="credits_geofabrik_body">Регіональні витяги OpenStreetMap, з яких створюються завантажувані картографічні дані цього додатка. Див. geofabrik.de.</string>
+    <string name="credits_msgpack_body">Двійкова серіалізація даних, ліцензія Apache 2.0. Див. msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX і Material Components</string>
+    <string name="credits_androidx_body">Основний каркас додатків Android і компоненти інтерфейсу від Google, ліцензія Apache 2.0.</string>
+    <string name="credits_play_services_heading">Сервіси Google Play — Місцезнаходження</string>
+    <string name="credits_play_services_body">Служби визначення місцезнаходження пристрою, від Google.</string>
+    <string name="credits_firebase_body">Звіти про збої, від Google, щоб можна було знаходити й усувати проблеми.</string>
+    <string name="download_progress_connecting">Підключення… (область %1$d з %2$d)</string>
+    <string name="download_progress_downloading">Завантаження області %1$d з %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Розпакування області %1$d з %2$d…</string>
+    <string name="download_progress_saving">Збереження області %1$d з %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Ще завершується у фоновому режимі — ви можете продовжувати користуватися додатком.</string>
+    <string name="menu_about">Про додаток</string>
+    <string name="about_title">Про додаток</string>
+    <string name="about_version">Версія %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Видавець</string>
+    <string name="about_contact_heading">Контакти</string>
+    <string name="about_email_action">Надіслати лист</string>
+    <string name="about_website_action">Відкрити вебсайт</string>
+    <string name="about_privacy_heading">Конфіденційність</string>
+    <string name="about_privacy_body">Navia надсилає звіти про збої до Firebase Crashlytics, сервісу Google, щоб можна було знаходити й усувати проблеми. Додаток використовує місцезнаходження вашого пристрою, щоб повідомляти, що є навколо вас; ваше місцезнаходження використовується на пристрої й не надсилається розробнику додатка. Коли ви шукаєте адресу, цей текст пошуку надсилається до служби геокодування вашого пристрою для пошуку.</string>
+    <string name="about_privacy_link">Прочитати політику конфіденційності</string>
+    <string name="about_no_app_for_link">На цьому пристрої немає додатка, який може це відкрити.</string>
 </resources>
