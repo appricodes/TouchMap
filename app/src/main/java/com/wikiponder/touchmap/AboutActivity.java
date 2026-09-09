@@ -14,6 +14,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.wikiponder.touchmap.classes.ui.EdgeToEdgeActionBar;
+
 import java.util.Locale;
 
 /**
@@ -34,6 +36,9 @@ public class AboutActivity extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_about);
+		// See EdgeToEdgeActionBar's doc for why this screen needs it: without it, on API 35+ the
+		// app name and version line render underneath the ActionBar.
+		EdgeToEdgeActionBar.apply(this);
 		setTitle(R.string.about_title);
 		// Matches CreditsActivity: routes the hardware volume rocker to the Accessibility stream
 		// every sound in this app plays on (AudioClient).

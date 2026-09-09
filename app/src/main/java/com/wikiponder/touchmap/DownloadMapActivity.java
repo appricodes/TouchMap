@@ -23,6 +23,7 @@ import com.wikiponder.touchmap.classes.boxes.BoxManifest;
 import com.wikiponder.touchmap.classes.boxes.BoxManifestRepository;
 import com.wikiponder.touchmap.classes.importer.ImportService;
 import com.wikiponder.touchmap.classes.importer.ImportState;
+import com.wikiponder.touchmap.classes.ui.EdgeToEdgeActionBar;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -75,6 +76,9 @@ public class DownloadMapActivity extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_download_map);
+		// See EdgeToEdgeActionBar's doc for why this screen needs it: without it, on API 35+ this
+		// screen's content renders underneath the ActionBar.
+		EdgeToEdgeActionBar.apply(this);
 		setTitle(R.string.download_map_title);
 		// See BaseActivity's onCreate for why: routes the hardware volume rocker to the same
 		// Accessibility stream every sound in this app plays on (AudioClient).
