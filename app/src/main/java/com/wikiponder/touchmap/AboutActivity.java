@@ -14,6 +14,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.Locale;
+
 /**
  * Who publishes this app, how to reach them, and what data leaves the device — an Impressum, which
  * is required to distribute in Germany/the EU. Reachable from MapActivity's More menu
@@ -68,7 +70,10 @@ public class AboutActivity extends AppCompatActivity {
 			// Cannot happen for our own package; leave the placeholders rather than crash a screen
 			// whose whole job is to be readable.
 		}
-		versionView.setText(getString(R.string.about_version, name, code));
+		// Formatted with Locale.US on purpose. A version is one identifier, and the default locale
+		// would render %2$d in the locale's own digits while %1$s ("1.1.2") stays ASCII — Persian
+		// showed "1.1.2 (۶)", the same number in two digit systems on one line.
+		versionView.setText(String.format(Locale.US, getString(R.string.about_version), name, code));
 	}
 
 	private void wireEmailRow() {
