@@ -21,6 +21,7 @@ import com.wikiponder.touchmap.classes.interfaces.UserLocationListener;
 import com.wikiponder.touchmap.classes.models.MapElement;
 import com.wikiponder.touchmap.classes.models.NearestElement;
 import com.wikiponder.touchmap.classes.ui.ActionsDialog;
+import com.wikiponder.touchmap.classes.ui.EdgeToEdgeActionBar;
 import com.wikiponder.touchmap.classes.ui.ElementDetailsDialog;
 import com.wikiponder.touchmap.classes.ui.NodeAdapter;
 import com.wikiponder.touchmap.classes.ui.NodeEditDialogBox;
@@ -77,6 +78,9 @@ public class NodeListActivity extends AppCompatActivity implements UserLocationL
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_node_list);
+		// See EdgeToEdgeActionBar's doc for why this screen needs it: without it, on API 35+ the
+		// node list's first row renders underneath the ActionBar.
+		EdgeToEdgeActionBar.apply(this);
 		// See BaseActivity's onCreate for why: routes the hardware volume rocker to the same
 		// Accessibility stream every sound in this app plays on (AudioClient).
 		setVolumeControlStream(AudioManager.STREAM_ACCESSIBILITY);
