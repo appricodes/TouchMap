@@ -160,4 +160,32 @@
     <string name="action_around_me">Okolo mňa</string>
     <string name="action_around_map_center">Okolo stredu mapy</string>
 
+    <string name="menu_credits">Poďakovanie</string>
+    <string name="credits_title">Poďakovanie</string>
+    <string name="credits_intro">Navia je postavená na nasledujúcich otvorených dátach a open-source projektoch.</string>
+    <string name="credits_osm_body">Mapové údaje © prispievatelia OpenStreetMap, dostupné pod licenciou Open Database License (ODbL). Pozrite openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Názvy miest zobrazené predtým, než je stiahnutá podrobná mapa, pochádzajú z geografickej databázy GeoNames, licencovanej pod Creative Commons Attribution 4.0. Pozrite geonames.org.</string>
+    <string name="credits_geofabrik_body">Regionálne výrezy OpenStreetMap, z ktorých sa zostavujú stiahnuteľné mapové údaje tejto aplikácie. Pozrite geofabrik.de.</string>
+    <string name="credits_msgpack_body">Binárna serializácia údajov, licencované pod licenciou Apache 2.0. Pozrite msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX a Material Components</string>
+    <string name="credits_androidx_body">Základný framework aplikácií pre Android a komponenty rozhrania od Googlu, licencované pod licenciou Apache 2.0.</string>
+    <string name="credits_play_services_heading">Služby Google Play — Poloha</string>
+    <string name="credits_play_services_body">Služby určovania polohy zariadenia, od Googlu.</string>
+    <string name="credits_firebase_body">Hlásenia o zlyhaniach, od Googlu, aby bolo možné nájsť a opraviť problémy.</string>
+    <string name="download_progress_connecting">Pripájanie… (oblasť %1$d z %2$d)</string>
+    <string name="download_progress_downloading">Sťahovanie oblasti %1$d z %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Rozbaľovanie oblasti %1$d z %2$d…</string>
+    <string name="download_progress_saving">Ukladanie oblasti %1$d z %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Dokončuje sa na pozadí — aplikáciu môžete ďalej používať.</string>
+    <string name="menu_about">O aplikácii</string>
+    <string name="about_title">O aplikácii</string>
+    <string name="about_version">Verzia %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Prevádzkovateľ</string>
+    <string name="about_contact_heading">Kontakt</string>
+    <string name="about_email_action">Poslať e-mail</string>
+    <string name="about_website_action">Otvoriť web</string>
+    <string name="about_privacy_heading">Súkromie</string>
+    <string name="about_privacy_body">Navia posiela hlásenia o zlyhaniach do Firebase Crashlytics, služby Googlu, aby bolo možné nájsť a opraviť problémy. Používa polohu vášho zariadenia, aby vám povedala, čo je okolo vás; vaša poloha sa používa v zariadení a neodosiela sa vývojárovi aplikácie. Keď hľadáte adresu, text hľadania sa odošle do služby geokódovania vášho zariadenia, aby ju vyhľadala.</string>
+    <string name="about_privacy_link">Prečítať zásady ochrany súkromia</string>
+    <string name="about_no_app_for_link">Žiadna aplikácia v tomto zariadení to nedokáže otvoriť.</string>
 </resources>

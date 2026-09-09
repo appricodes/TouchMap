@@ -171,4 +171,32 @@
     <string name="action_around_me">Om my</string>
     <string name="action_around_map_center">Om kaartmiddelpunt</string>
 
+    <string name="menu_credits">Erkennings</string>
+    <string name="credits_title">Erkennings</string>
+    <string name="credits_intro">Navia is op die volgende oop data en oopbronprojekte gebou.</string>
+    <string name="credits_osm_body">Kaartdata © OpenStreetMap-bydraers, beskikbaar onder die Open Database License (ODbL). Sien openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Pleknaam wat gewys word voordat \'n gedetailleerde kaart afgelaai is, kom uit die geografiese databasis GeoNames, gelisensieer onder Creative Commons Attribution 4.0. Sien geonames.org.</string>
+    <string name="credits_geofabrik_body">Streeksuittreksels van OpenStreetMap wat gebruik word om hierdie app se aflaaibare kaartdata te bou. Sien geofabrik.de.</string>
+    <string name="credits_msgpack_body">Binêre dataserialisering, gelisensieer onder die Apache-lisensie 2.0. Sien msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX en Material Components</string>
+    <string name="credits_androidx_body">Kern-Android-appraamwerk en koppelvlakkomponente van Google, gelisensieer onder die Apache-lisensie 2.0.</string>
+    <string name="credits_play_services_heading">Google Play-dienste — Ligging</string>
+    <string name="credits_play_services_body">Toestelliggingdienste, van Google.</string>
+    <string name="credits_firebase_body">Ineenstortingsverslagdoening, van Google, sodat probleme gevind en reggemaak kan word.</string>
+    <string name="download_progress_connecting">Verbind tans… (gebied %1$d van %2$d)</string>
+    <string name="download_progress_downloading">Laai gebied %1$d van %2$d af (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Pak gebied %1$d van %2$d uit…</string>
+    <string name="download_progress_saving">Stoor gebied %1$d van %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Word nog op die agtergrond voltooi — jy kan die app aanhou gebruik.</string>
+    <string name="menu_about">Oor die app</string>
+    <string name="about_title">Oor die app</string>
+    <string name="about_version">Weergawe %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Uitgewer</string>
+    <string name="about_contact_heading">Kontak</string>
+    <string name="about_email_action">Stuur \'n e-pos</string>
+    <string name="about_website_action">Open die webwerf</string>
+    <string name="about_privacy_heading">Privaatheid</string>
+    <string name="about_privacy_body">Navia stuur ineenstortingsverslae na Firebase Crashlytics, \'n Google-diens, sodat probleme gevind en reggemaak kan word. Dit gebruik jou toestel se ligging om vir jou te sê wat om jou is; jou ligging word op die toestel gebruik en word nie na die app se ontwikkelaar gestuur nie. Wanneer jy \'n adres soek, word daardie soekteks na jou toestel se geokoderingdiens gestuur om opgesoek te word.</string>
+    <string name="about_privacy_link">Lees die privaatheidsbeleid</string>
+    <string name="about_no_app_for_link">Geen app op hierdie toestel kan dit oopmaak nie.</string>
 </resources>

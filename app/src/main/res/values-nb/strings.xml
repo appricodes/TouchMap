@@ -160,4 +160,32 @@
     <string name="action_around_me">Rundt meg</string>
     <string name="action_around_map_center">Rundt kartsenteret</string>
 
+    <string name="menu_credits">Takk til</string>
+    <string name="credits_title">Takk til</string>
+    <string name="credits_intro">Navia er bygget på følgende åpne data og åpen kildekode-prosjekter.</string>
+    <string name="credits_osm_body">Kartdata © OpenStreetMap-bidragsytere, tilgjengelig under Open Database License (ODbL). Se openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Stedsnavn som vises før et detaljert kart er lastet ned, kommer fra den geografiske databasen GeoNames, lisensiert under Creative Commons Attribution 4.0. Se geonames.org.</string>
+    <string name="credits_geofabrik_body">Regionale OpenStreetMap-uttrekk som brukes til å bygge appens nedlastbare kartdata. Se geofabrik.de.</string>
+    <string name="credits_msgpack_body">Binær dataserialisering, lisensiert under Apache-lisensen 2.0. Se msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX og Material Components</string>
+    <string name="credits_androidx_body">Grunnleggende rammeverk for Android-apper og grensesnittkomponenter fra Google, lisensiert under Apache-lisensen 2.0.</string>
+    <string name="credits_play_services_heading">Google Play-tjenester — Posisjon</string>
+    <string name="credits_play_services_body">Enhetens posisjonstjenester, fra Google.</string>
+    <string name="credits_firebase_body">Krasjrapportering, fra Google, slik at problemer kan finnes og rettes.</string>
+    <string name="download_progress_connecting">Kobler til… (område %1$d av %2$d)</string>
+    <string name="download_progress_downloading">Laster ned område %1$d av %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Pakker ut område %1$d av %2$d…</string>
+    <string name="download_progress_saving">Lagrer område %1$d av %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Fullføres fortsatt i bakgrunnen — du kan fortsette å bruke appen.</string>
+    <string name="menu_about">Om appen</string>
+    <string name="about_title">Om appen</string>
+    <string name="about_version">Versjon %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Utgiver</string>
+    <string name="about_contact_heading">Kontakt</string>
+    <string name="about_email_action">Send en e-post</string>
+    <string name="about_website_action">Åpne nettstedet</string>
+    <string name="about_privacy_heading">Personvern</string>
+    <string name="about_privacy_body">Navia sender krasjrapporter til Firebase Crashlytics, en Google-tjeneste, slik at problemer kan finnes og rettes. Appen bruker enhetens posisjon for å fortelle deg hva som er rundt deg; posisjonen din brukes på enheten og sendes ikke til appens utvikler. Når du søker etter en adresse, sendes søketeksten til enhetens geokodingstjeneste for oppslag.</string>
+    <string name="about_privacy_link">Les personvernerklæringen</string>
+    <string name="about_no_app_for_link">Ingen app på denne enheten kan åpne det.</string>
 </resources>

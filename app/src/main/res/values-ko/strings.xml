@@ -160,4 +160,32 @@
     <string name="action_around_me">내 주변</string>
     <string name="action_around_map_center">지도 중심 주변</string>
 
+    <string name="menu_credits">크레딧</string>
+    <string name="credits_title">크레딧</string>
+    <string name="credits_intro">Navia는 다음 공개 데이터 및 오픈 소스 프로젝트를 기반으로 합니다.</string>
+    <string name="credits_osm_body">지도 데이터 © OpenStreetMap 기여자, Open Database License(ODbL)에 따라 이용할 수 있습니다. openstreetmap.org/copyright을 참조하세요.</string>
+    <string name="credits_geonames_body">상세 지도를 내려받기 전에 표시되는 지명은 Creative Commons Attribution 4.0으로 라이선스된 지리 데이터베이스 GeoNames에서 가져옵니다. geonames.org를 참조하세요.</string>
+    <string name="credits_geofabrik_body">이 앱의 다운로드 가능한 지도 데이터를 만드는 데 사용하는 OpenStreetMap 지역별 추출 데이터입니다. geofabrik.de를 참조하세요.</string>
+    <string name="credits_msgpack_body">바이너리 데이터 직렬화, Apache License 2.0으로 라이선스되었습니다. msgpack.org를 참조하세요.</string>
+    <string name="credits_androidx_heading">AndroidX 및 Material Components</string>
+    <string name="credits_androidx_body">Google에서 제공하는 핵심 Android 앱 프레임워크와 UI 구성 요소, Apache License 2.0으로 라이선스되었습니다.</string>
+    <string name="credits_play_services_heading">Google Play 서비스 — 위치</string>
+    <string name="credits_play_services_body">기기 위치 서비스, Google 제공.</string>
+    <string name="credits_firebase_body">비정상 종료 보고, Google 제공, 문제를 찾아 고칠 수 있도록 합니다.</string>
+    <string name="download_progress_connecting">연결 중… (영역 %1$d/%2$d)</string>
+    <string name="download_progress_downloading">영역 %1$d/%2$d 다운로드 중 (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">영역 %1$d/%2$d 압축 푸는 중…</string>
+    <string name="download_progress_saving">영역 %1$d/%2$d 저장 중 — %3$s…</string>
+    <string name="import_cancel_still_running">백그라운드에서 마무리하는 중입니다. 앱은 계속 사용할 수 있습니다.</string>
+    <string name="menu_about">정보</string>
+    <string name="about_title">정보</string>
+    <string name="about_version">버전 %1$s (%2$d)</string>
+    <string name="about_publisher_heading">제공자</string>
+    <string name="about_contact_heading">연락처</string>
+    <string name="about_email_action">이메일 보내기</string>
+    <string name="about_website_action">웹사이트 열기</string>
+    <string name="about_privacy_heading">개인정보</string>
+    <string name="about_privacy_body">Navia는 문제를 찾아 고칠 수 있도록 Google 서비스인 Firebase Crashlytics에 비정상 종료 보고서를 보냅니다. 주변에 무엇이 있는지 알려주기 위해 기기 위치를 사용하며, 위치는 기기에서 사용되고 앱 개발자에게 전송되지 않습니다. 주소를 검색하면 해당 검색어가 조회를 위해 기기의 지오코딩 서비스로 전송됩니다.</string>
+    <string name="about_privacy_link">개인정보처리방침 읽기</string>
+    <string name="about_no_app_for_link">이 기기에서 이를 열 수 있는 앱이 없습니다.</string>
 </resources>

@@ -172,4 +172,32 @@
     <string name="action_around_me">আমার আশপাশে</string>
     <string name="action_around_map_center">মানচিত্রের কেন্দ্রের আশপাশে</string>
 
+    <string name="menu_credits">কৃতজ্ঞতা</string>
+    <string name="credits_title">কৃতজ্ঞতা</string>
+    <string name="credits_intro">Navia নিম্নলিখিত উন্মুক্ত ডেটা এবং ওপেন-সোর্স প্রকল্পের উপর নির্মিত।</string>
+    <string name="credits_osm_body">মানচিত্রের ডেটা © OpenStreetMap অবদানকারীগণ, Open Database License (ODbL) এর অধীনে উপলব্ধ। openstreetmap.org/copyright দেখুন।</string>
+    <string name="credits_geonames_body">বিস্তারিত মানচিত্র ডাউনলোড হওয়ার আগে দেখানো স্থাননামগুলি GeoNames ভৌগোলিক ডেটাবেস থেকে আসে, যা Creative Commons Attribution 4.0 এর অধীনে লাইসেন্সপ্রাপ্ত। geonames.org দেখুন।</string>
+    <string name="credits_geofabrik_body">আঞ্চলিক OpenStreetMap নির্যাস, যা দিয়ে এই অ্যাপের ডাউনলোডযোগ্য মানচিত্র ডেটা তৈরি করা হয়। geofabrik.de দেখুন।</string>
+    <string name="credits_msgpack_body">বাইনারি ডেটা সিরিয়ালাইজেশন, Apache License 2.0 এর অধীনে লাইসেন্সপ্রাপ্ত। msgpack.org দেখুন।</string>
+    <string name="credits_androidx_heading">AndroidX এবং Material Components</string>
+    <string name="credits_androidx_body">Google থেকে Android অ্যাপের মূল ফ্রেমওয়ার্ক এবং UI উপাদান, Apache License 2.0 এর অধীনে লাইসেন্সপ্রাপ্ত।</string>
+    <string name="credits_play_services_heading">Google Play পরিষেবা — অবস্থান</string>
+    <string name="credits_play_services_body">ডিভাইসের অবস্থান পরিষেবা, Google থেকে।</string>
+    <string name="credits_firebase_body">ক্র্যাশ রিপোর্টিং, Google থেকে, যাতে সমস্যা খুঁজে বের করে ঠিক করা যায়।</string>
+    <string name="download_progress_connecting">সংযোগ করা হচ্ছে… (%2$d টির মধ্যে এলাকা %1$d)</string>
+    <string name="download_progress_downloading">%2$d টির মধ্যে এলাকা %1$d ডাউনলোড হচ্ছে (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">%2$d টির মধ্যে এলাকা %1$d বের করা হচ্ছে…</string>
+    <string name="download_progress_saving">%2$d টির মধ্যে এলাকা %1$d সংরক্ষণ করা হচ্ছে — %3$s…</string>
+    <string name="import_cancel_still_running">পটভূমিতে এখনও শেষ হচ্ছে — আপনি অ্যাপ ব্যবহার চালিয়ে যেতে পারেন।</string>
+    <string name="menu_about">অ্যাপ সম্পর্কে</string>
+    <string name="about_title">অ্যাপ সম্পর্কে</string>
+    <string name="about_version">সংস্করণ %1$s (%2$d)</string>
+    <string name="about_publisher_heading">প্রকাশক</string>
+    <string name="about_contact_heading">যোগাযোগ</string>
+    <string name="about_email_action">ইমেল পাঠান</string>
+    <string name="about_website_action">ওয়েবসাইট খুলুন</string>
+    <string name="about_privacy_heading">গোপনীয়তা</string>
+    <string name="about_privacy_body">Navia ক্র্যাশ রিপোর্ট Firebase Crashlytics-এ পাঠায়, যা Google-এর একটি পরিষেবা, যাতে সমস্যা খুঁজে বের করে ঠিক করা যায়। এটি আপনার ডিভাইসের অবস্থান ব্যবহার করে আপনাকে জানায় আপনার আশেপাশে কী আছে; আপনার অবস্থান ডিভাইসেই ব্যবহৃত হয় এবং অ্যাপের ডেভেলপারকে পাঠানো হয় না। আপনি যখন কোনও ঠিকানা খোঁজেন, সেই খোঁজার লেখাটি খুঁজে দেখার জন্য আপনার ডিভাইসের জিওকোডিং পরিষেবাতে পাঠানো হয়।</string>
+    <string name="about_privacy_link">গোপনীয়তা নীতি পড়ুন</string>
+    <string name="about_no_app_for_link">এই ডিভাইসের কোনও অ্যাপ সেটি খুলতে পারে না।</string>
 </resources>

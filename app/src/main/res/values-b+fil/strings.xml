@@ -172,4 +172,32 @@
     <string name="action_around_me">Sa paligid ko</string>
     <string name="action_around_map_center">Sa paligid ng gitna ng mapa</string>
 
+    <string name="menu_credits">Mga Kredito</string>
+    <string name="credits_title">Mga Kredito</string>
+    <string name="credits_intro">Ang Navia ay binuo sa mga sumusunod na bukás na datos at open-source na proyekto.</string>
+    <string name="credits_osm_body">Datos ng mapa © mga kontribyutor ng OpenStreetMap, available sa ilalim ng Open Database License (ODbL). Tingnan ang openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Ang mga pangalan ng lugar na ipinapakita bago ma-download ang detalyadong mapa ay mula sa heograpikong database na GeoNames, na lisensyado sa ilalim ng Creative Commons Attribution 4.0. Tingnan ang geonames.org.</string>
+    <string name="credits_geofabrik_body">Mga panrehiyong extract ng OpenStreetMap na ginagamit para buuin ang nada-download na datos ng mapa ng app na ito. Tingnan ang geofabrik.de.</string>
+    <string name="credits_msgpack_body">Binary na serialization ng datos, lisensyado sa ilalim ng Apache License 2.0. Tingnan ang msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX at Material Components</string>
+    <string name="credits_androidx_body">Pangunahing framework ng Android app at mga bahagi ng interface mula sa Google, lisensyado sa ilalim ng Apache License 2.0.</string>
+    <string name="credits_play_services_heading">Google Play services — Lokasyon</string>
+    <string name="credits_play_services_body">Mga serbisyo ng lokasyon ng device, mula sa Google.</string>
+    <string name="credits_firebase_body">Pag-uulat ng crash, mula sa Google, para matukoy at maayos ang mga problema.</string>
+    <string name="download_progress_connecting">Kumokonekta… (lugar %1$d ng %2$d)</string>
+    <string name="download_progress_downloading">Dina-download ang lugar %1$d ng %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Ine-extract ang lugar %1$d ng %2$d…</string>
+    <string name="download_progress_saving">Sine-save ang lugar %1$d ng %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Tinatapos pa sa background — puwede mong ipagpatuloy ang paggamit ng app.</string>
+    <string name="menu_about">Tungkol dito</string>
+    <string name="about_title">Tungkol dito</string>
+    <string name="about_version">Bersyon %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Publisher</string>
+    <string name="about_contact_heading">Kontak</string>
+    <string name="about_email_action">Magpadala ng e-mail</string>
+    <string name="about_website_action">Buksan ang website</string>
+    <string name="about_privacy_heading">Privacy</string>
+    <string name="about_privacy_body">Nagpapadala ang Navia ng mga ulat ng crash sa Firebase Crashlytics, isang serbisyo ng Google, para matukoy at maayos ang mga problema. Ginagamit nito ang lokasyon ng iyong device para sabihin sa iyo kung ano ang nasa paligid mo; ginagamit ang iyong lokasyon sa device at hindi ipinapadala sa developer ng app. Kapag naghanap ka ng address, ipinapadala ang teksto ng paghahanap na iyon sa serbisyo ng geocoding ng iyong device para hanapin.</string>
+    <string name="about_privacy_link">Basahin ang patakaran sa privacy</string>
+    <string name="about_no_app_for_link">Walang app sa device na ito ang makakabukas niyan.</string>
 </resources>

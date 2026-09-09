@@ -172,4 +172,32 @@
     <string name="action_around_me">Quanh tôi</string>
     <string name="action_around_map_center">Quanh tâm bản đồ</string>
 
+    <string name="menu_credits">Ghi công</string>
+    <string name="credits_title">Ghi công</string>
+    <string name="credits_intro">Navia được xây dựng trên các dữ liệu mở và dự án nguồn mở sau.</string>
+    <string name="credits_osm_body">Dữ liệu bản đồ © những người đóng góp cho OpenStreetMap, khả dụng theo giấy phép Open Database License (ODbL). Xem openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Tên địa điểm hiển thị trước khi tải bản đồ chi tiết đến từ cơ sở dữ liệu địa lý GeoNames, được cấp phép theo Creative Commons Attribution 4.0. Xem geonames.org.</string>
+    <string name="credits_geofabrik_body">Các trích xuất OpenStreetMap theo vùng dùng để tạo dữ liệu bản đồ tải xuống được của ứng dụng này. Xem geofabrik.de.</string>
+    <string name="credits_msgpack_body">Tuần tự hóa dữ liệu nhị phân, được cấp phép theo Giấy phép Apache 2.0. Xem msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX và Material Components</string>
+    <string name="credits_androidx_body">Khung ứng dụng Android cốt lõi và các thành phần giao diện từ Google, được cấp phép theo Giấy phép Apache 2.0.</string>
+    <string name="credits_play_services_heading">Dịch vụ Google Play — Vị trí</string>
+    <string name="credits_play_services_body">Dịch vụ vị trí của thiết bị, từ Google.</string>
+    <string name="credits_firebase_body">Báo cáo sự cố, từ Google, để có thể tìm và khắc phục vấn đề.</string>
+    <string name="download_progress_connecting">Đang kết nối… (khu vực %1$d / %2$d)</string>
+    <string name="download_progress_downloading">Đang tải khu vực %1$d / %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Đang giải nén khu vực %1$d / %2$d…</string>
+    <string name="download_progress_saving">Đang lưu khu vực %1$d / %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Vẫn đang hoàn tất ở chế độ nền — bạn có thể tiếp tục dùng ứng dụng.</string>
+    <string name="menu_about">Giới thiệu</string>
+    <string name="about_title">Giới thiệu</string>
+    <string name="about_version">Phiên bản %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Nhà phát hành</string>
+    <string name="about_contact_heading">Liên hệ</string>
+    <string name="about_email_action">Gửi e-mail</string>
+    <string name="about_website_action">Mở trang web</string>
+    <string name="about_privacy_heading">Quyền riêng tư</string>
+    <string name="about_privacy_body">Navia gửi báo cáo sự cố tới Firebase Crashlytics, một dịch vụ của Google, để có thể tìm và khắc phục vấn đề. Ứng dụng dùng vị trí thiết bị của bạn để cho bạn biết những gì ở xung quanh; vị trí của bạn được dùng trên thiết bị và không được gửi cho nhà phát triển ứng dụng. Khi bạn tìm một địa chỉ, văn bản tìm kiếm đó được gửi tới dịch vụ mã hóa địa lý của thiết bị để tra cứu.</string>
+    <string name="about_privacy_link">Đọc chính sách quyền riêng tư</string>
+    <string name="about_no_app_for_link">Không có ứng dụng nào trên thiết bị này mở được nội dung đó.</string>
 </resources>

@@ -160,4 +160,32 @@
     <string name="action_around_me">自分の周り</string>
     <string name="action_around_map_center">地図の中心の周り</string>
 
+    <string name="menu_credits">クレジット</string>
+    <string name="credits_title">クレジット</string>
+    <string name="credits_intro">Navia は次のオープンデータおよびオープンソースプロジェクトを利用しています。</string>
+    <string name="credits_osm_body">地図データ © OpenStreetMap 貢献者、Open Database License (ODbL) に基づいて利用できます。openstreetmap.org/copyright をご覧ください。</string>
+    <string name="credits_geonames_body">詳細な地図をダウンロードする前に表示される地名は、Creative Commons Attribution 4.0 でライセンスされている地理データベース GeoNames に由来します。geonames.org をご覧ください。</string>
+    <string name="credits_geofabrik_body">このアプリのダウンロード可能な地図データの作成に使用している OpenStreetMap の地域別抽出データです。geofabrik.de をご覧ください。</string>
+    <string name="credits_msgpack_body">バイナリデータのシリアル化。Apache License 2.0 でライセンスされています。msgpack.org をご覧ください。</string>
+    <string name="credits_androidx_heading">AndroidX と Material Components</string>
+    <string name="credits_androidx_body">Google による Android アプリの基盤フレームワークと UI コンポーネント。Apache License 2.0 でライセンスされています。</string>
+    <string name="credits_play_services_heading">Google Play 開発者サービス — 位置情報</string>
+    <string name="credits_play_services_body">端末の位置情報サービス。Google 提供。</string>
+    <string name="credits_firebase_body">クラッシュレポート。Google 提供。問題の発見と修正に使用します。</string>
+    <string name="download_progress_connecting">接続中… (エリア %1$d / %2$d)</string>
+    <string name="download_progress_downloading">エリア %1$d / %2$d をダウンロード中 (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">エリア %1$d / %2$d を展開中…</string>
+    <string name="download_progress_saving">エリア %1$d / %2$d を保存中 — %3$s…</string>
+    <string name="import_cancel_still_running">バックグラウンドで処理を続けています。アプリはそのまま使用できます。</string>
+    <string name="menu_about">このアプリについて</string>
+    <string name="about_title">このアプリについて</string>
+    <string name="about_version">バージョン %1$s (%2$d)</string>
+    <string name="about_publisher_heading">提供者</string>
+    <string name="about_contact_heading">連絡先</string>
+    <string name="about_email_action">メールを送信</string>
+    <string name="about_website_action">ウェブサイトを開く</string>
+    <string name="about_privacy_heading">プライバシー</string>
+    <string name="about_privacy_body">Navia は、問題の発見と修正のために、Google のサービスである Firebase Crashlytics にクラッシュレポートを送信します。周囲に何があるかをお伝えするために端末の位置情報を使用します。位置情報は端末内で使用され、アプリの開発者には送信されません。住所を検索すると、その検索文字列は端末のジオコーディングサービスに送信されて照会されます。</string>
+    <string name="about_privacy_link">プライバシーポリシーを読む</string>
+    <string name="about_no_app_for_link">この端末には、それを開けるアプリがありません。</string>
 </resources>

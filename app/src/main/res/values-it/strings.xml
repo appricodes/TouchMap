@@ -172,4 +172,32 @@
     <string name="action_around_me">Intorno a me</string>
     <string name="action_around_map_center">Intorno al centro della mappa</string>
 
+    <string name="menu_credits">Crediti</string>
+    <string name="credits_title">Crediti</string>
+    <string name="credits_intro">Navia è basata sui seguenti dati aperti e progetti open source.</string>
+    <string name="credits_osm_body">Dati cartografici © contributori di OpenStreetMap, disponibili con licenza Open Database License (ODbL). Vedi openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">I nomi dei luoghi mostrati prima che sia stata scaricata una mappa dettagliata provengono dal database geografico GeoNames, con licenza Creative Commons Attribution 4.0. Vedi geonames.org.</string>
+    <string name="credits_geofabrik_body">Estratti regionali di OpenStreetMap usati per costruire i dati cartografici scaricabili di questa app. Vedi geofabrik.de.</string>
+    <string name="credits_msgpack_body">Serializzazione binaria dei dati, con licenza Apache 2.0. Vedi msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX e Material Components</string>
+    <string name="credits_androidx_body">Framework di base delle app Android e componenti dell\'interfaccia di Google, con licenza Apache 2.0.</string>
+    <string name="credits_play_services_heading">Google Play Services — Posizione</string>
+    <string name="credits_play_services_body">Servizi di posizione del dispositivo, di Google.</string>
+    <string name="credits_firebase_body">Segnalazioni di arresto anomalo, di Google, per individuare e risolvere i problemi.</string>
+    <string name="download_progress_connecting">Connessione… (area %1$d di %2$d)</string>
+    <string name="download_progress_downloading">Download dell\'area %1$d di %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Estrazione dell\'area %1$d di %2$d…</string>
+    <string name="download_progress_saving">Salvataggio dell\'area %1$d di %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Completamento in corso in background: puoi continuare a usare l\'app.</string>
+    <string name="menu_about">Informazioni</string>
+    <string name="about_title">Informazioni</string>
+    <string name="about_version">Versione %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Editore</string>
+    <string name="about_contact_heading">Contatti</string>
+    <string name="about_email_action">Invia un\'e-mail</string>
+    <string name="about_website_action">Apri il sito web</string>
+    <string name="about_privacy_heading">Privacy</string>
+    <string name="about_privacy_body">Navia invia segnalazioni di arresto anomalo a Firebase Crashlytics, un servizio di Google, per individuare e risolvere i problemi. Usa la posizione del dispositivo per indicarti cosa c\'è intorno a te; la tua posizione viene usata sul dispositivo e non viene inviata allo sviluppatore dell\'app. Quando cerchi un indirizzo, il testo della ricerca viene inviato al servizio di geocodifica del dispositivo per essere risolto.</string>
+    <string name="about_privacy_link">Leggi l\'informativa sulla privacy</string>
+    <string name="about_no_app_for_link">Nessuna app su questo dispositivo può aprirlo.</string>
 </resources>

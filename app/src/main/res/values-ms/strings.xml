@@ -172,4 +172,32 @@
     <string name="action_around_me">Sekeliling saya</string>
     <string name="action_around_map_center">Sekeliling tengah peta</string>
 
+    <string name="menu_credits">Penghargaan</string>
+    <string name="credits_title">Penghargaan</string>
+    <string name="credits_intro">Navia dibina di atas data terbuka dan projek sumber terbuka berikut.</string>
+    <string name="credits_osm_body">Data peta © penyumbang OpenStreetMap, tersedia di bawah Open Database License (ODbL). Lihat openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Nama tempat yang dipaparkan sebelum peta terperinci dimuat turun datang daripada pangkalan data geografi GeoNames, dilesenkan di bawah Creative Commons Attribution 4.0. Lihat geonames.org.</string>
+    <string name="credits_geofabrik_body">Petikan OpenStreetMap serantau yang digunakan untuk membina data peta apl ini yang boleh dimuat turun. Lihat geofabrik.de.</string>
+    <string name="credits_msgpack_body">Pensirilan data binari, dilesenkan di bawah Lesen Apache 2.0. Lihat msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX dan Material Components</string>
+    <string name="credits_androidx_body">Rangka kerja teras apl Android dan komponen antara muka daripada Google, dilesenkan di bawah Lesen Apache 2.0.</string>
+    <string name="credits_play_services_heading">Perkhidmatan Google Play — Lokasi</string>
+    <string name="credits_play_services_body">Perkhidmatan lokasi peranti, daripada Google.</string>
+    <string name="credits_firebase_body">Pelaporan ranap, daripada Google, supaya masalah dapat dikesan dan dibaiki.</string>
+    <string name="download_progress_connecting">Menyambung… (kawasan %1$d daripada %2$d)</string>
+    <string name="download_progress_downloading">Memuat turun kawasan %1$d daripada %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Mengekstrak kawasan %1$d daripada %2$d…</string>
+    <string name="download_progress_saving">Menyimpan kawasan %1$d daripada %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Masih diselesaikan di latar belakang — anda boleh terus menggunakan apl.</string>
+    <string name="menu_about">Perihal</string>
+    <string name="about_title">Perihal</string>
+    <string name="about_version">Versi %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Penerbit</string>
+    <string name="about_contact_heading">Hubungi</string>
+    <string name="about_email_action">Hantar e-mel</string>
+    <string name="about_website_action">Buka laman web</string>
+    <string name="about_privacy_heading">Privasi</string>
+    <string name="about_privacy_body">Navia menghantar laporan ranap ke Firebase Crashlytics, perkhidmatan Google, supaya masalah dapat dikesan dan dibaiki. Apl ini menggunakan lokasi peranti anda untuk memberitahu apa yang ada di sekeliling anda; lokasi anda digunakan pada peranti dan tidak dihantar kepada pembangun apl. Apabila anda mencari alamat, teks carian itu dihantar ke perkhidmatan geopengekodan peranti anda untuk dicari.</string>
+    <string name="about_privacy_link">Baca dasar privasi</string>
+    <string name="about_no_app_for_link">Tiada apl pada peranti ini boleh membukanya.</string>
 </resources>

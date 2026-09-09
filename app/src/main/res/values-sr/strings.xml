@@ -160,4 +160,32 @@
     <string name="action_around_me">Око мене</string>
     <string name="action_around_map_center">Око центра мапе</string>
 
+    <string name="menu_credits">Захвалнице</string>
+    <string name="credits_title">Захвалнице</string>
+    <string name="credits_intro">Navia је изграђена на следећим отвореним подацима и пројектима отвореног кода.</string>
+    <string name="credits_osm_body">Подаци мапе © сарадници OpenStreetMap-а, доступни под лиценцом Open Database License (ODbL). Погледајте openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Називи места која се приказују пре преузимања детаљне мапе потичу из географске базе података GeoNames, лиценциране под Creative Commons Attribution 4.0. Погледајте geonames.org.</string>
+    <string name="credits_geofabrik_body">Регионални изводи из OpenStreetMap-а од којих се граде подаци мапе ове апликације који се могу преузети. Погледајте geofabrik.de.</string>
+    <string name="credits_msgpack_body">Бинарна серијализација података, лиценцирано под лиценцом Apache 2.0. Погледајте msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX и Material Components</string>
+    <string name="credits_androidx_body">Основни оквир Android апликација и компоненте интерфејса од Google-а, лиценцирани под лиценцом Apache 2.0.</string>
+    <string name="credits_play_services_heading">Google Play услуге — Локација</string>
+    <string name="credits_play_services_body">Услуге локације уређаја, од Google-а.</string>
+    <string name="credits_firebase_body">Извештавање о падовима, од Google-а, како би проблеми могли да се пронађу и исправе.</string>
+    <string name="download_progress_connecting">Повезивање… (област %1$d од %2$d)</string>
+    <string name="download_progress_downloading">Преузимање области %1$d од %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Распакивање области %1$d од %2$d…</string>
+    <string name="download_progress_saving">Чување области %1$d од %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Још се завршава у позадини — можете наставити да користите апликацију.</string>
+    <string name="menu_about">О апликацији</string>
+    <string name="about_title">О апликацији</string>
+    <string name="about_version">Верзија %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Издавач</string>
+    <string name="about_contact_heading">Контакт</string>
+    <string name="about_email_action">Пошаљи имејл</string>
+    <string name="about_website_action">Отвори веб-сајт</string>
+    <string name="about_privacy_heading">Приватност</string>
+    <string name="about_privacy_body">Navia шаље извештаје о падовима у Firebase Crashlytics, услугу компаније Google, како би проблеми могли да се пронађу и исправе. Апликација користи локацију вашег уређаја да вам каже шта се налази око вас; ваша локација се користи на уређају и не шаље се програмеру апликације. Када тражите адресу, тај текст претраге се шаље услузи геокодирања вашег уређаја ради проналажења.</string>
+    <string name="about_privacy_link">Прочитајте политику приватности</string>
+    <string name="about_no_app_for_link">Ниједна апликација на овом уређају не може то да отвори.</string>
 </resources>

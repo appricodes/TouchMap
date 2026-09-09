@@ -62,6 +62,10 @@
             android:exported="false"
             android:label="@string/credits_title" />
         <activity
+            android:name="com.wikiponder.touchmap.AboutActivity"
+            android:exported="false"
+            android:label="@string/about_title" />
+        <activity
             android:name="com.wikiponder.touchmap.DownloadMapActivity"
             android:exported="false"
             android:screenOrientation="portrait"

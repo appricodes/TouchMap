@@ -172,4 +172,32 @@
     <string name="action_around_me">اطراف من</string>
     <string name="action_around_map_center">اطراف مرکز نقشه</string>
 
+    <string name="menu_credits">سپاس‌گزاری</string>
+    <string name="credits_title">سپاس‌گزاری</string>
+    <string name="credits_intro">Navia بر پایهٔ داده‌های باز و پروژه‌های متن‌باز زیر ساخته شده است.</string>
+    <string name="credits_osm_body">داده‌های نقشه © مشارکت‌کنندگان OpenStreetMap، در دسترس تحت پروانهٔ Open Database License (ODbL). به openstreetmap.org/copyright مراجعه کنید.</string>
+    <string name="credits_geonames_body">نام مکان‌هایی که پیش از دانلود نقشهٔ تفصیلی نمایش داده می‌شوند از پایگاه دادهٔ جغرافیایی GeoNames می‌آیند که تحت Creative Commons Attribution 4.0 پروانه دارد. به geonames.org مراجعه کنید.</string>
+    <string name="credits_geofabrik_body">برش‌های منطقه‌ای OpenStreetMap که برای ساخت داده‌های نقشهٔ قابل دانلود این برنامه استفاده می‌شوند. به geofabrik.de مراجعه کنید.</string>
+    <string name="credits_msgpack_body">سریال‌سازی دودویی داده‌ها، تحت پروانهٔ Apache 2.0. به msgpack.org مراجعه کنید.</string>
+    <string name="credits_androidx_heading">AndroidX و Material Components</string>
+    <string name="credits_androidx_body">چارچوب پایهٔ برنامه‌های اندروید و مؤلفه‌های رابط کاربری از Google، تحت پروانهٔ Apache 2.0.</string>
+    <string name="credits_play_services_heading">سرویس‌های Google Play — موقعیت مکانی</string>
+    <string name="credits_play_services_body">سرویس‌های موقعیت مکانی دستگاه، از Google.</string>
+    <string name="credits_firebase_body">گزارش خرابی، از Google، تا مشکلات پیدا و برطرف شوند.</string>
+    <string name="download_progress_connecting">در حال اتصال… (منطقهٔ %1$d از %2$d)</string>
+    <string name="download_progress_downloading">در حال دانلود منطقهٔ %1$d از %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">در حال استخراج منطقهٔ %1$d از %2$d…</string>
+    <string name="download_progress_saving">در حال ذخیرهٔ منطقهٔ %1$d از %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">هنوز در پس‌زمینه در حال تکمیل است — می‌توانید به استفاده از برنامه ادامه دهید.</string>
+    <string name="menu_about">درباره</string>
+    <string name="about_title">درباره</string>
+    <string name="about_version">نسخهٔ %1$s (%2$d)</string>
+    <string name="about_publisher_heading">ناشر</string>
+    <string name="about_contact_heading">تماس</string>
+    <string name="about_email_action">ارسال ایمیل</string>
+    <string name="about_website_action">باز کردن وب‌سایت</string>
+    <string name="about_privacy_heading">حریم خصوصی</string>
+    <string name="about_privacy_body">Navia گزارش‌های خرابی را به Firebase Crashlytics، یک سرویس Google، ارسال می‌کند تا مشکلات پیدا و برطرف شوند. این برنامه از موقعیت مکانی دستگاه شما استفاده می‌کند تا به شما بگوید چه چیزی اطرافتان است؛ موقعیت شما روی دستگاه استفاده می‌شود و به توسعه‌دهندهٔ برنامه ارسال نمی‌شود. وقتی نشانی‌ای را جست‌وجو می‌کنید، متن آن جست‌وجو برای یافتن به سرویس کدگذاری جغرافیایی دستگاه شما ارسال می‌شود.</string>
+    <string name="about_privacy_link">خواندن سیاست حریم خصوصی</string>
+    <string name="about_no_app_for_link">هیچ برنامه‌ای روی این دستگاه نمی‌تواند آن را باز کند.</string>
 </resources>

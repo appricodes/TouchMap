@@ -127,20 +127,46 @@
     <string name="menu_credits">Credits</string>
     <string name="credits_title">Credits</string>
     <string name="credits_intro">Navia is built on the following open data and open-source projects.</string>
-    <string name="credits_osm_heading">OpenStreetMap</string>
+    <string name="credits_osm_heading" translatable="false">OpenStreetMap</string>
     <string name="credits_osm_body">Map data © OpenStreetMap contributors, available under the Open Database License (ODbL). See openstreetmap.org/copyright.</string>
-    <string name="credits_geonames_heading">GeoNames</string>
+    <string name="credits_geonames_heading" translatable="false">GeoNames</string>
     <string name="credits_geonames_body">Place names shown before a detailed map has been downloaded come from the GeoNames geographical database, licensed under Creative Commons Attribution 4.0. See geonames.org.</string>
-    <string name="credits_geofabrik_heading">Geofabrik</string>
+    <string name="credits_geofabrik_heading" translatable="false">Geofabrik</string>
     <string name="credits_geofabrik_body">Regional OpenStreetMap extracts used to build this app\'s downloadable map data. See geofabrik.de.</string>
-    <string name="credits_msgpack_heading">MessagePack for Java</string>
+    <string name="credits_msgpack_heading" translatable="false">MessagePack for Java</string>
     <string name="credits_msgpack_body">Binary data serialization, licensed under the Apache License 2.0. See msgpack.org.</string>
     <string name="credits_androidx_heading">AndroidX &amp; Material Components</string>
     <string name="credits_androidx_body">Core Android app framework and UI components from Google, licensed under the Apache License 2.0.</string>
     <string name="credits_play_services_heading">Google Play services — Location</string>
     <string name="credits_play_services_body">Device location services, from Google.</string>
-    <string name="credits_firebase_heading">Firebase Crashlytics</string>
+    <string name="credits_firebase_heading" translatable="false">Firebase Crashlytics</string>
     <string name="credits_firebase_body">Crash reporting, from Google, so problems can be found and fixed.</string>
+
+    <!-- About / legal notice screen (AboutActivity), reachable from the More menu. Separate from
+         Credits: Credits is third-party attribution, this is who publishes the app and how to reach
+         them (an Impressum, required to distribute in Germany/the EU) plus what data leaves the
+         device. -->
+    <string name="menu_about">About</string>
+    <string name="about_title">About</string>
+    <string name="about_version">Version %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Publisher</string>
+    <string name="about_contact_heading">Contact</string>
+    <!-- Announced by TalkBack on the tappable e-mail row, so it reads as an action rather than as
+         the static body text every other row on this screen is. -->
+    <string name="about_email_action">Send an e-mail</string>
+    <string name="about_website_action">Open the website</string>
+    <string name="about_privacy_heading">Privacy</string>
+    <string name="about_privacy_body">Navia sends crash reports to Firebase Crashlytics, a Google service, so problems can be found and fixed. It uses your device location to tell you what is around you; your location is used on the device and is not sent to the app\'s developer. When you search for an address, that search text is sent to your device\'s geocoding service to be looked up.</string>
+    <string name="about_privacy_link">Read the privacy policy</string>
+    <string name="about_no_app_for_link">No app on this device can open that.</string>
+
+    <!-- The publisher's actual details and the policy address: real-world data, identical in every
+         language, so translatable="false" (and excluded by name from tools/backfill_translations.py). -->
+    <string name="about_publisher_name" translatable="false">Mohammad Amiri Moalla</string>
+    <string name="about_address" translatable="false">Schütenhofstr. 21\n47800 Krefeld\nGermany</string>
+    <string name="about_email" translatable="false">amiri.moalla@wikiponder.com</string>
+    <string name="about_website" translatable="false">wikiponder.com</string>
+    <string name="about_privacy_url" translatable="false">https://wikiponder.com/navia/privacy-policy.html</string>
 
     <!-- Background service notification (BackgroundService) -->
     <string name="notif_background_title">Navia Running</string>

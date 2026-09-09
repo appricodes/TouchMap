@@ -172,4 +172,32 @@
     <string name="action_around_me">รอบตัวฉัน</string>
     <string name="action_around_map_center">รอบจุดกึ่งกลางแผนที่</string>
 
+    <string name="menu_credits">เครดิต</string>
+    <string name="credits_title">เครดิต</string>
+    <string name="credits_intro">Navia สร้างขึ้นบนข้อมูลเปิดและโครงการโอเพนซอร์สต่อไปนี้</string>
+    <string name="credits_osm_body">ข้อมูลแผนที่ © ผู้ร่วมสร้าง OpenStreetMap ใช้ได้ภายใต้สัญญาอนุญาต Open Database License (ODbL) ดูที่ openstreetmap.org/copyright</string>
+    <string name="credits_geonames_body">ชื่อสถานที่ที่แสดงก่อนดาวน์โหลดแผนที่แบบละเอียดมาจากฐานข้อมูลภูมิศาสตร์ GeoNames ซึ่งอนุญาตภายใต้ Creative Commons Attribution 4.0 ดูที่ geonames.org</string>
+    <string name="credits_geofabrik_body">ข้อมูลที่สกัดจาก OpenStreetMap รายภูมิภาค ใช้สร้างข้อมูลแผนที่ที่ดาวน์โหลดได้ของแอปนี้ ดูที่ geofabrik.de</string>
+    <string name="credits_msgpack_body">การจัดลำดับข้อมูลแบบไบนารี อนุญาตภายใต้สัญญาอนุญาต Apache 2.0 ดูที่ msgpack.org</string>
+    <string name="credits_androidx_heading">AndroidX และ Material Components</string>
+    <string name="credits_androidx_body">เฟรมเวิร์กหลักของแอป Android และส่วนประกอบส่วนติดต่อผู้ใช้จาก Google อนุญาตภายใต้สัญญาอนุญาต Apache 2.0</string>
+    <string name="credits_play_services_heading">บริการ Google Play — ตำแหน่ง</string>
+    <string name="credits_play_services_body">บริการตำแหน่งของอุปกรณ์ จาก Google</string>
+    <string name="credits_firebase_body">การรายงานข้อขัดข้อง จาก Google เพื่อให้พบและแก้ไขปัญหาได้</string>
+    <string name="download_progress_connecting">กำลังเชื่อมต่อ… (พื้นที่ %1$d จาก %2$d)</string>
+    <string name="download_progress_downloading">กำลังดาวน์โหลดพื้นที่ %1$d จาก %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">กำลังแตกไฟล์พื้นที่ %1$d จาก %2$d…</string>
+    <string name="download_progress_saving">กำลังบันทึกพื้นที่ %1$d จาก %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">ยังทำงานให้เสร็จอยู่เบื้องหลัง — คุณใช้แอปต่อได้</string>
+    <string name="menu_about">เกี่ยวกับ</string>
+    <string name="about_title">เกี่ยวกับ</string>
+    <string name="about_version">เวอร์ชัน %1$s (%2$d)</string>
+    <string name="about_publisher_heading">ผู้เผยแพร่</string>
+    <string name="about_contact_heading">ติดต่อ</string>
+    <string name="about_email_action">ส่งอีเมล</string>
+    <string name="about_website_action">เปิดเว็บไซต์</string>
+    <string name="about_privacy_heading">ความเป็นส่วนตัว</string>
+    <string name="about_privacy_body">Navia ส่งรายงานข้อขัดข้องไปยัง Firebase Crashlytics ซึ่งเป็นบริการของ Google เพื่อให้พบและแก้ไขปัญหาได้ แอปใช้ตำแหน่งของอุปกรณ์คุณเพื่อบอกว่ามีอะไรอยู่รอบตัวคุณ ตำแหน่งของคุณถูกใช้บนอุปกรณ์และไม่ได้ส่งไปยังผู้พัฒนาแอป เมื่อคุณค้นหาที่อยู่ ข้อความค้นหานั้นจะถูกส่งไปยังบริการเข้ารหัสพิกัดภูมิศาสตร์ของอุปกรณ์คุณเพื่อค้นหา</string>
+    <string name="about_privacy_link">อ่านนโยบายความเป็นส่วนตัว</string>
+    <string name="about_no_app_for_link">ไม่มีแอปในอุปกรณ์นี้ที่เปิดสิ่งนั้นได้</string>
 </resources>

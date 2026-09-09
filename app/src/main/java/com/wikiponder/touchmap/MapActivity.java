@@ -672,6 +672,9 @@ public class MapActivity extends BaseActivity
 			} else if (id == R.id.menu_credits) {
 				startActivity(new Intent(MapActivity.this, CreditsActivity.class));
 				return true;
+			} else if (id == R.id.menu_about) {
+				startActivity(new Intent(MapActivity.this, AboutActivity.class));
+				return true;
 			}
 			return false;
 		});

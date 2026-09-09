@@ -172,4 +172,32 @@
     <string name="action_around_me">Í kringum mig</string>
     <string name="action_around_map_center">Í kringum miðju kortsins</string>
 
+    <string name="menu_credits">Þakkir</string>
+    <string name="credits_title">Þakkir</string>
+    <string name="credits_intro">Navia byggir á eftirfarandi opnum gögnum og opnum hugbúnaðarverkefnum.</string>
+    <string name="credits_osm_body">Kortagögn © þátttakendur OpenStreetMap, aðgengileg samkvæmt Open Database License (ODbL). Sjá openstreetmap.org/copyright.</string>
+    <string name="credits_geonames_body">Örnefni sem birtast áður en ítarlegt kort hefur verið sótt koma úr landfræðigagnagrunninum GeoNames, með leyfi samkvæmt Creative Commons Attribution 4.0. Sjá geonames.org.</string>
+    <string name="credits_geofabrik_body">Svæðisbundnir OpenStreetMap-útdrættir sem notaðir eru til að byggja niðurhalanleg kortagögn þessa forrits. Sjá geofabrik.de.</string>
+    <string name="credits_msgpack_body">Tvíundarraðgreining gagna, með leyfi samkvæmt Apache-leyfinu 2.0. Sjá msgpack.org.</string>
+    <string name="credits_androidx_heading">AndroidX og Material Components</string>
+    <string name="credits_androidx_body">Grunnumgjörð Android-forrita og viðmótseiningar frá Google, með leyfi samkvæmt Apache-leyfinu 2.0.</string>
+    <string name="credits_play_services_heading">Google Play-þjónustur — Staðsetning</string>
+    <string name="credits_play_services_body">Staðsetningarþjónustur tækisins, frá Google.</string>
+    <string name="credits_firebase_body">Hrunskýrslur, frá Google, svo hægt sé að finna og laga vandamál.</string>
+    <string name="download_progress_connecting">Tengist… (svæði %1$d af %2$d)</string>
+    <string name="download_progress_downloading">Sæki svæði %1$d af %2$d (%3$s / %4$s)</string>
+    <string name="download_progress_extracting">Afþjappa svæði %1$d af %2$d…</string>
+    <string name="download_progress_saving">Vista svæði %1$d af %2$d — %3$s…</string>
+    <string name="import_cancel_still_running">Er enn að klárast í bakgrunni — þú getur haldið áfram að nota forritið.</string>
+    <string name="menu_about">Um forritið</string>
+    <string name="about_title">Um forritið</string>
+    <string name="about_version">Útgáfa %1$s (%2$d)</string>
+    <string name="about_publisher_heading">Útgefandi</string>
+    <string name="about_contact_heading">Samband</string>
+    <string name="about_email_action">Senda tölvupóst</string>
+    <string name="about_website_action">Opna vefsíðuna</string>
+    <string name="about_privacy_heading">Persónuvernd</string>
+    <string name="about_privacy_body">Navia sendir hrunskýrslur til Firebase Crashlytics, þjónustu frá Google, svo hægt sé að finna og laga vandamál. Forritið notar staðsetningu tækisins þíns til að segja þér hvað er í kringum þig; staðsetningin þín er notuð í tækinu og er ekki send til höfundar forritsins. Þegar þú leitar að heimilisfangi er leitartextinn sendur til landkóðunarþjónustu tækisins þíns til uppflettingar.</string>
+    <string name="about_privacy_link">Lesa persónuverndarstefnuna</string>
+    <string name="about_no_app_for_link">Ekkert forrit í þessu tæki getur opnað það.</string>
 </resources>
