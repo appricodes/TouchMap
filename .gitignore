@@ -32,3 +32,6 @@ keystore.properties
 # Claude Code local/runtime state — personal permissions and worktree checkouts, not shared config.
 /.claude/settings.local.json
 /.claude/worktrees/
+
+# Play Console service-account key (secret)
+play-release-key.json

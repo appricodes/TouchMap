@@ -290,9 +290,22 @@ public class BoxImporter implements Cancellable {
 	 * — a corrupt/truncated download should fail cleanly here rather than surface as a confusing
 	 * ATTACH or query error later. */
 	private void probeOpens(File dbFile) throws Exception {
-		try (SQLiteDatabase probe = SQLiteDatabase.openDatabase(
-				dbFile.getAbsolutePath(), null, SQLiteDatabase.OPEN_READONLY)) {
-			// opens fine — good enough to trust
+		// Deliberately NOT opened through SQLiteDatabase: opening+closing the same file in-process right
+		// before ATTACHing it was observed live (Android 15) to leave the attached db unreadable — a
+		// "Getting lock failed due to (9)" EBADF followed by "no such table: box.nodes". Checking the
+		// 16-byte SQLite header is enough to catch a truncated/garbage download.
+		byte[] header = new byte[16];
+		try (java.io.FileInputStream in = new java.io.FileInputStream(dbFile)) {
+			int read = 0;
+			while (read < header.length) {
+				int n = in.read(header, read, header.length - read);
+				if (n < 0) break;
+				read += n;
+			}
+			if (read < header.length
+					|| !"SQLite format 3\0".equals(new String(header, java.nio.charset.StandardCharsets.ISO_8859_1))) {
+				throw new Exception("Downloaded map file is corrupt");
+			}
 		}
 	}
 
