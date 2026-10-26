@@ -35,3 +35,9 @@ keystore.properties
 
 # Play Console service-account key (secret)
 play-release-key.json
+
+# Firebase config (project/app ids + API key) — each developer supplies their own.
+app/google-services.json
+
+# Android Studio project files (machine/user specific)
+/.idea/
