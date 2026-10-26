@@ -103,9 +103,9 @@ public class MyApplication extends Application {
 		tagTranslator = new TagTranslator(this, "en");
 		announcementManager = new AnnouncementManager(this);
 		angleManager = new AngleManager(this, 500);
-		// 5s nominal cadence, but allow fixes as often as every 2s so a walking user's
-		// position stays current between the nominal updates.
-		userLocationManager = new UserLocationManager(this, 5000, 2000);
+		// 2s nominal cadence, with fixes allowed as often as every 1s (most GPS hardware can't
+		// go faster) so a walking user's position stays current without hammering the battery.
+		userLocationManager = new UserLocationManager(this, 2000, 1000);
 		
 	}
 	
