@@ -52,6 +52,7 @@ public class AboutActivity extends AppCompatActivity {
 		showVersion();
 		wireEmailRow();
 		wireWebsiteRow();
+		wireSourceCodeRow();
 		wirePrivacyRow();
 	}
 
@@ -98,6 +99,15 @@ public class AboutActivity extends AppCompatActivity {
 		// The resource is the bare host (it is what should be *displayed*), so the scheme is added
 		// here — ACTION_VIEW on a schemeless Uri resolves to nothing.
 		websiteView.setOnClickListener(v ->
+				open(new Intent(Intent.ACTION_VIEW, Uri.parse("https://" + host))));
+	}
+
+	private void wireSourceCodeRow() {
+		TextView sourceView = findViewById(R.id.about_source_code);
+		String host = getString(R.string.about_source_code);
+		// Same "open a website" action wording as the website row, so it is already translated.
+		sourceView.setContentDescription(host + ", " + getString(R.string.about_website_action));
+		sourceView.setOnClickListener(v ->
 				open(new Intent(Intent.ACTION_VIEW, Uri.parse("https://" + host))));
 	}
 

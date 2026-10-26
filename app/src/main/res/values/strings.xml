@@ -166,6 +166,7 @@
     <string name="about_address" translatable="false">Schütenhofstr. 21\n47800 Krefeld\nGermany</string>
     <string name="about_email" translatable="false">amiri.moalla@wikiponder.com</string>
     <string name="about_website" translatable="false">wikiponder.com</string>
+    <string name="about_source_code" translatable="false">github.com/appricodes/TouchMap</string>
     <string name="about_privacy_url" translatable="false">https://wikiponder.com/navia/privacy-policy.html</string>
 
     <!-- Background service notification (BackgroundService) -->
