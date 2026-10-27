@@ -198,4 +198,8 @@
     <string name="render_labels_title">Показывать названия на карте</string>
     <string name="render_labels_summary_on">При увеличении названия улиц и мест пишутся на нарисованной карте.</string>
     <string name="render_labels_summary_off">Нарисованная карта не показывает названий, поэтому на ней меньше всего лишнего.</string>
+    <string name="theme_title">Тема</string>
+    <string name="theme_system">Как на устройстве</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
 </resources>

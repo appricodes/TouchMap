@@ -198,4 +198,8 @@
     <string name="render_labels_title">Rodyti pavadinimus žemėlapyje</string>
     <string name="render_labels_summary_on">Priartinus gatvių ir vietų pavadinimai rašomi nupieštame žemėlapyje.</string>
     <string name="render_labels_summary_off">Nupieštas žemėlapis nerodo pavadinimų, todėl jis mažiau perpildytas.</string>
+    <string name="theme_title">Tema</string>
+    <string name="theme_system">Kaip įrenginyje</string>
+    <string name="theme_light">Šviesi</string>
+    <string name="theme_dark">Tamsi</string>
 </resources>

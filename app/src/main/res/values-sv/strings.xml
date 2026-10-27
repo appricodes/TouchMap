@@ -198,4 +198,8 @@
     <string name="render_labels_title">Visa namn på kartan</string>
     <string name="render_labels_summary_on">Gatu- och ortnamn skrivs på den ritade kartan när du zoomar in.</string>
     <string name="render_labels_summary_off">Den ritade kartan visar inga namn, så den är mindre rörig.</string>
+    <string name="theme_title">Tema</string>
+    <string name="theme_system">Samma som enheten</string>
+    <string name="theme_light">Ljust</string>
+    <string name="theme_dark">Mörkt</string>
 </resources>

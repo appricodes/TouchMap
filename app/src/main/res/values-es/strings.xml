@@ -210,4 +210,8 @@
     <string name="render_labels_title">Mostrar nombres en el mapa</string>
     <string name="render_labels_summary_on">Los nombres de calles y lugares se escriben en el mapa dibujado al acercar.</string>
     <string name="render_labels_summary_off">El mapa dibujado no muestra nombres, así que queda menos recargado.</string>
+    <string name="theme_title">Tema</string>
+    <string name="theme_system">Igual que el dispositivo</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
 </resources>

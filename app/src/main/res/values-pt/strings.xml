@@ -198,4 +198,8 @@
     <string name="render_labels_title">Mostrar nomes no mapa</string>
     <string name="render_labels_summary_on">Os nomes de ruas e lugares são escritos no mapa desenhado ao ampliar.</string>
     <string name="render_labels_summary_off">O mapa desenhado não mostra nomes, por isso fica menos carregado.</string>
+    <string name="theme_title">Tema</string>
+    <string name="theme_system">Igual ao dispositivo</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Escuro</string>
 </resources>

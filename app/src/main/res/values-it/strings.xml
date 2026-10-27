@@ -210,4 +210,8 @@
     <string name="render_labels_title">Mostra i nomi sulla mappa</string>
     <string name="render_labels_summary_on">I nomi di strade e luoghi vengono scritti sulla mappa disegnata quando si ingrandisce.</string>
     <string name="render_labels_summary_off">La mappa disegnata non mostra nomi, quindi è meno affollata.</string>
+    <string name="theme_title">Tema</string>
+    <string name="theme_system">Come il dispositivo</string>
+    <string name="theme_light">Chiaro</string>
+    <string name="theme_dark">Scuro</string>
 </resources>

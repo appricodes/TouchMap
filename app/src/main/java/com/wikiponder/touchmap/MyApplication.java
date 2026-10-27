@@ -125,6 +125,14 @@ public class MyApplication extends Application {
 		return preferredLocale;
 	}
 	
+	/** Applies the "theme_preference" choice (system / light / dark) to the whole app. */
+	public static void applyTheme(String value) {
+		int mode = AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM;
+		if ("light".equals(value)) mode = AppCompatDelegate.MODE_NIGHT_NO;
+		else if ("dark".equals(value)) mode = AppCompatDelegate.MODE_NIGHT_YES;
+		AppCompatDelegate.setDefaultNightMode(mode);
+	}
+
 	public void refreshPreferredLocale() {
 		final SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
 		String languageTag = sharedPreferences.getString("language_preference", null);
@@ -143,6 +151,7 @@ public class MyApplication extends Application {
 
 		this.preferredLocale = preferredLocale;
 		applyUiLocale(languageTag);
+		applyTheme(sharedPreferences.getString("theme_preference", "system"));
 	}
 
 	/**

@@ -210,4 +210,8 @@
     <string name="render_labels_title">Hiển thị tên trên bản đồ</string>
     <string name="render_labels_summary_on">Tên đường và địa điểm được ghi trên bản đồ đã vẽ khi phóng to.</string>
     <string name="render_labels_summary_off">Bản đồ đã vẽ không hiển thị tên nên đỡ rối mắt hơn.</string>
+    <string name="theme_title">Giao diện</string>
+    <string name="theme_system">Giống thiết bị</string>
+    <string name="theme_light">Sáng</string>
+    <string name="theme_dark">Tối</string>
 </resources>

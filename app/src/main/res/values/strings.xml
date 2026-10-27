@@ -129,6 +129,10 @@
     <string name="render_map_title">Show the map (Beta)</string>
     <string name="render_map_summary_on">The map is drawn on screen for low-vision users. This drawing is experimental and still improving.</string>
     <string name="render_map_summary_off">The map is not drawn; explore by touch and sound only.</string>
+    <string name="theme_title">Theme</string>
+    <string name="theme_system">Same as device</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
     <string name="render_labels_title">Show names on the map</string>
     <string name="render_labels_summary_on">Street and place names are written on the drawn map when zoomed in.</string>
     <string name="render_labels_summary_off">The drawn map shows no names, so it is less crowded.</string>

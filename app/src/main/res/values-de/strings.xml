@@ -210,4 +210,8 @@
     <string name="render_labels_title">Namen auf der Karte anzeigen</string>
     <string name="render_labels_summary_on">Straßen- und Ortsnamen werden beim Hineinzoomen auf die gezeichnete Karte geschrieben.</string>
     <string name="render_labels_summary_off">Die gezeichnete Karte zeigt keine Namen und wirkt dadurch aufgeräumter.</string>
+    <string name="theme_title">Design</string>
+    <string name="theme_system">Wie das Gerät</string>
+    <string name="theme_light">Hell</string>
+    <string name="theme_dark">Dunkel</string>
 </resources>

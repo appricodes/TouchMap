@@ -198,4 +198,8 @@
     <string name="render_labels_title">Afișează numele pe hartă</string>
     <string name="render_labels_summary_on">Numele străzilor și ale locurilor sunt scrise pe harta desenată la mărire.</string>
     <string name="render_labels_summary_off">Harta desenată nu afișează nume, deci este mai puțin aglomerată.</string>
+    <string name="theme_title">Temă</string>
+    <string name="theme_system">Ca dispozitivul</string>
+    <string name="theme_light">Luminoasă</string>
+    <string name="theme_dark">Întunecată</string>
 </resources>

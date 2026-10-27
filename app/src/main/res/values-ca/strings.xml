@@ -209,4 +209,8 @@
     <string name="render_labels_title">Mostra els noms al mapa</string>
     <string name="render_labels_summary_on">Els noms de carrers i llocs s\'escriuen al mapa dibuixat quan s\'amplia.</string>
     <string name="render_labels_summary_off">El mapa dibuixat no mostra cap nom, així que queda menys carregat.</string>
+    <string name="theme_title">Tema</string>
+    <string name="theme_system">Igual que el dispositiu</string>
+    <string name="theme_light">Clar</string>
+    <string name="theme_dark">Fosc</string>
 </resources>

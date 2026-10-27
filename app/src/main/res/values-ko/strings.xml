@@ -198,4 +198,8 @@
     <string name="render_labels_title">지도에 이름 표시</string>
     <string name="render_labels_summary_on">확대하면 그려진 지도에 도로와 장소 이름이 표시됩니다.</string>
     <string name="render_labels_summary_off">그려진 지도에 이름이 표시되지 않아 덜 복잡합니다.</string>
+    <string name="theme_title">테마</string>
+    <string name="theme_system">기기 설정과 동일</string>
+    <string name="theme_light">라이트</string>
+    <string name="theme_dark">다크</string>
 </resources>

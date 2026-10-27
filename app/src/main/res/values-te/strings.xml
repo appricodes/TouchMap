@@ -210,4 +210,8 @@
     <string name="render_labels_title">మ్యాప్‌లో పేర్లను చూపించు</string>
     <string name="render_labels_summary_on">జూమ్ ఇన్ చేసినప్పుడు గీసిన మ్యాప్‌లో వీధులు, ప్రదేశాల పేర్లు రాయబడతాయి.</string>
     <string name="render_labels_summary_off">గీసిన మ్యాప్ ఎలాంటి పేర్లను చూపదు, కాబట్టి రద్దీ తక్కువగా ఉంటుంది.</string>
+    <string name="theme_title">థీమ్</string>
+    <string name="theme_system">పరికరం వలె</string>
+    <string name="theme_light">లైట్</string>
+    <string name="theme_dark">డార్క్</string>
 </resources>

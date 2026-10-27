@@ -210,4 +210,8 @@
     <string name="render_labels_title">Sýna nöfn á kortinu</string>
     <string name="render_labels_summary_on">Götu- og staðarnöfn eru skrifuð á teiknaða kortið þegar þysjað er inn.</string>
     <string name="render_labels_summary_off">Teiknaða kortið sýnir engin nöfn og er því minna yfirfullt.</string>
+    <string name="theme_title">Þema</string>
+    <string name="theme_system">Eins og tækið</string>
+    <string name="theme_light">Ljóst</string>
+    <string name="theme_dark">Dökkt</string>
 </resources>

@@ -2,6 +2,7 @@ package com.wikiponder.touchmap.classes.ui;
 
 import android.accessibilityservice.AccessibilityServiceInfo;
 import android.content.Context;
+import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -86,6 +87,7 @@ public class MapView extends View {
 
 	private final Context context;
 	private final float density;
+	private final boolean dark; // night mode: black map with brighter colours
 
 	// --- paints for showing map (all sizes are dp/sp so the map looks the same on every screen and
 	// text follows the user's font scale — this feature exists for low-vision users) ---
@@ -295,13 +297,15 @@ public class MapView extends View {
 		super(context, attrs);
 		this.context = context;
 		this.density = context.getResources().getDisplayMetrics().density;
+		this.dark = (context.getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK)
+				== Configuration.UI_MODE_NIGHT_YES;
 		setClickable(true);
 		for (int i = 0; i < placedRects.length; i++) placedRects[i] = new RectF();
 
 		// set paints
 		this.wayLabelFillPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 		this.wayLabelFillPaint.setStyle(Paint.Style.FILL);
-		this.wayLabelFillPaint.setColor(Color.parseColor("#1A1A1A"));
+		this.wayLabelFillPaint.setColor(c("#1A1A1A", "#F2F2F2"));
 		this.wayLabelFillPaint.setTextSize(sp(12));
 		this.wayLabelFillPaint.setTextAlign(Paint.Align.LEFT);
 		Paint.FontMetrics fm = this.wayLabelFillPaint.getFontMetrics();
@@ -310,20 +314,20 @@ public class MapView extends View {
 		this.wayLabelStrokePaint = new Paint(wayLabelFillPaint);
 		this.wayLabelStrokePaint.setStyle(Paint.Style.STROKE);
 		this.wayLabelStrokePaint.setStrokeWidth(dp(2.5f));
-		this.wayLabelStrokePaint.setColor(Color.parseColor("#E0F4F1EA")); // AARRGGBB — background colour halo
+		this.wayLabelStrokePaint.setColor(c("#E0F4F1EA", "#E6000000")); // AARRGGBB — background colour halo
 		this.wayLabelStrokePaint.setStrokeJoin(Paint.Join.ROUND);
 
 		this.nodeLabelFillPaint = new Paint(wayLabelFillPaint);
 		this.nodeLabelStrokePaint = new Paint(wayLabelStrokePaint);
-		this.nodeLabelStrokePaint.setColor(Color.WHITE);
+		this.nodeLabelStrokePaint.setColor(dark ? Color.BLACK : Color.WHITE);
 
 		this.nodeFillPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 		this.nodeFillPaint.setStyle(Paint.Style.FILL);
-		this.nodeFillPaint.setColor(Color.parseColor("#D7263D"));
+		this.nodeFillPaint.setColor(c("#D7263D", "#F87171"));
 
 		this.nodeBorderPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 		this.nodeBorderPaint.setStyle(Paint.Style.STROKE);
-		this.nodeBorderPaint.setColor(Color.BLACK);
+		this.nodeBorderPaint.setColor(c("#000000", "#F0F0F0"));
 		this.nodeBorderPaint.setStrokeWidth(dp(1.5f));
 
 		// Favorited points keep their category colour but get a gold border instead of black, so
@@ -339,7 +343,7 @@ public class MapView extends View {
 
 		this.userFillPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 		this.userFillPaint.setStyle(Paint.Style.FILL);
-		this.userFillPaint.setColor(Color.parseColor("#0B6E4F"));
+		this.userFillPaint.setColor(c("#0B6E4F", "#34D399"));
 		float ur = dp(9f); // user arrow, pointing "up" (the map rotates around the user)
 		userMarkerPath.moveTo(0, -ur);
 		userMarkerPath.lineTo(-ur * 0.7f, ur * 0.8f);
@@ -349,36 +353,36 @@ public class MapView extends View {
 
 		// High-contrast way rendering for low-vision users: distinct colour/width per
 		// road class (see styleForType), roads with a light casing so they stay separable.
-		this.fallbackStyle = lineStyle("#102A43", 3f, 0f, false);
-		this.majorStyle = lineStyle("#C2410C", 5f, 1.5f, true); // burnt orange — motorway/trunk/primary
-		this.midStyle = lineStyle("#334E68", 3.5f, 1.5f, true); // slate — secondary/tertiary/residential
-		this.minorStyle = lineStyle("#829AB1", 2.5f, 1f, true); // light grey — service roads
-		this.pathStyle = lineStyle("#2F855A", 2f, 0f, false); // green thin — footway/path/cycleway/steps
-		this.barrierStyle = lineStyle("#9B2C2C", 1.5f, 0f, false); // dark red thin — fences/walls
-		this.platformStyle = lineStyle("#00838F", 2.5f, 0f, false); // teal — transit platforms
+		this.fallbackStyle = lineStyle(c("#102A43", "#E2E8F0"), 3f, 0f, false);
+		this.majorStyle = lineStyle(c("#C2410C", "#FB923C"), 5f, 1.5f, true); // burnt orange — motorway/trunk/primary
+		this.midStyle = lineStyle(c("#334E68", "#CBD5E1"), 3.5f, 1.5f, true); // slate — secondary/tertiary/residential
+		this.minorStyle = lineStyle(c("#829AB1", "#64748B"), 2.5f, 1f, true); // light grey — service roads
+		this.pathStyle = lineStyle(c("#2F855A", "#4ADE80"), 2f, 0f, false); // green thin — footway/path/cycleway/steps
+		this.barrierStyle = lineStyle(c("#9B2C2C", "#F87171"), 1.5f, 0f, false); // dark red thin — fences/walls
+		this.platformStyle = lineStyle(c("#00838F", "#22D3EE"), 2.5f, 0f, false); // teal — transit platforms
 
 		this.buildingFillPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 		this.buildingFillPaint.setStyle(Paint.Style.FILL);
-		this.buildingFillPaint.setColor(Color.parseColor("#D9CBB8"));
+		this.buildingFillPaint.setColor(c("#D9CBB8", "#2B2B2B"));
 
 		this.buildingBorderPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 		this.buildingBorderPaint.setStyle(Paint.Style.STROKE);
-		this.buildingBorderPaint.setColor(Color.parseColor("#8C7B65"));
+		this.buildingBorderPaint.setColor(c("#8C7B65", "#6B6B6B"));
 		this.buildingBorderPaint.setStrokeWidth(dp(1f));
 
 		this.backgroundPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 		this.backgroundPaint.setStyle(Paint.Style.FILL);
-		this.backgroundPaint.setColor(Color.parseColor("#F4F1EA")); // soft map background
+		this.backgroundPaint.setColor(c("#F4F1EA", "#000000")); // soft map background (black in dark mode)
 
 		// World-place dots (gazetteer stand-ins where no map is imported yet): distinct blue,
 		// smaller and thinner-bordered than real POI dots so the two are never confused.
 		this.worldPlaceFillPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 		this.worldPlaceFillPaint.setStyle(Paint.Style.FILL);
-		this.worldPlaceFillPaint.setColor(Color.parseColor("#4A90D9"));
+		this.worldPlaceFillPaint.setColor(c("#4A90D9", "#60A5FA"));
 
 		this.worldPlaceBorderPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 		this.worldPlaceBorderPaint.setStyle(Paint.Style.STROKE);
-		this.worldPlaceBorderPaint.setColor(Color.parseColor("#1B3A5C"));
+		this.worldPlaceBorderPaint.setColor(c("#1B3A5C", "#BFDBFE"));
 		this.worldPlaceBorderPaint.setStrokeWidth(dp(1.2f));
 	}
 
@@ -445,6 +449,11 @@ public class MapView extends View {
 		}
 	}
 
+	/** Picks the light- or dark-mode colour. */
+	private int c(String lightHex, String darkHex) {
+		return Color.parseColor(dark ? darkHex : lightHex);
+	}
+
 	private float dp(float v) {
 		return v * density;
 	}
@@ -454,23 +463,23 @@ public class MapView extends View {
 	}
 
 	/** Builds a way style: one fill (and optional casing) Paint per zoom level. */
-	private LineStyle lineStyle(String color, float widthDp, float casingExtraDp, boolean casing) {
+	private LineStyle lineStyle(int color, float widthDp, float casingExtraDp, boolean casing) {
 		LineStyle style = new LineStyle();
 		for (int z = 0; z < ZOOM_LEVELS; z++) {
 			// widths grow a little when zoomed in and shrink when zoomed out, like a real map
 			float scale = Math.max(0.6f, Math.min(1.5f, 1f + 0.2f * (z - ZOOM_LEVEL_AT_ONE)));
 			Paint fill = new Paint(Paint.ANTI_ALIAS_FLAG);
 			fill.setStyle(Paint.Style.STROKE);
-			fill.setColor(Color.parseColor(color));
+			fill.setColor(color);
 			fill.setStrokeJoin(Paint.Join.ROUND);
 			fill.setStrokeCap(Paint.Cap.ROUND);
 			fill.setStrokeWidth(dp(widthDp) * scale);
 			style.fills[z] = fill;
 			if (casing) {
-				Paint c = new Paint(fill);
-				c.setColor(Color.parseColor("#F2FFFFFF"));
-				c.setStrokeWidth(dp(widthDp + casingExtraDp * 2) * scale);
-				style.casings[z] = c;
+				Paint casingPaint = new Paint(fill);
+				casingPaint.setColor(c("#F2FFFFFF", "#F2000000")); // light halo on light maps, dark on dark
+				casingPaint.setStrokeWidth(dp(widthDp + casingExtraDp * 2) * scale);
+				style.casings[z] = casingPaint;
 			}
 		}
 		return style;
@@ -491,29 +500,29 @@ public class MapView extends View {
 	/** One fill-colour Paint per real-POI node category (OSMDatabaseHelper.CATEGORY_*), so a glance
 	 * at the map tells a shop from a restaurant from a park without opening it. Anything not in this
 	 * table (CATEGORY_NONE, or a future category) falls back to nodeFillPaint's plain red. */
-	private static SparseArray<Paint> buildNodeCategoryPaints() {
+	private SparseArray<Paint> buildNodeCategoryPaints() {
 		SparseArray<Paint> paints = new SparseArray<>();
-		paints.put(OSMDatabaseHelper.CATEGORY_MANUAL, categoryPaint("#D69E2E")); // gold — always stands out
-		paints.put(OSMDatabaseHelper.CATEGORY_HEALTH, categoryPaint("#E53E3E")); // red
-		paints.put(OSMDatabaseHelper.CATEGORY_TRAFFIC, categoryPaint("#3182CE")); // blue
-		paints.put(OSMDatabaseHelper.CATEGORY_BARRIER, categoryPaint("#8B6F47")); // brown
-		paints.put(OSMDatabaseHelper.CATEGORY_SHOP, categoryPaint("#805AD5")); // purple
-		paints.put(OSMDatabaseHelper.CATEGORY_AMENITY, categoryPaint("#DD6B20")); // orange
-		paints.put(OSMDatabaseHelper.CATEGORY_LEISURE, categoryPaint("#38A169")); // green
-		paints.put(OSMDatabaseHelper.CATEGORY_TOURISM, categoryPaint("#D53F8C")); // pink
-		paints.put(OSMDatabaseHelper.CATEGORY_NATURAL, categoryPaint("#276749")); // dark green
-		paints.put(OSMDatabaseHelper.CATEGORY_INTERSECTION, categoryPaint("#A0AEC0")); // pale grey — synthesized, low visual weight
+		paints.put(OSMDatabaseHelper.CATEGORY_MANUAL, categoryPaint("#D69E2E", "#FBBF24")); // gold — always stands out
+		paints.put(OSMDatabaseHelper.CATEGORY_HEALTH, categoryPaint("#E53E3E", "#F87171")); // red
+		paints.put(OSMDatabaseHelper.CATEGORY_TRAFFIC, categoryPaint("#3182CE", "#60A5FA")); // blue
+		paints.put(OSMDatabaseHelper.CATEGORY_BARRIER, categoryPaint("#8B6F47", "#C9A66B")); // brown
+		paints.put(OSMDatabaseHelper.CATEGORY_SHOP, categoryPaint("#805AD5", "#C084FC")); // purple
+		paints.put(OSMDatabaseHelper.CATEGORY_AMENITY, categoryPaint("#DD6B20", "#FB923C")); // orange
+		paints.put(OSMDatabaseHelper.CATEGORY_LEISURE, categoryPaint("#38A169", "#4ADE80")); // green
+		paints.put(OSMDatabaseHelper.CATEGORY_TOURISM, categoryPaint("#D53F8C", "#F472B6")); // pink
+		paints.put(OSMDatabaseHelper.CATEGORY_NATURAL, categoryPaint("#276749", "#34D399")); // dark green
+		paints.put(OSMDatabaseHelper.CATEGORY_INTERSECTION, categoryPaint("#A0AEC0", "#A0AEC0")); // pale grey — synthesized, low visual weight
 		// Plain addr:* points (house numbers) are usually the single most numerous node category in
 		// any downloaded area — a muted colour (and smaller radius, see onDraw) keeps them from
 		// drowning every real POI in a wall of dots.
-		paints.put(OSMDatabaseHelper.CATEGORY_ADDRESS, categoryPaint("#B7A99A"));
+		paints.put(OSMDatabaseHelper.CATEGORY_ADDRESS, categoryPaint("#B7A99A", "#8A8178"));
 		return paints;
 	}
 
-	private static Paint categoryPaint(String hexColor) {
+	private Paint categoryPaint(String lightHex, String darkHex) {
 		Paint p = new Paint(Paint.ANTI_ALIAS_FLAG);
 		p.setStyle(Paint.Style.FILL);
-		p.setColor(Color.parseColor(hexColor));
+		p.setColor(c(lightHex, darkHex));
 		return p;
 	}
 

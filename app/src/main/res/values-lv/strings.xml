@@ -198,4 +198,8 @@
     <string name="render_labels_title">Rādīt nosaukumus kartē</string>
     <string name="render_labels_summary_on">Pietuvinot ielu un vietu nosaukumi tiek rakstīti uz zīmētās kartes.</string>
     <string name="render_labels_summary_off">Zīmētā karte nerāda nosaukumus, tāpēc tā ir mazāk pārblīvēta.</string>
+    <string name="theme_title">Motīvs</string>
+    <string name="theme_system">Tāpat kā ierīcei</string>
+    <string name="theme_light">Gaišs</string>
+    <string name="theme_dark">Tumšs</string>
 </resources>

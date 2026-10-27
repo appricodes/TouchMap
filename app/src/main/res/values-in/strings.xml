@@ -210,4 +210,8 @@
     <string name="render_labels_title">Tampilkan nama di peta</string>
     <string name="render_labels_summary_on">Nama jalan dan tempat ditulis di peta yang digambar saat diperbesar.</string>
     <string name="render_labels_summary_off">Peta yang digambar tidak menampilkan nama, sehingga tidak terlalu ramai.</string>
+    <string name="theme_title">Tema</string>
+    <string name="theme_system">Sama seperti perangkat</string>
+    <string name="theme_light">Terang</string>
+    <string name="theme_dark">Gelap</string>
 </resources>

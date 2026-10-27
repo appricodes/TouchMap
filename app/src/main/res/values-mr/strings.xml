@@ -210,4 +210,8 @@
     <string name="render_labels_title">नकाशावर नावे दाखवा</string>
     <string name="render_labels_summary_on">झूम इन केल्यावर काढलेल्या नकाशावर रस्ते आणि ठिकाणांची नावे लिहिली जातात.</string>
     <string name="render_labels_summary_off">काढलेला नकाशा कोणतीही नावे दाखवत नाही, त्यामुळे तो कमी गजबजलेला दिसतो.</string>
+    <string name="theme_title">थीम</string>
+    <string name="theme_system">डिव्हाइसप्रमाणे</string>
+    <string name="theme_light">फिकट</string>
+    <string name="theme_dark">गडद</string>
 </resources>

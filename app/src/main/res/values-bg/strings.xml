@@ -209,4 +209,8 @@
     <string name="render_labels_title">Показване на имена на картата</string>
     <string name="render_labels_summary_on">Имената на улици и места се изписват върху начертаната карта при увеличение.</string>
     <string name="render_labels_summary_off">Начертаната карта не показва имена, така че е по-малко претрупана.</string>
+    <string name="theme_title">Тема</string>
+    <string name="theme_system">Като устройството</string>
+    <string name="theme_light">Светла</string>
+    <string name="theme_dark">Тъмна</string>
 </resources>

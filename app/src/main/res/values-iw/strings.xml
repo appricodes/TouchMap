@@ -210,4 +210,8 @@
     <string name="render_labels_title">הצגת שמות במפה</string>
     <string name="render_labels_summary_on">שמות רחובות ומקומות נכתבים על המפה המצוירת בעת התקרבות.</string>
     <string name="render_labels_summary_off">המפה המצוירת אינה מציגה שמות, ולכן היא פחות עמוסה.</string>
+    <string name="theme_title">עיצוב</string>
+    <string name="theme_system">כמו המכשיר</string>
+    <string name="theme_light">בהיר</string>
+    <string name="theme_dark">כהה</string>
 </resources>

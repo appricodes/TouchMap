@@ -198,4 +198,8 @@
     <string name="render_labels_title">Vis navn på kartet</string>
     <string name="render_labels_summary_on">Gate- og stedsnavn skrives på det tegnede kartet når du zoomer inn.</string>
     <string name="render_labels_summary_off">Det tegnede kartet viser ingen navn, så det er mindre rotete.</string>
+    <string name="theme_title">Tema</string>
+    <string name="theme_system">Samme som enheten</string>
+    <string name="theme_light">Lyst</string>
+    <string name="theme_dark">Mørkt</string>
 </resources>

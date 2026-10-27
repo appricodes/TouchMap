@@ -210,4 +210,8 @@
     <string name="render_labels_title">मानचित्र पर नाम दिखाएँ</string>
     <string name="render_labels_summary_on">ज़ूम इन करने पर बने हुए मानचित्र पर सड़कों और जगहों के नाम लिखे जाते हैं।</string>
     <string name="render_labels_summary_off">बने हुए मानचित्र पर कोई नाम नहीं दिखता, इसलिए वह कम भीड़भाड़ वाला रहता है।</string>
+    <string name="theme_title">थीम</string>
+    <string name="theme_system">डिवाइस के अनुसार</string>
+    <string name="theme_light">हल्की</string>
+    <string name="theme_dark">गहरी</string>
 </resources>

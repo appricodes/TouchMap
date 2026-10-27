@@ -15,6 +15,16 @@
             app:useSimpleSummaryProvider="true"
             app:iconSpaceReserved="false"/>
 
+        <ListPreference
+            app:defaultValue="system"
+            app:entries="@array/theme_names"
+            app:entryValues="@array/theme_values"
+            app:key="theme_preference"
+            app:title="@string/theme_title"
+            app:summary="%s"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
         <SwitchPreferenceCompat
             app:key="keep_screen_on"
             app:title="@string/keep_screen_on_title"

@@ -139,6 +139,12 @@ implements PreferenceFragmentCompat.OnPreferenceStartFragmentCallback {
 				return true;
 			});
 			
+			// light / dark / follow the device; AppCompat recreates the running activities
+			findPreference("theme_preference").setOnPreferenceChangeListener((preference, newValue) -> {
+				MyApplication.applyTheme((String) newValue);
+				return true;
+			});
+
 			findPreference(CrashReporting.PREF_KEY).setOnPreferenceChangeListener((preference, newValue) -> {
 				CrashReporting.setCollectionEnabled((Boolean) newValue);
 				return true;

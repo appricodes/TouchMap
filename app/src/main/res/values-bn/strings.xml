@@ -210,4 +210,8 @@
     <string name="render_labels_title">মানচিত্রে নাম দেখান</string>
     <string name="render_labels_summary_on">জুম ইন করলে আঁকা মানচিত্রে রাস্তা ও স্থানের নাম লেখা হয়।</string>
     <string name="render_labels_summary_off">আঁকা মানচিত্রে কোনো নাম দেখানো হয় না, তাই এটি কম ভিড়যুক্ত দেখায়।</string>
+    <string name="theme_title">থিম</string>
+    <string name="theme_system">ডিভাইসের মতো</string>
+    <string name="theme_light">হালকা</string>
+    <string name="theme_dark">গাঢ়</string>
 </resources>

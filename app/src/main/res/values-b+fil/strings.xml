@@ -210,4 +210,8 @@
     <string name="render_labels_title">Ipakita ang mga pangalan sa mapa</string>
     <string name="render_labels_summary_on">Isinusulat ang mga pangalan ng kalye at lugar sa iginuhit na mapa kapag naka-zoom in.</string>
     <string name="render_labels_summary_off">Walang pangalang ipinapakita sa iginuhit na mapa, kaya mas hindi ito siksik.</string>
+    <string name="theme_title">Tema</string>
+    <string name="theme_system">Kapareho ng device</string>
+    <string name="theme_light">Maliwanag</string>
+    <string name="theme_dark">Madilim</string>
 </resources>

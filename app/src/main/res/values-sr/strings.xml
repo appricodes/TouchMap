@@ -198,4 +198,8 @@
     <string name="render_labels_title">Прикажи називе на мапи</string>
     <string name="render_labels_summary_on">Називи улица и места се исписују на нацртаној мапи када увећате приказ.</string>
     <string name="render_labels_summary_off">Нацртана мапа не приказује називе, па је мање претрпана.</string>
+    <string name="theme_title">Тема</string>
+    <string name="theme_system">Као на уређају</string>
+    <string name="theme_light">Светла</string>
+    <string name="theme_dark">Тамна</string>
 </resources>

@@ -210,4 +210,8 @@
     <string name="render_labels_title">Nevek megjelenítése a térképen</string>
     <string name="render_labels_summary_on">Nagyításkor az utca- és helynevek ki vannak írva a megrajzolt térképre.</string>
     <string name="render_labels_summary_off">A megrajzolt térkép nem mutat neveket, így kevésbé zsúfolt.</string>
+    <string name="theme_title">Téma</string>
+    <string name="theme_system">Mint az eszköz</string>
+    <string name="theme_light">Világos</string>
+    <string name="theme_dark">Sötét</string>
 </resources>

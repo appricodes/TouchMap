@@ -210,4 +210,8 @@
     <string name="render_labels_title">Εμφάνιση ονομάτων στον χάρτη</string>
     <string name="render_labels_summary_on">Τα ονόματα δρόμων και τόπων γράφονται στον σχεδιασμένο χάρτη όταν κάνετε μεγέθυνση.</string>
     <string name="render_labels_summary_off">Ο σχεδιασμένος χάρτης δεν εμφανίζει ονόματα, οπότε είναι πιο καθαρός.</string>
+    <string name="theme_title">Θέμα</string>
+    <string name="theme_system">Όπως η συσκευή</string>
+    <string name="theme_light">Φωτεινό</string>
+    <string name="theme_dark">Σκοτεινό</string>
 </resources>

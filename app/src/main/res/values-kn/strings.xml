@@ -210,4 +210,8 @@
     <string name="render_labels_title">ನಕ್ಷೆಯಲ್ಲಿ ಹೆಸರುಗಳನ್ನು ತೋರಿಸಿ</string>
     <string name="render_labels_summary_on">ಜೂಮ್ ಇನ್ ಮಾಡಿದಾಗ ಬರೆದ ನಕ್ಷೆಯಲ್ಲಿ ರಸ್ತೆ ಮತ್ತು ಸ್ಥಳಗಳ ಹೆಸರುಗಳನ್ನು ಬರೆಯಲಾಗುತ್ತದೆ.</string>
     <string name="render_labels_summary_off">ಬರೆದ ನಕ್ಷೆಯಲ್ಲಿ ಯಾವುದೇ ಹೆಸರುಗಳು ತೋರಿಸುವುದಿಲ್ಲ, ಆದ್ದರಿಂದ ಅದು ಕಡಿಮೆ ಗದ್ದಲದಿಂದ ಕೂಡಿರುತ್ತದೆ.</string>
+    <string name="theme_title">ಥೀಮ್</string>
+    <string name="theme_system">ಸಾಧನದಂತೆ</string>
+    <string name="theme_light">ಬೆಳಕು</string>
+    <string name="theme_dark">ಕತ್ತಲು</string>
 </resources>

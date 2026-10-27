@@ -210,4 +210,8 @@
     <string name="render_labels_title">نقشے پر نام دکھائیں</string>
     <string name="render_labels_summary_on">زوم ان کرنے پر بنائے گئے نقشے پر سڑکوں اور جگہوں کے نام لکھے جاتے ہیں۔</string>
     <string name="render_labels_summary_off">بنایا گیا نقشہ کوئی نام نہیں دکھاتا، اس لیے وہ کم بھرا ہوا لگتا ہے۔</string>
+    <string name="theme_title">تھیم</string>
+    <string name="theme_system">ڈیوائس کے مطابق</string>
+    <string name="theme_light">روشن</string>
+    <string name="theme_dark">گہری</string>
 </resources>

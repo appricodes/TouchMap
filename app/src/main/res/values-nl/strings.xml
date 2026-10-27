@@ -209,4 +209,8 @@
     <string name="render_labels_title">Namen op de kaart tonen</string>
     <string name="render_labels_summary_on">Straat- en plaatsnamen worden bij inzoomen op de getekende kaart geschreven.</string>
     <string name="render_labels_summary_off">De getekende kaart toont geen namen, dus ze is rustiger.</string>
+    <string name="theme_title">Thema</string>
+    <string name="theme_system">Zoals het apparaat</string>
+    <string name="theme_light">Licht</string>
+    <string name="theme_dark">Donker</string>
 </resources>

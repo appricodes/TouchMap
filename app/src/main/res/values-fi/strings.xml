@@ -209,4 +209,8 @@
     <string name="render_labels_title">Näytä nimet kartalla</string>
     <string name="render_labels_summary_on">Katujen ja paikkojen nimet kirjoitetaan piirretylle kartalle lähennettäessä.</string>
     <string name="render_labels_summary_off">Piirretty kartta ei näytä nimiä, joten se on väljempi.</string>
+    <string name="theme_title">Teema</string>
+    <string name="theme_system">Sama kuin laitteessa</string>
+    <string name="theme_light">Vaalea</string>
+    <string name="theme_dark">Tumma</string>
 </resources>

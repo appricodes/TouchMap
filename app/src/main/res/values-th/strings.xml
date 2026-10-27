@@ -210,4 +210,8 @@
     <string name="render_labels_title">แสดงชื่อบนแผนที่</string>
     <string name="render_labels_summary_on">ชื่อถนนและสถานที่จะถูกเขียนบนแผนที่ที่วาดเมื่อซูมเข้า</string>
     <string name="render_labels_summary_off">แผนที่ที่วาดไม่แสดงชื่อ จึงดูโล่งขึ้น</string>
+    <string name="theme_title">ธีม</string>
+    <string name="theme_system">ตามอุปกรณ์</string>
+    <string name="theme_light">สว่าง</string>
+    <string name="theme_dark">มืด</string>
 </resources>

@@ -210,4 +210,8 @@
     <string name="render_labels_title">إظهار الأسماء على الخريطة</string>
     <string name="render_labels_summary_on">تُكتب أسماء الشوارع والأماكن على الخريطة المرسومة عند التكبير.</string>
     <string name="render_labels_summary_off">لا تعرض الخريطة المرسومة أي أسماء، فتبدو أقل ازدحامًا.</string>
+    <string name="theme_title">السمة</string>
+    <string name="theme_system">مثل الجهاز</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
 </resources>

@@ -210,4 +210,8 @@
     <string name="render_labels_title">Показувати назви на мапі</string>
     <string name="render_labels_summary_on">Під час збільшення назви вулиць і місць пишуться на намальованій мапі.</string>
     <string name="render_labels_summary_off">Намальована мапа не показує назв, тому вона менш перевантажена.</string>
+    <string name="theme_title">Тема</string>
+    <string name="theme_system">Як на пристрої</string>
+    <string name="theme_light">Світла</string>
+    <string name="theme_dark">Темна</string>
 </resources>

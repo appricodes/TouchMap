@@ -210,4 +210,8 @@
     <string name="render_labels_title">മാപ്പിൽ പേരുകൾ കാണിക്കുക</string>
     <string name="render_labels_summary_on">സൂം ഇൻ ചെയ്യുമ്പോൾ വരച്ച മാപ്പിൽ തെരുവുകളുടെയും സ്ഥലങ്ങളുടെയും പേരുകൾ എഴുതുന്നു.</string>
     <string name="render_labels_summary_off">വരച്ച മാപ്പ് പേരുകളൊന്നും കാണിക്കുന്നില്ല, അതിനാൽ തിരക്ക് കുറവാണ്.</string>
+    <string name="theme_title">തീം</string>
+    <string name="theme_system">ഉപകരണത്തിന് സമാനം</string>
+    <string name="theme_light">ലൈറ്റ്</string>
+    <string name="theme_dark">ഡാർക്ക്</string>
 </resources>

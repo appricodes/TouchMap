@@ -210,4 +210,8 @@
     <string name="render_labels_title">Afficher les noms sur la carte</string>
     <string name="render_labels_summary_on">Les noms de rues et de lieux s\'écrivent sur la carte dessinée lorsque vous zoomez.</string>
     <string name="render_labels_summary_off">La carte dessinée n\'affiche aucun nom, elle est donc moins chargée.</string>
+    <string name="theme_title">Thème</string>
+    <string name="theme_system">Comme l\'appareil</string>
+    <string name="theme_light">Clair</string>
+    <string name="theme_dark">Sombre</string>
 </resources>

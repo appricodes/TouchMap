@@ -210,4 +210,8 @@
     <string name="render_labels_title">Pokaż nazwy na mapie</string>
     <string name="render_labels_summary_on">Nazwy ulic i miejsc są wpisywane na narysowanej mapie po powiększeniu.</string>
     <string name="render_labels_summary_off">Narysowana mapa nie pokazuje nazw, dzięki czemu jest mniej zatłoczona.</string>
+    <string name="theme_title">Motyw</string>
+    <string name="theme_system">Taki jak urządzenie</string>
+    <string name="theme_light">Jasny</string>
+    <string name="theme_dark">Ciemny</string>
 </resources>

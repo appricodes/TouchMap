@@ -210,4 +210,8 @@
     <string name="render_labels_title">வரைபடத்தில் பெயர்களைக் காட்டு</string>
     <string name="render_labels_summary_on">பெரிதாக்கும்போது வரையப்பட்ட வரைபடத்தில் தெரு மற்றும் இடங்களின் பெயர்கள் எழுதப்படும்.</string>
     <string name="render_labels_summary_off">வரையப்பட்ட வரைபடம் பெயர்களைக் காட்டாது, அதனால் நெரிசல் குறைவாக இருக்கும்.</string>
+    <string name="theme_title">தீம்</string>
+    <string name="theme_system">சாதனத்தைப் போல</string>
+    <string name="theme_light">ஒளி</string>
+    <string name="theme_dark">இருள்</string>
 </resources>

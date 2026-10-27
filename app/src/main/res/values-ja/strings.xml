@@ -198,4 +198,8 @@
     <string name="render_labels_title">地図上に名前を表示</string>
     <string name="render_labels_summary_on">拡大すると、描画された地図に道路名や地名が表示されます。</string>
     <string name="render_labels_summary_off">描画された地図に名前を表示しないため、すっきり見えます。</string>
+    <string name="theme_title">テーマ</string>
+    <string name="theme_system">端末の設定に合わせる</string>
+    <string name="theme_light">ライト</string>
+    <string name="theme_dark">ダーク</string>
 </resources>

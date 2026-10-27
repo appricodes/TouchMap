@@ -210,4 +210,8 @@
     <string name="render_labels_title">નકશા પર નામ બતાવો</string>
     <string name="render_labels_summary_on">ઝૂમ ઇન કરતી વખતે દોરેલા નકશા પર શેરી અને સ્થળોના નામ લખાય છે.</string>
     <string name="render_labels_summary_off">દોરેલો નકશો કોઈ નામ બતાવતો નથી, તેથી તે ઓછો ભરચક લાગે છે.</string>
+    <string name="theme_title">થીમ</string>
+    <string name="theme_system">ઉપકરણ જેવી</string>
+    <string name="theme_light">હળવી</string>
+    <string name="theme_dark">ઘેરી</string>
 </resources>

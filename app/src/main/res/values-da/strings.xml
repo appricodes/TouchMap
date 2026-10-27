@@ -209,4 +209,8 @@
     <string name="render_labels_title">Vis navne på kortet</string>
     <string name="render_labels_summary_on">Gade- og stednavne skrives på det tegnede kort, når du zoomer ind.</string>
     <string name="render_labels_summary_off">Det tegnede kort viser ingen navne, så det er mindre overfyldt.</string>
+    <string name="theme_title">Tema</string>
+    <string name="theme_system">Samme som enheden</string>
+    <string name="theme_light">Lyst</string>
+    <string name="theme_dark">Mørkt</string>
 </resources>

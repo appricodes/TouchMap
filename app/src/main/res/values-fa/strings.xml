@@ -210,4 +210,8 @@
     <string name="render_labels_title">نمایش نام‌ها روی نقشه</string>
     <string name="render_labels_summary_on">هنگام بزرگ‌نمایی، نام خیابان‌ها و مکان‌ها روی نقشه ترسیم‌شده نوشته می‌شود.</string>
     <string name="render_labels_summary_off">نقشه ترسیم‌شده هیچ نامی نشان نمی‌دهد و در نتیجه خلوت‌تر است.</string>
+    <string name="theme_title">پوسته</string>
+    <string name="theme_system">مانند دستگاه</string>
+    <string name="theme_light">روشن</string>
+    <string name="theme_dark">تیره</string>
 </resources>

@@ -210,4 +210,8 @@
     <string name="render_labels_title">Haritada adları göster</string>
     <string name="render_labels_summary_on">Yakınlaştırıldığında sokak ve yer adları çizilen haritaya yazılır.</string>
     <string name="render_labels_summary_off">Çizilen harita hiçbir ad göstermez, bu yüzden daha az kalabalıktır.</string>
+    <string name="theme_title">Tema</string>
+    <string name="theme_system">Cihazla aynı</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
 </resources>

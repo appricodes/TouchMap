@@ -198,4 +198,8 @@
     <string name="render_labels_title">在地图上显示名称</string>
     <string name="render_labels_summary_on">放大时，绘制的地图上会写出街道和地点名称。</string>
     <string name="render_labels_summary_off">绘制的地图不显示名称，因此更简洁。</string>
+    <string name="theme_title">主题</string>
+    <string name="theme_system">与设备相同</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
 </resources>

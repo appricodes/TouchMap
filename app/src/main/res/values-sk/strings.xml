@@ -198,4 +198,8 @@
     <string name="render_labels_title">Zobraziť názvy na mape</string>
     <string name="render_labels_summary_on">Názvy ulíc a miest sa pri priblížení píšu do vykreslenej mapy.</string>
     <string name="render_labels_summary_off">Vykreslená mapa nezobrazuje žiadne názvy, takže je menej preplnená.</string>
+    <string name="theme_title">Motív</string>
+    <string name="theme_system">Podľa zariadenia</string>
+    <string name="theme_light">Svetlý</string>
+    <string name="theme_dark">Tmavý</string>
 </resources>
