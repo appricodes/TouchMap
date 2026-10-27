@@ -110,6 +110,10 @@
     <string name="download_radius_location_unknown">Ubicació no disponible — mou el mapa o concedeix el permís d\'ubicació</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">Privadesa</string>
+    <string name="crash_reports_title">Envia informes de fallada</string>
+    <string name="crash_reports_summary_on">Si l\'aplicació falla, s\'envia informació de diagnòstic (l\'error, el model del dispositiu, la versió d\'Android i la versió de l\'aplicació) a Google Firebase Crashlytics perquè es pugui solucionar el problema. Ho pots desactivar en qualsevol moment.</string>
+    <string name="crash_reports_summary_off">Desactivat: no s\'envia cap informe de fallada. Activa-ho per ajudar a corregir errors enviant informació de fallades a Google Firebase Crashlytics.</string>
     <string name="render_map_title">Mostra el mapa (Beta)</string>
     <string name="render_map_summary_on">El mapa es dibuixa a la pantalla per a usuaris amb baixa visió. Aquest dibuix és experimental i encara s\'està millorant.</string>
     <string name="render_map_summary_off">El mapa no es dibuixa; explora només mitjançant el tacte i el so.</string>
@@ -196,7 +200,7 @@
     <string name="about_email_action">Envia un correu electrònic</string>
     <string name="about_website_action">Obre el lloc web</string>
     <string name="about_privacy_heading">Privadesa</string>
-    <string name="about_privacy_body">Navia envia informes de fallada a Firebase Crashlytics, un servei de Google, perquè els problemes es puguin trobar i corregir. Utilitza la ubicació del teu dispositiu per dir-te què tens al voltant; la teva ubicació s\'utilitza al dispositiu i no s\'envia al desenvolupador de l\'aplicació. Quan cerques una adreça, aquest text de cerca s\'envia al servei de geocodificació del teu dispositiu perquè el localitzi.</string>
+    <string name="about_privacy_body">Si ho actives a Configuració, Navia envia informes de fallada a Firebase Crashlytics, un servei de Google, perquè els problemes es puguin trobar i solucionar; està desactivat de manera predeterminada. Utilitza la ubicació del teu dispositiu per dir-te què tens al voltant; la teva ubicació s\'utilitza al dispositiu i no s\'envia al desenvolupador de l\'aplicació. Quan cerques una adreça, aquest text de cerca s\'envia al servei de geocodificació del teu dispositiu perquè el localitzi.</string>
     <string name="about_privacy_link">Llegeix la política de privadesa</string>
     <string name="about_no_app_for_link">Cap aplicació d\'aquest dispositiu no pot obrir-ho.</string>
 </resources>

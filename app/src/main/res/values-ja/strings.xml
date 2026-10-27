@@ -107,6 +107,10 @@
     <string name="download_area_action">このエリアの地図をダウンロード</string>
     <string name="download_radius_location_unknown">位置情報が利用できません — 地図を動かすか、位置情報の権限を許可してください</string>
 
+    <string name="privacy_header">プライバシー</string>
+    <string name="crash_reports_title">クラッシュレポートを送信</string>
+    <string name="crash_reports_summary_on">アプリがクラッシュした場合、問題を修正できるよう、診断情報（エラー、端末モデル、Android バージョン、アプリのバージョン）が Google Firebase Crashlytics に送信されます。これはいつでもオフにできます。</string>
+    <string name="crash_reports_summary_off">オフ：クラッシュレポートは送信されません。クラッシュ情報を Google Firebase Crashlytics に送信してバグ修正に協力するには、オンにしてください。</string>
     <string name="render_map_title">地図を表示する（ベータ版）</string>
     <string name="render_map_summary_on">ロービジョンの方向けに地図を画面に描画します。この描画機能は実験段階で、現在も改善中です。</string>
     <string name="render_map_summary_off">地図は描画されません。タッチとサウンドのみで探索します。</string>
@@ -185,7 +189,7 @@
     <string name="about_email_action">メールを送信</string>
     <string name="about_website_action">ウェブサイトを開く</string>
     <string name="about_privacy_heading">プライバシー</string>
-    <string name="about_privacy_body">Navia は、問題の発見と修正のために、Google のサービスである Firebase Crashlytics にクラッシュレポートを送信します。周囲に何があるかをお伝えするために端末の位置情報を使用します。位置情報は端末内で使用され、アプリの開発者には送信されません。住所を検索すると、その検索文字列は端末のジオコーディングサービスに送信されて照会されます。</string>
+    <string name="about_privacy_body">設定でオンにすると、Navia は問題の発見と修正のために、Google のサービスである Firebase Crashlytics にクラッシュレポートを送信します。初期設定ではオフです。周囲に何があるかをお伝えするために端末の位置情報を使用します。位置情報は端末内で使用され、アプリの開発者には送信されません。住所を検索すると、その検索文字列は端末のジオコーディングサービスに送信されて照会されます。</string>
     <string name="about_privacy_link">プライバシーポリシーを読む</string>
     <string name="about_no_app_for_link">この端末には、それを開けるアプリがありません。</string>
 </resources>

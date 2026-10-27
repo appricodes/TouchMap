@@ -107,6 +107,10 @@
     <string name="download_area_action">下載此區域的地圖</string>
     <string name="download_radius_location_unknown">位置無法使用 — 請移動地圖或授予位置權限</string>
 
+    <string name="privacy_header">私隱</string>
+    <string name="crash_reports_title">傳送當機報告</string>
+    <string name="crash_reports_summary_on">如果應用程式當機，診斷資料（錯誤、裝置型號、Android 版本、應用程式版本）會傳送至 Google Firebase Crashlytics，以便修正問題。你可以隨時關閉此功能。</string>
+    <string name="crash_reports_summary_off">已關閉：不會傳送當機報告。開啟後，當機資料會傳送至 Google Firebase Crashlytics，協助修正錯誤。</string>
     <string name="render_map_title">顯示地圖（測試版）</string>
     <string name="render_map_summary_on">為視力欠佳的使用者在螢幕上繪製地圖。此繪圖功能仍屬實驗性質，並持續改進中。</string>
     <string name="render_map_summary_off">不會繪製地圖；只能透過觸控及聲音探索。</string>
@@ -185,7 +189,7 @@
     <string name="about_email_action">傳送電郵</string>
     <string name="about_website_action">開啟網站</string>
     <string name="about_privacy_heading">私隱</string>
-    <string name="about_privacy_body">Navia 會將當機報告傳送至 Google 的服務 Firebase Crashlytics，以便找出並修正問題。它使用你裝置的位置來告訴你周圍有甚麼；你的位置在裝置上使用，不會傳送給應用程式開發者。當你搜尋地址時，該搜尋文字會傳送至你裝置的地理編碼服務進行查詢。</string>
+    <string name="about_privacy_body">如果你在設定中開啟，Navia 會將當機報告傳送至 Google 的服務 Firebase Crashlytics，以便找出並修正問題；預設為關閉。它使用你裝置的位置來告訴你周圍有甚麼；你的位置在裝置上使用，不會傳送給應用程式開發者。當你搜尋地址時，該搜尋文字會傳送至你裝置的地理編碼服務進行查詢。</string>
     <string name="about_privacy_link">閱讀私隱政策</string>
     <string name="about_no_app_for_link">此裝置上沒有應用程式可以開啟該內容。</string>
 </resources>

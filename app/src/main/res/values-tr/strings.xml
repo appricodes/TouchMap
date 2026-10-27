@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">Konum kullanılamıyor — haritayı hareket ettirin veya konum izni verin</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">Gizlilik</string>
+    <string name="crash_reports_title">Kilitlenme raporlarını gönder</string>
+    <string name="crash_reports_summary_on">Uygulama kilitlenirse tanılama bilgileri (hata, cihaz modeli, Android sürümü, uygulama sürümü) sorunun düzeltilebilmesi için Google Firebase Crashlytics\'e gönderilir. Bunu istediğiniz zaman kapatabilirsiniz.</string>
+    <string name="crash_reports_summary_off">Kapalı: kilitlenme raporu gönderilmez. Kilitlenme bilgilerini Google Firebase Crashlytics\'e göndererek hataların düzeltilmesine yardımcı olmak için açın.</string>
     <string name="render_map_title">Haritayı göster (Beta)</string>
     <string name="render_map_summary_on">Az gören kullanıcılar için harita ekranda çizilir. Bu çizim deneyseldir ve geliştirilmeye devam ediyor.</string>
     <string name="render_map_summary_off">Harita çizilmez; yalnızca dokunma ve ses ile keşfedin.</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">E-posta gönder</string>
     <string name="about_website_action">Web sitesini aç</string>
     <string name="about_privacy_heading">Gizlilik</string>
-    <string name="about_privacy_body">Navia, sorunların bulunup düzeltilebilmesi için kilitlenme raporlarını bir Google hizmeti olan Firebase Crashlytics\'e gönderir. Çevrenizde ne olduğunu size söylemek için cihazınızın konumunu kullanır; konumunuz cihazda kullanılır ve uygulamanın geliştiricisine gönderilmez. Bir adres aradığınızda, bu arama metni aranmak üzere cihazınızın coğrafi kodlama hizmetine gönderilir.</string>
+    <string name="about_privacy_body">Ayarlar\'dan açarsanız Navia, sorunların bulunup düzeltilebilmesi için kilitlenme raporlarını bir Google hizmeti olan Firebase Crashlytics\'e gönderir; varsayılan olarak kapalıdır. Çevrenizde ne olduğunu size söylemek için cihazınızın konumunu kullanır; konumunuz cihazda kullanılır ve uygulamanın geliştiricisine gönderilmez. Bir adres aradığınızda, bu arama metni aranmak üzere cihazınızın coğrafi kodlama hizmetine gönderilir.</string>
     <string name="about_privacy_link">Gizlilik politikasını oku</string>
     <string name="about_no_app_for_link">Bu cihazdaki hiçbir uygulama bunu açamıyor.</string>
 </resources>

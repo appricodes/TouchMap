@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">స్థానం అందుబాటులో లేదు — మ్యాప్‌ను తరలించండి లేదా స్థాన అనుమతి ఇవ్వండి</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">గోప్యత</string>
+    <string name="crash_reports_title">క్రాష్ నివేదికలను పంపండి</string>
+    <string name="crash_reports_summary_on">యాప్ క్రాష్ అయితే, సమస్యను పరిష్కరించడానికి విశ్లేషణ సమాచారం (లోపం, పరికర మోడల్, Android వెర్షన్, యాప్ వెర్షన్) Google Firebase Crashlytics కు పంపబడుతుంది. మీరు దీన్ని ఎప్పుడైనా ఆఫ్ చేయవచ్చు.</string>
+    <string name="crash_reports_summary_off">ఆఫ్: క్రాష్ నివేదికలు ఏవీ పంపబడవు. క్రాష్ సమాచారాన్ని Google Firebase Crashlytics కు పంపి బగ్‌లను పరిష్కరించడంలో సహాయపడటానికి ఆన్ చేయండి.</string>
     <string name="render_map_title">మ్యాప్‌ను చూపించు (బీటా)</string>
     <string name="render_map_summary_on">తక్కువ దృష్టి ఉన్న వినియోగదారుల కోసం మ్యాప్ స్క్రీన్‌పై గీయబడుతుంది. ఈ డ్రాయింగ్ ప్రయోగాత్మకమైనది మరియు ఇంకా మెరుగుపడుతోంది.</string>
     <string name="render_map_summary_off">మ్యాప్ గీయబడదు; స్పర్శ మరియు శబ్దం ద్వారా మాత్రమే అన్వేషించండి.</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">ఇమెయిల్ పంపండి</string>
     <string name="about_website_action">వెబ్‌సైట్ తెరవండి</string>
     <string name="about_privacy_heading">గోప్యత</string>
-    <string name="about_privacy_body">సమస్యలను కనుగొని పరిష్కరించడానికి Navia క్రాష్ నివేదికలను Google సేవ అయిన Firebase Crashlytics కు పంపుతుంది. మీ చుట్టూ ఏమి ఉందో చెప్పడానికి ఇది మీ పరికర స్థానాన్ని ఉపయోగిస్తుంది; మీ స్థానం పరికరంలోనే ఉపయోగించబడుతుంది మరియు యాప్ డెవలపర్‌కు పంపబడదు. మీరు చిరునామాను వెతికినప్పుడు, ఆ శోధన వచనం వెతకడానికి మీ పరికరం యొక్క జియోకోడింగ్ సేవకు పంపబడుతుంది.</string>
+    <string name="about_privacy_body">మీరు దీన్ని సెట్టింగ్‌లలో ఆన్ చేస్తే, సమస్యలను కనుగొని పరిష్కరించడానికి Navia క్రాష్ నివేదికలను Google సేవ అయిన Firebase Crashlytics కు పంపుతుంది; ఇది డిఫాల్ట్‌గా ఆఫ్‌లో ఉంటుంది. మీ చుట్టూ ఏమి ఉందో చెప్పడానికి ఇది మీ పరికర స్థానాన్ని ఉపయోగిస్తుంది; మీ స్థానం పరికరంలోనే ఉపయోగించబడుతుంది మరియు యాప్ డెవలపర్‌కు పంపబడదు. మీరు చిరునామాను వెతికినప్పుడు, ఆ శోధన వచనం వెతకడానికి మీ పరికరం యొక్క జియోకోడింగ్ సేవకు పంపబడుతుంది.</string>
     <string name="about_privacy_link">గోప్యతా విధానాన్ని చదవండి</string>
     <string name="about_no_app_for_link">ఈ పరికరంలో దాన్ని తెరవగల యాప్ లేదు.</string>
 </resources>

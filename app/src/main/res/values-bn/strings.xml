@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">অবস্থান উপলব্ধ নেই — মানচিত্রটি সরান বা অবস্থানের অনুমতি দিন</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">গোপনীয়তা</string>
+    <string name="crash_reports_title">ক্র্যাশ রিপোর্ট পাঠান</string>
+    <string name="crash_reports_summary_on">অ্যাপ ক্র্যাশ করলে ডায়াগনস্টিক তথ্য (ত্রুটি, ডিভাইসের মডেল, Android সংস্করণ, অ্যাপের সংস্করণ) Google Firebase Crashlytics-এ পাঠানো হয়, যাতে সমস্যাটি সমাধান করা যায়। আপনি যেকোনো সময় এটি বন্ধ করতে পারেন।</string>
+    <string name="crash_reports_summary_off">বন্ধ: কোনো ক্র্যাশ রিপোর্ট পাঠানো হয় না। Google Firebase Crashlytics-এ ক্র্যাশের তথ্য পাঠিয়ে বাগ ঠিক করতে সহায়তা করতে চালু করুন।</string>
     <string name="render_map_title">মানচিত্র দেখান (বিটা)</string>
     <string name="render_map_summary_on">কম দৃষ্টিসম্পন্ন ব্যবহারকারীদের জন্য মানচিত্রটি স্ক্রিনে আঁকা হয়। এই অঙ্কন পরীক্ষামূলক এবং এখনও উন্নত হচ্ছে।</string>
     <string name="render_map_summary_off">মানচিত্র আঁকা হয় না; শুধুমাত্র স্পর্শ ও শব্দের মাধ্যমে অন্বেষণ করুন।</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">ইমেল পাঠান</string>
     <string name="about_website_action">ওয়েবসাইট খুলুন</string>
     <string name="about_privacy_heading">গোপনীয়তা</string>
-    <string name="about_privacy_body">Navia ক্র্যাশ রিপোর্ট Firebase Crashlytics-এ পাঠায়, যা Google-এর একটি পরিষেবা, যাতে সমস্যা খুঁজে বের করে ঠিক করা যায়। এটি আপনার ডিভাইসের অবস্থান ব্যবহার করে আপনাকে জানায় আপনার আশেপাশে কী আছে; আপনার অবস্থান ডিভাইসেই ব্যবহৃত হয় এবং অ্যাপের ডেভেলপারকে পাঠানো হয় না। আপনি যখন কোনও ঠিকানা খোঁজেন, সেই খোঁজার লেখাটি খুঁজে দেখার জন্য আপনার ডিভাইসের জিওকোডিং পরিষেবাতে পাঠানো হয়।</string>
+    <string name="about_privacy_body">আপনি সেটিংসে এটি চালু করলে, Navia ক্র্যাশ রিপোর্ট Firebase Crashlytics-এ পাঠায়, যা Google-এর একটি পরিষেবা, যাতে সমস্যা খুঁজে বের করে ঠিক করা যায়; এটি ডিফল্টভাবে বন্ধ থাকে। এটি আপনার ডিভাইসের অবস্থান ব্যবহার করে আপনাকে জানায় আপনার আশেপাশে কী আছে; আপনার অবস্থান ডিভাইসেই ব্যবহৃত হয় এবং অ্যাপের ডেভেলপারকে পাঠানো হয় না। আপনি যখন কোনও ঠিকানা খোঁজেন, সেই খোঁজার লেখাটি খুঁজে দেখার জন্য আপনার ডিভাইসের জিওকোডিং পরিষেবাতে পাঠানো হয়।</string>
     <string name="about_privacy_link">গোপনীয়তা নীতি পড়ুন</string>
     <string name="about_no_app_for_link">এই ডিভাইসের কোনও অ্যাপ সেটি খুলতে পারে না।</string>
 </resources>

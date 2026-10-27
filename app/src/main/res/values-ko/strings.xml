@@ -107,6 +107,10 @@
     <string name="download_area_action">이 지역의 지도 다운로드</string>
     <string name="download_radius_location_unknown">위치를 사용할 수 없습니다 — 지도를 이동하거나 위치 권한을 허용하세요</string>
 
+    <string name="privacy_header">개인정보</string>
+    <string name="crash_reports_title">비정상 종료 보고서 보내기</string>
+    <string name="crash_reports_summary_on">앱이 비정상 종료되면 진단 정보(오류, 기기 모델, Android 버전, 앱 버전)가 문제를 해결할 수 있도록 Google Firebase Crashlytics로 전송됩니다. 언제든지 끌 수 있습니다.</string>
+    <string name="crash_reports_summary_off">꺼짐: 비정상 종료 보고서가 전송되지 않습니다. 비정상 종료 정보를 Google Firebase Crashlytics로 보내 버그 수정에 도움을 주려면 켜세요.</string>
     <string name="render_map_title">지도 표시(베타)</string>
     <string name="render_map_summary_on">저시력 사용자를 위해 지도를 화면에 그립니다. 이 기능은 실험적이며 계속 개선 중입니다.</string>
     <string name="render_map_summary_off">지도가 그려지지 않으며, 터치와 소리만으로 탐색합니다.</string>
@@ -185,7 +189,7 @@
     <string name="about_email_action">이메일 보내기</string>
     <string name="about_website_action">웹사이트 열기</string>
     <string name="about_privacy_heading">개인정보</string>
-    <string name="about_privacy_body">Navia는 문제를 찾아 고칠 수 있도록 Google 서비스인 Firebase Crashlytics에 비정상 종료 보고서를 보냅니다. 주변에 무엇이 있는지 알려주기 위해 기기 위치를 사용하며, 위치는 기기에서 사용되고 앱 개발자에게 전송되지 않습니다. 주소를 검색하면 해당 검색어가 조회를 위해 기기의 지오코딩 서비스로 전송됩니다.</string>
+    <string name="about_privacy_body">설정에서 켜면 Navia는 문제를 찾아 고칠 수 있도록 Google 서비스인 Firebase Crashlytics에 비정상 종료 보고서를 보냅니다. 기본적으로 꺼져 있습니다. 주변에 무엇이 있는지 알려주기 위해 기기 위치를 사용하며, 위치는 기기에서 사용되고 앱 개발자에게 전송되지 않습니다. 주소를 검색하면 해당 검색어가 조회를 위해 기기의 지오코딩 서비스로 전송됩니다.</string>
     <string name="about_privacy_link">개인정보처리방침 읽기</string>
     <string name="about_no_app_for_link">이 기기에서 이를 열 수 있는 앱이 없습니다.</string>
 </resources>

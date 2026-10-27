@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">Position indisponible — déplacez la carte ou autorisez l\'accès à la position</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">Confidentialité</string>
+    <string name="crash_reports_title">Envoyer les rapports de plantage</string>
+    <string name="crash_reports_summary_on">Si l\'application plante, des informations de diagnostic (l\'erreur, le modèle de l\'appareil, la version d\'Android et la version de l\'application) sont envoyées à Google Firebase Crashlytics afin de corriger le problème. Vous pouvez le désactiver à tout moment.</string>
+    <string name="crash_reports_summary_off">Désactivé : aucun rapport de plantage n\'est envoyé. Activez cette option pour aider à corriger les bugs en envoyant des informations de plantage à Google Firebase Crashlytics.</string>
     <string name="render_map_title">Afficher la carte (Bêta)</string>
     <string name="render_map_summary_on">La carte est dessinée à l\'écran pour les personnes malvoyantes. Cet affichage est expérimental et continue d\'être amélioré.</string>
     <string name="render_map_summary_off">La carte n\'est pas dessinée ; explorez uniquement par le toucher et le son.</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">Envoyer un e-mail</string>
     <string name="about_website_action">Ouvrir le site web</string>
     <string name="about_privacy_heading">Confidentialité</string>
-    <string name="about_privacy_body">Navia envoie des rapports de plantage à Firebase Crashlytics, un service Google, afin que les problèmes puissent être détectés et corrigés. L\'application utilise la position de votre appareil pour vous indiquer ce qui vous entoure ; votre position est utilisée sur l\'appareil et n\'est pas envoyée au développeur de l\'application. Lorsque vous recherchez une adresse, ce texte de recherche est envoyé au service de géocodage de votre appareil pour être résolu.</string>
+    <string name="about_privacy_body">Si vous l\'activez dans les Paramètres, Navia envoie des rapports de plantage à Firebase Crashlytics, un service Google, afin que les problèmes puissent être détectés et corrigés ; cette option est désactivée par défaut. L\'application utilise la position de votre appareil pour vous indiquer ce qui vous entoure ; votre position est utilisée sur l\'appareil et n\'est pas envoyée au développeur de l\'application. Lorsque vous recherchez une adresse, ce texte de recherche est envoyé au service de géocodage de votre appareil pour être résolu.</string>
     <string name="about_privacy_link">Lire la politique de confidentialité</string>
     <string name="about_no_app_for_link">Aucune application de cet appareil ne peut ouvrir cela.</string>
 </resources>

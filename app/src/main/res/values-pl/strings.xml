@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">Lokalizacja niedostępna — przesuń mapę lub udziel uprawnienia do lokalizacji</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">Prywatność</string>
+    <string name="crash_reports_title">Wysyłaj raporty o awariach</string>
+    <string name="crash_reports_summary_on">Jeśli aplikacja ulegnie awarii, informacje diagnostyczne (błąd, model urządzenia, wersja Androida, wersja aplikacji) są wysyłane do Google Firebase Crashlytics, aby można było naprawić problem. Możesz to wyłączyć w dowolnym momencie.</string>
+    <string name="crash_reports_summary_off">Wyłączone: raporty o awariach nie są wysyłane. Włącz, aby pomóc w naprawianiu błędów, wysyłając informacje o awariach do Google Firebase Crashlytics.</string>
     <string name="render_map_title">Pokaż mapę (Beta)</string>
     <string name="render_map_summary_on">Mapa jest rysowana na ekranie dla osób słabowidzących. Ta funkcja jest eksperymentalna i wciąż udoskonalana.</string>
     <string name="render_map_summary_off">Mapa nie jest rysowana; eksploruj wyłącznie dotykiem i dźwiękiem.</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">Wyślij e-mail</string>
     <string name="about_website_action">Otwórz stronę internetową</string>
     <string name="about_privacy_heading">Prywatność</string>
-    <string name="about_privacy_body">Navia wysyła raporty o awariach do Firebase Crashlytics, usługi Google, aby można było znajdować i naprawiać problemy. Aplikacja używa lokalizacji Twojego urządzenia, aby informować Cię, co znajduje się wokół Ciebie; Twoja lokalizacja jest używana na urządzeniu i nie jest wysyłana do dewelopera aplikacji. Gdy szukasz adresu, tekst wyszukiwania jest wysyłany do usługi geokodowania Twojego urządzenia w celu odnalezienia.</string>
+    <string name="about_privacy_body">Jeśli włączysz to w Ustawieniach, Navia wysyła raporty o awariach do Firebase Crashlytics, usługi Google, aby można było znajdować i naprawiać problemy; domyślnie jest to wyłączone. Aplikacja używa lokalizacji Twojego urządzenia, aby informować Cię, co znajduje się wokół Ciebie; Twoja lokalizacja jest używana na urządzeniu i nie jest wysyłana do dewelopera aplikacji. Gdy szukasz adresu, tekst wyszukiwania jest wysyłany do usługi geokodowania Twojego urządzenia w celu odnalezienia.</string>
     <string name="about_privacy_link">Przeczytaj politykę prywatności</string>
     <string name="about_no_app_for_link">Żadna aplikacja na tym urządzeniu nie może tego otworzyć.</string>
 </resources>

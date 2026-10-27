@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">Hindi available ang lokasyon — igalaw ang mapa o bigyan ng pahintulot sa lokasyon</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">Privacy</string>
+    <string name="crash_reports_title">Magpadala ng mga ulat ng crash</string>
+    <string name="crash_reports_summary_on">Kung mag-crash ang app, ipinapadala ang impormasyong pang-diagnose (ang error, modelo ng device, bersyon ng Android, bersyon ng app) sa Google Firebase Crashlytics para maayos ang problema. Puwede mo itong i-off anumang oras.</string>
+    <string name="crash_reports_summary_off">Naka-off: walang ipinapadalang ulat ng crash. I-on para makatulong sa pag-aayos ng mga bug sa pamamagitan ng pagpapadala ng impormasyon ng crash sa Google Firebase Crashlytics.</string>
     <string name="render_map_title">Ipakita ang mapa (Beta)</string>
     <string name="render_map_summary_on">Iginuguhit ang mapa sa screen para sa mga user na may mahinang paningin. Eksperimental pa ito at patuloy na pinapaganda.</string>
     <string name="render_map_summary_off">Hindi iginuguhit ang mapa; tuklasin sa pamamagitan lang ng paghipo at tunog.</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">Magpadala ng e-mail</string>
     <string name="about_website_action">Buksan ang website</string>
     <string name="about_privacy_heading">Privacy</string>
-    <string name="about_privacy_body">Nagpapadala ang Navia ng mga ulat ng crash sa Firebase Crashlytics, isang serbisyo ng Google, para matukoy at maayos ang mga problema. Ginagamit nito ang lokasyon ng iyong device para sabihin sa iyo kung ano ang nasa paligid mo; ginagamit ang iyong lokasyon sa device at hindi ipinapadala sa developer ng app. Kapag naghanap ka ng address, ipinapadala ang teksto ng paghahanap na iyon sa serbisyo ng geocoding ng iyong device para hanapin.</string>
+    <string name="about_privacy_body">Kung io-on mo ito sa Mga Setting, nagpapadala ang Navia ng mga ulat ng crash sa Firebase Crashlytics, isang serbisyo ng Google, para matukoy at maayos ang mga problema; naka-off ito bilang default. Ginagamit nito ang lokasyon ng iyong device para sabihin sa iyo kung ano ang nasa paligid mo; ginagamit ang iyong lokasyon sa device at hindi ipinapadala sa developer ng app. Kapag naghanap ka ng address, ipinapadala ang teksto ng paghahanap na iyon sa serbisyo ng geocoding ng iyong device para hanapin.</string>
     <string name="about_privacy_link">Basahin ang patakaran sa privacy</string>
     <string name="about_no_app_for_link">Walang app sa device na ito ang makakabukas niyan.</string>
 </resources>

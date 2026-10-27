@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">Standort nicht verfügbar — verschiebe die Karte oder erteile die Standortberechtigung</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">Datenschutz</string>
+    <string name="crash_reports_title">Absturzberichte senden</string>
+    <string name="crash_reports_summary_on">Wenn die App abstürzt, werden Diagnoseinformationen (der Fehler, Gerätemodell, Android-Version, App-Version) an Google Firebase Crashlytics gesendet, damit das Problem behoben werden kann. Du kannst das jederzeit ausschalten.</string>
+    <string name="crash_reports_summary_off">Aus: Es werden keine Absturzberichte gesendet. Schalte es ein, um bei der Fehlerbehebung zu helfen, indem Absturzinformationen an Google Firebase Crashlytics gesendet werden.</string>
     <string name="render_map_title">Karte anzeigen (Beta)</string>
     <string name="render_map_summary_on">Die Karte wird für sehbehinderte Nutzer auf dem Bildschirm dargestellt. Diese Darstellung ist experimentell und wird noch verbessert.</string>
     <string name="render_map_summary_off">Die Karte wird nicht dargestellt; erkunde nur durch Berührung und Ton.</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">E-Mail senden</string>
     <string name="about_website_action">Website öffnen</string>
     <string name="about_privacy_heading">Datenschutz</string>
-    <string name="about_privacy_body">Navia sendet Absturzberichte an Firebase Crashlytics, einen Google-Dienst, damit Probleme gefunden und behoben werden können. Die App verwendet den Standort deines Geräts, um dir zu sagen, was sich in deiner Umgebung befindet; dein Standort wird auf dem Gerät verwendet und nicht an den Entwickler der App gesendet. Wenn du nach einer Adresse suchst, wird dieser Suchtext an den Geokodierungsdienst deines Geräts gesendet, um sie nachzuschlagen.</string>
+    <string name="about_privacy_body">Wenn du es in den Einstellungen einschaltest, sendet Navia Absturzberichte an Firebase Crashlytics, einen Google-Dienst, damit Probleme gefunden und behoben werden können; standardmäßig ist es ausgeschaltet. Die App verwendet den Standort deines Geräts, um dir zu sagen, was sich in deiner Umgebung befindet; dein Standort wird auf dem Gerät verwendet und nicht an den Entwickler der App gesendet. Wenn du nach einer Adresse suchst, wird dieser Suchtext an den Geokodierungsdienst deines Geräts gesendet, um sie nachzuschlagen.</string>
     <string name="about_privacy_link">Datenschutzerklärung lesen</string>
     <string name="about_no_app_for_link">Keine App auf diesem Gerät kann das öffnen.</string>
 </resources>

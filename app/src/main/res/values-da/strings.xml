@@ -110,6 +110,10 @@
     <string name="download_radius_location_unknown">Placering ikke tilgængelig — flyt kortet eller giv placeringstilladelse</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">Privatliv</string>
+    <string name="crash_reports_title">Send nedbrudsrapporter</string>
+    <string name="crash_reports_summary_on">Hvis appen går ned, sendes diagnostiske oplysninger (fejlen, enhedsmodel, Android-version, appversion) til Google Firebase Crashlytics, så problemet kan rettes. Du kan til enhver tid slå det fra.</string>
+    <string name="crash_reports_summary_off">Fra: der sendes ingen nedbrudsrapporter. Slå til for at hjælpe med at rette fejl ved at sende nedbrudsoplysninger til Google Firebase Crashlytics.</string>
     <string name="render_map_title">Vis kortet (Beta)</string>
     <string name="render_map_summary_on">Kortet tegnes på skærmen for svagtseende brugere. Denne tegning er eksperimentel og bliver stadig forbedret.</string>
     <string name="render_map_summary_off">Kortet tegnes ikke; udforsk kun ved berøring og lyd.</string>
@@ -196,7 +200,7 @@
     <string name="about_email_action">Send en e-mail</string>
     <string name="about_website_action">Åbn webstedet</string>
     <string name="about_privacy_heading">Privatliv</string>
-    <string name="about_privacy_body">Navia sender nedbrudsrapporter til Firebase Crashlytics, en Google-tjeneste, så problemer kan findes og rettes. Appen bruger din enheds placering til at fortælle dig, hvad der er omkring dig; din placering bruges på enheden og sendes ikke til appens udvikler. Når du søger efter en adresse, sendes søgeteksten til din enheds geokodningstjeneste for at blive slået op.</string>
+    <string name="about_privacy_body">Hvis du slår det til i Indstillinger, sender Navia nedbrudsrapporter til Firebase Crashlytics, en Google-tjeneste, så problemer kan findes og rettes; det er slået fra som standard. Appen bruger din enheds placering til at fortælle dig, hvad der er omkring dig; din placering bruges på enheden og sendes ikke til appens udvikler. Når du søger efter en adresse, sendes søgeteksten til din enheds geokodningstjeneste for at blive slået op.</string>
     <string name="about_privacy_link">Læs privatlivspolitikken</string>
     <string name="about_no_app_for_link">Ingen app på denne enhed kan åbne det.</string>
 </resources>

@@ -110,6 +110,10 @@
     <string name="download_radius_location_unknown">Locatie niet beschikbaar — verplaats de kaart of geef locatietoestemming</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">Privacy</string>
+    <string name="crash_reports_title">Crashrapporten verzenden</string>
+    <string name="crash_reports_summary_on">Als de app crasht, worden diagnostische gegevens (de fout, het apparaatmodel, de Android-versie, de app-versie) naar Google Firebase Crashlytics gestuurd zodat het probleem kan worden opgelost. Je kunt dit op elk moment uitschakelen.</string>
+    <string name="crash_reports_summary_off">Uit: er worden geen crashrapporten verzonden. Schakel in om te helpen bugs op te lossen door crashgegevens naar Google Firebase Crashlytics te sturen.</string>
     <string name="render_map_title">Kaart tonen (Bèta)</string>
     <string name="render_map_summary_on">De kaart wordt op het scherm getekend voor slechtziende gebruikers. Deze tekening is experimenteel en wordt nog verbeterd.</string>
     <string name="render_map_summary_off">De kaart wordt niet getekend; verken alleen via aanraking en geluid.</string>
@@ -196,7 +200,7 @@
     <string name="about_email_action">E-mail sturen</string>
     <string name="about_website_action">Website openen</string>
     <string name="about_privacy_heading">Privacy</string>
-    <string name="about_privacy_body">Navia stuurt crashrapporten naar Firebase Crashlytics, een dienst van Google, zodat problemen gevonden en opgelost kunnen worden. De app gebruikt de locatie van je apparaat om je te vertellen wat er om je heen is; je locatie wordt op het apparaat gebruikt en wordt niet naar de ontwikkelaar van de app gestuurd. Wanneer je naar een adres zoekt, wordt die zoektekst naar de geocoderingsdienst van je apparaat gestuurd om opgezocht te worden.</string>
+    <string name="about_privacy_body">Als je dit inschakelt in Instellingen, stuurt Navia crashrapporten naar Firebase Crashlytics, een dienst van Google, zodat problemen gevonden en opgelost kunnen worden; het staat standaard uit. De app gebruikt de locatie van je apparaat om je te vertellen wat er om je heen is; je locatie wordt op het apparaat gebruikt en wordt niet naar de ontwikkelaar van de app gestuurd. Wanneer je naar een adres zoekt, wordt die zoektekst naar de geocoderingsdienst van je apparaat gestuurd om opgezocht te worden.</string>
     <string name="about_privacy_link">Lees het privacybeleid</string>
     <string name="about_no_app_for_link">Geen app op dit apparaat kan dat openen.</string>
 </resources>

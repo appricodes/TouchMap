@@ -107,6 +107,10 @@
     <string name="download_area_action">下载此区域的地图</string>
     <string name="download_radius_location_unknown">位置不可用 — 请移动地图或授予位置权限</string>
 
+    <string name="privacy_header">隐私</string>
+    <string name="crash_reports_title">发送崩溃报告</string>
+    <string name="crash_reports_summary_on">如果应用崩溃，诊断信息（错误、设备型号、Android 版本、应用版本）会发送到 Google Firebase Crashlytics，以便修复问题。你可以随时关闭此功能。</string>
+    <string name="crash_reports_summary_off">已关闭：不会发送崩溃报告。开启后，崩溃信息将发送到 Google Firebase Crashlytics，帮助修复错误。</string>
     <string name="render_map_title">显示地图（测试版）</string>
     <string name="render_map_summary_on">为低视力用户在屏幕上绘制地图。此绘制功能仍处于实验阶段，还在不断改进中。</string>
     <string name="render_map_summary_off">不绘制地图；仅通过触摸和声音进行探索。</string>
@@ -185,7 +189,7 @@
     <string name="about_email_action">发送电子邮件</string>
     <string name="about_website_action">打开网站</string>
     <string name="about_privacy_heading">隐私</string>
-    <string name="about_privacy_body">Navia 会将崩溃报告发送到 Google 的服务 Firebase Crashlytics，以便发现并修复问题。它使用你设备的位置来告诉你周围有什么；你的位置在设备上使用，不会发送给应用开发者。当你搜索地址时，该搜索文本会发送到你设备的地理编码服务进行查询。</string>
+    <string name="about_privacy_body">如果你在设置中开启，Navia 会将崩溃报告发送到 Google 的服务 Firebase Crashlytics，以便发现并修复问题；默认关闭。它使用你设备的位置来告诉你周围有什么；你的位置在设备上使用，不会发送给应用开发者。当你搜索地址时，该搜索文本会发送到你设备的地理编码服务进行查询。</string>
     <string name="about_privacy_link">阅读隐私政策</string>
     <string name="about_no_app_for_link">此设备上没有应用可以打开该内容。</string>
 </resources>

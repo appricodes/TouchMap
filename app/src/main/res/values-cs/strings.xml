@@ -110,6 +110,10 @@
     <string name="download_radius_location_unknown">Poloha není k dispozici — přesuňte mapu nebo udělte oprávnění k poloze</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">Soukromí</string>
+    <string name="crash_reports_title">Odesílat hlášení pádů</string>
+    <string name="crash_reports_summary_on">Pokud aplikace spadne, odešlou se diagnostické informace (chyba, model zařízení, verze Androidu, verze aplikace) do Google Firebase Crashlytics, aby bylo možné problém opravit. Můžete to kdykoli vypnout.</string>
+    <string name="crash_reports_summary_off">Vypnuto: neodesílají se žádná hlášení pádů. Zapněte, abyste pomohli opravit chyby odesíláním informací o pádech do Google Firebase Crashlytics.</string>
     <string name="render_map_title">Zobrazit mapu (beta)</string>
     <string name="render_map_summary_on">Mapa se vykresluje na obrazovce pro slabozraké uživatele. Toto vykreslování je experimentální a stále se zlepšuje.</string>
     <string name="render_map_summary_off">Mapa se nevykresluje; prozkoumávejte pouze dotykem a zvukem.</string>
@@ -196,7 +200,7 @@
     <string name="about_email_action">Poslat e-mail</string>
     <string name="about_website_action">Otevřít web</string>
     <string name="about_privacy_heading">Soukromí</string>
-    <string name="about_privacy_body">Navia posílá hlášení pádů do Firebase Crashlytics, služby Googlu, aby bylo možné najít a opravit problémy. Používá polohu vašeho zařízení, aby vám řekla, co je kolem vás; vaše poloha se používá v zařízení a neodesílá se vývojáři aplikace. Když hledáte adresu, text hledání se odešle do služby geokódování vašeho zařízení, aby ji vyhledala.</string>
+    <string name="about_privacy_body">Pokud to zapnete v Nastavení, Navia posílá hlášení pádů do Firebase Crashlytics, služby Googlu, aby bylo možné najít a opravit problémy; ve výchozím stavu je to vypnuto. Používá polohu vašeho zařízení, aby vám řekla, co je kolem vás; vaše poloha se používá v zařízení a neodesílá se vývojáři aplikace. Když hledáte adresu, text hledání se odešle do služby geokódování vašeho zařízení, aby ji vyhledala.</string>
     <string name="about_privacy_link">Přečíst zásady ochrany soukromí</string>
     <string name="about_no_app_for_link">Žádná aplikace v tomto zařízení to nedokáže otevřít.</string>
 </resources>

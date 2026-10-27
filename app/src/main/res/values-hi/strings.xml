@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">स्थान उपलब्ध नहीं है — मैप को हिलाएं या स्थान की अनुमति दें</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">गोपनीयता</string>
+    <string name="crash_reports_title">क्रैश रिपोर्ट भेजें</string>
+    <string name="crash_reports_summary_on">अगर ऐप क्रैश होता है, तो समस्या ठीक की जा सके इसके लिए डायग्नोस्टिक जानकारी (त्रुटि, डिवाइस मॉडल, Android संस्करण, ऐप संस्करण) Google Firebase Crashlytics को भेजी जाती है। आप इसे कभी भी बंद कर सकते हैं।</string>
+    <string name="crash_reports_summary_off">बंद: कोई क्रैश रिपोर्ट नहीं भेजी जाती। क्रैश की जानकारी Google Firebase Crashlytics को भेजकर बग ठीक करने में मदद के लिए इसे चालू करें।</string>
     <string name="render_map_title">मैप दिखाएं (बीटा)</string>
     <string name="render_map_summary_on">कम दृष्टि वाले उपयोगकर्ताओं के लिए मैप स्क्रीन पर बनाया जाता है। यह ड्रॉइंग प्रायोगिक है और अभी भी बेहतर हो रही है।</string>
     <string name="render_map_summary_off">मैप नहीं बनाया जाता; केवल स्पर्श और ध्वनि के ज़रिए एक्सप्लोर करें।</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">ईमेल भेजें</string>
     <string name="about_website_action">वेबसाइट खोलें</string>
     <string name="about_privacy_heading">गोपनीयता</string>
-    <string name="about_privacy_body">Navia क्रैश रिपोर्ट Firebase Crashlytics को भेजता है, जो Google की एक सेवा है, ताकि समस्याएँ ढूँढी और ठीक की जा सकें। यह आपके डिवाइस के स्थान का उपयोग करके आपको बताता है कि आपके आसपास क्या है; आपका स्थान डिवाइस पर ही उपयोग होता है और ऐप के डेवलपर को नहीं भेजा जाता। जब आप कोई पता खोजते हैं, तो वह खोज पाठ खोजने के लिए आपके डिवाइस की जियोकोडिंग सेवा को भेजा जाता है।</string>
+    <string name="about_privacy_body">अगर आप इसे सेटिंग में चालू करते हैं, तो समस्याएँ ढूँढी और ठीक की जा सकें इसके लिए Navia क्रैश रिपोर्ट Firebase Crashlytics को भेजता है, जो Google की एक सेवा है; यह डिफ़ॉल्ट रूप से बंद रहता है। यह आपके डिवाइस के स्थान का उपयोग करके आपको बताता है कि आपके आसपास क्या है; आपका स्थान डिवाइस पर ही उपयोग होता है और ऐप के डेवलपर को नहीं भेजा जाता। जब आप कोई पता खोजते हैं, तो वह खोज पाठ खोजने के लिए आपके डिवाइस की जियोकोडिंग सेवा को भेजा जाता है।</string>
     <string name="about_privacy_link">गोपनीयता नीति पढ़ें</string>
     <string name="about_no_app_for_link">इस डिवाइस पर कोई ऐप उसे नहीं खोल सकता।</string>
 </resources>

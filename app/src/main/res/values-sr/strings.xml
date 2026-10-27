@@ -107,6 +107,10 @@
     <string name="download_area_action">Преузми мапу за ову област</string>
     <string name="download_radius_location_unknown">Локација није доступна — померите мапу или дозволите приступ локацији</string>
 
+    <string name="privacy_header">Приватност</string>
+    <string name="crash_reports_title">Слање извештаја о падовима</string>
+    <string name="crash_reports_summary_on">Ако апликација падне, дијагностичке информације (грешка, модел уређаја, верзија Android-а, верзија апликације) шаљу се у Google Firebase Crashlytics како би проблем могао да се исправи. Ово можете да искључите у било ком тренутку.</string>
+    <string name="crash_reports_summary_off">Искључено: извештаји о падовима се не шаљу. Укључите да бисте помогли у исправљању грешака слањем информација о падовима у Google Firebase Crashlytics.</string>
     <string name="render_map_title">Прикажи мапу (Бета)</string>
     <string name="render_map_summary_on">Мапа се исцртава на екрану за слабовиде кориснике. Ово исцртавање је експериментално и још увек се побољшава.</string>
     <string name="render_map_summary_off">Мапа се не исцртава; истражујте само додиром и звуком.</string>
@@ -185,7 +189,7 @@
     <string name="about_email_action">Пошаљи имејл</string>
     <string name="about_website_action">Отвори веб-сајт</string>
     <string name="about_privacy_heading">Приватност</string>
-    <string name="about_privacy_body">Navia шаље извештаје о падовима у Firebase Crashlytics, услугу компаније Google, како би проблеми могли да се пронађу и исправе. Апликација користи локацију вашег уређаја да вам каже шта се налази око вас; ваша локација се користи на уређају и не шаље се програмеру апликације. Када тражите адресу, тај текст претраге се шаље услузи геокодирања вашег уређаја ради проналажења.</string>
+    <string name="about_privacy_body">Ако то укључите у подешавањима, Navia шаље извештаје о падовима у Firebase Crashlytics, услугу компаније Google, како би проблеми могли да се пронађу и исправе; подразумевано је искључено. Апликација користи локацију вашег уређаја да вам каже шта се налази око вас; ваша локација се користи на уређају и не шаље се програмеру апликације. Када тражите адресу, тај текст претраге се шаље услузи геокодирања вашег уређаја ради проналажења.</string>
     <string name="about_privacy_link">Прочитајте политику приватности</string>
     <string name="about_no_app_for_link">Ниједна апликација на овом уређају не може то да отвори.</string>
 </resources>

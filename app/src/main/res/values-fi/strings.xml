@@ -110,6 +110,10 @@
     <string name="download_radius_location_unknown">Sijainti ei ole saatavilla — siirrä karttaa tai myönnä sijaintilupa</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">Tietosuoja</string>
+    <string name="crash_reports_title">Lähetä kaatumisraportteja</string>
+    <string name="crash_reports_summary_on">Jos sovellus kaatuu, diagnostiikkatietoja (virhe, laitemalli, Android-versio, sovellusversio) lähetetään Google Firebase Crashlyticsiin, jotta ongelma voidaan korjata. Voit poistaa tämän käytöstä milloin tahansa.</string>
+    <string name="crash_reports_summary_off">Pois: kaatumisraportteja ei lähetetä. Ota käyttöön auttaaksesi virheiden korjaamisessa lähettämällä kaatumistietoja Google Firebase Crashlyticsiin.</string>
     <string name="render_map_title">Näytä kartta (beta)</string>
     <string name="render_map_summary_on">Kartta piirretään näytölle heikkonäköisiä käyttäjiä varten. Tämä piirtäminen on kokeellinen ja sitä parannetaan yhä.</string>
     <string name="render_map_summary_off">Karttaa ei piirretä; tutki vain kosketuksen ja äänen avulla.</string>
@@ -196,7 +200,7 @@
     <string name="about_email_action">Lähetä sähköposti</string>
     <string name="about_website_action">Avaa verkkosivusto</string>
     <string name="about_privacy_heading">Tietosuoja</string>
-    <string name="about_privacy_body">Navia lähettää kaatumisraportteja Firebase Crashlyticsiin, joka on Googlen palvelu, jotta ongelmat voidaan löytää ja korjata. Sovellus käyttää laitteesi sijaintia kertoakseen, mitä ympärilläsi on; sijaintiasi käytetään laitteessa eikä sitä lähetetä sovelluksen kehittäjälle. Kun haet osoitetta, hakuteksti lähetetään laitteesi geokoodauspalveluun haettavaksi.</string>
+    <string name="about_privacy_body">Jos otat sen käyttöön Asetuksissa, Navia lähettää kaatumisraportteja Firebase Crashlyticsiin, joka on Googlen palvelu, jotta ongelmat voidaan löytää ja korjata; se on oletuksena pois käytöstä. Sovellus käyttää laitteesi sijaintia kertoakseen, mitä ympärilläsi on; sijaintiasi käytetään laitteessa eikä sitä lähetetä sovelluksen kehittäjälle. Kun haet osoitetta, hakuteksti lähetetään laitteesi geokoodauspalveluun haettavaksi.</string>
     <string name="about_privacy_link">Lue tietosuojakäytäntö</string>
     <string name="about_no_app_for_link">Tässä laitteessa ei ole sovellusta, joka voisi avata sen.</string>
 </resources>

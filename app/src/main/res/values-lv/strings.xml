@@ -107,6 +107,10 @@
     <string name="download_area_action">Lejupielādēt karti šim apgabalam</string>
     <string name="download_radius_location_unknown">Atrašanās vieta nav pieejama — pārvietojiet karti vai piešķiriet atrašanās vietas atļauju</string>
 
+    <string name="privacy_header">Privātums</string>
+    <string name="crash_reports_title">Sūtīt avāriju ziņojumus</string>
+    <string name="crash_reports_summary_on">Ja lietotne avarē, diagnostikas informācija (kļūda, ierīces modelis, Android versija, lietotnes versija) tiek nosūtīta uz Google Firebase Crashlytics, lai problēmu varētu novērst. Jūs to varat izslēgt jebkurā laikā.</string>
+    <string name="crash_reports_summary_off">Izslēgts: avāriju ziņojumi netiek sūtīti. Ieslēdziet, lai palīdzētu labot kļūdas, sūtot informāciju par avārijām uz Google Firebase Crashlytics.</string>
     <string name="render_map_title">Rādīt karti (beta versija)</string>
     <string name="render_map_summary_on">Karte tiek attēlota ekrānā vājredzīgiem lietotājiem. Šī attēlošanas funkcija ir eksperimentāla un tiek pastāvīgi uzlabota.</string>
     <string name="render_map_summary_off">Karte netiek attēlota; izpētiet, izmantojot tikai pieskārienus un skaņu.</string>
@@ -185,7 +189,7 @@
     <string name="about_email_action">Sūtīt e-pastu</string>
     <string name="about_website_action">Atvērt vietni</string>
     <string name="about_privacy_heading">Privātums</string>
-    <string name="about_privacy_body">Navia sūta avāriju ziņojumus uz Firebase Crashlytics, Google pakalpojumu, lai problēmas varētu atrast un novērst. Lietotne izmanto jūsu ierīces atrašanās vietu, lai pastāstītu, kas ir jums apkārt; jūsu atrašanās vieta tiek izmantota ierīcē un netiek sūtīta lietotnes izstrādātājam. Kad meklējat adresi, šis meklēšanas teksts tiek sūtīts uz jūsu ierīces ģeokodēšanas pakalpojumu, lai to atrastu.</string>
+    <string name="about_privacy_body">Ja to ieslēgsiet iestatījumos, Navia sūta avāriju ziņojumus uz Firebase Crashlytics, Google pakalpojumu, lai problēmas varētu atrast un novērst; pēc noklusējuma tas ir izslēgts. Lietotne izmanto jūsu ierīces atrašanās vietu, lai pastāstītu, kas ir jums apkārt; jūsu atrašanās vieta tiek izmantota ierīcē un netiek sūtīta lietotnes izstrādātājam. Kad meklējat adresi, šis meklēšanas teksts tiek sūtīts uz jūsu ierīces ģeokodēšanas pakalpojumu, lai to atrastu.</string>
     <string name="about_privacy_link">Lasīt konfidencialitātes politiku</string>
     <string name="about_no_app_for_link">Nevienai lietotnei šajā ierīcē nav iespējams to atvērt.</string>
 </resources>

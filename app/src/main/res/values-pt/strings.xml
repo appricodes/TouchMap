@@ -107,6 +107,10 @@
     <string name="download_area_action">Baixar mapa para esta área</string>
     <string name="download_radius_location_unknown">Localização indisponível — mova o mapa ou conceda permissão de localização</string>
 
+    <string name="privacy_header">Privacidade</string>
+    <string name="crash_reports_title">Enviar relatórios de falhas</string>
+    <string name="crash_reports_summary_on">Se o app falhar, informações de diagnóstico (o erro, o modelo do dispositivo, a versão do Android e a versão do app) são enviadas ao Google Firebase Crashlytics para que o problema possa ser corrigido. Você pode desativar isso a qualquer momento.</string>
+    <string name="crash_reports_summary_off">Desativado: nenhum relatório de falhas é enviado. Ative para ajudar a corrigir erros enviando informações de falhas ao Google Firebase Crashlytics.</string>
     <string name="render_map_title">Mostrar o mapa (Beta)</string>
     <string name="render_map_summary_on">O mapa é desenhado na tela para usuários com baixa visão. Esse desenho é experimental e ainda está sendo aprimorado.</string>
     <string name="render_map_summary_off">O mapa não é desenhado; explore apenas por toque e som.</string>
@@ -185,7 +189,7 @@
     <string name="about_email_action">Enviar um e-mail</string>
     <string name="about_website_action">Abrir o site</string>
     <string name="about_privacy_heading">Privacidade</string>
-    <string name="about_privacy_body">O Navia envia relatórios de falhas ao Firebase Crashlytics, um serviço do Google, para que os problemas possam ser encontrados e corrigidos. Ele usa a localização do seu dispositivo para dizer o que está ao seu redor; sua localização é usada no dispositivo e não é enviada ao desenvolvedor do aplicativo. Quando você busca um endereço, esse texto de busca é enviado ao serviço de geocodificação do seu dispositivo para ser resolvido.</string>
+    <string name="about_privacy_body">Se você ativar nas Configurações, o Navia envia relatórios de falhas ao Firebase Crashlytics, um serviço do Google, para que os problemas possam ser encontrados e corrigidos; vem desativado por padrão. Ele usa a localização do seu dispositivo para dizer o que está ao seu redor; sua localização é usada no dispositivo e não é enviada ao desenvolvedor do aplicativo. Quando você busca um endereço, esse texto de busca é enviado ao serviço de geocodificação do seu dispositivo para ser resolvido.</string>
     <string name="about_privacy_link">Ler a política de privacidade</string>
     <string name="about_no_app_for_link">Nenhum aplicativo neste dispositivo consegue abrir isso.</string>
 </resources>

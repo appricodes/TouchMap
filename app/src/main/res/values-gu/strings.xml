@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">સ્થાન ઉપલબ્ધ નથી — નકશો ખસેડો અથવા સ્થાનની પરવાનગી આપો</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">ગોપનીયતા</string>
+    <string name="crash_reports_title">ક્રેશ રિપોર્ટ મોકલો</string>
+    <string name="crash_reports_summary_on">જો એપ ક્રેશ થાય, તો સમસ્યા સુધારી શકાય તે માટે ડાયગ્નોસ્ટિક માહિતી (ભૂલ, ઉપકરણ મોડેલ, Android સંસ્કરણ, એપ સંસ્કરણ) Google Firebase Crashlytics ને મોકલવામાં આવે છે. તમે તેને ગમે ત્યારે બંધ કરી શકો છો.</string>
+    <string name="crash_reports_summary_off">બંધ: કોઈ ક્રેશ રિપોર્ટ મોકલવામાં આવતા નથી. ક્રેશની માહિતી Google Firebase Crashlytics ને મોકલીને બગ સુધારવામાં મદદ કરવા માટે ચાલુ કરો.</string>
     <string name="render_map_title">નકશો બતાવો (બીટા)</string>
     <string name="render_map_summary_on">ઓછી દ્રષ્ટિ ધરાવતા વપરાશકર્તાઓ માટે નકશો સ્ક્રીન પર દોરવામાં આવે છે. આ ડ્રોઈંગ પ્રાયોગિક છે અને હજુ સુધરી રહ્યું છે.</string>
     <string name="render_map_summary_off">નકશો દોરવામાં આવતો નથી; ફક્ત સ્પર્શ અને અવાજ દ્વારા શોધખોળ કરો.</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">ઇમેઇલ મોકલો</string>
     <string name="about_website_action">વેબસાઇટ ખોલો</string>
     <string name="about_privacy_heading">ગોપનીયતા</string>
-    <string name="about_privacy_body">સમસ્યાઓ શોધી અને સુધારી શકાય તે માટે Navia ક્રેશ રિપોર્ટ Google ની સેવા Firebase Crashlytics ને મોકલે છે. તમારી આસપાસ શું છે તે જણાવવા માટે તે તમારા ઉપકરણનું સ્થાન વાપરે છે; તમારું સ્થાન ઉપકરણ પર જ વપરાય છે અને ઍપના ડેવલપરને મોકલવામાં આવતું નથી. જ્યારે તમે સરનામું શોધો છો, ત્યારે તે શોધ લખાણ શોધવા માટે તમારા ઉપકરણની જિયોકોડિંગ સેવાને મોકલવામાં આવે છે.</string>
+    <string name="about_privacy_body">જો તમે તેને સેટિંગ્સમાં ચાલુ કરો, તો સમસ્યાઓ શોધી અને સુધારી શકાય તે માટે Navia ક્રેશ રિપોર્ટ Google ની સેવા Firebase Crashlytics ને મોકલે છે; તે મૂળભૂત રીતે બંધ હોય છે. તમારી આસપાસ શું છે તે જણાવવા માટે તે તમારા ઉપકરણનું સ્થાન વાપરે છે; તમારું સ્થાન ઉપકરણ પર જ વપરાય છે અને ઍપના ડેવલપરને મોકલવામાં આવતું નથી. જ્યારે તમે સરનામું શોધો છો, ત્યારે તે શોધ લખાણ શોધવા માટે તમારા ઉપકરણની જિયોકોડિંગ સેવાને મોકલવામાં આવે છે.</string>
     <string name="about_privacy_link">ગોપનીયતા નીતિ વાંચો</string>
     <string name="about_no_app_for_link">આ ઉપકરણ પર કોઈ ઍપ તેને ખોલી શકતી નથી.</string>
 </resources>

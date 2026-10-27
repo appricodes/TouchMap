@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">Ubicación no disponible; mueve el mapa u otorga permiso de ubicación</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">Privacidad</string>
+    <string name="crash_reports_title">Enviar informes de fallos</string>
+    <string name="crash_reports_summary_on">Si la aplicación falla, se envía información de diagnóstico (el error, el modelo del dispositivo, la versión de Android y la versión de la aplicación) a Google Firebase Crashlytics para poder solucionar el problema. Puedes desactivarlo en cualquier momento.</string>
+    <string name="crash_reports_summary_off">Desactivado: no se envía ningún informe de fallos. Actívalo para ayudar a corregir errores enviando información de fallos a Google Firebase Crashlytics.</string>
     <string name="render_map_title">Mostrar el mapa (Beta)</string>
     <string name="render_map_summary_on">El mapa se dibuja en pantalla para usuarios con baja visión. Este dibujo es experimental y sigue mejorando.</string>
     <string name="render_map_summary_off">El mapa no se dibuja; explora solo mediante el tacto y el sonido.</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">Enviar un correo electrónico</string>
     <string name="about_website_action">Abrir el sitio web</string>
     <string name="about_privacy_heading">Privacidad</string>
-    <string name="about_privacy_body">Navia envía informes de fallos a Firebase Crashlytics, un servicio de Google, para que los problemas puedan detectarse y corregirse. Usa la ubicación de tu dispositivo para indicarte qué hay a tu alrededor; tu ubicación se utiliza en el dispositivo y no se envía al desarrollador de la aplicación. Cuando buscas una dirección, ese texto de búsqueda se envía al servicio de geocodificación de tu dispositivo para resolverlo.</string>
+    <string name="about_privacy_body">Si lo activas en Ajustes, Navia envía informes de fallos a Firebase Crashlytics, un servicio de Google, para que los problemas puedan detectarse y solucionarse; está desactivado de forma predeterminada. Usa la ubicación de tu dispositivo para indicarte qué hay a tu alrededor; tu ubicación se utiliza en el dispositivo y no se envía al desarrollador de la aplicación. Cuando buscas una dirección, ese texto de búsqueda se envía al servicio de geocodificación de tu dispositivo para resolverlo.</string>
     <string name="about_privacy_link">Leer la política de privacidad</string>
     <string name="about_no_app_for_link">Ninguna aplicación de este dispositivo puede abrir eso.</string>
 </resources>

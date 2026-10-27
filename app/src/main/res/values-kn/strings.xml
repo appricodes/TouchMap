@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">ಸ್ಥಳ ಲಭ್ಯವಿಲ್ಲ — ನಕ್ಷೆಯನ್ನು ಸರಿಸಿ ಅಥವಾ ಸ್ಥಳ ಅನುಮತಿ ನೀಡಿ</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">ಗೌಪ್ಯತೆ</string>
+    <string name="crash_reports_title">ಕ್ರ್ಯಾಶ್ ವರದಿಗಳನ್ನು ಕಳುಹಿಸಿ</string>
+    <string name="crash_reports_summary_on">ಅಪ್ಲಿಕೇಶನ್ ಕ್ರ್ಯಾಶ್ ಆದರೆ, ಸಮಸ್ಯೆಯನ್ನು ಸರಿಪಡಿಸಲು ಡಯಾಗ್ನಾಸ್ಟಿಕ್ ಮಾಹಿತಿಯನ್ನು (ದೋಷ, ಸಾಧನ ಮಾದರಿ, Android ಆವೃತ್ತಿ, ಅಪ್ಲಿಕೇಶನ್ ಆವೃತ್ತಿ) Google Firebase Crashlytics ಗೆ ಕಳುಹಿಸಲಾಗುತ್ತದೆ. ನೀವು ಇದನ್ನು ಯಾವಾಗ ಬೇಕಾದರೂ ಆಫ್ ಮಾಡಬಹುದು.</string>
+    <string name="crash_reports_summary_off">ಆಫ್: ಯಾವುದೇ ಕ್ರ್ಯಾಶ್ ವರದಿಗಳನ್ನು ಕಳುಹಿಸಲಾಗುವುದಿಲ್ಲ. ಕ್ರ್ಯಾಶ್ ಮಾಹಿತಿಯನ್ನು Google Firebase Crashlytics ಗೆ ಕಳುಹಿಸಿ ಬಗ್‌ಗಳನ್ನು ಸರಿಪಡಿಸಲು ಸಹಾಯ ಮಾಡಲು ಆನ್ ಮಾಡಿ.</string>
     <string name="render_map_title">ನಕ್ಷೆಯನ್ನು ತೋರಿಸಿ (ಬೀಟಾ)</string>
     <string name="render_map_summary_on">ಕಡಿಮೆ ದೃಷ್ಟಿ ಇರುವ ಬಳಕೆದಾರರಿಗಾಗಿ ನಕ್ಷೆಯನ್ನು ಪರದೆಯ ಮೇಲೆ ಬಿಡಿಸಲಾಗುತ್ತದೆ. ಈ ಡ್ರಾಯಿಂಗ್ ಪ್ರಾಯೋಗಿಕವಾಗಿದೆ ಮತ್ತು ಇನ್ನೂ ಸುಧಾರಿಸುತ್ತಿದೆ.</string>
     <string name="render_map_summary_off">ನಕ್ಷೆಯನ್ನು ಬಿಡಿಸಲಾಗುವುದಿಲ್ಲ; ಸ್ಪರ್ಶ ಮತ್ತು ಧ್ವನಿಯ ಮೂಲಕ ಮಾತ್ರ ಅನ್ವೇಷಿಸಿ.</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">ಇಮೇಲ್ ಕಳುಹಿಸಿ</string>
     <string name="about_website_action">ವೆಬ್‌ಸೈಟ್ ತೆರೆಯಿರಿ</string>
     <string name="about_privacy_heading">ಗೌಪ್ಯತೆ</string>
-    <string name="about_privacy_body">ಸಮಸ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿದು ಸರಿಪಡಿಸಲು Navia ಕ್ರ್ಯಾಶ್ ವರದಿಗಳನ್ನು Google ನ ಸೇವೆಯಾದ Firebase Crashlytics ಗೆ ಕಳುಹಿಸುತ್ತದೆ. ನಿಮ್ಮ ಸುತ್ತಲೂ ಏನಿದೆ ಎಂದು ಹೇಳಲು ಇದು ನಿಮ್ಮ ಸಾಧನದ ಸ್ಥಳವನ್ನು ಬಳಸುತ್ತದೆ; ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಸಾಧನದಲ್ಲಿಯೇ ಬಳಸಲಾಗುತ್ತದೆ ಮತ್ತು ಆ್ಯಪ್ ಡೆವಲಪರ್‌ಗೆ ಕಳುಹಿಸಲಾಗುವುದಿಲ್ಲ. ನೀವು ವಿಳಾಸವನ್ನು ಹುಡುಕಿದಾಗ, ಆ ಹುಡುಕಾಟದ ಪಠ್ಯವನ್ನು ಹುಡುಕಲು ನಿಮ್ಮ ಸಾಧನದ ಜಿಯೋಕೋಡಿಂಗ್ ಸೇವೆಗೆ ಕಳುಹಿಸಲಾಗುತ್ತದೆ.</string>
+    <string name="about_privacy_body">ನೀವು ಇದನ್ನು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಆನ್ ಮಾಡಿದರೆ, ಸಮಸ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿದು ಸರಿಪಡಿಸಲು Navia ಕ್ರ್ಯಾಶ್ ವರದಿಗಳನ್ನು Google ನ ಸೇವೆಯಾದ Firebase Crashlytics ಗೆ ಕಳುಹಿಸುತ್ತದೆ; ಇದು ಡೀಫಾಲ್ಟ್ ಆಗಿ ಆಫ್ ಆಗಿರುತ್ತದೆ. ನಿಮ್ಮ ಸುತ್ತಲೂ ಏನಿದೆ ಎಂದು ಹೇಳಲು ಇದು ನಿಮ್ಮ ಸಾಧನದ ಸ್ಥಳವನ್ನು ಬಳಸುತ್ತದೆ; ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಸಾಧನದಲ್ಲಿಯೇ ಬಳಸಲಾಗುತ್ತದೆ ಮತ್ತು ಆ್ಯಪ್ ಡೆವಲಪರ್‌ಗೆ ಕಳುಹಿಸಲಾಗುವುದಿಲ್ಲ. ನೀವು ವಿಳಾಸವನ್ನು ಹುಡುಕಿದಾಗ, ಆ ಹುಡುಕಾಟದ ಪಠ್ಯವನ್ನು ಹುಡುಕಲು ನಿಮ್ಮ ಸಾಧನದ ಜಿಯೋಕೋಡಿಂಗ್ ಸೇವೆಗೆ ಕಳುಹಿಸಲಾಗುತ್ತದೆ.</string>
     <string name="about_privacy_link">ಗೌಪ್ಯತಾ ನೀತಿಯನ್ನು ಓದಿ</string>
     <string name="about_no_app_for_link">ಈ ಸಾಧನದಲ್ಲಿ ಅದನ್ನು ತೆರೆಯಬಲ್ಲ ಆ್ಯಪ್ ಇಲ್ಲ.</string>
 </resources>

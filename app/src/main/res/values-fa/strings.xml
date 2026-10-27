@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">موقعیت مکانی در دسترس نیست — نقشه را جابه‌جا کنید یا مجوز موقعیت مکانی را بدهید</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">حریم خصوصی</string>
+    <string name="crash_reports_title">ارسال گزارش خرابی</string>
+    <string name="crash_reports_summary_on">اگر برنامه خراب شود، اطلاعات تشخیصی (خطا، مدل دستگاه، نسخهٔ Android، نسخهٔ برنامه) به Google Firebase Crashlytics ارسال می‌شود تا مشکل برطرف شود. هر زمان که بخواهید می‌توانید آن را خاموش کنید.</string>
+    <string name="crash_reports_summary_off">خاموش: هیچ گزارش خرابی ارسال نمی‌شود. برای کمک به رفع اشکالات با ارسال اطلاعات خرابی به Google Firebase Crashlytics، آن را روشن کنید.</string>
     <string name="render_map_title">نمایش نقشه (بتا)</string>
     <string name="render_map_summary_on">نقشه برای کاربران کم‌بینا روی صفحه رسم می‌شود. این ترسیم آزمایشی است و همچنان در حال بهبود است.</string>
     <string name="render_map_summary_off">نقشه رسم نمی‌شود؛ فقط از طریق لمس و صدا کاوش کنید.</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">ارسال ایمیل</string>
     <string name="about_website_action">باز کردن وب‌سایت</string>
     <string name="about_privacy_heading">حریم خصوصی</string>
-    <string name="about_privacy_body">Navia گزارش‌های خرابی را به Firebase Crashlytics، یک سرویس Google، ارسال می‌کند تا مشکلات پیدا و برطرف شوند. این برنامه از موقعیت مکانی دستگاه شما استفاده می‌کند تا به شما بگوید چه چیزی اطرافتان است؛ موقعیت شما روی دستگاه استفاده می‌شود و به توسعه‌دهندهٔ برنامه ارسال نمی‌شود. وقتی نشانی‌ای را جست‌وجو می‌کنید، متن آن جست‌وجو برای یافتن به سرویس کدگذاری جغرافیایی دستگاه شما ارسال می‌شود.</string>
+    <string name="about_privacy_body">اگر آن را در تنظیمات روشن کنید، Navia گزارش‌های خرابی را به Firebase Crashlytics، یک سرویس Google، ارسال می‌کند تا مشکلات پیدا و برطرف شوند؛ این گزینه به‌طور پیش‌فرض خاموش است. این برنامه از موقعیت مکانی دستگاه شما استفاده می‌کند تا به شما بگوید چه چیزی اطرافتان است؛ موقعیت شما روی دستگاه استفاده می‌شود و به توسعه‌دهندهٔ برنامه ارسال نمی‌شود. وقتی نشانی‌ای را جست‌وجو می‌کنید، متن آن جست‌وجو برای یافتن به سرویس کدگذاری جغرافیایی دستگاه شما ارسال می‌شود.</string>
     <string name="about_privacy_link">خواندن سیاست حریم خصوصی</string>
     <string name="about_no_app_for_link">هیچ برنامه‌ای روی این دستگاه نمی‌تواند آن را باز کند.</string>
 </resources>

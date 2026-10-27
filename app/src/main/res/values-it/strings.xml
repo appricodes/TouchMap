@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">Posizione non disponibile — sposta la mappa o concedi il permesso di posizione</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">Privacy</string>
+    <string name="crash_reports_title">Invia segnalazioni di arresto anomalo</string>
+    <string name="crash_reports_summary_on">Se l\'app si arresta in modo anomalo, le informazioni diagnostiche (l\'errore, il modello del dispositivo, la versione di Android, la versione dell\'app) vengono inviate a Google Firebase Crashlytics per poter risolvere il problema. Puoi disattivarlo in qualsiasi momento.</string>
+    <string name="crash_reports_summary_off">Disattivato: non viene inviata alcuna segnalazione di arresto anomalo. Attivalo per aiutare a correggere i bug inviando informazioni sugli arresti anomali a Google Firebase Crashlytics.</string>
     <string name="render_map_title">Mostra la mappa (Beta)</string>
     <string name="render_map_summary_on">La mappa viene disegnata sullo schermo per gli utenti ipovedenti. Questa visualizzazione è sperimentale e in continuo miglioramento.</string>
     <string name="render_map_summary_off">La mappa non viene disegnata; esplora solo con il tocco e i suoni.</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">Invia un\'e-mail</string>
     <string name="about_website_action">Apri il sito web</string>
     <string name="about_privacy_heading">Privacy</string>
-    <string name="about_privacy_body">Navia invia segnalazioni di arresto anomalo a Firebase Crashlytics, un servizio di Google, per individuare e risolvere i problemi. Usa la posizione del dispositivo per indicarti cosa c\'è intorno a te; la tua posizione viene usata sul dispositivo e non viene inviata allo sviluppatore dell\'app. Quando cerchi un indirizzo, il testo della ricerca viene inviato al servizio di geocodifica del dispositivo per essere risolto.</string>
+    <string name="about_privacy_body">Se lo attivi nelle Impostazioni, Navia invia segnalazioni di arresto anomalo a Firebase Crashlytics, un servizio di Google, per individuare e risolvere i problemi; è disattivato per impostazione predefinita. Usa la posizione del dispositivo per indicarti cosa c\'è intorno a te; la tua posizione viene usata sul dispositivo e non viene inviata allo sviluppatore dell\'app. Quando cerchi un indirizzo, il testo della ricerca viene inviato al servizio di geocodifica del dispositivo per essere risolto.</string>
     <string name="about_privacy_link">Leggi l\'informativa sulla privacy</string>
     <string name="about_no_app_for_link">Nessuna app su questo dispositivo può aprirlo.</string>
 </resources>

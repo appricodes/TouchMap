@@ -107,6 +107,10 @@
     <string name="download_area_action">Descarcă harta pentru această zonă</string>
     <string name="download_radius_location_unknown">Locație indisponibilă — mutați harta sau acordați permisiunea de localizare</string>
 
+    <string name="privacy_header">Confidențialitate</string>
+    <string name="crash_reports_title">Trimite rapoarte de blocare</string>
+    <string name="crash_reports_summary_on">Dacă aplicația se blochează, informațiile de diagnosticare (eroarea, modelul dispozitivului, versiunea Android, versiunea aplicației) sunt trimise către Google Firebase Crashlytics pentru ca problema să poată fi remediată. Puteți dezactiva oricând această opțiune.</string>
+    <string name="crash_reports_summary_off">Dezactivat: nu se trimit rapoarte de blocare. Activați pentru a ajuta la remedierea erorilor trimițând informații despre blocări către Google Firebase Crashlytics.</string>
     <string name="render_map_title">Afișează harta (Beta)</string>
     <string name="render_map_summary_on">Harta este desenată pe ecran pentru utilizatorii cu deficiențe de vedere. Această desenare este experimentală și încă în curs de îmbunătățire.</string>
     <string name="render_map_summary_off">Harta nu este desenată; explorați doar prin atingere și sunet.</string>
@@ -185,7 +189,7 @@
     <string name="about_email_action">Trimiteți un e-mail</string>
     <string name="about_website_action">Deschideți site-ul web</string>
     <string name="about_privacy_heading">Confidențialitate</string>
-    <string name="about_privacy_body">Navia trimite rapoarte de blocare către Firebase Crashlytics, un serviciu Google, pentru ca problemele să poată fi găsite și remediate. Aplicația folosește locația dispozitivului dvs. pentru a vă spune ce se află în jurul dvs.; locația dvs. este folosită pe dispozitiv și nu este trimisă dezvoltatorului aplicației. Când căutați o adresă, textul căutării este trimis către serviciul de geocodare al dispozitivului dvs. pentru a fi găsit.</string>
+    <string name="about_privacy_body">Dacă o activați din Setări, Navia trimite rapoarte de blocare către Firebase Crashlytics, un serviciu Google, pentru ca problemele să poată fi găsite și remediate; este dezactivată implicit. Aplicația folosește locația dispozitivului dvs. pentru a vă spune ce se află în jurul dvs.; locația dvs. este folosită pe dispozitiv și nu este trimisă dezvoltatorului aplicației. Când căutați o adresă, textul căutării este trimis către serviciul de geocodare al dispozitivului dvs. pentru a fi găsit.</string>
     <string name="about_privacy_link">Citiți politica de confidențialitate</string>
     <string name="about_no_app_for_link">Nicio aplicație de pe acest dispozitiv nu poate deschide acest lucru.</string>
 </resources>

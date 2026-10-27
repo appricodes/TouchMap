@@ -110,6 +110,10 @@
     <string name="download_radius_location_unknown">Ligging nie beskikbaar nie — beweeg die kaart of gee liggingtoestemming</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">Privaatheid</string>
+    <string name="crash_reports_title">Stuur ineenstortingsverslae</string>
+    <string name="crash_reports_summary_on">As die toepassing ineenstort, word diagnostiese inligting (die fout, toestelmodel, Android-weergawe, toepassingweergawe) na Google Firebase Crashlytics gestuur sodat die probleem reggemaak kan word. Jy kan dit enige tyd afskakel.</string>
+    <string name="crash_reports_summary_off">Af: geen ineenstortingsverslae word gestuur nie. Skakel aan om te help om foute reg te maak deur ineenstortingsinligting na Google Firebase Crashlytics te stuur.</string>
     <string name="render_map_title">Wys die kaart (Beta)</string>
     <string name="render_map_summary_on">Die kaart word op die skerm geteken vir gebruikers met lae visie. Hierdie tekening is eksperimenteel en word steeds verbeter.</string>
     <string name="render_map_summary_off">Die kaart word nie geteken nie; verken slegs deur aanraking en klank.</string>
@@ -196,7 +200,7 @@
     <string name="about_email_action">Stuur \'n e-pos</string>
     <string name="about_website_action">Open die webwerf</string>
     <string name="about_privacy_heading">Privaatheid</string>
-    <string name="about_privacy_body">Navia stuur ineenstortingsverslae na Firebase Crashlytics, \'n Google-diens, sodat probleme gevind en reggemaak kan word. Dit gebruik jou toestel se ligging om vir jou te sê wat om jou is; jou ligging word op die toestel gebruik en word nie na die app se ontwikkelaar gestuur nie. Wanneer jy \'n adres soek, word daardie soekteks na jou toestel se geokoderingdiens gestuur om opgesoek te word.</string>
+    <string name="about_privacy_body">As jy dit in Instellings aanskakel, stuur Navia ineenstortingsverslae na Firebase Crashlytics, \'n Google-diens, sodat probleme gevind en reggemaak kan word; dit is by verstek af. Dit gebruik jou toestel se ligging om vir jou te sê wat om jou is; jou ligging word op die toestel gebruik en word nie na die app se ontwikkelaar gestuur nie. Wanneer jy \'n adres soek, word daardie soekteks na jou toestel se geokoderingdiens gestuur om opgesoek te word.</string>
     <string name="about_privacy_link">Lees die privaatheidsbeleid</string>
     <string name="about_no_app_for_link">Geen app op hierdie toestel kan dit oopmaak nie.</string>
 </resources>

@@ -107,6 +107,10 @@
     <string name="download_area_action">Stiahnuť mapu pre túto oblasť</string>
     <string name="download_radius_location_unknown">Poloha nie je k dispozícii – posuňte mapu alebo udeľte povolenie na určenie polohy</string>
 
+    <string name="privacy_header">Súkromie</string>
+    <string name="crash_reports_title">Odosielať hlásenia o zlyhaniach</string>
+    <string name="crash_reports_summary_on">Ak aplikácia zlyhá, diagnostické informácie (chyba, model zariadenia, verzia Androidu, verzia aplikácie) sa odošlú do Google Firebase Crashlytics, aby bolo možné problém opraviť. Môžete to kedykoľvek vypnúť.</string>
+    <string name="crash_reports_summary_off">Vypnuté: neodosielajú sa žiadne hlásenia o zlyhaniach. Zapnite, aby ste pomohli opraviť chyby odosielaním informácií o zlyhaniach do Google Firebase Crashlytics.</string>
     <string name="render_map_title">Zobraziť mapu (Beta)</string>
     <string name="render_map_summary_on">Mapa sa vykresľuje na obrazovke pre slabozrakých používateľov. Toto vykresľovanie je experimentálne a stále sa vylepšuje.</string>
     <string name="render_map_summary_off">Mapa sa nevykresľuje; skúmajte iba dotykom a zvukom.</string>
@@ -185,7 +189,7 @@
     <string name="about_email_action">Poslať e-mail</string>
     <string name="about_website_action">Otvoriť web</string>
     <string name="about_privacy_heading">Súkromie</string>
-    <string name="about_privacy_body">Navia posiela hlásenia o zlyhaniach do Firebase Crashlytics, služby Googlu, aby bolo možné nájsť a opraviť problémy. Používa polohu vášho zariadenia, aby vám povedala, čo je okolo vás; vaša poloha sa používa v zariadení a neodosiela sa vývojárovi aplikácie. Keď hľadáte adresu, text hľadania sa odošle do služby geokódovania vášho zariadenia, aby ju vyhľadala.</string>
+    <string name="about_privacy_body">Ak to zapnete v Nastaveniach, Navia posiela hlásenia o zlyhaniach do Firebase Crashlytics, služby Googlu, aby bolo možné nájsť a opraviť problémy; predvolene je to vypnuté. Používa polohu vášho zariadenia, aby vám povedala, čo je okolo vás; vaša poloha sa používa v zariadení a neodosiela sa vývojárovi aplikácie. Keď hľadáte adresu, text hľadania sa odošle do služby geokódovania vášho zariadenia, aby ju vyhľadala.</string>
     <string name="about_privacy_link">Prečítať zásady ochrany súkromia</string>
     <string name="about_no_app_for_link">Žiadna aplikácia v tomto zariadení to nedokáže otvoriť.</string>
 </resources>

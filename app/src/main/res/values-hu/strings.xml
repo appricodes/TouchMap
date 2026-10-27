@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">A helyszín nem érhető el — mozgasd a térképet, vagy adj helymeghatározási engedélyt</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">Adatvédelem</string>
+    <string name="crash_reports_title">Összeomlási jelentések küldése</string>
+    <string name="crash_reports_summary_on">Ha az alkalmazás összeomlik, diagnosztikai információk (a hiba, az eszköz modellje, az Android-verzió, az alkalmazásverzió) kerülnek elküldésre a Google Firebase Crashlyticsnek, hogy a probléma javítható legyen. Ezt bármikor kikapcsolhatod.</string>
+    <string name="crash_reports_summary_off">Kikapcsolva: nem küldünk összeomlási jelentéseket. Kapcsold be, hogy az összeomlási információk Google Firebase Crashlyticsnek küldésével segítsd a hibák javítását.</string>
     <string name="render_map_title">Térkép megjelenítése (Béta)</string>
     <string name="render_map_summary_on">A térkép a képernyőn jelenik meg gyengénlátó felhasználók számára. Ez a megjelenítés kísérleti és folyamatosan fejlesztjük.</string>
     <string name="render_map_summary_off">A térkép nem jelenik meg; kizárólag érintéssel és hanggal fedezheted fel.</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">E-mail küldése</string>
     <string name="about_website_action">Weboldal megnyitása</string>
     <string name="about_privacy_heading">Adatvédelem</string>
-    <string name="about_privacy_body">A Navia összeomlási jelentéseket küld a Firebase Crashlyticsnek, a Google szolgáltatásának, hogy a hibák megtalálhatók és javíthatók legyenek. Az eszközöd helyadatait használja, hogy megmondja, mi van körülötted; a helyadataid az eszközön kerülnek felhasználásra, és nem jutnak el az alkalmazás fejlesztőjéhez. Amikor címre keresel, a keresési szöveg az eszközöd geokódolási szolgáltatásához kerül elküldésre a kikereséshez.</string>
+    <string name="about_privacy_body">Ha bekapcsolod a Beállításokban, a Navia összeomlási jelentéseket küld a Firebase Crashlyticsnek, a Google szolgáltatásának, hogy a hibák megtalálhatók és javíthatók legyenek; alapértelmezés szerint ki van kapcsolva. Az eszközöd helyadatait használja, hogy megmondja, mi van körülötted; a helyadataid az eszközön kerülnek felhasználásra, és nem jutnak el az alkalmazás fejlesztőjéhez. Amikor címre keresel, a keresési szöveg az eszközöd geokódolási szolgáltatásához kerül elküldésre a kikereséshez.</string>
     <string name="about_privacy_link">Adatvédelmi irányelvek elolvasása</string>
     <string name="about_no_app_for_link">Ezen az eszközön nincs olyan alkalmazás, amely meg tudná nyitni.</string>
 </resources>

@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">Lokasi tidak tersedia — geser peta atau berikan izin lokasi</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">Privasi</string>
+    <string name="crash_reports_title">Kirim laporan kerusakan</string>
+    <string name="crash_reports_summary_on">Jika aplikasi mengalami kerusakan, informasi diagnostik (kesalahan, model perangkat, versi Android, versi aplikasi) dikirim ke Google Firebase Crashlytics agar masalah dapat diperbaiki. Kamu dapat mematikannya kapan saja.</string>
+    <string name="crash_reports_summary_off">Mati: tidak ada laporan kerusakan yang dikirim. Nyalakan untuk membantu memperbaiki bug dengan mengirim informasi kerusakan ke Google Firebase Crashlytics.</string>
     <string name="render_map_title">Tampilkan peta (Beta)</string>
     <string name="render_map_summary_on">Peta digambar di layar untuk pengguna dengan gangguan penglihatan. Gambar ini masih eksperimental dan terus disempurnakan.</string>
     <string name="render_map_summary_off">Peta tidak digambar; jelajahi hanya dengan sentuhan dan suara.</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">Kirim e-mail</string>
     <string name="about_website_action">Buka situs web</string>
     <string name="about_privacy_heading">Privasi</string>
-    <string name="about_privacy_body">Navia mengirimkan laporan kerusakan ke Firebase Crashlytics, layanan Google, agar masalah dapat ditemukan dan diperbaiki. Aplikasi ini menggunakan lokasi perangkatmu untuk memberi tahu apa yang ada di sekitarmu; lokasimu digunakan di perangkat dan tidak dikirim ke pengembang aplikasi. Saat kamu mencari alamat, teks pencarian itu dikirim ke layanan geocoding perangkatmu untuk dicari.</string>
+    <string name="about_privacy_body">Jika kamu menyalakannya di Setelan, Navia mengirimkan laporan kerusakan ke Firebase Crashlytics, layanan Google, agar masalah dapat ditemukan dan diperbaiki; fitur ini mati secara default. Aplikasi ini menggunakan lokasi perangkatmu untuk memberi tahu apa yang ada di sekitarmu; lokasimu digunakan di perangkat dan tidak dikirim ke pengembang aplikasi. Saat kamu mencari alamat, teks pencarian itu dikirim ke layanan geocoding perangkatmu untuk dicari.</string>
     <string name="about_privacy_link">Baca kebijakan privasi</string>
     <string name="about_no_app_for_link">Tidak ada aplikasi di perangkat ini yang dapat membukanya.</string>
 </resources>

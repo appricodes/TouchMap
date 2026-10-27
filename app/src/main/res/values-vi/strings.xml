@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">Không có vị trí — hãy di chuyển bản đồ hoặc cấp quyền vị trí</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">Quyền riêng tư</string>
+    <string name="crash_reports_title">Gửi báo cáo sự cố</string>
+    <string name="crash_reports_summary_on">Nếu ứng dụng gặp sự cố, thông tin chẩn đoán (lỗi, kiểu thiết bị, phiên bản Android, phiên bản ứng dụng) sẽ được gửi tới Google Firebase Crashlytics để có thể khắc phục vấn đề. Bạn có thể tắt tính năng này bất cứ lúc nào.</string>
+    <string name="crash_reports_summary_off">Tắt: không có báo cáo sự cố nào được gửi. Hãy bật để giúp sửa lỗi bằng cách gửi thông tin sự cố tới Google Firebase Crashlytics.</string>
     <string name="render_map_title">Hiển thị bản đồ (Beta)</string>
     <string name="render_map_summary_on">Bản đồ được vẽ trên màn hình dành cho người khiếm thị một phần. Tính năng vẽ này đang thử nghiệm và tiếp tục được cải thiện.</string>
     <string name="render_map_summary_off">Bản đồ không được vẽ; chỉ khám phá bằng cách chạm và âm thanh.</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">Gửi e-mail</string>
     <string name="about_website_action">Mở trang web</string>
     <string name="about_privacy_heading">Quyền riêng tư</string>
-    <string name="about_privacy_body">Navia gửi báo cáo sự cố tới Firebase Crashlytics, một dịch vụ của Google, để có thể tìm và khắc phục vấn đề. Ứng dụng dùng vị trí thiết bị của bạn để cho bạn biết những gì ở xung quanh; vị trí của bạn được dùng trên thiết bị và không được gửi cho nhà phát triển ứng dụng. Khi bạn tìm một địa chỉ, văn bản tìm kiếm đó được gửi tới dịch vụ mã hóa địa lý của thiết bị để tra cứu.</string>
+    <string name="about_privacy_body">Nếu bạn bật trong Cài đặt, Navia gửi báo cáo sự cố tới Firebase Crashlytics, một dịch vụ của Google, để có thể tìm và khắc phục vấn đề; mặc định tính năng này tắt. Ứng dụng dùng vị trí thiết bị của bạn để cho bạn biết những gì ở xung quanh; vị trí của bạn được dùng trên thiết bị và không được gửi cho nhà phát triển ứng dụng. Khi bạn tìm một địa chỉ, văn bản tìm kiếm đó được gửi tới dịch vụ mã hóa địa lý của thiết bị để tra cứu.</string>
     <string name="about_privacy_link">Đọc chính sách quyền riêng tư</string>
     <string name="about_no_app_for_link">Không có ứng dụng nào trên thiết bị này mở được nội dung đó.</string>
 </resources>

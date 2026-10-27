@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">ไม่พบตำแหน่ง — เลื่อนแผนที่หรืออนุญาตการเข้าถึงตำแหน่ง</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">ความเป็นส่วนตัว</string>
+    <string name="crash_reports_title">ส่งรายงานข้อขัดข้อง</string>
+    <string name="crash_reports_summary_on">หากแอปขัดข้อง ข้อมูลการวินิจฉัย (ข้อผิดพลาด รุ่นอุปกรณ์ เวอร์ชัน Android เวอร์ชันแอป) จะถูกส่งไปยัง Google Firebase Crashlytics เพื่อให้แก้ไขปัญหาได้ คุณสามารถปิดได้ทุกเมื่อ</string>
+    <string name="crash_reports_summary_off">ปิด: ไม่มีการส่งรายงานข้อขัดข้อง เปิดเพื่อช่วยแก้ไขข้อบกพร่องโดยส่งข้อมูลข้อขัดข้องไปยัง Google Firebase Crashlytics</string>
     <string name="render_map_title">แสดงแผนที่ (เบต้า)</string>
     <string name="render_map_summary_on">แผนที่จะถูกวาดบนหน้าจอสำหรับผู้ที่มีสายตาเลือนราง การวาดนี้ยังอยู่ในขั้นทดลองและกำลังปรับปรุงต่อไป</string>
     <string name="render_map_summary_off">ไม่มีการวาดแผนที่ ให้สำรวจด้วยการสัมผัสและเสียงเท่านั้น</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">ส่งอีเมล</string>
     <string name="about_website_action">เปิดเว็บไซต์</string>
     <string name="about_privacy_heading">ความเป็นส่วนตัว</string>
-    <string name="about_privacy_body">Navia ส่งรายงานข้อขัดข้องไปยัง Firebase Crashlytics ซึ่งเป็นบริการของ Google เพื่อให้พบและแก้ไขปัญหาได้ แอปใช้ตำแหน่งของอุปกรณ์คุณเพื่อบอกว่ามีอะไรอยู่รอบตัวคุณ ตำแหน่งของคุณถูกใช้บนอุปกรณ์และไม่ได้ส่งไปยังผู้พัฒนาแอป เมื่อคุณค้นหาที่อยู่ ข้อความค้นหานั้นจะถูกส่งไปยังบริการเข้ารหัสพิกัดภูมิศาสตร์ของอุปกรณ์คุณเพื่อค้นหา</string>
+    <string name="about_privacy_body">หากคุณเปิดใช้ในการตั้งค่า Navia จะส่งรายงานข้อขัดข้องไปยัง Firebase Crashlytics ซึ่งเป็นบริการของ Google เพื่อให้พบและแก้ไขปัญหาได้ โดยค่าเริ่มต้นจะปิดอยู่ แอปใช้ตำแหน่งของอุปกรณ์คุณเพื่อบอกว่ามีอะไรอยู่รอบตัวคุณ ตำแหน่งของคุณถูกใช้บนอุปกรณ์และไม่ได้ส่งไปยังผู้พัฒนาแอป เมื่อคุณค้นหาที่อยู่ ข้อความค้นหานั้นจะถูกส่งไปยังบริการเข้ารหัสพิกัดภูมิศาสตร์ของอุปกรณ์คุณเพื่อค้นหา</string>
     <string name="about_privacy_link">อ่านนโยบายความเป็นส่วนตัว</string>
     <string name="about_no_app_for_link">ไม่มีแอปในอุปกรณ์นี้ที่เปิดสิ่งนั้นได้</string>
 </resources>

@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">המיקום אינו זמין — הזז את המפה או אשר הרשאת מיקום</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">פרטיות</string>
+    <string name="crash_reports_title">שלח דוחות קריסה</string>
+    <string name="crash_reports_summary_on">אם האפליקציה קורסת, מידע אבחון (השגיאה, דגם המכשיר, גרסת Android, גרסת האפליקציה) נשלח אל Google Firebase Crashlytics כדי שניתן יהיה לתקן את הבעיה. אפשר לכבות זאת בכל עת.</string>
+    <string name="crash_reports_summary_off">כבוי: לא נשלחים דוחות קריסה. הפעל כדי לעזור בתיקון באגים על ידי שליחת מידע על קריסות אל Google Firebase Crashlytics.</string>
     <string name="render_map_title">הצגת המפה (בטא)</string>
     <string name="render_map_summary_on">המפה מוצגת על המסך עבור משתמשים עם ראייה חלשה. הצגה זו ניסיונית ועדיין משתפרת.</string>
     <string name="render_map_summary_off">המפה אינה מוצגת; חקור באמצעות מגע וקול בלבד.</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">שליחת אימייל</string>
     <string name="about_website_action">פתיחת האתר</string>
     <string name="about_privacy_heading">פרטיות</string>
-    <string name="about_privacy_body">Navia שולח דוחות קריסה אל Firebase Crashlytics, שירות של Google, כדי שניתן יהיה לאתר ולתקן בעיות. האפליקציה משתמשת במיקום המכשיר שלך כדי לומר לך מה נמצא סביבך; המיקום שלך משמש במכשיר ואינו נשלח למפתח האפליקציה. כשמחפשים כתובת, טקסט החיפוש נשלח לשירות הגאוקודינג של המכשיר שלך לצורך איתור.</string>
+    <string name="about_privacy_body">אם תפעיל זאת בהגדרות, Navia שולח דוחות קריסה אל Firebase Crashlytics, שירות של Google, כדי שניתן יהיה לאתר ולתקן בעיות; כברירת מחדל האפשרות כבויה. האפליקציה משתמשת במיקום המכשיר שלך כדי לומר לך מה נמצא סביבך; המיקום שלך משמש במכשיר ואינו נשלח למפתח האפליקציה. כשמחפשים כתובת, טקסט החיפוש נשלח לשירות הגאוקודינג של המכשיר שלך לצורך איתור.</string>
     <string name="about_privacy_link">קריאת מדיניות הפרטיות</string>
     <string name="about_no_app_for_link">אין במכשיר הזה אפליקציה שיכולה לפתוח את זה.</string>
 </resources>

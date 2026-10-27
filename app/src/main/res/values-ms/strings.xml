@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">Lokasi tidak tersedia — gerakkan peta atau berikan kebenaran lokasi</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">Privasi</string>
+    <string name="crash_reports_title">Hantar laporan ranap</string>
+    <string name="crash_reports_summary_on">Jika apl ranap, maklumat diagnostik (ralat, model peranti, versi Android, versi apl) dihantar ke Google Firebase Crashlytics supaya masalah dapat dibaiki. Anda boleh mematikannya pada bila-bila masa.</string>
+    <string name="crash_reports_summary_off">Mati: tiada laporan ranap dihantar. Hidupkan untuk membantu membaiki pepijat dengan menghantar maklumat ranap ke Google Firebase Crashlytics.</string>
     <string name="render_map_title">Tunjukkan peta (Beta)</string>
     <string name="render_map_summary_on">Peta dilukis pada skrin untuk pengguna penglihatan terhad. Lukisan ini masih uji kaji dan terus dipertingkatkan.</string>
     <string name="render_map_summary_off">Peta tidak dilukis; terokai hanya menggunakan sentuhan dan bunyi.</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">Hantar e-mel</string>
     <string name="about_website_action">Buka laman web</string>
     <string name="about_privacy_heading">Privasi</string>
-    <string name="about_privacy_body">Navia menghantar laporan ranap ke Firebase Crashlytics, perkhidmatan Google, supaya masalah dapat dikesan dan dibaiki. Apl ini menggunakan lokasi peranti anda untuk memberitahu apa yang ada di sekeliling anda; lokasi anda digunakan pada peranti dan tidak dihantar kepada pembangun apl. Apabila anda mencari alamat, teks carian itu dihantar ke perkhidmatan geopengekodan peranti anda untuk dicari.</string>
+    <string name="about_privacy_body">Jika anda menghidupkannya dalam Tetapan, Navia menghantar laporan ranap ke Firebase Crashlytics, perkhidmatan Google, supaya masalah dapat dikesan dan dibaiki; ia dimatikan secara lalai. Apl ini menggunakan lokasi peranti anda untuk memberitahu apa yang ada di sekeliling anda; lokasi anda digunakan pada peranti dan tidak dihantar kepada pembangun apl. Apabila anda mencari alamat, teks carian itu dihantar ke perkhidmatan geopengekodan peranti anda untuk dicari.</string>
     <string name="about_privacy_link">Baca dasar privasi</string>
     <string name="about_no_app_for_link">Tiada apl pada peranti ini boleh membukanya.</string>
 </resources>

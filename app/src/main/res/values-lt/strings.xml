@@ -107,6 +107,10 @@
     <string name="download_area_action">Atsisiųsti šios srities žemėlapį</string>
     <string name="download_radius_location_unknown">Vieta nepasiekiama — perkelkite žemėlapį arba suteikite vietos nustatymo leidimą</string>
 
+    <string name="privacy_header">Privatumas</string>
+    <string name="crash_reports_title">Siųsti strigčių ataskaitas</string>
+    <string name="crash_reports_summary_on">Jei programėlė sutrinka, diagnostinė informacija (klaida, įrenginio modelis, Android versija, programėlės versija) siunčiama į Google Firebase Crashlytics, kad problemą būtų galima ištaisyti. Tai galite bet kada išjungti.</string>
+    <string name="crash_reports_summary_off">Išjungta: strigčių ataskaitos nesiunčiamos. Įjunkite, kad padėtumėte taisyti klaidas siųsdami informaciją apie strigtis į Google Firebase Crashlytics.</string>
     <string name="render_map_title">Rodyti žemėlapį (beta versija)</string>
     <string name="render_map_summary_on">Žemėlapis piešiamas ekrane silpnaregiams naudotojams. Ši piešimo funkcija yra eksperimentinė ir vis dar tobulinama.</string>
     <string name="render_map_summary_off">Žemėlapis nepiešiamas; tyrinėkite tik lietimu ir garsu.</string>
@@ -185,7 +189,7 @@
     <string name="about_email_action">Siųsti el. laišką</string>
     <string name="about_website_action">Atidaryti svetainę</string>
     <string name="about_privacy_heading">Privatumas</string>
-    <string name="about_privacy_body">„Navia“ siunčia strigčių ataskaitas į Firebase Crashlytics, Google paslaugą, kad problemas būtų galima rasti ir ištaisyti. Programėlė naudoja jūsų įrenginio vietovę, kad pasakytų, kas yra aplink jus; jūsų vietovė naudojama įrenginyje ir nesiunčiama programėlės kūrėjui. Kai ieškote adreso, tas paieškos tekstas siunčiamas į jūsų įrenginio geokodavimo paslaugą, kad būtų surastas.</string>
+    <string name="about_privacy_body">Jei tai įjungsite nustatymuose, „Navia“ siunčia strigčių ataskaitas į Firebase Crashlytics, Google paslaugą, kad problemas būtų galima rasti ir ištaisyti; pagal numatytuosius nustatymus ji išjungta. Programėlė naudoja jūsų įrenginio vietovę, kad pasakytų, kas yra aplink jus; jūsų vietovė naudojama įrenginyje ir nesiunčiama programėlės kūrėjui. Kai ieškote adreso, tas paieškos tekstas siunčiamas į jūsų įrenginio geokodavimo paslaugą, kad būtų surastas.</string>
     <string name="about_privacy_link">Skaityti privatumo politiką</string>
     <string name="about_no_app_for_link">Šiame įrenginyje nėra programėlės, kuri galėtų tai atidaryti.</string>
 </resources>

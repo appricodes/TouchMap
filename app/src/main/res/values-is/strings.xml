@@ -111,6 +111,10 @@
     <string name="download_radius_location_unknown">Staðsetning ekki tiltæk — færðu kortið eða veittu heimild fyrir staðsetningu</string>
 
     <!-- Map rendering -->
+    <string name="privacy_header">Persónuvernd</string>
+    <string name="crash_reports_title">Senda hrunskýrslur</string>
+    <string name="crash_reports_summary_on">Ef forritið hrynur eru greiningarupplýsingar (villan, gerð tækisins, Android-útgáfa, útgáfa forritsins) sendar til Google Firebase Crashlytics svo hægt sé að laga vandamálið. Þú getur slökkt á þessu hvenær sem er.</string>
+    <string name="crash_reports_summary_off">Slökkt: engar hrunskýrslur eru sendar. Kveiktu til að hjálpa til við að laga villur með því að senda hrunupplýsingar til Google Firebase Crashlytics.</string>
     <string name="render_map_title">Sýna kortið (Beta)</string>
     <string name="render_map_summary_on">Kortið er teiknað á skjáinn fyrir sjónskerta notendur. Þessi teikning er á tilraunastigi og er enn í þróun.</string>
     <string name="render_map_summary_off">Kortið er ekki teiknað; kannaðu eingöngu með snertingu og hljóði.</string>
@@ -197,7 +201,7 @@
     <string name="about_email_action">Senda tölvupóst</string>
     <string name="about_website_action">Opna vefsíðuna</string>
     <string name="about_privacy_heading">Persónuvernd</string>
-    <string name="about_privacy_body">Navia sendir hrunskýrslur til Firebase Crashlytics, þjónustu frá Google, svo hægt sé að finna og laga vandamál. Forritið notar staðsetningu tækisins þíns til að segja þér hvað er í kringum þig; staðsetningin þín er notuð í tækinu og er ekki send til höfundar forritsins. Þegar þú leitar að heimilisfangi er leitartextinn sendur til landkóðunarþjónustu tækisins þíns til uppflettingar.</string>
+    <string name="about_privacy_body">Ef þú kveikir á því í stillingum sendir Navia hrunskýrslur til Firebase Crashlytics, þjónustu frá Google, svo hægt sé að finna og laga vandamál; slökkt er á því sjálfgefið. Forritið notar staðsetningu tækisins þíns til að segja þér hvað er í kringum þig; staðsetningin þín er notuð í tækinu og er ekki send til höfundar forritsins. Þegar þú leitar að heimilisfangi er leitartextinn sendur til landkóðunarþjónustu tækisins þíns til uppflettingar.</string>
     <string name="about_privacy_link">Lesa persónuverndarstefnuna</string>
     <string name="about_no_app_for_link">Ekkert forrit í þessu tæki getur opnað það.</string>
 </resources>
