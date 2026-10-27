@@ -71,7 +71,11 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            // R8 shrink/obfuscate/optimize. Play's DEX-optimization check flagged obfuscation at 2%
+            // (needs >=25%). The app has no reflection, JS interfaces or serialization of its own
+            // (grepped), so the default rules suffice; Crashlytics uploads the mapping file itself.
+            isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
