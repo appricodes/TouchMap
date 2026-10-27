@@ -121,8 +121,8 @@
     <!-- Map rendering -->
     <string name="privacy_header">Privacy</string>
     <string name="crash_reports_title">Send crash reports</string>
-    <string name="crash_reports_summary_on">If the app crashes, anonymous diagnostic information (the error, device model, Android version, app version) is sent to Google Firebase Crashlytics so the problem can be fixed.</string>
-    <string name="crash_reports_summary_off">No crash reports are sent.</string>
+    <string name="crash_reports_summary_on">If the app crashes, diagnostic information (the error, device model, Android version, app version) is sent to Google Firebase Crashlytics so the problem can be fixed. You can turn this off at any time.</string>
+    <string name="crash_reports_summary_off">Off: no crash reports are sent. Turn on to help fix bugs by sending crash information to Google Firebase Crashlytics.</string>
     <string name="render_map_title">Show the map (Beta)</string>
     <string name="render_map_summary_on">The map is drawn on screen for low-vision users. This drawing is experimental and still improving.</string>
     <string name="render_map_summary_off">The map is not drawn; explore by touch and sound only.</string>
@@ -160,7 +160,7 @@
     <string name="about_email_action">Send an e-mail</string>
     <string name="about_website_action">Open the website</string>
     <string name="about_privacy_heading">Privacy</string>
-    <string name="about_privacy_body">Navia sends crash reports to Firebase Crashlytics, a Google service, so problems can be found and fixed; you can switch this off in Settings. It uses your device location to tell you what is around you; your location is used on the device and is not sent to the app\'s developer. When you search for an address, that search text is sent to your device\'s geocoding service to be looked up.</string>
+    <string name="about_privacy_body">If you turn it on in Settings, Navia sends crash reports to Firebase Crashlytics, a Google service, so problems can be found and fixed; it is off by default. It uses your device location to tell you what is around you; your location is used on the device and is not sent to the app\'s developer. When you search for an address, that search text is sent to your device\'s geocoding service to be looked up.</string>
     <string name="about_privacy_link">Read the privacy policy</string>
     <string name="about_no_app_for_link">No app on this device can open that.</string>
 

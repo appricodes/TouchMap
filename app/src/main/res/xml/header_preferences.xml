@@ -54,7 +54,7 @@
             app:title="@string/crash_reports_title"
             app:summaryOn="@string/crash_reports_summary_on"
             app:summaryOff="@string/crash_reports_summary_off"
-            app:defaultValue="true"
+            app:defaultValue="false"
             app:iconSpaceReserved="false"/>
 
     </PreferenceCategory>

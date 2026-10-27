@@ -30,15 +30,15 @@ public final class CrashReporting {
 
 	private static final String DEBUG_FORCE_CRASH_ACTION = "com.wikiponder.touchmap.DEBUG_FORCE_CRASH";
 
-	/** SharedPreferences key of the Settings "Send crash reports" switch (default on). */
+	/** SharedPreferences key of the Settings "Send crash reports" switch (opt-in, default off). */
 	public static final String PREF_KEY = "crash_reports";
 
 	public static void init(Context context) {
 		FirebaseCrashlytics crashlytics = FirebaseCrashlytics.getInstance();
-		// The manifest turns automatic collection off (firebase_crashlytics_collection_enabled), so
-		// nothing is sent until this honours the user's choice — see setCollectionEnabled.
+		// Opt-in (GDPR/ePrivacy): the manifest turns automatic collection off
+		// (firebase_crashlytics_collection_enabled) and nothing is sent until the user switches it on.
 		crashlytics.setCrashlyticsCollectionEnabled(PreferenceManager
-				.getDefaultSharedPreferences(context).getBoolean(PREF_KEY, true));
+				.getDefaultSharedPreferences(context).getBoolean(PREF_KEY, false));
 		crashlytics.setCustomKey("version_name", versionName(context));
 		if (BuildConfig.DEBUG) {
 			registerDebugCrashTrigger(context);
