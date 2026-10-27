@@ -46,6 +46,20 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        app:title="@string/privacy_header"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            app:key="crash_reports"
+            app:title="@string/crash_reports_title"
+            app:summaryOn="@string/crash_reports_summary_on"
+            app:summaryOff="@string/crash_reports_summary_off"
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         app:title="@string/map_data_header"
         app:iconSpaceReserved="false">
 

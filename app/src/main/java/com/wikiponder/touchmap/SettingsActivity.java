@@ -15,6 +15,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceManager;
 
+import com.wikiponder.touchmap.classes.CrashReporting;
 import com.wikiponder.touchmap.classes.db.OSMDatabaseHelper;
 import com.wikiponder.touchmap.classes.ui.EdgeToEdgeActionBar;
 import com.wikiponder.touchmap.classes.ui.TranslationDisclaimerDialog;
@@ -138,6 +139,11 @@ implements PreferenceFragmentCompat.OnPreferenceStartFragmentCallback {
 				return true;
 			});
 			
+			findPreference(CrashReporting.PREF_KEY).setOnPreferenceChangeListener((preference, newValue) -> {
+				CrashReporting.setCollectionEnabled((Boolean) newValue);
+				return true;
+			});
+
 			// delete all downloaded maps
 			Preference deleteMapsPref = findPreference("delete_all_maps");
 			deleteMapsPref.setOnPreferenceClickListener(preference -> {

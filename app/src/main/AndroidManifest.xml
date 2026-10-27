@@ -37,6 +37,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AICam"
         tools:targetApi="31">
+        <!-- Crash reporting is opt-out in Settings; CrashReporting.init() enables it only if the user
+             hasn't switched it off, so nothing is collected before that choice is read. -->
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="false" />
+
         <activity
             android:name="com.wikiponder.touchmap.MapActivity"
             android:exported="true"
