@@ -149,6 +149,7 @@ public class MapTileManager {
 	private final WorldPlacesRepository worldPlacesRepository;
 	private Set<Integer> catIdFilters;
 	private boolean favoriteFilter;
+	private volatile int touchFilterVersion = 0;
 	private String keyword;
 
 	// Types skipped in touch nearest-element search (too minor / noisy under the finger).
@@ -1055,10 +1056,12 @@ public class MapTileManager {
 
 	public void setFavoriteFilter(boolean favoriteFilter) {
 		this.favoriteFilter = favoriteFilter;
+		touchFilterVersion++;
 	}
 
 	public void setCatIdFilters(Set<Integer> selectedCategories) {
 		this.catIdFilters = selectedCategories;
+		touchFilterVersion++;
 	}
 
 	public boolean getFavoriteFilter() {
@@ -1067,6 +1070,20 @@ public class MapTileManager {
 
 	public void setKeywordSearch(String keyword) {
 		this.keyword = keyword;
+		touchFilterVersion++;
+	}
+
+	/** Bumped whenever a filter that decides what touch exploration can find changes. */
+	public int getTouchFilterVersion() {
+		return touchFilterVersion;
+	}
+
+	/** Whether touch exploration at this zoom can find an element — the same rule getNearestElement
+	 * applies (detail level for the zoom, category/favorite filters, keyword search). The drawn map
+	 * only shows such elements, so everything you can see can also be heard by touching it. */
+	public boolean isTouchable(int catId, String type, boolean favorite, float zoomLevel, String name) {
+		if (OSMDatabaseHelper.isWorldPlaceCategory(catId)) return true;
+		return passesFilter(catId, type, favorite, zoomLevel, true) && matchesKeyword(type, name);
 	}
 
 	public String getKeyword() {

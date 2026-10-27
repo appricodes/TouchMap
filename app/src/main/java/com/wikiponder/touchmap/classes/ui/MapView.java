@@ -213,6 +213,7 @@ public class MapView extends View {
 	private List<RoadLabel> cachedRoadLabels = new ArrayList<>();
 	private boolean cacheValid = false;
 	private int cacheSerial = 0; // bumped on every rebuild
+	private int cacheFilterVersion = -1;
 	private int cacheZoomLevel = ZOOM_LEVEL_AT_ONE;
 	private List<WayRecord> cacheWays = null;
 	private List<NodeRecord> cacheNodes = null;
@@ -590,7 +591,9 @@ public class MapView extends View {
 		float ratio = mpp / metersPerPixel;
 		drawMatrix.setTranslate(-dx, -dy);
 		drawMatrix.postScale(ratio, ratio);
-		drawMatrix.postRotate(mapRotation);
+		// mapRotation is the heading (clockwise from north): turn the map the opposite way so the
+		// direction the user faces points up. handleTab() applies the inverse of exactly this.
+		drawMatrix.postRotate(-mapRotation);
 		drawMatrix.postTranslate(getWidth() / 2f, getHeight() / 2f);
 
 		int saved = canvas.save();
@@ -719,7 +722,7 @@ public class MapView extends View {
 			float sx = tmpPoint[0], sy = tmpPoint[1];
 			if (sx < -margin || sy < -margin || sx > getWidth() + margin || sy > getHeight() + margin) continue;
 			// Text runs along the road but is never upside down: flip when it would point left.
-			float angle = l.angleDeg + mapRotation;
+			float angle = l.angleDeg - mapRotation;
 			angle = ((angle + 180f) % 360f + 360f) % 360f - 180f; // (-180, 180]
 			if (angle > 90f) angle -= 180f;
 			else if (angle < -90f) angle += 180f;
@@ -826,7 +829,7 @@ public class MapView extends View {
 		double centerLat = centerLocation.getLatitude();
 		double centerLon = centerLocation.getLongitude();
 		boolean rebuild = !cacheValid || ways != cacheWays || nodes != cacheNodes
-				|| metersPerPixel != cacheMetersPerPixel;
+				|| metersPerPixel != cacheMetersPerPixel || tm.getTouchFilterVersion() != cacheFilterVersion;
 		if (!rebuild) {
 			double east = Math.toRadians(centerLon - cacheOriginLon) * cacheCosLat * Contract.EARTH_RADIUS;
 			double north = Math.toRadians(centerLat - cacheOriginLat) * Contract.EARTH_RADIUS;
@@ -834,10 +837,10 @@ public class MapView extends View {
 			// (1 half-diagonal around the centre) can reach the edge of it
 			rebuild = Math.hypot(east, north) > cacheHalfDiagonalM * 0.6;
 		}
-		if (rebuild) buildCache(ways, nodes, centerLat, centerLon);
+		if (rebuild) buildCache(tm, ways, nodes, centerLat, centerLon);
 	}
 
-	private void buildCache(List<WayRecord> ways, List<NodeRecord> nodes, double originLat, double originLon) {
+	private void buildCache(MapTileManager tm, List<WayRecord> ways, List<NodeRecord> nodes, double originLat, double originLon) {
 		TimerLogger.startTimer("buildCache");
 		// fresh lists each time: the previous ones may still be read by a bitmap render in flight
 		List<WayShape>[] layerLists = newLayerLists();
@@ -846,6 +849,7 @@ public class MapView extends View {
 
 		cacheValid = true;
 		cacheSerial++;
+		cacheFilterVersion = tm.getTouchFilterVersion();
 		cacheZoomLevel = zoomLevel();
 		cacheWays = ways;
 		cacheNodes = nodes;
@@ -870,6 +874,8 @@ public class MapView extends View {
 			double minEast = (w.minLon - originLon) * mx, maxEast = (w.maxLon - originLon) * mx;
 			double minNorth = (w.minLat - originLat) * my, maxNorth = (w.maxLat - originLat) * my;
 			if (maxEast < -radiusM || minEast > radiusM || maxNorth < -radiusM || minNorth > radiusM) continue;
+			// only what touch exploration can find at this zoom is drawn (see isTouchable)
+			if (!tm.isTouchable(w.catId, w.type, false, currentZoom, w.name)) continue;
 			int layer = layerForType(w.type);
 			if (!detail && (layer == LAYER_BUILDING || layer == LAYER_OTHER
 					|| layer == LAYER_PATH || layer == LAYER_SERVICE)) continue;
@@ -922,6 +928,7 @@ public class MapView extends View {
 		for (NodeRecord nd : nodes) {
 			double east = (nd.lon - originLon) * mx, north = (nd.lat - originLat) * my;
 			if (Math.abs(east) > radiusM || Math.abs(north) > radiusM) continue;
+			if (!tm.isTouchable(nd.catId, nd.type, nd.favorite, currentZoom, nd.name)) continue;
 			if (!detail && (nd.catId == OSMDatabaseHelper.CATEGORY_ADDRESS
 					|| nd.catId == OSMDatabaseHelper.CATEGORY_INTERSECTION)) continue;
 			nodePoints.add(new NodePoint((float) (east / metersPerPixel), (float) (-north / metersPerPixel),
@@ -1073,6 +1080,21 @@ public class MapView extends View {
 		return super.onTouchEvent(event);
 	}
 	
+	/** Debug builds: logs what a touch hit and where the drawing puts that element on screen (same
+	 * projection as the map), so touch results can be checked against the picture from adb. */
+	private void logHit(float touchX, float touchY, NearestElement ne) {
+		double cosLat = Math.cos(Math.toRadians(centerLocation.getLatitude()));
+		float east = (float) (Math.toRadians(ne.element.lon - centerLocation.getLongitude()) * cosLat
+				* Contract.EARTH_RADIUS / metersPerPixel);
+		float north = (float) (Math.toRadians(ne.element.lat - centerLocation.getLatitude())
+				* Contract.EARTH_RADIUS / metersPerPixel);
+		MyPoint sp = new MyPoint(east, -north).rotate(-mapRotation).add(new MyPoint(getWidth() / 2f, getHeight() / 2f));
+		Log.i("TouchMapHit", String.format(Locale.US,
+				"touch=(%.0f,%.0f) rot=%.1f zoom=%.2f -> '%s' [%s cat=%d] drawnAt=(%.0f,%.0f) touchDist=%.1fm",
+				touchX, touchY, mapRotation, currentZoom, ne.element.name, ne.element.type, ne.element.catId,
+				sp.x, sp.y, ne.distance));
+	}
+
 	private void handleTab(float touchX, float touchY) {
 		MyPoint deltaInMeters = new MyPoint(touchX, -touchY)
 				.add(new MyPoint(-getWidth()/2, getHeight()/2))
@@ -1090,6 +1112,8 @@ public class MapView extends View {
 		
 		NearestElement ne = MyApplication.getMapTileManager(context).getNearestElement(touchLocation, currentZoom, true);
 		
+		if (com.wikiponder.touchmap.BuildConfig.DEBUG && ne.element != null) logHit(touchX, touchY, ne);
+
 		double userDistance = (userLocation!= null) ? userLocation.distanceTo(touchLocation) : Double.MAX_VALUE;
 		double  maxAllowedDistance = getWidth() * 0.15 * metersPerPixel;
 		

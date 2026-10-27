@@ -184,8 +184,14 @@ public class AudioClient implements TextToSpeech.OnInitListener {
 	public void speak(String text) {
 		if (tts == null) return;
 		if (isTtsReady && text != null && !text.trim().isEmpty()) {
+			logSpoken(text);
 			tts.speak(text, TextToSpeech.QUEUE_ADD, null, null);
 		}
+	}
+	/** Debug builds log everything handed to the speech engine (logcat tag TouchMapSpeech), so what
+	 * the app says can be checked from adb without hearing it. */
+	private static void logSpoken(String text) {
+		if (com.wikiponder.touchmap.BuildConfig.DEBUG) Log.i("TouchMapSpeech", text);
 	}
 	public void speakWithLocation(String text, double x, double y, double size) {
 		if (tts == null) return;
@@ -197,6 +203,7 @@ public class AudioClient implements TextToSpeech.OnInitListener {
 				.append(UUID.randomUUID().toString().replace("-", ""))
 				.toString();
 				System.out.println(utteranceId);
+		logSpoken(text);
 		tts.speak(text, TextToSpeech.QUEUE_ADD, null, utteranceId);
 	}
 
