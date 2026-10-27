@@ -207,4 +207,7 @@
     <string name="about_privacy_body">Ef þú kveikir á því í stillingum sendir Navia hrunskýrslur til Firebase Crashlytics, þjónustu frá Google, svo hægt sé að finna og laga vandamál; slökkt er á því sjálfgefið. Forritið notar staðsetningu tækisins þíns til að segja þér hvað er í kringum þig; staðsetningin þín er notuð í tækinu og er ekki send til höfundar forritsins. Þegar þú leitar að heimilisfangi er leitartextinn sendur til landkóðunarþjónustu tækisins þíns til uppflettingar.</string>
     <string name="about_privacy_link">Lesa persónuverndarstefnuna</string>
     <string name="about_no_app_for_link">Ekkert forrit í þessu tæki getur opnað það.</string>
+    <string name="render_labels_title">Sýna nöfn á kortinu</string>
+    <string name="render_labels_summary_on">Götu- og staðarnöfn eru skrifuð á teiknaða kortið þegar þysjað er inn.</string>
+    <string name="render_labels_summary_off">Teiknaða kortið sýnir engin nöfn og er því minna yfirfullt.</string>
 </resources>

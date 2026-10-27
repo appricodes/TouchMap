@@ -195,4 +195,7 @@
     <string name="about_privacy_body">設定でオンにすると、Navia は問題の発見と修正のために、Google のサービスである Firebase Crashlytics にクラッシュレポートを送信します。初期設定ではオフです。周囲に何があるかをお伝えするために端末の位置情報を使用します。位置情報は端末内で使用され、アプリの開発者には送信されません。住所を検索すると、その検索文字列は端末のジオコーディングサービスに送信されて照会されます。</string>
     <string name="about_privacy_link">プライバシーポリシーを読む</string>
     <string name="about_no_app_for_link">この端末には、それを開けるアプリがありません。</string>
+    <string name="render_labels_title">地図上に名前を表示</string>
+    <string name="render_labels_summary_on">拡大すると、描画された地図に道路名や地名が表示されます。</string>
+    <string name="render_labels_summary_off">描画された地図に名前を表示しないため、すっきり見えます。</string>
 </resources>

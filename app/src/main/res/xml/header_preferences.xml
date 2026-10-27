@@ -39,6 +39,15 @@
             app:defaultValue="false"
             app:iconSpaceReserved="false"/>
 
+        <SwitchPreferenceCompat
+            app:key="render_labels"
+            app:dependency="render_map"
+            app:title="@string/render_labels_title"
+            app:summaryOn="@string/render_labels_summary_on"
+            app:summaryOff="@string/render_labels_summary_off"
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"/>
+
         <Preference
             app:fragment="com.wikiponder.touchmap.SettingsActivity$AnnouncementFragment"
             app:key="announcement_settings_header"

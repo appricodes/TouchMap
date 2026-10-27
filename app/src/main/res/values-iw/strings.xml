@@ -207,4 +207,7 @@
     <string name="about_privacy_body">אם תפעיל זאת בהגדרות, Navia שולח דוחות קריסה אל Firebase Crashlytics, שירות של Google, כדי שניתן יהיה לאתר ולתקן בעיות; כברירת מחדל האפשרות כבויה. האפליקציה משתמשת במיקום המכשיר שלך כדי לומר לך מה נמצא סביבך; המיקום שלך משמש במכשיר ואינו נשלח למפתח האפליקציה. כשמחפשים כתובת, טקסט החיפוש נשלח לשירות הגאוקודינג של המכשיר שלך לצורך איתור.</string>
     <string name="about_privacy_link">קריאת מדיניות הפרטיות</string>
     <string name="about_no_app_for_link">אין במכשיר הזה אפליקציה שיכולה לפתוח את זה.</string>
+    <string name="render_labels_title">הצגת שמות במפה</string>
+    <string name="render_labels_summary_on">שמות רחובות ומקומות נכתבים על המפה המצוירת בעת התקרבות.</string>
+    <string name="render_labels_summary_off">המפה המצוירת אינה מציגה שמות, ולכן היא פחות עמוסה.</string>
 </resources>

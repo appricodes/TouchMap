@@ -195,4 +195,7 @@
     <string name="about_privacy_body">설정에서 켜면 Navia는 문제를 찾아 고칠 수 있도록 Google 서비스인 Firebase Crashlytics에 비정상 종료 보고서를 보냅니다. 기본적으로 꺼져 있습니다. 주변에 무엇이 있는지 알려주기 위해 기기 위치를 사용하며, 위치는 기기에서 사용되고 앱 개발자에게 전송되지 않습니다. 주소를 검색하면 해당 검색어가 조회를 위해 기기의 지오코딩 서비스로 전송됩니다.</string>
     <string name="about_privacy_link">개인정보처리방침 읽기</string>
     <string name="about_no_app_for_link">이 기기에서 이를 열 수 있는 앱이 없습니다.</string>
+    <string name="render_labels_title">지도에 이름 표시</string>
+    <string name="render_labels_summary_on">확대하면 그려진 지도에 도로와 장소 이름이 표시됩니다.</string>
+    <string name="render_labels_summary_off">그려진 지도에 이름이 표시되지 않아 덜 복잡합니다.</string>
 </resources>

@@ -207,4 +207,7 @@
     <string name="about_privacy_body">Ayarlar\'dan açarsanız Navia, sorunların bulunup düzeltilebilmesi için kilitlenme raporlarını bir Google hizmeti olan Firebase Crashlytics\'e gönderir; varsayılan olarak kapalıdır. Çevrenizde ne olduğunu size söylemek için cihazınızın konumunu kullanır; konumunuz cihazda kullanılır ve uygulamanın geliştiricisine gönderilmez. Bir adres aradığınızda, bu arama metni aranmak üzere cihazınızın coğrafi kodlama hizmetine gönderilir.</string>
     <string name="about_privacy_link">Gizlilik politikasını oku</string>
     <string name="about_no_app_for_link">Bu cihazdaki hiçbir uygulama bunu açamıyor.</string>
+    <string name="render_labels_title">Haritada adları göster</string>
+    <string name="render_labels_summary_on">Yakınlaştırıldığında sokak ve yer adları çizilen haritaya yazılır.</string>
+    <string name="render_labels_summary_off">Çizilen harita hiçbir ad göstermez, bu yüzden daha az kalabalıktır.</string>
 </resources>

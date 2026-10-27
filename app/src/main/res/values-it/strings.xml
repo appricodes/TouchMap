@@ -207,4 +207,7 @@
     <string name="about_privacy_body">Se lo attivi nelle Impostazioni, Navia invia segnalazioni di arresto anomalo a Firebase Crashlytics, un servizio di Google, per individuare e risolvere i problemi; è disattivato per impostazione predefinita. Usa la posizione del dispositivo per indicarti cosa c\'è intorno a te; la tua posizione viene usata sul dispositivo e non viene inviata allo sviluppatore dell\'app. Quando cerchi un indirizzo, il testo della ricerca viene inviato al servizio di geocodifica del dispositivo per essere risolto.</string>
     <string name="about_privacy_link">Leggi l\'informativa sulla privacy</string>
     <string name="about_no_app_for_link">Nessuna app su questo dispositivo può aprirlo.</string>
+    <string name="render_labels_title">Mostra i nomi sulla mappa</string>
+    <string name="render_labels_summary_on">I nomi di strade e luoghi vengono scritti sulla mappa disegnata quando si ingrandisce.</string>
+    <string name="render_labels_summary_off">La mappa disegnata non mostra nomi, quindi è meno affollata.</string>
 </resources>

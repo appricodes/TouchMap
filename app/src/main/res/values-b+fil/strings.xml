@@ -207,4 +207,7 @@
     <string name="about_privacy_body">Kung io-on mo ito sa Mga Setting, nagpapadala ang Navia ng mga ulat ng crash sa Firebase Crashlytics, isang serbisyo ng Google, para matukoy at maayos ang mga problema; naka-off ito bilang default. Ginagamit nito ang lokasyon ng iyong device para sabihin sa iyo kung ano ang nasa paligid mo; ginagamit ang iyong lokasyon sa device at hindi ipinapadala sa developer ng app. Kapag naghanap ka ng address, ipinapadala ang teksto ng paghahanap na iyon sa serbisyo ng geocoding ng iyong device para hanapin.</string>
     <string name="about_privacy_link">Basahin ang patakaran sa privacy</string>
     <string name="about_no_app_for_link">Walang app sa device na ito ang makakabukas niyan.</string>
+    <string name="render_labels_title">Ipakita ang mga pangalan sa mapa</string>
+    <string name="render_labels_summary_on">Isinusulat ang mga pangalan ng kalye at lugar sa iginuhit na mapa kapag naka-zoom in.</string>
+    <string name="render_labels_summary_off">Walang pangalang ipinapakita sa iginuhit na mapa, kaya mas hindi ito siksik.</string>
 </resources>

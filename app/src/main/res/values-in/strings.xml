@@ -207,4 +207,7 @@
     <string name="about_privacy_body">Jika kamu menyalakannya di Setelan, Navia mengirimkan laporan kerusakan ke Firebase Crashlytics, layanan Google, agar masalah dapat ditemukan dan diperbaiki; fitur ini mati secara default. Aplikasi ini menggunakan lokasi perangkatmu untuk memberi tahu apa yang ada di sekitarmu; lokasimu digunakan di perangkat dan tidak dikirim ke pengembang aplikasi. Saat kamu mencari alamat, teks pencarian itu dikirim ke layanan geocoding perangkatmu untuk dicari.</string>
     <string name="about_privacy_link">Baca kebijakan privasi</string>
     <string name="about_no_app_for_link">Tidak ada aplikasi di perangkat ini yang dapat membukanya.</string>
+    <string name="render_labels_title">Tampilkan nama di peta</string>
+    <string name="render_labels_summary_on">Nama jalan dan tempat ditulis di peta yang digambar saat diperbesar.</string>
+    <string name="render_labels_summary_off">Peta yang digambar tidak menampilkan nama, sehingga tidak terlalu ramai.</string>
 </resources>

@@ -207,4 +207,7 @@
     <string name="about_privacy_body">Jeśli włączysz to w Ustawieniach, Navia wysyła raporty o awariach do Firebase Crashlytics, usługi Google, aby można było znajdować i naprawiać problemy; domyślnie jest to wyłączone. Aplikacja używa lokalizacji Twojego urządzenia, aby informować Cię, co znajduje się wokół Ciebie; Twoja lokalizacja jest używana na urządzeniu i nie jest wysyłana do dewelopera aplikacji. Gdy szukasz adresu, tekst wyszukiwania jest wysyłany do usługi geokodowania Twojego urządzenia w celu odnalezienia.</string>
     <string name="about_privacy_link">Przeczytaj politykę prywatności</string>
     <string name="about_no_app_for_link">Żadna aplikacja na tym urządzeniu nie może tego otworzyć.</string>
+    <string name="render_labels_title">Pokaż nazwy na mapie</string>
+    <string name="render_labels_summary_on">Nazwy ulic i miejsc są wpisywane na narysowanej mapie po powiększeniu.</string>
+    <string name="render_labels_summary_off">Narysowana mapa nie pokazuje nazw, dzięki czemu jest mniej zatłoczona.</string>
 </resources>

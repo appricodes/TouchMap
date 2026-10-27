@@ -207,4 +207,7 @@
     <string name="about_privacy_body">Nếu bạn bật trong Cài đặt, Navia gửi báo cáo sự cố tới Firebase Crashlytics, một dịch vụ của Google, để có thể tìm và khắc phục vấn đề; mặc định tính năng này tắt. Ứng dụng dùng vị trí thiết bị của bạn để cho bạn biết những gì ở xung quanh; vị trí của bạn được dùng trên thiết bị và không được gửi cho nhà phát triển ứng dụng. Khi bạn tìm một địa chỉ, văn bản tìm kiếm đó được gửi tới dịch vụ mã hóa địa lý của thiết bị để tra cứu.</string>
     <string name="about_privacy_link">Đọc chính sách quyền riêng tư</string>
     <string name="about_no_app_for_link">Không có ứng dụng nào trên thiết bị này mở được nội dung đó.</string>
+    <string name="render_labels_title">Hiển thị tên trên bản đồ</string>
+    <string name="render_labels_summary_on">Tên đường và địa điểm được ghi trên bản đồ đã vẽ khi phóng to.</string>
+    <string name="render_labels_summary_off">Bản đồ đã vẽ không hiển thị tên nên đỡ rối mắt hơn.</string>
 </resources>

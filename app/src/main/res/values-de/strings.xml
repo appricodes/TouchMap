@@ -207,4 +207,7 @@
     <string name="about_privacy_body">Wenn du es in den Einstellungen einschaltest, sendet Navia Absturzberichte an Firebase Crashlytics, einen Google-Dienst, damit Probleme gefunden und behoben werden können; standardmäßig ist es ausgeschaltet. Die App verwendet den Standort deines Geräts, um dir zu sagen, was sich in deiner Umgebung befindet; dein Standort wird auf dem Gerät verwendet und nicht an den Entwickler der App gesendet. Wenn du nach einer Adresse suchst, wird dieser Suchtext an den Geokodierungsdienst deines Geräts gesendet, um sie nachzuschlagen.</string>
     <string name="about_privacy_link">Datenschutzerklärung lesen</string>
     <string name="about_no_app_for_link">Keine App auf diesem Gerät kann das öffnen.</string>
+    <string name="render_labels_title">Namen auf der Karte anzeigen</string>
+    <string name="render_labels_summary_on">Straßen- und Ortsnamen werden beim Hineinzoomen auf die gezeichnete Karte geschrieben.</string>
+    <string name="render_labels_summary_off">Die gezeichnete Karte zeigt keine Namen und wirkt dadurch aufgeräumter.</string>
 </resources>

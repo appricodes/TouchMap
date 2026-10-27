@@ -195,4 +195,7 @@
     <string name="about_privacy_body">Dacă o activați din Setări, Navia trimite rapoarte de blocare către Firebase Crashlytics, un serviciu Google, pentru ca problemele să poată fi găsite și remediate; este dezactivată implicit. Aplicația folosește locația dispozitivului dvs. pentru a vă spune ce se află în jurul dvs.; locația dvs. este folosită pe dispozitiv și nu este trimisă dezvoltatorului aplicației. Când căutați o adresă, textul căutării este trimis către serviciul de geocodare al dispozitivului dvs. pentru a fi găsit.</string>
     <string name="about_privacy_link">Citiți politica de confidențialitate</string>
     <string name="about_no_app_for_link">Nicio aplicație de pe acest dispozitiv nu poate deschide acest lucru.</string>
+    <string name="render_labels_title">Afișează numele pe hartă</string>
+    <string name="render_labels_summary_on">Numele străzilor și ale locurilor sunt scrise pe harta desenată la mărire.</string>
+    <string name="render_labels_summary_off">Harta desenată nu afișează nume, deci este mai puțin aglomerată.</string>
 </resources>

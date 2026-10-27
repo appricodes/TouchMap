@@ -195,4 +195,7 @@
     <string name="about_privacy_body">Om du slår på det i Inställningar skickar Navia kraschrapporter till Firebase Crashlytics, en Google-tjänst, så att problem kan hittas och åtgärdas; det är avstängt som standard. Appen använder enhetens plats för att berätta vad som finns omkring dig; din plats används på enheten och skickas inte till appens utvecklare. När du söker efter en adress skickas söktexten till enhetens geokodningstjänst för att slås upp.</string>
     <string name="about_privacy_link">Läs integritetspolicyn</string>
     <string name="about_no_app_for_link">Ingen app på den här enheten kan öppna det.</string>
+    <string name="render_labels_title">Visa namn på kartan</string>
+    <string name="render_labels_summary_on">Gatu- och ortnamn skrivs på den ritade kartan när du zoomar in.</string>
+    <string name="render_labels_summary_off">Den ritade kartan visar inga namn, så den är mindre rörig.</string>
 </resources>

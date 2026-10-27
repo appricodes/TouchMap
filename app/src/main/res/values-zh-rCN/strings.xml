@@ -195,4 +195,7 @@
     <string name="about_privacy_body">如果你在设置中开启，Navia 会将崩溃报告发送到 Google 的服务 Firebase Crashlytics，以便发现并修复问题；默认关闭。它使用你设备的位置来告诉你周围有什么；你的位置在设备上使用，不会发送给应用开发者。当你搜索地址时，该搜索文本会发送到你设备的地理编码服务进行查询。</string>
     <string name="about_privacy_link">阅读隐私政策</string>
     <string name="about_no_app_for_link">此设备上没有应用可以打开该内容。</string>
+    <string name="render_labels_title">在地图上显示名称</string>
+    <string name="render_labels_summary_on">放大时，绘制的地图上会写出街道和地点名称。</string>
+    <string name="render_labels_summary_off">绘制的地图不显示名称，因此更简洁。</string>
 </resources>

@@ -206,4 +206,7 @@
     <string name="about_privacy_body">As jy dit in Instellings aanskakel, stuur Navia ineenstortingsverslae na Firebase Crashlytics, \'n Google-diens, sodat probleme gevind en reggemaak kan word; dit is by verstek af. Dit gebruik jou toestel se ligging om vir jou te sê wat om jou is; jou ligging word op die toestel gebruik en word nie na die app se ontwikkelaar gestuur nie. Wanneer jy \'n adres soek, word daardie soekteks na jou toestel se geokoderingdiens gestuur om opgesoek te word.</string>
     <string name="about_privacy_link">Lees die privaatheidsbeleid</string>
     <string name="about_no_app_for_link">Geen app op hierdie toestel kan dit oopmaak nie.</string>
+    <string name="render_labels_title">Wys name op die kaart</string>
+    <string name="render_labels_summary_on">Straat- en plekname word op die geteikende kaart geskryf wanneer jy inzoem.</string>
+    <string name="render_labels_summary_off">Die geteikende kaart wys geen name nie, so dit is minder druk.</string>
 </resources>

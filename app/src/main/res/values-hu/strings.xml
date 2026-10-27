@@ -207,4 +207,7 @@
     <string name="about_privacy_body">Ha bekapcsolod a Beállításokban, a Navia összeomlási jelentéseket küld a Firebase Crashlyticsnek, a Google szolgáltatásának, hogy a hibák megtalálhatók és javíthatók legyenek; alapértelmezés szerint ki van kapcsolva. Az eszközöd helyadatait használja, hogy megmondja, mi van körülötted; a helyadataid az eszközön kerülnek felhasználásra, és nem jutnak el az alkalmazás fejlesztőjéhez. Amikor címre keresel, a keresési szöveg az eszközöd geokódolási szolgáltatásához kerül elküldésre a kikereséshez.</string>
     <string name="about_privacy_link">Adatvédelmi irányelvek elolvasása</string>
     <string name="about_no_app_for_link">Ezen az eszközön nincs olyan alkalmazás, amely meg tudná nyitni.</string>
+    <string name="render_labels_title">Nevek megjelenítése a térképen</string>
+    <string name="render_labels_summary_on">Nagyításkor az utca- és helynevek ki vannak írva a megrajzolt térképre.</string>
+    <string name="render_labels_summary_off">A megrajzolt térkép nem mutat neveket, így kevésbé zsúfolt.</string>
 </resources>

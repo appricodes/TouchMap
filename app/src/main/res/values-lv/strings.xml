@@ -195,4 +195,7 @@
     <string name="about_privacy_body">Ja to ieslēgsiet iestatījumos, Navia sūta avāriju ziņojumus uz Firebase Crashlytics, Google pakalpojumu, lai problēmas varētu atrast un novērst; pēc noklusējuma tas ir izslēgts. Lietotne izmanto jūsu ierīces atrašanās vietu, lai pastāstītu, kas ir jums apkārt; jūsu atrašanās vieta tiek izmantota ierīcē un netiek sūtīta lietotnes izstrādātājam. Kad meklējat adresi, šis meklēšanas teksts tiek sūtīts uz jūsu ierīces ģeokodēšanas pakalpojumu, lai to atrastu.</string>
     <string name="about_privacy_link">Lasīt konfidencialitātes politiku</string>
     <string name="about_no_app_for_link">Nevienai lietotnei šajā ierīcē nav iespējams to atvērt.</string>
+    <string name="render_labels_title">Rādīt nosaukumus kartē</string>
+    <string name="render_labels_summary_on">Pietuvinot ielu un vietu nosaukumi tiek rakstīti uz zīmētās kartes.</string>
+    <string name="render_labels_summary_off">Zīmētā karte nerāda nosaukumus, tāpēc tā ir mazāk pārblīvēta.</string>
 </resources>

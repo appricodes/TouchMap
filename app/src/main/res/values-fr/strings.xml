@@ -207,4 +207,7 @@
     <string name="about_privacy_body">Si vous l\'activez dans les Paramètres, Navia envoie des rapports de plantage à Firebase Crashlytics, un service Google, afin que les problèmes puissent être détectés et corrigés ; cette option est désactivée par défaut. L\'application utilise la position de votre appareil pour vous indiquer ce qui vous entoure ; votre position est utilisée sur l\'appareil et n\'est pas envoyée au développeur de l\'application. Lorsque vous recherchez une adresse, ce texte de recherche est envoyé au service de géocodage de votre appareil pour être résolu.</string>
     <string name="about_privacy_link">Lire la politique de confidentialité</string>
     <string name="about_no_app_for_link">Aucune application de cet appareil ne peut ouvrir cela.</string>
+    <string name="render_labels_title">Afficher les noms sur la carte</string>
+    <string name="render_labels_summary_on">Les noms de rues et de lieux s\'écrivent sur la carte dessinée lorsque vous zoomez.</string>
+    <string name="render_labels_summary_off">La carte dessinée n\'affiche aucun nom, elle est donc moins chargée.</string>
 </resources>

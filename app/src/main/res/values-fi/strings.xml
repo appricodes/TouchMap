@@ -206,4 +206,7 @@
     <string name="about_privacy_body">Jos otat sen käyttöön Asetuksissa, Navia lähettää kaatumisraportteja Firebase Crashlyticsiin, joka on Googlen palvelu, jotta ongelmat voidaan löytää ja korjata; se on oletuksena pois käytöstä. Sovellus käyttää laitteesi sijaintia kertoakseen, mitä ympärilläsi on; sijaintiasi käytetään laitteessa eikä sitä lähetetä sovelluksen kehittäjälle. Kun haet osoitetta, hakuteksti lähetetään laitteesi geokoodauspalveluun haettavaksi.</string>
     <string name="about_privacy_link">Lue tietosuojakäytäntö</string>
     <string name="about_no_app_for_link">Tässä laitteessa ei ole sovellusta, joka voisi avata sen.</string>
+    <string name="render_labels_title">Näytä nimet kartalla</string>
+    <string name="render_labels_summary_on">Katujen ja paikkojen nimet kirjoitetaan piirretylle kartalle lähennettäessä.</string>
+    <string name="render_labels_summary_off">Piirretty kartta ei näytä nimiä, joten se on väljempi.</string>
 </resources>

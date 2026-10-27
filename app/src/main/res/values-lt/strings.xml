@@ -195,4 +195,7 @@
     <string name="about_privacy_body">Jei tai įjungsite nustatymuose, „Navia“ siunčia strigčių ataskaitas į Firebase Crashlytics, Google paslaugą, kad problemas būtų galima rasti ir ištaisyti; pagal numatytuosius nustatymus ji išjungta. Programėlė naudoja jūsų įrenginio vietovę, kad pasakytų, kas yra aplink jus; jūsų vietovė naudojama įrenginyje ir nesiunčiama programėlės kūrėjui. Kai ieškote adreso, tas paieškos tekstas siunčiamas į jūsų įrenginio geokodavimo paslaugą, kad būtų surastas.</string>
     <string name="about_privacy_link">Skaityti privatumo politiką</string>
     <string name="about_no_app_for_link">Šiame įrenginyje nėra programėlės, kuri galėtų tai atidaryti.</string>
+    <string name="render_labels_title">Rodyti pavadinimus žemėlapyje</string>
+    <string name="render_labels_summary_on">Priartinus gatvių ir vietų pavadinimai rašomi nupieštame žemėlapyje.</string>
+    <string name="render_labels_summary_off">Nupieštas žemėlapis nerodo pavadinimų, todėl jis mažiau perpildytas.</string>
 </resources>

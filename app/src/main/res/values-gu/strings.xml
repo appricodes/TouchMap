@@ -207,4 +207,7 @@
     <string name="about_privacy_body">જો તમે તેને સેટિંગ્સમાં ચાલુ કરો, તો સમસ્યાઓ શોધી અને સુધારી શકાય તે માટે Navia ક્રેશ રિપોર્ટ Google ની સેવા Firebase Crashlytics ને મોકલે છે; તે મૂળભૂત રીતે બંધ હોય છે. તમારી આસપાસ શું છે તે જણાવવા માટે તે તમારા ઉપકરણનું સ્થાન વાપરે છે; તમારું સ્થાન ઉપકરણ પર જ વપરાય છે અને ઍપના ડેવલપરને મોકલવામાં આવતું નથી. જ્યારે તમે સરનામું શોધો છો, ત્યારે તે શોધ લખાણ શોધવા માટે તમારા ઉપકરણની જિયોકોડિંગ સેવાને મોકલવામાં આવે છે.</string>
     <string name="about_privacy_link">ગોપનીયતા નીતિ વાંચો</string>
     <string name="about_no_app_for_link">આ ઉપકરણ પર કોઈ ઍપ તેને ખોલી શકતી નથી.</string>
+    <string name="render_labels_title">નકશા પર નામ બતાવો</string>
+    <string name="render_labels_summary_on">ઝૂમ ઇન કરતી વખતે દોરેલા નકશા પર શેરી અને સ્થળોના નામ લખાય છે.</string>
+    <string name="render_labels_summary_off">દોરેલો નકશો કોઈ નામ બતાવતો નથી, તેથી તે ઓછો ભરચક લાગે છે.</string>
 </resources>

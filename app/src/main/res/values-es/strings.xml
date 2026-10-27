@@ -207,4 +207,7 @@
     <string name="about_privacy_body">Si lo activas en Ajustes, Navia envía informes de fallos a Firebase Crashlytics, un servicio de Google, para que los problemas puedan detectarse y solucionarse; está desactivado de forma predeterminada. Usa la ubicación de tu dispositivo para indicarte qué hay a tu alrededor; tu ubicación se utiliza en el dispositivo y no se envía al desarrollador de la aplicación. Cuando buscas una dirección, ese texto de búsqueda se envía al servicio de geocodificación de tu dispositivo para resolverlo.</string>
     <string name="about_privacy_link">Leer la política de privacidad</string>
     <string name="about_no_app_for_link">Ninguna aplicación de este dispositivo puede abrir eso.</string>
+    <string name="render_labels_title">Mostrar nombres en el mapa</string>
+    <string name="render_labels_summary_on">Los nombres de calles y lugares se escriben en el mapa dibujado al acercar.</string>
+    <string name="render_labels_summary_off">El mapa dibujado no muestra nombres, así que queda menos recargado.</string>
 </resources>

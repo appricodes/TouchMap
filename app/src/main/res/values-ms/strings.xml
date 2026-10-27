@@ -207,4 +207,7 @@
     <string name="about_privacy_body">Jika anda menghidupkannya dalam Tetapan, Navia menghantar laporan ranap ke Firebase Crashlytics, perkhidmatan Google, supaya masalah dapat dikesan dan dibaiki; ia dimatikan secara lalai. Apl ini menggunakan lokasi peranti anda untuk memberitahu apa yang ada di sekeliling anda; lokasi anda digunakan pada peranti dan tidak dihantar kepada pembangun apl. Apabila anda mencari alamat, teks carian itu dihantar ke perkhidmatan geopengekodan peranti anda untuk dicari.</string>
     <string name="about_privacy_link">Baca dasar privasi</string>
     <string name="about_no_app_for_link">Tiada apl pada peranti ini boleh membukanya.</string>
+    <string name="render_labels_title">Tunjukkan nama pada peta</string>
+    <string name="render_labels_summary_on">Nama jalan dan tempat ditulis pada peta yang dilukis apabila dizum masuk.</string>
+    <string name="render_labels_summary_off">Peta yang dilukis tidak menunjukkan nama, jadi ia kurang sesak.</string>
 </resources>

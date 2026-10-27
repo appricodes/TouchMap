@@ -207,4 +207,7 @@
     <string name="about_privacy_body">إذا فعّلته من الإعدادات، يرسل Navia تقارير الأعطال إلى Firebase Crashlytics، وهي خدمة من Google، حتى يمكن العثور على المشكلات وإصلاحها؛ وهو متوقف افتراضيًا. ويستخدم موقع جهازك ليخبرك بما حولك؛ ويُستخدم موقعك على الجهاز ولا يُرسل إلى مطوّر التطبيق. وعند البحث عن عنوان، يُرسل نص البحث إلى خدمة الترميز الجغرافي في جهازك للبحث عنه.</string>
     <string name="about_privacy_link">قراءة سياسة الخصوصية</string>
     <string name="about_no_app_for_link">لا يوجد تطبيق على هذا الجهاز يمكنه فتح ذلك.</string>
+    <string name="render_labels_title">إظهار الأسماء على الخريطة</string>
+    <string name="render_labels_summary_on">تُكتب أسماء الشوارع والأماكن على الخريطة المرسومة عند التكبير.</string>
+    <string name="render_labels_summary_off">لا تعرض الخريطة المرسومة أي أسماء، فتبدو أقل ازدحامًا.</string>
 </resources>

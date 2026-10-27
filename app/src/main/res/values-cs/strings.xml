@@ -206,4 +206,7 @@
     <string name="about_privacy_body">Pokud to zapnete v Nastavení, Navia posílá hlášení pádů do Firebase Crashlytics, služby Googlu, aby bylo možné najít a opravit problémy; ve výchozím stavu je to vypnuto. Používá polohu vašeho zařízení, aby vám řekla, co je kolem vás; vaše poloha se používá v zařízení a neodesílá se vývojáři aplikace. Když hledáte adresu, text hledání se odešle do služby geokódování vašeho zařízení, aby ji vyhledala.</string>
     <string name="about_privacy_link">Přečíst zásady ochrany soukromí</string>
     <string name="about_no_app_for_link">Žádná aplikace v tomto zařízení to nedokáže otevřít.</string>
+    <string name="render_labels_title">Zobrazit názvy na mapě</string>
+    <string name="render_labels_summary_on">Názvy ulic a míst se při přiblížení píší do vykreslené mapy.</string>
+    <string name="render_labels_summary_off">Vykreslená mapa nezobrazuje žádné názvy, takže je méně přeplněná.</string>
 </resources>

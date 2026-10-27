@@ -795,13 +795,14 @@ public class MapActivity extends BaseActivity
 	public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
 		if ("keep_screen_on".equals(key)) {
 			updateKeepScreenOnFlag();
-		} else if ("render_map".equals(key)) {
+		} else if ("render_map".equals(key) || "render_labels".equals(key)) {
 			updateRenderMapFlag();
 		}
 	}
 
 	private void updateRenderMapFlag() {
 		boolean render = sharedPreferences.getBoolean("render_map", false);
+		binding.mapView.setLabelsEnabled(sharedPreferences.getBoolean("render_labels", true));
 		binding.mapView.setRenderEnabled(render);
 	}
 	
