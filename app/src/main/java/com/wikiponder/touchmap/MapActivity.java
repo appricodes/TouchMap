@@ -159,7 +159,30 @@ public class MapActivity extends BaseActivity
 
 		updateKeepScreenOnFlag();
 		updateRenderMapFlag();
-		showTalkBackRequiredNoticeIfFirstRun();
+		showSafetyWarningIfNotAccepted();
+	}
+
+	/** First launch only: a modal, non-cancelable warning that the app's information can be wrong and
+	 * must never replace a cane or guide dog. The app stays unusable behind it until the user accepts;
+	 * the TalkBack notice follows once it is dismissed. Reuses talkBackNoticeShowing so the startup
+	 * download prompt is deferred (not stacked on top) while either dialog is up. */
+	private void showSafetyWarningIfNotAccepted() {
+		if (sharedPreferences.getBoolean("safety_warning_accepted", false)) {
+			showTalkBackRequiredNoticeIfFirstRun();
+			return;
+		}
+		talkBackNoticeShowing = true;
+		new AlertDialog.Builder(this)
+				.setTitle(R.string.safety_warning_title)
+				.setMessage(R.string.safety_warning_message)
+				.setCancelable(false)
+				.setPositiveButton(R.string.safety_warning_accept, (dialog, which) ->
+						sharedPreferences.edit().putBoolean("safety_warning_accepted", true).apply())
+				.setOnDismissListener(dialog -> {
+					talkBackNoticeShowing = false;
+					showTalkBackRequiredNoticeIfFirstRun();
+				})
+				.show();
 	}
 
 	/** Shown once, the very first time the app is opened: explains that this app is built around

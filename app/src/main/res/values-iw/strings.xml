@@ -118,7 +118,7 @@
     <string name="crash_reports_title">שלח דוחות קריסה</string>
     <string name="crash_reports_summary_on">אם האפליקציה קורסת, מידע אבחון (השגיאה, דגם המכשיר, גרסת Android, גרסת האפליקציה) נשלח אל Google Firebase Crashlytics כדי שניתן יהיה לתקן את הבעיה. אפשר לכבות זאת בכל עת.</string>
     <string name="crash_reports_summary_off">כבוי: לא נשלחים דוחות קריסה. הפעל כדי לעזור בתיקון באגים על ידי שליחת מידע על קריסות אל Google Firebase Crashlytics.</string>
-    <string name="render_map_title">הצגת המפה (בטא)</string>
+    <string name="render_map_title">הצגת המפה</string>
     <string name="render_map_summary_on">המפה מוצגת על המסך עבור משתמשים עם ראייה חלשה. הצגה זו ניסיונית ועדיין משתפרת.</string>
     <string name="render_map_summary_off">המפה אינה מוצגת; חקור באמצעות מגע וקול בלבד.</string>
 
@@ -223,4 +223,7 @@
     <string name="share_chooser_title">שיתוף Navia</string>
     <string name="share_subject">Navia – מפה שאפשר לגעת בה</string>
     <string name="share_text">גלו את Navia, מפה שאפשר לגעת בה! החליקו את האצבע על המסך ושמעו את הרחובות, החנויות והמקומות שמתחתיה. נגישה לחלוטין, נבנתה לעיוורים ולכבדי ראייה, ומהנה לכולם. בחינם ב-Google Play: %1$s</string>
+    <string name="safety_warning_title">אזהרת בטיחות חשובה</string>
+    <string name="safety_warning_message">לעולם אל תבססו את תנועתכם על מה שהאפליקציה הזו אומרת. מסיבות טכניות – מגבלות של GPS ושל כלי מדידה אחרים, שגיאות בנתוני המפה ותקלות בתוכנה – המידע שלה עלול להיות שגוי. השתמשו תמיד בשיטות בטוחות כמו מקל לבן או כלב נחיה, והתייחסו לאפליקציה רק כעזר נוסף.</string>
+    <string name="safety_warning_accept">הבנתי ואני מסכים/ה</string>
 </resources>

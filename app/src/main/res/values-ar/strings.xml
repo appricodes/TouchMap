@@ -118,7 +118,7 @@
     <string name="crash_reports_title">إرسال تقارير الأعطال</string>
     <string name="crash_reports_summary_on">إذا تعطل التطبيق، تُرسل معلومات تشخيصية (الخطأ وطراز الجهاز وإصدار Android وإصدار التطبيق) إلى Google Firebase Crashlytics حتى يمكن إصلاح المشكلة. يمكنك إيقاف ذلك في أي وقت.</string>
     <string name="crash_reports_summary_off">متوقف: لا تُرسل أي تقارير أعطال. شغّله للمساعدة في إصلاح الأخطاء بإرسال معلومات الأعطال إلى Google Firebase Crashlytics.</string>
-    <string name="render_map_title">عرض الخريطة (تجريبي)</string>
+    <string name="render_map_title">عرض الخريطة</string>
     <string name="render_map_summary_on">تُرسم الخريطة على الشاشة لضعاف البصر. هذا الرسم تجريبي وما زال قيد التحسين.</string>
     <string name="render_map_summary_off">لا تُرسم الخريطة؛ استكشف باللمس والصوت فقط.</string>
 
@@ -223,4 +223,7 @@
     <string name="share_chooser_title">مشاركة Navia</string>
     <string name="share_subject">Navia – خريطة يمكنك لمسها</string>
     <string name="share_text">اكتشف Navia، خريطة يمكنك لمسها! مرّر إصبعك على الشاشة واسمع الشوارع والمتاجر والأماكن التي تحته مباشرة. يمكن للجميع الوصول إليها، وهي مصممة للمكفوفين وضعاف البصر، وممتعة للجميع. مجاني على Google Play: %1$s</string>
+    <string name="safety_warning_title">تحذير سلامة مهم</string>
+    <string name="safety_warning_message">لا تعتمد أبدًا في تنقلك على ما يقوله هذا التطبيق. لأسباب تقنية، منها حدود نظام GPS وأدوات القياس الأخرى وأخطاء بيانات الخريطة وأعطال البرنامج، قد تكون معلوماته خاطئة. استخدم دائمًا وسائل آمنة مثل العصا البيضاء أو الكلب المرشد، واعتبر هذا التطبيق وسيلة مساعدة إضافية فقط.</string>
+    <string name="safety_warning_accept">فهمت وأوافق</string>
 </resources>

@@ -114,7 +114,7 @@
     <string name="crash_reports_title">Odosielať hlásenia o zlyhaniach</string>
     <string name="crash_reports_summary_on">Ak aplikácia zlyhá, diagnostické informácie (chyba, model zariadenia, verzia Androidu, verzia aplikácie) sa odošlú do Google Firebase Crashlytics, aby bolo možné problém opraviť. Môžete to kedykoľvek vypnúť.</string>
     <string name="crash_reports_summary_off">Vypnuté: neodosielajú sa žiadne hlásenia o zlyhaniach. Zapnite, aby ste pomohli opraviť chyby odosielaním informácií o zlyhaniach do Google Firebase Crashlytics.</string>
-    <string name="render_map_title">Zobraziť mapu (Beta)</string>
+    <string name="render_map_title">Zobraziť mapu</string>
     <string name="render_map_summary_on">Mapa sa vykresľuje na obrazovke pre slabozrakých používateľov. Toto vykresľovanie je experimentálne a stále sa vylepšuje.</string>
     <string name="render_map_summary_off">Mapa sa nevykresľuje; skúmajte iba dotykom a zvukom.</string>
 
@@ -211,4 +211,7 @@
     <string name="share_chooser_title">Zdieľať Navia</string>
     <string name="share_subject">Navia – mapa, ktorej sa môžete dotknúť</string>
     <string name="share_text">Objavte Navia, mapu, ktorej sa môžete dotknúť! Prechádzajte prstom po obrazovke a počúvajte ulice, obchody a miesta priamo pod ním. Plne prístupná, vytvorená pre nevidiacich a slabozrakých a užitočná pre všetkých. Zadarmo v Google Play: %1$s</string>
+    <string name="safety_warning_title">Dôležité bezpečnostné upozornenie</string>
+    <string name="safety_warning_message">Nikdy sa pri pohybe nespoliehajte na to, čo hovorí táto aplikácia. Z technických dôvodov – kvôli obmedzeniam GPS a ďalších meracích nástrojov, chybám v mapových údajoch a chybám softvéru – môžu byť jej informácie nesprávne. Vždy používajte bezpečné metódy, napríklad bielu palicu alebo vodiaceho psa, a túto aplikáciu berte len ako doplnkovú pomôcku.</string>
+    <string name="safety_warning_accept">Rozumiem a súhlasím</string>
 </resources>

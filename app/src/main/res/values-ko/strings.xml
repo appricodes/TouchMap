@@ -114,7 +114,7 @@
     <string name="crash_reports_title">비정상 종료 보고서 보내기</string>
     <string name="crash_reports_summary_on">앱이 비정상 종료되면 진단 정보(오류, 기기 모델, Android 버전, 앱 버전)가 문제를 해결할 수 있도록 Google Firebase Crashlytics로 전송됩니다. 언제든지 끌 수 있습니다.</string>
     <string name="crash_reports_summary_off">꺼짐: 비정상 종료 보고서가 전송되지 않습니다. 비정상 종료 정보를 Google Firebase Crashlytics로 보내 버그 수정에 도움을 주려면 켜세요.</string>
-    <string name="render_map_title">지도 표시(베타)</string>
+    <string name="render_map_title">지도 표시</string>
     <string name="render_map_summary_on">저시력 사용자를 위해 지도를 화면에 그립니다. 이 기능은 실험적이며 계속 개선 중입니다.</string>
     <string name="render_map_summary_off">지도가 그려지지 않으며, 터치와 소리만으로 탐색합니다.</string>
 
@@ -211,4 +211,7 @@
     <string name="share_chooser_title">Navia 공유</string>
     <string name="share_subject">Navia – 만져서 보는 지도</string>
     <string name="share_text">만질 수 있는 지도 Navia를 만나 보세요! 화면 위에서 손가락을 움직이면 바로 아래에 있는 거리, 상점, 장소를 소리로 들을 수 있습니다. 완전한 접근성을 갖췄고, 시각장애인과 저시력자를 위해 만들어졌으며, 누구에게나 유용합니다. Google Play에서 무료: %1$s</string>
+    <string name="safety_warning_title">중요한 안전 경고</string>
+    <string name="safety_warning_message">이 앱이 알려 주는 내용을 이동의 근거로 삼지 마세요. GPS와 기타 측정 장비의 한계, 지도 데이터 오류, 소프트웨어 결함 등 기술적인 이유로 정보가 틀릴 수 있습니다. 항상 흰 지팡이나 안내견 같은 안전한 방법을 사용하고, 이 앱은 보조 수단으로만 활용하세요.</string>
+    <string name="safety_warning_accept">이해했으며 동의합니다</string>
 </resources>

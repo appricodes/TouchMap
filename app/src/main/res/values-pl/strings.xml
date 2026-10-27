@@ -118,7 +118,7 @@
     <string name="crash_reports_title">Wysyłaj raporty o awariach</string>
     <string name="crash_reports_summary_on">Jeśli aplikacja ulegnie awarii, informacje diagnostyczne (błąd, model urządzenia, wersja Androida, wersja aplikacji) są wysyłane do Google Firebase Crashlytics, aby można było naprawić problem. Możesz to wyłączyć w dowolnym momencie.</string>
     <string name="crash_reports_summary_off">Wyłączone: raporty o awariach nie są wysyłane. Włącz, aby pomóc w naprawianiu błędów, wysyłając informacje o awariach do Google Firebase Crashlytics.</string>
-    <string name="render_map_title">Pokaż mapę (Beta)</string>
+    <string name="render_map_title">Pokaż mapę</string>
     <string name="render_map_summary_on">Mapa jest rysowana na ekranie dla osób słabowidzących. Ta funkcja jest eksperymentalna i wciąż udoskonalana.</string>
     <string name="render_map_summary_off">Mapa nie jest rysowana; eksploruj wyłącznie dotykiem i dźwiękiem.</string>
 
@@ -223,4 +223,7 @@
     <string name="share_chooser_title">Udostępnij Navia</string>
     <string name="share_subject">Navia – mapa, której możesz dotknąć</string>
     <string name="share_text">Poznaj Navia, mapę, której możesz dotknąć! Przesuwaj palcem po ekranie i słuchaj ulic, sklepów i miejsc tuż pod nim. W pełni dostępna, stworzona dla osób niewidomych i słabowidzących, a przy tym przydatna dla wszystkich. Za darmo w Google Play: %1$s</string>
+    <string name="safety_warning_title">Ważne ostrzeżenie dotyczące bezpieczeństwa</string>
+    <string name="safety_warning_message">Nigdy nie opieraj swojego poruszania się na tym, co mówi ta aplikacja. Z przyczyn technicznych – ograniczeń GPS i innych narzędzi pomiarowych, błędów w danych mapy i usterek oprogramowania – jej informacje mogą być błędne. Zawsze korzystaj z bezpiecznych metod, takich jak biała laska lub pies przewodnik, a tę aplikację traktuj wyłącznie jako dodatkową pomoc.</string>
+    <string name="safety_warning_accept">Rozumiem i akceptuję</string>
 </resources>

@@ -114,7 +114,7 @@
     <string name="crash_reports_title">クラッシュレポートを送信</string>
     <string name="crash_reports_summary_on">アプリがクラッシュした場合、問題を修正できるよう、診断情報（エラー、端末モデル、Android バージョン、アプリのバージョン）が Google Firebase Crashlytics に送信されます。これはいつでもオフにできます。</string>
     <string name="crash_reports_summary_off">オフ：クラッシュレポートは送信されません。クラッシュ情報を Google Firebase Crashlytics に送信してバグ修正に協力するには、オンにしてください。</string>
-    <string name="render_map_title">地図を表示する（ベータ版）</string>
+    <string name="render_map_title">地図を表示する</string>
     <string name="render_map_summary_on">ロービジョンの方向けに地図を画面に描画します。この描画機能は実験段階で、現在も改善中です。</string>
     <string name="render_map_summary_off">地図は描画されません。タッチとサウンドのみで探索します。</string>
 
@@ -211,4 +211,7 @@
     <string name="share_chooser_title">Naviaを共有</string>
     <string name="share_subject">Navia – 触れる地図</string>
     <string name="share_text">触れる地図「Navia」をご紹介します！画面の上で指をすべらせると、そのすぐ下にある道路、お店、場所が音声でわかります。完全にアクセシブルで、視覚障害・ロービジョンの方のために作られ、誰にとっても楽しいアプリです。Google Playで無料：%1$s</string>
+    <string name="safety_warning_title">安全に関する重要な警告</string>
+    <string name="safety_warning_message">このアプリの案内だけを頼りに移動しないでください。GPSやその他の測定機器の限界、地図データの誤り、ソフトウェアの不具合など技術的な理由により、情報が正しくない場合があります。必ず白杖や盲導犬など安全な方法を使い、このアプリはあくまで補助的な手段としてご利用ください。</string>
+    <string name="safety_warning_accept">理解し、同意します</string>
 </resources>

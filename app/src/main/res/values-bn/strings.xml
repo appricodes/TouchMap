@@ -118,7 +118,7 @@
     <string name="crash_reports_title">ক্র্যাশ রিপোর্ট পাঠান</string>
     <string name="crash_reports_summary_on">অ্যাপ ক্র্যাশ করলে ডায়াগনস্টিক তথ্য (ত্রুটি, ডিভাইসের মডেল, Android সংস্করণ, অ্যাপের সংস্করণ) Google Firebase Crashlytics-এ পাঠানো হয়, যাতে সমস্যাটি সমাধান করা যায়। আপনি যেকোনো সময় এটি বন্ধ করতে পারেন।</string>
     <string name="crash_reports_summary_off">বন্ধ: কোনো ক্র্যাশ রিপোর্ট পাঠানো হয় না। Google Firebase Crashlytics-এ ক্র্যাশের তথ্য পাঠিয়ে বাগ ঠিক করতে সহায়তা করতে চালু করুন।</string>
-    <string name="render_map_title">মানচিত্র দেখান (বিটা)</string>
+    <string name="render_map_title">মানচিত্র দেখান</string>
     <string name="render_map_summary_on">কম দৃষ্টিসম্পন্ন ব্যবহারকারীদের জন্য মানচিত্রটি স্ক্রিনে আঁকা হয়। এই অঙ্কন পরীক্ষামূলক এবং এখনও উন্নত হচ্ছে।</string>
     <string name="render_map_summary_off">মানচিত্র আঁকা হয় না; শুধুমাত্র স্পর্শ ও শব্দের মাধ্যমে অন্বেষণ করুন।</string>
 
@@ -223,4 +223,7 @@
     <string name="share_chooser_title">Navia শেয়ার করুন</string>
     <string name="share_subject">Navia – স্পর্শ করা যায় এমন মানচিত্র</string>
     <string name="share_text">Navia আবিষ্কার করুন, স্পর্শ করা যায় এমন একটি মানচিত্র! পর্দার ওপর আঙুল সরান এবং ঠিক নিচের রাস্তা, দোকান ও জায়গাগুলোর কথা শুনুন। সম্পূর্ণ অ্যাক্সেসযোগ্য, অন্ধ ও কম দৃষ্টিশক্তির মানুষের জন্য তৈরি, এবং সবার জন্য মজাদার। Google Play-তে বিনামূল্যে: %1$s</string>
+    <string name="safety_warning_title">গুরুত্বপূর্ণ নিরাপত্তা সতর্কতা</string>
+    <string name="safety_warning_message">এই অ্যাপ যা বলে, তার ওপর ভিত্তি করে কখনোই চলাচল করবেন না। প্রযুক্তিগত কারণে – জিপিএস ও অন্যান্য পরিমাপ যন্ত্রের সীমাবদ্ধতা, মানচিত্রের তথ্যের ভুল এবং সফটওয়্যারের ত্রুটির কারণে – এর তথ্য ভুল হতে পারে। সবসময় সাদা ছড়ি বা গাইড কুকুরের মতো নিরাপদ পদ্ধতি ব্যবহার করুন এবং এই অ্যাপকে শুধু অতিরিক্ত সহায়ক হিসেবে দেখুন।</string>
+    <string name="safety_warning_accept">আমি বুঝেছি এবং মেনে নিচ্ছি</string>
 </resources>

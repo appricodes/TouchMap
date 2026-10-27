@@ -118,7 +118,7 @@
     <string name="crash_reports_title">Kilitlenme raporlarını gönder</string>
     <string name="crash_reports_summary_on">Uygulama kilitlenirse tanılama bilgileri (hata, cihaz modeli, Android sürümü, uygulama sürümü) sorunun düzeltilebilmesi için Google Firebase Crashlytics\'e gönderilir. Bunu istediğiniz zaman kapatabilirsiniz.</string>
     <string name="crash_reports_summary_off">Kapalı: kilitlenme raporu gönderilmez. Kilitlenme bilgilerini Google Firebase Crashlytics\'e göndererek hataların düzeltilmesine yardımcı olmak için açın.</string>
-    <string name="render_map_title">Haritayı göster (Beta)</string>
+    <string name="render_map_title">Haritayı göster</string>
     <string name="render_map_summary_on">Az gören kullanıcılar için harita ekranda çizilir. Bu çizim deneyseldir ve geliştirilmeye devam ediyor.</string>
     <string name="render_map_summary_off">Harita çizilmez; yalnızca dokunma ve ses ile keşfedin.</string>
 
@@ -223,4 +223,7 @@
     <string name="share_chooser_title">Navia\'yı paylaş</string>
     <string name="share_subject">Navia – dokunabileceğiniz bir harita</string>
     <string name="share_text">Dokunabileceğiniz bir harita olan Navia\'yı keşfedin! Parmağınızı ekranda gezdirin ve hemen altındaki sokakları, dükkânları ve yerleri dinleyin. Tamamen erişilebilir, görme engelliler ve az görenler için tasarlandı, herkes için eğlenceli. Google Play\'de ücretsiz: %1$s</string>
+    <string name="safety_warning_title">Önemli güvenlik uyarısı</string>
+    <string name="safety_warning_message">Hareketlerinizi asla bu uygulamanın söylediklerine dayandırmayın. GPS ve diğer ölçüm araçlarının sınırlamaları, harita verisi hataları ve yazılım arızaları gibi teknik nedenlerle bilgiler yanlış olabilir. Her zaman beyaz baston veya rehber köpek gibi güvenli yöntemleri kullanın ve bu uygulamayı yalnızca ek bir yardımcı olarak görün.</string>
+    <string name="safety_warning_accept">Anladım ve kabul ediyorum</string>
 </resources>

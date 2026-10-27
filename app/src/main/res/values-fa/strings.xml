@@ -118,7 +118,7 @@
     <string name="crash_reports_title">ارسال گزارش خرابی</string>
     <string name="crash_reports_summary_on">اگر برنامه خراب شود، اطلاعات تشخیصی (خطا، مدل دستگاه، نسخهٔ Android، نسخهٔ برنامه) به Google Firebase Crashlytics ارسال می‌شود تا مشکل برطرف شود. هر زمان که بخواهید می‌توانید آن را خاموش کنید.</string>
     <string name="crash_reports_summary_off">خاموش: هیچ گزارش خرابی ارسال نمی‌شود. برای کمک به رفع اشکالات با ارسال اطلاعات خرابی به Google Firebase Crashlytics، آن را روشن کنید.</string>
-    <string name="render_map_title">نمایش نقشه (بتا)</string>
+    <string name="render_map_title">نمایش نقشه</string>
     <string name="render_map_summary_on">نقشه برای کاربران کم‌بینا روی صفحه رسم می‌شود. این ترسیم آزمایشی است و همچنان در حال بهبود است.</string>
     <string name="render_map_summary_off">نقشه رسم نمی‌شود؛ فقط از طریق لمس و صدا کاوش کنید.</string>
 
@@ -223,4 +223,7 @@
     <string name="share_chooser_title">اشتراک‌گذاری Navia</string>
     <string name="share_subject">Navia – نقشه‌ای که می‌توانید لمس کنید</string>
     <string name="share_text">Navia را کشف کنید، نقشه‌ای که می‌توانید لمس کنید! انگشتتان را روی صفحه بکشید و خیابان‌ها، مغازه‌ها و مکان‌های زیر آن را بشنوید. کاملاً در دسترس، ساخته‌شده برای نابینایان و کم‌بینایان و جذاب برای همه. رایگان در Google Play: %1$s</string>
+    <string name="safety_warning_title">هشدار ایمنی مهم</string>
+    <string name="safety_warning_message">هرگز حرکت خود را بر اساس آنچه این برنامه می‌گوید قرار ندهید. به دلایل فنی، از جمله محدودیت‌های جی‌پی‌اس و ابزارهای اندازه‌گیری دیگر، خطاهای داده‌های نقشه و اشکالات نرم‌افزاری، ممکن است اطلاعات آن اشتباه باشد. همیشه از روش‌های امن مانند عصای سفید یا سگ راهنما استفاده کنید و این برنامه را فقط یک کمک اضافی بدانید.</string>
+    <string name="safety_warning_accept">فهمیدم و قبول دارم</string>
 </resources>

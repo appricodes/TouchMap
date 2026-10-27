@@ -117,7 +117,7 @@
     <string name="crash_reports_title">Stuur ineenstortingsverslae</string>
     <string name="crash_reports_summary_on">As die toepassing ineenstort, word diagnostiese inligting (die fout, toestelmodel, Android-weergawe, toepassingweergawe) na Google Firebase Crashlytics gestuur sodat die probleem reggemaak kan word. Jy kan dit enige tyd afskakel.</string>
     <string name="crash_reports_summary_off">Af: geen ineenstortingsverslae word gestuur nie. Skakel aan om te help om foute reg te maak deur ineenstortingsinligting na Google Firebase Crashlytics te stuur.</string>
-    <string name="render_map_title">Wys die kaart (Beta)</string>
+    <string name="render_map_title">Wys die kaart</string>
     <string name="render_map_summary_on">Die kaart word op die skerm geteken vir gebruikers met lae visie. Hierdie tekening is eksperimenteel en word steeds verbeter.</string>
     <string name="render_map_summary_off">Die kaart word nie geteken nie; verken slegs deur aanraking en klank.</string>
 
@@ -222,4 +222,7 @@
     <string name="share_chooser_title">Deel Navia</string>
     <string name="share_subject">Navia – \'n kaart wat jy kan aanraak</string>
     <string name="share_text">Ontdek Navia, \'n kaart wat jy kan aanraak! Gly jou vinger oor die skerm en hoor die strate, winkels en plekke net onder dit. Heeltemal toeganklik en gebou vir blinde en swaksiende mense, en pret vir almal. Gratis op Google Play: %1$s</string>
+    <string name="safety_warning_title">Belangrike veiligheidswaarskuwing</string>
+    <string name="safety_warning_message">Moet nooit jou beweging baseer op wat hierdie toepassing sê nie. Weens tegniese redes – die beperkings van GPS en ander meetinstrumente, kaartdatafoute en sagtewarefoute – kan die inligting verkeerd wees. Gebruik altyd veilige metodes soos \'n wit stok of \'n gidshond, en beskou hierdie toepassing slegs as \'n ekstra hulpmiddel.</string>
+    <string name="safety_warning_accept">Ek verstaan en aanvaar</string>
 </resources>

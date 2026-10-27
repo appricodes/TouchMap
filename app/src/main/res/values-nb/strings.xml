@@ -114,7 +114,7 @@
     <string name="crash_reports_title">Send krasjrapporter</string>
     <string name="crash_reports_summary_on">Hvis appen krasjer, sendes diagnostikkinformasjon (feilen, enhetsmodell, Android-versjon, appversjon) til Google Firebase Crashlytics slik at problemet kan rettes. Du kan slå av dette når som helst.</string>
     <string name="crash_reports_summary_off">Av: ingen krasjrapporter sendes. Slå på for å hjelpe til med å rette feil ved å sende krasjinformasjon til Google Firebase Crashlytics.</string>
-    <string name="render_map_title">Vis kartet (Beta)</string>
+    <string name="render_map_title">Vis kartet</string>
     <string name="render_map_summary_on">Kartet tegnes på skjermen for svaksynte. Denne tegningen er eksperimentell og under forbedring.</string>
     <string name="render_map_summary_off">Kartet tegnes ikke; utforsk kun med berøring og lyd.</string>
 
@@ -211,4 +211,7 @@
     <string name="share_chooser_title">Del Navia</string>
     <string name="share_subject">Navia – et kart du kan ta på</string>
     <string name="share_text">Oppdag Navia, et kart du kan ta på! Før fingeren over skjermen og hør gatene, butikkene og stedene rett under den. Fullt tilgjengelig, laget for blinde og svaksynte, og morsomt for alle. Gratis på Google Play: %1$s</string>
+    <string name="safety_warning_title">Viktig sikkerhetsadvarsel</string>
+    <string name="safety_warning_message">Ikke la bevegelsene dine bygge på det denne appen sier. Av tekniske årsaker – begrensninger i GPS og andre måleinstrumenter, feil i kartdata og programvarefeil – kan informasjonen være feil. Bruk alltid trygge metoder som hvit stokk eller førerhund, og se på denne appen bare som en ekstra hjelp.</string>
+    <string name="safety_warning_accept">Jeg forstår og godtar</string>
 </resources>

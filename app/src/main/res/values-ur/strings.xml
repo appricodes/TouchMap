@@ -118,7 +118,7 @@
     <string name="crash_reports_title">کریش رپورٹس بھیجیں</string>
     <string name="crash_reports_summary_on">اگر ایپ کریش ہو جائے تو تشخیصی معلومات (خرابی، آلے کا ماڈل، Android ورژن، ایپ ورژن) Google Firebase Crashlytics کو بھیجی جاتی ہیں تاکہ مسئلہ حل کیا جا سکے۔ آپ اسے کسی بھی وقت بند کر سکتے ہیں۔</string>
     <string name="crash_reports_summary_off">بند: کوئی کریش رپورٹ نہیں بھیجی جاتی۔ کریش کی معلومات Google Firebase Crashlytics کو بھیج کر بگز ٹھیک کرنے میں مدد کے لیے اسے آن کریں۔</string>
-    <string name="render_map_title">نقشہ دکھائیں (بیٹا)</string>
+    <string name="render_map_title">نقشہ دکھائیں</string>
     <string name="render_map_summary_on">کم بینائی والے صارفین کے لیے نقشہ اسکرین پر بنایا جاتا ہے۔ یہ ڈرائنگ تجرباتی ہے اور اب بھی بہتر ہو رہی ہے۔</string>
     <string name="render_map_summary_off">نقشہ نہیں بنایا جاتا؛ صرف چھونے اور آواز کے ذریعے دریافت کریں۔</string>
 
@@ -223,4 +223,7 @@
     <string name="share_chooser_title">Navia شیئر کریں</string>
     <string name="share_subject">Navia – چھو کر دیکھنے والا نقشہ</string>
     <string name="share_text">Navia دریافت کریں، ایک ایسا نقشہ جسے آپ چھو سکتے ہیں! اسکرین پر انگلی پھیریں اور اس کے عین نیچے موجود سڑکیں، دکانیں اور جگہیں سنیں۔ مکمل طور پر قابلِ رسائی، نابینا اور کم بینائی والے افراد کے لیے بنایا گیا، اور سب کے لیے دلچسپ۔ Google Play پر مفت: %1$s</string>
+    <string name="safety_warning_title">حفاظت سے متعلق اہم انتباہ</string>
+    <string name="safety_warning_message">اپنی نقل و حرکت کی بنیاد کبھی اس ایپ کی باتوں پر نہ رکھیں۔ تکنیکی وجوہات کی بنا پر، جیسے جی پی ایس اور دیگر پیمائشی آلات کی حدود، نقشے کے ڈیٹا کی غلطیاں اور سافٹ ویئر کی خرابیاں، اس کی معلومات غلط ہو سکتی ہیں۔ ہمیشہ محفوظ طریقے استعمال کریں جیسے سفید چھڑی یا رہنما کتا، اور اس ایپ کو صرف اضافی مدد سمجھیں۔</string>
+    <string name="safety_warning_accept">میں سمجھ گیا/گئی اور قبول کرتا/کرتی ہوں</string>
 </resources>

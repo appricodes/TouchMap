@@ -118,7 +118,7 @@
     <string name="crash_reports_title">Envoyer les rapports de plantage</string>
     <string name="crash_reports_summary_on">Si l\'application plante, des informations de diagnostic (l\'erreur, le modèle de l\'appareil, la version d\'Android et la version de l\'application) sont envoyées à Google Firebase Crashlytics afin de corriger le problème. Vous pouvez le désactiver à tout moment.</string>
     <string name="crash_reports_summary_off">Désactivé : aucun rapport de plantage n\'est envoyé. Activez cette option pour aider à corriger les bugs en envoyant des informations de plantage à Google Firebase Crashlytics.</string>
-    <string name="render_map_title">Afficher la carte (Bêta)</string>
+    <string name="render_map_title">Afficher la carte</string>
     <string name="render_map_summary_on">La carte est dessinée à l\'écran pour les personnes malvoyantes. Cet affichage est expérimental et continue d\'être amélioré.</string>
     <string name="render_map_summary_off">La carte n\'est pas dessinée ; explorez uniquement par le toucher et le son.</string>
 
@@ -223,4 +223,7 @@
     <string name="share_chooser_title">Partager Navia</string>
     <string name="share_subject">Navia – une carte que l\'on peut toucher</string>
     <string name="share_text">Découvrez Navia, une carte que l\'on peut toucher ! Faites glisser votre doigt sur l\'écran et écoutez les rues, les commerces et les lieux juste en dessous. Entièrement accessible, conçue pour les personnes aveugles et malvoyantes, et agréable pour tous. Gratuit sur Google Play : %1$s</string>
+    <string name="safety_warning_title">Avertissement de sécurité important</string>
+    <string name="safety_warning_message">Ne basez jamais vos déplacements sur ce que dit cette application. Pour des raisons techniques – limites du GPS et des autres instruments de mesure, erreurs dans les données cartographiques et défauts du logiciel – ses informations peuvent être erronées. Utilisez toujours des méthodes sûres, comme la canne blanche ou un chien guide, et ne voyez cette application que comme une aide supplémentaire.</string>
+    <string name="safety_warning_accept">J\'ai compris et j\'accepte</string>
 </resources>

@@ -118,7 +118,7 @@
     <string name="crash_reports_title">Invia segnalazioni di arresto anomalo</string>
     <string name="crash_reports_summary_on">Se l\'app si arresta in modo anomalo, le informazioni diagnostiche (l\'errore, il modello del dispositivo, la versione di Android, la versione dell\'app) vengono inviate a Google Firebase Crashlytics per poter risolvere il problema. Puoi disattivarlo in qualsiasi momento.</string>
     <string name="crash_reports_summary_off">Disattivato: non viene inviata alcuna segnalazione di arresto anomalo. Attivalo per aiutare a correggere i bug inviando informazioni sugli arresti anomali a Google Firebase Crashlytics.</string>
-    <string name="render_map_title">Mostra la mappa (Beta)</string>
+    <string name="render_map_title">Mostra la mappa</string>
     <string name="render_map_summary_on">La mappa viene disegnata sullo schermo per gli utenti ipovedenti. Questa visualizzazione è sperimentale e in continuo miglioramento.</string>
     <string name="render_map_summary_off">La mappa non viene disegnata; esplora solo con il tocco e i suoni.</string>
 
@@ -223,4 +223,7 @@
     <string name="share_chooser_title">Condividi Navia</string>
     <string name="share_subject">Navia – una mappa che puoi toccare</string>
     <string name="share_text">Scopri Navia, una mappa che puoi toccare! Fai scorrere il dito sullo schermo e ascolta le strade, i negozi e i luoghi proprio sotto di esso. Completamente accessibile, pensata per persone cieche e ipovedenti e utile a tutti. Gratis su Google Play: %1$s</string>
+    <string name="safety_warning_title">Avviso di sicurezza importante</string>
+    <string name="safety_warning_message">Non basare mai i tuoi spostamenti su ciò che dice questa app. Per motivi tecnici – i limiti del GPS e di altri strumenti di misura, errori nei dati della mappa e difetti del software – le sue informazioni potrebbero essere sbagliate. Usa sempre metodi sicuri, come il bastone bianco o un cane guida, e considera questa app solo un aiuto in più.</string>
+    <string name="safety_warning_accept">Ho capito e accetto</string>
 </resources>

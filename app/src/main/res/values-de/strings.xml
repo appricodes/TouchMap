@@ -118,7 +118,7 @@
     <string name="crash_reports_title">Absturzberichte senden</string>
     <string name="crash_reports_summary_on">Wenn die App abstürzt, werden Diagnoseinformationen (der Fehler, Gerätemodell, Android-Version, App-Version) an Google Firebase Crashlytics gesendet, damit das Problem behoben werden kann. Du kannst das jederzeit ausschalten.</string>
     <string name="crash_reports_summary_off">Aus: Es werden keine Absturzberichte gesendet. Schalte es ein, um bei der Fehlerbehebung zu helfen, indem Absturzinformationen an Google Firebase Crashlytics gesendet werden.</string>
-    <string name="render_map_title">Karte anzeigen (Beta)</string>
+    <string name="render_map_title">Karte anzeigen</string>
     <string name="render_map_summary_on">Die Karte wird für sehbehinderte Nutzer auf dem Bildschirm dargestellt. Diese Darstellung ist experimentell und wird noch verbessert.</string>
     <string name="render_map_summary_off">Die Karte wird nicht dargestellt; erkunde nur durch Berührung und Ton.</string>
 
@@ -223,4 +223,7 @@
     <string name="share_chooser_title">Navia teilen</string>
     <string name="share_subject">Navia – eine Karte zum Anfassen</string>
     <string name="share_text">Entdecke Navia, eine Karte zum Anfassen! Streiche mit dem Finger über den Bildschirm und höre die Straßen, Geschäfte und Orte direkt darunter. Vollständig barrierefrei, für blinde und sehbehinderte Menschen gemacht und für alle ein Gewinn. Kostenlos bei Google Play: %1$s</string>
+    <string name="safety_warning_title">Wichtiger Sicherheitshinweis</string>
+    <string name="safety_warning_message">Richte deine Fortbewegung niemals nach dem, was diese App sagt. Aus technischen Gründen – Grenzen von GPS und anderen Messgeräten, Fehler in den Kartendaten und Softwarefehler – können ihre Angaben falsch sein. Nutze immer sichere Methoden wie den Blindenstock oder einen Blindenführhund und betrachte diese App nur als zusätzliche Hilfe.</string>
+    <string name="safety_warning_accept">Verstanden und akzeptiert</string>
 </resources>

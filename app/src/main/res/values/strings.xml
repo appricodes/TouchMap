@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Navia</string>
     <string name="action_settings">Settings</string>
+    <string name="safety_warning_title">Important safety warning</string>
+    <string name="safety_warning_message">Never base your movement on what this app says. For technical reasons – limits of GPS and other measuring tools, map data errors and software faults – its information may be wrong. Always use safe methods such as a white cane or a guide dog, and treat this app only as an extra aid.</string>
+    <string name="safety_warning_accept">I understand and accept</string>
     <string name="talkback_required_title">TalkBack required</string>
     <string name="talkback_required_message">This app is designed to work with TalkBack, and TalkBack must be turned on for the app to work correctly. After downloading the map for your area, touch and move your finger on the screen to explore the streets and points around you.</string>
     <string name="talkback_required_open_settings">Open Accessibility Settings</string>
@@ -126,7 +129,7 @@
     <string name="crash_reports_title">Send crash reports</string>
     <string name="crash_reports_summary_on">If the app crashes, diagnostic information (the error, device model, Android version, app version) is sent to Google Firebase Crashlytics so the problem can be fixed. You can turn this off at any time.</string>
     <string name="crash_reports_summary_off">Off: no crash reports are sent. Turn on to help fix bugs by sending crash information to Google Firebase Crashlytics.</string>
-    <string name="render_map_title">Show the map (Beta)</string>
+    <string name="render_map_title">Show the map</string>
     <string name="render_map_summary_on">The map is drawn on screen for low-vision users. This drawing is experimental and still improving.</string>
     <string name="render_map_summary_off">The map is not drawn; explore by touch and sound only.</string>
     <string name="menu_share">Share Navia</string>

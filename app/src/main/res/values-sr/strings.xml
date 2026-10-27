@@ -114,7 +114,7 @@
     <string name="crash_reports_title">Слање извештаја о падовима</string>
     <string name="crash_reports_summary_on">Ако апликација падне, дијагностичке информације (грешка, модел уређаја, верзија Android-а, верзија апликације) шаљу се у Google Firebase Crashlytics како би проблем могао да се исправи. Ово можете да искључите у било ком тренутку.</string>
     <string name="crash_reports_summary_off">Искључено: извештаји о падовима се не шаљу. Укључите да бисте помогли у исправљању грешака слањем информација о падовима у Google Firebase Crashlytics.</string>
-    <string name="render_map_title">Прикажи мапу (Бета)</string>
+    <string name="render_map_title">Прикажи мапу</string>
     <string name="render_map_summary_on">Мапа се исцртава на екрану за слабовиде кориснике. Ово исцртавање је експериментално и још увек се побољшава.</string>
     <string name="render_map_summary_off">Мапа се не исцртава; истражујте само додиром и звуком.</string>
 
@@ -211,4 +211,7 @@
     <string name="share_chooser_title">Подели Navia</string>
     <string name="share_subject">Navia – мапа коју можете да додирнете</string>
     <string name="share_text">Откријте Navia, мапу коју можете да додирнете! Превуците прстом по екрану и чујте улице, продавнице и места тачно испод њега. Потпуно приступачна, направљена за слепе и слабовиде особе, а корисна свима. Бесплатно на Google Play-у: %1$s</string>
+    <string name="safety_warning_title">Важно безбедносно упозорење</string>
+    <string name="safety_warning_message">Никада не заснивајте своје кретање на ономе што каже ова апликација. Из техничких разлога – ограничења GPS-а и других мерних уређаја, грешака у подацима мапе и софтверских грешака – њене информације могу бити нетачне. Увек користите безбедне методе, као што су бели штап или пас водич, а ову апликацију сматрајте само додатном помоћи.</string>
+    <string name="safety_warning_accept">Разумем и прихватам</string>
 </resources>

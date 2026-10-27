@@ -118,7 +118,7 @@
     <string name="crash_reports_title">ક્રેશ રિપોર્ટ મોકલો</string>
     <string name="crash_reports_summary_on">જો એપ ક્રેશ થાય, તો સમસ્યા સુધારી શકાય તે માટે ડાયગ્નોસ્ટિક માહિતી (ભૂલ, ઉપકરણ મોડેલ, Android સંસ્કરણ, એપ સંસ્કરણ) Google Firebase Crashlytics ને મોકલવામાં આવે છે. તમે તેને ગમે ત્યારે બંધ કરી શકો છો.</string>
     <string name="crash_reports_summary_off">બંધ: કોઈ ક્રેશ રિપોર્ટ મોકલવામાં આવતા નથી. ક્રેશની માહિતી Google Firebase Crashlytics ને મોકલીને બગ સુધારવામાં મદદ કરવા માટે ચાલુ કરો.</string>
-    <string name="render_map_title">નકશો બતાવો (બીટા)</string>
+    <string name="render_map_title">નકશો બતાવો</string>
     <string name="render_map_summary_on">ઓછી દ્રષ્ટિ ધરાવતા વપરાશકર્તાઓ માટે નકશો સ્ક્રીન પર દોરવામાં આવે છે. આ ડ્રોઈંગ પ્રાયોગિક છે અને હજુ સુધરી રહ્યું છે.</string>
     <string name="render_map_summary_off">નકશો દોરવામાં આવતો નથી; ફક્ત સ્પર્શ અને અવાજ દ્વારા શોધખોળ કરો.</string>
 
@@ -223,4 +223,7 @@
     <string name="share_chooser_title">Navia શેર કરો</string>
     <string name="share_subject">Navia – સ્પર્શ કરી શકાય તેવો નકશો</string>
     <string name="share_text">Navia શોધો, સ્પર્શ કરી શકાય તેવો નકશો! સ્ક્રીન પર આંગળી ફેરવો અને તેની નીચેની શેરીઓ, દુકાનો અને સ્થળો સાંભળો. સંપૂર્ણપણે સુલભ, અંધ અને ઓછી દૃષ્ટિ ધરાવતા લોકો માટે બનાવેલ, અને બધા માટે મજેદાર. Google Play પર મફત: %1$s</string>
+    <string name="safety_warning_title">મહત્વપૂર્ણ સુરક્ષા ચેતવણી</string>
+    <string name="safety_warning_message">આ એપ જે કહે તેના આધારે ક્યારેય તમારી હિલચાલ ન કરો. તકનીકી કારણોસર – GPS અને અન્ય માપન સાધનોની મર્યાદાઓ, નકશાના ડેટાની ભૂલો અને સોફ્ટવેરની ખામીઓને કારણે – તેની માહિતી ખોટી હોઈ શકે છે. હંમેશા સફેદ લાકડી અથવા માર્ગદર્શક કૂતરા જેવી સુરક્ષિત પદ્ધતિઓનો ઉપયોગ કરો અને આ એપને માત્ર વધારાની મદદ ગણો.</string>
+    <string name="safety_warning_accept">હું સમજું છું અને સ્વીકારું છું</string>
 </resources>

@@ -114,7 +114,7 @@
     <string name="crash_reports_title">Siųsti strigčių ataskaitas</string>
     <string name="crash_reports_summary_on">Jei programėlė sutrinka, diagnostinė informacija (klaida, įrenginio modelis, Android versija, programėlės versija) siunčiama į Google Firebase Crashlytics, kad problemą būtų galima ištaisyti. Tai galite bet kada išjungti.</string>
     <string name="crash_reports_summary_off">Išjungta: strigčių ataskaitos nesiunčiamos. Įjunkite, kad padėtumėte taisyti klaidas siųsdami informaciją apie strigtis į Google Firebase Crashlytics.</string>
-    <string name="render_map_title">Rodyti žemėlapį (beta versija)</string>
+    <string name="render_map_title">Rodyti žemėlapį</string>
     <string name="render_map_summary_on">Žemėlapis piešiamas ekrane silpnaregiams naudotojams. Ši piešimo funkcija yra eksperimentinė ir vis dar tobulinama.</string>
     <string name="render_map_summary_off">Žemėlapis nepiešiamas; tyrinėkite tik lietimu ir garsu.</string>
 
@@ -211,4 +211,7 @@
     <string name="share_chooser_title">Bendrinti „Navia“</string>
     <string name="share_subject">„Navia“ – žemėlapis, kurį galite paliesti</string>
     <string name="share_text">Atraskite „Navia“ – žemėlapį, kurį galite paliesti! Braukite pirštu per ekraną ir išgirskite gatves, parduotuves ir vietas tiesiai po juo. Visiškai prieinama, sukurta akliesiems ir silpnaregiams, o kartu naudinga visiems. Nemokamai „Google Play“: %1$s</string>
+    <string name="safety_warning_title">Svarbus saugos įspėjimas</string>
+    <string name="safety_warning_message">Niekada nesiremkite šios programos pateikiama informacija judėdami. Dėl techninių priežasčių – GPS ir kitų matavimo priemonių apribojimų, žemėlapio duomenų klaidų ir programinės įrangos riktų – ji gali būti neteisinga. Visada naudokite saugius metodus, pavyzdžiui, baltąją lazdelę ar šunį vedlį, o šią programą laikykite tik papildoma pagalbos priemone.</string>
+    <string name="safety_warning_accept">Supratau ir sutinku</string>
 </resources>

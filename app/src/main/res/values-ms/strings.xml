@@ -118,7 +118,7 @@
     <string name="crash_reports_title">Hantar laporan ranap</string>
     <string name="crash_reports_summary_on">Jika apl ranap, maklumat diagnostik (ralat, model peranti, versi Android, versi apl) dihantar ke Google Firebase Crashlytics supaya masalah dapat dibaiki. Anda boleh mematikannya pada bila-bila masa.</string>
     <string name="crash_reports_summary_off">Mati: tiada laporan ranap dihantar. Hidupkan untuk membantu membaiki pepijat dengan menghantar maklumat ranap ke Google Firebase Crashlytics.</string>
-    <string name="render_map_title">Tunjukkan peta (Beta)</string>
+    <string name="render_map_title">Tunjukkan peta</string>
     <string name="render_map_summary_on">Peta dilukis pada skrin untuk pengguna penglihatan terhad. Lukisan ini masih uji kaji dan terus dipertingkatkan.</string>
     <string name="render_map_summary_off">Peta tidak dilukis; terokai hanya menggunakan sentuhan dan bunyi.</string>
 
@@ -223,4 +223,7 @@
     <string name="share_chooser_title">Kongsi Navia</string>
     <string name="share_subject">Navia – peta yang boleh anda sentuh</string>
     <string name="share_text">Temui Navia, peta yang boleh anda sentuh! Luncurkan jari di skrin dan dengar jalan, kedai dan tempat tepat di bawahnya. Boleh diakses sepenuhnya, dibina untuk orang buta dan cacat penglihatan, dan menyeronokkan untuk semua orang. Percuma di Google Play: %1$s</string>
+    <string name="safety_warning_title">Amaran keselamatan penting</string>
+    <string name="safety_warning_message">Jangan sekali-kali menjadikan apa yang dikatakan aplikasi ini sebagai asas pergerakan anda. Atas sebab teknikal – had GPS dan alat pengukur lain, ralat data peta dan kerosakan perisian – maklumatnya mungkin salah. Sentiasa gunakan kaedah selamat seperti tongkat putih atau anjing pemandu, dan anggap aplikasi ini sebagai bantuan tambahan sahaja.</string>
+    <string name="safety_warning_accept">Saya faham dan terima</string>
 </resources>
