@@ -107,6 +107,9 @@
     <string name="download_area_action">Преузми мапу за ову област</string>
     <string name="download_radius_location_unknown">Локација није доступна — померите мапу или дозволите приступ локацији</string>
 
+    <string name="fullscreen_title">Цео екран</string>
+    <string name="fullscreen_summary_on">Екран мапе скрива статусну траку и траку за навигацију. Превуците од ивице екрана да бисте их накратко приказали.</string>
+    <string name="fullscreen_summary_off">Екран мапе приказује статусну траку и траку за навигацију као и обично.</string>
     <string name="privacy_header">Приватност</string>
     <string name="crash_reports_title">Слање извештаја о падовима</string>
     <string name="crash_reports_summary_on">Ако апликација падне, дијагностичке информације (грешка, модел уређаја, верзија Android-а, верзија апликације) шаљу се у Google Firebase Crashlytics како би проблем могао да се исправи. Ово можете да искључите у било ком тренутку.</string>

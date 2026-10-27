@@ -24,6 +24,14 @@
             app:iconSpaceReserved="false"/>
 
         <SwitchPreferenceCompat
+            app:key="fullscreen_mode"
+            app:title="@string/fullscreen_title"
+            app:summaryOn="@string/fullscreen_summary_on"
+            app:summaryOff="@string/fullscreen_summary_off"
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"/>
+
+        <SwitchPreferenceCompat
             app:key="render_map"
             app:title="@string/render_map_title"
             app:summaryOn="@string/render_map_summary_on"

@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">Lokalizacja niedostępna — przesuń mapę lub udziel uprawnienia do lokalizacji</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Pełny ekran</string>
+    <string name="fullscreen_summary_on">Ekran mapy ukrywa pasek stanu i pasek nawigacji. Przesuń palcem od krawędzi ekranu, aby wyświetlić je na chwilę.</string>
+    <string name="fullscreen_summary_off">Ekran mapy wyświetla pasek stanu i pasek nawigacji jak zwykle.</string>
     <string name="privacy_header">Prywatność</string>
     <string name="crash_reports_title">Wysyłaj raporty o awariach</string>
     <string name="crash_reports_summary_on">Jeśli aplikacja ulegnie awarii, informacje diagnostyczne (błąd, model urządzenia, wersja Androida, wersja aplikacji) są wysyłane do Google Firebase Crashlytics, aby można było naprawić problem. Możesz to wyłączyć w dowolnym momencie.</string>

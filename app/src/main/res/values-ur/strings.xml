@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">مقام دستیاب نہیں ہے — نقشہ حرکت دیں یا مقام کی اجازت دیں</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">فل اسکرین</string>
+    <string name="fullscreen_summary_on">نقشے کی اسکرین اسٹیٹس بار اور نیویگیشن بار کو چھپا دیتی ہے۔ انہیں مختصر وقت کے لیے دکھانے کے لیے اسکرین کے کنارے سے سوائپ کریں۔</string>
+    <string name="fullscreen_summary_off">نقشے کی اسکرین اسٹیٹس بار اور نیویگیشن بار کو معمول کے مطابق دکھاتی ہے۔</string>
     <string name="privacy_header">رازداری</string>
     <string name="crash_reports_title">کریش رپورٹس بھیجیں</string>
     <string name="crash_reports_summary_on">اگر ایپ کریش ہو جائے تو تشخیصی معلومات (خرابی، آلے کا ماڈل، Android ورژن، ایپ ورژن) Google Firebase Crashlytics کو بھیجی جاتی ہیں تاکہ مسئلہ حل کیا جا سکے۔ آپ اسے کسی بھی وقت بند کر سکتے ہیں۔</string>

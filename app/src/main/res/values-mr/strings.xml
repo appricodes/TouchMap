@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">स्थान उपलब्ध नाही — नकाशा हलवा किंवा स्थान परवानगी द्या</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">पूर्ण स्क्रीन</string>
+    <string name="fullscreen_summary_on">नकाशा स्क्रीन स्टेटस बार आणि नेव्हिगेशन बार लपवते. त्या थोड्या वेळासाठी दाखवण्यासाठी स्क्रीनच्या कडेपासून स्वाइप करा.</string>
+    <string name="fullscreen_summary_off">नकाशा स्क्रीन स्टेटस बार आणि नेव्हिगेशन बार नेहमीप्रमाणे दाखवते.</string>
     <string name="privacy_header">गोपनीयता</string>
     <string name="crash_reports_title">क्रॅश अहवाल पाठवा</string>
     <string name="crash_reports_summary_on">ॲप क्रॅश झाल्यास, समस्या दुरुस्त करता यावी म्हणून डायग्नोस्टिक माहिती (त्रुटी, डिव्हाइस मॉडेल, Android आवृत्ती, ॲप आवृत्ती) Google Firebase Crashlytics ला पाठवली जाते. तुम्ही हे कधीही बंद करू शकता.</string>

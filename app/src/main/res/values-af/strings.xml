@@ -110,6 +110,9 @@
     <string name="download_radius_location_unknown">Ligging nie beskikbaar nie — beweeg die kaart of gee liggingtoestemming</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Volskerm</string>
+    <string name="fullscreen_summary_on">Die kaartskerm versteek die statusbalk en navigasiebalk. Swiep van die skermrand af om hulle kortliks te wys.</string>
+    <string name="fullscreen_summary_off">Die kaartskerm wys die statusbalk en navigasiebalk soos gewoonlik.</string>
     <string name="privacy_header">Privaatheid</string>
     <string name="crash_reports_title">Stuur ineenstortingsverslae</string>
     <string name="crash_reports_summary_on">As die toepassing ineenstort, word diagnostiese inligting (die fout, toestelmodel, Android-weergawe, toepassingweergawe) na Google Firebase Crashlytics gestuur sodat die probleem reggemaak kan word. Jy kan dit enige tyd afskakel.</string>

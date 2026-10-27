@@ -107,6 +107,9 @@
     <string name="download_area_action">このエリアの地図をダウンロード</string>
     <string name="download_radius_location_unknown">位置情報が利用できません — 地図を動かすか、位置情報の権限を許可してください</string>
 
+    <string name="fullscreen_title">全画面表示</string>
+    <string name="fullscreen_summary_on">地図画面でステータスバーとナビゲーションバーを非表示にします。画面の端からスワイプすると一時的に表示されます。</string>
+    <string name="fullscreen_summary_off">地図画面でステータスバーとナビゲーションバーを通常どおり表示します。</string>
     <string name="privacy_header">プライバシー</string>
     <string name="crash_reports_title">クラッシュレポートを送信</string>
     <string name="crash_reports_summary_on">アプリがクラッシュした場合、問題を修正できるよう、診断情報（エラー、端末モデル、Android バージョン、アプリのバージョン）が Google Firebase Crashlytics に送信されます。これはいつでもオフにできます。</string>

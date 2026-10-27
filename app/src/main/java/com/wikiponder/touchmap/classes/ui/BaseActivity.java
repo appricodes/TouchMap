@@ -1,5 +1,7 @@
 package com.wikiponder.touchmap.classes.ui;
 
+import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.media.AudioManager;
 import android.os.Build;
 import android.os.Bundle;
@@ -15,14 +17,22 @@ import android.widget.Toast;
 import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowCompat;
+import androidx.core.view.WindowInsetsCompat;
+import androidx.preference.PreferenceManager;
 
 import com.wikiponder.touchmap.MyApplication;
 import com.wikiponder.touchmap.R;
 
 public abstract class BaseActivity extends AppCompatActivity {
+	/** SharedPreferences key of the Settings "Full screen" switch (default off: normal, with the
+	 * status and navigation bars). */
+	public static final String PREF_FULLSCREEN = "fullscreen_mode";
+
 	// Track current fullscreen state
-	private boolean isFullScreen = true;
+	private boolean isFullScreen = false;
 	
 	private boolean doubleBackToExitPressedOnce = false;
 	
@@ -93,8 +103,9 @@ public abstract class BaseActivity extends AppCompatActivity {
 	protected void onResume() {
 		super.onResume();
 		activityResumed = true;
-		// Always respect the last chosen state
-		setFullScreen(isFullScreen);
+		// The Settings switch may have changed while another screen was in front.
+		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+		setFullScreen(prefs.getBoolean(PREF_FULLSCREEN, false));
 	}
 
 	@Override
@@ -140,6 +151,33 @@ public abstract class BaseActivity extends AppCompatActivity {
 		} else {
 			showSystemUI();
 		}
+		applyBarInsets();
+	}
+
+	/**
+	 * Edge-to-edge is on for this activity (and forced on API 35+), so with the bars visible the
+	 * layout would draw underneath them. Pads the content frame by the bar insets in normal mode, and
+	 * by nothing in full-screen mode (the bars are hidden; a transient swipe-in must not shift the
+	 * layout). The window background is the app's navy so the padded strips match the toolbars.
+	 */
+	private void applyBarInsets() {
+		View content = findViewById(android.R.id.content);
+		if (content == null) return;
+		getWindow().setBackgroundDrawable(new android.graphics.drawable.ColorDrawable(0xFF102A43));
+		ViewCompat.setOnApplyWindowInsetsListener(content, (v, insets) -> {
+			Insets bars = isFullScreen
+					? Insets.NONE
+					: insets.getInsets(WindowInsetsCompat.Type.systemBars()
+							| WindowInsetsCompat.Type.displayCutout());
+			v.setPadding(bars.left, bars.top, bars.right, bars.bottom);
+			return insets;
+		});
+		ViewCompat.requestApplyInsets(content);
+		// Light icons on the navy strips.
+		WindowCompat.getInsetsController(getWindow(), getWindow().getDecorView())
+				.setAppearanceLightStatusBars(false);
+		WindowCompat.getInsetsController(getWindow(), getWindow().getDecorView())
+				.setAppearanceLightNavigationBars(false);
 	}
 	
 	/** Convenience: flip between full-screen and normal. */
@@ -188,10 +226,7 @@ public abstract class BaseActivity extends AppCompatActivity {
 		} else {
 			// legacy: clear fullscreen flag and reset ui visibility
 			getWindow().clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
-			decorView.setSystemUiVisibility(
-					View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-							| View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-			);
+			decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_VISIBLE);
 		}
 	}
 }

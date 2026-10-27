@@ -110,6 +110,9 @@
     <string name="download_radius_location_unknown">Locatie niet beschikbaar — verplaats de kaart of geef locatietoestemming</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Volledig scherm</string>
+    <string name="fullscreen_summary_on">Het kaartscherm verbergt de statusbalk en de navigatiebalk. Veeg vanaf de rand van het scherm om ze even te tonen.</string>
+    <string name="fullscreen_summary_off">Het kaartscherm toont de statusbalk en de navigatiebalk zoals gewoonlijk.</string>
     <string name="privacy_header">Privacy</string>
     <string name="crash_reports_title">Crashrapporten verzenden</string>
     <string name="crash_reports_summary_on">Als de app crasht, worden diagnostische gegevens (de fout, het apparaatmodel, de Android-versie, de app-versie) naar Google Firebase Crashlytics gestuurd zodat het probleem kan worden opgelost. Je kunt dit op elk moment uitschakelen.</string>

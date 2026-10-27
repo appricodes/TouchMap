@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">ไม่พบตำแหน่ง — เลื่อนแผนที่หรืออนุญาตการเข้าถึงตำแหน่ง</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">เต็มหน้าจอ</string>
+    <string name="fullscreen_summary_on">หน้าจอแผนที่จะซ่อนแถบสถานะและแถบนำทาง ปัดจากขอบหน้าจอเพื่อแสดงชั่วคราว</string>
+    <string name="fullscreen_summary_off">หน้าจอแผนที่แสดงแถบสถานะและแถบนำทางตามปกติ</string>
     <string name="privacy_header">ความเป็นส่วนตัว</string>
     <string name="crash_reports_title">ส่งรายงานข้อขัดข้อง</string>
     <string name="crash_reports_summary_on">หากแอปขัดข้อง ข้อมูลการวินิจฉัย (ข้อผิดพลาด รุ่นอุปกรณ์ เวอร์ชัน Android เวอร์ชันแอป) จะถูกส่งไปยัง Google Firebase Crashlytics เพื่อให้แก้ไขปัญหาได้ คุณสามารถปิดได้ทุกเมื่อ</string>

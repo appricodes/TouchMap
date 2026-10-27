@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">இருப்பிடம் கிடைக்கவில்லை — வரைபடத்தை நகர்த்தவும் அல்லது இருப்பிட அனுமதி வழங்கவும்</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">முழுத் திரை</string>
+    <string name="fullscreen_summary_on">வரைபடத் திரை நிலைப் பட்டியையும் வழிசெலுத்தல் பட்டியையும் மறைக்கும். அவற்றைச் சிறிது நேரம் காட்ட, திரையின் ஓரத்திலிருந்து ஸ்வைப் செய்யவும்.</string>
+    <string name="fullscreen_summary_off">வரைபடத் திரை நிலைப் பட்டியையும் வழிசெலுத்தல் பட்டியையும் வழக்கம்போல் காட்டும்.</string>
     <string name="privacy_header">தனியுரிமை</string>
     <string name="crash_reports_title">செயலிழப்பு அறிக்கைகளை அனுப்பு</string>
     <string name="crash_reports_summary_on">செயலி செயலிழந்தால், சிக்கலைச் சரிசெய்ய கண்டறியும் தகவல் (பிழை, சாதன மாடல், Android பதிப்பு, செயலி பதிப்பு) Google Firebase Crashlytics க்கு அனுப்பப்படும். இதை நீங்கள் எப்போது வேண்டுமானாலும் முடக்கலாம்.</string>

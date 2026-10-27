@@ -107,6 +107,9 @@
     <string name="download_area_action">Baixar mapa para esta área</string>
     <string name="download_radius_location_unknown">Localização indisponível — mova o mapa ou conceda permissão de localização</string>
 
+    <string name="fullscreen_title">Tela cheia</string>
+    <string name="fullscreen_summary_on">A tela do mapa oculta a barra de status e a barra de navegação. Deslize a partir da borda da tela para exibi-las rapidamente.</string>
+    <string name="fullscreen_summary_off">A tela do mapa mostra a barra de status e a barra de navegação normalmente.</string>
     <string name="privacy_header">Privacidade</string>
     <string name="crash_reports_title">Enviar relatórios de falhas</string>
     <string name="crash_reports_summary_on">Se o app falhar, informações de diagnóstico (o erro, o modelo do dispositivo, a versão do Android e a versão do app) são enviadas ao Google Firebase Crashlytics para que o problema possa ser corrigido. Você pode desativar isso a qualquer momento.</string>

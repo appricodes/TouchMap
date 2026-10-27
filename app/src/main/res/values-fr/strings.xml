@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">Position indisponible — déplacez la carte ou autorisez l\'accès à la position</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Plein écran</string>
+    <string name="fullscreen_summary_on">L\'écran de la carte masque la barre d\'état et la barre de navigation. Balayez depuis le bord de l\'écran pour les afficher brièvement.</string>
+    <string name="fullscreen_summary_off">L\'écran de la carte affiche la barre d\'état et la barre de navigation comme d\'habitude.</string>
     <string name="privacy_header">Confidentialité</string>
     <string name="crash_reports_title">Envoyer les rapports de plantage</string>
     <string name="crash_reports_summary_on">Si l\'application plante, des informations de diagnostic (l\'erreur, le modèle de l\'appareil, la version d\'Android et la version de l\'application) sont envoyées à Google Firebase Crashlytics afin de corriger le problème. Vous pouvez le désactiver à tout moment.</string>

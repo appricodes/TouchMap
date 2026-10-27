@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">स्थान उपलब्ध नहीं है — मैप को हिलाएं या स्थान की अनुमति दें</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">फ़ुल स्क्रीन</string>
+    <string name="fullscreen_summary_on">मैप स्क्रीन स्टेटस बार और नेविगेशन बार को छिपा देती है। उन्हें थोड़ी देर के लिए दिखाने के लिए स्क्रीन के किनारे से स्वाइप करें।</string>
+    <string name="fullscreen_summary_off">मैप स्क्रीन स्टेटस बार और नेविगेशन बार को हमेशा की तरह दिखाती है।</string>
     <string name="privacy_header">गोपनीयता</string>
     <string name="crash_reports_title">क्रैश रिपोर्ट भेजें</string>
     <string name="crash_reports_summary_on">अगर ऐप क्रैश होता है, तो समस्या ठीक की जा सके इसके लिए डायग्नोस्टिक जानकारी (त्रुटि, डिवाइस मॉडल, Android संस्करण, ऐप संस्करण) Google Firebase Crashlytics को भेजी जाती है। आप इसे कभी भी बंद कर सकते हैं।</string>

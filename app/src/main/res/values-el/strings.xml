@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">Η τοποθεσία δεν είναι διαθέσιμη — μετακινήστε τον χάρτη ή παραχωρήστε άδεια τοποθεσίας</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Πλήρης οθόνη</string>
+    <string name="fullscreen_summary_on">Η οθόνη του χάρτη κρύβει τη γραμμή κατάστασης και τη γραμμή πλοήγησης. Σύρετε από το άκρο της οθόνης για να εμφανιστούν στιγμιαία.</string>
+    <string name="fullscreen_summary_off">Η οθόνη του χάρτη εμφανίζει τη γραμμή κατάστασης και τη γραμμή πλοήγησης όπως συνήθως.</string>
     <string name="privacy_header">Απόρρητο</string>
     <string name="crash_reports_title">Αποστολή αναφορών σφαλμάτων</string>
     <string name="crash_reports_summary_on">Εάν η εφαρμογή καταρρεύσει, αποστέλλονται διαγνωστικές πληροφορίες (το σφάλμα, το μοντέλο της συσκευής, η έκδοση Android, η έκδοση της εφαρμογής) στο Google Firebase Crashlytics ώστε να διορθωθεί το πρόβλημα. Μπορείτε να το απενεργοποιήσετε οποιαδήποτε στιγμή.</string>

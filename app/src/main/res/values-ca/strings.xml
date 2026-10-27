@@ -110,6 +110,9 @@
     <string name="download_radius_location_unknown">Ubicació no disponible — mou el mapa o concedeix el permís d\'ubicació</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Pantalla completa</string>
+    <string name="fullscreen_summary_on">La pantalla del mapa amaga la barra d\'estat i la barra de navegació. Llisca des de la vora de la pantalla per mostrar-les breument.</string>
+    <string name="fullscreen_summary_off">La pantalla del mapa mostra la barra d\'estat i la barra de navegació com de costum.</string>
     <string name="privacy_header">Privadesa</string>
     <string name="crash_reports_title">Envia informes de fallada</string>
     <string name="crash_reports_summary_on">Si l\'aplicació falla, s\'envia informació de diagnòstic (l\'error, el model del dispositiu, la versió d\'Android i la versió de l\'aplicació) a Google Firebase Crashlytics perquè es pugui solucionar el problema. Ho pots desactivar en qualsevol moment.</string>

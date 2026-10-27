@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">સ્થાન ઉપલબ્ધ નથી — નકશો ખસેડો અથવા સ્થાનની પરવાનગી આપો</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">પૂર્ણ સ્ક્રીન</string>
+    <string name="fullscreen_summary_on">નકશા સ્ક્રીન સ્ટેટસ બાર અને નેવિગેશન બાર છુપાવે છે. તેમને થોડા સમય માટે બતાવવા સ્ક્રીનની કિનારીથી સ્વાઇપ કરો.</string>
+    <string name="fullscreen_summary_off">નકશા સ્ક્રીન સ્ટેટસ બાર અને નેવિગેશન બાર હંમેશની જેમ બતાવે છે.</string>
     <string name="privacy_header">ગોપનીયતા</string>
     <string name="crash_reports_title">ક્રેશ રિપોર્ટ મોકલો</string>
     <string name="crash_reports_summary_on">જો એપ ક્રેશ થાય, તો સમસ્યા સુધારી શકાય તે માટે ડાયગ્નોસ્ટિક માહિતી (ભૂલ, ઉપકરણ મોડેલ, Android સંસ્કરણ, એપ સંસ્કરણ) Google Firebase Crashlytics ને મોકલવામાં આવે છે. તમે તેને ગમે ત્યારે બંધ કરી શકો છો.</string>

@@ -107,6 +107,9 @@
     <string name="download_area_action">Lejupielādēt karti šim apgabalam</string>
     <string name="download_radius_location_unknown">Atrašanās vieta nav pieejama — pārvietojiet karti vai piešķiriet atrašanās vietas atļauju</string>
 
+    <string name="fullscreen_title">Pilnekrāna režīms</string>
+    <string name="fullscreen_summary_on">Kartes ekrānā tiek paslēpta statusa josla un navigācijas josla. Velciet no ekrāna malas, lai tās īslaicīgi parādītu.</string>
+    <string name="fullscreen_summary_off">Kartes ekrānā statusa josla un navigācijas josla tiek rādītas kā parasti.</string>
     <string name="privacy_header">Privātums</string>
     <string name="crash_reports_title">Sūtīt avāriju ziņojumus</string>
     <string name="crash_reports_summary_on">Ja lietotne avarē, diagnostikas informācija (kļūda, ierīces modelis, Android versija, lietotnes versija) tiek nosūtīta uz Google Firebase Crashlytics, lai problēmu varētu novērst. Jūs to varat izslēgt jebkurā laikā.</string>

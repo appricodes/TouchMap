@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">സ്ഥാനം ലഭ്യമല്ല — മാപ്പ് നീക്കുക അല്ലെങ്കിൽ ലൊക്കേഷൻ അനുമതി നൽകുക</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">പൂർണ്ണ സ്ക്രീൻ</string>
+    <string name="fullscreen_summary_on">മാപ്പ് സ്ക്രീൻ സ്റ്റാറ്റസ് ബാറും നാവിഗേഷൻ ബാറും മറയ്ക്കുന്നു. അവ ഹ്രസ്വമായി കാണിക്കാൻ സ്ക്രീനിന്റെ അരികിൽ നിന്ന് സ്വൈപ്പ് ചെയ്യുക.</string>
+    <string name="fullscreen_summary_off">മാപ്പ് സ്ക്രീൻ സ്റ്റാറ്റസ് ബാറും നാവിഗേഷൻ ബാറും പതിവുപോലെ കാണിക്കുന്നു.</string>
     <string name="privacy_header">സ്വകാര്യത</string>
     <string name="crash_reports_title">ക്രാഷ് റിപ്പോർട്ടുകൾ അയയ്ക്കുക</string>
     <string name="crash_reports_summary_on">ആപ്പ് ക്രാഷ് ആയാൽ, പ്രശ്നം പരിഹരിക്കാനായി ഡയഗ്നോസ്റ്റിക് വിവരങ്ങൾ (പിശക്, ഉപകരണ മോഡൽ, Android പതിപ്പ്, ആപ്പ് പതിപ്പ്) Google Firebase Crashlytics-ലേക്ക് അയയ്ക്കുന്നു. നിങ്ങൾക്ക് ഇത് എപ്പോൾ വേണമെങ്കിലും ഓഫ് ചെയ്യാം.</string>

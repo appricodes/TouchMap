@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">অবস্থান উপলব্ধ নেই — মানচিত্রটি সরান বা অবস্থানের অনুমতি দিন</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">পূর্ণ স্ক্রিন</string>
+    <string name="fullscreen_summary_on">ম্যাপ স্ক্রিনে স্ট্যাটাস বার ও নেভিগেশন বার লুকানো থাকে। সেগুলো সাময়িকভাবে দেখতে স্ক্রিনের কিনারা থেকে সোয়াইপ করুন।</string>
+    <string name="fullscreen_summary_off">ম্যাপ স্ক্রিনে স্ট্যাটাস বার ও নেভিগেশন বার স্বাভাবিকভাবে দেখানো হয়।</string>
     <string name="privacy_header">গোপনীয়তা</string>
     <string name="crash_reports_title">ক্র্যাশ রিপোর্ট পাঠান</string>
     <string name="crash_reports_summary_on">অ্যাপ ক্র্যাশ করলে ডায়াগনস্টিক তথ্য (ত্রুটি, ডিভাইসের মডেল, Android সংস্করণ, অ্যাপের সংস্করণ) Google Firebase Crashlytics-এ পাঠানো হয়, যাতে সমস্যাটি সমাধান করা যায়। আপনি যেকোনো সময় এটি বন্ধ করতে পারেন।</string>

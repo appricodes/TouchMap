@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">Không có vị trí — hãy di chuyển bản đồ hoặc cấp quyền vị trí</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Toàn màn hình</string>
+    <string name="fullscreen_summary_on">Màn hình bản đồ ẩn thanh trạng thái và thanh điều hướng. Vuốt từ mép màn hình để hiện chúng trong giây lát.</string>
+    <string name="fullscreen_summary_off">Màn hình bản đồ hiển thị thanh trạng thái và thanh điều hướng như bình thường.</string>
     <string name="privacy_header">Quyền riêng tư</string>
     <string name="crash_reports_title">Gửi báo cáo sự cố</string>
     <string name="crash_reports_summary_on">Nếu ứng dụng gặp sự cố, thông tin chẩn đoán (lỗi, kiểu thiết bị, phiên bản Android, phiên bản ứng dụng) sẽ được gửi tới Google Firebase Crashlytics để có thể khắc phục vấn đề. Bạn có thể tắt tính năng này bất cứ lúc nào.</string>

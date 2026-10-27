@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">Staðsetning ekki tiltæk — færðu kortið eða veittu heimild fyrir staðsetningu</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Fullur skjár</string>
+    <string name="fullscreen_summary_on">Kortaskjárinn felur stöðustikuna og leiðsagnarstikuna. Strjúktu frá brún skjásins til að sýna þær stuttlega.</string>
+    <string name="fullscreen_summary_off">Kortaskjárinn sýnir stöðustikuna og leiðsagnarstikuna eins og venjulega.</string>
     <string name="privacy_header">Persónuvernd</string>
     <string name="crash_reports_title">Senda hrunskýrslur</string>
     <string name="crash_reports_summary_on">Ef forritið hrynur eru greiningarupplýsingar (villan, gerð tækisins, Android-útgáfa, útgáfa forritsins) sendar til Google Firebase Crashlytics svo hægt sé að laga vandamálið. Þú getur slökkt á þessu hvenær sem er.</string>

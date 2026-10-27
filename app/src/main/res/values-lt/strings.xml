@@ -107,6 +107,9 @@
     <string name="download_area_action">Atsisiųsti šios srities žemėlapį</string>
     <string name="download_radius_location_unknown">Vieta nepasiekiama — perkelkite žemėlapį arba suteikite vietos nustatymo leidimą</string>
 
+    <string name="fullscreen_title">Pilno ekrano režimas</string>
+    <string name="fullscreen_summary_on">Žemėlapio ekrane paslepiama būsenos juosta ir naršymo juosta. Perbraukite nuo ekrano krašto, kad jos trumpam būtų parodytos.</string>
+    <string name="fullscreen_summary_off">Žemėlapio ekrane būsenos juosta ir naršymo juosta rodomos kaip įprasta.</string>
     <string name="privacy_header">Privatumas</string>
     <string name="crash_reports_title">Siųsti strigčių ataskaitas</string>
     <string name="crash_reports_summary_on">Jei programėlė sutrinka, diagnostinė informacija (klaida, įrenginio modelis, Android versija, programėlės versija) siunčiama į Google Firebase Crashlytics, kad problemą būtų galima ištaisyti. Tai galite bet kada išjungti.</string>

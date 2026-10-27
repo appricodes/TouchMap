@@ -107,6 +107,9 @@
     <string name="download_area_action">Stiahnuť mapu pre túto oblasť</string>
     <string name="download_radius_location_unknown">Poloha nie je k dispozícii – posuňte mapu alebo udeľte povolenie na určenie polohy</string>
 
+    <string name="fullscreen_title">Celá obrazovka</string>
+    <string name="fullscreen_summary_on">Obrazovka s mapou skryje stavový riadok a navigačný panel. Potiahnutím od okraja obrazovky ich na chvíľu zobrazíte.</string>
+    <string name="fullscreen_summary_off">Obrazovka s mapou zobrazuje stavový riadok a navigačný panel ako zvyčajne.</string>
     <string name="privacy_header">Súkromie</string>
     <string name="crash_reports_title">Odosielať hlásenia o zlyhaniach</string>
     <string name="crash_reports_summary_on">Ak aplikácia zlyhá, diagnostické informácie (chyba, model zariadenia, verzia Androidu, verzia aplikácie) sa odošlú do Google Firebase Crashlytics, aby bolo možné problém opraviť. Môžete to kedykoľvek vypnúť.</string>

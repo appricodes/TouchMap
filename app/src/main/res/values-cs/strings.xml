@@ -110,6 +110,9 @@
     <string name="download_radius_location_unknown">Poloha není k dispozici — přesuňte mapu nebo udělte oprávnění k poloze</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Celá obrazovka</string>
+    <string name="fullscreen_summary_on">Obrazovka s mapou skryje stavový řádek a navigační lištu. Přejetím od okraje obrazovky je na chvíli zobrazíte.</string>
+    <string name="fullscreen_summary_off">Obrazovka s mapou zobrazuje stavový řádek a navigační lištu jako obvykle.</string>
     <string name="privacy_header">Soukromí</string>
     <string name="crash_reports_title">Odesílat hlášení pádů</string>
     <string name="crash_reports_summary_on">Pokud aplikace spadne, odešlou se diagnostické informace (chyba, model zařízení, verze Androidu, verze aplikace) do Google Firebase Crashlytics, aby bylo možné problém opravit. Můžete to kdykoli vypnout.</string>

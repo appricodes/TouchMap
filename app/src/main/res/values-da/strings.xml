@@ -110,6 +110,9 @@
     <string name="download_radius_location_unknown">Placering ikke tilgængelig — flyt kortet eller giv placeringstilladelse</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Fuld skærm</string>
+    <string name="fullscreen_summary_on">Kortskærmen skjuler statuslinjen og navigationslinjen. Stryg fra skærmens kant for at vise dem et øjeblik.</string>
+    <string name="fullscreen_summary_off">Kortskærmen viser statuslinjen og navigationslinjen som normalt.</string>
     <string name="privacy_header">Privatliv</string>
     <string name="crash_reports_title">Send nedbrudsrapporter</string>
     <string name="crash_reports_summary_on">Hvis appen går ned, sendes diagnostiske oplysninger (fejlen, enhedsmodel, Android-version, appversion) til Google Firebase Crashlytics, så problemet kan rettes. Du kan til enhver tid slå det fra.</string>

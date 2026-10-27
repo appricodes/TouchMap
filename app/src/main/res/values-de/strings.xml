@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">Standort nicht verfügbar — verschiebe die Karte oder erteile die Standortberechtigung</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Vollbild</string>
+    <string name="fullscreen_summary_on">Der Kartenbildschirm blendet die Statusleiste und die Navigationsleiste aus. Wische vom Bildschirmrand, um sie kurz einzublenden.</string>
+    <string name="fullscreen_summary_off">Der Kartenbildschirm zeigt die Statusleiste und die Navigationsleiste wie gewohnt an.</string>
     <string name="privacy_header">Datenschutz</string>
     <string name="crash_reports_title">Absturzberichte senden</string>
     <string name="crash_reports_summary_on">Wenn die App abstürzt, werden Diagnoseinformationen (der Fehler, Gerätemodell, Android-Version, App-Version) an Google Firebase Crashlytics gesendet, damit das Problem behoben werden kann. Du kannst das jederzeit ausschalten.</string>

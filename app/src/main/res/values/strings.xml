@@ -119,6 +119,9 @@
     <string name="download_radius_location_unknown">Location unavailable — move the map or grant location permission</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Full screen</string>
+    <string name="fullscreen_summary_on">The map screen hides the status bar and navigation bar. Swipe from the screen edge to show them briefly.</string>
+    <string name="fullscreen_summary_off">The map screen shows the status bar and navigation bar as usual.</string>
     <string name="privacy_header">Privacy</string>
     <string name="crash_reports_title">Send crash reports</string>
     <string name="crash_reports_summary_on">If the app crashes, diagnostic information (the error, device model, Android version, app version) is sent to Google Firebase Crashlytics so the problem can be fixed. You can turn this off at any time.</string>

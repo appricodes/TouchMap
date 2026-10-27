@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">స్థానం అందుబాటులో లేదు — మ్యాప్‌ను తరలించండి లేదా స్థాన అనుమతి ఇవ్వండి</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">పూర్తి స్క్రీన్</string>
+    <string name="fullscreen_summary_on">మ్యాప్ స్క్రీన్ స్టేటస్ బార్ మరియు నావిగేషన్ బార్‌ను దాచిపెడుతుంది. వాటిని కొద్దిసేపు చూపడానికి స్క్రీన్ అంచు నుండి స్వైప్ చేయండి.</string>
+    <string name="fullscreen_summary_off">మ్యాప్ స్క్రీన్ స్టేటస్ బార్ మరియు నావిగేషన్ బార్‌ను యథావిధిగా చూపుతుంది.</string>
     <string name="privacy_header">గోప్యత</string>
     <string name="crash_reports_title">క్రాష్ నివేదికలను పంపండి</string>
     <string name="crash_reports_summary_on">యాప్ క్రాష్ అయితే, సమస్యను పరిష్కరించడానికి విశ్లేషణ సమాచారం (లోపం, పరికర మోడల్, Android వెర్షన్, యాప్ వెర్షన్) Google Firebase Crashlytics కు పంపబడుతుంది. మీరు దీన్ని ఎప్పుడైనా ఆఫ్ చేయవచ్చు.</string>

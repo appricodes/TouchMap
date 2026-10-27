@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">A helyszín nem érhető el — mozgasd a térképet, vagy adj helymeghatározási engedélyt</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Teljes képernyő</string>
+    <string name="fullscreen_summary_on">A térképképernyő elrejti az állapotsort és a navigációs sávot. Húzd végig az ujjad a képernyő szélétől, hogy rövid időre megjelenjenek.</string>
+    <string name="fullscreen_summary_off">A térképképernyő a szokásos módon megjeleníti az állapotsort és a navigációs sávot.</string>
     <string name="privacy_header">Adatvédelem</string>
     <string name="crash_reports_title">Összeomlási jelentések küldése</string>
     <string name="crash_reports_summary_on">Ha az alkalmazás összeomlik, diagnosztikai információk (a hiba, az eszköz modellje, az Android-verzió, az alkalmazásverzió) kerülnek elküldésre a Google Firebase Crashlyticsnek, hogy a probléma javítható legyen. Ezt bármikor kikapcsolhatod.</string>

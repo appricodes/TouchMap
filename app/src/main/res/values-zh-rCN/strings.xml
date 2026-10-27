@@ -107,6 +107,9 @@
     <string name="download_area_action">下载此区域的地图</string>
     <string name="download_radius_location_unknown">位置不可用 — 请移动地图或授予位置权限</string>
 
+    <string name="fullscreen_title">全屏</string>
+    <string name="fullscreen_summary_on">地图界面会隐藏状态栏和导航栏。从屏幕边缘滑动可暂时显示它们。</string>
+    <string name="fullscreen_summary_off">地图界面正常显示状态栏和导航栏。</string>
     <string name="privacy_header">隐私</string>
     <string name="crash_reports_title">发送崩溃报告</string>
     <string name="crash_reports_summary_on">如果应用崩溃，诊断信息（错误、设备型号、Android 版本、应用版本）会发送到 Google Firebase Crashlytics，以便修复问题。你可以随时关闭此功能。</string>

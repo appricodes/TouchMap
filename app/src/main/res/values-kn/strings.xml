@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">ಸ್ಥಳ ಲಭ್ಯವಿಲ್ಲ — ನಕ್ಷೆಯನ್ನು ಸರಿಸಿ ಅಥವಾ ಸ್ಥಳ ಅನುಮತಿ ನೀಡಿ</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">ಪೂರ್ಣ ಪರದೆ</string>
+    <string name="fullscreen_summary_on">ನಕ್ಷೆ ಪರದೆಯು ಸ್ಟೇಟಸ್ ಬಾರ್ ಮತ್ತು ನ್ಯಾವಿಗೇಶನ್ ಬಾರ್ ಅನ್ನು ಮರೆಮಾಡುತ್ತದೆ. ಅವುಗಳನ್ನು ಕ್ಷಣಿಕವಾಗಿ ತೋರಿಸಲು ಪರದೆಯ ಅಂಚಿನಿಂದ ಸ್ವೈಪ್ ಮಾಡಿ.</string>
+    <string name="fullscreen_summary_off">ನಕ್ಷೆ ಪರದೆಯು ಸ್ಟೇಟಸ್ ಬಾರ್ ಮತ್ತು ನ್ಯಾವಿಗೇಶನ್ ಬಾರ್ ಅನ್ನು ಎಂದಿನಂತೆ ತೋರಿಸುತ್ತದೆ.</string>
     <string name="privacy_header">ಗೌಪ್ಯತೆ</string>
     <string name="crash_reports_title">ಕ್ರ್ಯಾಶ್ ವರದಿಗಳನ್ನು ಕಳುಹಿಸಿ</string>
     <string name="crash_reports_summary_on">ಅಪ್ಲಿಕೇಶನ್ ಕ್ರ್ಯಾಶ್ ಆದರೆ, ಸಮಸ್ಯೆಯನ್ನು ಸರಿಪಡಿಸಲು ಡಯಾಗ್ನಾಸ್ಟಿಕ್ ಮಾಹಿತಿಯನ್ನು (ದೋಷ, ಸಾಧನ ಮಾದರಿ, Android ಆವೃತ್ತಿ, ಅಪ್ಲಿಕೇಶನ್ ಆವೃತ್ತಿ) Google Firebase Crashlytics ಗೆ ಕಳುಹಿಸಲಾಗುತ್ತದೆ. ನೀವು ಇದನ್ನು ಯಾವಾಗ ಬೇಕಾದರೂ ಆಫ್ ಮಾಡಬಹುದು.</string>

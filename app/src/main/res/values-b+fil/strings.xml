@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">Hindi available ang lokasyon — igalaw ang mapa o bigyan ng pahintulot sa lokasyon</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Full screen</string>
+    <string name="fullscreen_summary_on">Itinatago ng screen ng mapa ang status bar at navigation bar. Mag-swipe mula sa gilid ng screen para ipakita ang mga ito sandali.</string>
+    <string name="fullscreen_summary_off">Ipinapakita ng screen ng mapa ang status bar at navigation bar gaya ng dati.</string>
     <string name="privacy_header">Privacy</string>
     <string name="crash_reports_title">Magpadala ng mga ulat ng crash</string>
     <string name="crash_reports_summary_on">Kung mag-crash ang app, ipinapadala ang impormasyong pang-diagnose (ang error, modelo ng device, bersyon ng Android, bersyon ng app) sa Google Firebase Crashlytics para maayos ang problema. Puwede mo itong i-off anumang oras.</string>

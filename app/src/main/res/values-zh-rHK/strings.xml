@@ -107,6 +107,9 @@
     <string name="download_area_action">下載此區域的地圖</string>
     <string name="download_radius_location_unknown">位置無法使用 — 請移動地圖或授予位置權限</string>
 
+    <string name="fullscreen_title">全螢幕</string>
+    <string name="fullscreen_summary_on">地圖畫面會隱藏狀態列和導覽列。從螢幕邊緣滑動可暫時顯示它們。</string>
+    <string name="fullscreen_summary_off">地圖畫面會如常顯示狀態列和導覽列。</string>
     <string name="privacy_header">私隱</string>
     <string name="crash_reports_title">傳送當機報告</string>
     <string name="crash_reports_summary_on">如果應用程式當機，診斷資料（錯誤、裝置型號、Android 版本、應用程式版本）會傳送至 Google Firebase Crashlytics，以便修正問題。你可以隨時關閉此功能。</string>

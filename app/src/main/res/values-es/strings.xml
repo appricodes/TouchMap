@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">Ubicación no disponible; mueve el mapa u otorga permiso de ubicación</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Pantalla completa</string>
+    <string name="fullscreen_summary_on">La pantalla del mapa oculta la barra de estado y la barra de navegación. Desliza desde el borde de la pantalla para mostrarlas un momento.</string>
+    <string name="fullscreen_summary_off">La pantalla del mapa muestra la barra de estado y la barra de navegación como de costumbre.</string>
     <string name="privacy_header">Privacidad</string>
     <string name="crash_reports_title">Enviar informes de fallos</string>
     <string name="crash_reports_summary_on">Si la aplicación falla, se envía información de diagnóstico (el error, el modelo del dispositivo, la versión de Android y la versión de la aplicación) a Google Firebase Crashlytics para poder solucionar el problema. Puedes desactivarlo en cualquier momento.</string>

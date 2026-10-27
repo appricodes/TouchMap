@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">Posizione non disponibile — sposta la mappa o concedi il permesso di posizione</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Schermo intero</string>
+    <string name="fullscreen_summary_on">La schermata della mappa nasconde la barra di stato e la barra di navigazione. Scorri dal bordo dello schermo per mostrarle brevemente.</string>
+    <string name="fullscreen_summary_off">La schermata della mappa mostra la barra di stato e la barra di navigazione come al solito.</string>
     <string name="privacy_header">Privacy</string>
     <string name="crash_reports_title">Invia segnalazioni di arresto anomalo</string>
     <string name="crash_reports_summary_on">Se l\'app si arresta in modo anomalo, le informazioni diagnostiche (l\'errore, il modello del dispositivo, la versione di Android, la versione dell\'app) vengono inviate a Google Firebase Crashlytics per poter risolvere il problema. Puoi disattivarlo in qualsiasi momento.</string>

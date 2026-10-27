@@ -107,6 +107,9 @@
     <string name="download_area_action">Descarcă harta pentru această zonă</string>
     <string name="download_radius_location_unknown">Locație indisponibilă — mutați harta sau acordați permisiunea de localizare</string>
 
+    <string name="fullscreen_title">Ecran complet</string>
+    <string name="fullscreen_summary_on">Ecranul hărții ascunde bara de stare și bara de navigare. Glisați dinspre marginea ecranului pentru a le afișa pentru scurt timp.</string>
+    <string name="fullscreen_summary_off">Ecranul hărții afișează bara de stare și bara de navigare ca de obicei.</string>
     <string name="privacy_header">Confidențialitate</string>
     <string name="crash_reports_title">Trimite rapoarte de blocare</string>
     <string name="crash_reports_summary_on">Dacă aplicația se blochează, informațiile de diagnosticare (eroarea, modelul dispozitivului, versiunea Android, versiunea aplicației) sunt trimise către Google Firebase Crashlytics pentru ca problema să poată fi remediată. Puteți dezactiva oricând această opțiune.</string>

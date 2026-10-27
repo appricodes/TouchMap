@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">Lokasi tidak tersedia — geser peta atau berikan izin lokasi</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Layar penuh</string>
+    <string name="fullscreen_summary_on">Layar peta menyembunyikan bilah status dan bilah navigasi. Geser dari tepi layar untuk menampilkannya sebentar.</string>
+    <string name="fullscreen_summary_off">Layar peta menampilkan bilah status dan bilah navigasi seperti biasa.</string>
     <string name="privacy_header">Privasi</string>
     <string name="crash_reports_title">Kirim laporan kerusakan</string>
     <string name="crash_reports_summary_on">Jika aplikasi mengalami kerusakan, informasi diagnostik (kesalahan, model perangkat, versi Android, versi aplikasi) dikirim ke Google Firebase Crashlytics agar masalah dapat diperbaiki. Kamu dapat mematikannya kapan saja.</string>

@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">המיקום אינו זמין — הזז את המפה או אשר הרשאת מיקום</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">מסך מלא</string>
+    <string name="fullscreen_summary_on">מסך המפה מסתיר את שורת המצב ואת שורת הניווט. החלק מקצה המסך כדי להציג אותן לרגע.</string>
+    <string name="fullscreen_summary_off">מסך המפה מציג את שורת המצב ואת שורת הניווט כרגיל.</string>
     <string name="privacy_header">פרטיות</string>
     <string name="crash_reports_title">שלח דוחות קריסה</string>
     <string name="crash_reports_summary_on">אם האפליקציה קורסת, מידע אבחון (השגיאה, דגם המכשיר, גרסת Android, גרסת האפליקציה) נשלח אל Google Firebase Crashlytics כדי שניתן יהיה לתקן את הבעיה. אפשר לכבות זאת בכל עת.</string>

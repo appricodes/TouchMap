@@ -110,6 +110,9 @@
     <string name="download_radius_location_unknown">Sijainti ei ole saatavilla — siirrä karttaa tai myönnä sijaintilupa</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Koko näyttö</string>
+    <string name="fullscreen_summary_on">Karttanäkymä piilottaa tilapalkin ja navigointipalkin. Pyyhkäise näytön reunasta näyttääksesi ne hetkeksi.</string>
+    <string name="fullscreen_summary_off">Karttanäkymä näyttää tilapalkin ja navigointipalkin tavalliseen tapaan.</string>
     <string name="privacy_header">Tietosuoja</string>
     <string name="crash_reports_title">Lähetä kaatumisraportteja</string>
     <string name="crash_reports_summary_on">Jos sovellus kaatuu, diagnostiikkatietoja (virhe, laitemalli, Android-versio, sovellusversio) lähetetään Google Firebase Crashlyticsiin, jotta ongelma voidaan korjata. Voit poistaa tämän käytöstä milloin tahansa.</string>

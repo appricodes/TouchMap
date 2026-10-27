@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">Konum kullanılamıyor — haritayı hareket ettirin veya konum izni verin</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Tam ekran</string>
+    <string name="fullscreen_summary_on">Harita ekranı durum çubuğunu ve gezinme çubuğunu gizler. Bunları kısa süreliğine göstermek için ekran kenarından kaydırın.</string>
+    <string name="fullscreen_summary_off">Harita ekranı durum çubuğunu ve gezinme çubuğunu her zamanki gibi gösterir.</string>
     <string name="privacy_header">Gizlilik</string>
     <string name="crash_reports_title">Kilitlenme raporlarını gönder</string>
     <string name="crash_reports_summary_on">Uygulama kilitlenirse tanılama bilgileri (hata, cihaz modeli, Android sürümü, uygulama sürümü) sorunun düzeltilebilmesi için Google Firebase Crashlytics\'e gönderilir. Bunu istediğiniz zaman kapatabilirsiniz.</string>

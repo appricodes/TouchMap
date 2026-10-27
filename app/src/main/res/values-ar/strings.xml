@@ -111,6 +111,9 @@
     <string name="download_radius_location_unknown">الموقع غير متاح — حرّك الخريطة أو امنح إذن الموقع</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">ملء الشاشة</string>
+    <string name="fullscreen_summary_on">تُخفي شاشة الخريطة شريط الحالة وشريط التنقل. مرّر من حافة الشاشة لإظهارهما مؤقتًا.</string>
+    <string name="fullscreen_summary_off">تعرض شاشة الخريطة شريط الحالة وشريط التنقل كالمعتاد.</string>
     <string name="privacy_header">الخصوصية</string>
     <string name="crash_reports_title">إرسال تقارير الأعطال</string>
     <string name="crash_reports_summary_on">إذا تعطل التطبيق، تُرسل معلومات تشخيصية (الخطأ وطراز الجهاز وإصدار Android وإصدار التطبيق) إلى Google Firebase Crashlytics حتى يمكن إصلاح المشكلة. يمكنك إيقاف ذلك في أي وقت.</string>

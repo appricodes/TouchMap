@@ -107,6 +107,9 @@
     <string name="download_area_action">Last ned kart for dette området</string>
     <string name="download_radius_location_unknown">Posisjon utilgjengelig – flytt kartet eller gi posisjonstillatelse</string>
 
+    <string name="fullscreen_title">Fullskjerm</string>
+    <string name="fullscreen_summary_on">Kartskjermen skjuler statuslinjen og navigasjonslinjen. Sveip fra skjermkanten for å vise dem kort.</string>
+    <string name="fullscreen_summary_off">Kartskjermen viser statuslinjen og navigasjonslinjen som vanlig.</string>
     <string name="privacy_header">Personvern</string>
     <string name="crash_reports_title">Send krasjrapporter</string>
     <string name="crash_reports_summary_on">Hvis appen krasjer, sendes diagnostikkinformasjon (feilen, enhetsmodell, Android-versjon, appversjon) til Google Firebase Crashlytics slik at problemet kan rettes. Du kan slå av dette når som helst.</string>

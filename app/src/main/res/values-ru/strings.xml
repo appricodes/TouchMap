@@ -107,6 +107,9 @@
     <string name="download_area_action">Загрузить карту для этой области</string>
     <string name="download_radius_location_unknown">Местоположение недоступно — переместите карту или предоставьте разрешение на геолокацию</string>
 
+    <string name="fullscreen_title">Полный экран</string>
+    <string name="fullscreen_summary_on">На экране карты скрываются строка состояния и панель навигации. Проведите пальцем от края экрана, чтобы показать их на время.</string>
+    <string name="fullscreen_summary_off">На экране карты строка состояния и панель навигации отображаются как обычно.</string>
     <string name="privacy_header">Конфиденциальность</string>
     <string name="crash_reports_title">Отправлять отчёты о сбоях</string>
     <string name="crash_reports_summary_on">Если приложение даст сбой, диагностическая информация (ошибка, модель устройства, версия Android, версия приложения) отправляется в Google Firebase Crashlytics, чтобы можно было исправить проблему. Вы можете отключить это в любое время.</string>

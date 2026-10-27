@@ -110,6 +110,9 @@
     <string name="download_radius_location_unknown">Местоположението не е налично — преместете картата или разрешете достъп до местоположението</string>
 
     <!-- Map rendering -->
+    <string name="fullscreen_title">Цял екран</string>
+    <string name="fullscreen_summary_on">Екранът с картата скрива лентата на състоянието и лентата за навигация. Плъзнете от ръба на екрана, за да ги покажете за кратко.</string>
+    <string name="fullscreen_summary_off">Екранът с картата показва лентата на състоянието и лентата за навигация както обикновено.</string>
     <string name="privacy_header">Поверителност</string>
     <string name="crash_reports_title">Изпращане на доклади за сривове</string>
     <string name="crash_reports_summary_on">Ако приложението се срине, диагностична информация (грешката, моделът на устройството, версията на Android, версията на приложението) се изпраща до Google Firebase Crashlytics, за да може проблемът да бъде отстранен. Можете да изключите това по всяко време.</string>
