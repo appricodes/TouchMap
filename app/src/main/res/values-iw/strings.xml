@@ -214,4 +214,13 @@
     <string name="theme_system">כמו המכשיר</string>
     <string name="theme_light">בהיר</string>
     <string name="theme_dark">כהה</string>
+    <string name="menu_share">שיתוף Navia</string>
+    <string name="share_prompt_title">אוהבים את Navia? ספרו לאחרים!</string>
+    <string name="share_prompt_message">רוצים לשתף את Navia עם אחרים? אפשר לשלוח את קישור ההורדה בדואר אלקטרוני, בוואטסאפ או בכל אפליקציה או רשת חברתית אחרת – לחבר, לבן משפחה או לכל מי שיכול להפיק תועלת ממפה שאפשר לגעת בה ולשמוע אותה.</string>
+    <string name="share_prompt_never">אל תשאלו שוב</string>
+    <string name="share_prompt_share">שיתוף</string>
+    <string name="share_prompt_not_now">לא עכשיו</string>
+    <string name="share_chooser_title">שיתוף Navia</string>
+    <string name="share_subject">Navia – מפה שאפשר לגעת בה</string>
+    <string name="share_text">גלו את Navia, מפה שאפשר לגעת בה! החליקו את האצבע על המסך ושמעו את הרחובות, החנויות והמקומות שמתחתיה. נגישה לחלוטין, נבנתה לעיוורים ולכבדי ראייה, ומהנה לכולם. בחינם ב-Google Play: %1$s</string>
 </resources>

@@ -202,4 +202,13 @@
     <string name="theme_system">端末の設定に合わせる</string>
     <string name="theme_light">ライト</string>
     <string name="theme_dark">ダーク</string>
+    <string name="menu_share">Naviaを共有</string>
+    <string name="share_prompt_title">Naviaを気に入っていただけましたか？ぜひ広めてください！</string>
+    <string name="share_prompt_message">Naviaを他の人と共有しませんか？ダウンロードリンクは、メール、WhatsApp、その他のアプリやSNSで、友人や家族、触って聞ける地図が役立つ誰にでも送れます。</string>
+    <string name="share_prompt_never">今後は表示しない</string>
+    <string name="share_prompt_share">共有</string>
+    <string name="share_prompt_not_now">今はしない</string>
+    <string name="share_chooser_title">Naviaを共有</string>
+    <string name="share_subject">Navia – 触れる地図</string>
+    <string name="share_text">触れる地図「Navia」をご紹介します！画面の上で指をすべらせると、そのすぐ下にある道路、お店、場所が音声でわかります。完全にアクセシブルで、視覚障害・ロービジョンの方のために作られ、誰にとっても楽しいアプリです。Google Playで無料：%1$s</string>
 </resources>

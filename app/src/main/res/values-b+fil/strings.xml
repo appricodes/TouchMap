@@ -214,4 +214,13 @@
     <string name="theme_system">Kapareho ng device</string>
     <string name="theme_light">Maliwanag</string>
     <string name="theme_dark">Madilim</string>
+    <string name="menu_share">I-share ang Navia</string>
+    <string name="share_prompt_title">Nagustuhan ang Navia? Ibahagi ito!</string>
+    <string name="share_prompt_message">Gusto mo bang i-share ang Navia sa iba? Maaari mong ipadala ang download link sa email, WhatsApp o anumang ibang app o social network — sa kaibigan, kapamilya, o sinumang makikinabang sa mapang mahahawakan at maririnig.</string>
+    <string name="share_prompt_never">Huwag nang magtanong muli</string>
+    <string name="share_prompt_share">I-share</string>
+    <string name="share_prompt_not_now">Hindi muna</string>
+    <string name="share_chooser_title">I-share ang Navia</string>
+    <string name="share_subject">Navia – mapang mahahawakan mo</string>
+    <string name="share_text">Tuklasin ang Navia, isang mapang mahahawakan mo! I-slide ang daliri mo sa screen at pakinggan ang mga kalye, tindahan at lugar na nasa ilalim nito. Ganap na accessible at ginawa para sa mga bulag at mahina ang paningin, at masaya para sa lahat. Libre sa Google Play: %1$s</string>
 </resources>

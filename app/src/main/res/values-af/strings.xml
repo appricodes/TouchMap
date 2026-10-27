@@ -213,4 +213,13 @@
     <string name="theme_system">Dieselfde as toestel</string>
     <string name="theme_light">Lig</string>
     <string name="theme_dark">Donker</string>
+    <string name="menu_share">Deel Navia</string>
+    <string name="share_prompt_title">Hou jy van Navia? Vertel ander!</string>
+    <string name="share_prompt_message">Wil jy Navia met ander deel? Jy kan die aflaaiskakel per e-pos, WhatsApp of enige ander toepassing of sosiale netwerk stuur – aan \'n vriend, \'n familielid of enigiemand wat \'n kaart kan gebruik wat hulle kan voel en hoor.</string>
+    <string name="share_prompt_never">Moenie weer vra nie</string>
+    <string name="share_prompt_share">Deel</string>
+    <string name="share_prompt_not_now">Nie nou nie</string>
+    <string name="share_chooser_title">Deel Navia</string>
+    <string name="share_subject">Navia – \'n kaart wat jy kan aanraak</string>
+    <string name="share_text">Ontdek Navia, \'n kaart wat jy kan aanraak! Gly jou vinger oor die skerm en hoor die strate, winkels en plekke net onder dit. Heeltemal toeganklik en gebou vir blinde en swaksiende mense, en pret vir almal. Gratis op Google Play: %1$s</string>
 </resources>

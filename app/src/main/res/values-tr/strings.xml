@@ -214,4 +214,13 @@
     <string name="theme_system">Cihazla aynı</string>
     <string name="theme_light">Açık</string>
     <string name="theme_dark">Koyu</string>
+    <string name="menu_share">Navia\'yı paylaş</string>
+    <string name="share_prompt_title">Navia\'yı beğendiniz mi? Başkalarına da anlatın!</string>
+    <string name="share_prompt_message">Navia\'yı başkalarıyla paylaşmak ister misiniz? İndirme bağlantısını e-posta, WhatsApp veya başka bir uygulama ya da sosyal ağ üzerinden bir arkadaşınıza, aile üyenize ya da dokunup dinleyebileceği bir haritadan yararlanabilecek herkese gönderebilirsiniz.</string>
+    <string name="share_prompt_never">Bir daha sorma</string>
+    <string name="share_prompt_share">Paylaş</string>
+    <string name="share_prompt_not_now">Şimdi değil</string>
+    <string name="share_chooser_title">Navia\'yı paylaş</string>
+    <string name="share_subject">Navia – dokunabileceğiniz bir harita</string>
+    <string name="share_text">Dokunabileceğiniz bir harita olan Navia\'yı keşfedin! Parmağınızı ekranda gezdirin ve hemen altındaki sokakları, dükkânları ve yerleri dinleyin. Tamamen erişilebilir, görme engelliler ve az görenler için tasarlandı, herkes için eğlenceli. Google Play\'de ücretsiz: %1$s</string>
 </resources>

@@ -214,4 +214,13 @@
     <string name="theme_system">Як на пристрої</string>
     <string name="theme_light">Світла</string>
     <string name="theme_dark">Темна</string>
+    <string name="menu_share">Поділитися Navia</string>
+    <string name="share_prompt_title">Подобається Navia? Розкажіть іншим!</string>
+    <string name="share_prompt_message">Хочете поділитися Navia з іншими? Посилання для завантаження можна надіслати електронною поштою, у WhatsApp або через будь-який інший застосунок чи соціальну мережу — другові, родичу або будь-кому, кому стане в пригоді мапа, до якої можна торкатися і яку можна слухати.</string>
+    <string name="share_prompt_never">Більше не питати</string>
+    <string name="share_prompt_share">Поділитися</string>
+    <string name="share_prompt_not_now">Не зараз</string>
+    <string name="share_chooser_title">Поділитися Navia</string>
+    <string name="share_subject">Navia — мапа, до якої можна торкнутися</string>
+    <string name="share_text">Відкрийте для себе Navia — мапу, до якої можна торкнутися! Проведіть пальцем по екрану й почуйте вулиці, магазини та місця просто під ним. Повністю доступна, створена для незрячих і слабозорих людей і корисна всім. Безкоштовно в Google Play: %1$s</string>
 </resources>

@@ -214,4 +214,13 @@
     <string name="theme_system">Όπως η συσκευή</string>
     <string name="theme_light">Φωτεινό</string>
     <string name="theme_dark">Σκοτεινό</string>
+    <string name="menu_share">Κοινοποίηση του Navia</string>
+    <string name="share_prompt_title">Σας αρέσει το Navia; Πείτε το και σε άλλους!</string>
+    <string name="share_prompt_message">Θέλετε να μοιραστείτε το Navia με άλλους; Μπορείτε να στείλετε τον σύνδεσμο λήψης με email, WhatsApp ή οποιαδήποτε άλλη εφαρμογή ή κοινωνικό δίκτυο – σε έναν φίλο, ένα μέλος της οικογένειας ή οποιονδήποτε θα μπορούσε να χρησιμοποιήσει έναν χάρτη που αγγίζεται και ακούγεται.</string>
+    <string name="share_prompt_never">Να μην ερωτηθώ ξανά</string>
+    <string name="share_prompt_share">Κοινοποίηση</string>
+    <string name="share_prompt_not_now">Όχι τώρα</string>
+    <string name="share_chooser_title">Κοινοποίηση του Navia</string>
+    <string name="share_subject">Navia – ένας χάρτης που μπορείτε να αγγίξετε</string>
+    <string name="share_text">Ανακαλύψτε το Navia, έναν χάρτη που μπορείτε να αγγίξετε! Σύρετε το δάχτυλό σας στην οθόνη και ακούστε τους δρόμους, τα καταστήματα και τα μέρη ακριβώς από κάτω. Πλήρως προσβάσιμο, φτιαγμένο για τυφλούς και άτομα με περιορισμένη όραση, και διασκεδαστικό για όλους. Δωρεάν στο Google Play: %1$s</string>
 </resources>

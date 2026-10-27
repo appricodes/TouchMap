@@ -202,4 +202,13 @@
     <string name="theme_system">Ca dispozitivul</string>
     <string name="theme_light">Luminoasă</string>
     <string name="theme_dark">Întunecată</string>
+    <string name="menu_share">Distribuie Navia</string>
+    <string name="share_prompt_title">Îți place Navia? Spune și altora!</string>
+    <string name="share_prompt_message">Vrei să distribui Navia și altora? Poți trimite linkul de descărcare prin e-mail, WhatsApp sau orice altă aplicație ori rețea socială – unui prieten, unui membru al familiei sau oricui ar putea folosi o hartă pe care o poți atinge și asculta.</string>
+    <string name="share_prompt_never">Nu mai întreba</string>
+    <string name="share_prompt_share">Distribuie</string>
+    <string name="share_prompt_not_now">Nu acum</string>
+    <string name="share_chooser_title">Distribuie Navia</string>
+    <string name="share_subject">Navia – o hartă pe care o poți atinge</string>
+    <string name="share_text">Descoperă Navia, o hartă pe care o poți atinge! Glisează degetul pe ecran și ascultă străzile, magazinele și locurile de chiar dedesubt. Complet accesibilă, creată pentru persoane nevăzătoare și cu vedere slabă, și utilă tuturor. Gratuită în Google Play: %1$s</string>
 </resources>

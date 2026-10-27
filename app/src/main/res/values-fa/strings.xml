@@ -214,4 +214,13 @@
     <string name="theme_system">مانند دستگاه</string>
     <string name="theme_light">روشن</string>
     <string name="theme_dark">تیره</string>
+    <string name="menu_share">اشتراک‌گذاری Navia</string>
+    <string name="share_prompt_title">Navia را دوست دارید؟ به دیگران بگویید!</string>
+    <string name="share_prompt_message">آیا می‌خواهید Navia را با دیگران به اشتراک بگذارید؟ می‌توانید پیوند دانلود را با ایمیل، واتس‌اپ یا هر برنامه یا شبکه‌ی اجتماعی دیگر برای دوست، یکی از اعضای خانواده یا هر کسی که می‌تواند از نقشه‌ای قابل‌لمس و شنیدنی استفاده کند بفرستید.</string>
+    <string name="share_prompt_never">دیگر نپرس</string>
+    <string name="share_prompt_share">اشتراک‌گذاری</string>
+    <string name="share_prompt_not_now">حالا نه</string>
+    <string name="share_chooser_title">اشتراک‌گذاری Navia</string>
+    <string name="share_subject">Navia – نقشه‌ای که می‌توانید لمس کنید</string>
+    <string name="share_text">Navia را کشف کنید، نقشه‌ای که می‌توانید لمس کنید! انگشتتان را روی صفحه بکشید و خیابان‌ها، مغازه‌ها و مکان‌های زیر آن را بشنوید. کاملاً در دسترس، ساخته‌شده برای نابینایان و کم‌بینایان و جذاب برای همه. رایگان در Google Play: %1$s</string>
 </resources>

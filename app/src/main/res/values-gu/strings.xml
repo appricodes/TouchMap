@@ -214,4 +214,13 @@
     <string name="theme_system">ઉપકરણ જેવી</string>
     <string name="theme_light">હળવી</string>
     <string name="theme_dark">ઘેરી</string>
+    <string name="menu_share">Navia શેર કરો</string>
+    <string name="share_prompt_title">Navia ગમે છે? બીજાને જણાવો!</string>
+    <string name="share_prompt_message">શું તમે Navia બીજાઓ સાથે શેર કરવા માંગો છો? તમે ડાઉનલોડ લિંક ઇમેઇલ, વોટ્સએપ અથવા કોઈપણ અન્ય એપ કે સોશિયલ નેટવર્ક દ્વારા મોકલી શકો છો — મિત્ર, પરિવારના સભ્ય અથવા સ્પર્શ કરી અને સાંભળી શકાય તેવા નકશાનો ઉપયોગ કરી શકે તેવા કોઈપણને.</string>
+    <string name="share_prompt_never">ફરી પૂછશો નહીં</string>
+    <string name="share_prompt_share">શેર કરો</string>
+    <string name="share_prompt_not_now">હમણાં નહીં</string>
+    <string name="share_chooser_title">Navia શેર કરો</string>
+    <string name="share_subject">Navia – સ્પર્શ કરી શકાય તેવો નકશો</string>
+    <string name="share_text">Navia શોધો, સ્પર્શ કરી શકાય તેવો નકશો! સ્ક્રીન પર આંગળી ફેરવો અને તેની નીચેની શેરીઓ, દુકાનો અને સ્થળો સાંભળો. સંપૂર્ણપણે સુલભ, અંધ અને ઓછી દૃષ્ટિ ધરાવતા લોકો માટે બનાવેલ, અને બધા માટે મજેદાર. Google Play પર મફત: %1$s</string>
 </resources>

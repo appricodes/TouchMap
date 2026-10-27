@@ -62,8 +62,11 @@ public abstract class BaseActivity extends AppCompatActivity {
 					// We first disable this callback to prevent an infinite loop.
 					//setEnabled(false);
 					//getOnBackPressedDispatcher().onBackPressed();
-					onStopByUser() ;
-					finish();
+					Runnable exit = () -> {
+						onStopByUser();
+						finish();
+					};
+					if (!interceptExit(exit)) exit.run();
 					return;
 				}
 				
@@ -89,6 +92,15 @@ public abstract class BaseActivity extends AppCompatActivity {
 	}
 	
 	protected void onStopByUser() {
+	}
+
+	/**
+	 * Called when the user confirms leaving the app (second back press). A subclass that wants to ask
+	 * something first returns true and runs {@code exit} itself once it is done; returning false
+	 * (the default) exits immediately.
+	 */
+	protected boolean interceptExit(Runnable exit) {
+		return false;
 	}
 
 	// True strictly between onResume() and onPause() — used by onWindowFocusChanged to tell "a

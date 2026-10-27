@@ -202,4 +202,13 @@
     <string name="theme_system">Tāpat kā ierīcei</string>
     <string name="theme_light">Gaišs</string>
     <string name="theme_dark">Tumšs</string>
+    <string name="menu_share">Kopīgot Navia</string>
+    <string name="share_prompt_title">Patīk Navia? Pastāstiet citiem!</string>
+    <string name="share_prompt_message">Vai vēlaties kopīgot Navia ar citiem? Lejupielādes saiti varat nosūtīt pa e-pastu, WhatsApp vai jebkurā citā lietotnē vai sociālajā tīklā – draugam, ģimenes loceklim vai ikvienam, kam noderētu karte, ko var aizskart un noklausīties.</string>
+    <string name="share_prompt_never">Vairs nejautāt</string>
+    <string name="share_prompt_share">Kopīgot</string>
+    <string name="share_prompt_not_now">Ne tagad</string>
+    <string name="share_chooser_title">Kopīgot Navia</string>
+    <string name="share_subject">Navia – karte, ko var aizskart</string>
+    <string name="share_text">Atklājiet Navia – karti, ko var aizskart! Velciet pirkstu pa ekrānu un dzirdiet ielas, veikalus un vietas tieši zem tā. Pilnībā pieejama, veidota neredzīgiem un vājredzīgiem cilvēkiem, un noderīga visiem. Bez maksas pakalpojumā Google Play: %1$s</string>
 </resources>

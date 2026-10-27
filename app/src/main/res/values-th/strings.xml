@@ -214,4 +214,13 @@
     <string name="theme_system">ตามอุปกรณ์</string>
     <string name="theme_light">สว่าง</string>
     <string name="theme_dark">มืด</string>
+    <string name="menu_share">แชร์ Navia</string>
+    <string name="share_prompt_title">ชอบ Navia ไหม? บอกต่อเลย!</string>
+    <string name="share_prompt_message">ต้องการแชร์ Navia ให้คนอื่นไหม? คุณส่งลิงก์ดาวน์โหลดทางอีเมล WhatsApp หรือแอปและโซเชียลเน็ตเวิร์กอื่น ๆ ได้ ไม่ว่าจะเป็นเพื่อน คนในครอบครัว หรือใครก็ตามที่ใช้แผนที่ที่สัมผัสและฟังได้</string>
+    <string name="share_prompt_never">ไม่ต้องถามอีก</string>
+    <string name="share_prompt_share">แชร์</string>
+    <string name="share_prompt_not_now">ไม่ใช่ตอนนี้</string>
+    <string name="share_chooser_title">แชร์ Navia</string>
+    <string name="share_subject">Navia – แผนที่ที่คุณสัมผัสได้</string>
+    <string name="share_text">มาลองใช้ Navia แผนที่ที่สัมผัสได้! เลื่อนนิ้วบนหน้าจอแล้วฟังถนน ร้านค้า และสถานที่ที่อยู่ใต้นิ้วทันที เข้าถึงได้เต็มรูปแบบ สร้างมาเพื่อผู้พิการทางสายตาและผู้มีสายตาเลือนราง และสนุกสำหรับทุกคน ฟรีบน Google Play: %1$s</string>
 </resources>

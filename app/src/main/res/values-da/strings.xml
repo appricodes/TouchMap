@@ -213,4 +213,13 @@
     <string name="theme_system">Samme som enheden</string>
     <string name="theme_light">Lyst</string>
     <string name="theme_dark">Mørkt</string>
+    <string name="menu_share">Del Navia</string>
+    <string name="share_prompt_title">Kan du lide Navia? Fortæl det videre!</string>
+    <string name="share_prompt_message">Vil du dele Navia med andre? Du kan sende download-linket via e-mail, WhatsApp eller en anden app eller et socialt netværk – til en ven, et familiemedlem eller andre, der kan bruge et kort, de kan røre ved og høre.</string>
+    <string name="share_prompt_never">Spørg ikke igen</string>
+    <string name="share_prompt_share">Del</string>
+    <string name="share_prompt_not_now">Ikke nu</string>
+    <string name="share_chooser_title">Del Navia</string>
+    <string name="share_subject">Navia – et kort, du kan røre ved</string>
+    <string name="share_text">Opdag Navia, et kort du kan røre ved! Før fingeren hen over skærmen, og hør gaderne, butikkerne og stederne lige under den. Fuldt tilgængeligt og lavet til blinde og svagsynede, og sjovt for alle. Gratis på Google Play: %1$s</string>
 </resources>

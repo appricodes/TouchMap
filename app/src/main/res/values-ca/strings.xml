@@ -213,4 +213,13 @@
     <string name="theme_system">Igual que el dispositiu</string>
     <string name="theme_light">Clar</string>
     <string name="theme_dark">Fosc</string>
+    <string name="menu_share">Comparteix Navia</string>
+    <string name="share_prompt_title">T\'agrada Navia? Passa-ho!</string>
+    <string name="share_prompt_message">Vols compartir Navia amb altres persones? Pots enviar l\'enllaç de descàrrega per correu electrònic, WhatsApp o qualsevol altra aplicació o xarxa social, a un amic, a un familiar o a qualsevol persona a qui li pugui servir un mapa que es pot tocar i escoltar.</string>
+    <string name="share_prompt_never">No ho tornis a preguntar</string>
+    <string name="share_prompt_share">Comparteix</string>
+    <string name="share_prompt_not_now">Ara no</string>
+    <string name="share_chooser_title">Comparteix Navia</string>
+    <string name="share_subject">Navia – un mapa que pots tocar</string>
+    <string name="share_text">Descobreix Navia, un mapa que pots tocar! Llisca el dit per la pantalla i escolta els carrers, les botigues i els llocs que tens just a sota. Totalment accessible i pensat per a persones cegues i amb baixa visió, i divertit per a tothom. Gratis a Google Play: %1$s</string>
 </resources>

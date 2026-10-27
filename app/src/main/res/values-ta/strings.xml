@@ -214,4 +214,13 @@
     <string name="theme_system">சாதனத்தைப் போல</string>
     <string name="theme_light">ஒளி</string>
     <string name="theme_dark">இருள்</string>
+    <string name="menu_share">Navia-வைப் பகிரவும்</string>
+    <string name="share_prompt_title">Navia பிடித்திருக்கிறதா? மற்றவர்களுக்கும் சொல்லுங்கள்!</string>
+    <string name="share_prompt_message">Navia-வை மற்றவர்களுடன் பகிர விரும்புகிறீர்களா? பதிவிறக்க இணைப்பை மின்னஞ்சல், வாட்ஸ்அப் அல்லது வேறு எந்த செயலி அல்லது சமூக வலைதளம் மூலமாகவும் அனுப்பலாம் — நண்பர், குடும்ப உறுப்பினர் அல்லது தொட்டுக் கேட்கக்கூடிய வரைபடத்தைப் பயன்படுத்தக்கூடிய எவருக்கும்.</string>
+    <string name="share_prompt_never">மீண்டும் கேட்க வேண்டாம்</string>
+    <string name="share_prompt_share">பகிர்</string>
+    <string name="share_prompt_not_now">இப்போது வேண்டாம்</string>
+    <string name="share_chooser_title">Navia-வைப் பகிரவும்</string>
+    <string name="share_subject">Navia – தொட்டு உணரக்கூடிய வரைபடம்</string>
+    <string name="share_text">தொட்டு உணரக்கூடிய வரைபடமான Navia-வைக் கண்டறியுங்கள்! திரையில் விரலை நகர்த்தி, அதன் கீழே உள்ள தெருக்கள், கடைகள் மற்றும் இடங்களைக் கேளுங்கள். முழுமையாக அணுகக்கூடியது, பார்வையற்றோர் மற்றும் குறைந்த பார்வை உள்ளவர்களுக்காக உருவாக்கப்பட்டது, அனைவருக்கும் சுவாரஸ்யமானது. Google Play-ல் இலவசம்: %1$s</string>
 </resources>

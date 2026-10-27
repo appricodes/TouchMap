@@ -214,4 +214,13 @@
     <string name="theme_system">Come il dispositivo</string>
     <string name="theme_light">Chiaro</string>
     <string name="theme_dark">Scuro</string>
+    <string name="menu_share">Condividi Navia</string>
+    <string name="share_prompt_title">Ti piace Navia? Fallo sapere!</string>
+    <string name="share_prompt_message">Vuoi condividere Navia con altre persone? Puoi inviare il link di download via e-mail, WhatsApp o qualsiasi altra app o social network, a un amico, a un familiare o a chiunque possa usare una mappa che si può toccare e ascoltare.</string>
+    <string name="share_prompt_never">Non chiedermelo più</string>
+    <string name="share_prompt_share">Condividi</string>
+    <string name="share_prompt_not_now">Non ora</string>
+    <string name="share_chooser_title">Condividi Navia</string>
+    <string name="share_subject">Navia – una mappa che puoi toccare</string>
+    <string name="share_text">Scopri Navia, una mappa che puoi toccare! Fai scorrere il dito sullo schermo e ascolta le strade, i negozi e i luoghi proprio sotto di esso. Completamente accessibile, pensata per persone cieche e ipovedenti e utile a tutti. Gratis su Google Play: %1$s</string>
 </resources>

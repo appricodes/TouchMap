@@ -214,4 +214,13 @@
     <string name="theme_system">Mint az eszköz</string>
     <string name="theme_light">Világos</string>
     <string name="theme_dark">Sötét</string>
+    <string name="menu_share">Navia megosztása</string>
+    <string name="share_prompt_title">Tetszik a Navia? Mondd el másoknak is!</string>
+    <string name="share_prompt_message">Szeretnéd megosztani a Naviát másokkal? A letöltési linket elküldheted e-mailben, WhatsAppon vagy bármilyen más alkalmazáson vagy közösségi hálózaton keresztül – egy barátodnak, családtagodnak vagy bárkinek, aki hasznát venné egy megérinthető és hallható térképnek.</string>
+    <string name="share_prompt_never">Ne kérdezz többet</string>
+    <string name="share_prompt_share">Megosztás</string>
+    <string name="share_prompt_not_now">Most nem</string>
+    <string name="share_chooser_title">Navia megosztása</string>
+    <string name="share_subject">Navia – egy térkép, amit megérinthetsz</string>
+    <string name="share_text">Ismerd meg a Naviát, egy térképet, amit megérinthetsz! Húzd végig az ujjadat a képernyőn, és hallgasd meg az alatta lévő utcákat, üzleteket és helyeket. Teljesen akadálymentes, vak és gyengénlátó emberek számára készült, és mindenkinek hasznos. Ingyenes a Google Playen: %1$s</string>
 </resources>

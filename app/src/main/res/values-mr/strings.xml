@@ -214,4 +214,13 @@
     <string name="theme_system">डिव्हाइसप्रमाणे</string>
     <string name="theme_light">फिकट</string>
     <string name="theme_dark">गडद</string>
+    <string name="menu_share">Navia शेअर करा</string>
+    <string name="share_prompt_title">Navia आवडले? इतरांना सांगा!</string>
+    <string name="share_prompt_message">तुम्हाला Navia इतरांसोबत शेअर करायचे आहे का? तुम्ही डाउनलोड लिंक ईमेल, व्हॉट्सअ‍ॅप किंवा इतर कोणत्याही अ‍ॅप किंवा सोशल नेटवर्कवर पाठवू शकता — मित्र, कुटुंबातील सदस्य किंवा स्पर्श करून आणि ऐकून वापरता येणाऱ्या नकाशाचा उपयोग करू शकेल अशा कोणालाही.</string>
+    <string name="share_prompt_never">पुन्हा विचारू नका</string>
+    <string name="share_prompt_share">शेअर करा</string>
+    <string name="share_prompt_not_now">आता नाही</string>
+    <string name="share_chooser_title">Navia शेअर करा</string>
+    <string name="share_subject">Navia – स्पर्श करता येणारा नकाशा</string>
+    <string name="share_text">Navia शोधा, स्पर्श करता येणारा नकाशा! स्क्रीनवर बोट फिरवा आणि अगदी खालील रस्ते, दुकाने आणि ठिकाणे ऐका. पूर्णपणे सुलभ, अंध आणि कमी दृष्टी असलेल्या लोकांसाठी तयार केलेला, आणि सर्वांसाठी मजेदार. Google Play वर मोफत: %1$s</string>
 </resources>

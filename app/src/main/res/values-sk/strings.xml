@@ -202,4 +202,13 @@
     <string name="theme_system">Podľa zariadenia</string>
     <string name="theme_light">Svetlý</string>
     <string name="theme_dark">Tmavý</string>
+    <string name="menu_share">Zdieľať Navia</string>
+    <string name="share_prompt_title">Páči sa vám Navia? Povedzte to ďalším!</string>
+    <string name="share_prompt_message">Chcete Navia zdieľať s ostatnými? Odkaz na stiahnutie môžete poslať e-mailom, cez WhatsApp alebo inú aplikáciu či sociálnu sieť – priateľovi, príbuznému alebo komukoľvek, kto by využil mapu, ktorej sa možno dotknúť a počúvať ju.</string>
+    <string name="share_prompt_never">Viac sa nepýtať</string>
+    <string name="share_prompt_share">Zdieľať</string>
+    <string name="share_prompt_not_now">Teraz nie</string>
+    <string name="share_chooser_title">Zdieľať Navia</string>
+    <string name="share_subject">Navia – mapa, ktorej sa môžete dotknúť</string>
+    <string name="share_text">Objavte Navia, mapu, ktorej sa môžete dotknúť! Prechádzajte prstom po obrazovke a počúvajte ulice, obchody a miesta priamo pod ním. Plne prístupná, vytvorená pre nevidiacich a slabozrakých a užitočná pre všetkých. Zadarmo v Google Play: %1$s</string>
 </resources>

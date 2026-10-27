@@ -214,4 +214,13 @@
     <string name="theme_system">Taki jak urządzenie</string>
     <string name="theme_light">Jasny</string>
     <string name="theme_dark">Ciemny</string>
+    <string name="menu_share">Udostępnij Navia</string>
+    <string name="share_prompt_title">Podoba Ci się Navia? Powiedz innym!</string>
+    <string name="share_prompt_message">Chcesz udostępnić Navia innym? Link do pobrania możesz wysłać e-mailem, przez WhatsApp albo inną aplikację lub sieć społecznościową – znajomemu, komuś z rodziny lub każdemu, komu przyda się mapa, której można dotknąć i posłuchać.</string>
+    <string name="share_prompt_never">Nie pytaj ponownie</string>
+    <string name="share_prompt_share">Udostępnij</string>
+    <string name="share_prompt_not_now">Nie teraz</string>
+    <string name="share_chooser_title">Udostępnij Navia</string>
+    <string name="share_subject">Navia – mapa, której możesz dotknąć</string>
+    <string name="share_text">Poznaj Navia, mapę, której możesz dotknąć! Przesuwaj palcem po ekranie i słuchaj ulic, sklepów i miejsc tuż pod nim. W pełni dostępna, stworzona dla osób niewidomych i słabowidzących, a przy tym przydatna dla wszystkich. Za darmo w Google Play: %1$s</string>
 </resources>

@@ -214,4 +214,13 @@
     <string name="theme_system">ڈیوائس کے مطابق</string>
     <string name="theme_light">روشن</string>
     <string name="theme_dark">گہری</string>
+    <string name="menu_share">Navia شیئر کریں</string>
+    <string name="share_prompt_title">Navia پسند آیا؟ دوسروں کو بتائیں!</string>
+    <string name="share_prompt_message">کیا آپ Navia کو دوسروں کے ساتھ شیئر کرنا چاہیں گے؟ آپ ڈاؤن لوڈ لنک ای میل، واٹس ایپ یا کسی بھی دوسری ایپ یا سوشل نیٹ ورک پر بھیج سکتے ہیں — کسی دوست، خاندان کے رکن یا کسی ایسے شخص کو جو چھو کر اور سن کر استعمال ہونے والے نقشے سے فائدہ اٹھا سکے۔</string>
+    <string name="share_prompt_never">دوبارہ نہ پوچھیں</string>
+    <string name="share_prompt_share">شیئر کریں</string>
+    <string name="share_prompt_not_now">ابھی نہیں</string>
+    <string name="share_chooser_title">Navia شیئر کریں</string>
+    <string name="share_subject">Navia – چھو کر دیکھنے والا نقشہ</string>
+    <string name="share_text">Navia دریافت کریں، ایک ایسا نقشہ جسے آپ چھو سکتے ہیں! اسکرین پر انگلی پھیریں اور اس کے عین نیچے موجود سڑکیں، دکانیں اور جگہیں سنیں۔ مکمل طور پر قابلِ رسائی، نابینا اور کم بینائی والے افراد کے لیے بنایا گیا، اور سب کے لیے دلچسپ۔ Google Play پر مفت: %1$s</string>
 </resources>

@@ -214,4 +214,13 @@
     <string name="theme_system">పరికరం వలె</string>
     <string name="theme_light">లైట్</string>
     <string name="theme_dark">డార్క్</string>
+    <string name="menu_share">Navia ను షేర్ చేయండి</string>
+    <string name="share_prompt_title">Navia నచ్చిందా? ఇతరులకు చెప్పండి!</string>
+    <string name="share_prompt_message">మీరు Navia ను ఇతరులతో షేర్ చేయాలనుకుంటున్నారా? డౌన్‌లోడ్ లింక్‌ను ఇమెయిల్, వాట్సాప్ లేదా ఏదైనా ఇతర యాప్ లేదా సోషల్ నెట్‌వర్క్ ద్వారా పంపవచ్చు — స్నేహితుడికి, కుటుంబ సభ్యుడికి లేదా తాకి వినగలిగే మ్యాప్‌ను ఉపయోగించగల ఎవరికైనా.</string>
+    <string name="share_prompt_never">మళ్లీ అడగవద్దు</string>
+    <string name="share_prompt_share">షేర్ చేయండి</string>
+    <string name="share_prompt_not_now">ఇప్పుడు కాదు</string>
+    <string name="share_chooser_title">Navia ను షేర్ చేయండి</string>
+    <string name="share_subject">Navia – తాకగలిగే మ్యాప్</string>
+    <string name="share_text">తాకగలిగే మ్యాప్ అయిన Navia ను కనుగొనండి! స్క్రీన్ మీద వేలును జరిపి దాని కింద ఉన్న వీధులు, దుకాణాలు, ప్రదేశాలను వినండి. పూర్తిగా అందుబాటులో ఉండేది, అంధులు మరియు తక్కువ చూపు ఉన్నవారి కోసం రూపొందించబడింది, అందరికీ ఆనందదాయకం. Google Play లో ఉచితం: %1$s</string>
 </resources>

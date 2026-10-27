@@ -202,4 +202,13 @@
     <string name="theme_system">與裝置相同</string>
     <string name="theme_light">淺色</string>
     <string name="theme_dark">深色</string>
+    <string name="menu_share">分享 Navia</string>
+    <string name="share_prompt_title">喜歡 Navia 嗎？告訴更多人吧！</string>
+    <string name="share_prompt_message">想把 Navia 分享給其他人嗎？您可以透過電郵、WhatsApp 或任何其他應用程式或社交網絡，把下載連結傳給朋友、家人，或任何需要一張可以觸摸、可以聆聽的地圖的人。</string>
+    <string name="share_prompt_never">不再詢問</string>
+    <string name="share_prompt_share">分享</string>
+    <string name="share_prompt_not_now">暫不</string>
+    <string name="share_chooser_title">分享 Navia</string>
+    <string name="share_subject">Navia – 可以觸摸的地圖</string>
+    <string name="share_text">來認識 Navia，一張可以觸摸的地圖！用手指在螢幕上滑動，就能聽到指尖下方的街道、商店和地點。完全無障礙，專為盲人和低視力人士打造，對所有人都很有趣。Google Play 免費下載：%1$s</string>
 </resources>

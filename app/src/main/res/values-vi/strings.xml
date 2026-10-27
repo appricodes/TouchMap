@@ -214,4 +214,13 @@
     <string name="theme_system">Giống thiết bị</string>
     <string name="theme_light">Sáng</string>
     <string name="theme_dark">Tối</string>
+    <string name="menu_share">Chia sẻ Navia</string>
+    <string name="share_prompt_title">Bạn thích Navia? Hãy kể cho mọi người!</string>
+    <string name="share_prompt_message">Bạn có muốn chia sẻ Navia với người khác không? Bạn có thể gửi liên kết tải xuống qua email, WhatsApp hoặc bất kỳ ứng dụng hay mạng xã hội nào khác — cho bạn bè, người thân hoặc bất kỳ ai cần một bản đồ có thể chạm và nghe.</string>
+    <string name="share_prompt_never">Không hỏi lại</string>
+    <string name="share_prompt_share">Chia sẻ</string>
+    <string name="share_prompt_not_now">Để sau</string>
+    <string name="share_chooser_title">Chia sẻ Navia</string>
+    <string name="share_subject">Navia – bản đồ bạn có thể chạm vào</string>
+    <string name="share_text">Khám phá Navia, bản đồ bạn có thể chạm vào! Lướt ngón tay trên màn hình và nghe các con đường, cửa hàng và địa điểm ngay bên dưới. Hoàn toàn dễ tiếp cận, được tạo ra cho người khiếm thị và người nhìn kém, và thú vị với mọi người. Miễn phí trên Google Play: %1$s</string>
 </resources>

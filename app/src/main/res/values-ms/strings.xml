@@ -214,4 +214,13 @@
     <string name="theme_system">Sama seperti peranti</string>
     <string name="theme_light">Cerah</string>
     <string name="theme_dark">Gelap</string>
+    <string name="menu_share">Kongsi Navia</string>
+    <string name="share_prompt_title">Suka Navia? Ceritakan kepada orang lain!</string>
+    <string name="share_prompt_message">Mahu berkongsi Navia dengan orang lain? Anda boleh menghantar pautan muat turun melalui e-mel, WhatsApp atau mana-mana aplikasi atau rangkaian sosial lain — kepada rakan, ahli keluarga atau sesiapa yang boleh menggunakan peta yang boleh disentuh dan didengar.</string>
+    <string name="share_prompt_never">Jangan tanya lagi</string>
+    <string name="share_prompt_share">Kongsi</string>
+    <string name="share_prompt_not_now">Bukan sekarang</string>
+    <string name="share_chooser_title">Kongsi Navia</string>
+    <string name="share_subject">Navia – peta yang boleh anda sentuh</string>
+    <string name="share_text">Temui Navia, peta yang boleh anda sentuh! Luncurkan jari di skrin dan dengar jalan, kedai dan tempat tepat di bawahnya. Boleh diakses sepenuhnya, dibina untuk orang buta dan cacat penglihatan, dan menyeronokkan untuk semua orang. Percuma di Google Play: %1$s</string>
 </resources>

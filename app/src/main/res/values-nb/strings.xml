@@ -202,4 +202,13 @@
     <string name="theme_system">Samme som enheten</string>
     <string name="theme_light">Lyst</string>
     <string name="theme_dark">Mørkt</string>
+    <string name="menu_share">Del Navia</string>
+    <string name="share_prompt_title">Liker du Navia? Fortell det videre!</string>
+    <string name="share_prompt_message">Vil du dele Navia med andre? Du kan sende nedlastingslenken på e-post, WhatsApp eller en annen app eller et sosialt nettverk – til en venn, et familiemedlem eller alle som kan ha nytte av et kart man kan ta på og høre.</string>
+    <string name="share_prompt_never">Ikke spør igjen</string>
+    <string name="share_prompt_share">Del</string>
+    <string name="share_prompt_not_now">Ikke nå</string>
+    <string name="share_chooser_title">Del Navia</string>
+    <string name="share_subject">Navia – et kart du kan ta på</string>
+    <string name="share_text">Oppdag Navia, et kart du kan ta på! Før fingeren over skjermen og hør gatene, butikkene og stedene rett under den. Fullt tilgjengelig, laget for blinde og svaksynte, og morsomt for alle. Gratis på Google Play: %1$s</string>
 </resources>

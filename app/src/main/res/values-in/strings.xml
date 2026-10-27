@@ -214,4 +214,13 @@
     <string name="theme_system">Sama seperti perangkat</string>
     <string name="theme_light">Terang</string>
     <string name="theme_dark">Gelap</string>
+    <string name="menu_share">Bagikan Navia</string>
+    <string name="share_prompt_title">Suka Navia? Ceritakan ke orang lain!</string>
+    <string name="share_prompt_message">Ingin membagikan Navia kepada orang lain? Anda dapat mengirim tautan unduhan lewat email, WhatsApp, atau aplikasi dan jejaring sosial lainnya — kepada teman, anggota keluarga, atau siapa pun yang dapat memanfaatkan peta yang bisa disentuh dan didengar.</string>
+    <string name="share_prompt_never">Jangan tanya lagi</string>
+    <string name="share_prompt_share">Bagikan</string>
+    <string name="share_prompt_not_now">Nanti saja</string>
+    <string name="share_chooser_title">Bagikan Navia</string>
+    <string name="share_subject">Navia – peta yang bisa Anda sentuh</string>
+    <string name="share_text">Temukan Navia, peta yang bisa Anda sentuh! Geser jari di layar dan dengarkan jalan, toko, dan tempat tepat di bawahnya. Sepenuhnya aksesibel, dibuat untuk tunanetra dan penyandang low vision, dan menyenangkan bagi semua orang. Gratis di Google Play: %1$s</string>
 </resources>

@@ -214,4 +214,13 @@
     <string name="theme_system">ഉപകരണത്തിന് സമാനം</string>
     <string name="theme_light">ലൈറ്റ്</string>
     <string name="theme_dark">ഡാർക്ക്</string>
+    <string name="menu_share">Navia പങ്കിടുക</string>
+    <string name="share_prompt_title">Navia ഇഷ്ടപ്പെട്ടോ? മറ്റുള്ളവരോടും പറയൂ!</string>
+    <string name="share_prompt_message">Navia മറ്റുള്ളവരുമായി പങ്കിടാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ? ഇമെയിൽ, വാട്ട്സ്ആപ്പ് അല്ലെങ്കിൽ മറ്റേതെങ്കിലും ആപ്പ് / സോഷ്യൽ നെറ്റ്‌വർക്ക് വഴി ഡൗൺലോഡ് ലിങ്ക് അയയ്ക്കാം — സുഹൃത്തിനോ കുടുംബാംഗത്തിനോ സ്പർശിച്ചും കേട്ടും ഉപയോഗിക്കാവുന്ന മാപ്പ് പ്രയോജനപ്പെടുന്ന ആർക്കും.</string>
+    <string name="share_prompt_never">ഇനി ചോദിക്കരുത്</string>
+    <string name="share_prompt_share">പങ്കിടുക</string>
+    <string name="share_prompt_not_now">ഇപ്പോൾ വേണ്ട</string>
+    <string name="share_chooser_title">Navia പങ്കിടുക</string>
+    <string name="share_subject">Navia – സ്പർശിക്കാവുന്ന മാപ്പ്</string>
+    <string name="share_text">സ്പർശിക്കാവുന്ന മാപ്പായ Navia കണ്ടെത്തൂ! സ്ക്രീനിനു മുകളിലൂടെ വിരൽ നീക്കി തൊട്ടുതാഴെയുള്ള തെരുവുകളും കടകളും സ്ഥലങ്ങളും കേൾക്കൂ. പൂർണ്ണമായും ഉപയോഗക്ഷമം, അന്ധർക്കും കാഴ്ചക്കുറവുള്ളവർക്കും വേണ്ടി നിർമ്മിച്ചത്, എല്ലാവർക്കും രസകരം. Google Play-യിൽ സൗജന്യം: %1$s</string>
 </resources>

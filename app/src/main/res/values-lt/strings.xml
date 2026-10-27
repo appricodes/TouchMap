@@ -202,4 +202,13 @@
     <string name="theme_system">Kaip įrenginyje</string>
     <string name="theme_light">Šviesi</string>
     <string name="theme_dark">Tamsi</string>
+    <string name="menu_share">Bendrinti „Navia“</string>
+    <string name="share_prompt_title">Patinka „Navia“? Papasakokite kitiems!</string>
+    <string name="share_prompt_message">Ar norėtumėte pasidalyti „Navia“ su kitais? Atsisiuntimo nuorodą galite išsiųsti el. paštu, „WhatsApp“ ar bet kuria kita programa ar socialiniu tinklu – draugui, šeimos nariui ar bet kam, kam praverstų žemėlapis, kurį galima paliesti ir išgirsti.</string>
+    <string name="share_prompt_never">Daugiau neklausti</string>
+    <string name="share_prompt_share">Bendrinti</string>
+    <string name="share_prompt_not_now">Ne dabar</string>
+    <string name="share_chooser_title">Bendrinti „Navia“</string>
+    <string name="share_subject">„Navia“ – žemėlapis, kurį galite paliesti</string>
+    <string name="share_text">Atraskite „Navia“ – žemėlapį, kurį galite paliesti! Braukite pirštu per ekraną ir išgirskite gatves, parduotuves ir vietas tiesiai po juo. Visiškai prieinama, sukurta akliesiems ir silpnaregiams, o kartu naudinga visiems. Nemokamai „Google Play“: %1$s</string>
 </resources>

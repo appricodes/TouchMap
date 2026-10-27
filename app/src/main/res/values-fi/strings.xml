@@ -213,4 +213,13 @@
     <string name="theme_system">Sama kuin laitteessa</string>
     <string name="theme_light">Vaalea</string>
     <string name="theme_dark">Tumma</string>
+    <string name="menu_share">Jaa Navia</string>
+    <string name="share_prompt_title">Pidätkö Naviasta? Kerro muillekin!</string>
+    <string name="share_prompt_message">Haluatko jakaa Navian muille? Voit lähettää latauslinkin sähköpostilla, WhatsAppilla tai millä tahansa muulla sovelluksella tai sosiaalisella verkostolla – ystävälle, perheenjäsenelle tai kenelle tahansa, joka hyötyisi kartasta, jota voi koskettaa ja kuunnella.</string>
+    <string name="share_prompt_never">Älä kysy uudelleen</string>
+    <string name="share_prompt_share">Jaa</string>
+    <string name="share_prompt_not_now">Ei nyt</string>
+    <string name="share_chooser_title">Jaa Navia</string>
+    <string name="share_subject">Navia – kartta, jota voi koskettaa</string>
+    <string name="share_text">Tutustu Naviaan, karttaan jota voi koskettaa! Liu\'uta sormeasi näytöllä ja kuuntele sen alla olevat kadut, kaupat ja paikat. Täysin saavutettava, tehty sokeille ja heikkonäköisille, ja hauska kaikille. Ilmainen Google Playssa: %1$s</string>
 </resources>

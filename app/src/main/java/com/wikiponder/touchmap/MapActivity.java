@@ -40,6 +40,7 @@ import com.wikiponder.touchmap.classes.ui.FilterDialog;
 import com.wikiponder.touchmap.classes.ui.ImportProgressDialog;
 import com.wikiponder.touchmap.classes.ui.NodeAddingDialogBox;
 import com.wikiponder.touchmap.classes.ui.NodeEditDialogBox;
+import com.wikiponder.touchmap.classes.ui.SharePromptDialog;
 import com.wikiponder.touchmap.databinding.ActivityMapBinding;
 
 import java.util.ArrayList;
@@ -243,6 +244,11 @@ public class MapActivity extends BaseActivity
 		// also registers itself, Android runs the new activity's onStart() before this onStop() —
 		// an unconditional null here would wipe out its just-made registration.
 		ImportState.get().clearListener(this);
+	}
+
+	@Override
+	protected boolean interceptExit(Runnable exit) {
+		return SharePromptDialog.showIfDue(this, exit);
 	}
 
 	@Override
@@ -671,6 +677,9 @@ public class MapActivity extends BaseActivity
 				return true;
 			} else if (id == R.id.menu_credits) {
 				startActivity(new Intent(MapActivity.this, CreditsActivity.class));
+				return true;
+			} else if (id == R.id.menu_share) {
+				SharePromptDialog.showNow(MapActivity.this);
 				return true;
 			} else if (id == R.id.menu_about) {
 				startActivity(new Intent(MapActivity.this, AboutActivity.class));

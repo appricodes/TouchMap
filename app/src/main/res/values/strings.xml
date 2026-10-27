@@ -129,6 +129,15 @@
     <string name="render_map_title">Show the map (Beta)</string>
     <string name="render_map_summary_on">The map is drawn on screen for low-vision users. This drawing is experimental and still improving.</string>
     <string name="render_map_summary_off">The map is not drawn; explore by touch and sound only.</string>
+    <string name="menu_share">Share Navia</string>
+    <string name="share_prompt_title">Enjoy Navia? Spread the word!</string>
+    <string name="share_prompt_message">Would you like to share Navia with others? You can send the download link by email, WhatsApp or any other app or social network — to a friend, a family member, or anyone who could use a map they can touch and hear.</string>
+    <string name="share_prompt_never">Don\'t ask again</string>
+    <string name="share_prompt_share">Share</string>
+    <string name="share_prompt_not_now">Not now</string>
+    <string name="share_chooser_title">Share Navia</string>
+    <string name="share_subject">Navia – a map you can touch</string>
+    <string name="share_text">Discover Navia, a map you can touch! Slide your finger across the screen and hear the streets, shops and places right under it. Fully accessible and built for blind and low-vision people, and fun for everyone. Free on Google Play: %1$s</string>
     <string name="theme_title">Theme</string>
     <string name="theme_system">Same as device</string>
     <string name="theme_light">Light</string>

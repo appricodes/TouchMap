@@ -214,4 +214,13 @@
     <string name="theme_system">مثل الجهاز</string>
     <string name="theme_light">فاتح</string>
     <string name="theme_dark">داكن</string>
+    <string name="menu_share">مشاركة Navia</string>
+    <string name="share_prompt_title">هل أعجبك Navia؟ شاركه مع الآخرين!</string>
+    <string name="share_prompt_message">هل تود مشاركة Navia مع الآخرين؟ يمكنك إرسال رابط التنزيل عبر البريد الإلكتروني أو واتساب أو أي تطبيق أو شبكة اجتماعية أخرى، إلى صديق أو أحد أفراد العائلة أو أي شخص قد يستفيد من خريطة يمكنه لمسها وسماعها.</string>
+    <string name="share_prompt_never">لا تسأل مرة أخرى</string>
+    <string name="share_prompt_share">مشاركة</string>
+    <string name="share_prompt_not_now">ليس الآن</string>
+    <string name="share_chooser_title">مشاركة Navia</string>
+    <string name="share_subject">Navia – خريطة يمكنك لمسها</string>
+    <string name="share_text">اكتشف Navia، خريطة يمكنك لمسها! مرّر إصبعك على الشاشة واسمع الشوارع والمتاجر والأماكن التي تحته مباشرة. يمكن للجميع الوصول إليها، وهي مصممة للمكفوفين وضعاف البصر، وممتعة للجميع. مجاني على Google Play: %1$s</string>
 </resources>

@@ -202,4 +202,13 @@
     <string name="theme_system">Као на уређају</string>
     <string name="theme_light">Светла</string>
     <string name="theme_dark">Тамна</string>
+    <string name="menu_share">Подели Navia</string>
+    <string name="share_prompt_title">Допада вам се Navia? Реците и другима!</string>
+    <string name="share_prompt_message">Желите ли да поделите Navia са другима? Везу за преузимање можете послати имејлом, преко WhatsApp-а или било које друге апликације или друштвене мреже – пријатељу, члану породице или свима којима би користила мапа коју могу да додирну и чују.</string>
+    <string name="share_prompt_never">Не питај поново</string>
+    <string name="share_prompt_share">Подели</string>
+    <string name="share_prompt_not_now">Не сада</string>
+    <string name="share_chooser_title">Подели Navia</string>
+    <string name="share_subject">Navia – мапа коју можете да додирнете</string>
+    <string name="share_text">Откријте Navia, мапу коју можете да додирнете! Превуците прстом по екрану и чујте улице, продавнице и места тачно испод њега. Потпуно приступачна, направљена за слепе и слабовиде особе, а корисна свима. Бесплатно на Google Play-у: %1$s</string>
 </resources>

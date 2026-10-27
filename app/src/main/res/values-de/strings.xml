@@ -214,4 +214,13 @@
     <string name="theme_system">Wie das Gerät</string>
     <string name="theme_light">Hell</string>
     <string name="theme_dark">Dunkel</string>
+    <string name="menu_share">Navia teilen</string>
+    <string name="share_prompt_title">Gefällt dir Navia? Erzähl es weiter!</string>
+    <string name="share_prompt_message">Möchtest du Navia mit anderen teilen? Den Download-Link kannst du per E-Mail, WhatsApp oder über jede andere App oder jedes soziale Netzwerk senden – an Freunde, Familie oder alle, die eine Karte brauchen können, die man berühren und hören kann.</string>
+    <string name="share_prompt_never">Nicht mehr fragen</string>
+    <string name="share_prompt_share">Teilen</string>
+    <string name="share_prompt_not_now">Jetzt nicht</string>
+    <string name="share_chooser_title">Navia teilen</string>
+    <string name="share_subject">Navia – eine Karte zum Anfassen</string>
+    <string name="share_text">Entdecke Navia, eine Karte zum Anfassen! Streiche mit dem Finger über den Bildschirm und höre die Straßen, Geschäfte und Orte direkt darunter. Vollständig barrierefrei, für blinde und sehbehinderte Menschen gemacht und für alle ein Gewinn. Kostenlos bei Google Play: %1$s</string>
 </resources>
