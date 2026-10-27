@@ -113,6 +113,20 @@ public class MapView extends View {
 	private final Paint worldPlaceBorderPaint;
 	private final Path userMarkerPath = new Path();
 
+	// Point markers differ in shape as well as colour, so categories stay tellable apart without
+	// relying on colour alone (red/green/orange blur together for many colour-blind people).
+	private static final int SHAPE_CIRCLE = 0;
+	private static final int SHAPE_SQUARE = 1;
+	private static final int SHAPE_DIAMOND = 2;
+	private static final int SHAPE_TRIANGLE_UP = 3;
+	private static final int SHAPE_TRIANGLE_DOWN = 4;
+	private static final int SHAPE_PLUS = 5;
+	private static final int SHAPE_CROSS = 6;
+	private static final int SHAPE_HEXAGON = 7;
+	private static final int SHAPE_STAR = 8;
+	private static final int SHAPE_COUNT = 9;
+	private final Path[] markerShapes = new Path[SHAPE_COUNT]; // index SHAPE_CIRCLE unused (drawCircle)
+
 	// --- Map State ---
 	private Location userLocation = new Location("");
 	private Location centerLocation = new Location("");
@@ -321,6 +335,8 @@ public class MapView extends View {
 
 		this.nodeCategoryFillPaints = buildNodeCategoryPaints();
 
+		buildMarkerShapes(dp(4.4f));
+
 		this.userFillPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 		this.userFillPaint.setStyle(Paint.Style.FILL);
 		this.userFillPaint.setColor(Color.parseColor("#0B6E4F"));
@@ -364,6 +380,69 @@ public class MapView extends View {
 		this.worldPlaceBorderPaint.setStyle(Paint.Style.STROKE);
 		this.worldPlaceBorderPaint.setColor(Color.parseColor("#1B3A5C"));
 		this.worldPlaceBorderPaint.setStrokeWidth(dp(1.2f));
+	}
+
+	/** Closed polygons centred on (0,0), each fitting a circle of radius r. */
+	private void buildMarkerShapes(float r) {
+		markerShapes[SHAPE_SQUARE] = polygon(4, r * 0.88f, 45f);
+		markerShapes[SHAPE_DIAMOND] = polygon(4, r * 1.15f, 0f);
+		markerShapes[SHAPE_TRIANGLE_UP] = polygon(3, r * 1.2f, -90f);
+		markerShapes[SHAPE_TRIANGLE_DOWN] = polygon(3, r * 1.2f, 90f);
+		markerShapes[SHAPE_HEXAGON] = polygon(6, r, 0f);
+		markerShapes[SHAPE_PLUS] = cross(r * 1.15f, 0f);
+		markerShapes[SHAPE_CROSS] = cross(r * 1.15f, 45f);
+		Path star = new Path();
+		for (int i = 0; i < 10; i++) {
+			double a = Math.toRadians(-90 + i * 36);
+			float rad = (i % 2 == 0) ? r * 1.3f : r * 0.55f;
+			float x = (float) (Math.cos(a) * rad), y = (float) (Math.sin(a) * rad);
+			if (i == 0) star.moveTo(x, y);
+			else star.lineTo(x, y);
+		}
+		star.close();
+		markerShapes[SHAPE_STAR] = star;
+	}
+
+	private static Path polygon(int sides, float r, float startDeg) {
+		Path path = new Path();
+		for (int i = 0; i < sides; i++) {
+			double a = Math.toRadians(startDeg + i * 360.0 / sides);
+			float x = (float) (Math.cos(a) * r), y = (float) (Math.sin(a) * r);
+			if (i == 0) path.moveTo(x, y);
+			else path.lineTo(x, y);
+		}
+		path.close();
+		return path;
+	}
+
+	/** A plus-shaped polygon with arm length r and arm width 0.7r, rotated by rotDeg. */
+	private static Path cross(float r, float rotDeg) {
+		float w = r * 0.35f;
+		float[] pts = {-w, -r, w, -r, w, -w, r, -w, r, w, w, w, w, r, -w, r, -w, w, -r, w, -r, -w, -w, -w};
+		double a = Math.toRadians(rotDeg);
+		float c = (float) Math.cos(a), sn = (float) Math.sin(a);
+		Path path = new Path();
+		for (int i = 0; i < pts.length; i += 2) {
+			float x = pts[i] * c - pts[i + 1] * sn, y = pts[i] * sn + pts[i + 1] * c;
+			if (i == 0) path.moveTo(x, y);
+			else path.lineTo(x, y);
+		}
+		path.close();
+		return path;
+	}
+
+	private static int shapeForCategory(int catId) {
+		switch (catId) {
+			case OSMDatabaseHelper.CATEGORY_HEALTH: return SHAPE_PLUS;
+			case OSMDatabaseHelper.CATEGORY_TRAFFIC: return SHAPE_TRIANGLE_UP;
+			case OSMDatabaseHelper.CATEGORY_SHOP: return SHAPE_SQUARE;
+			case OSMDatabaseHelper.CATEGORY_AMENITY: return SHAPE_DIAMOND;
+			case OSMDatabaseHelper.CATEGORY_LEISURE: return SHAPE_HEXAGON;
+			case OSMDatabaseHelper.CATEGORY_TOURISM: return SHAPE_STAR;
+			case OSMDatabaseHelper.CATEGORY_NATURAL: return SHAPE_TRIANGLE_DOWN;
+			case OSMDatabaseHelper.CATEGORY_BARRIER: return SHAPE_CROSS;
+			default: return SHAPE_CIRCLE; // manual points, addresses, intersections, world places, other
+		}
 	}
 
 	private float dp(float v) {
@@ -694,13 +773,25 @@ public class MapView extends View {
 		// Points of interest as bordered dots, coloured by category. World-place stand-ins, plain
 		// addresses and synthesized intersections render smaller than real POIs: the first so they're
 		// never mistaken for imported points, the others because they're by far the most numerous.
+		// own copies of the marker paths: this can run on the render thread while the UI thread draws
+		Path[] shapes = new Path[SHAPE_COUNT];
+		for (int i = 0; i < SHAPE_COUNT; i++) shapes[i] = markerShapes[i] == null ? null : new Path(markerShapes[i]);
 		for (NodePoint p : nodes) {
 			float r = nodeRadius(p);
 			boolean isWorldPlace = OSMDatabaseHelper.isWorldPlaceCategory(p.catId);
 			Paint fill = isWorldPlace ? worldPlaceFillPaint : nodeCategoryFillPaints.get(p.catId, nodeFillPaint);
 			Paint border = isWorldPlace ? worldPlaceBorderPaint : (p.favorite ? favoriteBorderPaint : nodeBorderPaint);
-			canvas.drawCircle(p.x, p.y, r, fill);
-			canvas.drawCircle(p.x, p.y, r, border);
+			int shape = isWorldPlace ? SHAPE_CIRCLE : shapeForCategory(p.catId);
+			if (shape == SHAPE_CIRCLE) {
+				canvas.drawCircle(p.x, p.y, r, fill);
+				canvas.drawCircle(p.x, p.y, r, border);
+			} else {
+				int saved = canvas.save();
+				canvas.translate(p.x, p.y);
+				canvas.drawPath(shapes[shape], fill);
+				canvas.drawPath(shapes[shape], border);
+				canvas.restoreToCount(saved);
+			}
 		}
 	}
 
@@ -1110,7 +1201,9 @@ public class MapView extends View {
 		touchLocation.setLatitude(centerLocation.getLatitude() + deltaLat);
 		touchLocation.setLongitude(centerLocation.getLongitude() + deltaLon);
 		
-		NearestElement ne = MyApplication.getMapTileManager(context).getNearestElement(touchLocation, currentZoom, true);
+		NearestElement ne = MyApplication.getMapTileManager(context).getNearestElement(touchLocation, currentZoom, true,
+				// a point within this many on-screen dp of being as close as a road wins over the road
+				dp(10f) * metersPerPixel);
 		
 		if (com.wikiponder.touchmap.BuildConfig.DEBUG && ne.element != null) logHit(touchX, touchY, ne);
 

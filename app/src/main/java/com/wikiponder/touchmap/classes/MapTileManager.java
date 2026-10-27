@@ -725,6 +725,19 @@ public class MapTileManager {
 	}
 
 	public NearestElement getNearestElement(Location location, float zoomLevel, boolean includeRoads) {
+		return getNearestElement(location, zoomLevel, includeRoads, 0);
+	}
+
+	/**
+	 * What is under a finger at {@code location}. Points of interest win over roads and other ways
+	 * whenever the point is within {@code nodePreferenceMeters} of being as close as the nearest way:
+	 * many points (crossings, traffic lights, bus stops) sit exactly on a road's centre line, so a
+	 * plain "nearest wins" rule made them unreachable — the road was always at distance zero. The
+	 * caller passes a fixed on-screen distance converted to metres at the current zoom, so the
+	 * behaviour is the same whether the map is zoomed in or out.
+	 */
+	public NearestElement getNearestElement(Location location, float zoomLevel, boolean includeRoads,
+											double nodePreferenceMeters) {
 		// Touch/hover exploration — always the map-viewport cache, even if it's panned away from
 		// the user's physical location, since this answers "what's under my finger on screen".
 		NodeWayCandidates candidates = candidatesNear(location.getLatitude(), location.getLongitude(), exploreCache);
@@ -735,10 +748,11 @@ public class MapTileManager {
 		double touchLon = location.getLongitude();
 		double cosLat = Math.cos(Math.toRadians(touchLat));
 
-		double minDistSq = Double.MAX_VALUE;
+		double nodeMinDistSq = Double.MAX_VALUE;
 		NodeRecord bestNode = null;
+		double wayMinDistSq = Double.MAX_VALUE;
 		WayRecord bestWay = null;
-		double bestLat = 0, bestLon = 0;
+		double wayLat = 0, wayLon = 0;
 
 		for (NodeRecord nd : nodes) {
 			boolean isWorldPlace = OSMDatabaseHelper.isWorldPlaceCategory(nd.catId);
@@ -749,12 +763,9 @@ public class MapTileManager {
 			double dx = metersEast(nd.lon - touchLon, cosLat);
 			double dy = metersNorth(nd.lat - touchLat);
 			double d2 = dx * dx + dy * dy;
-			if (d2 < minDistSq) {
-				minDistSq = d2;
+			if (d2 < nodeMinDistSq) {
+				nodeMinDistSq = d2;
 				bestNode = nd;
-				bestWay = null;
-				bestLat = nd.lat;
-				bestLon = nd.lon;
 			}
 		}
 
@@ -769,25 +780,26 @@ public class MapTileManager {
 				double y2 = metersNorth(w.lats[j + 1] - touchLat);
 				Point nearest = new Point();
 				double d2 = Utils.getDistanceSquareToLineSegment(0, 0, (int) x1, (int) y1, (int) x2, (int) y2, nearest);
-				if (d2 < minDistSq) {
-					minDistSq = d2;
+				if (d2 < wayMinDistSq) {
+					wayMinDistSq = d2;
 					bestWay = w;
-					bestNode = null;
-					bestLat = latFromMeters(nearest.y, touchLat);
-					bestLon = lonFromMeters(nearest.x, touchLon, cosLat);
+					wayLat = latFromMeters(nearest.y, touchLat);
+					wayLon = lonFromMeters(nearest.x, touchLon, cosLat);
 				}
 			}
 		}
 
-		if (bestNode != null) {
-			MapElement el = new MapElement(bestNode.favorite, bestNode.id, bestLat, bestLon,
+		boolean useNode = bestNode != null
+				&& (bestWay == null || Math.sqrt(nodeMinDistSq) - nodePreferenceMeters <= Math.sqrt(wayMinDistSq));
+		if (useNode) {
+			MapElement el = new MapElement(bestNode.favorite, bestNode.id, bestNode.lat, bestNode.lon,
 					bestNode.catId, bestNode.type, bestNode.name, bestNode.tags);
-			return new NearestElement(Math.sqrt(minDistSq), el);
+			return new NearestElement(Math.sqrt(nodeMinDistSq), el);
 		}
 		if (bestWay != null) {
-			MapElement el = new MapElement(false, bestWay.id, bestLat, bestLon,
+			MapElement el = new MapElement(false, bestWay.id, wayLat, wayLon,
 					bestWay.catId, bestWay.type, bestWay.name, bestWay.tags);
-			return new NearestElement(Math.sqrt(minDistSq), el);
+			return new NearestElement(Math.sqrt(wayMinDistSq), el);
 		}
 
 		return new NearestElement(Double.MAX_VALUE, null);
