@@ -10,6 +10,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AlertDialog;
 
 import com.wikiponder.touchmap.R;
+import com.wikiponder.touchmap.classes.Utils;
 import com.wikiponder.touchmap.classes.db.OSMDatabaseHelper;
 import com.wikiponder.touchmap.classes.models.MapElement;
 
@@ -77,7 +78,7 @@ public class NodeEditDialogBox {
 				dialog.getButton(AlertDialog.BUTTON_NEUTRAL).setOnClickListener(v ->
 						new AlertDialog.Builder(context)
 								.setTitle(R.string.confirm_removal_title)
-								.setMessage(context.getString(R.string.confirm_removal_message, element.getFormattedName(context, true)))
+								.setMessage(Utils.fmt(context, R.string.confirm_removal_message, element.getFormattedName(context, true)))
 								.setPositiveButton(R.string.action_remove, (confirmDialog, which) -> new Thread(() -> {
 									OSMDatabaseHelper.deleteNode(context, element.id);
 									runOnMain(context, () -> {

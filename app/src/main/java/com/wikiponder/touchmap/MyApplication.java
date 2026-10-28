@@ -162,12 +162,15 @@ public class MyApplication extends Application {
 	 * so no manual Activity.recreate()/attachBaseContext override is needed anywhere else.
 	 */
 	private void applyUiLocale(String languageTag) {
-		if (languageTag.equals("default")) {
-			// Empty list = "follow the system language", not "force English".
-			AppCompatDelegate.setApplicationLocales(LocaleListCompat.getEmptyLocaleList());
-			return;
-		}
-		AppCompatDelegate.setApplicationLocales(LocaleListCompat.forLanguageTags(toResourceLocaleTag(languageTag)));
+		// Same language as before, but with Latin digits: numbers in Arabic/Persian/Bengali/Marathi
+		// would otherwise be formatted with native digits ("-u-nu-latn"), which most screen readers
+		// and TTS engines read poorly. Resource matching ignores the extension.
+		Locale target = languageTag.equals("default")
+				? getDefaultDeviceLocale()
+				: Locale.forLanguageTag(toResourceLocaleTag(languageTag));
+		Locale latinDigits = new Locale.Builder().setLocale(target).setUnicodeLocaleKeyword("nu", "latn").build();
+		Locale.setDefault(latinDigits);
+		AppCompatDelegate.setApplicationLocales(LocaleListCompat.create(latinDigits));
 	}
 
 	/**

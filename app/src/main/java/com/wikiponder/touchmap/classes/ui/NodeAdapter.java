@@ -91,7 +91,7 @@ public class NodeAdapter extends RecyclerView.Adapter<NodeAdapter.NodeViewHolder
 			// Set the name, type, and formatted distance
 			nameTextView.setText(element.getFormattedName(context, false));
 			categoryTextView.setText(element.type);
-			String distanceText = String.format(Locale.getDefault(), "%.0fm away", nearestElement.distance);
+			String distanceText = String.format(Locale.US, "%.0fm away", nearestElement.distance);
 			distanceTextView.setText(distanceText);
 			
 			// Set the click listener on the entire item view

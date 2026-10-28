@@ -180,10 +180,10 @@ public class AnnouncementManager implements MapView.UpdateListener {
 
 		String description;
 		if (distance < 1000) {
-			description = context.getString(R.string.announce_location_meters, element.getFormattedName(context, true), distance);
+			description = Utils.fmt(context, R.string.announce_location_meters, element.getFormattedName(context, true), distance);
 		}
 		else {
-			description = context.getString(R.string.announce_location_kilometers, element.getFormattedName(context, true), distance / 1000.0);
+			description = Utils.fmt(context, R.string.announce_location_kilometers, element.getFormattedName(context, true), distance / 1000.0);
 		}
 		audioClient.stopSpeaking();
 		double bearing = userLocation.bearingTo(element.getLocation()) - mapRotation;
@@ -302,7 +302,7 @@ public class AnnouncementManager implements MapView.UpdateListener {
 		}
 		
 		if (reportBearing) {
-			String s = context.getString(R.string.announce_point_with_bearing,
+			String s = Utils.fmt(context, R.string.announce_point_with_bearing,
 					ne.element.getFormattedName(context, true),
 					(int) ne.distance,
 					Utils.bearingToClockDirection(ne.bearing));
@@ -312,7 +312,7 @@ public class AnnouncementManager implements MapView.UpdateListener {
 			audioClient.speakWithLocation(s, balance, pitch, 50);
 		}
 		else {
-			String s = context.getString(R.string.announce_point_without_bearing,
+			String s = Utils.fmt(context, R.string.announce_point_without_bearing,
 					ne.element.getFormattedName(context, true),
 					(int) ne.distance);
 			
@@ -342,14 +342,14 @@ public class AnnouncementManager implements MapView.UpdateListener {
 
 		String s;
 		if (aimingClock == 12) {
-			s = context.getString(R.string.announce_aiming_distance_and_clock, (int) distance, aimingClock);
+			s = Utils.fmt(context, R.string.announce_aiming_distance_and_clock, (int) distance, aimingClock);
 			long[] timings = {0, 300, 100, 200};
 			int[] amplitudes = {0, 255, 0, 255};
 			vibrate(timings, amplitudes);
 			audioClient.playSound(AudioClient.SOUND_AIM_LOCK, -0.5, 0, 1, balance);
 		}
 		else {
-			s = context.getString(R.string.announce_aiming_clock_only, aimingClock);
+			s = Utils.fmt(context, R.string.announce_aiming_clock_only, aimingClock);
 			vibrate(50);
 			audioClient.playSound(AudioClient.SOUND_AIM_TICK, -0.4, 0, 1, balance);
 		}

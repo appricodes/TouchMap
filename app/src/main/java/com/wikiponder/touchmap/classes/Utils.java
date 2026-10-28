@@ -431,4 +431,13 @@ public class Utils {
 		else
 			return houseNumber+ " " + street;
 	}
+
+	/**
+	 * {@code context.getString(id, args)} but always with Latin digits and separators. Android's
+	 * Formatter uses the locale's native digits for %d (e.g. Arabic-Indic in ar/fa) and ignores the
+	 * "-u-nu-latn" locale extension, and screen readers/TTS read native digits poorly.
+	 */
+	public static String fmt(android.content.Context context, int id, Object... args) {
+		return String.format(java.util.Locale.US, context.getString(id), args);
+	}
 }

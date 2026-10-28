@@ -27,6 +27,7 @@ import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AlertDialog;
 import androidx.preference.PreferenceManager;
 
+import com.wikiponder.touchmap.classes.Utils;
 import com.wikiponder.touchmap.classes.AngleListener;
 import com.wikiponder.touchmap.classes.TagTranslator;
 import com.wikiponder.touchmap.classes.db.OSMDatabaseHelper;
@@ -426,7 +427,7 @@ public class MapActivity extends BaseActivity
 			
 			@Override
 			public void onError(String message) {
-				Toast.makeText(MapActivity.this, getString(R.string.address_search_error_toast, message), Toast.LENGTH_SHORT).show();
+				Toast.makeText(MapActivity.this, Utils.fmt(MapActivity.this, R.string.address_search_error_toast, message), Toast.LENGTH_SHORT).show();
 			}
 
 			@Override
@@ -501,7 +502,7 @@ public class MapActivity extends BaseActivity
 	public void onLocationUpdated(Location location) {
 		if (location != null) {
 			binding.mapView.setUserLocation(location);
-			binding.infoButton.setContentDescription(getString(R.string.info_button_text, (int) location.getAccuracy(), location.getSpeed() * 3.6));
+			binding.infoButton.setContentDescription(Utils.fmt(MapActivity.this, R.string.info_button_text, (int) location.getAccuracy(), location.getSpeed() * 3.6));
 			maybeShowStartupDownloadPrompt(location);
 		}
 	}
@@ -608,7 +609,7 @@ public class MapActivity extends BaseActivity
 		MyApplication.getMapTileManager(this).setKeywordSearch(null);
 		MyApplication.getMapTileManager(this).setAimedElement(element);
 		showAimCancelButton(element);
-		Toast.makeText(this, getString(R.string.aiming_started, element.getFormattedName(this, true)), Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, Utils.fmt(MapActivity.this, R.string.aiming_started, element.getFormattedName(this, true)), Toast.LENGTH_SHORT).show();
 		setFocus(binding.actionButton);
 	}
 
@@ -620,7 +621,7 @@ public class MapActivity extends BaseActivity
 	 * button itself. */
 	private void showAimCancelButton(MapElement element) {
 		binding.actionButton.setVisibility(View.VISIBLE);
-		binding.actionButton.setContentDescription(getString(R.string.cancel_aiming, element.getFormattedName(this, true)));
+		binding.actionButton.setContentDescription(Utils.fmt(MapActivity.this, R.string.cancel_aiming, element.getFormattedName(this, true)));
 		binding.actionButton.setOnClickListener((v) -> cancelAiming());
 		modeBackCallback.setEnabled(true);
 	}
@@ -637,9 +638,9 @@ public class MapActivity extends BaseActivity
 	 * {@link #modeBackCallback} so Back cancels it too. */
 	private void showSearchCancelButton(String query) {
 		binding.actionButton.setVisibility(View.VISIBLE);
-		binding.actionButton.setContentDescription(getString(R.string.cancel_search, query));
+		binding.actionButton.setContentDescription(Utils.fmt(MapActivity.this, R.string.cancel_search, query));
 		binding.actionButton.setOnClickListener((v) -> cancelSearchOnMap());
-		Toast.makeText(this, getString(R.string.search_on_map_started, query), Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, Utils.fmt(MapActivity.this, R.string.search_on_map_started, query), Toast.LENGTH_SHORT).show();
 		modeBackCallback.setEnabled(true);
 		setFocus(binding.actionButton);
 	}
