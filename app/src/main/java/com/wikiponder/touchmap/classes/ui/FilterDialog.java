@@ -78,7 +78,7 @@ public class FilterDialog {
 		View content = LayoutInflater.from(context).inflate(R.layout.dialog_filter, null);
 
 		VoiceInputEditText keywordInput = content.findViewById(R.id.filter_keyword);
-		keywordInput.setupSpeechRecognizer(java.util.Locale.getDefault());
+		keywordInput.setupSpeechRecognizer(com.wikiponder.touchmap.MyApplication.getMyApplication(context).getPreferredLocale());
 		if (currentKeyword != null) {
 			keywordInput.setText(currentKeyword);
 		}

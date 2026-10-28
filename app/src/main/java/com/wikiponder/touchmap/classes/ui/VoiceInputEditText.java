@@ -87,6 +87,8 @@ public class VoiceInputEditText extends LinearLayout {
 		recognizerIntent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
 		recognizerIntent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
 		recognizerIntent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, locale.toLanguageTag());
+		// Some recognizer services only look at the preference extra, not EXTRA_LANGUAGE.
+		recognizerIntent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_PREFERENCE, locale.toLanguageTag());
 		
 		speechRecognizer.setRecognitionListener(new RecognitionListener() {
 			@Override public void onReadyForSpeech(Bundle params) { }
