@@ -1,8 +1,12 @@
 [versions]
-agp = "8.11.2"
-googleServices = "4.4.2"
-firebaseCrashlyticsPlugin = "3.0.2"
-firebaseBom = "33.4.0"
+agp = "9.4.1"
+googleServices = "4.5.0"
+firebaseCrashlyticsPlugin = "3.0.8"
+# AGP 9 runs R8 in strict full mode, where a bare "-keep class X" no longer keeps X()'s no-arg
+# constructor. firebase-components 18.x (BoM 33.x) shipped exactly such a rule for its reflectively
+# instantiated ComponentRegistrars, so release builds crashed at startup ("FirebaseCrashlytics
+# component is not present"). firebase-components 20 (this BoM) keeps "{ void <init>(); }".
+firebaseBom = "35.1.0"
 barcodeScanning = "17.3.0"
 cameraCoreVersion = "1.5.0-beta02"
 cameraLifecycleVersion = "1.5.0-beta02"
