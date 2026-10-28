@@ -75,7 +75,10 @@ public class AudioClient implements TextToSpeech.OnInitListener {
 	private synchronized void applySpeechLocale() {
 		if (!isTtsReady || speechLocale == null) return;
 		int availability = tts.isLanguageAvailable(speechLocale);
-		if (availability >= TextToSpeech.LANG_AVAILABLE) tts.setLanguage(speechLocale);
+		if (availability >= TextToSpeech.LANG_AVAILABLE) {
+			int r = tts.setLanguage(speechLocale);
+			Log.d(TAG, "TTS language set to " + speechLocale + " (result " + r + "), engine now " + tts.getLanguage());
+		}
 		else Log.w(TAG, "No TTS voice for " + speechLocale + ", keeping the engine default");
 	}
 
