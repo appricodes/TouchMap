@@ -226,4 +226,7 @@
     <string name="safety_warning_title">Σημαντική προειδοποίηση ασφαλείας</string>
     <string name="safety_warning_message">Μην βασίζεστε ποτέ στα λεγόμενα αυτής της εφαρμογής για την κίνησή σας. Για τεχνικούς λόγους – περιορισμούς του GPS και άλλων οργάνων μέτρησης, σφάλματα στα δεδομένα του χάρτη και σφάλματα λογισμικού – οι πληροφορίες της μπορεί να είναι λανθασμένες. Χρησιμοποιείτε πάντα ασφαλείς μεθόδους, όπως λευκό μπαστούνι ή σκύλο οδηγό, και θεωρήστε την εφαρμογή μόνο ως επιπλέον βοήθημα.</string>
     <string name="safety_warning_accept">Κατάλαβα και αποδέχομαι</string>
+    <string name="render_map_mode_auto">Αυτόματα (απενεργό όταν το TalkBack είναι ενεργό)</string>
+    <string name="render_map_mode_off">Ανενεργό</string>
+    <string name="render_map_mode_on">Ενεργό</string>
 </resources>

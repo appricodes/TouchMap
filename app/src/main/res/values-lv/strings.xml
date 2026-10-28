@@ -214,4 +214,7 @@
     <string name="safety_warning_title">Svarīgs drošības brīdinājums</string>
     <string name="safety_warning_message">Nekad nebalstiet savu pārvietošanos uz to, ko saka šī lietotne. Tehnisku iemeslu dēļ – GPS un citu mērīšanas rīku ierobežojumu, kartes datu kļūdu un programmatūras kļūmju dēļ – tās sniegtā informācija var būt nepareiza. Vienmēr izmantojiet drošas metodes, piemēram, balto spieķi vai suni pavadoni, un uzskatiet šo lietotni tikai par papildu palīglīdzekli.</string>
     <string name="safety_warning_accept">Sapratu un piekrītu</string>
+    <string name="render_map_mode_auto">Automātiski (izslēgts, ja TalkBack ir ieslēgts)</string>
+    <string name="render_map_mode_off">Izslēgts</string>
+    <string name="render_map_mode_on">Ieslēgts</string>
 </resources>

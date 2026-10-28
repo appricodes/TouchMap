@@ -226,4 +226,7 @@
     <string name="safety_warning_title">คำเตือนด้านความปลอดภัยที่สำคัญ</string>
     <string name="safety_warning_message">อย่าใช้สิ่งที่แอปนี้บอกเป็นหลักในการเดินทางของคุณ ด้วยเหตุผลทางเทคนิค เช่น ข้อจำกัดของ GPS และเครื่องมือวัดอื่น ข้อผิดพลาดของข้อมูลแผนที่ และข้อบกพร่องของซอฟต์แวร์ ข้อมูลอาจไม่ถูกต้อง โปรดใช้วิธีที่ปลอดภัยเสมอ เช่น ไม้เท้าขาวหรือสุนัขนำทาง และถือว่าแอปนี้เป็นเพียงตัวช่วยเสริม</string>
     <string name="safety_warning_accept">ฉันเข้าใจและยอมรับ</string>
+    <string name="render_map_mode_auto">อัตโนมัติ (ปิดเมื่อ TalkBack เปิดอยู่)</string>
+    <string name="render_map_mode_off">ปิด</string>
+    <string name="render_map_mode_on">เปิด</string>
 </resources>

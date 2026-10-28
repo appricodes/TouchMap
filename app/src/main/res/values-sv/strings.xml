@@ -214,4 +214,7 @@
     <string name="safety_warning_title">Viktig säkerhetsvarning</string>
     <string name="safety_warning_message">Basera aldrig dina rörelser på vad den här appen säger. Av tekniska skäl – begränsningar i GPS och andra mätinstrument, fel i kartdata och programvarufel – kan informationen vara felaktig. Använd alltid säkra metoder som vit käpp eller ledarhund, och se bara appen som ett extra hjälpmedel.</string>
     <string name="safety_warning_accept">Jag förstår och godkänner</string>
+    <string name="render_map_mode_auto">Automatiskt (av när TalkBack är på)</string>
+    <string name="render_map_mode_off">Av</string>
+    <string name="render_map_mode_on">På</string>
 </resources>

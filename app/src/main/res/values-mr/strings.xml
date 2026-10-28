@@ -226,4 +226,7 @@
     <string name="safety_warning_title">महत्त्वाची सुरक्षा सूचना</string>
     <string name="safety_warning_message">हे ॲप जे सांगते त्यावर आधारित कधीही तुमची हालचाल ठरवू नका. तांत्रिक कारणांमुळे – जीपीएस आणि इतर मोजमाप साधनांच्या मर्यादा, नकाशा डेटामधील चुका आणि सॉफ्टवेअरमधील त्रुटी – यामुळे त्याची माहिती चुकीची असू शकते. नेहमी पांढरी काठी किंवा मार्गदर्शक कुत्रा यांसारख्या सुरक्षित पद्धती वापरा आणि या ॲपला फक्त अतिरिक्त मदत समजा.</string>
     <string name="safety_warning_accept">मला समजले आणि मी मान्य करतो/करते</string>
+    <string name="render_map_mode_auto">स्वयंचलित (TalkBack चालू असताना बंद)</string>
+    <string name="render_map_mode_off">बंद</string>
+    <string name="render_map_mode_on">चालू</string>
 </resources>

@@ -226,4 +226,7 @@
     <string name="safety_warning_title">Важливе попередження про безпеку</string>
     <string name="safety_warning_message">Ніколи не спирайтеся на те, що каже цей застосунок, під час пересування. З технічних причин – через обмеження GPS та інших вимірювальних засобів, помилки в картографічних даних і збої програми – його інформація може бути хибною. Завжди користуйтеся надійними способами, як-от біла тростина чи собака-поводир, а застосунок вважайте лише додатковою допомогою.</string>
     <string name="safety_warning_accept">Розумію і приймаю</string>
+    <string name="render_map_mode_auto">Автоматично (вимкнено, коли TalkBack увімкнено)</string>
+    <string name="render_map_mode_off">Вимк.</string>
+    <string name="render_map_mode_on">Увімк.</string>
 </resources>

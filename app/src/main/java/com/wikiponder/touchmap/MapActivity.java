@@ -15,6 +15,8 @@ import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.accessibility.AccessibilityEvent;
+import android.accessibilityservice.AccessibilityServiceInfo;
+import android.content.Context;
 import android.view.accessibility.AccessibilityManager;
 import android.widget.PopupMenu;
 import android.widget.Toast;
@@ -445,12 +447,22 @@ public class MapActivity extends BaseActivity
 		updateRenderMapFlag();
 		checkRequiredPermissions();
 		MyApplication.getAngleManager(this).addListener(this);
+		AccessibilityManager am = (AccessibilityManager) getSystemService(ACCESSIBILITY_SERVICE);
+		if (am != null) {
+			am.addAccessibilityStateChangeListener(accessibilityStateListener);
+			am.addTouchExplorationStateChangeListener(touchExplorationListener);
+		}
 	}
 	
 	@Override
 	protected void onPause() {
 		super.onPause();
 		MyApplication.getAngleManager(this).removeListener(this);
+		AccessibilityManager am = (AccessibilityManager) getSystemService(ACCESSIBILITY_SERVICE);
+		if (am != null) {
+			am.removeAccessibilityStateChangeListener(accessibilityStateListener);
+			am.removeTouchExplorationStateChangeListener(touchExplorationListener);
+		}
 	}
 	
 	private void checkRequiredPermissions() {
@@ -827,13 +839,43 @@ public class MapActivity extends BaseActivity
 	public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
 		if ("keep_screen_on".equals(key)) {
 			updateKeepScreenOnFlag();
-		} else if ("render_map".equals(key) || "render_labels".equals(key)) {
+		} else if ("render_map_mode".equals(key) || "render_labels".equals(key)) {
 			updateRenderMapFlag();
 		}
 	}
 
+	/** Re-evaluates the "Automatic" map-drawing mode when TalkBack (or any accessibility service) is
+	 * turned on or off while the screen is showing. */
+	private final AccessibilityManager.AccessibilityStateChangeListener accessibilityStateListener =
+			enabled -> onAccessibilityChanged();
+	private final AccessibilityManager.TouchExplorationStateChangeListener touchExplorationListener =
+			enabled -> onAccessibilityChanged();
+
+	/** The service list can lag the state callback when TalkBack is switched on, so look again shortly after. */
+	private void onAccessibilityChanged() {
+		updateRenderMapFlag();
+		binding.mapView.postDelayed(this::updateRenderMapFlag, 1500);
+	}
+
+	private static boolean isTalkBackOn(Context context) {
+		AccessibilityManager am = (AccessibilityManager) context.getSystemService(ACCESSIBILITY_SERVICE);
+		if (am == null) return false;
+		List<AccessibilityServiceInfo> services =
+				am.getEnabledAccessibilityServiceList(AccessibilityServiceInfo.FEEDBACK_SPOKEN);
+		return services != null && !services.isEmpty();
+	}
+
+	/** "auto" (default): draw the map unless TalkBack is on; "on"/"off" force it. The old boolean
+	 * "render_map" switch is migrated once: users who had turned it on keep it on. */
 	private void updateRenderMapFlag() {
-		boolean render = sharedPreferences.getBoolean("render_map", false);
+		if (!sharedPreferences.contains("render_map_mode")) {
+			Object old = sharedPreferences.getAll().get("render_map");
+			if (Boolean.TRUE.equals(old)) {
+				sharedPreferences.edit().putString("render_map_mode", "on").apply();
+			}
+		}
+		String mode = sharedPreferences.getString("render_map_mode", "auto");
+		boolean render = "on".equals(mode) || ("auto".equals(mode) && !isTalkBackOn(this));
 		binding.mapView.setLabelsEnabled(sharedPreferences.getBoolean("render_labels", true));
 		binding.mapView.setRenderEnabled(render);
 	}

@@ -214,4 +214,7 @@
     <string name="safety_warning_title">安全に関する重要な警告</string>
     <string name="safety_warning_message">このアプリの案内だけを頼りに移動しないでください。GPSやその他の測定機器の限界、地図データの誤り、ソフトウェアの不具合など技術的な理由により、情報が正しくない場合があります。必ず白杖や盲導犬など安全な方法を使い、このアプリはあくまで補助的な手段としてご利用ください。</string>
     <string name="safety_warning_accept">理解し、同意します</string>
+    <string name="render_map_mode_auto">自動（TalkBackがオンのときはオフ）</string>
+    <string name="render_map_mode_off">オフ</string>
+    <string name="render_map_mode_on">オン</string>
 </resources>

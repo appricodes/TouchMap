@@ -226,4 +226,7 @@
     <string name="safety_warning_title">Fontos biztonsági figyelmeztetés</string>
     <string name="safety_warning_message">Soha ne erre az alkalmazásra alapozd a közlekedésedet. Technikai okokból – a GPS és más mérőeszközök korlátai, térképadat-hibák és szoftverhibák miatt – az információi pontatlanok lehetnek. Mindig használj biztonságos módszereket, például fehér botot vagy vakvezető kutyát, az alkalmazást pedig csak kiegészítő segítségnek tekintsd.</string>
     <string name="safety_warning_accept">Megértettem és elfogadom</string>
+    <string name="render_map_mode_auto">Automatikus (ki, ha a TalkBack be van kapcsolva)</string>
+    <string name="render_map_mode_off">Ki</string>
+    <string name="render_map_mode_on">Be</string>
 </resources>

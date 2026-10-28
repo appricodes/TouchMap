@@ -225,4 +225,7 @@
     <string name="safety_warning_title">Důležité bezpečnostní upozornění</string>
     <string name="safety_warning_message">Nikdy se nespoléhejte na to, co tato aplikace říká, při svém pohybu. Z technických důvodů – kvůli omezením GPS a dalších měřicích nástrojů, chybám v mapových datech a chybám softwaru – mohou být její informace nesprávné. Vždy používejte bezpečné metody, například bílou hůl nebo vodicího psa, a berte tuto aplikaci jen jako doplňkovou pomůcku.</string>
     <string name="safety_warning_accept">Rozumím a souhlasím</string>
+    <string name="render_map_mode_auto">Automaticky (vypnuto, když je zapnutý TalkBack)</string>
+    <string name="render_map_mode_off">Vypnuto</string>
+    <string name="render_map_mode_on">Zapnuto</string>
 </resources>

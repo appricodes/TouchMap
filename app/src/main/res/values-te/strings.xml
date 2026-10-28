@@ -226,4 +226,7 @@
     <string name="safety_warning_title">ముఖ్యమైన భద్రతా హెచ్చరిక</string>
     <string name="safety_warning_message">ఈ యాప్ చెప్పే దాని ఆధారంగా ఎప్పుడూ మీ కదలికలను నిర్ణయించుకోవద్దు. GPS మరియు ఇతర కొలత సాధనాల పరిమితులు, మ్యాప్ డేటా లోపాలు, సాఫ్ట్‌వేర్ లోపాల వంటి సాంకేతిక కారణాల వల్ల దీని సమాచారం తప్పుగా ఉండవచ్చు. ఎల్లప్పుడూ తెల్ల కర్ర లేదా గైడ్ డాగ్ వంటి సురక్షిత పద్ధతులను ఉపయోగించండి; ఈ యాప్‌ను అదనపు సహాయంగా మాత్రమే పరిగణించండి.</string>
     <string name="safety_warning_accept">నాకు అర్థమైంది, అంగీకరిస్తున్నాను</string>
+    <string name="render_map_mode_auto">ఆటోమేటిక్ (TalkBack ఆన్‌లో ఉంటే ఆఫ్)</string>
+    <string name="render_map_mode_off">ఆఫ్</string>
+    <string name="render_map_mode_on">ఆన్</string>
 </resources>

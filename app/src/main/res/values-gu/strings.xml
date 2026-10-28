@@ -226,4 +226,7 @@
     <string name="safety_warning_title">મહત્વપૂર્ણ સુરક્ષા ચેતવણી</string>
     <string name="safety_warning_message">આ એપ જે કહે તેના આધારે ક્યારેય તમારી હિલચાલ ન કરો. તકનીકી કારણોસર – GPS અને અન્ય માપન સાધનોની મર્યાદાઓ, નકશાના ડેટાની ભૂલો અને સોફ્ટવેરની ખામીઓને કારણે – તેની માહિતી ખોટી હોઈ શકે છે. હંમેશા સફેદ લાકડી અથવા માર્ગદર્શક કૂતરા જેવી સુરક્ષિત પદ્ધતિઓનો ઉપયોગ કરો અને આ એપને માત્ર વધારાની મદદ ગણો.</string>
     <string name="safety_warning_accept">હું સમજું છું અને સ્વીકારું છું</string>
+    <string name="render_map_mode_auto">સ્વચાલિત (TalkBack ચાલુ હોય ત્યારે બંધ)</string>
+    <string name="render_map_mode_off">બંધ</string>
+    <string name="render_map_mode_on">ચાલુ</string>
 </resources>

@@ -226,4 +226,7 @@
     <string name="safety_warning_title">ಪ್ರಮುಖ ಸುರಕ್ಷತಾ ಎಚ್ಚರಿಕೆ</string>
     <string name="safety_warning_message">ಈ ಆ್ಯಪ್ ಹೇಳುವುದರ ಆಧಾರದ ಮೇಲೆ ಎಂದಿಗೂ ನಿಮ್ಮ ಚಲನೆಯನ್ನು ನಿರ್ಧರಿಸಬೇಡಿ. ತಾಂತ್ರಿಕ ಕಾರಣಗಳಿಂದ – GPS ಮತ್ತು ಇತರ ಅಳತೆ ಸಾಧನಗಳ ಮಿತಿಗಳು, ನಕ್ಷೆ ಡೇಟಾದ ದೋಷಗಳು ಮತ್ತು ಸಾಫ್ಟ್‌ವೇರ್ ದೋಷಗಳಿಂದ – ಇದರ ಮಾಹಿತಿ ತಪ್ಪಾಗಿರಬಹುದು. ಯಾವಾಗಲೂ ಬಿಳಿ ಕೋಲು ಅಥವಾ ಮಾರ್ಗದರ್ಶಿ ನಾಯಿಯಂತಹ ಸುರಕ್ಷಿತ ವಿಧಾನಗಳನ್ನು ಬಳಸಿ ಮತ್ತು ಈ ಆ್ಯಪ್ ಅನ್ನು ಹೆಚ್ಚುವರಿ ಸಹಾಯವೆಂದು ಮಾತ್ರ ಪರಿಗಣಿಸಿ.</string>
     <string name="safety_warning_accept">ನನಗೆ ಅರ್ಥವಾಗಿದೆ ಮತ್ತು ಒಪ್ಪುತ್ತೇನೆ</string>
+    <string name="render_map_mode_auto">ಸ್ವಯಂಚಾಲಿತ (TalkBack ಆನ್ ಇದ್ದಾಗ ಆಫ್)</string>
+    <string name="render_map_mode_off">ಆಫ್</string>
+    <string name="render_map_mode_on">ಆನ್</string>
 </resources>

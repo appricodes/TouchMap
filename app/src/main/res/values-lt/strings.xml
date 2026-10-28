@@ -214,4 +214,7 @@
     <string name="safety_warning_title">Svarbus saugos įspėjimas</string>
     <string name="safety_warning_message">Niekada nesiremkite šios programos pateikiama informacija judėdami. Dėl techninių priežasčių – GPS ir kitų matavimo priemonių apribojimų, žemėlapio duomenų klaidų ir programinės įrangos riktų – ji gali būti neteisinga. Visada naudokite saugius metodus, pavyzdžiui, baltąją lazdelę ar šunį vedlį, o šią programą laikykite tik papildoma pagalbos priemone.</string>
     <string name="safety_warning_accept">Supratau ir sutinku</string>
+    <string name="render_map_mode_auto">Automatinis (išjungta, kai įjungtas „TalkBack“)</string>
+    <string name="render_map_mode_off">Išjungta</string>
+    <string name="render_map_mode_on">Įjungta</string>
 </resources>

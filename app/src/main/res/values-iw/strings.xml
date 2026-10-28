@@ -226,4 +226,7 @@
     <string name="safety_warning_title">אזהרת בטיחות חשובה</string>
     <string name="safety_warning_message">לעולם אל תבססו את תנועתכם על מה שהאפליקציה הזו אומרת. מסיבות טכניות – מגבלות של GPS ושל כלי מדידה אחרים, שגיאות בנתוני המפה ותקלות בתוכנה – המידע שלה עלול להיות שגוי. השתמשו תמיד בשיטות בטוחות כמו מקל לבן או כלב נחיה, והתייחסו לאפליקציה רק כעזר נוסף.</string>
     <string name="safety_warning_accept">הבנתי ואני מסכים/ה</string>
+    <string name="render_map_mode_auto">אוטומטי (כבוי כש-TalkBack פועל)</string>
+    <string name="render_map_mode_off">כבוי</string>
+    <string name="render_map_mode_on">מופעל</string>
 </resources>

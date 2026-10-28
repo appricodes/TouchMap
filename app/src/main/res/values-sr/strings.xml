@@ -214,4 +214,7 @@
     <string name="safety_warning_title">Важно безбедносно упозорење</string>
     <string name="safety_warning_message">Никада не заснивајте своје кретање на ономе што каже ова апликација. Из техничких разлога – ограничења GPS-а и других мерних уређаја, грешака у подацима мапе и софтверских грешака – њене информације могу бити нетачне. Увек користите безбедне методе, као што су бели штап или пас водич, а ову апликацију сматрајте само додатном помоћи.</string>
     <string name="safety_warning_accept">Разумем и прихватам</string>
+    <string name="render_map_mode_auto">Аутоматски (искључено када је TalkBack укључен)</string>
+    <string name="render_map_mode_off">Искључено</string>
+    <string name="render_map_mode_on">Укључено</string>
 </resources>

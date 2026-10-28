@@ -226,4 +226,7 @@
     <string name="safety_warning_title">هشدار ایمنی مهم</string>
     <string name="safety_warning_message">هرگز حرکت خود را بر اساس آنچه این برنامه می‌گوید قرار ندهید. به دلایل فنی، از جمله محدودیت‌های جی‌پی‌اس و ابزارهای اندازه‌گیری دیگر، خطاهای داده‌های نقشه و اشکالات نرم‌افزاری، ممکن است اطلاعات آن اشتباه باشد. همیشه از روش‌های امن مانند عصای سفید یا سگ راهنما استفاده کنید و این برنامه را فقط یک کمک اضافی بدانید.</string>
     <string name="safety_warning_accept">فهمیدم و قبول دارم</string>
+    <string name="render_map_mode_auto">خودکار (با روشن بودن تاک‌بک خاموش)</string>
+    <string name="render_map_mode_off">خاموش</string>
+    <string name="render_map_mode_on">روشن</string>
 </resources>

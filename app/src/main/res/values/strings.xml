@@ -130,6 +130,9 @@
     <string name="crash_reports_summary_on">If the app crashes, diagnostic information (the error, device model, Android version, app version) is sent to Google Firebase Crashlytics so the problem can be fixed. You can turn this off at any time.</string>
     <string name="crash_reports_summary_off">Off: no crash reports are sent. Turn on to help fix bugs by sending crash information to Google Firebase Crashlytics.</string>
     <string name="render_map_title">Show the map</string>
+    <string name="render_map_mode_auto">Automatic (off when TalkBack is on)</string>
+    <string name="render_map_mode_off">Off</string>
+    <string name="render_map_mode_on">On</string>
     <string name="render_map_summary_on">The map is drawn on screen for low-vision users. This drawing is experimental and still improving.</string>
     <string name="render_map_summary_off">The map is not drawn; explore by touch and sound only.</string>
     <string name="menu_share">Share Navia</string>

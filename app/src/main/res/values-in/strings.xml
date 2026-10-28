@@ -226,4 +226,7 @@
     <string name="safety_warning_title">Peringatan keselamatan penting</string>
     <string name="safety_warning_message">Jangan pernah mendasarkan pergerakan Anda pada apa yang dikatakan aplikasi ini. Karena alasan teknis – keterbatasan GPS dan alat ukur lainnya, kesalahan data peta, dan gangguan perangkat lunak – informasinya bisa saja salah. Selalu gunakan cara yang aman seperti tongkat putih atau anjing penuntun, dan anggap aplikasi ini hanya sebagai bantuan tambahan.</string>
     <string name="safety_warning_accept">Saya mengerti dan menerima</string>
+    <string name="render_map_mode_auto">Otomatis (mati saat TalkBack aktif)</string>
+    <string name="render_map_mode_off">Mati</string>
+    <string name="render_map_mode_on">Hidup</string>
 </resources>

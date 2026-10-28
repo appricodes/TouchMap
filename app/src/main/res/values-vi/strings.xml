@@ -226,4 +226,7 @@
     <string name="safety_warning_title">Cảnh báo an toàn quan trọng</string>
     <string name="safety_warning_message">Không bao giờ dựa vào những gì ứng dụng này nói để di chuyển. Vì các lý do kỹ thuật – giới hạn của GPS và các dụng cụ đo khác, lỗi dữ liệu bản đồ và lỗi phần mềm – thông tin có thể sai. Luôn dùng các phương pháp an toàn như gậy trắng hoặc chó dẫn đường, và chỉ xem ứng dụng này là công cụ hỗ trợ thêm.</string>
     <string name="safety_warning_accept">Tôi hiểu và chấp nhận</string>
+    <string name="render_map_mode_auto">Tự động (tắt khi TalkBack đang bật)</string>
+    <string name="render_map_mode_off">Tắt</string>
+    <string name="render_map_mode_on">Bật</string>
 </resources>

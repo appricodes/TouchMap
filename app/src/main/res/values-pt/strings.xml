@@ -214,4 +214,7 @@
     <string name="safety_warning_title">Aviso de segurança importante</string>
     <string name="safety_warning_message">Nunca baseie os seus deslocamentos no que este aplicativo diz. Por razões técnicas – limites do GPS e de outros instrumentos de medição, erros nos dados do mapa e falhas do software – as informações podem estar erradas. Use sempre métodos seguros, como a bengala branca ou um cão-guia, e considere este aplicativo apenas uma ajuda adicional.</string>
     <string name="safety_warning_accept">Entendi e aceito</string>
+    <string name="render_map_mode_auto">Automático (desativado quando o TalkBack está ativado)</string>
+    <string name="render_map_mode_off">Desativado</string>
+    <string name="render_map_mode_on">Ativado</string>
 </resources>

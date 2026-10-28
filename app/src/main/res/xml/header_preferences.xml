@@ -41,17 +41,18 @@
             app:defaultValue="false"
             app:iconSpaceReserved="false"/>
 
-        <SwitchPreferenceCompat
-            app:key="render_map"
+        <ListPreference
+            app:defaultValue="auto"
+            app:entries="@array/render_map_names"
+            app:entryValues="@array/render_map_values"
+            app:key="render_map_mode"
             app:title="@string/render_map_title"
-            app:summaryOn="@string/render_map_summary_on"
-            app:summaryOff="@string/render_map_summary_off"
-            app:defaultValue="false"
+            app:summary="%s"
+            app:useSimpleSummaryProvider="true"
             app:iconSpaceReserved="false"/>
 
         <SwitchPreferenceCompat
             app:key="render_labels"
-            app:dependency="render_map"
             app:title="@string/render_labels_title"
             app:summaryOn="@string/render_labels_summary_on"
             app:summaryOff="@string/render_labels_summary_off"

@@ -226,4 +226,7 @@
     <string name="safety_warning_title">Ważne ostrzeżenie dotyczące bezpieczeństwa</string>
     <string name="safety_warning_message">Nigdy nie opieraj swojego poruszania się na tym, co mówi ta aplikacja. Z przyczyn technicznych – ograniczeń GPS i innych narzędzi pomiarowych, błędów w danych mapy i usterek oprogramowania – jej informacje mogą być błędne. Zawsze korzystaj z bezpiecznych metod, takich jak biała laska lub pies przewodnik, a tę aplikację traktuj wyłącznie jako dodatkową pomoc.</string>
     <string name="safety_warning_accept">Rozumiem i akceptuję</string>
+    <string name="render_map_mode_auto">Automatycznie (wyłączone, gdy TalkBack jest włączony)</string>
+    <string name="render_map_mode_off">Wyłączone</string>
+    <string name="render_map_mode_on">Włączone</string>
 </resources>

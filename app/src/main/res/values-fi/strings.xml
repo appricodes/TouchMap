@@ -225,4 +225,7 @@
     <string name="safety_warning_title">Tärkeä turvallisuusvaroitus</string>
     <string name="safety_warning_message">Älä koskaan perusta liikkumistasi siihen, mitä tämä sovellus kertoo. Teknisistä syistä – GPS:n ja muiden mittausvälineiden rajoitukset, karttatietojen virheet ja ohjelmistovirheet – sen tiedot voivat olla virheellisiä. Käytä aina turvallisia menetelmiä, kuten valkoista keppiä tai opaskoiraa, ja pidä sovellusta vain lisäapuna.</string>
     <string name="safety_warning_accept">Ymmärrän ja hyväksyn</string>
+    <string name="render_map_mode_auto">Automaattinen (pois, kun TalkBack on päällä)</string>
+    <string name="render_map_mode_off">Pois</string>
+    <string name="render_map_mode_on">Päällä</string>
 </resources>

@@ -226,4 +226,7 @@
     <string name="safety_warning_title">Mahalagang babala sa kaligtasan</string>
     <string name="safety_warning_message">Huwag kailanman ibatay ang iyong paggalaw sa sinasabi ng app na ito. Dahil sa mga teknikal na dahilan – limitasyon ng GPS at iba pang panukat, mga mali sa datos ng mapa, at mga sira sa software – maaaring mali ang impormasyon nito. Palaging gumamit ng mga ligtas na paraan tulad ng puting tungkod o gabay na aso, at ituring ang app na ito bilang karagdagang tulong lamang.</string>
     <string name="safety_warning_accept">Naiintindihan ko at sumasang-ayon ako</string>
+    <string name="render_map_mode_auto">Awtomatiko (naka-off kapag naka-on ang TalkBack)</string>
+    <string name="render_map_mode_off">Naka-off</string>
+    <string name="render_map_mode_on">Naka-on</string>
 </resources>

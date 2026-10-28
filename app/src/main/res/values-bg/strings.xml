@@ -225,4 +225,7 @@
     <string name="safety_warning_title">Важно предупреждение за безопасност</string>
     <string name="safety_warning_message">Никога не основавайте движението си на това, което казва това приложение. Поради технически причини – ограниченията на GPS и другите измервателни средства, грешки в картографските данни и софтуерни грешки – информацията му може да е неточна. Винаги използвайте безопасни методи, като бял бастун или куче водач, и разглеждайте приложението само като допълнителна помощ.</string>
     <string name="safety_warning_accept">Разбирам и приемам</string>
+    <string name="render_map_mode_auto">Автоматично (изключено при включен TalkBack)</string>
+    <string name="render_map_mode_off">Изкл.</string>
+    <string name="render_map_mode_on">Вкл.</string>
 </resources>

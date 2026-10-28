@@ -214,4 +214,7 @@
     <string name="safety_warning_title">重要安全警告</string>
     <string name="safety_warning_message">切勿單憑本應用程式的提示行動。由於技術原因，例如 GPS 及其他量度工具的限制、地圖資料錯誤和軟件故障，其資訊可能有誤。請務必使用白杖或導盲犬等安全方式，並只把本應用程式當作輔助工具。</string>
     <string name="safety_warning_accept">我已明白並同意</string>
+    <string name="render_map_mode_auto">自動（開啟 TalkBack 時關閉）</string>
+    <string name="render_map_mode_off">關閉</string>
+    <string name="render_map_mode_on">開啟</string>
 </resources>

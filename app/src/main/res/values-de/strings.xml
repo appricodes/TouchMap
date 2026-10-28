@@ -226,4 +226,7 @@
     <string name="safety_warning_title">Wichtiger Sicherheitshinweis</string>
     <string name="safety_warning_message">Richte deine Fortbewegung niemals nach dem, was diese App sagt. Aus technischen Gründen – Grenzen von GPS und anderen Messgeräten, Fehler in den Kartendaten und Softwarefehler – können ihre Angaben falsch sein. Nutze immer sichere Methoden wie den Blindenstock oder einen Blindenführhund und betrachte diese App nur als zusätzliche Hilfe.</string>
     <string name="safety_warning_accept">Verstanden und akzeptiert</string>
+    <string name="render_map_mode_auto">Automatisch (aus, wenn TalkBack an ist)</string>
+    <string name="render_map_mode_off">Aus</string>
+    <string name="render_map_mode_on">An</string>
 </resources>

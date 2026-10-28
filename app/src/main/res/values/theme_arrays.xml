@@ -10,4 +10,14 @@
         <item>light</item>
         <item>dark</item>
     </string-array>
+    <string-array name="render_map_names">
+        <item>@string/render_map_mode_auto</item>
+        <item>@string/render_map_mode_off</item>
+        <item>@string/render_map_mode_on</item>
+    </string-array>
+    <string-array name="render_map_values" translatable="false">
+        <item>auto</item>
+        <item>off</item>
+        <item>on</item>
+    </string-array>
 </resources>

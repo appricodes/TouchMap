@@ -225,4 +225,7 @@
     <string name="safety_warning_title">Belangrike veiligheidswaarskuwing</string>
     <string name="safety_warning_message">Moet nooit jou beweging baseer op wat hierdie toepassing sê nie. Weens tegniese redes – die beperkings van GPS en ander meetinstrumente, kaartdatafoute en sagtewarefoute – kan die inligting verkeerd wees. Gebruik altyd veilige metodes soos \'n wit stok of \'n gidshond, en beskou hierdie toepassing slegs as \'n ekstra hulpmiddel.</string>
     <string name="safety_warning_accept">Ek verstaan en aanvaar</string>
+    <string name="render_map_mode_auto">Outomaties (af wanneer TalkBack aan is)</string>
+    <string name="render_map_mode_off">Af</string>
+    <string name="render_map_mode_on">Aan</string>
 </resources>

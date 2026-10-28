@@ -226,4 +226,7 @@
     <string name="safety_warning_title">تحذير سلامة مهم</string>
     <string name="safety_warning_message">لا تعتمد أبدًا في تنقلك على ما يقوله هذا التطبيق. لأسباب تقنية، منها حدود نظام GPS وأدوات القياس الأخرى وأخطاء بيانات الخريطة وأعطال البرنامج، قد تكون معلوماته خاطئة. استخدم دائمًا وسائل آمنة مثل العصا البيضاء أو الكلب المرشد، واعتبر هذا التطبيق وسيلة مساعدة إضافية فقط.</string>
     <string name="safety_warning_accept">فهمت وأوافق</string>
+    <string name="render_map_mode_auto">تلقائي (متوقف عند تشغيل TalkBack)</string>
+    <string name="render_map_mode_off">إيقاف</string>
+    <string name="render_map_mode_on">تشغيل</string>
 </resources>

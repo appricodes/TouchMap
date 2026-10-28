@@ -225,4 +225,7 @@
     <string name="safety_warning_title">Avís de seguretat important</string>
     <string name="safety_warning_message">No basis mai els teus desplaçaments en el que diu aquesta aplicació. Per motius tècnics – els límits del GPS i d\'altres instruments de mesura, errors en les dades del mapa i errors del programari – la informació pot ser incorrecta. Utilitza sempre mètodes segurs, com el bastó blanc o el gos pigall, i considera aquesta aplicació només una ajuda addicional.</string>
     <string name="safety_warning_accept">Ho entenc i ho accepto</string>
+    <string name="render_map_mode_auto">Automàtic (desactivat si TalkBack està activat)</string>
+    <string name="render_map_mode_off">Desactivat</string>
+    <string name="render_map_mode_on">Activat</string>
 </resources>

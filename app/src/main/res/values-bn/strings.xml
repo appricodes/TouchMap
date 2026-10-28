@@ -226,4 +226,7 @@
     <string name="safety_warning_title">গুরুত্বপূর্ণ নিরাপত্তা সতর্কতা</string>
     <string name="safety_warning_message">এই অ্যাপ যা বলে, তার ওপর ভিত্তি করে কখনোই চলাচল করবেন না। প্রযুক্তিগত কারণে – জিপিএস ও অন্যান্য পরিমাপ যন্ত্রের সীমাবদ্ধতা, মানচিত্রের তথ্যের ভুল এবং সফটওয়্যারের ত্রুটির কারণে – এর তথ্য ভুল হতে পারে। সবসময় সাদা ছড়ি বা গাইড কুকুরের মতো নিরাপদ পদ্ধতি ব্যবহার করুন এবং এই অ্যাপকে শুধু অতিরিক্ত সহায়ক হিসেবে দেখুন।</string>
     <string name="safety_warning_accept">আমি বুঝেছি এবং মেনে নিচ্ছি</string>
+    <string name="render_map_mode_auto">স্বয়ংক্রিয় (TalkBack চালু থাকলে বন্ধ)</string>
+    <string name="render_map_mode_off">বন্ধ</string>
+    <string name="render_map_mode_on">চালু</string>
 </resources>

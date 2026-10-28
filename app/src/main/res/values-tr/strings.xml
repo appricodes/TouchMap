@@ -226,4 +226,7 @@
     <string name="safety_warning_title">Önemli güvenlik uyarısı</string>
     <string name="safety_warning_message">Hareketlerinizi asla bu uygulamanın söylediklerine dayandırmayın. GPS ve diğer ölçüm araçlarının sınırlamaları, harita verisi hataları ve yazılım arızaları gibi teknik nedenlerle bilgiler yanlış olabilir. Her zaman beyaz baston veya rehber köpek gibi güvenli yöntemleri kullanın ve bu uygulamayı yalnızca ek bir yardımcı olarak görün.</string>
     <string name="safety_warning_accept">Anladım ve kabul ediyorum</string>
+    <string name="render_map_mode_auto">Otomatik (TalkBack açıkken kapalı)</string>
+    <string name="render_map_mode_off">Kapalı</string>
+    <string name="render_map_mode_on">Açık</string>
 </resources>

@@ -226,4 +226,7 @@
     <string name="safety_warning_title">Mikilvæg öryggisviðvörun</string>
     <string name="safety_warning_message">Byggðu aldrei hreyfingar þínar á því sem þetta forrit segir. Af tæknilegum ástæðum – takmörkum GPS og annarra mælitækja, villum í kortagögnum og hugbúnaðarvillum – geta upplýsingarnar verið rangar. Notaðu alltaf örugga aðferðir eins og hvítan staf eða leiðsöguhund og líttu á forritið aðeins sem aukahjálp.</string>
     <string name="safety_warning_accept">Ég skil og samþykki</string>
+    <string name="render_map_mode_auto">Sjálfvirkt (slökkt þegar kveikt er á TalkBack)</string>
+    <string name="render_map_mode_off">Slökkt</string>
+    <string name="render_map_mode_on">Kveikt</string>
 </resources>
