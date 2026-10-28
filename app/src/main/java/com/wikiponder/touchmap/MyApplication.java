@@ -29,6 +29,7 @@ import java.util.Locale;
 
 public class MyApplication extends Application {
 	private Locale preferredLocale;
+	private boolean followsSystemLanguage = true;
 	private AudioClient audioClient;
 	private WorldPlacesRepository worldPlacesRepository;
 	private GeofabrikIndexRepository geofabrikIndexRepository;
@@ -122,7 +123,11 @@ public class MyApplication extends Application {
 		return getMyApplication(context).geofabrikIndexRepository;
 	}
 	
+	/** The language to use for voice input and speech. With the in-app language on "default" this
+	 * is computed on every call, because the user can change the app's language at any time in
+	 * Android's own per-app language setting, without this process being restarted. */
 	public Locale getPreferredLocale() {
+		if (followsSystemLanguage) return getDefaultDeviceLocale();
 		return preferredLocale;
 	}
 	
@@ -151,6 +156,7 @@ public class MyApplication extends Application {
 			preferredLocale = Locale.forLanguageTag(languageTag);
 
 		this.preferredLocale = preferredLocale;
+		followsSystemLanguage = languageTag.equals("default");
 		applyUiLocale(languageTag);
 		if (audioClient != null) audioClient.setSpeechLocale(speechLocaleFor(languageTag));
 		applyTheme(sharedPreferences.getString("theme_preference", "system"));
@@ -164,9 +170,16 @@ public class MyApplication extends Application {
 	 * so no manual Activity.recreate()/attachBaseContext override is needed anywhere else.
 	 */
 	private void applyUiLocale(String languageTag) {
+		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+		String previouslyApplied = prefs.getString("ui_locale_applied", "default");
+		prefs.edit().putString("ui_locale_applied", languageTag).apply();
 		if (languageTag.equals("default")) {
-			// Empty list = "follow the system language", not "force English".
-			AppCompatDelegate.setApplicationLocales(LocaleListCompat.getEmptyLocaleList());
+			// Only reset when coming back from an explicit in-app choice. Otherwise leave it alone,
+			// so a language picked in Android's per-app language settings survives app restarts.
+			if (!previouslyApplied.equals("default")) {
+				// Empty list = "follow the system language", not "force English".
+				AppCompatDelegate.setApplicationLocales(LocaleListCompat.getEmptyLocaleList());
+			}
 			return;
 		}
 		AppCompatDelegate.setApplicationLocales(LocaleListCompat.forLanguageTags(toResourceLocaleTag(languageTag)));
@@ -179,6 +192,11 @@ public class MyApplication extends Application {
 	 * either Chinese entry would silently fail to select values-zh-rCN/values-zh-rHK and fall back to
 	 * English. Every other tag in that array is already a resource-resolvable standard code as-is.
 	 */
+	/** Locale for text-to-speech, with the Chinese speech-recognition codes mapped to resource tags. */
+	public Locale getSpeechLocale() {
+		return speechLocaleFor(PreferenceManager.getDefaultSharedPreferences(this).getString("language_preference", "default"));
+	}
+
 	private Locale speechLocaleFor(String languageTag) {
 		return languageTag.equals("default")
 				? getDefaultDeviceLocale()
@@ -218,6 +236,10 @@ public class MyApplication extends Application {
 	 * @return The default {@link Locale} of the device.
 	 */
 	public Locale getDefaultDeviceLocale() {
+		// A language chosen in Android's per-app language settings (or by this app's empty/explicit
+		// locale list) takes precedence over the device-wide language.
+		LocaleListCompat appLocales = AppCompatDelegate.getApplicationLocales();
+		if (!appLocales.isEmpty() && appLocales.get(0) != null) return appLocales.get(0);
 		Locale locale;
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
 			// For API 24 and above, get the primary locale from the system configuration.

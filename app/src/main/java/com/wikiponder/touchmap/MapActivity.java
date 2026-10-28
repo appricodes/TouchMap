@@ -445,6 +445,8 @@ public class MapActivity extends BaseActivity
 		super.onResume();
 		updateKeepScreenOnFlag();
 		updateRenderMapFlag();
+		// The app's language may have been changed in Android's per-app language settings.
+		MyApplication.getAudioClient(this).setSpeechLocale(MyApplication.getMyApplication(this).getSpeechLocale());
 		checkRequiredPermissions();
 		MyApplication.getAngleManager(this).addListener(this);
 		AccessibilityManager am = (AccessibilityManager) getSystemService(ACCESSIBILITY_SERVICE);
