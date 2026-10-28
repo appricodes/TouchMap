@@ -14,6 +14,7 @@ import androidx.preference.PreferenceManager;
 
 import com.wikiponder.touchmap.R;
 
+import java.util.Locale;
 import java.util.UUID;
 
 public class AudioClient implements TextToSpeech.OnInitListener {
@@ -58,6 +59,25 @@ public class AudioClient implements TextToSpeech.OnInitListener {
 
 	private TextToSpeech tts;
 	private boolean isTtsReady = false;
+	private Locale speechLocale = null;
+
+	/**
+	 * Speaks in the app's language rather than whatever the engine's default is: otherwise a Persian
+	 * sentence containing Latin digits comes out with the digits read in English ("twenty five").
+	 * Skipped when the engine has no voice for the language, so speech keeps working either way.
+	 * Safe to call before the engine has finished initializing; it is applied from onInit().
+	 */
+	public synchronized void setSpeechLocale(Locale locale) {
+		speechLocale = locale;
+		applySpeechLocale();
+	}
+
+	private synchronized void applySpeechLocale() {
+		if (!isTtsReady || speechLocale == null) return;
+		int availability = tts.isLanguageAvailable(speechLocale);
+		if (availability >= TextToSpeech.LANG_AVAILABLE) tts.setLanguage(speechLocale);
+		else Log.w(TAG, "No TTS voice for " + speechLocale + ", keeping the engine default");
+	}
 
 	public AudioClient(Context context) {
 		this.context = context;
@@ -143,6 +163,7 @@ public class AudioClient implements TextToSpeech.OnInitListener {
 			Log.d(TAG, "Text-to-Speech is ready.");
 
 			isTtsReady = true;
+			applySpeechLocale();
 			tts.addEarcon(SOUND_EARCON_DONE, context.getPackageName(), R.raw.beep);
 
 			tts.setOnUtteranceProgressListener(new UtteranceProgressListener() {

@@ -69,6 +69,7 @@ public class MyApplication extends Application {
 		}, "osm-db-warmup").start();
 
 		audioClient = new AudioClient(this);
+		audioClient.setSpeechLocale(speechLocaleFor(PreferenceManager.getDefaultSharedPreferences(this).getString("language_preference", "default")));
 		// Plays the welcome chime on every ON_START of the WHOLE PROCESS's lifecycle — true cold
 		// start, and every later reopen from Home/Recents/a notification, which is what a user
 		// actually means by "opening the app" (confirmed live: MyApplication.onCreate() itself only
@@ -151,6 +152,7 @@ public class MyApplication extends Application {
 
 		this.preferredLocale = preferredLocale;
 		applyUiLocale(languageTag);
+		if (audioClient != null) audioClient.setSpeechLocale(speechLocaleFor(languageTag));
 		applyTheme(sharedPreferences.getString("theme_preference", "system"));
 	}
 
@@ -180,6 +182,12 @@ public class MyApplication extends Application {
 	 * either Chinese entry would silently fail to select values-zh-rCN/values-zh-rHK and fall back to
 	 * English. Every other tag in that array is already a resource-resolvable standard code as-is.
 	 */
+	private Locale speechLocaleFor(String languageTag) {
+		return languageTag.equals("default")
+				? getDefaultDeviceLocale()
+				: Locale.forLanguageTag(toResourceLocaleTag(languageTag));
+	}
+
 	private String toResourceLocaleTag(String speechLanguageTag) {
 		if (speechLanguageTag.startsWith("cmn-Hans")) return "zh-Hans-CN";
 		if (speechLanguageTag.startsWith("yue-Hant")) return "zh-Hant-HK";
