@@ -9,6 +9,7 @@ import androidx.preference.PreferenceManager;
 
 import com.wikiponder.touchmap.MyApplication;
 import com.wikiponder.touchmap.classes.TagTranslator;
+import com.wikiponder.touchmap.classes.TypeLabels;
 import com.wikiponder.touchmap.classes.Utils;
 import com.wikiponder.touchmap.classes.db.OSMDatabaseHelper;
 
@@ -95,7 +96,7 @@ public class MapElement {
 		else if (!name.isBlank())
 			return name;
 		else
-			return tagTranslator.translate(type);
+			return TypeLabels.label(catId, tagTranslator.translate(type));
 	}
 	
 	@Override
