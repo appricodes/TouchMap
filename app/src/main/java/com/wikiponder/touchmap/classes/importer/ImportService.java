@@ -15,7 +15,6 @@ import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 
 import com.wikiponder.touchmap.R;
-import com.wikiponder.touchmap.classes.Utils;
 
 /**
  * Foreground service that runs a {@link BoxImporter} so a large map download/import survives the
@@ -105,12 +104,12 @@ public class ImportService extends Service {
 
 			@Override
 			public void onComplete(int featuresWritten) {
-				finish(true, Utils.fmt(ImportService.this, R.string.download_complete, featuresWritten));
+				finish(true, getString(R.string.download_complete, featuresWritten));
 			}
 
 			@Override
 			public void onError(String message) {
-				finish(false, Utils.fmt(ImportService.this, R.string.download_failed, message));
+				finish(false, getString(R.string.download_failed, message));
 			}
 		});
 		activeImporter = importer;
@@ -128,7 +127,7 @@ public class ImportService extends Service {
 
 	private void beginForegroundImport(String name) {
 		String startingPhase = getString(R.string.import_notif_starting_phase);
-		startForegroundNotification(startingPhase, Utils.fmt(ImportService.this, R.string.import_notif_starting, name), -1);
+		startForegroundNotification(startingPhase, getString(R.string.import_notif_starting, name), -1);
 		ImportState.get().start(name, startingPhase);
 		active = true;
 		acquireWakeLock();
@@ -199,7 +198,7 @@ public class ImportService extends Service {
 		String title;
 		if (ongoing && phase != null && !phase.isEmpty()) {
 			title = percent >= 0
-					? Utils.fmt(ImportService.this, R.string.import_notif_title_phase_percent, phase, percent)
+					? getString(R.string.import_notif_title_phase_percent, phase, percent)
 					: phase;
 		} else {
 			title = getString(R.string.import_notif_title);

@@ -15,7 +15,6 @@ import androidx.appcompat.app.AlertDialog;
 
 import com.wikiponder.touchmap.MyApplication;
 import com.wikiponder.touchmap.R;
-import com.wikiponder.touchmap.classes.Utils;
 import com.wikiponder.touchmap.classes.db.OSMDatabaseHelper;
 import com.wikiponder.touchmap.classes.interfaces.UserLocationListener;
 
@@ -124,6 +123,6 @@ implements UserLocationListener {
 		if (location == null)
 			messageView.setText(R.string.status_getting_location);
 		else
-			messageView.setText(Utils.fmt(context, R.string.status_getting_location_with_accuracy, (int) location.getAccuracy()));
+			messageView.setText(context.getString(R.string.status_getting_location_with_accuracy, (int) location.getAccuracy()));
 	}
 }

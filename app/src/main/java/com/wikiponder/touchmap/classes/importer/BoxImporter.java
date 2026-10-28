@@ -5,7 +5,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
 import com.wikiponder.touchmap.R;
-import com.wikiponder.touchmap.classes.Utils;
 import com.wikiponder.touchmap.classes.boxes.BoxManifest;
 import com.wikiponder.touchmap.classes.boxes.BoxManifestRepository;
 import com.wikiponder.touchmap.classes.db.OSMDatabaseHelper;
@@ -227,7 +226,7 @@ public class BoxImporter implements Cancellable {
 	private void downloadBox(BoxManifest.Entry box, File dest, int index, int total,
 							  double completedWeight, double boxWeight) throws Exception {
 		String url = BoxManifestRepository.boxDbUrl(box.index);
-		reportOverall(PHASE_CONNECTING, Utils.fmt(context, R.string.download_progress_connecting, index, total),
+		reportOverall(PHASE_CONNECTING, context.getString(R.string.download_progress_connecting, index, total),
 				completedWeight, boxWeight, 0.0);
 		HttpURLConnection conn = GeofabrikIndex.openWithRedirects(url);
 		activeConnection = conn;
@@ -251,7 +250,7 @@ public class BoxImporter implements Cancellable {
 					if (downloaded - lastReport > 262144) {
 						lastReport = downloaded;
 						double bytePct = totalBytes > 0 ? (double) downloaded / totalBytes : 0.0;
-						String stage = Utils.fmt(context, R.string.download_progress_downloading,
+						String stage = context.getString(R.string.download_progress_downloading,
 								index, total, mb(downloaded), totalBytes > 0 ? mb(totalBytes) : "?");
 						reportOverall(PHASE_DOWNLOADING, stage, completedWeight, boxWeight,
 								DOWNLOAD_FRACTION * bytePct);
@@ -274,7 +273,7 @@ public class BoxImporter implements Cancellable {
 		// Not instrumented byte-by-byte (unlike download) — this step is fast enough that a single
 		// jump straight to "download's share of this box done" at the start, held until the save
 		// phase's own first checkpoint moves things further, reads fine in practice.
-		reportOverall(PHASE_EXTRACTING, Utils.fmt(context, R.string.download_progress_extracting, index, total),
+		reportOverall(PHASE_EXTRACTING, context.getString(R.string.download_progress_extracting, index, total),
 				completedWeight, boxWeight, DOWNLOAD_FRACTION);
 		try (InputStream in = new GZIPInputStream(new java.io.FileInputStream(gzFile));
 			 OutputStream out = new FileOutputStream(dest)) {
@@ -326,7 +325,7 @@ public class BoxImporter implements Cancellable {
 		mergeTotal = total;
 		mergeCompletedWeight = completedWeight;
 		mergeBoxWeight = boxWeight;
-		reportOverall(PHASE_SAVING, Utils.fmt(context, R.string.download_progress_saving, index, total, "data"),
+		reportOverall(PHASE_SAVING, context.getString(R.string.download_progress_saving, index, total, "data"),
 				completedWeight, boxWeight, DOWNLOAD_FRACTION + EXTRACT_FRACTION);
 		SQLiteDatabase appDb = OSMDatabaseHelper.getInstance(context).getWritableDatabase();
 		appDb.execSQL("ATTACH DATABASE ? AS " + ALIAS, new Object[]{dbFile.getAbsolutePath()});
@@ -383,7 +382,7 @@ public class BoxImporter implements Cancellable {
 	/** {@code savePct} is 0..1 within the save phase itself; mapped into this box's own
 	 * DOWNLOAD_FRACTION..1.0 remainder ({@link #EXTRACT_FRACTION} + {@link #SAVE_FRACTION}). */
 	private void reportSaveProgress(double savePct, String what) {
-		String stage = Utils.fmt(context, R.string.download_progress_saving, mergeIndex, mergeTotal, what);
+		String stage = context.getString(R.string.download_progress_saving, mergeIndex, mergeTotal, what);
 		reportOverall(PHASE_SAVING, stage, mergeCompletedWeight, mergeBoxWeight,
 				DOWNLOAD_FRACTION + EXTRACT_FRACTION + SAVE_FRACTION * savePct);
 	}

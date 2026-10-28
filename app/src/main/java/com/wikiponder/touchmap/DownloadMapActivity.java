@@ -19,7 +19,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
-import com.wikiponder.touchmap.classes.Utils;
 import com.wikiponder.touchmap.classes.boxes.BoxManifest;
 import com.wikiponder.touchmap.classes.boxes.BoxManifestRepository;
 import com.wikiponder.touchmap.classes.importer.ImportService;
@@ -208,9 +207,9 @@ public class DownloadMapActivity extends AppCompatActivity {
 				totalMb += n.gzSizeMb;
 				fileCount++;
 			}
-			sizeText = Utils.fmt(DownloadMapActivity.this, R.string.download_size_label_multi, fileCount, formatMb(totalMb));
+			sizeText = getString(R.string.download_size_label_multi, fileCount, formatMb(totalMb));
 		} else {
-			sizeText = Utils.fmt(DownloadMapActivity.this, R.string.download_size_label, formatMb(box.gzSizeMb));
+			sizeText = getString(R.string.download_size_label, formatMb(box.gzSizeMb));
 		}
 		infoText.setText(alreadyDownloaded
 				? getString(R.string.download_already_downloaded_prefix) + " " + sizeText

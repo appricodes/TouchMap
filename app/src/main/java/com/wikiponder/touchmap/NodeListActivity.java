@@ -16,7 +16,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.wikiponder.touchmap.classes.Utils;
 import com.wikiponder.touchmap.classes.db.OSMDatabaseHelper;
 import com.wikiponder.touchmap.classes.interfaces.UserLocationListener;
 import com.wikiponder.touchmap.classes.models.MapElement;
@@ -291,7 +290,7 @@ public class NodeListActivity extends AppCompatActivity implements UserLocationL
 				// something onStart() checks unconditionally every time.
 				MyApplication.getMapTileManager(this).setAimedElement(element);
 				MyApplication.getMapTileManager(this).requestAimUiRefresh(element);
-				Toast.makeText(this, Utils.fmt(NodeListActivity.this, R.string.aiming_started, element.getFormattedName(this, true)), Toast.LENGTH_SHORT).show();
+				Toast.makeText(this, getString(R.string.aiming_started, element.getFormattedName(this, true)), Toast.LENGTH_SHORT).show();
 				finish();
 			});
 			actions.put(getString(R.string.action_navigate_google_maps), () -> navigateToLocation(element.lat, element.lon));
