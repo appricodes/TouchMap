@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Resource-shrinker keep list. TypeLabels.label() looks up the tl_* strings by a name built at
+     runtime (getIdentifier), which no shrinker can see as a reference. The legacy shrinker happened
+     to keep them by prefix-matching the "tl_" literal in code; R8's optimized resource shrinking
+     (gradle.properties) does not, and dropped all of them — every unnamed-element label then fell
+     back to English. -->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@string/tl_*" />
