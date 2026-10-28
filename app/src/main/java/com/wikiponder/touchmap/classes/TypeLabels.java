@@ -1,5 +1,7 @@
 package com.wikiponder.touchmap.classes;
 
+import android.content.Context;
+
 import com.wikiponder.touchmap.classes.db.OSMDatabaseHelper;
 
 import java.util.HashMap;
@@ -145,6 +147,80 @@ public final class TypeLabels {
 		node(OSMDatabaseHelper.CATEGORY_NATURAL, "stone", "large rock");
 		node(OSMDatabaseHelper.CATEGORY_NATURAL, "cape", "headland");
 
+		any("fuel", "gas station");
+		// Seen across the global map boxes (sampled), too cryptic to speak as-is
+		node(OSMDatabaseHelper.CATEGORY_NATURAL, "spring", "natural spring");
+		node(OSMDatabaseHelper.CATEGORY_NATURAL, "rock", "rock outcrop");
+		node(OSMDatabaseHelper.CATEGORY_NATURAL, "saddle", "mountain saddle");
+		node(OSMDatabaseHelper.CATEGORY_NATURAL, "bay", "bay");
+		node(OSMDatabaseHelper.CATEGORY_NATURAL, "weir", "river weir");
+		node(OSMDatabaseHelper.CATEGORY_NATURAL, "dam", "dam");
+		node(OSMDatabaseHelper.CATEGORY_NATURAL, "wood", "woodland");
+		node(OSMDatabaseHelper.CATEGORY_NATURAL, "rapids", "river rapids");
+		node(OSMDatabaseHelper.CATEGORY_NATURAL, "cave_entrance", "cave entrance");
+		node(OSMDatabaseHelper.CATEGORY_NATURAL, "sinkhole", "sinkhole");
+		node(OSMDatabaseHelper.CATEGORY_TOURISM, "camp_pitch", "campsite pitch");
+		node(OSMDatabaseHelper.CATEGORY_TOURISM, "apartment", "holiday apartment");
+		node(OSMDatabaseHelper.CATEGORY_TOURISM, "chalet", "holiday chalet");
+		node(OSMDatabaseHelper.CATEGORY_TOURISM, "shieling", "mountain hut");
+		node(OSMDatabaseHelper.CATEGORY_TOURISM, "guest_house", "guest house");
+		node(OSMDatabaseHelper.CATEGORY_TOURISM, "archaeological_site", "archaeological site");
+		node(OSMDatabaseHelper.CATEGORY_TRAFFIC, "passing_place", "road passing place");
+		node(OSMDatabaseHelper.CATEGORY_TRAFFIC, "speed_camera", "speed camera");
+		node(OSMDatabaseHelper.CATEGORY_TRAFFIC, "traffic_mirror", "traffic mirror");
+		node(OSMDatabaseHelper.CATEGORY_TRAFFIC, "rest_area", "rest area");
+		node(OSMDatabaseHelper.CATEGORY_BARRIER, "cattle_grid", "cattle grid");
+		node(OSMDatabaseHelper.CATEGORY_BARRIER, "stile", "stile");
+		node(OSMDatabaseHelper.CATEGORY_BARRIER, "toll_booth", "toll booth");
+		node(OSMDatabaseHelper.CATEGORY_BARRIER, "wicket_gate", "small pedestrian gate");
+		node(OSMDatabaseHelper.CATEGORY_BARRIER, "kissing_gate", "kissing gate");
+		node(OSMDatabaseHelper.CATEGORY_BARRIER, "chain", "chain barrier");
+		node(OSMDatabaseHelper.CATEGORY_AMENITY, "grit_bin", "grit bin for icy roads");
+		node(OSMDatabaseHelper.CATEGORY_AMENITY, "childcare", "childcare center");
+		node(OSMDatabaseHelper.CATEGORY_AMENITY, "loading_dock", "loading dock");
+		node(OSMDatabaseHelper.CATEGORY_AMENITY, "water_point", "water filling point");
+		node(OSMDatabaseHelper.CATEGORY_AMENITY, "watering_place", "animal watering place");
+		node(OSMDatabaseHelper.CATEGORY_AMENITY, "letter_box", "mailbox");
+		node(OSMDatabaseHelper.CATEGORY_AMENITY, "grave_yard", "cemetery");
+		node(OSMDatabaseHelper.CATEGORY_AMENITY, "doctors", "doctor's office");
+		node(OSMDatabaseHelper.CATEGORY_AMENITY, "townhall", "town hall");
+		node(OSMDatabaseHelper.CATEGORY_AMENITY, "veterinary", "veterinarian");
+		node(OSMDatabaseHelper.CATEGORY_AMENITY, "fire_station", "fire station");
+		node(OSMDatabaseHelper.CATEGORY_AMENITY, "shower", "public shower");
+		node(OSMDatabaseHelper.CATEGORY_AMENITY, "car_rental", "car rental");
+		node(OSMDatabaseHelper.CATEGORY_AMENITY, "motorcycle_parking", "motorcycle parking");
+		node(OSMDatabaseHelper.CATEGORY_HEALTH, "centre", "health center");
+		node(OSMDatabaseHelper.CATEGORY_HEALTH, "water_tank", "water tank");
+		node(OSMDatabaseHelper.CATEGORY_HEALTH, "fire_extinguisher", "fire extinguisher");
+		node(OSMDatabaseHelper.CATEGORY_LEISURE, "firepit", "fire pit");
+		node(OSMDatabaseHelper.CATEGORY_LEISURE, "swimming_pool", "swimming pool");
+		node(OSMDatabaseHelper.CATEGORY_LEISURE, "fitness_centre", "fitness center");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "convenience", "convenience store");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "outpost", "pickup point shop");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "alcohol", "liquor store");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "mobile_phone", "mobile phone shop");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "variety_store", "variety store");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "doityourself", "home improvement store");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "chemist", "drugstore");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "ticket", "ticket shop");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "tobacco", "tobacco shop");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "confectionery", "candy shop");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "pastry", "pastry shop");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "pet", "pet shop");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "cosmetics", "cosmetics shop");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "sports", "sports shop");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "stationery", "stationery shop");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "butcher", "butcher shop");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "furniture", "furniture shop");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "shoes", "shoe shop");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "gift", "gift shop");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "electronics", "electronics shop");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "car_parts", "car parts shop");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "books", "bookshop");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "laundry", "laundromat");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "department_store", "department store");
+		node(OSMDatabaseHelper.CATEGORY_SHOP, "greengrocer", "greengrocer");
+
 		any("yes", "unspecified feature");
 		any("tree", "tree");
 		any("street_lamp", "street lamp");
@@ -164,8 +240,21 @@ public final class TypeLabels {
 		any("subway_entrance", "subway entrance");
 	}
 
-	/** Spoken label for an unnamed element of this category and type. */
-	public static String label(int catId, String type) {
+	/** Spoken label for an unnamed element, in the app's UI language when a translation exists
+	 * (resource {@code tl_<phrase>}, generated from the English phrases below), else English. */
+	public static String label(Context context, int catId, String type) {
+		String phrase = english(catId, type);
+		if (phrase.isEmpty()) return phrase;
+		int id = context.getResources().getIdentifier(resourceName(phrase), "string", context.getPackageName());
+		return id != 0 ? context.getString(id) : phrase;
+	}
+
+	/** Resource name for an English phrase: "tl_" + lowercase letters/digits, other runs as "_". */
+	public static String resourceName(String phrase) {
+		return "tl_" + phrase.toLowerCase(java.util.Locale.ROOT).replaceAll("[^a-z0-9]+", "_").replaceAll("^_|_$", "");
+	}
+
+	private static String english(int catId, String type) {
 		if (type == null || type.isEmpty()) return "";
 		if (catId == OSMDatabaseHelper.CATEGORY_WAY) {
 			String w = WAY.get(type);

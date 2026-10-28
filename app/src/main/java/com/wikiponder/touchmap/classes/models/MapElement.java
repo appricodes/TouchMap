@@ -96,7 +96,7 @@ public class MapElement {
 		else if (!name.isBlank())
 			return name;
 		else
-			return TypeLabels.label(catId, tagTranslator.translate(type));
+			return TypeLabels.label(context, catId, tagTranslator.translate(type));
 	}
 	
 	@Override
