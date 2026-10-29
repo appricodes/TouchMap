@@ -33,3 +33,9 @@
 # Referenced only from DirectBufferAccess's JDK direct-buffer path, which the keep above makes
 # reachable; that class doesn't exist on Android and msgpack only uses it for direct ByteBuffers.
 -dontwarn sun.nio.ch.DirectBuffer
+
+# header_preferences.xml names its sub-screens by class (app:fragment="...SettingsActivity$AnnouncementFragment"),
+# and onPreferenceStartFragment instantiates them from that string. 1.1.4–1.1.6 renamed them and
+# crashed with ClassNotFoundException on opening those screens; 1.1.7 only kept the names as a side
+# effect of R8 resource shrinking reading the XML. Keep them explicitly.
+-keepnames class * extends androidx.preference.PreferenceFragmentCompat

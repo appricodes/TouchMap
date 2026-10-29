@@ -310,6 +310,9 @@ public class MapTileManager {
 			// city — see the CPU/heat fix earlier this project) is real memory pressure, and silently
 			// leaving the user without feedback here reads as the map just being broken.
 			Log.e(TAG, "loadArea failed (" + (isExplore ? "explore" : "announce") + ")", t);
+			// The user only hears the generic map_load_failed_message, so without this the real cause
+			// (e.g. the 1.1.4-1.1.6 msgpack R8 bug) is invisible remotely.
+			CrashReporting.reportNonFatal("map load", t);
 			if (isExplore) {
 				audioClient.stopSound(waitingStreamId);
 				MyApplication.getAnnouncementManager(context).onMapMessage(

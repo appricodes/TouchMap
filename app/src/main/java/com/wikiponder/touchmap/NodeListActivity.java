@@ -148,6 +148,7 @@ public class NodeListActivity extends AppCompatActivity implements UserLocationL
 	 * available (map center preferred, matching the previous default) — asking would just be noise
 	 * when the two substantially overlap anyway, or there's nothing to choose between. */
 	private void loadNearbyNodes() {
+		if (isFinishing() || isDestroyed()) return;
 		Location mapCenter = MyApplication.getMapTileManager(this).getLastCenter();
 		Location userLoc = currentUserLocation;
 		if (mapCenter == null && userLoc == null) {
@@ -179,6 +180,9 @@ public class NodeListActivity extends AppCompatActivity implements UserLocationL
 	 * Remembers {@code center} as {@link #activeCenter} so a later post-mutation refresh (favorite
 	 * toggle, delete) queries the same place again instead of silently switching or re-asking. */
 	private void queryAndShow(Location center) {
+		// Callers can arrive after the screen is gone (a late favorite-toggle thread, a dialog
+		// callback); showing the loading dialog then throws BadTokenException.
+		if (isFinishing() || isDestroyed()) return;
 		activeCenter = center;
 		showLoadingDialog();
 		new Thread(() -> {
@@ -223,6 +227,9 @@ public class NodeListActivity extends AppCompatActivity implements UserLocationL
 	@Override
 	protected void onDestroy() {
 		super.onDestroy();
+		// The delayed startInitialLoadIfNeeded would otherwise still fire after a quick Back and
+		// try to show a dialog on the dead window (BadTokenException, seen in Crashlytics).
+		mainHandler.removeCallbacksAndMessages(null);
 		dismissLoadingDialog();
 		// --- Stop listening for location updates to save battery ---
 		MyApplication.getUserLocationManager(this).removeListener(this);

@@ -5,6 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
 import com.wikiponder.touchmap.R;
+import com.wikiponder.touchmap.classes.CrashReporting;
 import com.wikiponder.touchmap.classes.boxes.BoxManifest;
 import com.wikiponder.touchmap.classes.boxes.BoxManifestRepository;
 import com.wikiponder.touchmap.classes.db.OSMDatabaseHelper;
@@ -170,6 +171,8 @@ public class BoxImporter implements Cancellable {
 			}
 		} catch (Throwable t) {
 			Log.e(TAG, "Box import failed", t);
+			// The raw message below is all the user sees and logcat rolls over quickly, so record it.
+			CrashReporting.reportNonFatal("box import", t);
 			String msg = (t instanceof OutOfMemoryError)
 					? "Ran out of memory importing this area."
 					: (t.getMessage() != null ? t.getMessage() : t.toString());
