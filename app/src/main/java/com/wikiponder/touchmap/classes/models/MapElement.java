@@ -7,8 +7,6 @@ import android.util.Log;
 
 import androidx.preference.PreferenceManager;
 
-import com.wikiponder.touchmap.MyApplication;
-import com.wikiponder.touchmap.classes.TagTranslator;
 import com.wikiponder.touchmap.classes.TypeLabels;
 import com.wikiponder.touchmap.classes.Utils;
 import com.wikiponder.touchmap.classes.db.OSMDatabaseHelper;
@@ -80,23 +78,22 @@ public class MapElement {
 	}
 	
 	public String getFormattedName(Context context, boolean shortName) {
-		TagTranslator tagTranslator = MyApplication.getTagTranslator(context);
 		if (type.equals("address") && !name.isBlank()) {
 			final SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
 			return Utils.formatAddress(name, sharedPreferences.getString("address_format", "auto"));
 		}
 		else if(catId == OSMDatabaseHelper.CATEGORY_INTERSECTION) {
-			return tagTranslator.translate(type) + ": " + name;
+			return type + ": " + name;
 		}
 		else if (OSMDatabaseHelper.isWorldPlaceCategory(catId) && !name.isBlank()) {
 			// A world-places gazetteer stand-in (no imported map here yet): say the kind too, since
 			// the name alone ("Paris") is ambiguous as a substitute for real, detailed map data.
-			return name + ", " + tagTranslator.translate(type);
+			return name + ", " + type;
 		}
 		else if (!name.isBlank())
 			return name;
 		else
-			return TypeLabels.label(context, catId, tagTranslator.translate(type));
+			return TypeLabels.label(context, catId, type);
 	}
 	
 	@Override

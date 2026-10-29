@@ -9,9 +9,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 
-import com.wikiponder.touchmap.MyApplication;
 import com.wikiponder.touchmap.R;
-import com.wikiponder.touchmap.classes.TagTranslator;
 import com.wikiponder.touchmap.classes.models.MapElement;
 
 import org.json.JSONException;
@@ -45,17 +43,16 @@ public final class ElementDetailsDialog {
 			return;
 		}
 
-		TagTranslator translator = MyApplication.getTagTranslator(context);
 		List<String> lines = new ArrayList<>();
 		for (Map.Entry<String, String> tag : displayTags.entrySet()) {
 			JSONObject asJson = tryParseJsonObject(tag.getValue());
 			if (asJson != null) {
 				for (java.util.Iterator<String> it = asJson.keys(); it.hasNext(); ) {
 					String innerKey = it.next();
-					lines.add(formatLine(translator, innerKey, String.valueOf(asJson.opt(innerKey))));
+					lines.add(formatLine(innerKey, String.valueOf(asJson.opt(innerKey))));
 				}
 			} else {
-				lines.add(formatLine(translator, tag.getKey(), tag.getValue()));
+				lines.add(formatLine(tag.getKey(), tag.getValue()));
 			}
 		}
 
@@ -94,12 +91,11 @@ public final class ElementDetailsDialog {
 		}
 	}
 
-	private static String formatLine(TagTranslator translator, String key, String value) {
-		String translatedKey = translator.translate(key);
-		if (!translatedKey.isEmpty()) {
-			translatedKey = translatedKey.substring(0, 1).toUpperCase() + translatedKey.substring(1);
+	private static String formatLine(String key, String value) {
+		if (!key.isEmpty()) {
+			key = key.substring(0, 1).toUpperCase() + key.substring(1);
 		}
-		return translatedKey + ": " + translator.translate(stripAPrefix(value));
+		return key + ": " + stripAPrefix(value);
 	}
 
 	/** Some source data prefixes a value with a literal "a:" (e.g. "a:something") — stripped before

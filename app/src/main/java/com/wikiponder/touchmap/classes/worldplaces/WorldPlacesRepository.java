@@ -94,6 +94,13 @@ public class WorldPlacesRepository {
 			if (serverVersion <= 0) return;
 
 			SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
+			if (!prefs.contains(PREF_VERSION)) {
+				// The first-run download never recorded a version, and the hosted file hadn't changed
+				// when updates.json first went up (at 10). Adopt the server's number as a baseline
+				// instead of re-downloading the same 16+ MB right after (or long after) first run.
+				prefs.edit().putInt(PREF_VERSION, serverVersion).apply();
+				return;
+			}
 			int localVersion = prefs.getInt(PREF_VERSION, 0);
 			if (serverVersion <= localVersion) return;
 

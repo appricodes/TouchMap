@@ -18,7 +18,6 @@ import com.wikiponder.touchmap.classes.AnnouncementManager;
 import com.wikiponder.touchmap.classes.AudioClient;
 import com.wikiponder.touchmap.classes.CrashReporting;
 import com.wikiponder.touchmap.classes.MapTileManager;
-import com.wikiponder.touchmap.classes.TagTranslator;
 import com.wikiponder.touchmap.classes.UserLocationManager;
 import com.wikiponder.touchmap.classes.db.OSMDatabaseHelper;
 import com.wikiponder.touchmap.classes.db.UserEditsBackupHelper;
@@ -37,7 +36,6 @@ public class MyApplication extends Application {
 	private AngleManager angleManager;
 	private UserLocationManager userLocationManager;
 	private AnnouncementManager announcementManager;
-	private TagTranslator tagTranslator;
 	
 	@Override
 	public void onCreate() {
@@ -102,7 +100,6 @@ public class MyApplication extends Application {
 		geofabrikIndexRepository = new GeofabrikIndexRepository(this);
 		geofabrikIndexRepository.initializeAsync();
 		mapTileManager = new MapTileManager(this);
-		tagTranslator = new TagTranslator(this, "en");
 		announcementManager = new AnnouncementManager(this);
 		angleManager = new AngleManager(this, 500);
 		// 2s nominal cadence, with fixes allowed as often as every 1s (most GPS hardware can't
@@ -253,9 +250,5 @@ public class MyApplication extends Application {
 	}
 	public static MyApplication getMyApplication(Context context) {
 		return (MyApplication)(context.getApplicationContext());
-	}
-	
-	public static TagTranslator getTagTranslator(Context context) {
-		return getMyApplication(context).tagTranslator;
 	}
 }

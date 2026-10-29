@@ -28,7 +28,6 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.preference.PreferenceManager;
 
 import com.wikiponder.touchmap.classes.AngleListener;
-import com.wikiponder.touchmap.classes.TagTranslator;
 import com.wikiponder.touchmap.classes.db.OSMDatabaseHelper;
 import com.wikiponder.touchmap.classes.importer.ImportService;
 import com.wikiponder.touchmap.classes.importer.ImportState;
@@ -60,7 +59,6 @@ public class MapActivity extends BaseActivity
 	
 	private ActivityMapBinding binding;
 	private boolean compassLock = true;
-	private TagTranslator tagTranslator;
 	private SharedPreferences sharedPreferences;
 	// The last completedImportVersion this activity has already reacted to — lets onStart() notice
 	// a download that finished while DownloadMapActivity (not this activity) held the
@@ -144,7 +142,6 @@ public class MapActivity extends BaseActivity
 		super.onCreate(savedInstanceState);
 		binding = ActivityMapBinding.inflate(getLayoutInflater());
 		setContentView(binding.getRoot());
-		tagTranslator = MyApplication.getTagTranslator(this);
 		
 		binding.mapView.setOnUpdateListener(MyApplication.getAnnouncementManager(this));
 		MyApplication.getAnnouncementManager(this).setDownloadOfferListener(this::showDownloadAreaAction);
